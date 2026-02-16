@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-02-16T03:04:58.370Z",
+  "passed": 23,
+  "failed": 0,
+  "total": 23,
+  "ok": true,
+  "tests": [
+    {
+      "test": "/api/places status 200",
+      "ok": true,
+      "detail": "200, 1438ms"
+    },
+    {
+      "test": "/api/places has entries",
+      "ok": true,
+      "detail": "110 places"
+    },
+    {
+      "test": "/api/places all have name/lat/lon",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "test": "/api/places < 5000ms (Overpass live)",
+      "ok": true,
+      "detail": "1438ms"
+    },
+    {
+      "test": "/api/hot status 200",
+      "ok": true,
+      "detail": "200, 41ms"
+    },
+    {
+      "test": "/api/hot all have vibeScore/hotScore",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "test": "/api/hot < 200ms",
+      "ok": true,
+      "detail": "41ms"
+    },
+    {
+      "test": "/api/events status 200",
+      "ok": true,
+      "detail": "200, 11ms"
+    },
+    {
+      "test": "/api/events returns array",
+      "ok": true,
+      "detail": "0 events"
+    },
+    {
+      "test": "/api/sources status 200",
+      "ok": true,
+      "detail": "200, 8ms"
+    },
+    {
+      "test": "/api/sources all have status",
+      "ok": true,
+      "detail": "16 sources"
+    },
+    {
+      "test": "/api/weather status 200",
+      "ok": true,
+      "detail": "200, 2ms"
+    },
+    {
+      "test": "/api/weather has temp/weatherEmoji",
+      "ok": true,
+      "detail": "☁️ -3°C"
+    },
+    {
+      "test": "/api/weather < 100ms",
+      "ok": true,
+      "detail": "2ms"
+    },
+    {
+      "test": "All places have numeric lat/lon",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "test": "vibeScore 0-100",
+      "ok": true,
+      "detail": "110 places with vibeScore"
+    },
+    {
+      "test": "estimatedBusyness 0-100",
+      "ok": true,
+      "detail": "110 places"
+    },
+    {
+      "test": "isOpen is boolean or null",
+      "ok": true,
+      "detail": "110 places"
+    },
+    {
+      "test": "No duplicate places",
+      "ok": true,
+      "detail": "all unique"
+    },
+    {
+      "test": "cache.json exists & valid JSON",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "test": "network_events_cache.json exists & valid JSON",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "test": "google_ratings_cache.json exists & valid JSON",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "test": "events_pipeline_cache.json exists & valid JSON",
+      "ok": true,
+      "detail": null
+    }
+  ]
+}

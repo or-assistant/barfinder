@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Cotton Club",
+    "category": "bar",
+    "description": "Legendärer Jazz-Club seit 1959 — Alter Steinweg 10, Neustadt. Hamburgs ältester Jazz-Club",
+    "lat": 53.5504572,
+    "lon": 9.9820739,
+    "district": "Neustadt",
+    "address": "Alter Steinweg 10, 20459 Hamburg",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Birdland",
+    "category": "bar",
+    "description": "Jazz-Club in Eimsbüttel — regelmäßige Jazz-Sessions und Konzerte",
+    "lat": 53.5784466,
+    "lon": 9.96226,
+    "district": "Eimsbüttel",
+    "address": "Gärtnerstraße 122, Eimsbüttel",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "JazzHall",
+    "category": "bar",
+    "description": "Jazz-Venue in Hamburg — Live-Jazz-Konzerte",
+    "lat": 53.5705074,
+    "lon": 9.9994701,
+    "district": "Rotherbaum",
+    "address": "Allende-Platz, Rotherbaum",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Monkeys Music Club",
+    "category": "bar",
+    "description": "Live-Musik-Club in Ottensen — Rock, Indie, Singer-Songwriter",
+    "lat": 53.5576381,
+    "lon": 9.9309291,
+    "district": "Ottensen",
+    "address": "Ottensen, Hamburg",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Nochtspeicher",
+    "category": "bar",
+    "description": "Live-Musik-Venue am Fischmarkt — Konzerte, Lesungen, Kulturprogramm",
+    "lat": 53.5471589,
+    "lon": 9.9612754,
+    "district": "St. Pauli",
+    "address": "Bernhard-Nocht-Straße 69a, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Headcrash",
+    "category": "nightclub",
+    "description": "Club & Live-Musik-Venue am Hamburger Berg — Indie, Punk, Elektronik",
+    "lat": 53.5507821,
+    "lon": 9.9611066,
+    "district": "St. Pauli",
+    "address": "Hamburger Berg, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Baalsaal",
+    "category": "nightclub",
+    "description": "Club auf der Reeperbahn — Elektronik, Live-Musik, Kulturveranstaltungen",
+    "lat": 53.5500692,
+    "lon": 9.9661185,
+    "district": "St. Pauli",
+    "address": "Reeperbahn, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Molotow",
+    "category": "nightclub",
+    "description": "Legendärer Indie- & Punk-Club — Live-Konzerte, DJ-Nights, Hamburger Institution",
+    "lat": 53.5496913,
+    "lon": 9.9595423,
+    "district": "St. Pauli",
+    "address": "Nobistor 14, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "INDRA Musikclub",
+    "category": "nightclub",
+    "description": "Historischer Club — hier spielten die Beatles 1960 ihr erstes Hamburg-Konzert. Live-Musik",
+    "lat": 53.5519933,
+    "lon": 9.9581557,
+    "district": "St. Pauli",
+    "address": "Große Freiheit 64, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Kaiserkeller",
+    "category": "nightclub",
+    "description": "Legendärer Club auf der Großen Freiheit — Beatles-Geschichte, Live-Musik",
+    "lat": 53.5512153,
+    "lon": 9.9578905,
+    "district": "St. Pauli",
+    "address": "Große Freiheit 36, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Jolly Roger",
+    "category": "bar",
+    "description": "Piraten-Bar auf der Reeperbahn — Rock & Live-Musik, markantes Dekor",
+    "lat": 53.5550875,
+    "lon": 9.9643151,
+    "district": "St. Pauli",
+    "address": "St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Rock Café",
+    "category": "bar",
+    "description": "Rock-Bar in St. Pauli — Live-Bands, Rock'n'Roll-Atmosphäre",
+    "lat": 53.5484284,
+    "lon": 9.959474,
+    "district": "St. Pauli",
+    "address": "St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Alsterperle",
+    "category": "bar",
+    "description": "Kultige Kiosk-Bar direkt an der Außenalster — perfekt für Afterwork bei Sonnenuntergang",
+    "lat": 53.567858,
+    "lon": 10.0154579,
+    "district": "St. Georg",
+    "address": "Eduard-Rhein-Ufer 1, St. Georg",
+    "tags": ["afterwork", "outdoor"]
+  },
+  {
+    "name": "Neni",
+    "category": "bar",
+    "description": "Restaurant & Bar im 25hours Hotel HafenCity — orientalische Küche, Afterwork-Spot",
+    "lat": 53.5423139,
+    "lon": 9.998357,
+    "district": "HafenCity",
+    "address": "Überseeallee 5, HafenCity",
+    "tags": ["afterwork"]
+  },
+  {
+    "name": "Kinfelts Kitchen & Wine",
+    "category": "bar",
+    "description": "Kitchen & Wine Bar in der HafenCity — moderner Afterwork-Treffpunkt",
+    "lat": 53.5414841,
+    "lon": 9.9869419,
+    "district": "HafenCity",
+    "address": "HafenCity, Hamburg",
+    "tags": ["afterwork"]
+  },
+  {
+    "name": "Liberté",
+    "category": "bar",
+    "description": "Bar & Restaurant an den Landungsbrücken — französisches Flair, Afterwork am Hafen",
+    "lat": 53.5441562,
+    "lon": 9.9527031,
+    "district": "St. Pauli",
+    "address": "Landungsbrücken, St. Pauli",
+    "tags": ["afterwork"]
+  },
+  {
+    "name": "East Hotel Bar",
+    "category": "bar",
+    "description": "Stilvolle Hotel-Bar im East Hotel — asiatisch inspiriertes Design, Afterwork-Klassiker",
+    "lat": 53.5512744,
+    "lon": 9.9659858,
+    "district": "St. Pauli",
+    "address": "Simon-von-Utrecht-Straße 31, St. Pauli",
+    "tags": ["afterwork"]
+  },
+  {
+    "name": "Rive",
+    "category": "bar",
+    "description": "Restaurant & Bar am Altonaer Fischmarkt — Elbblick, Afterwork mit Hafenpanorama",
+    "lat": 53.5434555,
+    "lon": 9.9421932,
+    "district": "Altona",
+    "address": "Van-der-Smissen-Straße 1, Altona",
+    "tags": ["afterwork", "outdoor"]
+  },
+  {
+    "name": "Meerwein",
+    "category": "bar",
+    "description": "Weinbar in Winterhude/Jarrestadt — entspannter Afterwork-Spot",
+    "lat": 53.586056,
+    "lon": 10.0255465,
+    "district": "Winterhude",
+    "address": "Winterhude, Hamburg",
+    "tags": ["afterwork"]
+  },
+  {
+    "name": "Mövenpick",
+    "category": "bar",
+    "description": "Bar im Mövenpick Hotel Sternschanze — im historischen Wasserturm, Afterwork",
+    "lat": 53.564086,
+    "lon": 9.9710838,
+    "district": "Sternschanze",
+    "address": "Sternschanze 6, Sternschanze",
+    "tags": ["afterwork"]
+  },
+  {
+    "name": "Edelfettwerk",
+    "category": "event-location",
+    "description": "Event-Location in einer ehemaligen Fabrikhalle in Bahrenfeld — Konzerte, Partys, Messen",
+    "lat": 53.5952901,
+    "lon": 9.9057809,
+    "district": "Bahrenfeld",
+    "address": "Schnackenburgallee 202, Bahrenfeld",
+    "tags": []
+  },
+  {
+    "name": "Große Freiheit 36",
+    "category": "event-location",
+    "description": "Legendärer Konzertsaal auf der Reeperbahn — seit Jahrzehnten Hamburgs Top-Venue",
+    "lat": 53.5511136,
+    "lon": 9.9580804,
+    "district": "St. Pauli",
+    "address": "Große Freiheit 36, St. Pauli",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Markthalle",
+    "category": "event-location",
+    "description": "Kulturzentrum am Klosterwall — Konzerte, Clubnächte, Kulturveranstaltungen",
+    "lat": 53.5490102,
+    "lon": 10.0068122,
+    "district": "Altstadt",
+    "address": "Klosterwall 11, Altstadt",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Schuppen 52",
+    "category": "event-location",
+    "description": "Event-Halle im Hamburger Hafen — Konzerte, Firmenevents, Partys am Wasser",
+    "lat": 53.5298661,
+    "lon": 9.9959209,
+    "district": "Kleiner Grasbrook",
+    "address": "Australiastraße, Kleiner Grasbrook",
+    "tags": []
+  },
+  {
+    "name": "MS Stubnitz",
+    "category": "event-location",
+    "description": "Kulturschiff im Hafen — Konzerte, Kunstausstellungen, Partys auf dem Wasser",
+    "lat": 53.5352317,
+    "lon": 10.0198344,
+    "district": "HafenCity",
+    "address": "Kirchenpauerkai, HafenCity",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Kampnagel",
+    "category": "event-location",
+    "description": "Internationales Kulturzentrum — Theater, Tanz, Performance, Konzerte, Festivals",
+    "lat": 53.5833009,
+    "lon": 10.0221722,
+    "district": "Winterhude",
+    "address": "Jarrestraße 20, Winterhude",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Cascadas",
+    "category": "event-location",
+    "description": "Event-Location & Restaurant in der Innenstadt — Feiern, Firmenevents",
+    "lat": 53.5546896,
+    "lon": 10.000626,
+    "district": "Altstadt",
+    "address": "Ferdinandstraße, Altstadt",
+    "tags": []
+  },
+  {
+    "name": "Hühnerposten",
+    "category": "event-location",
+    "description": "Event-Location am Hauptbahnhof — historisches Postgebäude, Partys & Veranstaltungen",
+    "lat": 53.5494011,
+    "lon": 10.0084877,
+    "district": "Altstadt",
+    "address": "Hühnerposten, Altstadt",
+    "tags": []
+  },
+  {
+    "name": "Barclays Arena",
+    "category": "event-location",
+    "description": "Große Konzert- und Eventhalle in Bahrenfeld — bis zu 16.000 Besucher",
+    "lat": 53.5894001,
+    "lon": 9.8991078,
+    "district": "Bahrenfeld",
+    "address": "Sylvesterallee 10, Bahrenfeld",
+    "tags": []
+  },
+  {
+    "name": "Laeiszhalle",
+    "category": "event-location",
+    "description": "Historische Musikhalle — Klassik, Jazz, Weltmusik seit 1908",
+    "lat": 53.5560966,
+    "lon": 9.9810766,
+    "district": "Neustadt",
+    "address": "Johannes-Brahms-Platz, Neustadt",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "Klubhaus St.Pauli",
+    "category": "event-location",
+    "description": "Veranstaltungsort am Spielbudenplatz — Events, Konzerte, Comedy",
+    "lat": 53.5490745,
+    "lon": 9.964283,
+    "district": "St. Pauli",
+    "address": "Spielbudenplatz, St. Pauli",
+    "tags": []
+  },
+  {
+    "name": "Schmidt Theater",
+    "category": "event-location",
+    "description": "Kulttheater auf der Reeperbahn — Shows, Comedy, Musiktheater",
+    "lat": 53.5491358,
+    "lon": 9.9638746,
+    "district": "St. Pauli",
+    "address": "Spielbudenplatz 24-25, St. Pauli",
+    "tags": []
+  },
+  {
+    "name": "St. Pauli Theater",
+    "category": "event-location",
+    "description": "Traditionsreiches Theater — Schauspiel, Musiktheater, Comedy",
+    "lat": 53.5491011,
+    "lon": 9.9629881,
+    "district": "St. Pauli",
+    "address": "Spielbudenplatz 29-30, St. Pauli",
+    "tags": []
+  },
+  {
+    "name": "Schmidts TIVOLI",
+    "category": "event-location",
+    "description": "Varieté-Theater auf der Reeperbahn — Shows, Musicals, Entertainment",
+    "lat": 53.5491266,
+    "lon": 9.9633422,
+    "district": "St. Pauli",
+    "address": "Spielbudenplatz 27-28, St. Pauli",
+    "tags": []
+  },
+  {
+    "name": "Marias Ballroom",
+    "category": "event-location",
+    "description": "Event- & Party-Location in Harburg — Konzerte, Partys, Clubnächte",
+    "lat": 53.4551342,
+    "lon": 9.9862751,
+    "district": "Harburg",
+    "address": "Harburg, Hamburg",
+    "tags": ["livemusik"]
+  },
+  {
+    "name": "MEHR! Theater am Großmarkt",
+    "category": "event-location",
+    "description": "Großes Theater am Oberhafen — Shows, Musicals, immersive Erlebnisse",
+    "lat": 53.5427715,
+    "lon": 10.0166949,
+    "district": "HafenCity",
+    "address": "Banksstraße, HafenCity",
+    "tags": []
+  },
+  {
+    "name": "Spielbudenplatz",
+    "category": "event-location",
+    "description": "Open-Air-Veranstaltungsort auf der Reeperbahn — Märkte, Festivals, Events",
+    "lat": 53.5493359,
+    "lon": 9.9638133,
+    "district": "St. Pauli",
+    "address": "Spielbudenplatz, St. Pauli",
+    "tags": []
+  },
+  {
+    "name": "Waterkant",
+    "category": "bar",
+    "description": "Sommer-Bar am Fischmarkt — Beach-Feeling, Drinks, Afterwork an der Elbe",
+    "lat": 53.5472005,
+    "lon": 9.9631652,
+    "district": "St. Pauli",
+    "address": "St. Pauli Fischmarkt, St. Pauli",
+    "tags": ["afterwork", "outdoor"]
+  },
+  {
+    "name": "Zur Flottbeker Schmiede",
+    "category": "biergarten",
+    "description": "Traditionsgasthof mit Biergarten in Flottbek — idyllisch im Grünen",
+    "lat": 53.5567935,
+    "lon": 9.8649311,
+    "district": "Groß Flottbek",
+    "address": "Groß Flottbek, Hamburg",
+    "tags": ["outdoor"]
+  },
+  {
+    "name": "Café Elbterassen",
+    "category": "biergarten",
+    "description": "Café & Biergarten direkt am Elbstrand Övelgönne — Panoramablick auf die Elbe",
+    "lat": 53.5444924,
+    "lon": 9.9141663,
+    "district": "Othmarschen",
+    "address": "Övelgönne, Othmarschen",
+    "tags": ["outdoor"]
+  },
+  {
+    "name": "Goldbekhaus",
+    "category": "biergarten",
+    "description": "Kulturzentrum mit Terrasse am Goldbekkanal — Café, Veranstaltungen, Sommer-Biergarten",
+    "lat": 53.5847796,
+    "lon": 10.0088534,
+    "district": "Winterhude",
+    "address": "Moorfuhrtweg, Winterhude",
+    "tags": ["outdoor"]
+  },
+  {
+    "name": "Witthüs",
+    "category": "biergarten",
+    "description": "Idyllisches Café im Hirschpark Blankenese — Reetdachhaus mit Garten, Kuchen",
+    "lat": 53.5590003,
+    "lon": 9.822496,
+    "district": "Blankenese",
+    "address": "Elbchaussee, Blankenese",
+    "tags": ["outdoor"]
+  },
+  {
+    "name": "Bobby Reich",
+    "category": "biergarten",
+    "description": "Legendärer Bootsverleih & Café an der Alster — Terrasse mit Alsterblick seit 1880",
+    "lat": 53.5799626,
+    "lon": 10.0012408,
+    "district": "Harvestehude",
+    "address": "Fernsicht 2, Harvestehude",
+    "tags": ["outdoor"]
+  },
+  {
+    "name": "Café Sommerterrassen",
+    "category": "biergarten",
+    "description": "Café mit großer Terrasse — Biergarten-Atmosphäre in Winterhude",
+    "lat": 53.5914384,
+    "lon": 10.0306364,
+    "district": "Winterhude",
+    "address": "Winterhude, Hamburg",
+    "tags": ["outdoor"]
+  }
+]

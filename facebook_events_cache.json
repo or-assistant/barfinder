@@ -1,0 +1,33 @@
+{
+  "lastUpdated": "2026-02-15T11:39:38.738Z",
+  "results": [
+    {
+      "source": "Event Search",
+      "status": "login_wall",
+      "url": "https://m.facebook.com/login/?next=https%3A%2F%2Fm.facebook.com%2Fevents%2Fsearch%2F%3Fq%3Dhamburg%2Bbar%2Bparty",
+      "events": [],
+      "scrapedAt": "2026-02-15T11:39:05.856Z"
+    },
+    {
+      "source": "Aalhaus Hamburg",
+      "status": "login_wall",
+      "url": "https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2FAalhausHamburg%2Fevents%2F&refsrc=deprecated",
+      "events": [],
+      "scrapedAt": "2026-02-15T11:39:17.438Z"
+    },
+    {
+      "source": "Frau Möller",
+      "status": "login_wall",
+      "url": "https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2FFrauMoellerHamburg%2Fevents%2F&refsrc=deprecated",
+      "events": [],
+      "scrapedAt": "2026-02-15T11:39:28.254Z"
+    },
+    {
+      "source": "Christiansens",
+      "status": "login_wall",
+      "url": "https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2FChristiansensFineBar%2Fevents%2F&refsrc=deprecated",
+      "events": [],
+      "scrapedAt": "2026-02-15T11:39:38.624Z"
+    }
+  ]
+}

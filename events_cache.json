@@ -1,0 +1,2659 @@
+{
+  "last_updated": 1771149534.5713313,
+  "scrape_date": "2026-02-15T09:58:54.571333",
+  "version": "2.0",
+  "total_events": 213,
+  "high_quality_events": 78,
+  "sources_successful": 9,
+  "performance": {
+    "total_duration_seconds": 21.75,
+    "sources_per_second": 0.46,
+    "events_per_source": 23.7,
+    "success_rate": 90.0
+  },
+  "events": {
+    "general": [
+      {
+        "id": "ff817dbd",
+        "type": "quiz",
+        "match_text": "pub quiz",
+        "days": [
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "19:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Die Stand Up Comedy Show in Hamburg\n\n\n\n\n\nComedy Club Hamburg\n9,90 bis 25,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nPub Quiz\n\n\n\n\n\nThe Village\nEintritt frei\n\n\nTAGESTIPP\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nPub Quiz\n\n\n\n\n\nThe Village\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. F",
+        "confidence": 0.91
+      },
+      {
+        "id": "2eb9fbfa",
+        "type": "quiz",
+        "match_text": "pub quiz",
+        "days": [
+          "thursday",
+          "friday"
+        ],
+        "times": [
+          "19:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "WIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nPub Quiz\n\n\n\n\n\nThe Village\nEintritt frei\n\n\nTAGESTIPP\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nPub Quiz\n\n\n\n\n\nThe Village\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nURSINA TOSSI: E[R]DEN\n\n\n\n\n\nKampnagel\n9,00 bis 18,00 €\n\n\n\n\n\n\n\n\nDo, 1",
+        "confidence": 0.91
+      },
+      {
+        "id": "d3ed69eb",
+        "type": "quiz",
+        "match_text": "kneipenquiz",
+        "days": [
+          "saturday",
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:00",
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 28. Feb | 19:00\n\nLive-Musik mit Elom Volta / Bar-Abend\n\n\n\n\n\nCafé Stellar\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 04. Mär | 19:00\n\nKneipenquiz\n\n\n\n\n\nBamboole\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 04. Mär | 19:00\n\nKneipenquiz\n\n\n\n\n\nBamboole\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 12. Mär | 18:00\n\nK",
+        "confidence": 0.91
+      },
+      {
+        "id": "0e2b9c65",
+        "type": "quiz",
+        "match_text": "kneipenquiz",
+        "days": [
+          "friday",
+          "thursday",
+          "wednesday",
+          "monday"
+        ],
+        "times": [
+          "18:00",
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Café Stellar\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 04. Mär | 19:00\n\nKneipenquiz\n\n\n\n\n\nBamboole\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 04. Mär | 19:00\n\nKneipenquiz\n\n\n\n\n\nBamboole\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 12. Mär | 18:00\n\nKakaozeremonie & Schokoladen-Verkostung\n\n\n\n\n\nCHOCOVERSUM\n45,00 €",
+        "confidence": 0.91
+      },
+      {
+        "id": "30fb0259",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Eventsuche\nVerlosungen\nTickets\nLocations\nArtists\nOrganizer\nBlog\n\n\nTeam\nJobs\nHilfe & Kontakt\n\n\nFür Veranstalter:innen\nFür Brands\n\n\nGeheimkonzerte\nGeheimkonzerte Gutschein\nLove at First Slide\n\n\n\nJetzt die Rausgegangen App runterladen!\n\n\n\n\n\n\n\n\n\n\nAnmelden\n\n\nImpressum\n\n      Teilnahmebedingungen G",
+        "confidence": 0.82
+      },
+      {
+        "id": "769bcc3d",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "tuesday",
+          "monday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                Konzerte & Musik in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 18:00\n\nNDR Elbphilharmonie Orchester: Richard Strauss' Elektra",
+        "confidence": 0.8700000000000001
+      },
+      {
+        "id": "cc47c70e",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "monday"
+        ],
+        "times": [
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "21,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 19:00\n\nGOBLYNS\r\nSUPPORT: THE SPAM REPORTS\n\n\n\n\n\nMolotow\n21,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 19:00\n\nKonzert: Rum Jungle\n\n\n\n\n\nHafenklang\n24,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 19:00\n\nKonzert: Rum Jungle\n\n\n\n\n\nHafenklang\n24,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP",
+        "confidence": 1.0
+      },
+      {
+        "id": "0cd42faf",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "sunday",
+          "wednesday",
+          "monday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nFunkelkonzert XL / Rune Thorsteinsson Patchwork\n\n\n\n\n\nElbphilharmonie Hamburg\nAusverkauft\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nFunkelkonzert XL / Rune Thorsteinsson Pat",
+        "confidence": 0.87
+      },
+      {
+        "id": "07afaf59",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "sunday",
+          "monday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "gen, 16. Feb | 18:00\n\nFunkelkonzert XL / Rune Thorsteinsson Patchwork\n\n\n\n\n\nElbphilharmonie Hamburg\nAusverkauft\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nFunkelkonzert XL / Rune Thorsteinsson Patchwork\n\n\n\n\n\nElbphilharmonie Hamburg\nAusverkauft\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nFunkelkonzert XL / R",
+        "confidence": 0.8700000000000001
+      },
+      {
+        "id": "0f79c8f8",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "monday"
+        ],
+        "times": [
+          "21:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "us73 - Comedy auf der Schanze\n\n\n\n\n\nHaus 73\n9,50 bis 17,99 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 €\n\n\nTAGESTIPP\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 € \n\nWIN",
+        "confidence": 1.0
+      },
+      {
+        "id": "9dd02cf5",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "friday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [
+          "19:00",
+          "21:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "IPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 €\n\n\nTAGESTIPP\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 19:00\n\nFreche Möwe - Stand-Up Comedy im Monkeys Music Club\n\n\n\n\n\nMonkeys Mu",
+        "confidence": 0.87
+      },
+      {
+        "id": "74e9bd9b",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "wednesday"
+        ],
+        "times": [
+          "19:30",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ", 15. Feb | 19:30\n\nWyatt E. (be), Hemelbestormer (be)\n\n\n\n\n\nMS Stubnitz\n18,00 bis 26,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 20:00\n\nNDR Bigband - Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 20:00\n\nNDR Bigband - Luminescent L",
+        "confidence": 1.0
+      },
+      {
+        "id": "74e9bd9b",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "wednesday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Stubnitz\n18,00 bis 26,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 20:00\n\nNDR Bigband - Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 20:00\n\nNDR Bigband - Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Ham",
+        "confidence": 1.0
+      },
+      {
+        "id": "99954551",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "wednesday",
+          "monday"
+        ],
+        "times": [
+          "18:00",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "| 20:00\n\nNDR Bigband - Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 20:00\n\nNDR Bigband - Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nFunk",
+        "confidence": 0.9700000000000001
+      },
+      {
+        "id": "5052f96d",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "sunday",
+          "wednesday",
+          "monday"
+        ],
+        "times": [
+          "18:00",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 20:00\n\nNDR Bigband - Luminescent Landscapes - Feminine Power bei der NDR Bigband\n\n\n\n\n\nFabrik Hamburg\n27,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nFunkelkonzert XL / Rune Thorsteinsson Patchwork\n\n\n\n\n\nElbphilharmon",
+        "confidence": 0.87
+      },
+      {
+        "id": "0f79c8f8",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "monday"
+        ],
+        "times": [
+          "21:00",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Morgen, 16. Feb | 20:00\n\nMouth Culture\n\n\n\n\n\nBetty\n27,10 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 €\n\n\nTAGESTIPP\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 € \n\nWIN",
+        "confidence": 1.0
+      },
+      {
+        "id": "fd10c5d7",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "saturday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [
+          "10:00",
+          "21:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "IPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 €\n\n\nTAGESTIPP\n\n\n\n\n\n\nMorgen, 16. Feb | 21:00\n\nFLAMMER DANCE BAND\n\n\n\n\n\nKNUST Hamburg\n22,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 10:00\n\nSchuMu Bigband\n\n\n\n\n\nJazzHall Hamburg\nkeine Preisangabe\n\n\n\n\n\n\n\n\nDi,",
+        "confidence": 0.87
+      },
+      {
+        "id": "2f1923c0",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "saturday",
+          "tuesday"
+        ],
+        "times": [
+          "10:00",
+          "18:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "WIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 10:00\n\nSchuMu Bigband\n\n\n\n\n\nJazzHall Hamburg\nkeine Preisangabe\n\n\n\n\n\n\n\n\nDi, 17. Feb | 10:00\n\nSchuMu Bigband\n\n\n\n\n\nJazzHall Hamburg\nkeine Preisangabe \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 18:30\n\nEREB ALTOR\n\n\n\n\n\nLogo Hamburg\n24,00 €\n\n\n\n\n\n\n\n\nDi, 17. Feb |",
+        "confidence": 0.87
+      },
+      {
+        "id": "5fa31458",
+        "type": "live_music",
+        "match_text": "unplugged",
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "& Stulle - Konzerte mit Geschmack mit Joschka Brings\n\n\n\n\n\nHobenköök im Oberhafen\n26,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:30\n\nVOGELNEST UNPLUGGED m/ La Ila & LYYLA\n\n\n\n\n\nHebebühne\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:30\n\nVOGELNEST UNPLUGGED m/ La Ila & LYYLA\n\n\n\n\n\nHebebühne\nEintritt frei",
+        "confidence": 0.87
+      },
+      {
+        "id": "a306f95a",
+        "type": "live_music",
+        "match_text": "unplugged",
+        "days": [
+          "wednesday",
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "18:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Mi, 18. Feb | 18:30\n\nVOGELNEST UNPLUGGED m/ La Ila & LYYLA\n\n\n\n\n\nHebebühne\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:30\n\nVOGELNEST UNPLUGGED m/ La Ila & LYYLA\n\n\n\n\n\nHebebühne\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPRÄSENTIERT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n        Your browser does not support the audio tag.",
+        "confidence": 0.87
+      },
+      {
+        "id": "22587d77",
+        "type": "karaoke",
+        "match_text": "karaoke",
+        "days": [
+          "tuesday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Dark Comedy Matters - English Comedy Special\n\n\n\n\n\nIndra Musikclub\n11,20 bis 16,50 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 20:00\n\nPowerPoint Karaoke\n\n\n\n\n\nHaus 73\n11,00 €\n\n\nVerlosung\n\n\n\n\n\n\nDi, 17. Feb | 20:00\n\nPowerPoint Karaoke\n\n\n\n\n\nHaus 73\n11,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 2",
+        "confidence": 1.0
+      },
+      {
+        "id": "0160faa5",
+        "type": "karaoke",
+        "match_text": "karaoke",
+        "days": [
+          "sunday",
+          "saturday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "22:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ". Feb | 22:00\n\nFunk die Butze\n\n\n\n\n\nSommersalon im Klubhaus\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 22:00\n\nORIENTAL KARAOKE\n\n\n\n\n\nKampnagel\nBezahl so viel du magst\n\n\nTAGESTIPP\n\n\n\n\n\n\nSa, 21. Feb | 22:00\n\nORIENTAL KARAOKE\n\n\n\n\n\nKampnagel\nBezahl so viel du magst",
+        "confidence": 0.91
+      },
+      {
+        "id": "cfd3a5fd",
+        "type": "karaoke",
+        "match_text": "karaoke",
+        "days": [
+          "sunday",
+          "saturday"
+        ],
+        "times": [
+          "22:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "ESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 22:00\n\nORIENTAL KARAOKE\n\n\n\n\n\nKampnagel\nBezahl so viel du magst\n\n\nTAGESTIPP\n\n\n\n\n\n\nSa, 21. Feb | 22:00\n\nORIENTAL KARAOKE\n\n\n\n\n\nKampnagel\nBezahl so viel du magst \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 22:00\n\nRoots of Darkness\n\n\n\n\n\nMS Stubnitz\n28,50 €\n\n\n\n\n\n\n\n\nSa, 21.",
+        "confidence": 0.7100000000000001
+      },
+      {
+        "id": "6f6df4fc",
+        "type": "dj",
+        "match_text": "house",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "22:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "b | 22:00\n\nMÁS PERREO | HAMBURGO — EL NORTE TAMBIÉN PERREA 🧊🔥\n\n\n\n\n\nGaleria 36\n11,00 bis 13,10 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 22:00\n\nZu-House | Steve David\n\n\n\n\n\nSommersalon im Klubhaus\nEintritt frei\n\n\n\n\n\n\n\n\nFr, 20. Feb | 22:00\n\nZu-House | Steve David\n\n\n\n\n\nSommersalon im Klubhaus\nEintritt fr",
+        "confidence": 0.63
+      },
+      {
+        "id": "6f6df4fc",
+        "type": "dj",
+        "match_text": "house",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "23:00",
+          "22:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 20. Feb | 22:00\n\nZu-House | Steve David\n\n\n\n\n\nSommersalon im Klubhaus\nEintritt frei\n\n\n\n\n\n\n\n\nFr, 20. Feb | 22:00\n\nZu-House | Steve David\n\n\n\n\n\nSommersalon im Klubhaus\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:00\n\nOFF. KOLLEKTIV\n\n\n\n\n\nBeat Boutique\n10,00 €",
+        "confidence": 0.63
+      },
+      {
+        "id": "4cf93d0f",
+        "type": "dj",
+        "match_text": "house",
+        "days": [
+          "wednesday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Kinder & Familien in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 10:00\n\nEscape Room Mystery House\n\n\n\n\n\nMystery House Hamburg\n69,00 bis 149,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 10:00\n\nEscape Room Mystery House\n\n\n\n\n\nMystery House Hamburg\n69,00 bis 149,00 €",
+        "confidence": 1.0
+      },
+      {
+        "id": "63e9ff57",
+        "type": "dj",
+        "match_text": "techno",
+        "days": [
+          "sunday",
+          "saturday"
+        ],
+        "times": [
+          "11:00",
+          "14:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ". Feb | 11:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nNeue Welt Sportanlage\nPreisinfo in App \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 14:00\n\nTechno-Folklore - Hamburgs neuester Tanzworkshop\n\n\n\n\n\nBewegungsraum im Gängeviertel\n17,20 bis 22,70 €\n\n\nVerlosung\n\n\n\n\n\n\nSa, 21. Feb | 14:00\n\nTechno-Folklore",
+        "confidence": 0.63
+      },
+      {
+        "id": "21a091ed",
+        "type": "dj",
+        "match_text": "techno",
+        "days": [
+          "saturday"
+        ],
+        "times": [
+          "14:00",
+          "14:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "| 14:00\n\nTechno-Folklore - Hamburgs neuester Tanzworkshop\n\n\n\n\n\nBewegungsraum im Gängeviertel\n17,20 bis 22,70 €\n\n\nVerlosung\n\n\n\n\n\n\nSa, 21. Feb | 14:00\n\nTechno-Folklore - Hamburgs neuester Tanzworkshop\n\n\n\n\n\nBewegungsraum im Gängeviertel\n17,20 bis 22,70 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 14:30",
+        "confidence": 0.73
+      },
+      {
+        "id": "b49e635a",
+        "type": "dj",
+        "match_text": "beats",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "11:00",
+          "15:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ". Apr | 11:00\n\nOsterbrunch auf der Rickmer Rickmers\n\n\n\n\n\nRickmer Rickmers Gastro\n19,50 bis 42,50 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSo, 05. Apr | 15:00\n\nBeats and Brunch @ Alsterinsel Hamburg\n\n\n\n\n\nAlsterinsel\n40,00 €\n\n\n\n\n\n\n\n\nSo, 05. Apr | 15:00\n\nBeats and Brunch @ Alsterinsel Hamburg\n\n\n\n\n\nAlsterinsel\n40,00",
+        "confidence": 0.73
+      },
+      {
+        "id": "85ce8955",
+        "type": "dj",
+        "match_text": "beats",
+        "days": [
+          "sunday",
+          "thursday"
+        ],
+        "times": [
+          "18:00",
+          "15:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ",50 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSo, 05. Apr | 15:00\n\nBeats and Brunch @ Alsterinsel Hamburg\n\n\n\n\n\nAlsterinsel\n40,00 €\n\n\n\n\n\n\n\n\nSo, 05. Apr | 15:00\n\nBeats and Brunch @ Alsterinsel Hamburg\n\n\n\n\n\nAlsterinsel\n40,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 09. Apr | 18:00\n\nSEAL GIN Tasting\n\n\n\n\n\nBar Paola & Deli\n5",
+        "confidence": 0.83
+      },
+      {
+        "id": "1127b378",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "sunday",
+          "friday",
+          "monday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "aße\n\n\n\n\n\nFussballplatz Thadenstraße\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFußballplatz Elbpark Entenwerder\nPreisinfo in App\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFußballplatz Elbpark Entenwer",
+        "confidence": 0.93
+      },
+      {
+        "id": "420c2eae",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "sunday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [
+          "18:00",
+          "16:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "/ pick-up Soccer\n\n\n\n\n\nFußballplatz Elbpark Entenwerder\nPreisinfo in App\n\n\n\n\n\n\n\n\nMorgen, 16. Feb | 18:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFußballplatz Elbpark Entenwerder\nPreisinfo in App \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFussballpla",
+        "confidence": 0.8300000000000001
+      },
+      {
+        "id": "f941129f",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "13:00",
+          "14:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 28. Feb | 13:00\n\nMMA & Muay Thai Workshop: Girls* only\n\n\n\n\n\nTensho Sports e.V.\n15,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Feb | 14:30\n\np.S. Fußballkino Hamburg/ Hoffenheim vs. St. Pauli\n\n\n\n\n\nStellwerk\nEintritt frei\n\n\n\n\n\n\n\n\nSa, 28. Feb | 14:30\n\np.S. Fußballkino Hamburg/ Hoffenheim vs. St. Pauli",
+        "confidence": 0.73
+      },
+      {
+        "id": "f941129f",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "18:00",
+          "14:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 28. Feb | 14:30\n\np.S. Fußballkino Hamburg/ Hoffenheim vs. St. Pauli\n\n\n\n\n\nStellwerk\nEintritt frei\n\n\n\n\n\n\n\n\nSa, 28. Feb | 14:30\n\np.S. Fußballkino Hamburg/ Hoffenheim vs. St. Pauli\n\n\n\n\n\nStellwerk\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Feb | 18:00\n\nAperol Yoga in Hamburg\n\n\n\n\n\nFlo",
+        "confidence": 0.73
+      },
+      {
+        "id": "f941129f",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "19:00",
+          "14:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Apr | 19:00\n\nFutsal-Länderspiel: Deutschland vs. Kroatien\n\n\n\n\n\nSporthalle Hamburg\n5,00 bis 20,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 16. Mai | 14:30\n\nFußballkino Hamburg/ St.Pauli vs.Wolfsburg\n\n\n\n\n\nStellwerk\nEintritt frei\n\n\n\n\n\n\n\n\nSa, 16. Mai | 14:30\n\nFußballkino Hamburg/ St.Pauli vs.Wolfsburg\n\n\n\n\n\nStellwer",
+        "confidence": 0.73
+      },
+      {
+        "id": "f941129f",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "14:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 16. Mai | 14:30\n\nFußballkino Hamburg/ St.Pauli vs.Wolfsburg\n\n\n\n\n\nStellwerk\nEintritt frei\n\n\n\n\n\n\n\n\nSa, 16. Mai | 14:30\n\nFußballkino Hamburg/ St.Pauli vs.Wolfsburg\n\n\n\n\n\nStellwerk\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                Filme in Hamburg",
+        "confidence": 0.73
+      },
+      {
+        "id": "19c6ee51",
+        "type": "football",
+        "match_text": "football",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sport in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 10:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nWilhelm-Stille-Sportanlage\nPreisinfo in App\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 10:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nWilhel",
+        "confidence": 0.8300000000000001
+      },
+      {
+        "id": "ac17cffc",
+        "type": "football",
+        "match_text": "football",
+        "days": [
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "16:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "-up football / pick-up Soccer\n\n\n\n\n\nFußballplatz Elbpark Entenwerder\nPreisinfo in App \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFussballplatz Thadenstraße\nPreisinfo in App\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFussballp",
+        "confidence": 0.8300000000000001
+      },
+      {
+        "id": "ac17cffc",
+        "type": "football",
+        "match_text": "football",
+        "days": [
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "16:00",
+          "17:15"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "17. Feb | 16:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFussballplatz Thadenstraße\nPreisinfo in App\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nFussballplatz Thadenstraße\nPreisinfo in App \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 17:15\n\nPilates ohne Dr",
+        "confidence": 0.8300000000000001
+      },
+      {
+        "id": "8f299640",
+        "type": "football",
+        "match_text": "football",
+        "days": [
+          "sunday",
+          "thursday"
+        ],
+        "times": [
+          "18:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Yoga & Slow Looking\n\n\n\n\n\nDeichtorhallen Hamburg – Halle für aktuelle Kunst\n20,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:30\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nMultianlage - Hinter der Dorfkirche\nPreisinfo in App\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:30\n\nJUGAD pick-up football / pick-up Soccer",
+        "confidence": 0.93
+      },
+      {
+        "id": "44469096",
+        "type": "football",
+        "match_text": "football",
+        "days": [
+          "sunday",
+          "thursday",
+          "friday"
+        ],
+        "times": [
+          "18:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "| 18:30\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nMultianlage - Hinter der Dorfkirche\nPreisinfo in App\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:30\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nMultianlage - Hinter der Dorfkirche\nPreisinfo in App \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 18:30\n\nJUGAD pick-up football",
+        "confidence": 0.8300000000000001
+      },
+      {
+        "id": "f19373f2",
+        "type": "football",
+        "match_text": "football",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "11:00",
+          "18:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 20. Feb | 18:30\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nStadtparkwiese\nPreisinfo in App\n\n\n\n\n\n\n\n\nFr, 20. Feb | 18:30\n\nJUGAD pick-up football / pick-up Soccer\n\n\n\n\n\nStadtparkwiese\nPreisinfo in App \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 11:00\n\nJUGAD pick-up football / pick-up Soccer",
+        "confidence": 0.63
+      },
+      {
+        "id": "05f352f7",
+        "type": "after_work",
+        "match_text": "afterwork",
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Mi, 18. Feb | 19:00\n\nMIGRANTPOLITAN Community Cooking\n\n\n\n\n\nKampnagel\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 19:00\n\nWeRoad Afterwork: Neue Leute & Gute Laune✨\n\n\n\n\n\ntba Hamburg\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 19:00\n\nWeRoad Afterwork: Neue Leute & Gute Laune✨\n\n\n\n\n\ntba Hamburg\nEin",
+        "confidence": 0.83
+      },
+      {
+        "id": "0a4e7f10",
+        "type": "after_work",
+        "match_text": "afterwork",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "10:00",
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Mi, 18. Feb | 19:00\n\nWeRoad Afterwork: Neue Leute & Gute Laune✨\n\n\n\n\n\ntba Hamburg\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 19:00\n\nWeRoad Afterwork: Neue Leute & Gute Laune✨\n\n\n\n\n\ntba Hamburg\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 10:00\n\nVenner Coffee x Tapisserie HH\n\n\n\n\n\nTapiss",
+        "confidence": 0.83
+      },
+      {
+        "id": "ea9a65f2",
+        "type": "after_work",
+        "match_text": "after work",
+        "days": [
+          "sunday",
+          "saturday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "ircular Food Retail\n\n\n\n\n\nFABRIC - Future Fashion Lab in der Galleria Passage Hamburg\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 25. Feb | 19:00\n\nAfter Work Tasting mit 5 Weinen\n\n\n\n\n\nMaison16\n29,00 €\n\n\n\n\n\n\n\n\nMi, 25. Feb | 19:00\n\nAfter Work Tasting mit 5 Weinen\n\n\n\n\n\nMaison16\n29,00 €",
+        "confidence": 0.83
+      },
+      {
+        "id": "5c4c48ff",
+        "type": "after_work",
+        "match_text": "after work",
+        "days": [
+          "sunday",
+          "saturday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "10:00",
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "g\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 25. Feb | 19:00\n\nAfter Work Tasting mit 5 Weinen\n\n\n\n\n\nMaison16\n29,00 €\n\n\n\n\n\n\n\n\nMi, 25. Feb | 19:00\n\nAfter Work Tasting mit 5 Weinen\n\n\n\n\n\nMaison16\n29,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Feb | 10:00\n\nHobenköök Markthallentour mit Kochkurs\n\n\n\n\n\nHobenköök i",
+        "confidence": 0.83
+      },
+      {
+        "id": "a89fcce0",
+        "type": "after_work",
+        "match_text": "feierabend",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Eintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nStress Club by KULTUR&GUT\n\n\n\n\n\nKULTUR&GUT\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop\n\n\n\n\n\nvarm & friends\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop",
+        "confidence": 0.83
+      },
+      {
+        "id": "aa13a904",
+        "type": "after_work",
+        "match_text": "feierabend",
+        "days": [
+          "wednesday",
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Do, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop\n\n\n\n\n\nvarm & friends\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop\n\n\n\n\n\nvarm & friends\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nSCHRØDINGERS - Kellensport in",
+        "confidence": 0.83
+      },
+      {
+        "id": "29ed1b26",
+        "type": "happy_hour",
+        "match_text": "happy hour",
+        "days": [
+          "sunday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "16:00",
+          "15:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "| 15:00\n\nCoffee & New Friends: A sip of the world\n\n\n\n\n\ntba Hamburg\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nESPRESSO MARTINI Happy Hour | KARO&PAUL Bar\n\n\n\n\n\nKARO&PAUL Bar\nEintritt frei\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nESPRESSO MARTINI Happy Hour | KARO&PAUL Bar\n\n\n\n\n\nKARO&PAUL Bar\nEintritt",
+        "confidence": 0.87
+      },
+      {
+        "id": "c73c3172",
+        "type": "happy_hour",
+        "match_text": "happy hour",
+        "days": [
+          "sunday",
+          "wednesday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "19:00",
+          "16:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Di, 17. Feb | 16:00\n\nESPRESSO MARTINI Happy Hour | KARO&PAUL Bar\n\n\n\n\n\nKARO&PAUL Bar\nEintritt frei\n\n\n\n\n\n\n\n\nDi, 17. Feb | 16:00\n\nESPRESSO MARTINI Happy Hour | KARO&PAUL Bar\n\n\n\n\n\nKARO&PAUL Bar\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 19:00\n\nMIGRANTPOLITAN  Community Cooking\n\n\n\n\n\nKampnagel",
+        "confidence": 0.87
+      },
+      {
+        "id": "a6ac9373",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "tuesday"
+        ],
+        "times": [
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "€ \n\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n                Party in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 17:00\n\nFaltenrock\n\n\n\n\n\nQuarterpipe\nAuf Spendenbasis\n\n\n\n\n\n\n\n\nHeute, 15. F",
+        "confidence": 0.87
+      },
+      {
+        "id": "acd19f7d",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "sunday",
+          "wednesday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Mi, 18. Feb | 18:00\n\nDANS Kunstbar\n\n\n\n\n\nFabrik Im Gängeviertel\nBezahl so viel du magst \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nPING PONG PARTY\n\n\n\n\n\nBeat Boutique\n5,00 €\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nPING PONG PARTY\n\n\n\n\n\nBeat Boutique\n5,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nS",
+        "confidence": 0.67
+      },
+      {
+        "id": "5f17fcce",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "sunday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "so viel du magst \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nPING PONG PARTY\n\n\n\n\n\nBeat Boutique\n5,00 €\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nPING PONG PARTY\n\n\n\n\n\nBeat Boutique\n5,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nStress Club by KULTUR&GUT\n\n\n\n\n\nKULTUR&GUT\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18.",
+        "confidence": 0.67
+      },
+      {
+        "id": "a3a4f04f",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "21:00",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Do, 19. Feb | 20:00\n\nPush It To The Limit: Tischtennis\n\n\n\n\n\nHaus 73\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 21:00\n\n121-MINUTEN-PARTY\n\n\n\n\n\nFreundlich+Kompetent\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 21:00\n\n121-MINUTEN-PARTY\n\n\n\n\n\nFreundlich+Kompetent\nEintritt frei",
+        "confidence": 0.67
+      },
+      {
+        "id": "4d139aa2",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "19:00",
+          "21:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Do, 19. Feb | 21:00\n\n121-MINUTEN-PARTY\n\n\n\n\n\nFreundlich+Kompetent\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 21:00\n\n121-MINUTEN-PARTY\n\n\n\n\n\nFreundlich+Kompetent\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 19:00\n\nStompin‘ at the Goldbekhaus!\n\n\n\n\n\nGoldbekhaus\nPreis an AK",
+        "confidence": 0.67
+      },
+      {
+        "id": "9651a291",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "saturday",
+          "wednesday",
+          "monday",
+          "friday",
+          "tuesday"
+        ],
+        "times": [
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Futures: Ihr Wissen, sein Ruhm\n\n\n\n\n\nKörberForum, Hamburg\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 19:00\n\nLesung und Pre Book Release Party mit Sebastian Schnelle zu \"Gemein­sam gegen die moderne Welt\"\n\n\n\n\n\nBar Oorlam\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 19:00\n\nLesung und Pre Book Release",
+        "confidence": 0.67
+      },
+      {
+        "id": "44b1d419",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "saturday",
+          "wednesday"
+        ],
+        "times": [
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "00\n\nHobenköök Markthallentour mit Kochkurs\n\n\n\n\n\nHobenköök im Oberhafen\n135,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Feb | 17:00\n\nPizzaperol Kitchen Party\n\n\n\n\n\nEllis Küche\n49,00 €\n\n\n\n\n\n\n\n\nSa, 28. Feb | 17:00\n\nPizzaperol Kitchen Party\n\n\n\n\n\nEllis Küche\n49,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Feb | 1",
+        "confidence": 0.67
+      },
+      {
+        "id": "4a2e7edd",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "saturday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "19:00",
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 28. Feb | 17:00\n\nPizzaperol Kitchen Party\n\n\n\n\n\nEllis Küche\n49,00 €\n\n\n\n\n\n\n\n\nSa, 28. Feb | 17:00\n\nPizzaperol Kitchen Party\n\n\n\n\n\nEllis Küche\n49,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Feb | 19:00\n\nLive-Musik mit Elom Volta / Bar-Abend\n\n\n\n\n\nCafé Stellar\nEintritt frei",
+        "confidence": 0.67
+      },
+      {
+        "id": "51268fbf",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Eintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 18:00\n\nStress Club by KULTUR&GUT\n\n\n\n\n\nKULTUR&GUT\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop\n\n\n\n\n\nvarm & friends\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop",
+        "confidence": 0.67
+      },
+      {
+        "id": "8d1754bf",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "wednesday",
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Do, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop\n\n\n\n\n\nvarm & friends\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nFeierabend mit dast dast: new collection drop\n\n\n\n\n\nvarm & friends\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nSCHRØDINGERS - Kellenspo",
+        "confidence": 0.67
+      },
+      {
+        "id": "7c6c4315",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "23:45",
+          "23:59"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 20. Feb | 23:45\n\nUnceen w/ Spray & Sally C\n\n\n\n\n\nSüdpol\n22,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:59\n\nEIN JAHR ALLES ANDERS - Turtur feiert Geburtstag\n\n\n\n\n\nTurtur\n5,00 bis 25,00 €\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:59\n\nEIN JAHR ALLES ANDERS - Turtur feiert Geburtstag\n\n\n\n\n\nTurtur\n5,00 bis 25,00 €",
+        "confidence": 0.47
+      },
+      {
+        "id": "f47a992b",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "saturday",
+          "thursday",
+          "friday"
+        ],
+        "times": [
+          "17:00",
+          "23:59"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "eb | 23:59\n\nEIN JAHR ALLES ANDERS - Turtur feiert Geburtstag\n\n\n\n\n\nTurtur\n5,00 bis 25,00 €\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:59\n\nEIN JAHR ALLES ANDERS - Turtur feiert Geburtstag\n\n\n\n\n\nTurtur\n5,00 bis 25,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 17:00\n\n7 Vibes Journey in Hamburg\n\n\n\n\n\nDocks\n37,00 bis 69,00 €",
+        "confidence": 0.67
+      },
+      {
+        "id": "967d2899",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "erhafen\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 14. Mär | 10:00\n\nKunsthandwerkmarkt Scheunenwerk\n\n\n\n\n\nKleinhuis Hotel Mellingburger Schleuse (Festscheune)\nTageseintritt\n\n\n\n\n\n\n\n\nSa, 14. Mär | 10:00\n\nKunsthandwerkmarkt Scheunenwerk\n\n\n\n\n\nKleinhuis Hotel Mellingburger Schleuse (Festscheune)\nTagesein",
+        "confidence": 0.47
+      },
+      {
+        "id": "db3a174c",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "burger Schleuse (Festscheune)\nTageseintritt\n\n\n\n\n\n\n\n\nSa, 14. Mär | 10:00\n\nKunsthandwerkmarkt Scheunenwerk\n\n\n\n\n\nKleinhuis Hotel Mellingburger Schleuse (Festscheune)\nTageseintritt \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSo, 15. Mär | 10:00\n\nFahrradFlohmarkt\n\n\n\n\n\nHausDrei // Stadtteilkulturzentrum\nEintritt frei",
+        "confidence": 0.47
+      },
+      {
+        "id": "e31d66b0",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "friday",
+          "wednesday",
+          "monday"
+        ],
+        "times": [
+          "18:00",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ", 19. Feb | 20:00\n\nLes France-Brötchen: Pièce Montée\n\n\n\n\n\nMUT! Theater\n15,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 18:00\n\nUkrainisches Theaterfestival in Hamburg (20.-22.02.2026) mit deutschen Übertiteln\n\n\n\n\n\nFlachsland - Hamburger Puppentheater\n20,00 €\n\n\n\n\n\n\n\n\nFr, 20. Feb | 18:00\n\nUkrainisches",
+        "confidence": 0.67
+      },
+      {
+        "id": "1b19f869",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Hamburg (20.-22.02.2026) mit deutschen Übertiteln\n\n\n\n\n\nFlachsland - Hamburger Puppentheater\n20,00 €\n\n\n\n\n\n\n\n\nFr, 20. Feb | 18:00\n\nUkrainisches Theaterfestival in Hamburg (20.-22.02.2026) mit deutschen Übertiteln\n\n\n\n\n\nFlachsland - Hamburger Puppentheater\n20,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb",
+        "confidence": 0.67
+      },
+      {
+        "id": "8de4e7c0",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "tuesday"
+        ],
+        "times": [
+          "11:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "€ \n\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n                Feste & Festivals in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 11:30\n\nProzess gegen Deutschland\n\n\n\n\n\nThalia Theater\n20,00",
+        "confidence": 0.87
+      },
+      {
+        "id": "1b19f869",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "23:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "rformative Installation in Virtual Reality von DARUM\n\n\n\n\n\nThalia in der Gaußstraße\n17,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:00\n\nPraerie Festival mit Thomas Schumacher, Maurice Mino, Emma X\n\n\n\n\n\nFundbureau\n15,00 €\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:00\n\nPraerie Festival mit Thomas Schumacher, Maurice",
+        "confidence": 0.67
+      },
+      {
+        "id": "f82a0339",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "saturday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "16:30",
+          "23:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 20. Feb | 23:00\n\nPraerie Festival mit Thomas Schumacher, Maurice Mino, Emma X\n\n\n\n\n\nFundbureau\n15,00 €\n\n\n\n\n\n\n\n\nFr, 20. Feb | 23:00\n\nPraerie Festival mit Thomas Schumacher, Maurice Mino, Emma X\n\n\n\n\n\nFundbureau\n15,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 16:30\n\nVielfalt",
+        "confidence": 0.67
+      },
+      {
+        "id": "60a2c49a",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "friday",
+          "monday"
+        ],
+        "times": [
+          "16:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "tstagsgala – 32 Jahre Lustspielhaus\n\n\n\n\n\nAlma Hoppes Lustspielhaus\n20,00 bis 50,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 10. Apr | 16:00\n\nSEITENSPRÜNGE FESTIVAL: Lea Banasch\n\n\n\n\n\nKosmos Karoline\n18,00 €\n\n\n\n\n\n\n\n\nFr, 10. Apr | 16:00\n\nSEITENSPRÜNGE FESTIVAL: Lea Banasch\n\n\n\n\n\nKosmos Karoline\n18,00 €",
+        "confidence": 0.67
+      },
+      {
+        "id": "60a2c49a",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "friday",
+          "monday"
+        ],
+        "times": [
+          "16:00",
+          "16:15"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 10. Apr | 16:00\n\nSEITENSPRÜNGE FESTIVAL: Lea Banasch\n\n\n\n\n\nKosmos Karoline\n18,00 €\n\n\n\n\n\n\n\n\nFr, 10. Apr | 16:00\n\nSEITENSPRÜNGE FESTIVAL: Lea Banasch\n\n\n\n\n\nKosmos Karoline\n18,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 10. Apr | 16:15\n\nSEITENSPRÜNGE FESTIVAL: Clara Umbach\n\n\n\n\n\nKosmos Kar",
+        "confidence": 0.67
+      },
+      {
+        "id": "f37b7a39",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "wednesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Veranstaltungen heute in Hamburg | Termine & Tickets - Rausgegangen\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEventsuche\nVerlosungen\nTickets\nLocations\nArtists\nOrganizer\nBlog\n\n\nTeam\nJobs\nHilfe & Kontakt\n\n\nFür Veranstalter:innen\nFür Brands\n\n\nGeheimkonzerte\nGeheimkonz",
+        "confidence": 0.62
+      },
+      {
+        "id": "cac4353e",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Up Comedy Show in Hamburg\n\n\n\n\n\nComedy Club Hamburg\n9,90 bis 25,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\nQueer, Single und keine Lust auf Online Dating? 🌈💕\n\n\nDann ab zu Love At First Slide - Queer Edition und",
+        "confidence": 0.62
+      },
+      {
+        "id": "cac4353e",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "tuesday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Feb | 20:00\n\nWRITING CLUB\n\n\n\n\n\nBüchercafé Kapitel Drei\n6,96 bis 14,38 € \n\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n                Party in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 1",
+        "confidence": 0.87
+      },
+      {
+        "id": "4f4581bc",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "saturday",
+          "tuesday"
+        ],
+        "times": [
+          "22:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 21. Feb | 22:00\n\nRoots of Darkness\n\n\n\n\n\nMS Stubnitz\n28,50 € \n\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                Konzerte & Musik in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHe",
+        "confidence": 0.67
+      },
+      {
+        "id": "9ab29c96",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "13:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ". Mär | 13:00\n\nAltona blüht auf!\n\n\n\n\n\nOttenser Hauptstraße\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n                Theater in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb |",
+        "confidence": 0.7699999999999999
+      },
+      {
+        "id": "0871edf1",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "saturday",
+          "wednesday"
+        ],
+        "times": [
+          "18:00",
+          "14:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "te, 15. Feb | 14:30\n\nVarieté im Hansa-Theater\n\n\n\n\n\nHANSA-Theatersaal\n49,90 bis 74,90 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 18:00\n\nCARMEN - Eventoper in 90 Minuten\n\n\n\n\n\nOpernloft\n28,00 bis 58,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 18:00\n\nCARMEN - Eventoper in 90 Minuten\n\n\n\n\n\nOpernloft\n28,00 bis 58,00 €",
+        "confidence": 0.67
+      },
+      {
+        "id": "f37b7a39",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "wednesday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Heute, 15. Feb | 18:00\n\nCARMEN - Eventoper in 90 Minuten\n\n\n\n\n\nOpernloft\n28,00 bis 58,00 €\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 18:00\n\nCARMEN - Eventoper in 90 Minuten\n\n\n\n\n\nOpernloft\n28,00 bis 58,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 18:00\n\nLive-Wrestling in Hamburg",
+        "confidence": 0.87
+      },
+      {
+        "id": "28aae0c2",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "20:00\n\nSound of Violence\n\n\n\n\n\nHamburger Sprechwerk\n13,90 bis 22,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n                        Lass dich inspirieren und entdecke alle Events dieser Kategorie\n                    \n\n\n\n\n\n\n\n\n\n\n                Ausstellungen in Hamburg\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15.",
+        "confidence": 0.7699999999999999
+      },
+      {
+        "id": "77828457",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "sunday",
+          "wednesday"
+        ],
+        "times": [
+          "10:00",
+          "00:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Wochenende\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHappy Sunday! Irgendwie ist Sonntag Flohmi-Tag, oder? ⭐️ - DARIA\n\n\n\n\n\n\n\n\n\n      \n      Tagestipps - Veranstaltungen heute in  Hamburg\n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 10:00 Uhr\n\nXULY.Bët – Funkin’ Fashion Factory 10",
+        "confidence": 0.5700000000000001
+      },
+      {
+        "id": "89b7e11c",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "wednesday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "rie\nxpon-art gallery\n\n\n\n\n\n\n\n\n\n\n\n\nClub\nComedy Club Hamburg\n\n\n\n\n\n\n\n\nHol dir jetzt die\n        Rausgegangen App!\n\n\nSei immer up-to-date mit den neuesten Veranstaltungen in Hamburg!\n\n\n\n\n\n\n\n\n\n\n\n\n\n        VERANSTALTUNGEN HEUTE IN HAMBURG\n      \n\n        WILLKOMMEN BEI RAUSGEGANGEN IN HAMBURG.\n      \n\n Moin ihr Lieben!",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "14f8b1fa",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "ter, Clubs, des Planetariums, der großen Museumshäuser wie MK&G, die Hamburger Kunsthalle, Deichtorhalle uvm. möchten wir auch kleinere Locations und Veranstaltungen unabhängiger Künstler:innen und Kollektive ausfindig machen, die die Kulturszene in Hamburg zu dem macht, was sie ist: vielfältig, aufregend und bu",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "ff522fb7",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "sunday",
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "euch die Person im Freund:innenkreis sein, die Bescheid weiß, was wo abgeht - nur eben als Plattform. Also ab gehts, rausgehen! \n\nUNSER TEAM\n\n\n\n\n\n\n\n\n\nVeranstaltungen in der Nähe\n\n\n\n\n\n\nVeranstaltungen Berlin\n\n\nVeranstaltungen Bonn\n\n\nVeranstaltungen Bremen\n\n\nVeranstaltungen Köln\n\n\nVeranstaltungen Dortmund\n\n\nVerans",
+        "confidence": 0.32
+      },
+      {
+        "id": "9242569d",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "sunday",
+          "thursday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "is sein, die Bescheid weiß, was wo abgeht - nur eben als Plattform. Also ab gehts, rausgehen! \n\nUNSER TEAM\n\n\n\n\n\n\n\n\n\nVeranstaltungen in der Nähe\n\n\n\n\n\n\nVeranstaltungen Berlin\n\n\nVeranstaltungen Bonn\n\n\nVeranstaltungen Bremen\n\n\nVeranstaltungen Köln\n\n\nVeranstaltungen Dortmund\n\n\nVeranstaltungen Essen\n\n\nVeranstaltungen",
+        "confidence": 0.32
+      },
+      {
+        "id": "88dc2600",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "sunday",
+          "thursday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "ß, was wo abgeht - nur eben als Plattform. Also ab gehts, rausgehen! \n\nUNSER TEAM\n\n\n\n\n\n\n\n\n\nVeranstaltungen in der Nähe\n\n\n\n\n\n\nVeranstaltungen Berlin\n\n\nVeranstaltungen Bonn\n\n\nVeranstaltungen Bremen\n\n\nVeranstaltungen Köln\n\n\nVeranstaltungen Dortmund\n\n\nVeranstaltungen Essen\n\n\nVeranstaltungen Frankfurt\n\n\nVeranstaltung",
+        "confidence": 0.32
+      },
+      {
+        "id": "e003a9f4",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "17:00",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "64 €\n\n\nTAGESTIPP\n\n\n\n\n\n\nDo, 19. Feb | 20:00\n\nThe Free Label - The Eurodisco Tour\n\n\n\n\n\nBetty\n25,64 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle Oberhafen\n2,00 €\n\n\nVerlosung\n\n\n\n\n\n\nFr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle O",
+        "confidence": 0.67
+      },
+      {
+        "id": "3e9d5222",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "friday"
+        ],
+        "times": [
+          "19:00",
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle Oberhafen\n2,00 €\n\n\nVerlosung\n\n\n\n\n\n\nFr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle Oberhafen\n2,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 19:00\n\nFreche Möwe - Stand-Up Comedy im A",
+        "confidence": 0.57
+      },
+      {
+        "id": "3e9d5222",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "friday"
+        ],
+        "times": [
+          "17:00",
+          "14:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "frei\n\n\n\n\n\n\n\n\nHeute, 15. Feb | 14:00\n\nFrauen*Kleidertausch\n\n\n\n\n\nBürgerhaus Allermöhe\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle Oberhafen\n2,00 €\n\n\nVerlosung\n\n\n\n\n\n\nFr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle O",
+        "confidence": 0.57
+      },
+      {
+        "id": "596ef1be",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "08:00",
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Fr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle Oberhafen\n2,00 €\n\n\nVerlosung\n\n\n\n\n\n\nFr, 20. Feb | 17:00\n\nNachtflohmarkt in der Gleishalle\n\n\n\n\n\nGleishalle Oberhafen\n2,00 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 21. Feb | 08:00\n\nFlohmarkt Flohschanze\n\n\n\n\n\nFlohmar",
+        "confidence": 0.47
+      },
+      {
+        "id": "f8093013",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "thursday",
+          "friday"
+        ],
+        "times": [
+          "19:30"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Theaterschiff Hamburg\n27,00 bis 29,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nImpro ohne Namen – 'Open Stage - Impro-Workshop' - Weihnachts-Special\n\n\n\n\n\n[why not] Café\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nImpro ohne Namen – 'Open Stage - Impro-Workshop' - Weihnachts-Special\n\n\n\n\n\n[w",
+        "confidence": 0.67
+      },
+      {
+        "id": "d93cfdfe",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "19:30",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "-Workshop' - Weihnachts-Special\n\n\n\n\n\n[why not] Café\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 19:30\n\nImpro ohne Namen – 'Open Stage - Impro-Workshop' - Weihnachts-Special\n\n\n\n\n\n[why not] Café\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 20:00\n\nDie Möwe\n\n\n\n\n\nDeutsches SchauSpielHaus Hamburg\n5,50 bis",
+        "confidence": 0.67
+      },
+      {
+        "id": "52969af6",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "18:00",
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ":00\n\nMit Kunst und Kegel\n\n\n\n\n\nBucerius Kunst Forum\n18,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 17:00\n\nENERGIEN – Ute Seifert and Friends\n\n\n\n\n\nNachtspeicher23 e.V.\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 17:00\n\nENERGIEN – Ute Seifert and Friends\n\n\n\n\n\nNachtspeicher23 e.V.\nEintritt frei",
+        "confidence": 0.67
+      },
+      {
+        "id": "52969af6",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "thursday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "07:00",
+          "01:00",
+          "17:00",
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "7:00\n\nENERGIEN – Ute Seifert and Friends\n\n\n\n\n\nNachtspeicher23 e.V.\nEintritt frei\n\n\n\n\n\n\n\n\nDo, 19. Feb | 17:00\n\nENERGIEN – Ute Seifert and Friends\n\n\n\n\n\nNachtspeicher23 e.V.\nEintritt frei \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTAGESTIPP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo, 19. Feb | 18:00\n\nKAMPNAGEL TOUR #1 Herstory of Avantgarde mit Amelie",
+        "confidence": 0.67
+      },
+      {
+        "id": "43dcf797",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "saturday",
+          "wednesday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": ":00\n\nKULTFILMNACHMITTAG FOR KIDS: FLUBBER\n\n\n\n\n\nMagazin Filmkunsttheater\n9,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSa, 28. Mär | 20:00\n\n11. MAGAZIN KULTFILMNACHT: GHOSTBUSTERS\n\n\n\n\n\nMagazin Filmkunsttheater\n13,00 €\n\n\n\n\n\n\n\n\nSa, 28. Mär | 20:00\n\n11. MAGAZIN KULTFILMNACHT: GHOSTBUSTERS\n\n\n\n\n\nMagazin Filmkunsttheate",
+        "confidence": 0.67
+      },
+      {
+        "id": "e1f0a17f",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "sunday",
+          "saturday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "rausgegangen_de",
+        "context": "Sa, 28. Mär | 20:00\n\n11. MAGAZIN KULTFILMNACHT: GHOSTBUSTERS\n\n\n\n\n\nMagazin Filmkunsttheater\n13,00 €\n\n\n\n\n\n\n\n\nSa, 28. Mär | 20:00\n\n11. MAGAZIN KULTFILMNACHT: GHOSTBUSTERS\n\n\n\n\n\nMagazin Filmkunsttheater\n13,00 € \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSo, 29. Mär | 20:00\n\nBike Film Tour 2026\n\n\n\n\n\nCinemaxX hamburg Damm",
+        "confidence": 0.47
+      },
+      {
+        "id": "7fccdf88",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "wednesday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "achZum Angebotab 33,39 €*© Estrel_Berlin Thank you for the music – Die ABBA-Story Live-Show im St. Pauli TheaterDie größten Hits der schwedischen KultbandWunschtermin auswählen und Tickets sichern50 € Reisegutschein bei jeder BuchungThank you for the music – Die ABBA-StoryZum Angebotab 69,50 €* Caveman",
+        "confidence": 0.7200000000000001
+      },
+      {
+        "id": "751b9127",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "saturday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "auf der Reeperbahn – hier ist für jedes Alter und jeden Geschmack etwas dabei. Jetzt entdeckenMusicals & Shows© IsabelEin Kalender voller Highlights Veranstaltungshighlights 2026 Neben vielen musikalischen Highlights der Hansestadt stehen auch 2026 wieder diverse Veranstaltungen von Kunst und Literatur bis Film",
+        "confidence": 0.52
+      },
+      {
+        "id": "a4e5a4ef",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "sunday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "ungen von Kunst und Literatur bis Film und Theater auf dem Programm. Freuen Sie sich auf ein spannendes und erlebnisreiches Jahr 2026! Jetzt entdeckenVeranstaltungshighlights 2026© Mediaserver Hamburg / Andreas VallbrachtMaritimes Hamburg Die schönsten Ankerplätze so weit das Auge reicht Lust auf Wasser, Hafen-F",
+        "confidence": 0.32
+      },
+      {
+        "id": "2448fc6b",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "wednesday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "19:00"
+        ],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "Kostenlose Hamburg-Tipps & Angebote per E-Mail!\n\n\nJetzt anmelden\n\n\n\n\n\n© Mediaserver Hamburg Andreas Vallbracht4 Tage Hamburg inkl. Hotelübernachtung mit Frühstück, Hin- und Rückfahrt im ICEZum Angebotab 199,00 €© Mediaserver Hamburg / Christian BrandesUnsere Speicherstadt. Ihre Geschichte.Reise",
+        "confidence": 0.67
+      },
+      {
+        "id": "88232c00",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "n & wohlfühlen Hotels in Hamburg Urlaub in Hamburg heißt einchecken und wohlfühlen. Finden Sie Ihr passendes Hotel in Hamburg und buchen Sie Ihre Übernachtung direkt von zu Hause. Mehr erfahrenHotels in Hamburg© Deen van MeerEin Abend voller Emotionen Musicals & Shows Erleben Sie die Musical-Hauptstadt H",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "2448fc6b",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "wednesday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "9,00 €Kinderermäßigung bis zu 15 Jahren enthalten© www.mediaserver.hamburg.de / Miniatur Wunderland Urlaub für die ganze Familie Familien ErlebnisÜbernachtungen im Hotel inkl. FrühstückVIP-Eintritt in das Miniatur Wunderland (Datums- und Uhrzeitwahl flexibel, keine Wartezeit)Kinderermäßigung bis zu 15 Ja",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "7871a52e",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "wednesday",
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "derermäßigung bis zu 15 Jahren enthaltenUrlaub für die ganze FamilieZum Angebotab 301,33 €© marc02811_stock-adobe 4-Tage Hotelpaket-Sparangebot 3 Übernachtungen zum Preis von 23 Übernachtungen in ausgewählten HotelsInklusive FrühstückHamburg CARD (3 Tage) - im Wert von 35,90 €4-Tage Hotelpaket-Sparangebo",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "7871a52e",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "wednesday",
+          "thursday",
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "12:00"
+        ],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "nthaltenUrlaub für die ganze FamilieZum Angebotab 301,33 €© marc02811_stock-adobe 4-Tage Hotelpaket-Sparangebot 3 Übernachtungen zum Preis von 23 Übernachtungen in ausgewählten HotelsInklusive FrühstückHamburg CARD (3 Tage) - im Wert von 35,90 €4-Tage Hotelpaket-SparangebotZum Angebotab 128,00 €© Andreas",
+        "confidence": 0.67
+      },
+      {
+        "id": "9582da9c",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "visit_hamburg",
+        "context": "s zu 50 % in der 1. Klasse sparen© MiniaturWunderland Reisepaket: Mit dem ICE ins Wunderland Mit Sicherheit nicht zu toppen: unsere Top-AttraktionÜbernachtung im Hotel inkl. Frühstück Bis zu 50 % in der 1. Klasse sparenHin- und Rückfahrt mit der Deutschen Bahn inkl. Sitzplatzreservierung nach Verfügbarke",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "9d2f4903",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "saturday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "szene_hamburg",
+        "context": "r  module-variant--small Musik   Von Christina Herdin    Von Erik Brandt-Höge    Von Gesa Bürster MEHR Musikmodule-post-teaser  module-variant--small Nachtleben   Von Gesa Bürster    Von Christina Herdin    Von Christina Herdin MEHR Nachtleben Printausgaben    SZENE HAMBURG 2026-02 \"Kann Hamburg Olympia?",
+        "confidence": 0.32
+      },
+      {
+        "id": "368cb6bd",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "saturday",
+          "friday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "szene_hamburg",
+        "context": "n Gesa Bürster MEHR Musikmodule-post-teaser  module-variant--small Nachtleben   Von Gesa Bürster    Von Christina Herdin    Von Christina Herdin MEHR Nachtleben Printausgaben    SZENE HAMBURG 2026-02 \"Kann Hamburg Olympia?\"    SZENE HAMBURG FREIZEIT-Guide 2026    SZENE HAMBURG 2026-01 \"Hamburger Wohlfühl",
+        "confidence": 0.32
+      },
+      {
+        "id": "a0b263c9",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "wednesday",
+          "tuesday",
+          "saturday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "hamburg_kultur",
+        "context": "ngskalender Ihre Unternehmungen in Hamburg.\n\n\n\n \n\n\n\n\nWas ist los im Februar?\n\n\n\n\n\n\n\n\n Hamburg heute\n\n\n\n\n\n\n\n\n Veranstaltungen im Februar 2026\n\n\n\n\n\n\n\n\n Konzerte im Februar 2026\n\n\n\n\n\n\n\n\n Veranstaltungen für Kinder\n\n\n\n\n\n\n\nSammlung von weiterführenden Inhalten\n\n\n\n\n\n\n\n\n*Hinweis\n\n\n\nÜber die Einbindung dieses mit",
+        "confidence": 0.52
+      },
+      {
+        "id": "72e4f9eb",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "wednesday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "hamburg_kultur",
+        "context": "Behörde für Kultur und Medien/Hamburg Marketing GmbH\n\n\n\n\n\n\nKulturhighlights\n\n\nKulturstadt Hamburg\n\n\n\nOb Oper und Kino, Museum und Club oder Festival und Theater – in Hamburg mischen Sie Kultur, wie es Ihnen gefällt. Lassen Sie sich treiben, lassen Sie sich inspirieren! Und entdecken Sie Ihren",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "984c9d8f",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "saturday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "hamburg_kultur",
+        "context": "Blick: Finden Sie in unserem Veranstaltungskalender Ihre Unternehmungen in Hamburg.\n\n\n\n \n\n\n\n\nWas ist los im Februar?\n\n\n\n\n\n\n\n\n Hamburg heute\n\n\n\n\n\n\n\n\n Veranstaltungen im Februar 2026\n\n\n\n\n\n\n\n\n Konzerte im Februar 2026\n\n\n\n\n\n\n\n\n Veranstaltungen für Kinder\n\n\n\n\n\n\n\nSammlung von weiterführenden Inhalten\n\n\n\n\n\n\n\n\n*Hinweis",
+        "confidence": 0.32
+      },
+      {
+        "id": "d3d12bff",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "wednesday",
+          "tuesday",
+          "saturday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "hamburg_kultur",
+        "context": "Hamburg.\n\n\n\n \n\n\n\n\nWas ist los im Februar?\n\n\n\n\n\n\n\n\n Hamburg heute\n\n\n\n\n\n\n\n\n Veranstaltungen im Februar 2026\n\n\n\n\n\n\n\n\n Konzerte im Februar 2026\n\n\n\n\n\n\n\n\n Veranstaltungen für Kinder\n\n\n\n\n\n\n\nSammlung von weiterführenden Inhalten\n\n\n\n\n\n\n\n\n*Hinweis\n\n\n\nÜber die Einbindung dieses mit *Sternchen markierten Angebots erhalten",
+        "confidence": 0.32
+      },
+      {
+        "id": "48a97f2a",
+        "type": "live_music",
+        "match_text": "livemusik",
+        "days": [
+          "sunday",
+          "wednesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "Bahn-Station Feldstraße an den Fahrradständern            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         KONZERTE & LIVEMUSIK                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Cosmic Opera – Planetarium Hamburg",
+        "confidence": 0.52
+      },
+      {
+        "id": "6c3e69dc",
+        "type": "live_music",
+        "match_text": "livemusik",
+        "days": [
+          "sunday",
+          "saturday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "Theater Lübeck            \n\n\n\n\n\n\n\n\n\n\n                Abgesagt            \n\n\n\n\n\n                         KONZERTE & LIVEMUSIK                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                10. Elmshorner Musik-Gala",
+        "confidence": 0.32000000000000006
+      },
+      {
+        "id": "a206c5d9",
+        "type": "live_music",
+        "match_text": "livemusik",
+        "days": [
+          "sunday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "Stadttheater Elmshorn            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         KONZERTE & LIVEMUSIK                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Caramella & YDRA – Liebe im Haus Tour",
+        "confidence": 0.42000000000000004
+      },
+      {
+        "id": "cf21c2c1",
+        "type": "live_music",
+        "match_text": "livemusik",
+        "days": [
+          "sunday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "U3 St. Pauli, Ausgang            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         KONZERTE & LIVEMUSIK                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Morrissey",
+        "confidence": 0.52
+      },
+      {
+        "id": "e55a0e16",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "SPECIAL EVENTS                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Das Letzte Band – St. Pauli Theater            \n\n\n\n                                            18:00                                    \n\n                St. Pauli T",
+        "confidence": 0.67
+      },
+      {
+        "id": "386b8a5a",
+        "type": "football",
+        "match_text": "bundesliga",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "15:30"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "SPORT                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                ETV Volleyball Saison 25/26 – 1. Volleyball-Bundesliga der Frauen            \n\n\n\n                                            15:30                                    \n\n                ETV Sporthalle Hohel",
+        "confidence": 0.63
+      },
+      {
+        "id": "9d1562a5",
+        "type": "party",
+        "match_text": "fest",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "SPECIAL EVENTS                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Galli Faschingsfest | Kulturschloss Wandsbek            \n\n\n\n                                            17:00                                    \n\n                Kultur",
+        "confidence": 0.47
+      },
+      {
+        "id": "66f73f76",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "e Beiträge\nStadtgeflüster\nEssen & Trinken\nUnterwegs\nMusik an & Welt aus\nFilm & Chill\nLeselust\n\n\n \n\nGewinnspiele\nHoroskope\nTickets\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvents\nTickets\nToplisten\nHoroskope\nGewinnspiele\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPRINZ  ›  Hamburg  ›  Events\n\n\n\nEvents in Hamburg\n\n\n\n\n\nheute\n\n\nmorgen\n\n\nWochenende",
+        "confidence": 0.62
+      },
+      {
+        "id": "4c0f8486",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday",
+          "monday"
+        ],
+        "times": [
+          "18:00",
+          "08:00",
+          "12:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "›  Events\n\n\n\nEvents in Hamburg\n\n\n\n\n\nheute\n\n\nmorgen\n\n\nWochenende\n\n\n\n\n\n                    Kalender                \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Events am Sonntag, 15.02.2026                \n\n\nUhrzeit\n\n\n08:00 - 12:00\n\n\n12:00 - 18:00\n\n\n18:00 - 24:00\n\n\n\n\n\n\n\n\n\n\n\n                © Eventim",
+        "confidence": 0.5700000000000001
+      },
+      {
+        "id": "52157949",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "18:00",
+          "08:00",
+          "12:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "Events am Sonntag, 15.02.2026                \n\n\nUhrzeit\n\n\n08:00 - 12:00\n\n\n12:00 - 18:00\n\n\n18:00 - 24:00\n\n\n\n\n\n\n\n\n\n\n\n                © Eventim",
+        "confidence": 0.47
+      },
+      {
+        "id": "52157949",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "10:00                                    \n\n                Werft Open Air - Kulturwerft Gollan            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         AUSSTELLUNGEN                \n\n\n\n                        So. 15.02.26",
+        "confidence": 0.47
+      },
+      {
+        "id": "3b850926",
+        "type": "party",
+        "match_text": "veranstaltung",
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "times": [
+          "22:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "22:00                                    \n\n                U-Bahn Station St. Pauli (U3)            \n\n\n\n\n\n\n\n        Dein Veranstaltungskalender für Hamburg zeigt die wichtigsten Veranstaltungen deiner Stadt.\n        Wer sich nicht auskennt oder einfach nur Inspiration für die Freizei",
+        "confidence": 0.6699999999999999
+      },
+      {
+        "id": "7eacfa7a",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "17:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "m            \n\n\n\n\n\n\n                         BÜHNE                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Im Nachtflug durch die Galaxis – Planetarium Hamburg            \n\n\n\n                                            17:00",
+        "confidence": 0.5700000000000001
+      },
+      {
+        "id": "3acce1e1",
+        "type": "party",
+        "match_text": "nacht",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "20:30"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "SPECIAL EVENTS                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                St. Pauli Nachtwächter 2025            \n\n\n\n                                            20:30                                    \n\n                Treffpunkt: U/S-Bah",
+        "confidence": 0.47
+      },
+      {
+        "id": "44bffa6e",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday",
+          "wednesday"
+        ],
+        "times": [
+          "10:30"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "10:30                                    \n\n                Anleger Jungfernstieg beim Cafe MIO            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         SPECIAL EVENTS                \n\n\n\n                        So. 15.02.26",
+        "confidence": 0.5700000000000001
+      },
+      {
+        "id": "44bffa6e",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday",
+          "wednesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "Anleger Jungfernstieg beim Cafe MIO            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         SPECIAL EVENTS                \n\n\n\n                        So. 15.02.26                    \n\n\n\n\n                Grüner Bunker-Tour auf St. Pauli | Adventure World T",
+        "confidence": 0.32
+      },
+      {
+        "id": "52157949",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "10:30"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "10:30                                    \n\n                U-Bahn-Station Feldstraße an den Fahrradständern            \n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         KONZERTE & LIVEMUSIK                \n\n\n\n                        So. 15.02.26",
+        "confidence": 0.47
+      },
+      {
+        "id": "52157949",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday"
+        ],
+        "times": [
+          "11:00"
+        ],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "11:00                                    \n\n                Planetarium            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                © Eventim            \n\n\n\n\n\n\n                         STADTLEBEN                \n\n\n\n                        So. 15.02.26",
+        "confidence": 0.47
+      },
+      {
+        "id": "52157949",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "sunday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "prinz_hamburg",
+        "context": "© Eventim            \n\n\n\n\n\n\n                         SPECIAL EVENTS                \n\n\n\n                        So. 15.02.26",
+        "confidence": 0.22
+      }
+    ],
+    "boilerman_bar": [
+      {
+        "id": "8bace7e1",
+        "type": "live_music",
+        "match_text": "session",
+        "days": [
+          "sunday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "location_hints": [
+          "Boilerman Bar",
+          "Boilerman"
+        ],
+        "source": "rausgegangen_de",
+        "context": "we Stand-Up Comedy plattform Bühne EDT\n\n\n\n\n\nErnst Deutsch Theater\n16,32 bis 20,53 € \n\nWIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMi, 18. Feb | 20:00\n\n\"Boilerman Sessions\" w/ Anica Russo\n\n\n\n\n\nThe Boilerman Bar Altes Hafenamt\nEintritt frei\n\n\n\n\n\n\n\n\nMi, 18. Feb | 20:00\n\n\"Boilerman Sessions\" w/ Anica Russo\n\n\n\n\n\nThe Boiler",
+        "confidence": 1.0
+      }
+    ],
+    "murphys_irish_pub": [
+      {
+        "id": "3a940ffc",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "sunday",
+          "wednesday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "r verfügt über ausreichende Gastronomieerfahrung, bei Problemen adäquat zu reagieren und verfügt zudem über entsprechende Kontakte, euch ausgelassene Partynächte zu garantieren. Sollte es dennoch mal zu Situationen kommen, die euch den Partyspaß nehmen – zögert nicht und wendet euch an die Jungs und Mäde",
+        "confidence": 0.62,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "c118f934",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "ut wurde James Murphy über Irlands Grenzen hinaus berühmt. Und bis heute wird sein Bier auf dem Kiez im Murphy’s getrunken.\n\n\n\n\n\n\n\n        Murphy´s - Events    \n\n\n\n\n\n\n\n\n\n\n\n\n\n        Murphy´s- Getränkekarte    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n        Bilder 2024    \n\n\n\n \n\n\n\n\n\n\n\n        26.04.2024 Stephan Friedrichs",
+        "confidence": 0.62,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "0e6595b3",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "sunday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "lways something to offer to its guests. Live music every day and fun for all our Muyphs´s visitors. With a great team , a great atmosphere and superb party animal guests here, each evening is a special experience . The Murphys is probably the smallest Irish Pub in the neighborhood , but with internationa",
+        "confidence": 0.72,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "f7cbf60c",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "sunday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "nd verfügt zudem über entsprechende Kontakte, euch ausgelassene Partynächte zu garantieren. Sollte es dennoch mal zu Situationen kommen, die euch den Partyspaß nehmen – zögert nicht und wendet euch an die Jungs und Mädels hinterm Tresen oder an der Tür.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n        Murphy´s - kleine Namenskund",
+        "confidence": 0.72,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "8304b584",
+        "type": "live_music",
+        "match_text": "live music",
+        "days": [
+          "sunday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "ei und genießt die unglaubliche Stimmung in diesem tollen Pub!\n\n\nYou must have been here. This Irish pub has always something to offer to its guests. Live music every day and fun for all our Muyphs´s visitors. With a great team , a great atmosphere and superb party animal guests here, each evening is a specia",
+        "confidence": 0.8200000000000001,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "643637f3",
+        "type": "live_music",
+        "match_text": "session",
+        "days": [
+          "sunday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "esigner in Willich!\n\n\nCopyright© Murphy´s Irish Pup\n\n\n  \n \nNach oben \n\n\n \n\n    Wir benutzen Cookies     Wir nutzen Cookies auf unserer Website. Diese Session-Cookies sind essenziell für den Betrieb der Seite. Sogenannte Tracking-Cookies werden auf dieser Seite nicht eingesetzt. Sie können selbst entscheide",
+        "confidence": 0.9200000000000002,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "0079e7e1",
+        "type": "party",
+        "match_text": "party",
+        "days": [
+          "wednesday",
+          "monday",
+          "sunday",
+          "friday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "incredible atmosphere at this great pub!\n\n\nFriedlich und entspannt die Nächte durchfeiern\nSeit vielen Jahren sind wir für ausgelassene und friedliche Partys bekannt. Daran wird sich auch in Zukunft nichts ändern. Denn unser Personal hinter der Bar und an der Tür verfügt über ausreichende Gastronomieerfah",
+        "confidence": 0.62,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "5c121257",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "sunday",
+          "wednesday",
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "mer etwas für seine Gäste zu bieten. So kommen im Murphy’s Freunde der Live-Musik jeden Tag auf ihre Kosten. Mit einem tollen Team, viel Stimmung und feierwütigen Gästen wird hier jeder Abend zu einem Erlebnis der besonderen Art. Das Murphys ist wohl der kleinste Irish Pub auf dem Kiez, aber mit internat",
+        "confidence": 0.72,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "2a7c4846",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "sunday",
+          "friday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "combines everything your heart desires. Just drop by and enjoy the incredible atmosphere at this great pub!\n\n\nFriedlich und entspannt die Nächte durchfeiern\nSeit vielen Jahren sind wir für ausgelassene und friedliche Partys bekannt. Daran wird sich auch in Zukunft nichts ändern. Denn unser Personal hinte",
+        "confidence": 0.62,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      },
+      {
+        "id": "6fd2727a",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "thursday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Murphy's Irish Pub",
+        "context": "murphys-hamburg\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZum Hauptinhalt springen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMURPHYS\nEVENTS\nGETRÄNKEKARTE\nFOTOS \n\n Fotos 2023\nSTANDORT\nÖFFNUNGSZEITEN\nKONTAKT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMURPHYS\nEVENTS\nGETRÄNKEKARTE\nFOTOS \n\n Fotos 2023\nSTANDORT\nÖ",
+        "confidence": 0.8200000000000001,
+        "location": "Murphy's Irish Pub",
+        "location_confirmed": true
+      }
+    ],
+    "le_lion": [
+      {
+        "id": "3fc4b654",
+        "type": "party",
+        "match_text": "event",
+        "days": [
+          "friday"
+        ],
+        "times": [],
+        "location_hints": [
+          "Lion"
+        ],
+        "source": "website_Le Lion",
+        "context": "elefonnummer\n\n\n\nKommentar\n\n\n\n          Senden\n        \n\n\n\n\n\n\n\n\n\n            Subscribe to our \"Friends of the Lion\" updates\n          \nJoin us for our events and special offers.\n\n\n\n\n\n\n\n                    E-Mail\n                  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImpressum / Legal NoticeDatenschutzerklärung / Privacy Policy",
+        "confidence": 0.9199999999999999,
+        "location": "Le Lion",
+        "location_confirmed": true
+      }
+    ],
+    "aalhaus": [
+      {
+        "id": "e7db35b1",
+        "type": "quiz",
+        "match_text": "kneipenquiz",
+        "days": [
+          "saturday",
+          "thursday",
+          "friday"
+        ],
+        "times": [
+          "19:30"
+        ],
+        "location_hints": [
+          "Aalhaus"
+        ],
+        "source": "website_Aalhaus",
+        "context": "am Tresen TV möglich\nc) Kommende DJ Sets:Fr. 27.2.: NicolayeSa. 7.3.: Martha\nd)Kommendes Quiz:Do., 19.3., 19:30 Uhr: Das 118. internationale Aalhaus Kneipenquiz+++ Keine Anmeldungen und Reservierungen, früh da sein +++\ne) Kommendes DoKo Turnier:Do., 5.3.26, 19:30 Uhr: Bube, Dame, König, Aal – Das 135. Aalhaus",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "bb2041bc",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "thursday",
+          "wednesday",
+          "monday",
+          "sunday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [
+          "Aalhaus"
+        ],
+        "source": "website_Aalhaus",
+        "context": "Aalhaus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZum Inhalt springen\n\n\n\n\nAalhaus\n\n\n\n\n\n\n\n\nStart \n\n1) Aktuelles: \na)Kommende Konzerte:Do., 12.3.: Jana HornDo., 16.4.: Fai Baba (Solo)Di., 12.5.: RatboysDo., 28.5.: Way DynamicMo., 1.6.: PrewnTickets | Konzert PlaylistImmer: Einlass 1",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "d47dc07e",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "thursday",
+          "wednesday",
+          "monday",
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "19:00",
+          "00:00",
+          "20:45",
+          "20:00"
+        ],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": ") Aktuelles: \na)Kommende Konzerte:Do., 12.3.: Jana HornDo., 16.4.: Fai Baba (Solo)Di., 12.5.: RatboysDo., 28.5.: Way DynamicMo., 1.6.: PrewnTickets | Konzert PlaylistImmer: Einlass 19:00 UhrBeginn 20:00 Uhr\nb) Kommende Fußballübertragungen:Di., 10.2., 20:45: DFB Pokal ViertelfinaleMi., 11.2., 20:45: DFB Po",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "1dd42139",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "18:00",
+          "15:00",
+          "00:00",
+          "22:00"
+        ],
+        "location_hints": [
+          "Aalhaus"
+        ],
+        "source": "website_Aalhaus",
+        "context": ". 18:00 – 22:00 Uhr\nSandwiches:Sa. 15:00 – 18:00 UhrSo. 15:00 – 22:00 UhrKuchen:Sa. 15:00 – 22:00 Uhr So. 15:00 – 22:00 Uhr\n+++ Kein Essensangebot an Konzert- und Lesungstagen +++\n4) Fragen und Antworteninfo@aalhaus.de\n5) Newsletter hier\n6) Programm (Konzerte, Quiz, etc.) hier\n7) Fussball Ja. Keine Reservi",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "bc9232bc",
+        "type": "live_music",
+        "match_text": "konzert",
+        "days": [
+          "sunday",
+          "saturday",
+          "friday"
+        ],
+        "times": [
+          "22:00",
+          "00:00",
+          "15:00"
+        ],
+        "location_hints": [
+          "Aalhaus"
+        ],
+        "source": "website_Aalhaus",
+        "context": "So. 15:00 – 22:00 Uhr\n+++ Kein Essensangebot an Konzert- und Lesungstagen +++\n4) Fragen und Antworteninfo@aalhaus.de\n5) Newsletter hier\n6) Programm (Konzerte, Quiz, etc.) hier\n7) Fussball Ja. Keine Reservierungen. Im Zweifel: 4)\n8) QuizKeine Reservierungen möglich, früh da sein\n9) Tickets für Teile von 6)",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "8cb6d0ea",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "saturday",
+          "wednesday",
+          "tuesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "eur Stefan Blair (Good Morning).\n\nEr ist Teil einer eng verbundenen Community in Melbourne – einer gewählten Familie von Künstler*innen, die in den Bands der jeweils anderen spielen und gemeinsam deren Alben aufnehmen. Young ist oder war Mitglied der miteinander verflochtenen Bands Good Morning, Cool",
+        "confidence": 0.8200000000000001,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "b9d94492",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "saturday",
+          "wednesday",
+          "monday",
+          "sunday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "er*innen, die in den Bands der jeweils anderen spielen und gemeinsam deren Alben aufnehmen. Young ist oder war Mitglied der miteinander verflochtenen Bands Good Morning, Cool Sounds und Snowy Band. Auch die Live-Band von Way Dynamic setzt sich häufig aus wechselnden Konstellationen dieser langjährigen",
+        "confidence": 0.8200000000000001,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "d076ebd2",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "saturday",
+          "wednesday",
+          "monday",
+          "sunday",
+          "friday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "eren spielen und gemeinsam deren Alben aufnehmen. Young ist oder war Mitglied der miteinander verflochtenen Bands Good Morning, Cool Sounds und Snowy Band. Auch die Live-Band von Way Dynamic setzt sich häufig aus wechselnden Konstellationen dieser langjährigen Freundschaften zusammen.\n\nDarüber hinaus",
+        "confidence": 0.8200000000000001,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "12d10a42",
+        "type": "live_music",
+        "match_text": "band",
+        "days": [
+          "saturday",
+          "wednesday",
+          "sunday",
+          "friday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "sich häufig aus wechselnden Konstellationen dieser langjährigen Freundschaften zusammen.\n\nDarüber hinaus arbeitete Dylan unter anderem mit der US-Band Sylvie sowie mit der australischen Aboriginal-Folk-Ikone Kankawa Nagarra zusammen, für die er Schlagzeug spielte.\n\nSeit der Veröffentlichung von Ma",
+        "confidence": 0.8200000000000001,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "e727f790",
+        "type": "dj",
+        "match_text": "dj set",
+        "days": [
+          "sunday",
+          "saturday",
+          "thursday",
+          "friday"
+        ],
+        "times": [
+          "19:30",
+          "15:30"
+        ],
+        "location_hints": [
+          "Aalhaus"
+        ],
+        "source": "website_Aalhaus",
+        "context": ".2., 15:30 Uhr: Bayer Leverkusen vs. FC St. Pauli am Tresen TV und auf LeinwandSo., 15.2., ab 15:30 Uhr: auf Anfrage am Tresen TV möglich\nc) Kommende DJ Sets:Fr. 27.2.: NicolayeSa. 7.3.: Martha\nd)Kommendes Quiz:Do., 19.3., 19:30 Uhr: Das 118. internationale Aalhaus Kneipenquiz+++ Keine Anmeldungen und Res",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "caba3bea",
+        "type": "dj",
+        "match_text": "djo",
+        "days": [
+          "wednesday",
+          "tuesday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "Seit der Veröffentlichung von Massive Shoe auf dem Melbourne-Label Spoilsport Records erfährt Way Dynamic breite Anerkennung – von Künstlern wie Djo und Charlie Heaton über Elton John und John Mayer bis hin zu Katie Crutchfield (Waxahatchee) und MJ Lenderman, die Way Dynamic beide mit auf Austral",
+        "confidence": 0.8800000000000001,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "6b6aa429",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "saturday",
+          "thursday",
+          "wednesday",
+          "monday",
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "19:00",
+          "00:00",
+          "20:45",
+          "20:00",
+          "15:30"
+        ],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "i Baba (Solo)Di., 12.5.: RatboysDo., 28.5.: Way DynamicMo., 1.6.: PrewnTickets | Konzert PlaylistImmer: Einlass 19:00 UhrBeginn 20:00 Uhr\nb) Kommende Fußballübertragungen:Di., 10.2., 20:45: DFB Pokal ViertelfinaleMi., 11.2., 20:45: DFB Pokal ViertelfinaleSa., 14.2., 15:30 Uhr: Bayer Leverkusen vs. FC St. P",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "9c040bc2",
+        "type": "football",
+        "match_text": "fußball",
+        "days": [
+          "thursday",
+          "wednesday",
+          "monday"
+        ],
+        "times": [],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "Teile von 6)hier\n10) Facebook und Instagram\n11) DoppelkopfIn der Regel am 1. Donnerstag im Monat, ohne Anmeldung, mehr hier.\n12) Reservierensiehe 4)× Fußball: Keine Reservierungen möglich ×× Quiz: Keine Reservierungen möglich ×13) Privat mieten / geschlossene Gesellschaftennur wochentags und an Feiertagen",
+        "confidence": 0.8800000000000001,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "3e22dc04",
+        "type": "football",
+        "match_text": "dfb pokal",
+        "days": [
+          "saturday",
+          "wednesday",
+          "monday",
+          "sunday",
+          "tuesday"
+        ],
+        "times": [
+          "19:00",
+          "00:00",
+          "20:45",
+          "20:00",
+          "15:30"
+        ],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "5.: Way DynamicMo., 1.6.: PrewnTickets | Konzert PlaylistImmer: Einlass 19:00 UhrBeginn 20:00 Uhr\nb) Kommende Fußballübertragungen:Di., 10.2., 20:45: DFB Pokal ViertelfinaleMi., 11.2., 20:45: DFB Pokal ViertelfinaleSa., 14.2., 15:30 Uhr: Bayer Leverkusen vs. FC St. Pauli am Tresen TV und auf LeinwandSo., 15.",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "3fa83c61",
+        "type": "football",
+        "match_text": "dfb pokal",
+        "days": [
+          "saturday",
+          "wednesday",
+          "sunday",
+          "friday",
+          "tuesday"
+        ],
+        "times": [
+          "19:00",
+          "00:00",
+          "20:45",
+          "20:00",
+          "15:30"
+        ],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "onzert PlaylistImmer: Einlass 19:00 UhrBeginn 20:00 Uhr\nb) Kommende Fußballübertragungen:Di., 10.2., 20:45: DFB Pokal ViertelfinaleMi., 11.2., 20:45: DFB Pokal ViertelfinaleSa., 14.2., 15:30 Uhr: Bayer Leverkusen vs. FC St. Pauli am Tresen TV und auf LeinwandSo., 15.2., ab 15:30 Uhr: auf Anfrage am Tresen TV",
+        "confidence": 1.0,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      },
+      {
+        "id": "2eadacc5",
+        "type": "party",
+        "match_text": "feier",
+        "days": [
+          "wednesday",
+          "tuesday"
+        ],
+        "times": [
+          "18:00"
+        ],
+        "location_hints": [],
+        "source": "website_Aalhaus",
+        "context": "4)× Fußball: Keine Reservierungen möglich ×× Quiz: Keine Reservierungen möglich ×13) Privat mieten / geschlossene Gesellschaftennur wochentags und an Feiertagen von 10 – ca. 18 Uhr, danach Übergang in offenen Betrieb. Siehe 4)\n14) English\n15) Aal Radiohier\n\nImpressum: Weltaal GbR, Eggerstedtstraße 39,227",
+        "confidence": 0.97,
+        "location": "Aalhaus",
+        "location_confirmed": true
+      }
+    ]
+  }
+}

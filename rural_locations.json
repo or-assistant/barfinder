@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Holstenhof",
+    "category": "landgasthof",
+    "description": "Hotel & Restaurant in Lentföhrden — regionaler Landgasthof direkt im Ort",
+    "lat": 53.8760251,
+    "lon": 9.9873914,
+    "district": "Kreis Segeberg",
+    "town": "Lentföhrden",
+    "verified": true
+  },
+  {
+    "name": "Kiek In",
+    "category": "pub",
+    "description": "Pub am Marktplatz in Kaltenkirchen — klassische Dorfkneipe",
+    "lat": 53.8384505,
+    "lon": 9.9622009,
+    "district": "Kreis Segeberg",
+    "town": "Kaltenkirchen",
+    "verified": true
+  },
+  {
+    "name": "Da Colin",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant an der Hamburger Straße in Kaltenkirchen",
+    "lat": 53.8369278,
+    "lon": 9.9586028,
+    "district": "Kreis Segeberg",
+    "town": "Kaltenkirchen",
+    "verified": true
+  },
+  {
+    "name": "Thassos",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant in Kaltenkirchen",
+    "lat": 53.8367515,
+    "lon": 9.9531143,
+    "district": "Kreis Segeberg",
+    "town": "Kaltenkirchen",
+    "verified": true
+  },
+  {
+    "name": "China Town",
+    "category": "restaurant",
+    "description": "Chinesisches Restaurant in Kaltenkirchen",
+    "lat": 53.8379551,
+    "lon": 9.9605709,
+    "district": "Kreis Segeberg",
+    "town": "Kaltenkirchen",
+    "verified": true
+  },
+  {
+    "name": "Zentrale",
+    "category": "pub",
+    "description": "Pub mit Kegelbahn in Kisdorf — Dorfkneipe & Treffpunkt",
+    "lat": 53.8109831,
+    "lon": 10.0127338,
+    "district": "Kreis Segeberg",
+    "town": "Kisdorf",
+    "verified": true
+  },
+  {
+    "name": "Phoenix Stübchen",
+    "category": "pub",
+    "description": "Gemütliches Stübchen — klassische Dorfkneipe bei Kisdorf",
+    "lat": 53.8081773,
+    "lon": 9.9939734,
+    "district": "Kreis Segeberg",
+    "town": "Kisdorf",
+    "verified": true
+  },
+  {
+    "name": "The Irish Pub",
+    "category": "pub",
+    "description": "Irish Pub in Henstedt-Ulzburg am Beckersbergstraße",
+    "lat": 53.7937898,
+    "lon": 9.9829000,
+    "district": "Kreis Segeberg",
+    "town": "Henstedt-Ulzburg",
+    "verified": true
+  },
+  {
+    "name": "Der Tanzhase - Hotel, Restaurant, Tanzbar",
+    "category": "event-location",
+    "description": "Hotel, Restaurant & Tanzbar in Hasenmoor — legendäre Landtanzbar, Event-Location auf dem Dorf",
+    "lat": 53.9102647,
+    "lon": 10.0251846,
+    "district": "Kreis Segeberg",
+    "town": "Hasenmoor",
+    "verified": true
+  },
+  {
+    "name": "Wolters Gasthof",
+    "category": "landgasthof",
+    "description": "Traditionsgasthof in Weddelbrook bei Bad Bramstedt",
+    "lat": 53.9048928,
+    "lon": 9.8329106,
+    "district": "Kreis Segeberg",
+    "town": "Weddelbrook",
+    "verified": true
+  },
+  {
+    "name": "Restaurant Deichgraf",
+    "category": "restaurant",
+    "description": "Restaurant am Köhlerhof in Bad Bramstedt-Bissenmoor",
+    "lat": 53.9124229,
+    "lon": 9.8830813,
+    "district": "Kreis Segeberg",
+    "town": "Bad Bramstedt",
+    "verified": true
+  },
+  {
+    "name": "Restaurant Meteora",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant an der Mühlenstraße in Bad Bramstedt",
+    "lat": 53.9168860,
+    "lon": 9.8844619,
+    "district": "Kreis Segeberg",
+    "town": "Bad Bramstedt",
+    "verified": true
+  },
+  {
+    "name": "China Restaurant Ho",
+    "category": "restaurant",
+    "description": "Chinesisches Restaurant in Bad Bramstedt",
+    "lat": 53.9212396,
+    "lon": 9.8813653,
+    "district": "Kreis Segeberg",
+    "town": "Bad Bramstedt",
+    "verified": true
+  },
+  {
+    "name": "Cockpit",
+    "category": "restaurant",
+    "description": "Restaurant bei Bad Bramstedt / Hasenmoor-Gebiet",
+    "lat": 53.9138568,
+    "lon": 10.0376691,
+    "district": "Kreis Segeberg",
+    "town": "Bad Bramstedt",
+    "verified": true
+  },
+  {
+    "name": "Landgasthof Goldener Hahn",
+    "category": "landgasthof",
+    "description": "Klassischer Landgasthof am Dorfplatz in Stuvenborn bei Kisdorf",
+    "lat": 53.8516798,
+    "lon": 10.1262328,
+    "district": "Kreis Segeberg",
+    "town": "Stuvenborn",
+    "verified": true
+  },
+  {
+    "name": "Kiek ut Stuben",
+    "category": "landgasthof",
+    "description": "Regionale Küche — Gasthof nördlich von Bad Bramstedt",
+    "lat": 53.9484983,
+    "lon": 10.0296659,
+    "district": "Kreis Segeberg",
+    "town": "Fuhlendorf",
+    "verified": true
+  },
+  {
+    "name": "Gasthof Zum Fährhaus",
+    "category": "landgasthof",
+    "description": "Traditionsgasthof am Stellauer Kirchenweg bei Wrist — ländlicher Charme",
+    "lat": 53.9282676,
+    "lon": 9.7252037,
+    "district": "Kreis Steinburg",
+    "town": "Wrist/Stellau",
+    "verified": true
+  },
+  {
+    "name": "Zum Alten Markt",
+    "category": "restaurant",
+    "description": "Deutsche Küche am Kuhberg in Barmstedt — Traditionslokal",
+    "lat": 53.7896359,
+    "lon": 9.7695606,
+    "district": "Kreis Pinneberg",
+    "town": "Barmstedt",
+    "verified": true
+  },
+  {
+    "name": "Restaurant Thassos zur Linde",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant in Barmstedt — Kegelabende möglich",
+    "lat": 53.7891244,
+    "lon": 9.7731855,
+    "district": "Kreis Pinneberg",
+    "town": "Barmstedt",
+    "verified": true
+  },
+  {
+    "name": "Rantzau7",
+    "category": "restaurant",
+    "description": "Restaurant in Barmstedt an der Rantzau",
+    "lat": 53.7839113,
+    "lon": 9.7594631,
+    "district": "Kreis Pinneberg",
+    "town": "Barmstedt",
+    "verified": true
+  },
+  {
+    "name": "Zum Pilz",
+    "category": "landgasthof",
+    "description": "Deutsche Küche — Landgaststätte zwischen Barmstedt und Alveslohe",
+    "lat": 53.7887738,
+    "lon": 9.7525854,
+    "district": "Kreis Pinneberg",
+    "town": "Barmstedt",
+    "verified": true
+  },
+  {
+    "name": "Gut Kaden Restaurant",
+    "category": "restaurant",
+    "description": "Restaurant auf Gut Kaden bei Alveslohe — gehobene Gastronomie im Gutshaus",
+    "lat": 53.7853637,
+    "lon": 9.9480991,
+    "district": "Kreis Segeberg",
+    "town": "Alveslohe",
+    "verified": true
+  },
+  {
+    "name": "Ricklinger Landbrauerei Zur Alten Försterei",
+    "category": "pub",
+    "description": "Mikrobrauerei & Pub in Rickling — eigenes Bier, ländliche Atmosphäre",
+    "lat": 54.0158311,
+    "lon": 10.167158,
+    "district": "Kreis Segeberg",
+    "town": "Rickling",
+    "verified": true
+  },
+  {
+    "name": "Klönstuuv",
+    "category": "pub",
+    "description": "Plattdeutsche Dorfkneipe — urig und authentisch",
+    "lat": 54.0489463,
+    "lon": 9.9161334,
+    "district": "Kreis Rendsburg-Eckernförde",
+    "town": "Neumünster-Umland",
+    "verified": true
+  },
+  {
+    "name": "Diars Bar",
+    "category": "bar",
+    "description": "Bar an der Kurhausstraße in Bad Segeberg",
+    "lat": 53.9418451,
+    "lon": 10.3062648,
+    "district": "Kreis Segeberg",
+    "town": "Bad Segeberg",
+    "verified": true
+  },
+  {
+    "name": "Gasthof Zur Eiche",
+    "category": "landgasthof",
+    "description": "Traditioneller Dorfgasthof in Todesfelde bei Bad Segeberg",
+    "lat": 53.895356,
+    "lon": 10.1781647,
+    "district": "Kreis Segeberg",
+    "town": "Todesfelde",
+    "verified": true
+  },
+  {
+    "name": "Maria & Toni",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant in Ellerau — zwischen Quickborn und Kaltenkirchen",
+    "lat": 53.7511528,
+    "lon": 9.9193216,
+    "district": "Kreis Segeberg",
+    "town": "Ellerau",
+    "verified": true
+  },
+  {
+    "name": "Kühl's Gasthof",
+    "category": "landgasthof",
+    "description": "Gasthof in Wasbek — ländliche Gaststätte nördlich von Neumünster",
+    "lat": 54.072537,
+    "lon": 9.8951062,
+    "district": "Kreis Rendsburg-Eckernförde",
+    "town": "Wasbek",
+    "verified": true
+  }
+]

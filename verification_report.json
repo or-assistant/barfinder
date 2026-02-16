@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Da Colin",
+    "status": "not_found",
+    "notes": "Neither name nor address (Hamburger Straße 15, Kaltenkirchen) found on Nominatim"
+  },
+  {
+    "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+    "status": "not_found",
+    "notes": "Neither name nor address (Hamburger Straße 8, Bad Bramstedt) found on Nominatim"
+  },
+  {
+    "name": "Zobis Cocktailbar",
+    "status": "not_found",
+    "notes": "Neither name nor address (Bahnhofstr. 1, Henstedt-Ulzburg) found on Nominatim"
+  }
+]

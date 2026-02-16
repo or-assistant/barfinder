@@ -1,0 +1,21 @@
+{
+  "duplicates": {
+    "53.5851,9.9817": [
+      {
+        "index": 67,
+        "name": "VIA DEI MILLE",
+        "address": "Eppendorfer Weg 287, Eppendorf",
+        "category": "wine",
+        "originalCoords": "53.5851,9.9817"
+      },
+      {
+        "index": 76,
+        "name": "Poletto Winebar",
+        "address": "Eppendorfer Weg 287, Eppendorf",
+        "category": "wine",
+        "originalCoords": "53.5851,9.9817"
+      }
+    ]
+  },
+  "nameGroups": {}
+}

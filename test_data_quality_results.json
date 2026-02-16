@@ -1,0 +1,63 @@
+{
+  "passed": 14,
+  "failed": 0,
+  "warnings": 0,
+  "tests": [
+    {
+      "name": "All bars have valid lat/lon",
+      "status": "pass"
+    },
+    {
+      "name": "No duplicate names",
+      "status": "pass"
+    },
+    {
+      "name": "No duplicate coordinates (<10m)",
+      "status": "pass"
+    },
+    {
+      "name": "All categories are valid",
+      "status": "pass"
+    },
+    {
+      "name": "All bars have addresses",
+      "status": "pass"
+    },
+    {
+      "name": "Opening hours format valid",
+      "status": "pass"
+    },
+    {
+      "name": "API /api/places responds",
+      "status": "pass"
+    },
+    {
+      "name": "API /api/hot responds",
+      "status": "pass"
+    },
+    {
+      "name": "API /api/events responds",
+      "status": "pass"
+    },
+    {
+      "name": "Vibe scores in range 0-100",
+      "status": "pass"
+    },
+    {
+      "name": "Max 200 results returned",
+      "status": "pass"
+    },
+    {
+      "name": "Cache google_ratings_cache.json is valid JSON",
+      "status": "pass"
+    },
+    {
+      "name": "Cache bar_events_cache.json is valid JSON",
+      "status": "pass"
+    },
+    {
+      "name": "Cache events_cache.json is valid JSON",
+      "status": "pass"
+    }
+  ]
+}

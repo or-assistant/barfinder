@@ -1,0 +1,299 @@
+{
+  "lastUpdated": "2026-02-16T03:01:34.781Z",
+  "count": 31,
+  "sources": {
+    "nextmedia": {
+      "url": "https://nextmedia-hamburg.de/events/",
+      "count": 7
+    },
+    "aric": {
+      "url": "https://aric-hamburg.de/events/",
+      "count": 24
+    },
+    "kreativgesellschaft": {
+      "url": "https://kreativgesellschaft.org/termine/",
+      "count": 4
+    }
+  },
+  "events": [
+    {
+      "title": "ARIC Brown Bag Session: Outclassing Frontier LLMs at Extracting Information",
+      "date": "2026-02-17",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-outclassing-frontier-llms-at-extracting-information/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "AI Mix & Mingle Women's Edition",
+      "date": "2026-02-17",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-womens-edition-2/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "Pitch Level Up 2026",
+      "date": "2026-02-17",
+      "time": "11:00 - 18:00",
+      "venue": "Hamburg",
+      "url": "https://kreativgesellschaft.org/termine/",
+      "source": "kreativgesellschaft",
+      "type": "pitch"
+    },
+    {
+      "title": "ARIC Brown Bag Session: Wie KI die Softwareentwicklung verändert",
+      "date": "2026-02-19",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-wie-ki-die-softwareentwicklung-veraendert/",
+      "source": "aric",
+      "type": "techtalk"
+    },
+    {
+      "title": "ARIC-Tipp | Digitale Info-Session: Scaleup Hamburg 2026",
+      "date": "2026-02-19",
+      "time": "14:30 - 15:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/scaleup-hamburg-26-infosession/",
+      "source": "aric",
+      "type": "startup"
+    },
+    {
+      "title": "build fridays - work on your startup alongside other founders",
+      "date": "2026-02-20",
+      "time": "16:00 - 23:00",
+      "venue": "SPACE Hamburg | Am Sandtorkai 27",
+      "url": "https://nextmedia-hamburg.de/events/kalender/build-fridays-work-on-your-startup-alongside-other-founders-bring-laptop-2/",
+      "source": "nextmedia",
+      "type": "startup"
+    },
+    {
+      "title": "ARIC-Tipp | Förderfrühstück Green Industry and Circular Economy Hamburg",
+      "date": "2026-02-24",
+      "time": "10:00 - 12:00",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/foerderfruehstueck-circular-economy/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "AI Mix & Mingle in February| KI-Stammtisch im Februar",
+      "date": "2026-02-24",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-february-ki-stammtisch-im-februar-3/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "ARIC-Tipp | Innovation Days at ZAL TechCenter",
+      "date": "2026-02-25",
+      "time": "00:00 - 23:59",
+      "venue": "ZAL Zentrum für Angewandte Luftfahrtforschung GmbH",
+      "url": "https://aric-hamburg.de/veranstaltung/zal-innovation-days/",
+      "source": "aric",
+      "type": "startup"
+    },
+    {
+      "title": "Öffentliche Finanzierung: Von der Strategie zur erfolgreichen Bewilligung",
+      "date": "2026-02-26",
+      "time": "15:00 - 17:00",
+      "venue": "Digital Hub Logistics Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/oeffentliche-finanzierung-von-der-strategie-zur-erfolgreichen-bewilligung/",
+      "source": "aric",
+      "type": "startup"
+    },
+    {
+      "title": "Audiencers' Festival",
+      "date": "2026-03-03",
+      "time": "09:00 - 17:00",
+      "venue": "SPACE | Am Sandtorkai 27 20457 Hamburg",
+      "url": "https://nextmedia-hamburg.de/events/kalender/audiencers-festival/",
+      "source": "nextmedia",
+      "type": "networking"
+    },
+    {
+      "title": "ARIC Brown Bag Session: AI & Digital Methods for Smart Mobility",
+      "date": "2026-03-03",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-ai-digital-methods-for-smart-mobility/",
+      "source": "aric",
+      "type": "techtalk"
+    },
+    {
+      "title": "ARIC-Tipp | AgentCamp – Hamburg",
+      "date": "2026-03-07",
+      "time": "09:00 - 17:00",
+      "venue": "q.beyond AG",
+      "url": "https://aric-hamburg.de/veranstaltung/agentcamp-hamburg/",
+      "source": "aric",
+      "type": "networking"
+    },
+    {
+      "title": "ARIC Brown Bag Session:  AI Adoption Best Practices for KMU/SMEs",
+      "date": "2026-03-12",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-ai-adoption-best-practices-for-kmu-smes/",
+      "source": "aric",
+      "type": "techtalk"
+    },
+    {
+      "title": "Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker",
+      "date": "2026-03-18",
+      "time": "16:00 - 18:00",
+      "venue": "SPACE Hamburg  | Am Sandtorkai 27",
+      "url": "https://nextmedia-hamburg.de/events/kalender/zeitlos-ungerecht-praesenz-vortrag-von-teresa-buecker/",
+      "source": "nextmedia",
+      "type": "techtalk"
+    },
+    {
+      "title": "Festival",
+      "date": "2026-03-26",
+      "time": "",
+      "venue": "SPACE Hamburg",
+      "url": "https://nextmedia-hamburg.de/events/kalender/nextmedia-festival/",
+      "source": "nextmedia",
+      "type": "networking"
+    },
+    {
+      "title": "Perfektion war gestern. Stärken stärken ist heute!",
+      "date": "2026-03-30",
+      "time": "16:00 - 18:00",
+      "venue": "SPACE | Am Sandtorkai 27 20457 Hamburg",
+      "url": "https://nextmedia-hamburg.de/events/kalender/perfektion-war-gestern-staerken-staerken-ist-heute/",
+      "source": "nextmedia",
+      "type": "networking"
+    },
+    {
+      "title": "ARIC Brown Bag: Balancing edge autonomy and cloud intelligence",
+      "date": "2026-04-14",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-balancing-edge-autonomy-and-cloud-intelligence/",
+      "source": "aric",
+      "type": "techtalk"
+    },
+    {
+      "title": "Hackathon für Frauen",
+      "date": "2026-04-18",
+      "time": "00:00 - 23:59",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/hackathon-fuer-frauen-2026/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "AI Mix & Mingle in April| KI-Stammtisch im April",
+      "date": "2026-04-28",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-april-ki-stammtisch-im-april-2/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "AI Mix & Mingle in May| KI-Stammtisch im Mai",
+      "date": "2026-05-26",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-may-ki-stammtisch-im-mai/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "ARIC-Tipp | Transfer Workshop: ErUM-Scientists & Industry in Dialogue",
+      "date": "2026-06-18",
+      "time": "00:00 - 23:59",
+      "venue": "Startup Labs Bahrenfeld",
+      "url": "https://aric-hamburg.de/veranstaltung/erum-workshop/",
+      "source": "aric",
+      "type": "pitch"
+    },
+    {
+      "title": "ARIC-Tipp | ISC High Performance 2026",
+      "date": "2026-06-22",
+      "time": "00:00 - 23:59",
+      "venue": "Congress Center Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/isc-high-performance/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "FAZ Konferenz für Künstliche Intelligenz",
+      "date": "2026-06-22",
+      "time": "00:00 - 23:59",
+      "venue": "Kloster Eberbach",
+      "url": "https://aric-hamburg.de/veranstaltung/faz-konferenz-fuer-kuenstliche-intelligenz/",
+      "source": "aric",
+      "type": "networking"
+    },
+    {
+      "title": "Portside Game Assembly 2026",
+      "date": "2026-06-26",
+      "time": "09:30 - 23:59",
+      "venue": "Gamecity Hamburg veranstaltet am",
+      "url": "https://kreativgesellschaft.org/termine/",
+      "source": "kreativgesellschaft",
+      "type": "networking"
+    },
+    {
+      "title": "AI Mix & Mingle in June| KI-Stammtisch im Juni",
+      "date": "2026-06-30",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-june-ki-stammtisch-im-juni-2/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "KI-Summit 2026",
+      "date": "2026-09-08",
+      "time": "00:00 - 23:59",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/ki-summit-2025/",
+      "source": "aric",
+      "type": "networking"
+    },
+    {
+      "title": "scoopcamp",
+      "date": "2026-09-09",
+      "time": "09:00 - 18:00",
+      "venue": "SPACE Hamburg",
+      "url": "https://nextmedia-hamburg.de/events/kalender/scoopcamp/",
+      "source": "nextmedia",
+      "type": "networking"
+    },
+    {
+      "title": "AI Mix & Mingle in September| KI-Stammtisch im September",
+      "date": "2026-09-29",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-september-ki-stammtisch-im-september-3/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "AI Media Leaders",
+      "date": "2026-11-12",
+      "time": "",
+      "venue": "SPACE Hamburg",
+      "url": "https://nextmedia-hamburg.de/events/kalender/aim-leaders/",
+      "source": "nextmedia",
+      "type": "networking"
+    },
+    {
+      "title": "AI Mix & Mingle in November| KI-Stammtisch im November",
+      "date": "2026-11-24",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-november-ki-stammtisch-im-november-2/",
+      "source": "aric",
+      "type": "meetup"
+    }
+  ]
+}

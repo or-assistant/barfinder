@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Bullerei",
+    "category": "restaurant",
+    "description": "Tim Mälzers Restaurant und Bar in einer ehemaligen Viehmarkthalle im Schanzenviertel. Beliebte Afterwork-Location mit toller Bar.",
+    "lat": 53.5631311,
+    "lon": 9.9661488,
+    "district": "Sternschanze",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Uebel & Gefährlich",
+    "category": "nightclub",
+    "description": "Legendärer Club und Konzertlocation im Hochbunker an der Feldstraße. Elektro, Indie und Live-Musik auf mehreren Floors.",
+    "lat": 53.5565464,
+    "lon": 9.9704241,
+    "district": "St. Pauli",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Fundbureau",
+    "category": "nightclub",
+    "description": "Kulturzentrum und Club in der Stresemannstraße. Elektro, Hip-Hop und alternative Partys in entspannter Atmosphäre.",
+    "lat": 53.5461546,
+    "lon": 10.0072328,
+    "district": "Altona",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Café Paris",
+    "category": "cafe",
+    "description": "Historisches Jugendstil-Café nahe dem Rathaus, seit 1882. Tagsüber Café, abends Bar-Atmosphäre mit Cocktails.",
+    "lat": 53.5498937,
+    "lon": 9.9943480,
+    "district": "Altstadt",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Zum Schellfischposten",
+    "category": "pub",
+    "description": "Kultiger Kiezpub in Altona, bekannt aus der NDR-Sendung 'Inas Nacht'. Urige Seemannskneipe mit Live-Musik.",
+    "lat": 53.5445819,
+    "lon": 9.9461236,
+    "district": "Altona",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Komet Musik Bar",
+    "category": "bar",
+    "description": "Beliebte Musik-Bar in St. Pauli mit DJs, guten Drinks und entspannter Atmosphäre. Treffpunkt der Szene.",
+    "lat": 53.5475588,
+    "lon": 9.9620406,
+    "district": "St. Pauli",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Docks",
+    "category": "nightclub",
+    "description": "Traditionsreiche Konzerthalle am Spielbudenplatz für Live-Musik aller Genres. Eine der wichtigsten Venues Hamburgs.",
+    "lat": 53.5492622,
+    "lon": 9.9645517,
+    "district": "St. Pauli",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Logo",
+    "category": "nightclub",
+    "description": "Kleine, feine Konzertlocation im Grindelviertel. Indie, Punk und Alternative-Konzerte seit den 80ern.",
+    "lat": 53.5645143,
+    "lon": 9.9835996,
+    "district": "Rotherbaum",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Oorlam",
+    "category": "bar",
+    "description": "Stilvolle Bar mit südafrikanischen Einflüssen in der Neustadt. Kreative Cocktails und ausgewählte Spirituosen.",
+    "lat": 53.5534186,
+    "lon": 9.9798395,
+    "district": "Neustadt",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Fleetschlösschen",
+    "category": "bar",
+    "description": "Charmantes kleines Restaurant und Bar in der Speicherstadt. Toller Blick auf die Fleete, ideal für Afterwork.",
+    "lat": 53.5444854,
+    "lon": 9.9979278,
+    "district": "Speicherstadt",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Hafenklang",
+    "category": "nightclub",
+    "description": "Alternative Konzertlocation und Club an der Großen Elbstraße. Punk, Indie, Elektro und politische Veranstaltungen.",
+    "lat": 53.5445582,
+    "lon": 9.9479472,
+    "district": "Altona",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Terrace Hill",
+    "category": "nightclub",
+    "description": "Club und Eventlocation im Bunker an der Feldstraße (im selben Gebäude wie Uebel & Gefährlich). Rooftop-Feeling.",
+    "lat": 53.5564089,
+    "lon": 9.9702727,
+    "district": "St. Pauli",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Zum Brandanfang",
+    "category": "restaurant",
+    "description": "Historisches Restaurant in der Deichstraße, wo der Große Brand von 1842 begann. Norddeutsche Küche mit Bar.",
+    "lat": 53.5460965,
+    "lon": 9.9874395,
+    "district": "Altstadt",
+    "verified": true,
+    "source": "nominatim"
+  },
+  {
+    "name": "Sommersalon",
+    "category": "nightclub",
+    "description": "Club am Spielbudenplatz auf St. Pauli. Tanzfläche und Lounge mit verschiedenen Musikrichtungen.",
+    "lat": 53.5492229,
+    "lon": 9.9643606,
+    "district": "St. Pauli",
+    "verified": true,
+    "source": "nominatim"
+  }
+]

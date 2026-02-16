@@ -1,0 +1,94 @@
+=== Coordinate Fix Log Started at 2026-02-15T19:06:03.774Z ===
+[2026-02-15T19:06:03.774Z] Starting coordinate fixing process...
+[2026-02-15T19:06:03.776Z] === STARTING COORDINATE FIXES ===
+[2026-02-15T19:06:03.776Z] 
+📍 Processing duplicate group: 53.5852,9.9815 (9 bars)
+[2026-02-15T19:06:03.776Z] 
+🔍 Fixing: "Borchers" (index 8)
+[2026-02-15T19:06:03.776Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:03.776Z]    Address: Eppendorfer Weg, Eppendorf
+[2026-02-15T19:06:03.777Z]    Search: "Borchers Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:05.261Z]    ❌ No coordinates found
+[2026-02-15T19:06:05.262Z] 
+🔍 Fixing: "Schröders" (index 9)
+[2026-02-15T19:06:05.262Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:05.262Z]    Address: Eppendorfer Weg, Eppendorf
+[2026-02-15T19:06:05.262Z]    Search: "Schröders Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:06.618Z]    ❌ No coordinates found
+[2026-02-15T19:06:06.618Z] 
+🔍 Fixing: "VIA DEI MILLE" (index 67)
+[2026-02-15T19:06:06.618Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:06.618Z]    Address: Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:06:06.618Z]    Search: "VIA DEI MILLE Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:07.945Z]    ❌ No coordinates found
+[2026-02-15T19:06:07.946Z] 
+🔍 Fixing: "Poletto Winebar" (index 76)
+[2026-02-15T19:06:07.946Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:07.946Z]    Address: Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:06:07.946Z]    Search: "Poletto Winebar Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:09.314Z]    ❌ No coordinates found
+[2026-02-15T19:06:09.314Z] 
+🔍 Fixing: "Goldfischglas" (index 86)
+[2026-02-15T19:06:09.314Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:09.314Z]    Address: Eppendorfer Weg 178, Eppendorf
+[2026-02-15T19:06:09.315Z]    Search: "Goldfischglas Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:10.631Z]    ❌ No coordinates found
+[2026-02-15T19:06:10.631Z] 
+🔍 Fixing: "Black Forest Bar" (index 95)
+[2026-02-15T19:06:10.631Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:10.631Z]    Address: Eppendorfer Weg, Eppendorf
+[2026-02-15T19:06:10.631Z]    Search: "Black Forest Bar Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:11.933Z]    ❌ No coordinates found
+[2026-02-15T19:06:11.933Z] 
+🔍 Fixing: "Bierkrug" (index 96)
+[2026-02-15T19:06:11.933Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:11.933Z]    Address: Eppendorfer Weg, Eppendorf
+[2026-02-15T19:06:11.933Z]    Search: "Bierkrug Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:13.235Z]    ❌ No coordinates found
+[2026-02-15T19:06:13.236Z] 
+🔍 Fixing: "Planet Dart & Billard Bar" (index 146)
+[2026-02-15T19:06:13.236Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:13.236Z]    Address: Eppendorfer Weg 166, Eppendorf
+[2026-02-15T19:06:13.236Z]    Search: "Planet Dart & Billard Bar Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:14.691Z]    ❌ No coordinates found
+[2026-02-15T19:06:14.692Z] 
+🔍 Fixing: "Trattoria Italiana da Basso" (index 182)
+[2026-02-15T19:06:14.692Z]    Current: 53.5852476, 9.981478
+[2026-02-15T19:06:14.692Z]    Address: Eppendorfer Weg 268, Eppendorf
+[2026-02-15T19:06:14.692Z]    Search: "Trattoria Italiana da Basso Eppendorf Eppendorf Hamburg"
+[2026-02-15T19:06:16.172Z]    ❌ No coordinates found
+[2026-02-15T19:06:16.172Z] 
+📍 Processing duplicate group: 53.5545,9.9273 (2 bars)
+[2026-02-15T19:06:16.172Z] 
+🔍 Fixing: "Familien-Eck" (index 12)
+[2026-02-15T19:06:16.172Z]    Current: 53.5545073, 9.927292
+[2026-02-15T19:06:16.172Z]    Address: Friedensallee 9, Ottensen
+[2026-02-15T19:06:16.172Z]    Search: "Familien-Eck Friedensallee 9, Ottensen Hamburg"
+[2026-02-15T19:06:17.505Z]    ❌ No coordinates found
+[2026-02-15T19:06:17.505Z] 
+🔍 Fixing: "Eisenstein" (index 190)
+[2026-02-15T19:06:17.506Z]    Current: 53.5545073, 9.927292
+[2026-02-15T19:06:17.506Z]    Address: Friedensallee 9, Winterhude/Eppendorf
+[2026-02-15T19:06:17.506Z]    Search: "Eisenstein Friedensallee 9, Winterhude/Eppendorf Hamburg"
+[2026-02-15T19:06:18.872Z]    ❌ No coordinates found
+[2026-02-15T19:06:18.872Z] 
+📍 Processing duplicate group: 53.5911,10.0086 (2 bars)
+[2026-02-15T19:06:18.872Z] 
+🔍 Fixing: "Berglund" (index 52)
+[2026-02-15T19:06:18.872Z]    Current: 53.5910895, 10.008635
+[2026-02-15T19:06:18.872Z]    Address: Barmbeker Straße 83, Winterhude
+[2026-02-15T19:06:18.872Z]    Search: "Berglund Barmbeker Straße 83, Winterhude Hamburg"
+[2026-02-15T19:06:20.200Z]    ❌ No coordinates found
+[2026-02-15T19:06:20.200Z] 
+🔍 Fixing: "Zum Glaskasten" (index 164)
+[2026-02-15T19:06:20.200Z]    Current: 53.5910895, 10.008635
+[2026-02-15T19:06:20.200Z]    Address: Barmbeker Straße 61, Winterhude
+[2026-02-15T19:06:20.200Z]    Search: "Zum Glaskasten Barmbeker Straße 61, Winterhude Hamburg"
+[2026-02-15T19:06:21.491Z]    ❌ No coordinates found
+[2026-02-15T19:06:21.491Z] 
+📍 Processing duplicate group: 53.553,9.9586 (2 bars)
+[2026-02-15T19:06:21.491Z] 
+🔍 Fixing: "Weinladen St. Pauli" (index 56)
+[2026-02-15T19:06:21.491Z]    Current: 53.553043, 9.9585878
+[2026-02-15T19:06:21.491Z]    Address: Paul-Roosen-Straße, St. Pauli
+[2026-02-15T19:06:21.491Z]    Search: "Weinladen St. Pauli Paul-Roosen-Straße, St. Pauli Hamburg"

@@ -1,0 +1,80 @@
+{
+  "validation_summary": {
+    "timestamp": "2026-02-15T17:46:05.971Z",
+    "total_bars": 200,
+    "validation_method": "Comprehensive coordinate testing",
+    "overall_success_rate": "97.9%",
+    "status": "GOOD - Minor issues found"
+  },
+  "findings": {
+    "coordinates_present": {
+      "status": "PERFECT",
+      "details": "All 200 bars have valid lat/lon coordinates",
+      "passed": 200,
+      "failed": 0
+    },
+    "geographic_bounds": {
+      "status": "EXCELLENT", 
+      "details": "199/200 bars within Hamburg bounds (53.4-54.0, 9.5-10.3)",
+      "latitude_issues": [
+        {
+          "name": "Ostseecamp Lehmberg",
+          "lat": 54.5078,
+          "issue": "Outside Hamburg (likely Baltic Sea camping site)"
+        }
+      ],
+      "longitude_issues": [
+        {
+          "name": "Klackermatsch",
+          "lon": 10.3125,
+          "issue": "Slightly outside Hamburg eastern boundary"
+        }
+      ]
+    },
+    "duplicate_coordinates": {
+      "status": "WARNING",
+      "details": "2 sets of duplicate coordinates found - need manual review",
+      "duplicates": [
+        {
+          "coordinates": "53.556,10.01",
+          "bars": ["Frau Möller", "Neumanns Bistro St. Georg"],
+          "action_needed": "Verify if same location or separate venues"
+        },
+        {
+          "coordinates": "53.546,9.996", 
+          "bars": ["Restaurant Schoppenhauer", "Restaurant Schoppenhauer"],
+          "action_needed": "Duplicate entry - remove one"
+        }
+      ]
+    },
+    "neighborhood_proximity": {
+      "status": "GOOD",
+      "details": "133/145 bars correctly placed within expected neighborhood radius",
+      "success_rate": "91.7%",
+      "issues": 12,
+      "common_issues": [
+        "Some bars assigned to wrong neighborhoods based on address",
+        "Neighborhood boundaries overlap (e.g., Harvestehude/Neustadt)",
+        "Some venues span multiple districts"
+      ]
+    }
+  },
+  "recommendations": {
+    "immediate": [
+      "Remove duplicate 'Restaurant Schoppenhauer' entry",
+      "Verify if 'Frau Möller' and 'Neumanns Bistro St. Georg' are same location"
+    ],
+    "optional": [
+      "Review neighborhood assignments for bars with proximity warnings",
+      "Consider expanding neighborhood radius for border areas",
+      "Verify coordinates for rural bars (Ostseecamp Lehmberg, Klackermatsch)"
+    ]
+  },
+  "data_quality_score": {
+    "coordinates_accuracy": "99.5%",
+    "geographic_bounds": "99.5%", 
+    "uniqueness": "99.0%",
+    "neighborhood_mapping": "91.7%",
+    "overall": "97.9%"
+  }
+}

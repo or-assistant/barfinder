@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Zentrale",
+    "address": "Dorfstraße 7, Kisdorf",
+    "expectedCity": "Hamburg",
+    "lat": 53.888,
+    "lon": 9.933,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Langeloher Hof",
+    "address": "Langeloh, Bad Bramstedt",
+    "expectedCity": "Bad Bramstedt",
+    "lat": 53.5727146,
+    "lon": 9.8465686,
+    "expectedBbox": {
+      "minLat": 53.9,
+      "maxLat": 53.94,
+      "minLon": 9.85,
+      "maxLon": 9.92
+    },
+    "issue": "Coordinates outside Bad Bramstedt bounding box"
+  },
+  {
+    "name": "Phoenix Stübchen",
+    "address": "Am Sportplatz 1a, 24629 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.8103523,
+    "lon": 10.0101077,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+    "address": "Hamburger Straße 8, Bad Bramstedt",
+    "expectedCity": "Bad Bramstedt",
+    "lat": 53.4884074,
+    "lon": 10.2388931,
+    "expectedBbox": {
+      "minLat": 53.9,
+      "maxLat": 53.94,
+      "minLon": 9.85,
+      "maxLon": 9.92
+    },
+    "issue": "Coordinates outside Bad Bramstedt bounding box"
+  },
+  {
+    "name": "Wolters Gasthof von 1787",
+    "address": "Glückstädter Straße 3, 24576 Weddelbrook",
+    "expectedCity": "Hamburg",
+    "lat": 53.9049,
+    "lon": 9.8329,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Rock Bar",
+    "address": "Ulzburger Str. 609, Norderstedt",
+    "expectedCity": "Norderstedt",
+    "lat": 53.6538118,
+    "lon": 10.0770973,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Billiard-Café",
+    "address": "Henstedt-Ulzburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7926888,
+    "lon": 9.9808134,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  }
+]

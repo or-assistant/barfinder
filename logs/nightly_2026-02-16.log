@@ -1,0 +1,303 @@
+[2026-02-16 03:00:01] ═══ Nightly Update gestartet ═══
+[2026-02-16 03:00:01] ▶ Bar Events (scrape_bar_events.js)...
+[2026-02-16T03:00:01.150Z] Starting bar event scrape...
+  Scraping Aalhaus (https://aalhaus.de)...
+  → 2 events found
+Saved 2 events to /home/openclaw/.openclaw/workspace/barfinder/bar_events_cache.json
+Done: 2026-02-27 DJ Nicolaye<br>Sa. 7.3.: Martha</p>
+  2026-03-05 <a href="https://www.facebook.com/events/25456512560711567">Bube, Dame, König, Aal &#8211; Das 135. Aalhaus Doppelkopf-Turnier</a></p>
+[2026-02-16 03:00:01] ✅ Bar Events fertig
+[2026-02-16 03:00:01] ▶ Hamburg Sources (scrape_hamburg_sources.js)...
+🔍 Scraping new Hamburg event sources...
+
+📡 Scraping meetup.com...
+[2026-02-16 03:00:03] ERROR: Already running (PID 120287)
+   Found 5 relevant events
+📡 Scraping prinz.de...
+   Found 0 relevant events
+
+✅ Total: 5 unique bar/nightlife/networking events
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/hamburg_new_events_cache.json
+  • [meetup.com] 2026-02-18 7:00 PM — Meet Internationals and Locals | Social Melting Pot HAMBURG @ Social Melting Pot - Hamburg | Cultural & Language exchange (social)
+  • [meetup.com] 2026-02-19 6:00 PM — Dev & Design Meetup #17 @ Dev & Design Meetup Hamburg (networking)
+  • [meetup.com] 2026-02-20 4:00 PM — build fridays - work on your startup alongside other founders (bring laptop) @ AI BEAVERS (networking)
+  • [meetup.com] 2026-03-04 6:00 PM — Rust Hack & Learn March 2026 @ Rust Meetup Hamburg (networking)
+  • [meetup.com] 2026-03-10 9:30 AM — Bee for Breakfast im Beehive Hamburg City @ Beehive Networking Meetup Hamburg (networking)
+[2026-02-16 03:00:14] ✅ Hamburg Sources fertig
+[2026-02-16 03:00:14] ▶ Hamburg Events (scrape_hamburg_events.js)...
+🎉 Hamburg Events Scraper
+========================
+
+
+🔍 Scraping: szene-hamburg-bars
+  URL: https://www.szene-hamburg.de/thema/bar/
+  Status: 200
+  HTML size: 85.8 KB
+  Found 7 items
+  Sample: "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg"
+
+🔍 Scraping: szene-hamburg-nachtleben
+  URL: https://www.szene-hamburg.de/thema/nachtleben/
+  Status: 200
+  HTML size: 111.9 KB
+  Found 19 items
+  Sample: "Kultur in Hamburg: Live ist hart"
+
+🔍 Scraping: hamburg-de-veranstaltungen
+  URL: https://www.hamburg.de/veranstaltungen/
+  Status: 200
+  HTML size: 229.5 KB
+  Found 8 items
+  Sample: "Erlebnisse in der Hansestadt"
+
+🔍 Scraping: hamburg-de-nightlife
+  URL: https://www.szene-hamburg.de/thema/club/
+  Status: 200
+  HTML size: 112.2 KB
+  Found 19 items
+  Sample: "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg"
+
+✅ Results saved to /home/openclaw/.openclaw/workspace/barfinder/hamburg_events_cache.json
+
+📊 Summary:
+  szene-hamburg-bars: 7 items ✓
+  szene-hamburg-nachtleben: 19 items ✓
+  hamburg-de-veranstaltungen: 8 items ✓
+  hamburg-de-nightlife: 19 items ✓
+[2026-02-16 03:00:23] ✅ Hamburg Events fertig
+[2026-02-16 03:00:23] ▶ Events Pipeline (scrape_events_pipeline.js)...
+🔄 Event Pipeline Scraper starting...
+   2026-02-16T03:00:23.573Z
+
+  ✅ Abendblatt: 100 items, 76 relevant
+  ✅ Google News "hamburg+bar+after+work": 23 items
+  ✅ Google News "hamburg+veranstaltung+networking": 22 items
+  ✅ Google News "hamburg+after+work+event": 52 items
+  ✅ Hamburg Tourism: 31 relevant events
+  ✅ Google News "hamburg+wine+tasting+bar": 16 items
+  ✅ Meetup cache: 5 events merged
+
+📊 Total raw: 219
+📊 After dedup: 192
+
+✅ Saved 192 events to /home/openclaw/.openclaw/workspace/barfinder/events_pipeline_cache.json
+[2026-02-16 03:00:24] ✅ Events Pipeline fertig
+[2026-02-16 03:00:24] ▶ Eventbrite Hamburg (scrape_eventbrite.js)...
+🎫 Eventbrite Scraper starting...
+   2026-02-16T03:00:25.371Z
+  🔍 Scraping: afterwork → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fafter-work%2F
+  📄 afterwork: Got 1693 chars
+  ✅ afterwork: Parsed 4 events
+  🔍 Scraping: networking → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fnetworking%2F
+  📄 networking: Got 5100 chars
+  ✅ networking: Parsed 40 events
+  🔍 Scraping: tasting → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fwine-tasting%2F
+  📄 tasting: Got 4825 chars
+  ✅ tasting: Parsed 40 events
+  🔍 Scraping: social → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fsocial%2F
+  📄 social: Got 5157 chars
+  ✅ social: Parsed 40 events
+  🔍 Scraping: startup → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fstartup%2F
+  📄 startup: Got 4920 chars
+  ✅ startup: Parsed 38 events
+
+🎫 Eventbrite: 71 events saved to /home/openclaw/.openclaw/workspace/barfinder/eventbrite_events_cache.json
+[2026-02-16 03:01:32] ✅ Eventbrite Hamburg fertig
+[2026-02-16 03:01:32] ▶ Ecosystem Events (scrape_ecosystem_events.js)...
+🔍 Scraping Hamburg ecosystem events...
+
+nextMedia.Hamburg: 7 events
+ARIC Hamburg: 24 events
+Kreativ Gesellschaft: 4 events
+
+✅ Total unique future events: 31
+
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/ecosystem_events_cache.json
+  📅 2026-02-17 | meetup       | ARIC Brown Bag Session: Outclassing Frontier LLMs at Extract [aric]
+  📅 2026-02-17 | meetup       | AI Mix & Mingle Women's Edition [aric]
+  📅 2026-02-17 | pitch        | Pitch Level Up 2026 [kreativgesellschaft]
+  📅 2026-02-19 | techtalk     | ARIC Brown Bag Session: Wie KI die Softwareentwicklung verän [aric]
+  📅 2026-02-19 | startup      | ARIC-Tipp | Digitale Info-Session: Scaleup Hamburg 2026 [aric]
+  📅 2026-02-20 | startup      | build fridays - work on your startup alongside other founder [nextmedia]
+  📅 2026-02-24 | meetup       | ARIC-Tipp | Förderfrühstück Green Industry and Circular Econ [aric]
+  📅 2026-02-24 | meetup       | AI Mix & Mingle in February| KI-Stammtisch im Februar [aric]
+  📅 2026-02-25 | startup      | ARIC-Tipp | Innovation Days at ZAL TechCenter [aric]
+  📅 2026-02-26 | startup      | Öffentliche Finanzierung: Von der Strategie zur erfolgreiche [aric]
+  📅 2026-03-03 | networking   | Audiencers' Festival [nextmedia]
+  📅 2026-03-03 | techtalk     | ARIC Brown Bag Session: AI & Digital Methods for Smart Mobil [aric]
+  📅 2026-03-07 | networking   | ARIC-Tipp | AgentCamp – Hamburg [aric]
+  📅 2026-03-12 | techtalk     | ARIC Brown Bag Session:  AI Adoption Best Practices for KMU/ [aric]
+  📅 2026-03-18 | techtalk     | Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker [nextmedia]
+  📅 2026-03-26 | networking   | Festival [nextmedia]
+  📅 2026-03-30 | networking   | Perfektion war gestern. Stärken stärken ist heute! [nextmedia]
+  📅 2026-04-14 | techtalk     | ARIC Brown Bag: Balancing edge autonomy and cloud intelligen [aric]
+  📅 2026-04-18 | meetup       | Hackathon für Frauen [aric]
+  📅 2026-04-28 | meetup       | AI Mix & Mingle in April| KI-Stammtisch im April [aric]
+  📅 2026-05-26 | meetup       | AI Mix & Mingle in May| KI-Stammtisch im Mai [aric]
+  📅 2026-06-18 | pitch        | ARIC-Tipp | Transfer Workshop: ErUM-Scientists & Industry in [aric]
+  📅 2026-06-22 | meetup       | ARIC-Tipp | ISC High Performance 2026 [aric]
+  📅 2026-06-22 | networking   | FAZ Konferenz für Künstliche Intelligenz [aric]
+  📅 2026-06-26 | networking   | Portside Game Assembly 2026 [kreativgesellschaft]
+  📅 2026-06-30 | meetup       | AI Mix & Mingle in June| KI-Stammtisch im Juni [aric]
+  📅 2026-09-08 | networking   | KI-Summit 2026 [aric]
+  📅 2026-09-09 | networking   | scoopcamp [nextmedia]
+  📅 2026-09-29 | meetup       | AI Mix & Mingle in September| KI-Stammtisch im September [aric]
+  📅 2026-11-12 | networking   | AI Media Leaders [nextmedia]
+  📅 2026-11-24 | meetup       | AI Mix & Mingle in November| KI-Stammtisch im November [aric]
+[2026-02-16 03:01:34] ✅ Ecosystem Events fertig
+[2026-02-16 03:01:34] ▶ Yelp Reviews (scrape_yelp_reviews.js)...
+🍻 Yelp Reviews Scraper starting...
+
+  📡 Fetching: Bars in Hamburg...
+    → Page 1: 9 bars found
+  📡 Fetching page 2: Bars...
+    → Page 2: 8 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Kneipen in Hamburg...
+    → Page 1: 9 bars found
+  📡 Fetching page 2: Kneipen...
+    → Page 2: 8 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Cocktail+Bars in Hamburg...
+    → Page 1: 9 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Wine+Bars in Hamburg...
+    → Page 1: 8 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Pubs in Hamburg...
+    → Page 1: 7 bars found
+
+✅ Saved 47 bars to /home/openclaw/.openclaw/workspace/barfinder/yelp_reviews_cache.json
+✅ Updated legacy /home/openclaw/.openclaw/workspace/barfinder/yelp_cache.json with 47 bars
+
+📊 Stats: 47 total, 0 with rating, 47 with review snippet
+[2026-02-16 03:03:21] ✅ Yelp Reviews fertig
+[2026-02-16 03:03:21] ▶ New Sources (Startupcity, MOPO etc.) (scrape_new_sources.js)...
+═══ New Sources Scraper ═══
+📅 2026-02-16T03:03:21.766Z
+🏙️ Scraping startupcity.hamburg...
+📰 Scraping MOPO...
+🏛️ Scraping Handelskammer...
+🚶 Scraping rausgegangen.de...
+  ✅ 37 events from startupcity.hamburg
+  ✅ 387 events from rausgegangen.de
+  ✅ 1 events from Handelskammer
+  ✅ 0 events from MOPO
+
+═══ Total: 34 events ═══
+  startupcity: 37
+  mopo: 0
+  handelskammer: 1
+  rausgegangen: 387
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/new_sources_events_cache.json
+[2026-02-16 03:03:24] ✅ New Sources (Startupcity, MOPO etc.) fertig
+[2026-02-16 03:03:24] ▶ Mit Vergnügen Hamburg (scrape_mitvergnuegen.js)...
+🎉 Mit Vergnügen Hamburg Scraper starting...
+  🔍 Scraping homepage...
+  📋 Found 65 articles
+  🍸 Scraping 8 bar/food articles for venues...
+    📖 11 Restaurants für besondere Momente...
+    📖 11 gemütliche Cafés für einen schönen Nachmittag...
+    📖 11 Restaurants in Hamburg, in denen ihr leckeres Comfort Foo...
+    📖 11 gemütliche Bars in Hamburg...
+    📖 11 Cafés in Hamburg am Wasser...
+    📖 11 Restaurants, die ihr in der Innenstadt kennen solltet...
+    📖 11 feuchtfröhliche Orte für Boozy Brunch...
+    📖 11 richtig gute Restaurants & Cafés im Portugiesenviertel, d...
+
+🎉 Done: 65 articles, 3 events, 82 bars
+   Bar-relevant: 11, Food-relevant: 24
+[2026-02-16 03:04:28] ✅ Mit Vergnügen Hamburg fertig
+[2026-02-16 03:04:28] ▶ OpenTable Hamburg (scrape_opentable.js)...
+🍽️ OpenTable Hamburg Scraper starting...
+  🔍 Loading OpenTable Hamburg...
+  📊 Extracting restaurant data...
+
+🍽️ OpenTable: 15 restaurants saved
+   With rating: 4, with cuisine: 10
+[2026-02-16 03:04:49] ✅ OpenTable Hamburg fertig
+[2026-02-16 03:04:49] ▶ Hamburg Digital Ecosystem (scrape_hamburgwork.js)...
+🏢 Hamburg Digital Ecosystem Events Scraper
+══════════════════════════════════════════════════
+📡 Fetching hamburg-startups.net RSS...
+📡 Fetching hamburg-business.com events...
+  ✅ Found 5 event-related posts from hamburg-startups.net
+  ✅ Found 9 events from hamburg-business.com
+
+✅ Saved 14 events to /home/openclaw/.openclaw/workspace/barfinder/hamburgwork_events_cache.json
+[2026-02-16 03:04:50] ✅ Hamburg Digital Ecosystem fertig
+[2026-02-16 03:04:50] ▶ Rural Events (Lentföhrden) (scrape_rural_events.js)...
+🏡 Rural Events Scraper — Lentföhrden & Umkreis
+
+📍 Scraping lentfoehrden.de...
+🍺 Scraping woltersgasthof.eatbu.com...
+  → 13 Events gefunden
+  → 6 Events gefunden
+📅 12 wiederkehrende Dorffeste/Saisonevents hinzugefügt
+
+✅ 31 Events gespeichert → ./rural_events_cache.json
+[2026-02-16 03:04:53] ✅ Rural Events (Lentföhrden) fertig
+[2026-02-16 03:04:53] 📅 Kein Sonntag → Google Ratings übersprungen
+[2026-02-16 03:04:53] 🔄 Server neustarten...
+[2026-02-16 03:04:56] ✅ Server neugestartet
+[2026-02-16 03:04:56] 🧪 Tests starten...
+
+🧪 Barfinder Test Suite
+══════════════════════════════════════════════════
+
+📡 API Health Checks:
+✅ /api/places status 200 — 200, 1438ms
+✅ /api/places has entries — 110 places
+✅ /api/places all have name/lat/lon
+✅ /api/places < 5000ms (Overpass live) — 1438ms
+✅ /api/hot status 200 — 200, 41ms
+✅ /api/hot all have vibeScore/hotScore
+✅ /api/hot < 200ms — 41ms
+✅ /api/events status 200 — 200, 11ms
+✅ /api/events returns array — 0 events
+✅ /api/sources status 200 — 200, 8ms
+✅ /api/sources all have status — 16 sources
+✅ /api/weather status 200 — 200, 2ms
+✅ /api/weather has temp/weatherEmoji — ☁️ -3°C
+✅ /api/weather < 100ms — 2ms
+
+🔍 Daten-Konsistenz:
+✅ All places have numeric lat/lon
+✅ vibeScore 0-100 — 110 places with vibeScore
+✅ estimatedBusyness 0-100 — 110 places
+✅ isOpen is boolean or null — 110 places
+✅ No duplicate places — all unique
+
+📁 Cache-Dateien:
+✅ cache.json exists & valid JSON
+✅ network_events_cache.json exists & valid JSON
+✅ google_ratings_cache.json exists & valid JSON
+✅ events_pipeline_cache.json exists & valid JSON
+
+══════════════════════════════════════════════════
+📊 Ergebnis: 23/23 Tests bestanden 🎉
+
+💾 Ergebnisse → test_results.json
+
+[2026-02-16 03:04:58] ✅ Alle Tests bestanden
+[2026-02-16 03:04:58] 🗺️ Standort-Plausibilitätscheck...
+⚠️ 7 location(s) with suspicious coordinates:
+  ❌ Zentrale (Dorfstraße 7, Kisdorf)
+     Coordinates outside Hamburg bounding box: 53.888, 9.933
+  ❌ Langeloher Hof (Langeloh, Bad Bramstedt)
+     Coordinates outside Bad Bramstedt bounding box: 53.5727146, 9.8465686
+  ❌ Phoenix Stübchen (Am Sportplatz 1a, 24629 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8103523, 10.0101077
+  ❌ Hotel & Restaurant & Bar & Lounge Lindenhof (Hamburger Straße 8, Bad Bramstedt)
+     Coordinates outside Bad Bramstedt bounding box: 53.4884074, 10.2388931
+  ❌ Wolters Gasthof von 1787 (Glückstädter Straße 3, 24576 Weddelbrook)
+     Coordinates outside Hamburg bounding box: 53.9049, 9.8329
+  ❌ Rock Bar (Ulzburger Str. 609, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.6538118, 10.0770973
+  ❌ Billiard-Café (Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7926888, 9.9808134
+[2026-02-16 03:04:58] ERROR: ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json
+[2026-02-16 03:04:58] 📊 Running data enrichment...
+[2026-02-16 03:04:58] 🔍 Running quality check...
+[2026-02-16 03:04:58] 🗄️ Re-syncing SQLite DB...
+[2026-02-16 03:04:58] ═══ Nightly Update beendet (Fehler: 1) ═══

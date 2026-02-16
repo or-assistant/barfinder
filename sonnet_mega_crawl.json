@@ -1,0 +1,908 @@
+[
+  {
+    "name": "Café Eppendorf",
+    "category": "cafe",
+    "description": "Beliebtes Eppendorfer Stadtteilcafé mit Kuchen und Frühstück.",
+    "district": "Eppendorf",
+    "address": "Café Borchers, 1-3, Geschwister-Scholl-Straße, Eppendorf, Hamburg-Nord, Hamburg, 20251, Deutschland",
+    "lat": 53.5943078,
+    "lon": 9.986988,
+    "verified": true
+  },
+  {
+    "name": "Dorfkrug Eppendorf",
+    "category": "restaurant",
+    "description": "Traditionelles deutsches Restaurant im Herzen von Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Eppendorfer Landstraße",
+    "verified": false
+  },
+  {
+    "name": "Tassajara",
+    "category": "restaurant",
+    "description": "Vegetarisches Restaurant mit kreativer Küche in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Tassajara, 4, Eppendorfer Landstraße, Eppendorf, Hamburg-Nord, Hamburg, 20249, Deutschland",
+    "lat": 53.585129,
+    "lon": 9.9821747,
+    "verified": true
+  },
+  {
+    "name": "Poletto",
+    "category": "restaurant",
+    "description": "Cornelia Polettos italienisches Fine-Dining-Restaurant.",
+    "district": "Eppendorf",
+    "address": "Poletto Winebar, 287, Eppendorfer Weg, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschland",
+    "lat": 53.5851319,
+    "lon": 9.9808748,
+    "verified": true
+  },
+  {
+    "name": "Eppendorfer Grillstation",
+    "category": "restaurant",
+    "description": "Beliebter Grillimbiss in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Eppendorfer Grillstation, 172, Eppendorfer Weg, Hoheluft-West, Eimsbüttel, Hamburg, 20253, Deutschland",
+    "lat": 53.5801576,
+    "lon": 9.9682391,
+    "verified": true
+  },
+  {
+    "name": "Die Herberge",
+    "category": "bar",
+    "description": "Gemütliche Kneipe mit wechselndem Programm in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Martinistraße",
+    "verified": false
+  },
+  {
+    "name": "Bistro La Cave",
+    "category": "restaurant",
+    "description": "Französisches Bistro mit guter Weinkarte in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Eppendorfer Weg",
+    "verified": false
+  },
+  {
+    "name": "Mühlenkamp Bistro",
+    "category": "restaurant",
+    "description": "Bistro-Küche am beliebten Mühlenkamp in Winterhude.",
+    "district": "Winterhude",
+    "address": "Mühlenkamp",
+    "verified": false
+  },
+  {
+    "name": "Latteria",
+    "category": "cafe",
+    "description": "Italienisches Eiscafé und Kaffeerösterei am Mühlenkamp.",
+    "district": "Winterhude",
+    "address": "Mühlenkamp",
+    "verified": false
+  },
+  {
+    "name": "Café May Hoheluft",
+    "category": "cafe",
+    "description": "Beliebte Frühstücks-Kette, Filiale in Hoheluft.",
+    "district": "Hoheluft",
+    "address": "Hoheluftchaussee",
+    "verified": false
+  },
+  {
+    "name": "Neni Hamburg",
+    "category": "restaurant",
+    "description": "Levantinische Küche im 25hours Hotel, toller Blick.",
+    "district": "Hoheluft",
+    "address": "Neni, 12, Osakaallee, Quartier Überseequartier, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+    "lat": 53.5423139,
+    "lon": 9.998357,
+    "verified": true
+  },
+  {
+    "name": "Omas Apotheke Eimsbüttel",
+    "category": "pub",
+    "description": "Ableger der Schanzen-Kultkneipe.",
+    "district": "Eimsbüttel",
+    "address": "Osterstraße",
+    "verified": false
+  },
+  {
+    "name": "May am Osterdeich",
+    "category": "cafe",
+    "description": "Café May Filiale in Eimsbüttel.",
+    "district": "Eimsbüttel",
+    "address": "Osterstraße",
+    "verified": false
+  },
+  {
+    "name": "Limos",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant mit hervorragenden Mezze.",
+    "district": "Sternschanze",
+    "address": "Schulterblatt",
+    "verified": false
+  },
+  {
+    "name": "Nil Restaurant",
+    "category": "restaurant",
+    "description": "Norddeutsche Küche mit saisonalen Menüs.",
+    "district": "Sternschanze",
+    "address": "Restaurant Nil, 5, Neuer Pferdemarkt, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
+    "lat": 53.5562983,
+    "lon": 9.9633511,
+    "verified": true
+  },
+  {
+    "name": "Hatari Schanze",
+    "category": "pub",
+    "description": "Kultige Kneipe in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Schulterblatt",
+    "verified": false
+  },
+  {
+    "name": "Afri Cola Stube",
+    "category": "pub",
+    "description": "Kleine Kneipe in der Schanze mit Retrocharme.",
+    "district": "Sternschanze",
+    "address": "Schulterblatt",
+    "verified": false
+  },
+  {
+    "name": "Café du Bonheur",
+    "category": "cafe",
+    "description": "Französisches Café mit excellenten Crêpes in Ottensen.",
+    "district": "Ottensen",
+    "address": "Ottenser Hauptstraße",
+    "verified": false
+  },
+  {
+    "name": "Café Knallhart",
+    "category": "cafe",
+    "description": "Hippes Café mit gutem Kaffee in Ottensen.",
+    "district": "Ottensen",
+    "address": "Bahrenfelder Straße",
+    "verified": false
+  },
+  {
+    "name": "Ottenser Brauerei",
+    "category": "biergarten",
+    "description": "Kleine Craft-Brauerei mit Biergarten in Ottensen.",
+    "district": "Ottensen",
+    "address": "Bahrenfelder Straße",
+    "verified": false
+  },
+  {
+    "name": "Gaststätte Lange",
+    "category": "restaurant",
+    "description": "Gutbürgerliches deutsches Restaurant in Ottensen.",
+    "district": "Ottensen",
+    "address": "M&V Gaststätte, 22, Lange Reihe, St. Georg, Hamburg-Mitte, Hamburg, 20099, Deutschland",
+    "lat": 53.5559035,
+    "lon": 10.009589,
+    "verified": true
+  },
+  {
+    "name": "Dat Backhus",
+    "category": "cafe",
+    "description": "Traditionsreiche Hamburger Bäckereikette mit Café.",
+    "district": "Ottensen",
+    "address": "Dat Backhus, Mö-Passage, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland",
+    "lat": 53.5521015,
+    "lon": 10.0052426,
+    "verified": true
+  },
+  {
+    "name": "Café Schmidt",
+    "category": "cafe",
+    "description": "Gemütliches Café mit Kuchen und Frühstück in Ottensen.",
+    "district": "Ottensen",
+    "address": "Café Schmidt, 212, Große Elbstraße, Altona, Altona-Altstadt, Altona, Hamburg, 22767, Deutschland",
+    "lat": 53.5447605,
+    "lon": 9.9398457,
+    "verified": true
+  },
+  {
+    "name": "Fischereihafen Restaurant",
+    "category": "restaurant",
+    "description": "Legendäres Fischrestaurant am Hamburger Hafen.",
+    "district": "Altona",
+    "address": "Fischereihafen Restaurant, 143, Große Elbstraße, Altona, Altona-Altstadt, Altona, Hamburg, 22767, Deutschland",
+    "lat": 53.5444951,
+    "lon": 9.9358863,
+    "verified": true
+  },
+  {
+    "name": "Indochine",
+    "category": "restaurant",
+    "description": "Vietnamesisch-französische Fusionsküche in St. Pauli.",
+    "district": "St. Pauli",
+    "address": "Hein-Hoyer-Straße",
+    "verified": false
+  },
+  {
+    "name": "Cafe May St. Pauli",
+    "category": "cafe",
+    "description": "Beliebtes Frühstückscafé am Pinnasberg.",
+    "district": "St. Pauli",
+    "address": "Cafe May, Seilerstraße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
+    "lat": 53.5505106,
+    "lon": 9.9623457,
+    "verified": true
+  },
+  {
+    "name": "Kaffeerösterei Burg",
+    "category": "cafe",
+    "description": "Hamburger Traditions-Kaffeerösterei in der Speicherstadt.",
+    "district": "HafenCity",
+    "address": "Kaffeerösterei Burg, 252, Eppendorfer Weg, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschland",
+    "lat": 53.5834768,
+    "lon": 9.9771037,
+    "verified": true
+  },
+  {
+    "name": "Vlet in der Speicherstadt",
+    "category": "restaurant",
+    "description": "Moderne norddeutsche Küche in historischer Speicherstadt-Kulisse.",
+    "district": "HafenCity",
+    "address": "Am Sandtorkai 23/24",
+    "verified": false
+  },
+  {
+    "name": "Carls an der Elbphilharmonie",
+    "category": "restaurant",
+    "description": "Brasserie direkt an der Elbphilharmonie.",
+    "district": "HafenCity",
+    "address": "Am Kaiserkai 69",
+    "verified": false
+  },
+  {
+    "name": "Wandrahm",
+    "category": "restaurant",
+    "description": "Restaurant im Herzen der HafenCity.",
+    "district": "HafenCity",
+    "address": "Alter Wandrahm, Quartier Brooktorkai/Ericus, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+    "lat": 53.5462307,
+    "lon": 10.0005836,
+    "verified": true
+  },
+  {
+    "name": "Überseequartier Restaurant",
+    "category": "restaurant",
+    "description": "Gastronomie im neuen Überseequartier.",
+    "district": "HafenCity",
+    "address": "mama trattoria Hamburg Hafencity, 50, Am Sandtorkai, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+    "lat": 53.5429514,
+    "lon": 9.9938926,
+    "verified": true
+  },
+  {
+    "name": "Anna Sgroi",
+    "category": "restaurant",
+    "description": "Gehobenes italienisches Restaurant mit Stern-Küche.",
+    "district": "Rotherbaum",
+    "address": "Milchstraße 7",
+    "verified": false
+  },
+  {
+    "name": "Isemarkt Café",
+    "category": "cafe",
+    "description": "Café am berühmten Isemarkt unter der Hochbahnbrücke.",
+    "district": "Harvestehude",
+    "address": "Isestraße",
+    "verified": false
+  },
+  {
+    "name": "Trific",
+    "category": "restaurant",
+    "description": "Kreative internationale Küche in Barmbek.",
+    "district": "Barmbek",
+    "address": "Barmbeker Straße",
+    "verified": false
+  },
+  {
+    "name": "Heldenbar",
+    "category": "bar",
+    "description": "Cocktailbar im Barmbeker Schanzenviertel.",
+    "district": "Barmbek",
+    "address": "Hufnerstraße",
+    "verified": false
+  },
+  {
+    "name": "Süd Restaurant",
+    "category": "restaurant",
+    "description": "Gehobene Küche in Uhlenhorst.",
+    "district": "Uhlenhorst",
+    "address": "Hamburg, 94B, Witte de Withstraat, Cool, Centrum, Rotterdam, Zuid-Holland, Nederland, 3012 BT, Nederland",
+    "lat": 51.9150631,
+    "lon": 4.4755388,
+    "verified": true
+  },
+  {
+    "name": "Sasso",
+    "category": "restaurant",
+    "description": "Beliebtes italienisches Restaurant in der HafenCity.",
+    "district": "HafenCity",
+    "address": "Gran Sasso, 12, Schlüterstraße, Rotherbaum, Eimsbüttel, Hamburg, 20146, Deutschland",
+    "lat": 53.565001,
+    "lon": 9.9869465,
+    "verified": true
+  },
+  {
+    "name": "Strandhaus",
+    "category": "restaurant",
+    "description": "Restaurant direkt am Blankeneser Elbstrand.",
+    "district": "Blankenese",
+    "address": "Brücke 10 im Strandhaus, 12, Övelgönner Hohlweg, Othmarschen, Altona, Hamburg, 22605, Deutschland",
+    "lat": 53.5449153,
+    "lon": 9.8922627,
+    "verified": true
+  },
+  {
+    "name": "Süllberg",
+    "category": "restaurant",
+    "description": "Karlheinz Hagspiels Gourmetrestaurant mit Elbblick in Blankenese.",
+    "district": "Blankenese",
+    "address": "Süllberg, Hamburg, 22587, Deutschland",
+    "lat": 53.5593859,
+    "lon": 9.8011863,
+    "verified": true
+  },
+  {
+    "name": "CCB Restaurant",
+    "category": "restaurant",
+    "description": "Restaurant im CCB Bergedorf.",
+    "district": "Bergedorf",
+    "address": "Bergedorfer Straße",
+    "verified": false
+  },
+  {
+    "name": "Lütt Stansen",
+    "category": "restaurant",
+    "description": "Gemütliches Restaurant in Bergedorf.",
+    "district": "Bergedorf",
+    "address": "Sachsentor",
+    "verified": false
+  },
+  {
+    "name": "Wandsbeker Marktplatz Café",
+    "category": "cafe",
+    "description": "Café am belebten Wandsbeker Marktplatz.",
+    "district": "Wandsbek",
+    "address": "Wandsbeker Marktstraße",
+    "verified": false
+  },
+  {
+    "name": "Restaurant Ahoi",
+    "category": "restaurant",
+    "description": "Fischrestaurant in Wandsbek.",
+    "district": "Wandsbek",
+    "address": "Ahoi, 12, Spitalerstraße, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland",
+    "lat": 53.5519341,
+    "lon": 10.0020998,
+    "verified": true
+  },
+  {
+    "name": "Mercado Restaurant",
+    "category": "restaurant",
+    "description": "Gastronomie im Mercado Einkaufszentrum.",
+    "district": "Ottensen",
+    "address": "Oh! Fisch - Meer und so, 10, Ottenser Hauptstraße, Ottensen, Altona, Hamburg, 22765, Deutschland",
+    "lat": 53.5527879,
+    "lon": 9.9322713,
+    "verified": true
+  },
+  {
+    "name": "Cinnamon",
+    "category": "restaurant",
+    "description": "Sri-lankische Küche in Ottensen.",
+    "district": "Ottensen",
+    "address": "Cinnamon Tower, 10, Osakaallee, Quartier Überseequartier, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+    "lat": 53.5425853,
+    "lon": 9.9983858,
+    "verified": true
+  },
+  {
+    "name": "Clouds Heaven's Bar",
+    "category": "bar",
+    "description": "Rooftop-Bar in den Tanzenden Türmen über der Reeperbahn.",
+    "district": "St. Pauli",
+    "address": "Reeperbahn 1",
+    "verified": false
+  },
+  {
+    "name": "Kleiner Michel Café",
+    "category": "cafe",
+    "description": "Café nahe der Kleinen Michaeliskirche.",
+    "district": "Neustadt",
+    "address": "Michaelisstraße",
+    "verified": false
+  },
+  {
+    "name": "Fischbrötchenbude Brücke 10",
+    "category": "restaurant",
+    "description": "Die berühmteste Fischbrötchenbude Hamburgs.",
+    "district": "St. Pauli",
+    "address": "Landungsbrücken, Brücke 10",
+    "verified": false
+  },
+  {
+    "name": "Luicella's Ice Cream",
+    "category": "cafe",
+    "description": "Handgemachtes Eis mit kreativen Sorten.",
+    "district": "Sternschanze",
+    "address": "Luicella’s Ice Cream, 8, Spitalerstraße, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland",
+    "lat": 53.5524074,
+    "lon": 10.0036336,
+    "verified": true
+  },
+  {
+    "name": "Restaurant Brook",
+    "category": "restaurant",
+    "description": "Moderne Küche am Nikolaifleet.",
+    "district": "Altstadt",
+    "address": "Brook, 91, Bei den Mühren, Altstadt, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+    "lat": 53.545351,
+    "lon": 9.9936697,
+    "verified": true
+  },
+  {
+    "name": "Weinwirtschaft Kleines Jacob",
+    "category": "wine",
+    "description": "Weinbar im Hotel Jacob in Nienstedten.",
+    "district": "Blankenese",
+    "address": "Weinwirtschaft Kleines Jacob, 404, Elbchaussee, Nienstedten, Altona, Hamburg, 22609, Deutschland",
+    "lat": 53.5507003,
+    "lon": 9.8437886,
+    "verified": true
+  },
+  {
+    "name": "La Mirabelle",
+    "category": "restaurant",
+    "description": "Feines französisches Restaurant in Harvestehude.",
+    "district": "Harvestehude",
+    "address": "Bundesstraße 15",
+    "verified": false
+  },
+  {
+    "name": "Café Backwahn",
+    "category": "cafe",
+    "description": "Bio-Bäckerei mit Café in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Eppendorfer Weg",
+    "verified": false
+  },
+  {
+    "name": "Jill's",
+    "category": "bar",
+    "description": "Cocktailbar im Stilwerk an der Großen Elbstraße.",
+    "district": "Altona",
+    "address": "Große Elbstraße 68",
+    "verified": false
+  },
+  {
+    "name": "El Mexicano",
+    "category": "restaurant",
+    "description": "Mexikanisches Restaurant in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Schulterblatt",
+    "verified": false
+  },
+  {
+    "name": "Henriks",
+    "category": "restaurant",
+    "description": "Brunch und Bistro-Küche am Mühlenkamp.",
+    "district": "Winterhude",
+    "address": "HENRIKS Bar & Restaurant, 8, Tesdorpfstraße, Rotherbaum, Eimsbüttel, Hamburg, 20148, Deutschland",
+    "lat": 53.5635549,
+    "lon": 9.9921098,
+    "verified": true
+  },
+  {
+    "name": "Escobar",
+    "category": "bar",
+    "description": "Cocktailbar mit lateinamerikanischem Flair.",
+    "district": "St. Pauli",
+    "address": "Clemens-Schultz-Straße",
+    "verified": false
+  },
+  {
+    "name": "Bar Oorlam",
+    "category": "bar",
+    "description": "Cocktailbar mit südafrikanischem Flair.",
+    "district": "St. Pauli",
+    "address": "Oorlam, 29, Kohlhöfen, Portugiesenviertel, Neustadt, Hamburg-Mitte, Hamburg, 20355, Deutschland",
+    "lat": 53.5534186,
+    "lon": 9.9798395,
+    "verified": true
+  },
+  {
+    "name": "Schauermann",
+    "category": "restaurant",
+    "description": "Restaurant im ehemaligen Zollamt in Bahrenfeld.",
+    "district": "Bahrenfeld",
+    "address": "Gasstraße",
+    "verified": false
+  },
+  {
+    "name": "Restaurant Jellyfish",
+    "category": "restaurant",
+    "description": "Fischrestaurant mit modernem Konzept.",
+    "district": "Eimsbüttel",
+    "address": "Jellyfish, 12, Weidenallee, Eimsbüttel, Hamburg, 20357, Deutschland",
+    "lat": 53.5665784,
+    "lon": 9.9654911,
+    "verified": true
+  },
+  {
+    "name": "Trattoria Portofino",
+    "category": "restaurant",
+    "description": "Klassischer Italiener mit Pasta und Pizza.",
+    "district": "Winterhude",
+    "address": "Gertigstraße",
+    "verified": false
+  },
+  {
+    "name": "Café Vju",
+    "category": "cafe",
+    "description": "Café im Energiebunker mit Blick über Wilhelmsburg.",
+    "district": "Wilhelmsburg",
+    "address": "vju im Energiebunker, 7, Neuhöfer Straße, Reiherstiegviertel, Wilhelmsburg, Hamburg-Mitte, Hamburg, 21107, Deutschland",
+    "lat": 53.5101461,
+    "lon": 9.9896185,
+    "verified": true
+  },
+  {
+    "name": "Herr Max",
+    "category": "restaurant",
+    "description": "Brasserie-Küche mit französischem Einschlag am Schulterblatt.",
+    "district": "Sternschanze",
+    "address": "Herr Max, 44, Hegestraße, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschland",
+    "lat": 53.5834317,
+    "lon": 9.9823665,
+    "verified": true
+  },
+  {
+    "name": "Korfu",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant in St. Georg.",
+    "district": "St. Georg",
+    "address": "Taverna Korfu, 27, Neugrabener Bahnhofstraße, Neugraben, Neugraben-Fischbek, Harburg, Hamburg, 21149, Deutschland",
+    "lat": 53.469629,
+    "lon": 9.854674,
+    "verified": true
+  },
+  {
+    "name": "Die Bullerei",
+    "category": "restaurant",
+    "description": "Tim Mälzers Restaurant in den Schanzenhöfen.",
+    "district": "Sternschanze",
+    "address": "Lagerstraße 34b",
+    "verified": false
+  },
+  {
+    "name": "100/200 Kitchen",
+    "category": "restaurant",
+    "description": "Kreative Küche in Bahrenfeld.",
+    "district": "Bahrenfeld",
+    "address": "Gaußstraße 190",
+    "verified": false
+  },
+  {
+    "name": "Kachel",
+    "category": "restaurant",
+    "description": "Levantinische Küche in Bahrenfeld.",
+    "district": "Bahrenfeld",
+    "address": "Bahrenfelder Straße",
+    "verified": false
+  },
+  {
+    "name": "Salt & Silver",
+    "category": "restaurant",
+    "description": "Streetfood-inspirierte Küche in St. Pauli.",
+    "district": "St. Pauli",
+    "address": "Salt & Silver Levante, 140, St. Pauli Hafenstraße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
+    "lat": 53.5465424,
+    "lon": 9.9584386,
+    "verified": true
+  },
+  {
+    "name": "Hobenköök",
+    "category": "restaurant",
+    "description": "Marktrestaurant mit regionalen Produkten in der HafenCity.",
+    "district": "HafenCity",
+    "address": "Hobenköök, 43, Stockmeyerstraße, Quartier Am Lohsepark, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+    "lat": 53.5432879,
+    "lon": 10.0078011,
+    "verified": true
+  },
+  {
+    "name": "Hygge",
+    "category": "cafe",
+    "description": "Skandinavisch inspiriertes Café in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Hygge, 179, Baron-Voght-Straße, Groß Flottbek, Altona, Hamburg, 22607, Deutschland",
+    "lat": 53.5652386,
+    "lon": 9.8746615,
+    "verified": true
+  },
+  {
+    "name": "Café Extrablatt",
+    "category": "cafe",
+    "description": "Café-Kette mit Frühstück am Jungfernstieg.",
+    "district": "Neustadt",
+    "address": "Jungfernstieg",
+    "verified": false
+  },
+  {
+    "name": "Café Délice",
+    "category": "cafe",
+    "description": "Französische Pâtisserie in der Neustadt.",
+    "district": "Neustadt",
+    "address": "Cafe Delice, Schopstraße, Eimsbüttel, Hamburg, 20259, Deutschland",
+    "lat": 53.5788932,
+    "lon": 9.9467923,
+    "verified": true
+  },
+  {
+    "name": "Balzac Coffee",
+    "category": "cafe",
+    "description": "Hamburger Kaffeekette mit zahlreichen Filialen.",
+    "district": "Neustadt",
+    "address": "Jungfernstieg",
+    "verified": false
+  },
+  {
+    "name": "Karoviertel Café",
+    "category": "cafe",
+    "description": "Café im Karolinenviertel.",
+    "district": "Sternschanze",
+    "address": "Marktstraße",
+    "verified": false
+  },
+  {
+    "name": "Hej Papa",
+    "category": "fruehstueck",
+    "description": "Beliebtes Frühstückslokal in Barmbek.",
+    "district": "Barmbek",
+    "address": "Fuhlsbüttler Straße",
+    "verified": false
+  },
+  {
+    "name": "Fischerhaus Blankenese",
+    "category": "restaurant",
+    "description": "Traditionelles Restaurant am Blankeneser Strand.",
+    "district": "Blankenese",
+    "address": "Fischerhaus Museum, 6, Elbterrasse, Blankenese, Altona, Hamburg, 22587, Deutschland",
+    "lat": 53.5580662,
+    "lon": 9.8020539,
+    "verified": true
+  },
+  {
+    "name": "Treudelberg",
+    "category": "restaurant",
+    "description": "Restaurant im Golfclub am Stadtrand.",
+    "district": "Wandsbek",
+    "address": "Treudelberg, Lemsahl-Mellingstedt, Wandsbek, Hamburg, 22397, Deutschland",
+    "lat": 53.6724037,
+    "lon": 10.0990437,
+    "verified": true
+  },
+  {
+    "name": "The Table Kevin Fehling",
+    "category": "restaurant",
+    "description": "Drei-Sterne-Restaurant in der HafenCity.",
+    "district": "HafenCity",
+    "address": "Shanghaiallee 15",
+    "verified": false
+  },
+  {
+    "name": "Mongo's",
+    "category": "restaurant",
+    "description": "Mongolisches BBQ Restaurant in der Innenstadt.",
+    "district": "Neustadt",
+    "address": "Gänsemarkt",
+    "verified": false
+  },
+  {
+    "name": "Grüner Jäger",
+    "category": "bar",
+    "description": "Kultige Bar mit Livemusik in St. Pauli.",
+    "district": "St. Pauli",
+    "address": "Grüner Jäger, 36, Neuer Pferdemarkt, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
+    "lat": 53.5567097,
+    "lon": 9.9636329,
+    "verified": true
+  },
+  {
+    "name": "Meanie Bar",
+    "category": "bar",
+    "description": "Kleine Bar mit großer Whiskey-Auswahl.",
+    "district": "Sternschanze",
+    "address": "Schulterblatt",
+    "verified": false
+  },
+  {
+    "name": "Kyti Voo",
+    "category": "restaurant",
+    "description": "Asiatische Fusionsküche auf St. Pauli.",
+    "district": "St. Pauli",
+    "address": "Clemens-Schultz-Straße",
+    "verified": false
+  },
+  {
+    "name": "Ono by Steffen Henssler",
+    "category": "restaurant",
+    "description": "Japanisch-peruanische Küche von Steffen Henssler.",
+    "district": "Rotherbaum",
+    "address": "Rothenbaumchaussee",
+    "verified": false
+  },
+  {
+    "name": "Kajüte",
+    "category": "restaurant",
+    "description": "Fischrestaurant am HafenCity-Ufer.",
+    "district": "HafenCity",
+    "address": "Kajüte, 42, Striepenweg, Neuwiedenthal, Hausbruch, Harburg, Hamburg, 21147, Deutschland",
+    "lat": 53.4740496,
+    "lon": 9.8755265,
+    "verified": true
+  },
+  {
+    "name": "Anno 1905",
+    "category": "restaurant",
+    "description": "Restaurant in denkmalgeschütztem Gebäude in Barmbek.",
+    "district": "Barmbek",
+    "address": "Anno 1905, 17, Holstenplatz, Altona-Altstadt, Altona, Hamburg, 22765, Deutschland",
+    "lat": 53.5609526,
+    "lon": 9.9479024,
+    "verified": true
+  },
+  {
+    "name": "Glanz & Gloria",
+    "category": "bar",
+    "description": "Bar mit Vintage-Flair in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Glanz&Gloria, Spielbudenplatz, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
+    "lat": 53.5491382,
+    "lon": 9.963211,
+    "verified": true
+  },
+  {
+    "name": "Kopiba",
+    "category": "cafe",
+    "description": "Specialty Coffee in Ottensen.",
+    "district": "Ottensen",
+    "address": "Bahrenfelder Straße",
+    "verified": false
+  },
+  {
+    "name": "Nord Coast Coffee",
+    "category": "cafe",
+    "description": "Hamburger Specialty Coffee Rösterei.",
+    "district": "Sternschanze",
+    "address": "Nord Coast Coffee Roastery, 9, Deichstraße, Altstadt, Hamburg-Mitte, Hamburg, 20459, Deutschland",
+    "lat": 53.5465554,
+    "lon": 9.9880626,
+    "verified": true
+  },
+  {
+    "name": "Bidges & Sons",
+    "category": "cafe",
+    "description": "Veganes Café und Shop.",
+    "district": "Eimsbüttel",
+    "address": "Osterstraße",
+    "verified": false
+  },
+  {
+    "name": "Milchbar",
+    "category": "cafe",
+    "description": "Café mit großem Frühstücksangebot in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Bartelsstraße",
+    "verified": false
+  },
+  {
+    "name": "Schmalz und Gloria",
+    "category": "restaurant",
+    "description": "Burger und Comfort Food in Barmbek.",
+    "district": "Barmbek",
+    "address": "Wiesendamm",
+    "verified": false
+  },
+  {
+    "name": "Lago Bay",
+    "category": "restaurant",
+    "description": "Mediterranes Restaurant an der Alster in Winterhude.",
+    "district": "Winterhude",
+    "address": "Leinpfad",
+    "verified": false
+  },
+  {
+    "name": "Piment",
+    "category": "restaurant",
+    "description": "Marokkanische Sterneküche in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Piment, 29, Lehmweg, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschland",
+    "lat": 53.5820995,
+    "lon": 9.979474,
+    "verified": true
+  },
+  {
+    "name": "Wiener Café",
+    "category": "cafe",
+    "description": "Wiener Kaffeehauskultur in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Eppendorfer Baum",
+    "verified": false
+  },
+  {
+    "name": "Küchenwerkstatt",
+    "category": "restaurant",
+    "description": "Kochschule und Restaurant in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Lagerstraße",
+    "verified": false
+  },
+  {
+    "name": "Café Mimosa",
+    "category": "cafe",
+    "description": "Gemütliches Café in Uhlenhorst.",
+    "district": "Uhlenhorst",
+    "address": "Mimosa, 87, Clemens-Schultz-Straße, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
+    "lat": 53.5524729,
+    "lon": 9.9635997,
+    "verified": true
+  },
+  {
+    "name": "Heimathafen",
+    "category": "restaurant",
+    "description": "Restaurant im Falkensteiner Ufer in Blankenese.",
+    "district": "Blankenese",
+    "address": "Heimathafen, 188, Grindelallee, Rotherbaum, Eimsbüttel, Hamburg, 20144, Deutschland",
+    "lat": 53.5721514,
+    "lon": 9.979157,
+    "verified": true
+  },
+  {
+    "name": "Sage Restaurant",
+    "category": "restaurant",
+    "description": "Modernes Restaurant am Hamburger Hafen.",
+    "district": "HafenCity",
+    "address": "Am Kaiserkai",
+    "verified": false
+  },
+  {
+    "name": "El Chango",
+    "category": "restaurant",
+    "description": "Argentinisches Steakhouse in der Schanze.",
+    "district": "Sternschanze",
+    "address": "Bartelsstraße",
+    "verified": false
+  },
+  {
+    "name": "Sam's Pizza",
+    "category": "restaurant",
+    "description": "Beliebte Pizza in St. Georg.",
+    "district": "St. Georg",
+    "address": "Lange Reihe",
+    "verified": false
+  },
+  {
+    "name": "Bistro Pastis",
+    "category": "restaurant",
+    "description": "Französisches Bistro in Eppendorf.",
+    "district": "Eppendorf",
+    "address": "Eppendorfer Baum",
+    "verified": false
+  },
+  {
+    "name": "Café Luise",
+    "category": "cafe",
+    "description": "Café im Universitätsviertel.",
+    "district": "Rotherbaum",
+    "address": "Café Luise, 157, Stübeheide, Ohlsdorf, Hamburg-Nord, Hamburg, 22337, Deutschland",
+    "lat": 53.6334258,
+    "lon": 10.0540901,
+    "verified": true
+  }
+]

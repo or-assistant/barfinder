@@ -1,0 +1,1237 @@
+{
+  "lastUpdated": "2026-02-16T10:33:31.479Z",
+  "events": [
+    {
+      "title": "DJ Nicolaye",
+      "date": "2026-02-27",
+      "time": "21:00",
+      "location": "Aalhaus",
+      "category": "dj",
+      "source": "aalhaus.de"
+    },
+    {
+      "title": "Bube, Dame, König, Aal – Das 135. Aalhaus Doppelkopf-Turnier",
+      "date": "2026-03-05",
+      "time": "19:30",
+      "location": "Aalhaus",
+      "category": "quiz",
+      "source": "aalhaus.de"
+    },
+    {
+      "title": "15 UHR vorm MOLOTOW",
+      "date": "2026-12-30",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "LEBER - VERLEGT IN DEN HAFENBAHNHOF!",
+      "date": "2026-02-18",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "DAS AUS DER JUGEND + SCHEITERN.DREITAUSEND",
+      "date": "2026-02-19",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "DON'T STOP ME NOW - TONIGHT WITH STRAN",
+      "date": "2026-02-20",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "HINTERLANDGANG - Ausverkauft!",
+      "date": "2026-02-21",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "DEPRI DISKO - Melancholische Tanzmusik",
+      "date": "2026-02-21",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "PUB QUIZ - Kategorisch Fragwürdig - TOP",
+      "date": "2026-02-26",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "quiz",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "VJ WASTED - VIDEOS GALORE – TOP TEN&nb",
+      "date": "2026-02-28",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "MOTHER´S CAKE & THE TAZERS",
+      "date": "2026-03-03",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "MOTORBOOTY!",
+      "date": "2026-03-06",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "DON'T YOU WANT ME - 80s Party",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "dj",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "THE HAUNT",
+      "date": "2026-03-12",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "UNSANE",
+      "date": "2026-03-13",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "DEPRI DISKO - Melancholische Tanzmusik",
+      "date": "2026-03-14",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "TRAMHAUS",
+      "date": "2026-03-17",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "SPYRES - ACHTUNG: Show wurde verlegt auf&nb",
+      "date": "2026-03-18",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "SPYRES",
+      "date": "2026-03-19",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "MOTORBOOTY!",
+      "date": "2026-03-20",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "FRITZI ERNST",
+      "date": "2026-03-23",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "PALES",
+      "date": "2026-03-24",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "DON'T STOP ME NOW - From 60s to 9",
+      "date": "2026-03-27",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "NOVA TWINS",
+      "date": "2026-04-04",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "THE HAUNTED YOUTH",
+      "date": "2026-04-10",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "CHRISTIN NICHOLS - KONZERT VERSCHOBEN AUF D",
+      "date": "2026-04-17",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "live_music",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "GARAGEVILLE - THE WEEKEND - 2026 The&",
+      "date": "2026-04-24",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "GARAGEVILLE - THE WEEKEND - 2026 Sux S",
+      "date": "2026-04-25",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "L.A. SALAMI - Nachholtermin, Tickets vom 31",
+      "date": "2026-04-30",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "ARCHERS",
+      "date": "2026-04-30",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "LETTERS SENT HOME",
+      "date": "2026-05-08",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "WREST",
+      "date": "2026-05-26",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "SORRY ABOUT YOUR DAUGHTER",
+      "date": "2026-07-22",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "WELTTURBOJUGENDTAGE XX - Ausverkauft!",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "WELTTURBOJUGENDTAGE XX - Ausverkauft!",
+      "date": "2026-08-01",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "LEBER - VERLEGT IN DEN HAFENBAHNHOF!",
+      "date": "2026-02-18",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "EADES - Abgesagt!",
+      "date": "2026-03-06",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "NILS KEPPEL",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "BLACK FOXXES",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "FALSE LEFTY",
+      "date": "2026-03-09",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "um 12 Uhr!",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "location": "Nochtspeicher",
+      "category": "event",
+      "source": "nochtspeicher.de"
+    },
+    {
+      "title": "zu uns in den Nochtspeicher: Mit „How and Why“ zeigt Mélanie Pain die ganze",
+      "date": "2026-02-17",
+      "time": "20:00",
+      "location": "Nochtspeicher",
+      "category": "event",
+      "source": "nochtspeicher.de"
+    },
+    {
+      "title": "lädt die Opferhilfe Hamburg von 19:30-21:00 Uhr zum Bild-Text-Slam „Die letzte R",
+      "date": "2026-02-26",
+      "time": "20:00",
+      "location": "Nochtspeicher",
+      "category": "event",
+      "source": "nochtspeicher.de"
+    },
+    {
+      "title": "ab 10 Uhr!",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "location": "Nochtspeicher",
+      "category": "event",
+      "source": "nochtspeicher.de"
+    },
+    {
+      "title": "1\" />",
+      "date": "2026-09-06",
+      "time": "20:00",
+      "location": "Gruenspan",
+      "category": "event",
+      "source": "gruenspan.de"
+    },
+    {
+      "title": "), München (27.2.), Berlin (4.3.) und Hamburg (5.3.). Als Special Guest wird die",
+      "date": "2026-02-23",
+      "time": "20:00",
+      "location": "Gruenspan",
+      "category": "event",
+      "source": "gruenspan.de"
+    },
+    {
+      "title": "und bildet das emotionale Zentrum: zwei Perspektiven, zwei Stimmen, ein gemeinsa",
+      "date": "2026-03-06",
+      "time": "20:00",
+      "location": "Gruenspan",
+      "category": "event",
+      "source": "gruenspan.de"
+    },
+    {
+      "title": "jpg?w=1200\" />",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "um 09:10 Uhr muss aus produktionstechnischen Gr\\u00fcnden abgesagt werden.Die Ve",
+      "date": "2026-02-17",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "findet statt. ...\",\"offers\":{\"@type\":\"Offer\",\"priceCurrency\":\"EUR\",\"validFrom\":",
+      "date": "2026-02-17",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": ") im Gep\\u00e4ck f\\u00fcr zwei exklusive Clubshows nach Hamburg und K\\u00f6ln.\\u",
+      "date": "2026-03-06",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "dj",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=460&h=350&zx=2805&zy=2345&ti=1770904014&code=002fa2bdafbd06bd6cceceb6047c3",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=920&h=700&zx=2805&zy=2345&ti=1770904014&code=f5bf0c0e092e4c74622a4f508356e",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=600&h=480&zx=2805&zy=2345&ti=1770904014&code=1ad144314f107536d68f88e805ad4",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=1200&h=960&zx=2805&zy=2345&ti=1770904014&code=a42d854820cf86a5f6b201d73c9c",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=350&h=266&zx=2805&zy=2345&ti=1770904014&code=c7e7fe014e7a4a58cb6b7feacc42f",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=700&h=532&zx=2805&zy=2345&ti=1770904014&code=cf0ecb79a8e21e08ed0ec46733242",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg?w=820&h=420&zx=2805&zy=2345&ti=1770904014&code=e524bf008cb3c366ffb923ec46a10",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "jpg\",\"description\":\"XZIBIT \\u2013 Kingmaker Tour 2026 Hip-Hop-Legende XZIBIT",
+      "date": "2026-09-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "1.381 1.245-1.381h3.678V.64L10.057.625c-4.834 0-5.75 3.673-5.75 6.025v2.68H.616v",
+      "date": "2073-12-01",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "A Midsummer Night\\u00b4s Dream Schultheater in englischer Sprache",
+      "date": "2026-02-16",
+      "time": "08:10",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "A Midsummer Night\\u00b4s Dream Schultheater in englischer Sprache ***ABGESAGT****",
+      "date": "2026-02-17",
+      "time": "08:10",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Madison Cunningham The Ace Tour",
+      "date": "2026-02-19",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Angelo Kelly Ready to Rock",
+      "date": "2026-02-20",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "ClashGames #EIERKOPF-Show",
+      "date": "2026-02-21",
+      "time": "16:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Kensington Europe Tour 2026",
+      "date": "2026-02-23",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Reisen Reisen - der Podcast Live 2026",
+      "date": "2026-02-24",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Carnaval Baile da Bossa",
+      "date": "2026-02-27",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "31. Hamburger Blues Celebration",
+      "date": "2026-02-28",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Hot Mulligan Plus Special Guests",
+      "date": "2026-03-03",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Paper Kites If you go there, I hope you find it",
+      "date": "2026-03-05",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Keith Caputo Died Laughing Tour",
+      "date": "2026-03-06",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "La Dispute No one was driving the car",
+      "date": "2026-03-07",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Thrice",
+      "date": "2026-03-08",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Marc Broussard",
+      "date": "2026-03-13",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Irish Heartbeat Let\\u00b4s Celebrate St. Patrick\\u00b4s Day",
+      "date": "2026-03-14",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Randale",
+      "date": "2026-03-15",
+      "time": "14:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Divine Comedy European Tour 2026",
+      "date": "2026-03-18",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "comedy",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Thorbj\\u00f8rn Risager & The Black Tornado Live 2026",
+      "date": "2026-03-19",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Squeeze Tried, Tested and Trixies Tour",
+      "date": "2026-03-20",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Boxer Rebellion",
+      "date": "2026-03-21",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Alice Merton",
+      "date": "2026-03-22",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Life and Death of Martin Luther King Schultheater in englischer Sprache",
+      "date": "2026-03-23",
+      "time": "08:10",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Great Gatsby Schultheater in englischer Sprache",
+      "date": "2026-03-24",
+      "time": "08:10",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Magic Mumble Jumble Better Days Tour 2026",
+      "date": "2026-03-25",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Jeremy Days Beauty in Broken Tour",
+      "date": "2026-03-26",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "DeWolff & Blues Pills Double Bill Tour 2026",
+      "date": "2026-03-27",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Morgan Wallen Tribute UK",
+      "date": "2026-03-28",
+      "time": "18:30",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Young ClassX Stadtteilkonzert West",
+      "date": "2026-03-30",
+      "time": "17:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Young ClassX Stadtteilkonzert Mitte",
+      "date": "2026-03-31",
+      "time": "17:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Max Goldt Aber?",
+      "date": "2026-04-02",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Kr\\u00fcsch Kollektiv",
+      "date": "2026-04-04",
+      "time": "20:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Reggaeville Easter Special",
+      "date": "2026-04-05",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Axel Rudi Pell Ghost Town Tour 2026",
+      "date": "2026-04-08",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Boomer Party Party-Mix: 70er - 90er",
+      "date": "2026-04-10",
+      "time": "17:00",
+      "location": "Fabrik",
+      "category": "dj",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Kulturtag der Julius-Leber-Stadtteilschule Mischen Impossible Together",
+      "date": "2026-04-12",
+      "time": "10:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Aristocrats The Duck Tour 2026",
+      "date": "2026-04-13",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Sound of Nashville pr\\u00e4sentiert: Tucker Wetmore The Brunette World Tour",
+      "date": "2026-04-16",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Bummelkasten Irgendwas Bestimmtes",
+      "date": "2026-04-17",
+      "time": "15:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Bummelkasten Irgendwas Bestimmtes",
+      "date": "2026-04-18",
+      "time": "14:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Bummelkasten Irgendwas Bestimmtes",
+      "date": "2026-04-19",
+      "time": "13:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Le Comte de Monte Cristo Schultheater in franz\\u00f6sischer Sprache",
+      "date": "2026-04-20",
+      "time": "07:10",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Vonda Shepard European Spring Tour 2026",
+      "date": "2026-04-21",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Franny Dougan ***ABGESAGT***",
+      "date": "2026-04-22",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Mundstuhl Wir kommen",
+      "date": "2026-04-23",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Matteo Mancuso Route96 Tour",
+      "date": "2026-04-24",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Jan Plewka singt Rio Reiser",
+      "date": "2026-04-26",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "\\u00dc30\\/40 Tanz in den Mai Party",
+      "date": "2026-04-30",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "dj",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Les N\\u00e9gresses Vertes Zobitour",
+      "date": "2026-05-03",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Larry Fleet Another Year Older 2026 Tour",
+      "date": "2026-05-07",
+      "time": "17:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Randall King Sound of Nashville pr\\u00e4sentiert: A long way from Amarillo",
+      "date": "2026-05-08",
+      "time": "17:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Safri Duo Live in Germany 2026",
+      "date": "2026-05-10",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Jutes Far From Dilworth Tour",
+      "date": "2026-05-11",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "XZIBIT Kingmaker European Tour 2026 With Furnace Band",
+      "date": "2026-05-13",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "16 Horsepower Tour 2026",
+      "date": "2026-05-18",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Luka Bloom The Beloved Tour 2026",
+      "date": "2026-05-19",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Choir! Choir! Choir! We Will CHOIR! You: An EPIC Queen Sing-Along!",
+      "date": "2026-05-23",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Body Rhythm Festival & Friends Performance Night: Where bodies meet sound",
+      "date": "2026-05-24",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Tower of Power 58 Years of Funk & Soul",
+      "date": "2026-05-29",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Eule findet den Beat Das Theater-Konzert f\\u00fcr Kinder",
+      "date": "2026-05-31",
+      "time": "10:30",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Hazmat Modine",
+      "date": "2026-06-02",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Red Leather Tahoe Tour",
+      "date": "2026-06-07",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Bilmuri The Kinda Hard Tour 2026",
+      "date": "2026-06-09",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "NDR Vokalensemble voiceXchange#14 Hamburg & Shanty feat. mahoin RELOADED",
+      "date": "2026-06-12",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Tuten & Blasen 50 Jahre Tuten & Blasen",
+      "date": "2026-06-13",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Touch\\u00e9 Amor\\u00e9 Performing the Album Stage Four",
+      "date": "2026-06-14",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Cody Pennington Country Show",
+      "date": "2026-07-25",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Plewka & Schmedtje Between the Lights",
+      "date": "2026-09-17",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Poets of the Fall",
+      "date": "2026-09-22",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Manfred Mann\\u00b4s Earth Band Live 2026",
+      "date": "2026-09-24",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Ella Carina Werner Buchpremiere: Menopause Turbosause",
+      "date": "2026-09-30",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "reading",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Jack Savoretti We Will Always Be The Way We Were Tour 2026",
+      "date": "2026-10-08",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Alin Coen Du bedeutest mir die Welt Tour",
+      "date": "2026-10-17",
+      "time": "17:30",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Joel Brandenstein Emotionen II Tour",
+      "date": "2026-10-18",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Tiavo Hotel Tiavo Tour 2026",
+      "date": "2026-10-24",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Kitty, Daisy & Lewis Germany Tour 2026",
+      "date": "2026-10-25",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Carl Carlton & Melanie Wiegmann Miles of Time Tour",
+      "date": "2026-10-26",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Kilkennys THANK YOU FOR THE DAYS TOUR 2026",
+      "date": "2026-10-28",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Unter meinem Bett",
+      "date": "2026-11-01",
+      "time": "14:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Joe Jackson & Band Hope and Fury Tour 2026",
+      "date": "2026-11-05",
+      "time": "18:30",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "STOPPOK RUND-Reise - die Band-Tour 2026",
+      "date": "2026-11-07",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Fredrik Vahle Kinderkonzert",
+      "date": "2026-11-08",
+      "time": "10:30",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Irish Folk Festival Gold dust in your Pocket",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The High Kings The Rocky Road Tour",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Rock Legends",
+      "date": "2026-11-17",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Pohlmann Beweggr\\u00fcnde Tour",
+      "date": "2026-11-20",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "UK Subs Fifty Years of UK Punkrock",
+      "date": "2026-11-21",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Le Fly Club Tour 2026",
+      "date": "2026-11-28",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "dj",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Scala & Kolacny Brothers Scala 30",
+      "date": "2026-11-30",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Erdm\\u00f6bel Weihnachtstour 2026",
+      "date": "2026-12-17",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Inga Rumpf & Friends 80 REASONS TO ROCK",
+      "date": "2026-12-19",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Beatles Revival Band",
+      "date": "2026-12-27",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Jaya the Cat",
+      "date": "2026-12-30",
+      "time": "19:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Herzchen & Mijalee Tour 2027",
+      "date": "2027-02-13",
+      "time": "16:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    }
+  ]
+}

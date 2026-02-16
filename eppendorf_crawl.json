@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Jeff's Cheesecake Café",
+    "category": "cafe",
+    "description": "Legendärer Cheesecake-Laden am Goldbekkanal — hausgemachte NY-Style Cheesecakes",
+    "lat": 53.5969403,
+    "lon": 10.0048452,
+    "district": "Winterhude",
+    "address": "Linnering 5"
+  },
+  {
+    "name": "Mama Rosa",
+    "category": "restaurant",
+    "description": "Authentische italienische Antipasti-Bar & Restaurant in Hoheluft",
+    "lat": 53.5801832,
+    "lon": 9.9615764,
+    "district": "Hoheluft-West",
+    "address": "Heckscherstraße 1A"
+  },
+  {
+    "name": "Das Lokal",
+    "category": "restaurant",
+    "description": "Ratsherrn-Brauereigaststätte — deutsche Küche mit Craft Beer",
+    "lat": 53.5752192,
+    "lon": 9.9662217,
+    "district": "Hoheluft-West",
+    "address": "Bismarckstraße 60"
+  },
+  {
+    "name": "Heemann",
+    "category": "restaurant",
+    "description": "Gehobenes Restaurant am Eppendorfer Weg — Mittagstisch & Abendkarte",
+    "lat": 53.5789044,
+    "lon": 9.964622,
+    "district": "Hoheluft-West",
+    "address": "Eppendorfer Weg 159"
+  },
+  {
+    "name": "Maihan",
+    "category": "mittagstisch",
+    "description": "Afghanisches Restaurant — Mittagstisch und Abendmenü seit Jahren etabliert",
+    "lat": 53.5829187,
+    "lon": 9.9753311,
+    "district": "Eppendorf",
+    "address": "Eppendorfer Weg 240"
+  },
+  {
+    "name": "Jour fixe",
+    "category": "cafe",
+    "description": "Gemütliches Stadtteil-Café in Eppendorf",
+    "lat": 53.5774137,
+    "lon": 9.9770362,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "Mama Trattoria",
+    "category": "restaurant",
+    "description": "Italienische Trattoria am Lehmweg — ehemals Onkel Pö's Carnegie Hall",
+    "lat": 53.584592,
+    "lon": 9.9806334,
+    "district": "Eppendorf",
+    "address": "Lehmweg 44"
+  },
+  {
+    "name": "Ristorante da Lui",
+    "category": "restaurant",
+    "description": "Klassisches italienisches Restaurant in Winterhude",
+    "lat": 53.5945771,
+    "lon": 9.9982416,
+    "district": "Winterhude",
+    "address": "Hudtwalckerstraße 37"
+  },
+  {
+    "name": "Irodion",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant an der Ohlsdorfer Straße",
+    "lat": 53.5952194,
+    "lon": 10.0000747,
+    "district": "Winterhude",
+    "address": "Ohlsdorfer Straße 12"
+  },
+  {
+    "name": "Mamma Leonne",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant am Eppendorfer Weg — Pizza & Pasta",
+    "lat": 53.5811053,
+    "lon": 9.9696468,
+    "district": "Hoheluft-West",
+    "address": "Eppendorfer Weg 201"
+  },
+  {
+    "name": "Sushi Yama",
+    "category": "restaurant",
+    "description": "Japanisches Sushi-Restaurant in Winterhude/Eppendorf",
+    "lat": 53.5812311,
+    "lon": 10.0083052,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "Alkiony",
+    "category": "restaurant",
+    "description": "Griechisches Restaurant am Abendrothsweg — authentische Küche",
+    "lat": 53.5842424,
+    "lon": 9.9751408,
+    "district": "Eppendorf",
+    "address": "Abendrothsweg 55"
+  },
+  {
+    "name": "La Bruschetta",
+    "category": "restaurant",
+    "description": "Traditionsreiches italienisches Restaurant an der Dorotheenstraße",
+    "lat": 53.5814749,
+    "lon": 10.0090701,
+    "district": "Eppendorf",
+    "address": "Dorotheenstraße 35"
+  },
+  {
+    "name": "Gallo Nero",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant an der Sierichstraße — seit Jahrzehnten",
+    "lat": 53.5810869,
+    "lon": 10.0076226,
+    "district": "Eppendorf",
+    "address": "Sierichstraße 46"
+  },
+  {
+    "name": "Mangia e Bevi",
+    "category": "restaurant",
+    "description": "Kleines italienisches Restaurant mit Partyservice",
+    "lat": 53.5806824,
+    "lon": 10.0079497,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "Spacca Forno",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant am Poelchaukamp",
+    "lat": 53.5808965,
+    "lon": 10.0078041,
+    "district": "Eppendorf",
+    "address": "Poelchaukamp 27"
+  },
+  {
+    "name": "Palazzo",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant an der Rothenbaumchaussee",
+    "lat": 53.5772999,
+    "lon": 9.9884581,
+    "district": "Eppendorf",
+    "address": "Rothenbaumchaussee 185"
+  },
+  {
+    "name": "PATIO",
+    "category": "restaurant",
+    "description": "Restaurant & Bar — gehobene Küche in entspannter Atmosphäre",
+    "lat": 53.58065,
+    "lon": 10.0068587,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "Konditorei Lindtner",
+    "category": "cafe",
+    "description": "Traditionskonditorei — Torten, Kuchen und Café seit Generationen",
+    "lat": 53.5911235,
+    "lon": 9.9881888,
+    "district": "Eppendorf",
+    "address": "Eppendorfer Landstraße 88"
+  },
+  {
+    "name": "Ristorante da Franco",
+    "category": "restaurant",
+    "description": "Klassischer Italiener an der Eppendorfer Landstraße",
+    "lat": 53.5898565,
+    "lon": 9.9873511,
+    "district": "Eppendorf",
+    "address": "Eppendorfer Landstraße 74"
+  },
+  {
+    "name": "Salut",
+    "category": "restaurant",
+    "description": "Französisch-amerikanisches Burger-Restaurant am Moorfuhrtweg",
+    "lat": 53.5844659,
+    "lon": 10.0089599,
+    "district": "Winterhude",
+    "address": "Moorfuhrtweg 9"
+  },
+  {
+    "name": "Ciao Bella",
+    "category": "restaurant",
+    "description": "Pizza & italienische Küche an der Hudtwalckerstraße",
+    "lat": 53.5935219,
+    "lon": 9.9941146,
+    "district": "Winterhude",
+    "address": "Hudtwalckerstraße 13"
+  },
+  {
+    "name": "Iô",
+    "category": "restaurant",
+    "description": "Asiatisches Restaurant an der Eppendorfer Landstraße",
+    "lat": 53.5896806,
+    "lon": 9.9889997,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "Paolas",
+    "category": "bar",
+    "description": "Bar an der Eppendorfer Landstraße — Drinks und kleine Gerichte",
+    "lat": 53.590172,
+    "lon": 9.9878885,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "Éclair au café",
+    "category": "cafe",
+    "description": "Französisches Café — Eclairs, Patisserie und Kaffee",
+    "lat": 53.5999992,
+    "lon": 9.9960826,
+    "district": "Winterhude",
+    "address": "Lattenstieg 4"
+  },
+  {
+    "name": "Café Leinpfad",
+    "category": "cafe",
+    "description": "Café am Leinpfadkanal — Terrasse direkt am Wasser",
+    "lat": 53.5930782,
+    "lon": 9.9941771,
+    "district": "Winterhude",
+    "address": "Winterhude, Hamburg"
+  },
+  {
+    "name": "Dorotheen-Eck",
+    "category": "pub",
+    "description": "Gemütliche Eckkneipe in Winterhude — seit Jahren Nachbarschaftstreff",
+    "lat": 53.5922398,
+    "lon": 10.0023746,
+    "district": "Winterhude",
+    "address": "Winterhude, Hamburg"
+  },
+  {
+    "name": "Hanami",
+    "category": "restaurant",
+    "description": "Vietnamesisches Restaurant an der Barmbeker Straße",
+    "lat": 53.5921484,
+    "lon": 10.0029749,
+    "district": "Winterhude",
+    "address": "Barmbeker Straße 165-167"
+  },
+  {
+    "name": "Le Jus Deli",
+    "category": "fruehstueck",
+    "description": "Gesundes Deli am Eppendorfer Baum — Frühstück, Bowls & Juices",
+    "lat": 53.5840288,
+    "lon": 9.983661,
+    "district": "Eppendorf",
+    "address": "Eppendorfer Baum 28"
+  },
+  {
+    "name": "Tiefenthal",
+    "category": "restaurant",
+    "description": "Gehobenes Restaurant an der Isestraße — Brunch am Wochenende",
+    "lat": 53.5836642,
+    "lon": 9.9855599,
+    "district": "Eppendorf",
+    "address": "Isestraße 77"
+  },
+  {
+    "name": "Positano Osteria",
+    "category": "restaurant",
+    "description": "Italienische Osteria an der Isestraße",
+    "lat": 53.5839529,
+    "lon": 9.9931645,
+    "district": "Eppendorf",
+    "address": "Isestraße 147"
+  },
+  {
+    "name": "Cafe am Eck",
+    "category": "cafe",
+    "description": "Kleines Eck-Café in Eppendorf",
+    "lat": 53.579873,
+    "lon": 9.9802776,
+    "district": "Eppendorf",
+    "address": "Eppendorf, Hamburg"
+  },
+  {
+    "name": "ono",
+    "category": "restaurant",
+    "description": "Sushi & japanische Küche am Lehmweg",
+    "lat": 53.5808166,
+    "lon": 9.9782492,
+    "district": "Eppendorf",
+    "address": "Lehmweg 17"
+  },
+  {
+    "name": "Campus am Isemarkt",
+    "category": "mittagstisch",
+    "description": "Restaurant direkt am Isemarkt — Mittagstisch unter der Woche",
+    "lat": 53.5797242,
+    "lon": 9.9802155,
+    "district": "Eppendorf",
+    "address": "Klosterallee 80"
+  },
+  {
+    "name": "Die Brücke",
+    "category": "restaurant",
+    "description": "Gehobenes Restaurant an der Innocentiastraße — feine Küche",
+    "lat": 53.5789243,
+    "lon": 9.9786354,
+    "district": "Eppendorf",
+    "address": "Innocentiastraße 82"
+  },
+  {
+    "name": "Il Gelato",
+    "category": "cafe",
+    "description": "Eiscafé in Winterhude",
+    "lat": 53.5915314,
+    "lon": 10.0022666,
+    "district": "Winterhude",
+    "address": "Winterhude, Hamburg"
+  },
+  {
+    "name": "iL Cantuccio",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant an der Eppendorfer Landstraße",
+    "lat": 53.5870116,
+    "lon": 9.9847997,
+    "district": "Eppendorf",
+    "address": "Eppendorfer Landstraße 36"
+  },
+  {
+    "name": "Stüffel",
+    "category": "restaurant",
+    "description": "Regionale deutsche Küche am Isekai — gehobener Stil",
+    "lat": 53.5852401,
+    "lon": 9.9887114,
+    "district": "Eppendorf",
+    "address": "Isekai 1"
+  }
+]

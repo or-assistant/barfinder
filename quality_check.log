@@ -1,0 +1,244 @@
+===============================================
+Weekly Quality Check - 2026-02-15 19:35:44
+===============================================
+[2026-02-15 19:35:44] [INFO] Starting weekly quality check in /home/openclaw/.openclaw/workspace/barfinder
+[2026-02-15 19:35:44] [INFO] Running data quality tests...
+
+📊 Data Quality Test Results
+✅ Passed: 14
+❌ Failed: 0
+⚠️ Warnings: 0
+
+  ✅ All bars have valid lat/lon
+  ✅ No duplicate names
+  ✅ No duplicate coordinates (<10m)
+  ✅ All categories are valid
+  ✅ All bars have addresses
+  ✅ Opening hours format valid
+  ✅ API /api/places responds
+  ✅ API /api/hot responds
+  ✅ API /api/events responds
+  ✅ Vibe scores in range 0-100
+  ✅ Max 200 results returned
+  ✅ Cache google_ratings_cache.json is valid JSON
+  ✅ Cache bar_events_cache.json is valid JSON
+  ✅ Cache events_cache.json is valid JSON
+
+Results saved to test_data_quality_results.json
+[2026-02-15 19:35:44] [SUCCESS] Data quality tests passed
+[2026-02-15 19:35:44] [INFO] Testing all scrapers...
+[2026-02-15 19:35:44] [INFO] Testing scrape_bar_events.js...
+[2026-02-15T19:35:50.833Z] Starting bar event scrape...
+  Scraping Aalhaus (https://aalhaus.de)...
+  → 2 events found
+Saved 2 events to /home/openclaw/.openclaw/workspace/barfinder/bar_events_cache.json
+Done: 2026-02-27 DJ Nicolaye<br>Sa. 7.3.: Martha</p>
+  2026-03-05 <a href="https://www.facebook.com/events/25456512560711567">Bube, Dame, König, Aal &#8211; Das 135. Aalhaus Doppelkopf-Turnier</a></p>
+[2026-02-15 19:35:44] [SUCCESS] scrape_bar_events.js executed successfully
+[2026-02-15 19:35:44] [INFO] Testing scrape_afterwork_events.js...
+Checking live sources...
+Luma: 15 results
+
+Total: 23 afterwork events
+Saved to afterwork_events_cache.json
+[2026-02-15 19:35:44] [SUCCESS] scrape_afterwork_events.js executed successfully
+[2026-02-15 19:35:44] [INFO] Testing scrape_ecosystem_events.js...
+🔍 Scraping Hamburg ecosystem events...
+
+nextMedia.Hamburg: 7 events
+ARIC Hamburg: 24 events
+Kreativ Gesellschaft: 4 events
+
+✅ Total unique future events: 31
+
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/ecosystem_events_cache.json
+  📅 2026-02-17 | meetup       | ARIC Brown Bag Session: Outclassing Frontier LLMs at Extract [aric]
+  📅 2026-02-17 | meetup       | AI Mix & Mingle Women's Edition [aric]
+  📅 2026-02-17 | pitch        | Pitch Level Up 2026 [kreativgesellschaft]
+  📅 2026-02-19 | techtalk     | ARIC Brown Bag Session: Wie KI die Softwareentwicklung verän [aric]
+  📅 2026-02-19 | startup      | ARIC-Tipp | Digitale Info-Session: Scaleup Hamburg 2026 [aric]
+  📅 2026-02-20 | startup      | build fridays - work on your startup alongside other founder [nextmedia]
+  📅 2026-02-24 | meetup       | ARIC-Tipp | Förderfrühstück Green Industry and Circular Econ [aric]
+  📅 2026-02-24 | meetup       | AI Mix & Mingle in February| KI-Stammtisch im Februar [aric]
+  📅 2026-02-25 | startup      | ARIC-Tipp | Innovation Days at ZAL TechCenter [aric]
+  📅 2026-02-26 | startup      | Öffentliche Finanzierung: Von der Strategie zur erfolgreiche [aric]
+  📅 2026-03-03 | networking   | Audiencers' Festival [nextmedia]
+  📅 2026-03-03 | techtalk     | ARIC Brown Bag Session: AI & Digital Methods for Smart Mobil [aric]
+  📅 2026-03-07 | networking   | ARIC-Tipp | AgentCamp – Hamburg [aric]
+  📅 2026-03-12 | techtalk     | ARIC Brown Bag Session:  AI Adoption Best Practices for KMU/ [aric]
+  📅 2026-03-18 | techtalk     | Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker [nextmedia]
+  📅 2026-03-26 | networking   | Festival [nextmedia]
+  📅 2026-03-30 | networking   | Perfektion war gestern. Stärken stärken ist heute! [nextmedia]
+  📅 2026-04-14 | techtalk     | ARIC Brown Bag: Balancing edge autonomy and cloud intelligen [aric]
+  📅 2026-04-18 | meetup       | Hackathon für Frauen [aric]
+  📅 2026-04-28 | meetup       | AI Mix & Mingle in April| KI-Stammtisch im April [aric]
+  📅 2026-05-26 | meetup       | AI Mix & Mingle in May| KI-Stammtisch im Mai [aric]
+  📅 2026-06-18 | pitch        | ARIC-Tipp | Transfer Workshop: ErUM-Scientists & Industry in [aric]
+  📅 2026-06-22 | meetup       | ARIC-Tipp | ISC High Performance 2026 [aric]
+  📅 2026-06-22 | networking   | FAZ Konferenz für Künstliche Intelligenz [aric]
+  📅 2026-06-26 | networking   | Portside Game Assembly 2026 [kreativgesellschaft]
+  📅 2026-06-30 | meetup       | AI Mix & Mingle in June| KI-Stammtisch im Juni [aric]
+  📅 2026-09-08 | networking   | KI-Summit 2026 [aric]
+  📅 2026-09-09 | networking   | scoopcamp [nextmedia]
+  📅 2026-09-29 | meetup       | AI Mix & Mingle in September| KI-Stammtisch im September [aric]
+  📅 2026-11-12 | networking   | AI Media Leaders [nextmedia]
+  📅 2026-11-24 | meetup       | AI Mix & Mingle in November| KI-Stammtisch im November [aric]
+[2026-02-15 19:35:44] [SUCCESS] scrape_ecosystem_events.js executed successfully
+[2026-02-15 19:35:44] [INFO] Testing scrape_eventbrite.js...
+🎫 Eventbrite Scraper starting...
+   2026-02-15T19:36:00.554Z
+  🔍 Scraping: afterwork → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fafter-work%2F
+  📄 afterwork: Got 1728 chars
+  ✅ afterwork: Parsed 4 events
+  🔍 Scraping: networking → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fnetworking%2F
+  📄 networking: Got 5117 chars
+  ✅ networking: Parsed 40 events
+  🔍 Scraping: tasting → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fwine-tasting%2F
+  ❌ tasting failed: browser.newContext: Target page, context or browser has been closed
+  🔍 Scraping: social → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fsocial%2F
+  ❌ social failed: browser.newContext: Target page, context or browser has been closed
+  🔍 Scraping: startup → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fstartup%2F
+  ❌ startup failed: browser.newContext: Target page, context or browser has been closed
+
+🎫 Eventbrite: 22 events saved to /home/openclaw/.openclaw/workspace/barfinder/eventbrite_events_cache.json
+[2026-02-15 19:35:44] [WARNING] scrape_eventbrite.js timed out after 30 seconds
+[2026-02-15 19:35:44] [INFO] Testing scrape_facebook_events.js...
+📘 Facebook Events Scraper
+==========================
+
+
+🔍 Scraping: Event Search
+  URL: https://m.facebook.com/events/search/?q=hamburg+bar+party
+  ⚠️  Login wall detected! URL: https://m.facebook.com/login/?next=https%3A%2F%2Fm.facebook.com%2Fevents%2Fsearch%2F%3Fq%3Dhamburg%2Bbar%2Bparty
+  📸 Screenshot: /home/openclaw/.openclaw/workspace/barfinder/debug_fb_Event_Search.png
+
+🔍 Scraping: Aalhaus Hamburg
+  URL: https://m.facebook.com/AalhausHamburg/events/
+  ⚠️  Login wall detected! URL: https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2FAalhausHamburg%2Fevents%2F&refsrc=deprecated
+  📸 Screenshot: /home/openclaw/.openclaw/workspace/barfinder/debug_fb_Aalhaus_Hamburg.png
+
+🔍 Scraping: Frau Möller
+  URL: https://m.facebook.com/FrauMoellerHamburg/events/
+  ✗ Error: page.waitForTimeout: Target page, context or browser has been closed
+browser.newContext: Target page, context or browser has been closed
+    at async scrapePage (/home/openclaw/.openclaw/workspace/barfinder/scrape_facebook_events.js:88:19)
+    at async main (/home/openclaw/.openclaw/workspace/barfinder/scrape_facebook_events.js:152:20)
+[2026-02-15 19:35:44] [WARNING] scrape_facebook_events.js timed out after 30 seconds
+[2026-02-15 19:35:44] [INFO] Testing scrape_hamburg_events.js...
+🎉 Hamburg Events Scraper
+========================
+
+
+🔍 Scraping: szene-hamburg-bars
+  URL: https://www.szene-hamburg.de/thema/bar/
+  Status: 200
+  HTML size: 85.8 KB
+  Found 7 items
+  Sample: "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg"
+
+🔍 Scraping: szene-hamburg-nachtleben
+  URL: https://www.szene-hamburg.de/thema/nachtleben/
+  Status: 200
+  HTML size: 111.9 KB
+  Found 19 items
+  Sample: "Kultur in Hamburg: Live ist hart"
+
+🔍 Scraping: hamburg-de-veranstaltungen
+  URL: https://www.hamburg.de/veranstaltungen/
+  Status: 200
+  HTML size: 229.5 KB
+  Found 8 items
+  Sample: "Erlebnisse in der Hansestadt"
+
+🔍 Scraping: hamburg-de-nightlife
+  URL: https://www.szene-hamburg.de/thema/club/
+  Status: 200
+  HTML size: 112.2 KB
+  Found 19 items
+  Sample: "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg"
+
+✅ Results saved to /home/openclaw/.openclaw/workspace/barfinder/hamburg_events_cache.json
+
+📊 Summary:
+  szene-hamburg-bars: 7 items ✓
+  szene-hamburg-nachtleben: 19 items ✓
+  hamburg-de-veranstaltungen: 8 items ✓
+  hamburg-de-nightlife: 19 items ✓
+[2026-02-15 19:35:44] [SUCCESS] scrape_hamburg_events.js executed successfully
+[2026-02-15 19:35:44] [INFO] Testing scrape_mitvergnuegen.js...
+🎉 Mit Vergnügen Hamburg Scraper starting...
+  🔍 Scraping homepage...
+  📋 Found 65 articles
+  🍸 Scraping 8 bar/food articles for venues...
+    📖 11 Restaurants für besondere Momente...
+    📖 11 gemütliche Cafés für einen schönen Nachmittag...
+    📖 11 Restaurants in Hamburg, in denen ihr leckeres Comfort Foo...
+    ⚠️ Failed: page.waitForTimeout: Target page, context or browser has been closed
+❌ Fatal error: page.waitForTimeout: Target page, context or browser has been closed
+[2026-02-15 19:35:44] [WARNING] scrape_mitvergnuegen.js timed out after 30 seconds
+[2026-02-15 19:35:44] [INFO] Testing scrape_populartimes.js...
+🔍 Google Popular Times Scraper (no API key!)
+Testing 7 bars...
+
+  Scraping: Aalhaus...
+  ✅ Aalhaus: Rating 4.6⭐ (undefined reviews), Popular Times: no, Live: n/a
+  Scraping: Frau Möller...
+  ✅ Frau Möller: Rating 4.5⭐ (undefined reviews), Popular Times: no, Live: n/a
+  Scraping: Christiansen's...
+  ✅ Christiansen's: Rating 4.6⭐ (undefined reviews), Popular Times: no, Live: n/a
+  Scraping: Katze...
+  ✅ Katze: Rating 4.2⭐ (undefined reviews), Popular Times: no, Live: n/a
+  Scraping: Le Fonque...
+  ✅ Le Fonque: Rating 4.5⭐ (undefined reviews), Popular Times: no, Live: n/a
+  Scraping: Zum Silbersack...
+  ✅ Zum Silbersack: Rating 4.5⭐ (undefined reviews), Popular Times: no, Live: n/a
+  Scraping: Elbschlosskeller...
+  ✅ Elbschlosskeller: Rating 4.4⭐ (undefined reviews), Popular Times: no, Live: n/a
+[2026-02-15 19:35:44] [WARNING] scrape_populartimes.js timed out after 30 seconds
+[2026-02-15 19:35:44] [INFO] Testing scrape_yelp.js...
+🔍 Scraping Yelp Hamburg bars with Playwright...
+  📥 https://www.yelp.de/search?find_desc=bars&find_loc=Hamburg
+     → 0 bars found
+  📥 https://www.yelp.de/search?find_desc=bars&find_loc=Hamburg&start=10
+     → 0 bars found
+  📥 https://www.yelp.de/search?find_desc=cocktailbar&find_loc=Hamburg
+     → 0 bars found
+  📥 https://www.yelp.de/search?find_desc=kneipe+pub&find_loc=Hamburg
+     → 0 bars found
+
+✅ Saved 0 bars to /home/openclaw/.openclaw/workspace/barfinder/yelp_cache.json
+[2026-02-15 19:35:44] [SUCCESS] scrape_yelp.js executed successfully
+[2026-02-15 19:35:44] [INFO] Testing scrape_reddit_events.js...
+🔍 Reddit Event Scraper for Barfinder Hamburg
+==================================================
+  Searching r/hamburg: "after-work OR afterwork OR after work"
+  ❌ 403 for r/hamburg q="after-work OR afterwork OR after work"
+  Searching r/hamburg: "networking OR meetup OR founders OR startup"
+  ❌ 403 for r/hamburg q="networking OR meetup OR founders OR startup"
+  Searching r/hamburg: "wine tasting OR weinprobe OR wein"
+  ❌ 403 for r/hamburg q="wine tasting OR weinprobe OR wein"
+  Searching r/hamburg: "bar event OR bar opening OR cocktail"
+  ❌ 403 for r/hamburg q="bar event OR bar opening OR cocktail"
+  Searching r/hamburg: "social event OR stammtisch"
+  ❌ 403 for r/hamburg q="social event OR stammtisch"
+  Searching r/germany: "after-work OR afterwork OR after work"
+  ❌ 403 for r/germany q="after-work OR afterwork OR after work"
+  Searching r/germany: "networking OR meetup OR founders OR startup"
+  ❌ 403 for r/germany q="networking OR meetup OR founders OR startup"
+  Searching r/germany: "wine tasting OR weinprobe OR wein"
+  ❌ 403 for r/germany q="wine tasting OR weinprobe OR wein"
+  Searching r/germany: "bar event OR bar opening OR cocktail"
+  ❌ 403 for r/germany q="bar event OR bar opening OR cocktail"
+  Searching r/germany: "social event OR stammtisch"
+  ❌ 403 for r/germany q="social event OR stammtisch"
+  Searching r/de: "after-work OR afterwork OR after work"
+  ❌ 403 for r/de q="after-work OR afterwork OR after work"
+  Searching r/de: "networking OR meetup OR founders OR startup"
+  ❌ 403 for r/de q="networking OR meetup OR founders OR startup"
+  Searching r/de: "wine tasting OR weinprobe OR wein"
+  ❌ 403 for r/de q="wine tasting OR weinprobe OR wein"
+  Searching r/de: "bar event OR bar opening OR cocktail"
+  ❌ 403 for r/de q="bar event OR bar opening OR cocktail"
+  Searching r/de: "social event OR stammtisch"
+  ❌ 403 for r/de q="social event OR stammtisch"
+[2026-02-15 19:35:44] [WARNING] scrape_reddit_events.js timed out after 30 seconds

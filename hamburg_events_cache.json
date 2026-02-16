@@ -1,0 +1,363 @@
+{
+  "lastUpdated": "2026-02-16T10:31:46.697Z",
+  "sources": [
+    {
+      "source": "szene-hamburg-bars",
+      "url": "https://www.szene-hamburg.de/thema/bar/",
+      "status": 200,
+      "items": [
+        {
+          "title": "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2025/05/147435/137738-900x600.jpeg"
+        },
+        {
+          "title": "St. Pauli – Hamburgs legendärer Stadtteil",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/06/Reeperbahn-Grosse-Freiheit-c-MediaserverHamburg_KonstantinBeck-klein-462x308.jpg"
+        },
+        {
+          "title": "Ohnsorg Theater: Die Not muss bedient werden",
+          "url": "https://szene-hamburg.com/kultur/theater/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/02/Ohnsorg-Theater_Erkki-Hopf_cOliver-Fantitsch-klein-490x540.jpg"
+        },
+        {
+          "title": "Herbst-Oasen: Stimmungsaufheller in Hamburg",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/10/Titelstory-Hygge-2-Credit-Nina-Struve-Hygge_klein-520x292.jpg"
+        },
+        {
+          "title": "Hamburger Nachwuchs: Sängerin Sukie",
+          "url": "https://szene-hamburg.com/kultur/musik/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/02/sukie-saengerin-hamburg-c-Tim-Erdmann_-153-375x211.jpg"
+        },
+        {
+          "title": "Donnerbar – Die Reinkarnation des Kleinen Donner",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2018/09/Donner-Bar-Sternschanze-c-Ole-Masch-375x211.jpg"
+        },
+        {
+          "title": "Daniela Bar: „Das hier ist unser Herzblut“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2016/05/Daniel-Bar-Sternschanze-Hamburg-375x211.jpg"
+        }
+      ],
+      "scrapedAt": "2026-02-16T10:31:37.703Z"
+    },
+    {
+      "source": "szene-hamburg-nachtleben",
+      "url": "https://www.szene-hamburg.de/thema/nachtleben/",
+      "status": 200,
+      "items": [
+        {
+          "title": "Kultur in Hamburg: Live ist hart",
+          "url": "https://szene-hamburg.com/kultur/musik/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2023/01/nachtleben_live-c-unsplash-melissa-askew-klein-900x540.jpg"
+        },
+        {
+          "title": "Sheroes: Die Flinta*-Party ist wieder da",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2023/01/Sheros_c_Lorena_Melinda-klein-462x308.jpg"
+        },
+        {
+          "title": "Heartphones: Paralleles Mitsingen",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2023/01/Aufmacher-Nachtleben-2-Januar-2023-credit-Heartphones-klein-490x540.jpg"
+        },
+        {
+          "title": "Nenad Nikolić: Die Ein-Mann-Meute",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/12/Nachtleben-Dezember-2022-Aufmacher-credit-Borys-Las-Opolski-klein-520x292.jpg"
+        },
+        {
+          "title": "15 Jahre Freundlich+Kompetent: „Wir gönnen uns richtig was“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/12/20171215_10Jahre_FuK_Tag2_Copyright-JonasWalzberg_001_square-klein2-375x211.jpg"
+        },
+        {
+          "title": "Südpol: Expedition Nachhaltigkeit",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/11/Nachtleben-November-2022-Aufmacher-Club-Award-2022-credit-Kevin-klein-375x211.jpg"
+        },
+        {
+          "title": "Krise 2.0: Vom Kampf um die Kultur",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/10/Stadtleben-Molotow-01-Foto-Erik-Brandt-Höge-klein-375x211.jpg"
+        },
+        {
+          "title": "Itsch Itsche Festival: Here to stay",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/09/itsche-itsche-festival-hamburg-c-Ceren-Saner-520x292.jpg"
+        },
+        {
+          "title": "Meet the Resident – toğrul",
+          "url": "https://szene-hamburg.com/kultur/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/06/Meet-the-Resident-Juni-2022-credit-vibrational-network-1-375x211.jpg"
+        },
+        {
+          "title": "Das Edelfettwerk: Im Wandel",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/06/Nachtleben-Haupt-gross-credit-Jonas-Penno-klein-375x211.jpg"
+        },
+        {
+          "title": "Off the Radar: „Hurra, wir leben noch“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/05/Nachtleben-Mai-2022-gross-credit-brokebutlive-nicovogelsaenger-klein-375x211.jpg"
+        },
+        {
+          "title": "„Wir haben eine Verantwortung“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/03/Nachtleben-Haupt-gross-04-22-kein-credit-klein-520x292.jpg"
+        },
+        {
+          "title": "„Wir brauchen ernsthafte Perspektiven“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/03/Nachtleben-Haupt-Maerz-2022-Clubkombinat-credit-Carl-Weidner-klein-375x211.jpg"
+        },
+        {
+          "title": "Clubszene: Wie „G“-eht es weiter?",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/10/Nachtleben-Haupt-Aufmacher-final-Credit_klein-375x211.jpg"
+        },
+        {
+          "title": "Das Nachtleben impft",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/07/Teresa-Hähn-credit-Ole-Masch-2-375x211.jpg"
+        },
+        {
+          "title": "Meet the Resident – Usus",
+          "url": "https://szene-hamburg.com/kultur/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/05/resident-dj-usus-c-hamburg-elektronisch-520x292.jpg"
+        },
+        {
+          "title": "Katja Ruge: „Es kitzelt unter den Füßen“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/05/katja-ruge-c-andrea-schick-375x211.jpg"
+        },
+        {
+          "title": "Meet the Resident – Cine",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/04/cine-dj-hamburg-c-hamburg-elektronisch-375x211.jpg"
+        },
+        {
+          "title": "Nachtleben im Lockdown: „Clubs könnten Teil der Lösung sein“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2020/05/molotow-leer-corona-375x211.jpg"
+        }
+      ],
+      "scrapedAt": "2026-02-16T10:31:39.915Z"
+    },
+    {
+      "source": "hamburg-de-veranstaltungen",
+      "url": "https://www.hamburg.de/veranstaltungen/",
+      "status": 200,
+      "items": [
+        {
+          "title": "Erlebnisse in der Hansestadt",
+          "url": "https://www.hamburg.de/freizeit/jahreszeiten/winter",
+          "date": null,
+          "location": null,
+          "description": "Winterausflüge, Teestuben besuchen & mehr – in Hamburg gibt es in der kalten Jahreszeit viele tolle Möglichkeiten, um den Winter so richtig zu genießen."
+        },
+        {
+          "title": "Tipps für die Wintermonate",
+          "url": "https://www.hamburg.de/freizeit/jahreszeiten/winter",
+          "date": null,
+          "location": null,
+          "description": "Winterausflüge, Teestuben besuchen & mehr – in Hamburg gibt es in der kalten Jahreszeit viele tolle Möglichkeiten, um den Winter so richtig zu genießen."
+        },
+        {
+          "title": "Indoor-Aktivitäten in Hamburg",
+          "url": "https://www.hamburg.de/freizeit/aktivitaeten/indoor/uebersicht-304710",
+          "date": null,
+          "location": null,
+          "description": "Ob Trampolinspringen, große Indoor-Spielplätze oder Lasertag – hier finden Sie Tipps für Indoor-Aktivitäten für Kinder und Erwachsene in Hamburg in der Übersicht."
+        },
+        {
+          "title": "Hamburg CARD",
+          "url": "https://www.hamburg.de/tourismus/hamburg-erkunden/hamburg-card-358140",
+          "date": null,
+          "location": null,
+          "description": "Stadtrundfahrten, Ausstellungen, Theater und mehr: Mit der Hamburg CARD können Sie auf ausgewählte Erlebnisse in der Hansestadt sparen."
+        },
+        {
+          "title": "Disneys Der König der Löwen",
+          "url": "https://www.hamburg.de/kultur/musical-show/disneys-der-koenig-der-loewen-401226",
+          "date": null,
+          "location": null,
+          "description": "Begleiten Sie Simba auf seinen Abenteuern. Die Bühnen­show bringt die Tierwelt der Serengeti seit 25 Jahren nach Hamburg."
+        },
+        {
+          "title": "World of I-Tronic Dinosaurs",
+          "url": "https://www.hamburg.de/kultur/veranstaltungen/world-of-i-tronic-dinosaurs-xxl-1019454",
+          "date": null,
+          "location": null,
+          "description": "Tauchen Sie ein in eine faszinierende Erlebniswelt mit hochentwickelten Dinosaurier-Robotern."
+        },
+        {
+          "title": "Harry Potter und das verwunschene Kind",
+          "url": "https://www.hamburg.de/kultur/theater/harry-potter-und-das-verwunschene-kind-401280",
+          "date": null,
+          "location": null,
+          "description": "Erleben Sie die Fortsetzung der Harry-Potter-Saga noch bis Sommer 2026 als Live-Erlebnis im Theater am Großmarkt!"
+        },
+        {
+          "title": "*Hinweis",
+          "url": "https://www.hamburg.de/894326-894326",
+          "date": null,
+          "location": null,
+          "description": "Über die Einbindung dieses mit *Sternchen markierten Angebots erhalten wir beim Kauf möglicherweise eine Provision vom Händler. Die gekauften Produkte werden dadurch für Sie als Nutzerinnen und Nutzer nicht teurer."
+        }
+      ],
+      "scrapedAt": "2026-02-16T10:31:41.719Z"
+    },
+    {
+      "source": "hamburg-de-nightlife",
+      "url": "https://www.szene-hamburg.de/thema/club/",
+      "status": 200,
+      "items": [
+        {
+          "title": "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2025/05/147435/137738-900x600.jpeg"
+        },
+        {
+          "title": "St. Pauli – Hamburgs legendärer Stadtteil",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/06/Reeperbahn-Grosse-Freiheit-c-MediaserverHamburg_KonstantinBeck-klein-462x308.jpg"
+        },
+        {
+          "title": "15 Jahre Freundlich+Kompetent: „Wir gönnen uns richtig was“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/12/20171215_10Jahre_FuK_Tag2_Copyright-JonasWalzberg_001_square-klein2-490x540.jpg"
+        },
+        {
+          "title": "Krise 2.0: Vom Kampf um die Kultur",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/10/Stadtleben-Molotow-01-Foto-Erik-Brandt-Höge-klein-520x292.jpg"
+        },
+        {
+          "title": "Niklas: „Damit entsteht so ein nostalgischer 90s-Vibe“",
+          "url": "https://szene-hamburg.com/stadtleben/szenezeigen/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/08/szenezeigen_niklas-c-KatharinaStertzenbach-2-bearb-klein-375x211.jpg"
+        },
+        {
+          "title": "Das Edelfettwerk: Im Wandel",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/06/Nachtleben-Haupt-gross-credit-Jonas-Penno-klein-375x211.jpg"
+        },
+        {
+          "title": "Fun auf Norwegisch: LINIE Aquavit Norweek in Hamburg",
+          "url": "https://szene-hamburg.com/allgemein/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/05/Linie_Norweek_Keyvisual-375x211.jpg"
+        },
+        {
+          "title": "Zurück ins Club-Glück",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/04/Titelstory-Aufmacher-05-22-Foto-Erik-Brandt-Hoege-klein-520x292.jpg"
+        },
+        {
+          "title": "Ostern in und um Hamburg",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/04/image-3-375x211.jpg"
+        },
+        {
+          "title": "„Wir haben eine Verantwortung“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/03/Nachtleben-Haupt-gross-04-22-kein-credit-klein-375x211.jpg"
+        },
+        {
+          "title": "„Wir brauchen ernsthafte Perspektiven“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/03/Nachtleben-Haupt-Maerz-2022-Clubkombinat-credit-Carl-Weidner-klein-375x211.jpg"
+        },
+        {
+          "title": "Clubkinder: „NICHT unterkriegen lassen“",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2022/02/Clubkinder_Vorstand-cJulia-Schwendner-klein-520x292.jpg"
+        },
+        {
+          "title": "30 Years Molotow – gefeiert wird später",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/12/Hamburger-Kultursommer-Molotow_©-Erik-Brandt-Höge-klein-375x211.jpg"
+        },
+        {
+          "title": "Endlich wieder da: das Leseclubfestival Hamburg",
+          "url": "https://szene-hamburg.com/kultur/literatur/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/10/khue_pham_foto_von_Alena_Schmick_klein-375x211.jpg"
+        },
+        {
+          "title": "Clubszene: Wie „G“-eht es weiter?",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/10/Nachtleben-Haupt-Aufmacher-final-Credit_klein-375x211.jpg"
+        },
+        {
+          "title": "Reeperbahn Festival: Sicher, weil getestet",
+          "url": "https://szene-hamburg.com/kultur/musik/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/09/RBF-1-Credit-Tom-Heinke_klein-520x292.jpg"
+        },
+        {
+          "title": "Erprobter Krisenbewältiger: Der Golden Pudel",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/08/Nachtleben-Haupt-4-Jimi-Tenor-4-credit-Katja-Ruge_klein-375x211.jpg"
+        },
+        {
+          "title": "Good Peppa: Clubretter werden mit Soli-Likör",
+          "url": "https://szene-hamburg.com/kultur/nachtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/07/Stadtleben-Clubkombinat_GoodPeppa_1-Credit-Clubkombinat-2-2-375x211.jpg"
+        },
+        {
+          "title": "Hamburger Soli-Merch: Anziehungs-Kraft",
+          "url": "https://szene-hamburg.com/stadtleben/",
+          "excerpt": null,
+          "image": "https://szene-hamburg.com/wp-content/uploads/2021/04/soli-merch1-c-johanna-zobel-375x211.jpg"
+        }
+      ],
+      "scrapedAt": "2026-02-16T10:31:44.674Z"
+    }
+  ]
+}

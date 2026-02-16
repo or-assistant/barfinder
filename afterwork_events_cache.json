@@ -1,0 +1,218 @@
+{
+  "events": [
+    {
+      "title": "Büroschluss Afterwork @ Ruby Lotti",
+      "description": "Afterwork-Party auf der Rooftop-Terrasse — DJs, Cocktails, Feierabend-Vibes",
+      "location": "Ruby Lotti, Rödingsmarkt 9, Altstadt",
+      "recurrence": "Jeden Donnerstag",
+      "url": "https://www.ruby-hotels.com/hamburg-lotti",
+      "price": "Eintritt frei",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "FEIERABEND — Hamburgs Afterwork-Party",
+      "description": "Hamburgs größte Afterwork-Party — wechselnde Locations, DJs, Drinks",
+      "location": "Wechselnde Locations, Hamburg",
+      "recurrence": "Monatlich",
+      "url": "https://www.eventbrite.de/o/feierabend-hamburg",
+      "category": "afterwork",
+      "source": "eventbrite"
+    },
+    {
+      "title": "Afterwork Sky Bar Airport Plaza",
+      "description": "Afterwork donnerstags in der Airport Plaza — Sky Bar mit Flughafen-Panorama",
+      "location": "Airport Plaza, Flughafenstraße 1-3",
+      "recurrence": "Jeden Donnerstag",
+      "url": "",
+      "price": "Eintritt frei",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "TRU Afterwork Hamburg",
+      "description": "Recruiting & HR Afterwork — Networking für Professionals",
+      "location": "Hamburg (wechselnd)",
+      "recurrence": "Monatlich",
+      "url": "https://lu.ma/tru-afterwork-hamburg",
+      "category": "afterwork",
+      "source": "luma"
+    },
+    {
+      "title": "Clouds Afterwork",
+      "description": "Afterwork mit Skyline-Blick in den Tanzenden Türmen — Cocktails & DJ",
+      "location": "Clouds, Reeperbahn 1 (23. OG)",
+      "recurrence": "Donnerstag & Freitag",
+      "price": "Eintritt frei",
+      "url": "https://www.clouds-hamburg.de",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "20up Afterwork",
+      "description": "Afterwork im 20. Stock — Panoramablick auf Hafen & Elbe, Cocktails",
+      "location": "20up Bar, Empire Riverside Hotel, Bernhard-Nocht-Str. 97",
+      "recurrence": "Donnerstag & Freitag",
+      "url": "https://www.empire-riverside.de/20up-bar",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "Tower Bar Afterwork",
+      "description": "Afterwork mit Blick auf Hafen, Landungsbrücken & Michel",
+      "location": "Tower Bar, Hotel Hafen Hamburg, Seewartenstr. 9",
+      "recurrence": "Mittwoch–Freitag",
+      "url": "https://www.hotel-hafen-hamburg.de/tower-bar",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "East Hotel Afterwork",
+      "description": "Stylische Afterwork-Party im Designhotel — DJs, Drinks, Networking",
+      "location": "east Hotel, Simon-von-Utrecht-Str. 31, St. Pauli",
+      "recurrence": "Donnerstags",
+      "url": "https://www.east-hamburg.de",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "Plantenblom Afterwork",
+      "description": "Afterwork-Drinks am Rödingsmarkt — beliebter Treffpunkt für Feierabend",
+      "location": "Plantenblom, Rödingsmarkt 14",
+      "recurrence": "Mo-Fr ab 17 Uhr",
+      "price": "Eintritt frei",
+      "url": "https://plantenblom.de",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "Störtebeker Elbphilharmonie Afterwork",
+      "description": "Afterwork mit Elbblick — Craft Beer & norddeutsche Küche",
+      "location": "Störtebeker, Elbphilharmonie, Platz der Deutschen Einheit 4",
+      "recurrence": "Mo-Fr ab 17 Uhr",
+      "price": "Eintritt frei",
+      "url": "https://www.stoertebeker-elbphilharmonie.de",
+      "category": "afterwork",
+      "source": "manual-research"
+    },
+    {
+      "title": "HEY MOMIE Hangout and Meetup at elephants",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-17T09:30:00.000Z",
+      "url": "https://lu.ma/zhis6uqo",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "Millennial Pub Quiz",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-18T17:30:00.000Z",
+      "url": "https://lu.ma/bvogpm0u",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "Was HR braucht, um im C-Level gehört zu werden.",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-19T17:00:00.000Z",
+      "url": "https://lu.ma/yxl9cmty",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "Founders Running Club :: Hamburg",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-21T08:00:00.000Z",
+      "url": "https://lu.ma/yd4u93kh",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "Girls Gathering: Dein Körper ist nicht das Problem.",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-21T10:00:00.000Z",
+      "url": "https://lu.ma/y63rd3hg",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "CRY SESSION - Padel Sunday Hamburg (All Genders)",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-22T15:00:00.000Z",
+      "url": "https://lu.ma/w0w98g4z",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "🧡 AWSC Spiele-Abend am 25.02.2026 🧡",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-25T17:30:00.000Z",
+      "url": "https://lu.ma/7bvtm3vl",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "12MIN.ME | FOCUS: INNOVATE #3 | HAMBURG",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-25T18:12:00.000Z",
+      "url": "https://lu.ma/94e7kqxm",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "Climate Coffee Hamburg - February 2026",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-26T07:30:00.000Z",
+      "url": "https://lu.ma/3nhzplwh",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "10x Impact with AI Agents",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-26T15:30:00.000Z",
+      "url": "https://lu.ma/eee5xoj4",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "AI at Work: When ‘Faster’ Quietly Becomes ‘Sloppier’",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-02-27T16:00:00.000Z",
+      "url": "https://lu.ma/1q546f74",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "🐝 F*ck the Small Talk: Hamburg #1",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-03-02T17:30:00.000Z",
+      "url": "https://lu.ma/ftst1hamburg",
+      "category": "afterwork",
+      "source": "luma-live"
+    },
+    {
+      "title": "Audiencers Festival - Hamburg",
+      "description": "",
+      "location": "Hamburg",
+      "date": "2026-03-03T08:00:00.000Z",
+      "url": "https://lu.ma/audiencers-festival-hamburg",
+      "category": "afterwork",
+      "source": "luma-live"
+    }
+  ],
+  "lastUpdated": "2026-02-16T10:31:51.944Z",
+  "source": "afterwork-scraper"
+}

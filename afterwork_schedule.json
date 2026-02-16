@@ -1,0 +1,260 @@
+{
+  "_info": "Afterwork-Events mit konkreten Wochentagen. days: 0=So,1=Mo,...6=Sa. Nur Locations mit echten regelmäßigen Afterwork-Events/Specials.",
+  "_updated": "2026-02-16",
+  "locations": [
+    {
+      "name": "After Work Club - Café Schöne Aussichten",
+      "days": [
+        4
+      ],
+      "time": "18:00",
+      "description": "Hamburgs Original-Afterwork seit 1999. House, 80s, Dance Classics. Jeden Donnerstag.",
+      "confidence": "high",
+      "source": "afterworkclub.de"
+    },
+    {
+      "name": "Clouds",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork mit Panoramablick über Hamburg. 23. Etage Tanzende Türme.",
+      "confidence": "high",
+      "source": "clouds-hamburg.de"
+    },
+    {
+      "name": "20up Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork-Drinks in der Sky-Bar im Empire Riverside Hotel.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "HADLEY's",
+      "days": [
+        3,
+        4
+      ],
+      "time": "17:00",
+      "description": "Weinbar-Afterwork an der Alster. Mittwoch & Donnerstag.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "East Hotel Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork im East. DJ-Lounge am Donnerstag & Freitag.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "AlsterCliff",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork mit Alsterblick. Mi-Fr bei gutem Wetter.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Bullerei",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork-Drinks in Tim Mälzers Bullerei. Donnerstag & Freitag.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Altes Mädchen",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Craft Beer Afterwork in der Schanze. Do & Fr.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Kinfelts Kitchen & Wine",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork-Wine in der HafenCity. Mi-Fr.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Ruby Lotti Rooftop Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Rooftop-Afterwork mit Blick über die City.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Jahreszeiten Bar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Klassischer Afterwork im Fairmont Hotel Vier Jahreszeiten.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Neni",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork mit Elbblick in der HafenCity. 25hours Hotel.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Rive",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork am Hafen. Fischrestaurant mit starker Bar.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Waterkant",
+      "days": [
+        4,
+        5
+      ],
+      "time": "16:00",
+      "description": "Afterwork auf St. Pauli. Entspannter Start ins Wochenende.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Fleetschlösschen",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork in der Speicherstadt. Kleine Bar, großer Charme.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Cox",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Afterwork-Cocktails am Langen Reihe. Mi-Fr.",
+      "confidence": "medium",
+      "source": "sonnet-knowledge"
+    },
+    {
+      "name": "Wechselnde Locations",
+      "days": [
+        2,
+        3,
+        4
+      ],
+      "time": "19:00",
+      "description": "After Work Social Club Hamburg — Community mit 20.000+ Mitgliedern. 1-2x monatlich Afterwork Events, lockeres Netzwerken in wechselnden Bars.",
+      "confidence": "high",
+      "source": "https://www.meetup.com/de-DE/after-work-social-club-hamburg/"
+    },
+    {
+      "name": "Wechselnde Locations",
+      "days": [
+        2,
+        3
+      ],
+      "time": "19:00",
+      "description": "WeRoad Afterwork — Afterwork für Reisebegeisterte 20-50 Jahre. Neue Leute & gute Laune in netten Bars.",
+      "confidence": "high",
+      "source": "https://www.meetup.com/de-DE/wemeets-norddeutschland/"
+    },
+    {
+      "name": "Reh Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "19:00",
+      "description": "Drinks @ Reh Bar Ottensen — 360° Events Hamburg organisiert regelmäßig Afterwork-Drinks in der Reh Bar Ottensen.",
+      "confidence": "high",
+      "source": "https://www.meetup.com/de-DE/360-grad-events-hamburg/"
+    },
+    {
+      "name": "TRU Fitness Club",
+      "days": [
+        4
+      ],
+      "time": "18:30",
+      "description": "TRU Afterwork Hamburg — Sport & Social Afterwork im Fitness Club an der Elbe. Workout + Drinks danach.",
+      "confidence": "high",
+      "source": "https://luma.com/hamburg"
+    },
+    {
+      "name": "Clouds — Heaven's Bar & Kitchen",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00",
+      "description": "Clouds Afterwork — Afterwork in der 23. Etage des Tanzenden Turms. Skyline-Blick, DJ, Cocktails.",
+      "confidence": "medium",
+      "source": "https://www.clouds-hamburg.de/"
+    },
+    {
+      "name": "Alsterhaus — Le Buffet",
+      "days": [
+        4
+      ],
+      "time": "18:00",
+      "description": "Alsterhaus Afterwork Apéro — Gehobenes Afterwork im Hamburger Traditionshaus. Champagner & Häppchen. Ü35 Business Crowd.",
+      "confidence": "medium",
+      "source": "https://www.alsterhaus.de/"
+    },
+    {
+      "name": "StrandPauli",
+      "days": [
+        5
+      ],
+      "time": "17:00",
+      "description": "Harbour Front Afterwork — Freitags Afterwork am Elbstrand. DJs, Drinks, Hafenblick. Saisonal (April-Oktober).",
+      "confidence": "medium",
+      "source": "https://www.strandpauli.de/"
+    }
+  ]
+}

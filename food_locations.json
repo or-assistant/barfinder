@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Cafe Paris",
+    "category": "fruehstueck",
+    "description": "Legendäres Jugendstil-Café am Rathaus — französisches Frühstück, Croissants, Eggs Benedict. Hamburger Institution seit 1882",
+    "lat": 53.5498937,
+    "lon": 9.9943480,
+    "district": "Altstadt",
+    "address": "Rathausstraße 4, 20095 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Café May",
+    "category": "fruehstueck",
+    "description": "Beliebtes Frühstückscafé mit mehreren Filialen — üppige Frühstücksplatten, Pancakes, Eggs Benedict",
+    "lat": 53.5796013,
+    "lon": 10.0252884,
+    "district": "Barmbek-Süd",
+    "address": "Von-Axen-Straße 2, 22083 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Cafe Leonar",
+    "category": "fruehstueck",
+    "description": "Kulturcafé am Grindelhof — jüdisch inspiriertes Frühstück, Shakshuka, Kuchen, Ausstellungen",
+    "lat": 53.5697536,
+    "lon": 9.9840813,
+    "district": "Rotherbaum",
+    "address": "Grindelhof 59, 20146 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Café Koppel",
+    "category": "fruehstueck",
+    "description": "Kunst & Frühstück in St. Georg — Bio-Frühstück, vegetarisch/vegan, Galerie im Hinterhof",
+    "lat": 53.5583986,
+    "lon": 10.0114690,
+    "district": "St. Georg",
+    "address": "Koppel 66, 20099 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Café Johanna",
+    "category": "fruehstueck",
+    "description": "Charmantes Café im Portugiesenviertel — reichhaltiges Frühstück, Avocado-Toast, hausgemachte Kuchen",
+    "lat": 53.5470636,
+    "lon": 9.9750434,
+    "district": "Neustadt",
+    "address": "Venusberg 26, 20459 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Elbgold Schanzenhöfe",
+    "category": "fruehstueck",
+    "description": "Hamburgs Specialty-Coffee-Rösterei Nr. 1 — eigene Röstung, Frühstück, Kuchen, Laptopverbot am Wochenende",
+    "lat": 53.5631541,
+    "lon": 9.9669229,
+    "district": "Sternschanze",
+    "address": "Lagerstraße 34c, 20357 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Milch",
+    "category": "fruehstueck",
+    "description": "Specialty Coffee & Frühstück an der Ditmar-Koel-Straße — minimalistisch, Hafenviertel-Charme",
+    "lat": 53.5459388,
+    "lon": 9.9747366,
+    "district": "Neustadt",
+    "address": "Ditmar-Koel-Straße 22, 20459 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Nord Coast Coffee Roastery",
+    "category": "fruehstueck",
+    "description": "Rösterei-Café in der historischen Deichstraße — Third Wave Coffee, Frühstück, Kuchen",
+    "lat": 53.5465554,
+    "lon": 9.9880626,
+    "district": "Altstadt",
+    "address": "Deichstraße 9, 20459 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Café Stenzel",
+    "category": "fruehstueck",
+    "description": "Gemütliches Frühstückscafé am Schulterblatt — Schanze-Klassiker, reichhaltige Frühstückskarte",
+    "lat": 53.5614172,
+    "lon": 9.9622325,
+    "district": "Sternschanze",
+    "address": "Schulterblatt 61, 20357 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Schöne Aussichten",
+    "category": "fruehstueck",
+    "description": "Café mit Terrasse an den Wallanlagen — Frühstück mit Parkblick, Kuchen, Mittagsgerichte",
+    "lat": 53.5584690,
+    "lon": 9.9857544,
+    "district": "Neustadt",
+    "address": "Gorch-Fock-Wall 4, 20354 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Knuth",
+    "category": "fruehstueck",
+    "description": "Ottenser Kiezliebling — großes Frühstück bis 15 Uhr, Kuchen, gemütliche Atmosphäre",
+    "lat": 53.5530564,
+    "lon": 9.9310803,
+    "district": "Ottensen",
+    "address": "Große Rainstraße 21a, 22765 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Cafe Schmidtchen",
+    "category": "fruehstueck",
+    "description": "Café & Tortenmanufaktur in Ottensen — legendäre Torten, Frühstück, Brunch am Wochenende",
+    "lat": 53.5491964,
+    "lon": 9.9339719,
+    "district": "Ottensen",
+    "address": "Braunschweiger Straße, 22765 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Mutterland Eppendorf",
+    "category": "fruehstueck",
+    "description": "Feinkost & Café — Frühstück mit hochwertigen deutschen Produkten, Kuchen, Geschenke",
+    "lat": 53.5855618,
+    "lon": 9.9814572,
+    "district": "Eppendorf",
+    "address": "Lenhartzstraße 1, 20249 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Café Unter den Linden",
+    "category": "fruehstueck",
+    "description": "Gemütliches Frühstückscafé in der Juliusstraße — Schanze-Institution, morgens Café, abends Kneipe",
+    "lat": 53.5612340,
+    "lon": 9.9602864,
+    "district": "Sternschanze",
+    "address": "Juliusstraße 16, 22769 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Barmeier's Café & Biergarten",
+    "category": "fruehstueck",
+    "description": "Café im Eppendorfer Park — Frühstück & Kuchen am Wasser, idyllischer Biergarten",
+    "lat": 53.5970910,
+    "lon": 9.9898600,
+    "district": "Eppendorf",
+    "address": "Hayns Parkbrücke, 20251 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "vju im Energiebunker",
+    "category": "fruehstueck",
+    "description": "Café auf dem Energiebunker Wilhelmsburg — Panorama-Frühstück mit Blick über ganz Hamburg",
+    "lat": 53.5101461,
+    "lon": 9.9896185,
+    "district": "Wilhelmsburg",
+    "address": "Neuhöfer Straße 7, 21107 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Bullerei",
+    "category": "mittagstisch",
+    "description": "Tim Mälzers Restaurant in den Schanzenhöfen — Business Lunch, gehobene Bistroküche, Deli nebenan",
+    "lat": 53.5631311,
+    "lon": 9.9661488,
+    "district": "Sternschanze",
+    "address": "Lagerstraße 34b, 20357 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Oberhafen-Kantine",
+    "category": "mittagstisch",
+    "description": "Hamburgs schiefste Kneipe — deftige norddeutsche Küche, Labskaus, Pannfisch, HafenCity-Charme",
+    "lat": 53.5446313,
+    "lon": 10.0068993,
+    "district": "HafenCity",
+    "address": "Stockmeyerstraße 39, 20457 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Restaurant Nil",
+    "category": "mittagstisch",
+    "description": "Kreative deutsche Küche am Neuen Pferdemarkt — wechselnder Mittagstisch, saisonale Gerichte",
+    "lat": 53.5562983,
+    "lon": 9.9633511,
+    "district": "Karolinenviertel",
+    "address": "Neuer Pferdemarkt 5, 20359 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Deichgraf",
+    "category": "mittagstisch",
+    "description": "Traditionsrestaurant in der historischen Deichstraße — norddeutsche Küche, Fisch, Business Lunch",
+    "lat": 53.5461625,
+    "lon": 9.9874967,
+    "district": "Altstadt",
+    "address": "Deichstraße 23, 20459 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Henssler & Henssler",
+    "category": "mittagstisch",
+    "description": "Steffen Hensslers Sushi-Restaurant — japanisch-europäische Fusion, Mittagsmenü, Hafen-Location",
+    "lat": 53.5445995,
+    "lon": 9.9430573,
+    "district": "Altona",
+    "address": "Große Elbstraße 160, 22767 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Frank und Frei",
+    "category": "mittagstisch",
+    "description": "Saisonale Küche in der Schanze — wechselnder Mittagstisch, Bio-Qualität, gemütliches Ambiente",
+    "lat": 53.5631223,
+    "lon": 9.9652728,
+    "district": "Sternschanze",
+    "address": "Schanzenstraße 93, 20357 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Bistrot Vienna",
+    "category": "mittagstisch",
+    "description": "Wiener Bistro-Küche — Schnitzel, Tafelspitz, Mittagsmenü, charmant in der Fettstraße",
+    "lat": 53.5665830,
+    "lon": 9.9636742,
+    "district": "Eimsbüttel",
+    "address": "Fettstraße 2, 20357 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Heimatjuwel",
+    "category": "mittagstisch",
+    "description": "Moderne norddeutsche Küche — wechselnder Mittagstisch, frische Zutaten aus der Region",
+    "lat": 53.5801271,
+    "lon": 9.9477006,
+    "district": "Eimsbüttel",
+    "address": "Stellinger Weg 47, 20259 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Philipps Restaurant",
+    "category": "mittagstisch",
+    "description": "Gehobene Küche im Karolinenviertel — wechselnde Mittagskarte, kreative Gerichte",
+    "lat": 53.5580650,
+    "lon": 9.9708612,
+    "district": "Karolinenviertel",
+    "address": "Turnerstraße 9, 20357 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Poletto Winebar",
+    "category": "mittagstisch",
+    "description": "Cornelia Polettos Weinbar — italienischer Mittagstisch, Pasta, Antipasti, Eppendorfer Institution",
+    "lat": 53.5851319,
+    "lon": 9.9808748,
+    "district": "Hoheluft-Ost",
+    "address": "Eppendorfer Weg 287, 20251 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Eisenstein",
+    "category": "mittagstisch",
+    "description": "Restaurant in alter Fabrikhalle — Pizza aus dem Steinofen, Mittagsmenü, Ottenser Klassiker",
+    "lat": 53.5543826,
+    "lon": 9.9270487,
+    "district": "Ottensen",
+    "address": "Friedensallee 9, 22765 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Ti Breizh",
+    "category": "mittagstisch",
+    "description": "Bretonische Crêperie in der Deichstraße — Galettes, Cidre, günstiger Mittagstisch",
+    "lat": 53.5456544,
+    "lon": 9.9871062,
+    "district": "Altstadt",
+    "address": "Deichstraße 39, 20459 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Fleetschlösschen",
+    "category": "mittagstisch",
+    "description": "Historisches Kaffeehäuschen in der Speicherstadt — Mittagstisch, Kuchen, idyllische Lage am Fleet",
+    "lat": 53.5444854,
+    "lon": 9.9979278,
+    "district": "HafenCity",
+    "address": "Brooktorkai 17, 20457 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "BLOCK HOUSE Rotherbaum",
+    "category": "mittagstisch",
+    "description": "Hamburger Steakhaus-Klassiker — Mittagsmenü, Salat-Buffet, gutes Preis-Leistungs-Verhältnis",
+    "lat": 53.5718049,
+    "lon": 9.9949652,
+    "district": "Rotherbaum",
+    "address": "Mittelweg 122, 20148 Hamburg",
+    "verified": true
+  },
+  {
+    "name": "Weltcafé ElbFaire",
+    "category": "mittagstisch",
+    "description": "Fair-Trade-Café in der HafenCity — Mittagstisch mit Bio-Qualität, nachhaltig, Shanghaiallee",
+    "lat": 53.5428095,
+    "lon": 10.0022997,
+    "district": "HafenCity",
+    "address": "Shanghaiallee 12, 20457 Hamburg",
+    "verified": true
+  }
+]

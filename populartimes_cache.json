@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Aalhaus",
+    "address": "Kieler Straße 563, Hamburg",
+    "rating": 4.6,
+    "current_popularity": null,
+    "populartimes": null
+  },
+  {
+    "name": "Frau Möller",
+    "address": "Lange Reihe 96, Hamburg",
+    "rating": 4.5,
+    "current_popularity": null,
+    "populartimes": null
+  },
+  {
+    "name": "Christiansen's",
+    "address": "Pinnasberg 60, Hamburg",
+    "rating": 4.6,
+    "current_popularity": null,
+    "populartimes": null
+  },
+  {
+    "name": "Katze",
+    "address": "Schulterblatt 86, Hamburg",
+    "rating": 4.2,
+    "current_popularity": null,
+    "populartimes": null
+  },
+  {
+    "name": "Le Fonque",
+    "address": "Juliusstraße 33, Hamburg",
+    "rating": 4.5,
+    "current_popularity": null,
+    "populartimes": null
+  },
+  {
+    "name": "Zum Silbersack",
+    "address": "Silbersackstraße 9, Hamburg",
+    "rating": 4.5,
+    "current_popularity": null,
+    "populartimes": null
+  },
+  {
+    "name": "Elbschlosskeller",
+    "address": "Hamburger Berg 5, Hamburg",
+    "rating": 4.4,
+    "current_popularity": null,
+    "populartimes": null
+  }
+]

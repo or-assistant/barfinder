@@ -1,0 +1,155 @@
+=== Manual Coordinate Fix Log Started at 2026-02-15T19:07:06.731Z ===
+[2026-02-15T19:07:06.731Z] 📋 Backup created: /home/openclaw/.openclaw/workspace/barfinder/highlights_backup_1771182426731.json
+
+[2026-02-15T19:07:06.736Z] === APPLYING MANUAL COORDINATE FIXES ===
+
+[2026-02-15T19:07:06.736Z] 🔧 [8] "Borchers"
+[2026-02-15T19:07:06.736Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg, Eppendorf
+[2026-02-15T19:07:06.736Z]    NEW: 53.5854, 9.9803 | Eppendorfer Weg 172, Eppendorf
+[2026-02-15T19:07:06.736Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.736Z] 🔧 [9] "Schröders"
+[2026-02-15T19:07:06.736Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg, Eppendorf
+[2026-02-15T19:07:06.736Z]    NEW: 53.586, 9.979 | Eppendorfer Weg 198, Eppendorf
+[2026-02-15T19:07:06.737Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.737Z] 🔧 [12] "Familien-Eck"
+[2026-02-15T19:07:06.737Z]    OLD: 53.5545073, 9.927292 | Friedensallee 9, Ottensen
+[2026-02-15T19:07:06.737Z]    NEW: 53.5545, 9.9273 | Friedensallee 9, Ottensen
+[2026-02-15T19:07:06.737Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.737Z] 🔧 [52] "Berglund"
+[2026-02-15T19:07:06.737Z]    OLD: 53.5910895, 10.008635 | Barmbeker Straße 83, Winterhude
+[2026-02-15T19:07:06.737Z]    NEW: 53.5911, 9.9975 | Barmbeker Straße 83, Winterhude
+[2026-02-15T19:07:06.737Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.737Z] 🔧 [56] "Weinladen St. Pauli"
+[2026-02-15T19:07:06.737Z]    OLD: 53.553043, 9.9585878 | Paul-Roosen-Straße, St. Pauli
+[2026-02-15T19:07:06.737Z]    NEW: 53.553, 9.9585 | Paul-Roosen-Straße 24, St. Pauli
+[2026-02-15T19:07:06.737Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.737Z] 🔧 [60] "W die Weinbar"
+[2026-02-15T19:07:06.737Z]    OLD: 53.5829191, 10.0102753 | Mühlenkamp, Winterhude
+[2026-02-15T19:07:06.737Z]    NEW: 53.5828, 9.9985 | Mühlenkamp 20, Winterhude
+[2026-02-15T19:07:06.737Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [67] "VIA DEI MILLE"
+[2026-02-15T19:07:06.738Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:07:06.738Z]    NEW: 53.5851, 9.9817 | Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [76] "Poletto Winebar"
+[2026-02-15T19:07:06.738Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:07:06.738Z]    NEW: 53.5851, 9.9817 | Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [86] "Goldfischglas"
+[2026-02-15T19:07:06.738Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg 178, Eppendorf
+[2026-02-15T19:07:06.738Z]    NEW: 53.5846, 9.9825 | Eppendorfer Weg 178, Eppendorf
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [87] "Pelican Bar"
+[2026-02-15T19:07:06.738Z]    OLD: 53.553043, 9.9585878 | Paul-Roosen-Straße, St. Pauli
+[2026-02-15T19:07:06.738Z]    NEW: 53.5528, 9.9588 | Paul-Roosen-Straße 26, St. Pauli
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [95] "Black Forest Bar"
+[2026-02-15T19:07:06.738Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg, Eppendorf
+[2026-02-15T19:07:06.738Z]    NEW: 53.5849, 9.9808 | Eppendorfer Weg 185, Eppendorf
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [96] "Bierkrug"
+[2026-02-15T19:07:06.738Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg, Eppendorf
+[2026-02-15T19:07:06.738Z]    NEW: 53.5857, 9.9795 | Eppendorfer Weg 220, Eppendorf
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [103] "Bar du Nord"
+[2026-02-15T19:07:06.738Z]    OLD: 53.5799154, 10.0125307 | Mühlenkamp 1, Winterhude
+[2026-02-15T19:07:06.738Z]    NEW: 53.58, 10.0128 | Mühlenkamp 1, Winterhude
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [137] "Cafeteria Latina"
+[2026-02-15T19:07:06.738Z]    OLD: 53.7341678, 10.02115 | Norderstedt
+[2026-02-15T19:07:06.738Z]    NEW: 53.6958, 9.995 | Ulzburger Straße 123, Norderstedt
+[2026-02-15T19:07:06.738Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.738Z] 🔧 [138] "Petrol Bar"
+[2026-02-15T19:07:06.739Z]    OLD: 53.7341678, 10.02115 | Norderstedt
+[2026-02-15T19:07:06.739Z]    NEW: 53.6965, 9.9955 | Rathausallee 50, Norderstedt
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [144] "entflammBAR"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5853462, 9.9817799 | Eppendorfer Weg 177, Eppendorf
+[2026-02-15T19:07:06.739Z]    NEW: 53.5855, 9.9805 | Eppendorfer Weg 177, Eppendorf
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [146] "Planet Dart & Billard Bar"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg 166, Eppendorf
+[2026-02-15T19:07:06.739Z]    NEW: 53.5844, 9.9828 | Eppendorfer Weg 166, Eppendorf
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [162] "Don Antonio"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5829191, 10.0102753 | Mühlenkamp 27, Winterhude
+[2026-02-15T19:07:06.739Z]    NEW: 53.5831, 9.9978 | Mühlenkamp 27, Winterhude
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [164] "Zum Glaskasten"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5910895, 10.008635 | Barmbeker Straße 61, Winterhude
+[2026-02-15T19:07:06.739Z]    NEW: 53.5898, 9.995 | Barmbeker Straße 61, Winterhude
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [165] "Portomarin"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5799154, 10.0125307 | Mühlenkamp 1, Winterhude
+[2026-02-15T19:07:06.739Z]    NEW: 53.5798, 10.0125 | Mühlenkamp 3, Winterhude
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [178] "Nil"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5853462, 9.9817799 | Eppendorfer Weg 275, Eppendorf
+[2026-02-15T19:07:06.739Z]    NEW: 53.5849, 9.982 | Eppendorfer Weg 275, Eppendorf
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [179] "Cox"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5853462, 9.9817799 | Eppendorfer Weg 259, Eppendorf
+[2026-02-15T19:07:06.739Z]    NEW: 53.5852, 9.9818 | Eppendorfer Weg 259, Eppendorf
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [182] "Trattoria Italiana da Basso"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5852476, 9.981478 | Eppendorfer Weg 268, Eppendorf
+[2026-02-15T19:07:06.739Z]    NEW: 53.585, 9.9815 | Eppendorfer Weg 268, Eppendorf
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.739Z] 🔧 [188] "Café Klatsch"
+[2026-02-15T19:07:06.739Z]    OLD: 53.5829191, 10.0102753 | Mühlenkamp 25, Winterhude
+[2026-02-15T19:07:06.739Z]    NEW: 53.5825, 9.999 | Mühlenkamp 25, Winterhude
+[2026-02-15T19:07:06.739Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.740Z] 🔧 [190] "Eisenstein"
+[2026-02-15T19:07:06.740Z]    OLD: 53.5545073, 9.927292 | Friedensallee 9, Winterhude/Eppendorf
+[2026-02-15T19:07:06.740Z]    NEW: 53.5638, 9.9421 | Friedensallee 9, Ottensen
+[2026-02-15T19:07:06.740Z]    ✅ Fixed
+
+[2026-02-15T19:07:06.740Z] Total manual fixes applied: 25
+
+[2026-02-15T19:07:06.740Z] === REMOVING DUPLICATE RESTAURANT SCHOPPENHAUER ===
+
+[2026-02-15T19:07:06.740Z] Found 2 Restaurant Schoppenhauer entries:
+[2026-02-15T19:07:06.740Z]   [73] Reimerstwiete 20-22, Speicherstadt
+[2026-02-15T19:07:06.740Z]   [82] Reimerstwiete 20-22, Altstadt
+[2026-02-15T19:07:06.740Z] 🗑️  Removed duplicate: [82] "Restaurant Schoppenhauer" at Reimerstwiete 20-22, Altstadt
+
+[2026-02-15T19:07:06.740Z] === VALIDATION ===
+
+[2026-02-15T19:07:06.742Z] ⚠️  Validation: 1 duplicate coordinate groups remain:
+[2026-02-15T19:07:06.742Z]    📍 53.5851,9.9817 (2 bars):
+[2026-02-15T19:07:06.742Z]      - "VIA DEI MILLE" | Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:07:06.742Z]      - "Poletto Winebar" | Eppendorfer Weg 287, Eppendorf
+[2026-02-15T19:07:06.742Z] 
+[2026-02-15T19:07:06.742Z] 💾 Updated highlights.json saved
+
+[2026-02-15T19:07:06.743Z] === FINAL SUMMARY ===
+[2026-02-15T19:07:06.743Z] Manual fixes applied: 25
+[2026-02-15T19:07:06.743Z] Duplicates removed: 1
+[2026-02-15T19:07:06.743Z] Validation result: FAILED
+[2026-02-15T19:07:06.743Z] Total bars in file: 205
+[2026-02-15T19:07:06.743Z] 
+⚠️  Some coordinate duplicates may still remain.
