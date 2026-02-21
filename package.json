@@ -11,10 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "better-sqlite3": "^12.6.2",
     "cheerio": "^1.2.0",
     "imapflow": "^1.2.9",
     "jsdom": "^28.1.0",
+    "jsonwebtoken": "^9.0.3",
     "playwright-core": "^1.58.2"
   }
 }

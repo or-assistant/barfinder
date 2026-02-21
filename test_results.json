@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-02-16T03:04:58.370Z",
-  "passed": 23,
-  "failed": 0,
+  "timestamp": "2026-02-21T03:06:54.003Z",
+  "passed": 22,
+  "failed": 1,
   "total": 23,
-  "ok": true,
+  "ok": false,
   "tests": [
     {
       "test": "/api/places status 200",
       "ok": true,
-      "detail": "200, 1438ms"
+      "detail": "200, 4169ms"
     },
     {
       "test": "/api/places has entries",
       "ok": true,
-      "detail": "110 places"
+      "detail": "100 places"
     },
     {
       "test": "/api/places all have name/lat/lon",
@@ -23,12 +23,12 @@
     {
       "test": "/api/places < 5000ms (Overpass live)",
       "ok": true,
-      "detail": "1438ms"
+      "detail": "4169ms"
     },
     {
       "test": "/api/hot status 200",
       "ok": true,
-      "detail": "200, 41ms"
+      "detail": "200, 1724ms"
     },
     {
       "test": "/api/hot all have vibeScore/hotScore",
@@ -37,13 +37,13 @@
     },
     {
       "test": "/api/hot < 200ms",
-      "ok": true,
-      "detail": "41ms"
+      "ok": false,
+      "detail": "1724ms"
     },
     {
       "test": "/api/events status 200",
       "ok": true,
-      "detail": "200, 11ms"
+      "detail": "200, 43ms"
     },
     {
       "test": "/api/events returns array",
@@ -53,7 +53,7 @@
     {
       "test": "/api/sources status 200",
       "ok": true,
-      "detail": "200, 8ms"
+      "detail": "200, 6ms"
     },
     {
       "test": "/api/sources all have status",
@@ -63,17 +63,17 @@
     {
       "test": "/api/weather status 200",
       "ok": true,
-      "detail": "200, 2ms"
+      "detail": "200, 1ms"
     },
     {
       "test": "/api/weather has temp/weatherEmoji",
       "ok": true,
-      "detail": "☁️ -3°C"
+      "detail": "🌧️ 4.5°C"
     },
     {
       "test": "/api/weather < 100ms",
       "ok": true,
-      "detail": "2ms"
+      "detail": "1ms"
     },
     {
       "test": "All places have numeric lat/lon",
@@ -83,17 +83,17 @@
     {
       "test": "vibeScore 0-100",
       "ok": true,
-      "detail": "110 places with vibeScore"
+      "detail": "100 places with vibeScore"
     },
     {
-      "test": "estimatedBusyness 0-100",
+      "test": "estimatedBusyness check (none on /api/places — ok)",
       "ok": true,
-      "detail": "110 places"
+      "detail": null
     },
     {
       "test": "isOpen is boolean or null",
       "ok": true,
-      "detail": "110 places"
+      "detail": "100 places"
     },
     {
       "test": "No duplicate places",

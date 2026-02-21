@@ -1,65 +1,5 @@
 [
   {
-    "title": "Female Founders Breakfast",
-    "date": "2026-02-18",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/female-founders-breakfast-02-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Women interested in setting up their own business and female founders share their challenges and experiences over breakfast."
-  },
-  {
-    "title": "Online Q&A – adding value for the food industry with KUK",
-    "date": "2026-02-18",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/online-qa-adding-value-for-the-food-industry-with-kuk",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "In this online call, KUK will give food startups a concise insight into their service portfolio and show them how diverse their range of ingredients is."
-  },
-  {
-    "title": "KI Köpfe Start-Up Night",
-    "date": "2026-02-18",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/ki-kopfe-start-up-night",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "The podcast KI Köpfe, hosted by Paul Elvers, invites you to a live podcast experience in Hamburg's HafenCity with startup founders."
-  },
-  {
-    "title": "TMA x Ben Arnon & Kyrylo Korsun: “How to build your first network as a Migrant Founder”",
-    "date": "2026-02-19",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/tma-x-ben-arnon-kyrylo-korsun-how-to-build-your-first-network-as-a-migrant-founder",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Join in for an Campfire Chat where you sit down (virtually) with two community builders who have grown a vibrant, diverse migrant community in Hamburg."
-  },
-  {
-    "title": "Part II: Intellectual Property – IP Basics for Startups",
-    "date": "2026-02-19",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/part-ii-intellectual-property-ip-basics-for-startups",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "This workshop goes into depth: the focus is on your own patent application and the most important do’s and don’ts in the application process."
-  },
-  {
-    "title": "build fridays hamburg",
-    "date": "2026-02-20",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-20-2-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
-  },
-  {
     "title": "Founders Running Club Hamburg",
     "date": "2026-02-21",
     "time": "",
@@ -88,6 +28,16 @@
     "source": "startupcity",
     "type": "tech",
     "description": "This event explains the basics of AI agents in an understandable way, shows practical application examples and highlights key legal framework conditions."
+  },
+  {
+    "title": "Start-up School: Info Session",
+    "date": "2026-02-24",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/start-up-school-info-session",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "The DESY Start-up School is a three-month online programme to support scientists and engineers in turning research-based ideas into viable businesses."
   },
   {
     "title": "ZAL Innovation Days 2026",
@@ -120,6 +70,26 @@
     "description": "This workshop will explore the question: Why become self-employed?"
   },
   {
+    "title": "10x Impact with AI Agents",
+    "date": "2026-02-26",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/10x-impact-with-ai-agents",
+    "source": "startupcity",
+    "type": "tech",
+    "description": "This event is for software development teams building real systems with AI agents: engineers, data scientists, and tech-savvy product managers."
+  },
+  {
+    "title": "build fridays hamburg",
+    "date": "2026-02-27",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-27-2-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
+  },
+  {
     "title": "AI at Work: When ‘Faster’ Quietly Becomes ‘Sloppier",
     "date": "2026-02-27",
     "time": "",
@@ -130,6 +100,16 @@
     "description": "Ukrainian Science & Tech Hamburg is happy to invite you to the first-ever English-speaking event of the community — this time in a panel discussion format."
   },
   {
+    "title": "Universities in Hamburg as Startup Launchpads",
+    "date": "2026-03-04",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/universities-in-hamburg-as-startup-launchpads",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "Discover how Hamburg’s universities can power your startup journey."
+  },
+  {
     "title": "Impact Academy: understanding the startup funding landscape",
     "date": "2026-03-10",
     "time": "",
@@ -138,6 +118,16 @@
     "source": "startupcity",
     "type": "startup",
     "description": "Find potential funding for your business with Startup City Hamburg."
+  },
+  {
+    "title": "Power ventures: how to morph industries with green innovation",
+    "date": "2026-03-12",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/power-ventures-how-to-morph-industries-with-green-innovation",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "Join in for an inspiring evening at the intersection of climate innovation, entrepreneurship, and collaboration."
   },
   {
     "title": "Internorga 2026",
@@ -200,6 +190,16 @@
     "description": "Delicious vegan food, impulses & inspiring talks - Social Entrepreneurship City Hamburg Edition!"
   },
   {
+    "title": "Hack the AI future: Show your skills",
+    "date": "2026-04-09",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/ai-hackathon-hack-the-future",
+    "source": "startupcity",
+    "type": "tech",
+    "description": "Join 350+ hackers, builders, and future leaders for the biggest AI hackathon in Northern Germany, right at the heart of the Future Leader Summit 2026."
+  },
+  {
     "title": "FUTURE LEADER SUMMIT",
     "date": "2026-04-10",
     "time": "",
@@ -260,6 +260,16 @@
     "description": "Proptech Summit is the conference for the Proptech industry. The leading minds of the German real estate scene meet the digital innovators of the industry."
   },
   {
+    "title": "Female Founders Breakfast",
+    "date": "2026-04-22",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/female-founders-breakfast-04-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "Women interested in setting up their own business and female founders share their challenges and experiences over breakfast."
+  },
+  {
     "title": "German Creative Economy Summit 2026",
     "date": "2026-04-28",
     "time": "",
@@ -300,6 +310,16 @@
     "description": "This full-day, interactive workshop offers an empowering space for female founders and aspiring leaders to explore what it truly means to lead."
   },
   {
+    "title": "Hamburg Innovation Summit 2026",
+    "date": "2026-06-18",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/hamburg-innovation-summit-2026",
+    "source": "startupcity",
+    "type": "social",
+    "description": "The Hamburg Innovations Summit (HHIS) is the largest innovation event in Hamburg and the metropolitan region."
+  },
+  {
     "title": "Food Innovation Camp 2026",
     "date": "2026-06-22",
     "time": "",
@@ -310,16 +330,6 @@
     "description": "The Food Innovation Camp brings together over 1,300 decision-makers from retail, gastronomy, investment and politics with Europe's most exciting food startups."
   },
   {
-    "title": "Sustainability Summit 2026",
-    "date": "2026-06-24",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/sustainability-summit-2026",
-    "source": "startupcity",
-    "type": "social",
-    "description": "The Sustainability Summit is the new trade fair and conference for sustainability in business."
-  },
-  {
     "title": "Procurement Summit 2026",
     "date": "2026-06-24",
     "time": "",
@@ -328,6 +338,16 @@
     "source": "startupcity",
     "type": "tech",
     "description": "The Procurement Summit is the exhibition for digitalisation and innovation in the procurement sector on 24 and 25 June 2026 in Hamburg."
+  },
+  {
+    "title": "Sustainability Summit 2026",
+    "date": "2026-06-24",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/sustainability-summit-2026",
+    "source": "startupcity",
+    "type": "social",
+    "description": "The Sustainability Summit is the new trade fair and conference for sustainability in business."
   },
   {
     "title": "Portside Game Assembly",

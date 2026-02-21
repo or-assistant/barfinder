@@ -1,75 +1,21 @@
 {
-  "lastUpdated": "2026-02-16T03:01:34.781Z",
-  "count": 31,
+  "lastUpdated": "2026-02-21T03:01:56.889Z",
+  "count": 34,
   "sources": {
     "nextmedia": {
       "url": "https://nextmedia-hamburg.de/events/",
-      "count": 7
+      "count": 6
     },
     "aric": {
       "url": "https://aric-hamburg.de/events/",
-      "count": 24
+      "count": 26
     },
     "kreativgesellschaft": {
       "url": "https://kreativgesellschaft.org/termine/",
-      "count": 4
+      "count": 8
     }
   },
   "events": [
-    {
-      "title": "ARIC Brown Bag Session: Outclassing Frontier LLMs at Extracting Information",
-      "date": "2026-02-17",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-outclassing-frontier-llms-at-extracting-information/",
-      "source": "aric",
-      "type": "meetup"
-    },
-    {
-      "title": "AI Mix & Mingle Women's Edition",
-      "date": "2026-02-17",
-      "time": "18:30 - 21:00",
-      "venue": "Zoë II &#8211; Sofabar",
-      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-womens-edition-2/",
-      "source": "aric",
-      "type": "meetup"
-    },
-    {
-      "title": "Pitch Level Up 2026",
-      "date": "2026-02-17",
-      "time": "11:00 - 18:00",
-      "venue": "Hamburg",
-      "url": "https://kreativgesellschaft.org/termine/",
-      "source": "kreativgesellschaft",
-      "type": "pitch"
-    },
-    {
-      "title": "ARIC Brown Bag Session: Wie KI die Softwareentwicklung verändert",
-      "date": "2026-02-19",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-wie-ki-die-softwareentwicklung-veraendert/",
-      "source": "aric",
-      "type": "techtalk"
-    },
-    {
-      "title": "ARIC-Tipp | Digitale Info-Session: Scaleup Hamburg 2026",
-      "date": "2026-02-19",
-      "time": "14:30 - 15:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/scaleup-hamburg-26-infosession/",
-      "source": "aric",
-      "type": "startup"
-    },
-    {
-      "title": "build fridays - work on your startup alongside other founders",
-      "date": "2026-02-20",
-      "time": "16:00 - 23:00",
-      "venue": "SPACE Hamburg | Am Sandtorkai 27",
-      "url": "https://nextmedia-hamburg.de/events/kalender/build-fridays-work-on-your-startup-alongside-other-founders-bring-laptop-2/",
-      "source": "nextmedia",
-      "type": "startup"
-    },
     {
       "title": "ARIC-Tipp | Förderfrühstück Green Industry and Circular Economy Hamburg",
       "date": "2026-02-24",
@@ -98,6 +44,24 @@
       "type": "startup"
     },
     {
+      "title": "ARIC-Tipp | AIM Leaders Meet-up",
+      "date": "2026-02-26",
+      "time": "11:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-tipp-aim-leaders-meet-up-umgang-mit-lizenzierung-und-urheberrecht/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "ARIC Brown Bag Session: KI-Agenten – Überblick, Chancen & Risiken",
+      "date": "2026-02-26",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-ki-agenten-ueberblick-chancen-risiken/",
+      "source": "aric",
+      "type": "techtalk"
+    },
+    {
       "title": "Öffentliche Finanzierung: Von der Strategie zur erfolgreichen Bewilligung",
       "date": "2026-02-26",
       "time": "15:00 - 17:00",
@@ -105,6 +69,15 @@
       "url": "https://aric-hamburg.de/veranstaltung/oeffentliche-finanzierung-von-der-strategie-zur-erfolgreichen-bewilligung/",
       "source": "aric",
       "type": "startup"
+    },
+    {
+      "title": "Fragestunde - kompakte Beratung für Kreative",
+      "date": "2026-02-26",
+      "time": "15:00 - 17:00",
+      "venue": "Hamburg",
+      "url": "https://kreativgesellschaft.org/termine/",
+      "source": "kreativgesellschaft",
+      "type": "networking"
     },
     {
       "title": "Audiencers' Festival",
@@ -125,6 +98,24 @@
       "type": "techtalk"
     },
     {
+      "title": "ARIC Brown Bag Session: Innovationsland Deutschland",
+      "date": "2026-03-05",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-innovationsland-deutschland/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "Fragestunde - kompakte Beratung für Kreative (online)",
+      "date": "2026-03-05",
+      "time": "15:00 - 17:00",
+      "venue": "Hamburg",
+      "url": "https://kreativgesellschaft.org/termine/",
+      "source": "kreativgesellschaft",
+      "type": "networking"
+    },
+    {
       "title": "ARIC-Tipp | AgentCamp – Hamburg",
       "date": "2026-03-07",
       "time": "09:00 - 17:00",
@@ -132,6 +123,15 @@
       "url": "https://aric-hamburg.de/veranstaltung/agentcamp-hamburg/",
       "source": "aric",
       "type": "networking"
+    },
+    {
+      "title": "ARIC Brown Bag Session: Souveränität: Vom Buzzword zur Datenhoheit",
+      "date": "2026-03-10",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-souveraenitaet-vom-buzzword-zur-datenhoheit/",
+      "source": "aric",
+      "type": "techtalk"
     },
     {
       "title": "ARIC Brown Bag Session:  AI Adoption Best Practices for KMU/SMEs",
@@ -152,6 +152,15 @@
       "type": "techtalk"
     },
     {
+      "title": "ARIC Brown Bag Session: Nachhaltig wirtschaften mit KI",
+      "date": "2026-03-19",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-nachhaltig-wirtschaften-mit-ki/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
       "title": "Festival",
       "date": "2026-03-26",
       "time": "",
@@ -159,6 +168,15 @@
       "url": "https://nextmedia-hamburg.de/events/kalender/nextmedia-festival/",
       "source": "nextmedia",
       "type": "networking"
+    },
+    {
+      "title": "ARIC Brown Bag Session: Hire or Fire: Wer bleibt in der KI-Ära?",
+      "date": "2026-03-26",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-hire-or-fire-wer-bleibt-in-der-ki-aera/",
+      "source": "aric",
+      "type": "meetup"
     },
     {
       "title": "Perfektion war gestern. Stärken stärken ist heute!",
@@ -179,11 +197,11 @@
       "type": "techtalk"
     },
     {
-      "title": "Hackathon für Frauen",
+      "title": "WoHa! | Women's Hackathon 2026",
       "date": "2026-04-18",
-      "time": "00:00 - 23:59",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/hackathon-fuer-frauen-2026/",
+      "time": "09:30 - 16:00",
+      "venue": "SPACE von nextMedia.Hamburg und der Hamburg Kreativ Gesellschaft",
+      "url": "https://aric-hamburg.de/veranstaltung/woha-womens-hackathon-2026/",
       "source": "aric",
       "type": "meetup"
     },
@@ -193,6 +211,15 @@
       "time": "18:30 - 21:00",
       "venue": "Zoë II &#8211; Sofabar",
       "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-april-ki-stammtisch-im-april-2/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "AI Mix & Mingle Women's Edition",
+      "date": "2026-05-19",
+      "time": "18:30 - 21:00",
+      "venue": "Zoë II &#8211; Sofabar",
+      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-womens-edition-3/",
       "source": "aric",
       "type": "meetup"
     },

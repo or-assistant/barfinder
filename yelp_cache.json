@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-16T03:03:21.587Z",
+  "lastUpdated": "2026-02-21T03:03:49.323Z",
   "source": "yelp.de",
   "bars": [
     {
@@ -15,14 +15,6 @@
       "rating": null,
       "reviewCount": null,
       "reviewSnippet": "Cool old fashioned bar with classic cocktails on the menu. Good music, old School and new.",
-      "source": "yelp",
-      "searchCategory": "bars"
-    },
-    {
-      "name": "Gunclub",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "This is a real bar with really good music and authentic staff and a great selection of drinks.",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -43,10 +35,10 @@
       "searchCategory": "bars"
     },
     {
-      "name": "The Chug Club",
+      "name": "3-Zimmerwohnung",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "Attentive, precise and super easy going. Best bar service I've ever experienced, I think.",
+      "reviewSnippet": "Wow. Really cool bar. I was well impressed to find the first Tornado table since I've been in...",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -59,10 +51,10 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Le Lion",
+      "name": "Daniel’s Company",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "One of my favorite bars and I mean of all bars I've been to. Luckily it's in Hamburg and not too far...",
+      "reviewSnippet": "War Samstag wieder eine super Party Stimmung im Daniels und tolle Gäste.. Dj Noak u. so gar der Cult Dj legte mahl wieser auf .TOLLER ABEND",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -75,18 +67,10 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Daniel’s Company",
+      "name": "Le Lion",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "War Samstag wieder eine super Party Stimmung im Daniels und tolle Gäste.. Dj Noak u. so gar der Cult Dj legte mahl wieser auf .TOLLER ABEND",
-      "source": "yelp",
-      "searchCategory": "bars"
-    },
-    {
-      "name": "Frau Möller",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
+      "reviewSnippet": "One of my favorite bars and I mean of all bars I've been to. Luckily it's in Hamburg and not too far...",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -99,10 +83,10 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Meyer Lansky’s",
+      "name": "Gunclub",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "Erlebe Live‑Musik von Mark & the Pentones – interaktive, hochwertige Streams direkt zu dir nach Hause.",
+      "reviewSnippet": "This is a real bar with really good music and authentic staff and a great selection of drinks.",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -115,10 +99,10 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Oyster Bar",
+      "name": "Frau Möller",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "Der Bringer, der absolute Bringer in Familie Kowalkes Restaurant-Reich ist die winzige charmante Oyster Bar. Hinter dem kleinen Tresen dieser wie aus…",
+      "reviewSnippet": "Keep your propane bottle safe while you enjoy a night out—GrillBlazer’s stand ensures hassle‑free, secure storage.",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -131,6 +115,14 @@
       "searchCategory": "bars"
     },
     {
+      "name": "Meyer Lansky’s",
+      "rating": null,
+      "reviewCount": null,
+      "reviewSnippet": "Drink prices are good though during happy hour so I'd recommend trying it out.",
+      "source": "yelp",
+      "searchCategory": "bars"
+    },
+    {
       "name": "Tower Bar",
       "rating": null,
       "reviewCount": null,
@@ -139,98 +131,18 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Erika’s Eck",
+      "name": "HALO",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "The schnitzels taste fantastic, with a definite home-cooked old-school German pub kind of a feel.",
+      "reviewSnippet": "It's actually a pretty good sized place with accessible bars and two different rooms.",
       "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Zum alten Ritter",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Pukka Pads Rochelle and Jess B5 Project Books, Pack of 3 - Multi-color",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Wandsbeker Perle",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Die",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Rosi’s Bar",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Love this place, always go when I'm in Hamburg. Good music, laid-back feel and cold beer (Astra...",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Dreyer",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "When you get passed the COVID vaccine check the atmosphere is great nice Cold Holstein beer and you...",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Kuddl",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Pleasantly surprised by this place! It's a very very nice pub. We always love to go here.",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "White Eagle",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Danke Elizabetha! ....( die coolste Thresenfrau ever) Alles vorhanden in der Kneipe, von Arbeitslos bis Manager, Transen, professionelle Damen, geile…",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Windstärke 11",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Wir waren im Mai einmal da. Um es kurz zu machen: Das Lokal an sich würde ich als verrucht bezeichnen. Allerdings sind die Preise für Getränke auch…",
-      "source": "yelp",
-      "searchCategory": "kneipen"
+      "searchCategory": "bars"
     },
     {
       "name": "Vertigo",
       "rating": null,
       "reviewCount": null,
       "reviewSnippet": "Hervorragende kleine Kneipe mit erstaunlich guten Livebands und sehr netter Atmosphäre. Hier erinnert sich das freundliche Personal sogar am nächsten…",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Bei Abi",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Das gute ist - bei Abi bekommste ein Bier. Dein Bier! Natürlich sind auch noch andere Dinge im Angebot - aber Bier gehört sich allem voran in der…",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Zum Silbersack",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "This is a trad German pub just off the Reeperbahn. Well worth checking out to see the crowd of...",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
-      "name": "Zur gemütlichen Ecke",
-      "rating": null,
-      "reviewCount": null,
-      "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
       "source": "yelp",
       "searchCategory": "kneipen"
     },
@@ -243,6 +155,38 @@
       "searchCategory": "kneipen"
     },
     {
+      "name": "Bei Abi",
+      "rating": null,
+      "reviewCount": null,
+      "reviewSnippet": "Das gute ist - bei Abi bekommste ein Bier. Dein Bier! Natürlich sind auch noch andere Dinge im Angebot - aber Bier gehört sich allem voran in der…",
+      "source": "yelp",
+      "searchCategory": "kneipen"
+    },
+    {
+      "name": "Rosi’s Bar",
+      "rating": null,
+      "reviewCount": null,
+      "reviewSnippet": "Love this place, always go when I'm in Hamburg. Good music, laid-back feel and cold beer (Astra...",
+      "source": "yelp",
+      "searchCategory": "kneipen"
+    },
+    {
+      "name": "Zur gemütlichen Ecke",
+      "rating": null,
+      "reviewCount": null,
+      "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
+      "source": "yelp",
+      "searchCategory": "kneipen"
+    },
+    {
+      "name": "Zur scharfen Ecke",
+      "rating": null,
+      "reviewCount": null,
+      "reviewSnippet": "I walked into this bar a few moments hoping to buy a few drinks before walking the alte elbe tunnel...",
+      "source": "yelp",
+      "searchCategory": "kneipen"
+    },
+    {
       "name": "Die Schmiede",
       "rating": null,
       "reviewCount": null,
@@ -251,12 +195,12 @@
       "searchCategory": "kneipen"
     },
     {
-      "name": "3-Zimmerwohnung",
+      "name": "The Chug Club",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "In the immortal words of superhans:",
+      "reviewSnippet": "Immer wieder ein Garant für ein erstklassiges Bar- und Cocktailvergnügen mit Stil. Wo gibt es heute schon noch Wasser zum Drink? Und bei Betty…",
       "source": "yelp",
-      "searchCategory": "kneipen"
+      "searchCategory": "cocktail"
     },
     {
       "name": "Heaven’s Nest",
@@ -286,7 +230,7 @@
       "name": "Kleinhuis´ Bistro & Weinhandel",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "Wir waren 10 Personen und hatten für die Lunch einen Tisch reserviert. Das Restaurant und gleichzeitig Weinbar ist sehr gemütlich. Das Mittagsangebot…",
+      "reviewSnippet": "Gestern feierten wir hier einen Geburtstag und da wir hier schon einmal zum Mittagessen waren, wussten wir, dass die Qualität top ist. Gestern waren…",
       "source": "yelp",
       "searchCategory": "wine"
     },
@@ -307,10 +251,10 @@
       "searchCategory": "wine"
     },
     {
-      "name": "DER BOCKSBEUTEL",
+      "name": "Südhang",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "Ach, ist das schön hier. Da kann man sich nur wohlfühlen in geselliger Runde. Herzlich, freundlich und entspannt. Und das nicht weit weg von…",
+      "reviewSnippet": "Sear steaks and finish dishes with restaurant‑style precision—no lighter fluid, just a clean blue flame.",
       "source": "yelp",
       "searchCategory": "wine"
     },
@@ -339,10 +283,10 @@
       "searchCategory": "wine"
     },
     {
-      "name": "Kleinod",
+      "name": "Il Garage",
       "rating": null,
       "reviewCount": null,
-      "reviewSnippet": "to go to a different bar, and it was quite busy so we walked up the street and saw this wine bar.",
+      "reviewSnippet": "Wie, ist bin der erste?! Tolle Weinbar im schicken Ottensen. Hier gibt es tolle Weine im offenen Ausschank. Das Angebot wechselt oft und es gibt auch…",
       "source": "yelp",
       "searchCategory": "wine"
     },

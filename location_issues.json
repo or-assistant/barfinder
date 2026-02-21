@@ -70,6 +70,20 @@
     "issue": "Coordinates outside Hamburg bounding box"
   },
   {
+    "name": "Billard & Spielcafé",
+    "address": "Hamburger Straße",
+    "expectedCity": "Hamburg",
+    "lat": 53.9167,
+    "lon": 9.88333,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
     "name": "Rock Bar",
     "address": "Ulzburger Str. 609, Norderstedt",
     "expectedCity": "Norderstedt",
@@ -85,10 +99,2087 @@
   },
   {
     "name": "Billiard-Café",
-    "address": "Henstedt-Ulzburg",
+    "address": "Rathausplatz 1, Ulzburg",
     "expectedCity": "Hamburg",
     "lat": 53.7926888,
     "lon": 9.9808134,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Holstenhof",
+    "address": "Struvenhüttener Straße, 24640 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.8760251,
+    "lon": 9.9873914,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Thassos",
+    "address": "Heidland, 24568 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.8367515,
+    "lon": 9.9531143,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "China Town",
+    "address": "Königstraße, 24568 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.8379551,
+    "lon": 9.9605709,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "The Irish Pub",
+    "address": "Beckersbergstraße, 24558 Hamburg (Ulzburg)",
+    "expectedCity": "Hamburg",
+    "lat": 53.7937898,
+    "lon": 9.9829,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Der Tanzhase - Hotel, Restaurant, Tanzbar",
+    "address": "Dorfstraße 6-8, 24640 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.9102647,
+    "lon": 10.0251846,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Wolters Gasthof",
+    "address": "Glückstädter Straße 3, 24576 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.9048928,
+    "lon": 9.8329106,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Deichgraf",
+    "address": "Am Köhlerhof 4, 24576 Hamburg (Bissenmoor)",
+    "expectedCity": "Hamburg",
+    "lat": 53.9124229,
+    "lon": 9.8830813,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Meteora",
+    "address": "Mühlenstraße, 24576 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.916886,
+    "lon": 9.8844619,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "China Restaurant Ho",
+    "address": "Im Winkel 1, 24576 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.9212396,
+    "lon": 9.8813653,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Cockpit",
+    "address": "Dorfstraße, 24640 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.9138568,
+    "lon": 10.0376691,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Landgasthof Goldener Hahn",
+    "address": "Am Dorfplatz 1, 24641 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.8516798,
+    "lon": 10.1262328,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Kiek ut Stuben",
+    "address": "Kiekut, 24576 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.9484983,
+    "lon": 10.0296659,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gasthof Zum Fährhaus",
+    "address": "Stellauer Kirchenweg, 25563 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.9282676,
+    "lon": 9.7252037,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Thassos zur Linde",
+    "address": "Chemnitzstraße 1, 25355 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7891244,
+    "lon": 9.7731855,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Zum Pilz",
+    "address": "Düsterlohe, 25355 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7887738,
+    "lon": 9.7525854,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gut Kaden Restaurant",
+    "address": "Kadener Straße 9, 25486 Hamburg (Kaden)",
+    "expectedCity": "Hamburg",
+    "lat": 53.7853637,
+    "lon": 9.9480991,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Ricklinger Landbrauerei Zur Alten Försterei",
+    "address": "K 52, 24635 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 54.0158311,
+    "lon": 10.167158,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Diars Bar",
+    "address": "Kurhausstraße 64",
+    "expectedCity": "Hamburg",
+    "lat": 53.9418451,
+    "lon": 10.3062648,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gasthof Zur Eiche",
+    "address": "Dorfstraße 27, 23826 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.895356,
+    "lon": 10.1781647,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Maria & Toni",
+    "address": "Berliner Damm, 25479 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7511528,
+    "lon": 9.9193216,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Kühl's Gasthof",
+    "address": "Hauptstraße 41, 24647 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 54.072537,
+    "lon": 9.8951062,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Süd Restaurant",
+    "address": "Hamburg, 94B, Witte de Withstraat, Cool, Centrum, Rotterdam, Zuid-Holland, Nederland, 3012 BT, Nederland",
+    "expectedCity": "Hamburg",
+    "lat": 51.9150631,
+    "lon": 4.4755388,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Süd Restaurant",
+    "lat": 51.9150631,
+    "lon": 4.4755388,
+    "issue": "Coordinates outside northern Germany"
+  },
+  {
+    "name": "Alte Liebe am Kaispeicher B",
+    "address": "Am Kaispeicher B, 20457 Hamburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.5419,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Blue",
+    "address": "Südportal 2, Norderstedt",
+    "expectedCity": "Norderstedt",
+    "lat": 53.653509,
+    "lon": 9.9833617,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Arizona Kitchen",
+    "address": "Niendorfer Straße 176, Norderstedt",
+    "expectedCity": "Norderstedt",
+    "lat": 53.6594697,
+    "lon": 9.9804062,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Zum goldenen Bullen",
+    "address": "Pascalkehre 13a, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7448166,
+    "lon": 9.944083,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Dani´s Rhener Treff",
+    "address": "Wilstedter Straße 101, Henstedt-Ulzburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7502833,
+    "lon": 10.0079056,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Ristorante Da Calogero",
+    "address": "Carl-Zeiss-Straße 8, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7468369,
+    "lon": 9.9341001,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Amáre Bistro-Lounge",
+    "address": "Max-Weber-Straße 7, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7446227,
+    "lon": 9.9340967,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Casa di Campo",
+    "address": "Ulzburger Landstraße 447, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7520817,
+    "lon": 9.9598647,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Mr. Gyros",
+    "address": "Ulzburger Straße 472, Norderstedt",
+    "expectedCity": "Norderstedt",
+    "lat": 53.7319713,
+    "lon": 9.996982,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Mythos",
+    "address": "Friedrichsgaber Straße 57, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7467218,
+    "lon": 9.9424767,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Rio Grande",
+    "address": "Ulzburger Straße 593, Norderstedt",
+    "expectedCity": "Norderstedt",
+    "lat": 53.7323932,
+    "lon": 9.9964307,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Burger Lounge",
+    "address": "Friedrichsgaber Straße 103, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7435054,
+    "lon": 9.9530831,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Nitt",
+    "address": "Norderstedter Straße 2, Henstedt-Ulzburg",
+    "expectedCity": "Norderstedt",
+    "lat": 53.7529746,
+    "lon": 9.9971246,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Barew",
+    "address": "Max-Weber-Straße 30, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.745348,
+    "lon": 9.939617,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Steak-House Meeschensee",
+    "address": "Elfenhagen 51, Norderstedt",
+    "expectedCity": "Norderstedt",
+    "lat": 53.7538652,
+    "lon": 9.9791342,
+    "expectedBbox": {
+      "minLat": 53.66,
+      "maxLat": 53.73,
+      "minLon": 9.95,
+      "maxLon": 10.08
+    },
+    "issue": "Coordinates outside Norderstedt bounding box"
+  },
+  {
+    "name": "Eis Soost",
+    "address": "Wilstedter Straße 35",
+    "expectedCity": "Hamburg",
+    "lat": 53.7537766,
+    "lon": 9.9952851,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Mühlenstein",
+    "address": "Mühlenstraße 25, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.582442,
+    "lon": 9.7012237,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "28GRAD Strandbad Wedel",
+    "address": "Hakendamm 2, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.570528,
+    "lon": 9.6962381,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "ToGao",
+    "address": "Beim Hoophof 3a, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5792529,
+    "lon": 9.7048926,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Casa di Amici",
+    "address": "Rathausplatz 4, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5810493,
+    "lon": 9.7030943,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Buon Gusto",
+    "address": "Mühlenstraße 28, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5823393,
+    "lon": 9.7007437,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gelato In",
+    "address": "Mühlenstraße 31, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5821369,
+    "lon": 9.7013019,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "La Giara",
+    "address": "Mühlenstraße 24, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5825311,
+    "lon": 9.7008203,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Batavia",
+    "address": "Brooksdamm, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5817863,
+    "lon": 9.6950508,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "La Vela Wedel",
+    "address": "Deichstraße 19, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5741801,
+    "lon": 9.6812498,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hotel Restaurant Alte Schmiede",
+    "address": "Osterjork 24, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5319402,
+    "lon": 9.6839987,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Kingz - Das Grillhaus",
+    "address": "Rudolf-Breitscheid-Straße 40, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5788826,
+    "lon": 9.7100885,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Porter-House",
+    "address": "Am Marktplatz 2a, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5835215,
+    "lon": 9.6974322,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Fontana",
+    "address": "Moorweg 2, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5936018,
+    "lon": 9.723067,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Yvonne's kleines Gasthaus",
+    "address": "Gärtnerstraße 20, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5866147,
+    "lon": 9.6975671,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Mundfein",
+    "address": "Rosengarten 3, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5813447,
+    "lon": 9.7049935,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Café MöwenNest",
+    "address": "Yachthafenstraße 6, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5533303,
+    "lon": 9.6683969,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Garduong",
+    "address": "Bahnhofstraße 31, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5781631,
+    "lon": 9.7051754,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Taverna Hellas",
+    "address": "Altländer Markt 1, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5335335,
+    "lon": 9.679488,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Glashaus Cafe",
+    "address": "Am Elbdeich 31, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5449245,
+    "lon": 9.675212,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Monsoon",
+    "address": "Am Marktplatz 7, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.583878,
+    "lon": 9.6982254,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Indah's Kaffeehaus",
+    "address": "Bahnhofstraße 9, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5803545,
+    "lon": 9.703912,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Vom Land zum Meer",
+    "address": "Am Elbdeich 27a, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5427199,
+    "lon": 9.6807465,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Soho Asian Cuisine & Sushi Bar",
+    "address": "Rosengarten 29, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.58203,
+    "lon": 9.7097214,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Schulauer Fährhaus",
+    "address": "Parnaßstraße 29, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5693451,
+    "lon": 9.7032971,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Kathrins Genuss Welt",
+    "address": "Bürgerei 1, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5326761,
+    "lon": 9.6810103,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "JA AN",
+    "address": "Altländer Markt 1-4, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5334501,
+    "lon": 9.6796793,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gelato in",
+    "address": "Strandbaddamm 3, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5713253,
+    "lon": 9.697453,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Sea Bully",
+    "address": "Deichstraße 20",
+    "expectedCity": "Hamburg",
+    "lat": 53.575634,
+    "lon": 9.6787801,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Taverna Plaka",
+    "address": "Kronskamp 60, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5802529,
+    "lon": 9.720886,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Red Koi",
+    "address": "Strandbaddamm 3, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5714125,
+    "lon": 9.6978224,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Asiaaroma",
+    "address": "Bahnhofstraße 52, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5755065,
+    "lon": 9.7060749,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Pane Vino",
+    "address": "Am Marktplatz 3, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5841006,
+    "lon": 9.6975143,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Taverna zum Griechen",
+    "address": "Feldstraße 46",
+    "expectedCity": "Hamburg",
+    "lat": 53.5760851,
+    "lon": 9.7151166,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Reepschlägerhaus",
+    "address": "Schauenburger Straße 4, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5864337,
+    "lon": 9.6930059,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Back-Cafe Wedel",
+    "address": "Egenbüttelweg 4, Wedel",
+    "expectedCity": "Hamburg",
+    "lat": 53.5906829,
+    "lon": 9.7160872,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hofcafe Obsthof Feindt",
+    "address": "Westerjork 57, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5344123,
+    "lon": 9.670421,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "1221",
+    "address": "Schützenhofstraße 7, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5316343,
+    "lon": 9.6812561,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hotel Altes Land",
+    "address": "Schützenhofstraße 16, Jork",
+    "expectedCity": "Hamburg",
+    "lat": 53.5310992,
+    "lon": 9.6820909,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Horster Mühle",
+    "address": "Zur Wassermühle 4, Horst",
+    "expectedCity": "Hamburg",
+    "lat": 53.3688024,
+    "lon": 10.0252177,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Maschener Eiscafe",
+    "address": "Horster Landstraße 118, Maschen",
+    "expectedCity": "Hamburg",
+    "lat": 53.3773706,
+    "lon": 10.0344422,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Max Tu",
+    "address": "Poststraße 3-5, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3850033,
+    "lon": 9.9823624,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gran Sasso",
+    "address": "Unter den Linden 12A, Stelle",
+    "expectedCity": "Hamburg",
+    "lat": 53.3819986,
+    "lon": 10.1113272,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Bäckerei Soetebier",
+    "address": "Horster Landstraße 64, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3832924,
+    "lon": 10.0368519,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Nikos Taverne",
+    "address": "Horster Landstraße 121, Maschen-Heide",
+    "expectedCity": "Hamburg",
+    "lat": 53.3771056,
+    "lon": 10.0346593,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Pizzeria La Stella",
+    "address": "Harburger Straße 16, Stelle",
+    "expectedCity": "Hamburg",
+    "lat": 53.3849867,
+    "lon": 10.1073799,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "BARrica",
+    "address": "Schillerplatz 1, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3870449,
+    "lon": 9.9830677,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Món Việt",
+    "address": "Horster Landstraße 116, Maschen",
+    "expectedCity": "Hamburg",
+    "lat": 53.3778079,
+    "lon": 10.0346597,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Zum Lindenhof",
+    "address": "Bremer Straße 55, Nenndorf",
+    "expectedCity": "Hamburg",
+    "lat": 53.3791112,
+    "lon": 9.8955096,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Johannsen's",
+    "address": "Helmstorfer Straße 19, Lindhorst",
+    "expectedCity": "Hamburg",
+    "lat": 53.373522,
+    "lon": 9.9876149,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Bambus Lounge",
+    "address": "Harburger Straße 43, Stelle",
+    "expectedCity": "Hamburg",
+    "lat": 53.386008,
+    "lon": 10.100311,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Dat Backhus",
+    "address": "Bremer Straße 51, Nenndorf",
+    "expectedCity": "Hamburg",
+    "lat": 53.3795417,
+    "lon": 9.8963095,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Böttchers Gasthaus",
+    "address": "Bremer Straße 44, Nenndorf",
+    "expectedCity": "Hamburg",
+    "lat": 53.3798281,
+    "lon": 9.8956626,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Herr Nilsson",
+    "address": "Hittfelder Schulstraße, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3862774,
+    "lon": 9.9857273,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Osteria Rustica",
+    "address": "Eikhoff 2, Rosengarten",
+    "expectedCity": "Hamburg",
+    "lat": 53.3706847,
+    "lon": 9.9381436,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Knolles Bistro",
+    "address": "Ohlendorfer Straße 3, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3436414,
+    "lon": 10.0290175,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Sushi Circle",
+    "address": "Ohlendorfer Straße 3, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3438364,
+    "lon": 10.0285386,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "PAN-NAM Restaurant",
+    "address": "Bahnhofstraße 35a, Rosengarten",
+    "expectedCity": "Hamburg",
+    "lat": 53.3675819,
+    "lon": 9.924964,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "aroma Bistro",
+    "address": "Am Tennisplatz 2, Hittfeld",
+    "expectedCity": "Hamburg",
+    "lat": 53.3880868,
+    "lon": 9.9829312,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Aphrodite",
+    "address": "Hinter den Höllen 1, Ramelsloh",
+    "expectedCity": "Hamburg",
+    "lat": 53.3423587,
+    "lon": 10.006216,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Lieblingsplatz",
+    "address": "Moorstraße 41, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.363214,
+    "lon": 9.9933192,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Gentles Club Die Orgel",
+    "address": "Rübenkamp 27, Maschen",
+    "expectedCity": "Hamburg",
+    "lat": 53.3883141,
+    "lon": 10.0272758,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Athena",
+    "address": "Lüneburger Straße 45, Stelle",
+    "expectedCity": "Hamburg",
+    "lat": 53.3790933,
+    "lon": 10.1216076,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Zum Dorfkrug",
+    "address": "Bei der Kirche 8, Stelle",
+    "expectedCity": "Hamburg",
+    "lat": 53.380291,
+    "lon": 10.1124232,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hittfelder Mühle",
+    "address": "Weg zur Mühle 10, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.381579,
+    "lon": 9.9838587,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Mylos",
+    "address": "Weg zur Mühle 10a, Seevetal",
+    "expectedCity": "Hamburg",
+    "lat": 53.3815129,
+    "lon": 9.9835425,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Capri",
+    "address": "Steindamm 6",
+    "expectedCity": "Hamburg",
+    "lat": 53.7509439,
+    "lon": 9.9211508,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hofcafé Landhaus Saggau",
+    "address": "Dreiüm 29",
+    "expectedCity": "Hamburg",
+    "lat": 53.7623578,
+    "lon": 9.9352391,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Tamanori",
+    "address": "Hamburger Straße 183, Henstedt-Ulzburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7717735,
+    "lon": 9.9790804,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Omiros",
+    "address": "Neuer Weg 16, Henstedt-Ulzburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7888505,
+    "lon": 10.0021614,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "d'Alessio",
+    "address": "Hamburger Straße 66, Henstedt-Ulzburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.7798092,
+    "lon": 9.9771789,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Christina's Kuchen und Torten im Café am Wöddel",
+    "address": "Am Wöddel 25",
+    "expectedCity": "Hamburg",
+    "lat": 53.7874407,
+    "lon": 10.0074004,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Ambrosia",
+    "address": "Weg am Sportplatz 15, Tangstedt",
+    "expectedCity": "Hamburg",
+    "lat": 53.7511108,
+    "lon": 10.0655017,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Mr. Singh",
+    "address": "Berliner Damm 2A, Ellerau",
+    "expectedCity": "Hamburg",
+    "lat": 53.7499924,
+    "lon": 9.9192567,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Taste of Asia",
+    "address": "Bahnstraße 2, Quickborn",
+    "expectedCity": "Hamburg",
+    "lat": 53.7496694,
+    "lon": 9.9193425,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Lakeside Kitchen & Bar",
+    "address": "Højerweg 2, Ellerau",
+    "expectedCity": "Hamburg",
+    "lat": 53.7529306,
+    "lon": 9.9206137,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Jagdhaus Waldfrieden",
+    "address": "Kieler Straße 1, Bilsen",
+    "expectedCity": "Hamburg",
+    "lat": 53.7548129,
+    "lon": 9.8815196,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Alter Heidkrug",
+    "address": "Segeberger Straße 10, Kayhude",
+    "expectedCity": "Hamburg",
+    "lat": 53.7490717,
+    "lon": 10.1264677,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Schosterkrog",
+    "address": "Dorfstraße 11, Henstedt-Ulzburg",
+    "expectedCity": "Hamburg",
+    "lat": 53.787309,
+    "lon": 10.0031197,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Tommys Eisbar",
+    "address": "Am Markt 13, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6839746,
+    "lon": 9.6662181,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Parkhotel Rosarium",
+    "address": "Berliner Straße 10",
+    "expectedCity": "Hamburg",
+    "lat": 53.6841687,
+    "lon": 9.6699799,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "von Stamm",
+    "address": "Kleiner Sand 60, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6860468,
+    "lon": 9.6716829,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Himara",
+    "address": "Norderstraße 60c, Tornesch",
+    "expectedCity": "Hamburg",
+    "lat": 53.7028854,
+    "lon": 9.7143987,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Lee 1996 Asian Cuisine",
+    "address": "Großer Sand 24, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6823314,
+    "lon": 9.6668288,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Pathos",
+    "address": "Hauptstraße 29, Holm",
+    "expectedCity": "Hamburg",
+    "lat": 53.6213191,
+    "lon": 9.6716372,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hofcafé Almthof",
+    "address": "Almtweg 37, Appen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6633592,
+    "lon": 9.7223192,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "St. Esprit",
+    "address": "Klosterhof 4, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6812043,
+    "lon": 9.6568966,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant am Kloster",
+    "address": "Marktstraße 2, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6829418,
+    "lon": 9.6561321,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Presse Café",
+    "address": "Am Markt 4, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6835506,
+    "lon": 9.6654404,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Kleiner Friedrich",
+    "address": "Friedrichstraße 2-4, Tornesch",
+    "expectedCity": "Hamburg",
+    "lat": 53.6976117,
+    "lon": 9.7125498,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Golden Smoke",
+    "address": "Bahnhofsplatz 4",
+    "expectedCity": "Hamburg",
+    "lat": 53.6972323,
+    "lon": 9.7145341,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "asiahub",
+    "address": "Uetersener Straße 1, Tornesch",
+    "expectedCity": "Hamburg",
+    "lat": 53.6969267,
+    "lon": 9.7126528,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Osteria La Vite",
+    "address": "Hauptstraße 18, Holm",
+    "expectedCity": "Hamburg",
+    "lat": 53.6205623,
+    "lon": 9.6736407,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Birkenhain",
+    "address": "Heimstättenstraße 87, Tornesch",
+    "expectedCity": "Hamburg",
+    "lat": 53.7108252,
+    "lon": 9.7110059,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Ladiges Gasthof",
+    "address": "Hauptstraße 14, Holm",
+    "expectedCity": "Hamburg",
+    "lat": 53.6195663,
+    "lon": 9.6748034,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Tower-Restaurant Uetersen-Heist",
+    "address": "Bültenkoppel 19, Heist",
+    "expectedCity": "Hamburg",
+    "lat": 53.6442753,
+    "lon": 9.7046067,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Café Langes Mühle",
+    "address": "Heidgrabener Straße 3, Uetersen",
+    "expectedCity": "Hamburg",
+    "lat": 53.6922829,
+    "lon": 9.6739641,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hotel Lindenhof",
+    "address": "Großer Ring 7, Heist",
+    "expectedCity": "Hamburg",
+    "lat": 53.6535145,
+    "lon": 9.6567403,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Flens' Kneipe",
+    "address": "Großenseer Straße 8b, Lütjensee",
+    "expectedCity": "Hamburg",
+    "lat": 53.6405881,
+    "lon": 10.3612707,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Zur Bilsener Mühle",
+    "address": "Kieler Straße 25, Bilsen",
+    "expectedCity": "Hamburg",
+    "lat": 53.7729967,
+    "lon": 9.8757265,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Hotel & Restaurant Luna",
+    "address": "Heinrich-Hertz-Straße 2, Trittau",
+    "expectedCity": "Hamburg",
+    "lat": 53.6179108,
+    "lon": 10.392262,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Grill-Imbiss ELLAS",
+    "address": "Europaplatz 8",
+    "expectedCity": "Hamburg",
+    "lat": 53.609378,
+    "lon": 10.4075004,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Eiscafe Griem",
+    "address": "Poststraße 33, Trittau",
+    "expectedCity": "Hamburg",
+    "lat": 53.6078314,
+    "lon": 10.4115467,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Alter Dorfkrug",
+    "address": "Fritz-Berodt-Straße 1, Großensee",
+    "expectedCity": "Hamburg",
+    "lat": 53.6152167,
+    "lon": 10.3413368,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "BeachClubTrittau",
+    "address": "Großenseer Straße 10a",
+    "expectedCity": "Hamburg",
+    "lat": 53.6163566,
+    "lon": 10.3964886,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Grander Mühle",
+    "address": "Lauenburger Straße 1",
+    "expectedCity": "Hamburg",
+    "lat": 53.5786928,
+    "lon": 10.3904331,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "mönch & mücke",
+    "address": "Zum Mönchsteich 1, Trittau",
+    "expectedCity": "Hamburg",
+    "lat": 53.6290909,
+    "lon": 10.3832422,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Restaurant Piccolino",
+    "address": "Trittauer Straße 19, Großensee",
+    "expectedCity": "Hamburg",
+    "lat": 53.6120731,
+    "lon": 10.3455704,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Strandhus",
+    "address": "Seestraße 1, Großensee",
+    "expectedCity": "Hamburg",
+    "lat": 53.6144976,
+    "lon": 10.3484878,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Zwanzig21",
+    "address": "Möllner Straße 6, Kuddewörde",
+    "expectedCity": "Hamburg",
+    "lat": 53.5804181,
+    "lon": 10.3942938,
+    "expectedBbox": {
+      "minLat": 53.39,
+      "maxLat": 53.74,
+      "minLon": 9.73,
+      "maxLon": 10.33
+    },
+    "issue": "Coordinates outside Hamburg bounding box"
+  },
+  {
+    "name": "Zum Rappen",
+    "address": "Hamburger Straße 30, Trittau",
+    "expectedCity": "Hamburg",
+    "lat": 53.6034801,
+    "lon": 10.4104851,
     "expectedBbox": {
       "minLat": 53.39,
       "maxLat": 53.74,

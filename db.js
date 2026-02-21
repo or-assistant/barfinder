@@ -43,8 +43,7 @@ function initDB() {
       smoker BOOLEAN DEFAULT 0,
       highlight BOOLEAN DEFAULT 0,
       source TEXT DEFAULT 'manual',
-      google_rating REAL,
-      google_reviews INTEGER,
+      community_score REAL,
       yelp_rating REAL,
       yelp_reviews INTEGER,
       vibe_base_score REAL,
@@ -121,12 +120,103 @@ function initDB() {
       updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
 
+    CREATE TABLE IF NOT EXISTS users (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      email TEXT UNIQUE NOT NULL,
+      password_hash TEXT NOT NULL,
+      display_name TEXT,
+      role TEXT DEFAULT 'user' CHECK(role IN ('admin','user')),
+      email_verified INTEGER DEFAULT 0,
+      verification_token TEXT,
+      reset_token TEXT,
+      reset_expires INTEGER,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      last_login DATETIME
+    );
+
+    CREATE TABLE IF NOT EXISTS favorites (
+      user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+      place_id INTEGER,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (user_id, place_id)
+    );
+
+    CREATE TABLE IF NOT EXISTS user_ratings (
+      user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+      place_id INTEGER,
+      rating INTEGER CHECK(rating BETWEEN 1 AND 5),
+      comment TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (user_id, place_id)
+    );
+
+    CREATE TABLE IF NOT EXISTS saved_locations (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+      name TEXT NOT NULL,
+      lat REAL NOT NULL,
+      lng REAL NOT NULL,
+      address TEXT,
+      is_default INTEGER DEFAULT 0,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS user_preferences (
+      user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+      preferred_categories TEXT DEFAULT '[]',
+      preferred_districts TEXT DEFAULT '[]',
+      vibe_preference TEXT DEFAULT 'any',
+      radius_km INTEGER DEFAULT 3,
+      updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS search_history (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+      query TEXT,
+      lat REAL,
+      lng REAL,
+      filters TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS recently_viewed (
+      user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+      place_id INTEGER,
+      viewed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (user_id, place_id)
+    );
+
+    CREATE TABLE IF NOT EXISTS vibe_feedback (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+      place_id INTEGER NOT NULL,
+      predicted_vibe INTEGER,
+      actual_vibe TEXT CHECK(actual_vibe IN ('too_low','accurate','too_high')),
+      comment TEXT,
+      visited_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS user_stats (
+      user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+      bars_visited INTEGER DEFAULT 0,
+      feedbacks_given INTEGER DEFAULT 0,
+      favorites_count INTEGER DEFAULT 0,
+      member_since DATETIME DEFAULT CURRENT_TIMESTAMP,
+      badge_level TEXT DEFAULT 'newcomer'
+    );
+
     CREATE INDEX IF NOT EXISTS idx_places_coords ON places(lat, lon);
     CREATE INDEX IF NOT EXISTS idx_places_category ON places(category);
     CREATE INDEX IF NOT EXISTS idx_events_date ON events(date);
     CREATE INDEX IF NOT EXISTS idx_events_source ON events(source);
     CREATE INDEX IF NOT EXISTS idx_feedback_place ON feedback(place_id);
     CREATE INDEX IF NOT EXISTS idx_rating_history_place ON rating_history(place_id);
+    CREATE INDEX IF NOT EXISTS idx_saved_locations_user ON saved_locations(user_id);
+    CREATE INDEX IF NOT EXISTS idx_search_history_user ON search_history(user_id);
+    CREATE INDEX IF NOT EXISTS idx_recently_viewed_user ON recently_viewed(user_id);
+    CREATE INDEX IF NOT EXISTS idx_vibe_feedback_user ON vibe_feedback(user_id);
+    CREATE INDEX IF NOT EXISTS idx_vibe_feedback_place ON vibe_feedback(place_id);
   `);
 
   console.log('[DB] Initialized barfinder.db');
@@ -148,11 +238,11 @@ function upsertPlace(place) {
   const stmt = d.prepare(`
     INSERT INTO places (name, slug, lat, lon, category, subcategory, address, opening_hours,
       opening_hours_estimated, phone, website, description, tags, smoker, highlight, source,
-      google_rating, google_reviews, yelp_rating, yelp_reviews, vibe_base_score,
+      community_score, yelp_rating, yelp_reviews, vibe_base_score,
       last_verified, last_rating_check)
     VALUES (@name, @slug, @lat, @lon, @category, @subcategory, @address, @opening_hours,
       @opening_hours_estimated, @phone, @website, @description, @tags, @smoker, @highlight, @source,
-      @google_rating, @google_reviews, @yelp_rating, @yelp_reviews, @vibe_base_score,
+      @community_score, @yelp_rating, @yelp_reviews, @vibe_base_score,
       @last_verified, @last_rating_check)
     ON CONFLICT(slug) DO UPDATE SET
       lat=COALESCE(@lat, lat), lon=COALESCE(@lon, lon),
@@ -163,8 +253,7 @@ function upsertPlace(place) {
       description=COALESCE(@description, description), tags=COALESCE(@tags, tags),
       smoker=COALESCE(@smoker, smoker), highlight=COALESCE(@highlight, highlight),
       source=COALESCE(@source, source),
-      google_rating=COALESCE(@google_rating, google_rating),
-      google_reviews=COALESCE(@google_reviews, google_reviews),
+      community_score=COALESCE(@community_score, community_score),
       yelp_rating=COALESCE(@yelp_rating, yelp_rating),
       yelp_reviews=COALESCE(@yelp_reviews, yelp_reviews),
       updated_at=CURRENT_TIMESTAMP
@@ -188,8 +277,7 @@ function upsertPlace(place) {
     smoker: place.smoker ? 1 : 0,
     highlight: place.highlight ? 1 : 0,
     source: place.source || 'manual',
-    google_rating: place.google_rating || null,
-    google_reviews: place.google_reviews || null,
+    community_score: place.community_score || null,
     yelp_rating: place.yelp_rating || null,
     yelp_reviews: place.yelp_reviews || null,
     vibe_base_score: place.vibe_base_score || null,

@@ -1,0 +1,20 @@
+[DB] Initialized barfinder.db
+✅ SQLite database initialized
+✅ Community scores loaded: 185 bars from database
+✅ Yelp cache loaded: 41 bars
+✅ Yelp reviews cache loaded: 41 bars
+✅ Hamburg events cache loaded
+✅ Pipeline events cache loaded: 213 events
+✅ Eventbrite events cache loaded: 86 events
+✅ New sources events cache loaded: 36 events
+✅ Mit Vergnügen cache loaded: 65 articles, 81 bars
+✅ Hamburg@Work events cache loaded: 13 events
+✅ Rural events cache loaded: 31 events
+✅ Afterwork events cache loaded: 23 events
+✅ Afterwork schedule loaded: 71 locations
+✅ OpenTable cache loaded: 15 restaurants
+✅ Events cache loaded: 5 locations
+✅ Verified hours loaded: 0 locations
+🕐 Nightly hours verification disabled (no scraping)
+Barfinder running on port 3002
+🌤️ Weather updated: 0.4°C, code 3

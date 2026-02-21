@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "title": "Ticketing für Hamburg Innovation Summit 2026 gestartet",
+      "date": "2026-02-17",
+      "time": "",
+      "venue": "Hamburg",
+      "description": "Die kostenlosen Tickets für den Hamburg Innovation Summit 2026, der am 18. Juni stattfinden wird, sind jetzt erhältlich.\nThe post Ticketing für Hamburg Innovation Summit 2026 gestartet appeared first on Hamburg Startups.",
+      "url": "https://www.hamburg-startups.net/ticketing-fuer-hamburg-innovation-summit-2026-gestartet/",
+      "type": "startup",
+      "source": "hamburg-startups"
+    },
+    {
       "title": "Jetzt bewerben für #UpdateHamburg und DeepTech StartAperitivo!",
       "date": "2026-02-05",
       "time": "",
@@ -27,26 +37,6 @@
       "venue": "Hamburg",
       "description": "Beim 3. Demo Day des Förderprogramms Future Founder präsentierten sich wieder Hochschulprojekte, die das Zeug zum Startup haben.\nThe post Exaere gewinnt beim dritten Future Founder Demo Day appeared first on Hamburg Startups.",
       "url": "https://www.hamburg-startups.net/exaere-gewinnt-beim-dritten-future-founder-demo-day/",
-      "type": "startup",
-      "source": "hamburg-startups"
-    },
-    {
-      "title": "Jetzt bewerben für den Gründer*innen Pitch 2026 von OMR 5050!",
-      "date": "2026-01-26",
-      "time": "",
-      "venue": "Hamburg",
-      "description": "Der OMR 5050 Gründer*innen Pitch 2026, der beim OMR Festival im Mai sein großes Finale hat, sucht Bewerberinnen.\nThe post Jetzt bewerben für den Gründer*innen Pitch 2026 von OMR 5050! appeared first on Hamburg Startups.",
-      "url": "https://www.hamburg-startups.net/jetzt-bewerben-fuer-gruenderinnen-pitch-2026-von-omr-5050/",
-      "type": "startup",
-      "source": "hamburg-startups"
-    },
-    {
-      "title": "STARTERiN Lunch & Learn bei ba tax: So spannend können Steuern sein!",
-      "date": "2026-01-23",
-      "time": "",
-      "venue": "Hamburg",
-      "description": "Die neuste Ausgabe von STARTERiN Lunch &#038; Learn bei ba tax brachte wertvolle Tipps zu Steuer- und Finanzthemen.\nThe post STARTERiN Lunch &amp; Learn bei ba tax: So spannend können Steuern sein! appeared first on Hamburg Startups.",
-      "url": "https://www.hamburg-startups.net/starterin-lunch-learn-bei-ba-tax-so-spannend-koennen-steuern-sein/",
       "type": "startup",
       "source": "hamburg-startups"
     },
@@ -141,7 +131,7 @@
       "source": "hamburg-business"
     }
   ],
-  "fetchedAt": "2026-02-16T03:04:50.748Z",
+  "fetchedAt": "2026-02-21T03:06:41.770Z",
   "sources": [
     "hamburg-startups.net",
     "hamburg-business.com"

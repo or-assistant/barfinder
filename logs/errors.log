@@ -1,2 +1,17 @@
 [2026-02-16 03:00:03] Already running (PID 120287)
 [2026-02-16 03:04:58] ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json
+[2026-02-17 03:00:03] Already running (PID 279521)
+[2026-02-17 03:05:23] Tests fehlgeschlagen
+[2026-02-17 03:05:23] ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json
+[2026-02-18 03:00:03] Already running (PID 87318)
+[2026-02-18 03:06:09] Tests fehlgeschlagen
+[2026-02-18 03:06:09] ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json
+[2026-02-19 03:00:05] Already running (PID 359509)
+[2026-02-19 03:06:11] Eventbrite Hamburg fehlgeschlagen (exit 124)
+[2026-02-19 03:06:20] Already running (PID 359509)
+[2026-02-20 03:00:03] Already running (PID 630805)
+[2026-02-20 03:05:33] Tests fehlgeschlagen
+[2026-02-20 03:05:33] ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json
+[2026-02-21 03:00:03] Already running (PID 917061)
+[2026-02-21 03:06:54] Tests fehlgeschlagen
+[2026-02-21 03:06:54] ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json

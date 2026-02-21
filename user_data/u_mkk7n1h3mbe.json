@@ -1,0 +1,20 @@
+{
+  "favorites": [],
+  "checkins": [
+    {
+      "name": "YU GARDEN",
+      "date": "2026-02-17T12:38:41.575Z",
+      "display": "17.02.2026, 13:38"
+    }
+  ],
+  "ratings": [
+    {
+      "name": "YU GARDEN",
+      "rating": "ok",
+      "tags": [],
+      "date": "2026-02-17T12:38:49.660Z"
+    }
+  ],
+  "theme": null,
+  "updatedAt": "2026-02-17T12:38:50.762Z"
+}
