@@ -203,7 +203,7 @@ try {
 let weatherCache = { current: null, hourly: null, fetchedAt: 0 };
 
 function fetchWeather() {
-  const url = `https://api.open-meteo.com/v1/forecast?latitude=${config.WEATHER_LAT}&longitude=${config.WEATHER_LON}&current_weather=true&hourly=precipitation_probability,temperature_2m,weathercode&timezone=Europe/Berlin&forecast_days=2`;
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${config.WEATHER_LAT}&longitude=${config.WEATHER_LON}&current_weather=true&hourly=precipitation_probability,temperature_2m,weathercode,apparent_temperature,windspeed_10m,is_day&daily=sunrise,sunset&timezone=Europe/Berlin&forecast_days=2`;
   return new Promise((resolve, reject) => {
     https.get(url, res => {
       let body = '';
@@ -211,9 +211,16 @@ function fetchWeather() {
       res.on('end', () => {
         try {
           const data = JSON.parse(body);
+          // Save previous weather for dynamics comparison (once per day)
+          const prevDate = weatherCache.fetchedAt ? new Date(weatherCache.fetchedAt).toDateString() : null;
+          const nowDate = new Date().toDateString();
+          if (prevDate && prevDate !== nowDate && weatherCache.current) {
+            _yesterdayWeather = { ...weatherCache.current };
+          }
           weatherCache = {
             current: data.current_weather || null,
             hourly: data.hourly || null,
+            daily: data.daily || null,
             fetchedAt: Date.now()
           };
           console.log(`🌤️ Weather updated: ${weatherCache.current?.temperature}°C, code ${weatherCache.current?.weathercode}`);
@@ -547,7 +554,8 @@ const VIBE_CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 // List fields for lightweight list responses
 const LIST_FIELDS = ['name', 'lat', 'lon', 'category', 'vibeScore', 'vibeEmoji', 'isOpen', 'communityScore',
   '_dist', 'vibeLabel', 'vibeTrend', 'isNowPerfect', 'has_events', 'tags', 'address', 'hotScore',
-  'openStatus', 'vibeReason', 'vibePeak', 'vibePeakHour'];
+  'openStatus', 'vibeReason', 'vibePeak', 'vibePeakHour', 'vibeFactors', 'neighborhood',
+  'description', 'liveMusic', 'outdoor_seating', 'smoker'];
 
 // ══════════════════════════════════════════
 // 🎵 STATIC EVENTS (placeholder)
@@ -1214,25 +1222,313 @@ function computeBaseVibe(place) {
 // HOUR MULTIPLIER CURVES: How busy is a bar at each hour?
 // Mo-Do: peak 20-22, Fr-Sa: peak 22-01
 // ═══════════════════════════════════════════════════════════════
+// ═══ STADTTEIL-INDEX: Demografie, Bar-Dichte, Nachtleben-Relevanz ═══
+const STADTTEIL_INDEX = (() => {
+  try {
+    const raw = JSON.parse(fs.readFileSync(path.join(__dirname, 'stadtteil_index.json'), 'utf8'));
+    return raw.stadtteile || {};
+  } catch(e) { console.log('⚠️ stadtteil_index.json not found, using defaults'); return {}; }
+})();
+
+// ═══ FEIERTAGE (Hamburg-relevant, cached yearly) ═══
+let _holidays = { year: 0, dates: new Set(), map: {} };
+
+async function fetchHolidays(year) {
+  return new Promise((resolve) => {
+    https.get(`https://date.nager.at/api/v3/PublicHolidays/${year}/DE`, res => {
+      let body = '';
+      res.on('data', c => body += c);
+      res.on('end', () => {
+        try {
+          const all = JSON.parse(body);
+          // Only global holidays or Hamburg (DE-HH) holidays
+          const hh = all.filter(h => h.global || (h.counties && h.counties.includes('DE-HH')));
+          const dates = new Set(hh.map(h => h.date));
+          const map = {};
+          hh.forEach(h => { map[h.date] = h.localName; });
+          _holidays = { year, dates, map };
+          console.log(`🎉 Holidays loaded: ${dates.size} for ${year}`);
+          resolve(_holidays);
+        } catch(e) { console.log('⚠️ Holiday parse error:', e.message); resolve(_holidays); }
+      });
+    }).on('error', e => { console.log('⚠️ Holiday fetch error:', e.message); resolve(_holidays); });
+  });
+}
+
+// Load on start
+fetchHolidays(new Date().getFullYear()).catch(() => {});
+
+function isHoliday(date) {
+  const d = date || new Date();
+  if (d.getFullYear() !== _holidays.year) fetchHolidays(d.getFullYear()).catch(() => {});
+  const ds = d.toISOString().split('T')[0];
+  return _holidays.dates.has(ds);
+}
+
+function getHolidayName(date) {
+  const ds = (date || new Date()).toISOString().split('T')[0];
+  return _holidays.map[ds] || null;
+}
+
+function isBridgeDay(date) {
+  // Brueckentag: Freitag nach Feiertag am Donnerstag, oder Montag vor Feiertag am Dienstag
+  const d = date || new Date();
+  const dow = d.getDay();
+  if (dow === 5) { // Freitag: check if Donnerstag war Feiertag
+    const thu = new Date(d); thu.setDate(thu.getDate() - 1);
+    return isHoliday(thu);
+  }
+  if (dow === 1) { // Montag: check if Dienstag ist Feiertag
+    const tue = new Date(d); tue.setDate(tue.getDate() + 1);
+    return isHoliday(tue);
+  }
+  return false;
+}
+
+// Vorabend eines Feiertags (z.B. Silvester, Tag vor Christi Himmelfahrt)
+function isHolidayEve(date) {
+  const d = date || new Date();
+  const tomorrow = new Date(d); tomorrow.setDate(tomorrow.getDate() + 1);
+  return isHoliday(tomorrow);
+}
+
+// ═══ GROSSEVENTS HAMBURG (jaehrlich wiederkehrend + bekannte Termine) ═══
+const MAJOR_EVENTS_HAMBURG = [
+  // Format: { name, startMonth, startDay, endMonth, endDay, boost, stadtteile }
+  // Monate 0-basiert (0=Jan)
+  { name: 'Hafengeburtstag', startMonth: 4, startDay: 8, endMonth: 4, endDay: 11, boost: 20, stadtteile: ['st. pauli', 'altona', 'neustadt'] },
+  { name: 'Reeperbahn Festival', startMonth: 8, startDay: 17, endMonth: 8, endDay: 20, boost: 25, stadtteile: ['st. pauli', 'sternschanze'] },
+  { name: 'Hamburger DOM (Fruehling)', startMonth: 2, startDay: 20, endMonth: 3, endDay: 19, boost: 10, stadtteile: ['st. pauli'] },
+  { name: 'Hamburger DOM (Sommer)', startMonth: 6, startDay: 24, endMonth: 7, endDay: 23, boost: 10, stadtteile: ['st. pauli'] },
+  { name: 'Hamburger DOM (Winter)', startMonth: 10, startDay: 6, endMonth: 11, endDay: 5, boost: 10, stadtteile: ['st. pauli'] },
+  { name: 'Schlagermove', startMonth: 6, startDay: 4, endMonth: 6, endDay: 4, boost: 20, stadtteile: ['st. pauli', 'sternschanze'] },
+  { name: 'CSD Hamburg', startMonth: 7, startDay: 1, endMonth: 7, endDay: 2, boost: 15, stadtteile: ['st. pauli', 'neustadt', 'altona'] },
+  { name: 'Altonale', startMonth: 5, startDay: 12, endMonth: 5, endDay: 28, boost: 10, stadtteile: ['ottensen', 'altona'] },
+  { name: 'Weihnachtsmaerkte', startMonth: 10, startDay: 24, endMonth: 11, endDay: 23, boost: 8, stadtteile: ['neustadt', 'altstadt', 'wandsbek'] },
+  { name: 'Silvester', startMonth: 11, startDay: 31, endMonth: 11, endDay: 31, boost: 30, stadtteile: null }, // ueberall
+];
+
+function getActiveMajorEventsEnriched(date) {
+  const d = date || new Date();
+  const month = d.getMonth();
+  const day = d.getDate();
+  return MAJOR_EVENTS_HAMBURG.filter(e => {
+    if (e.startMonth === e.endMonth) return month === e.startMonth && day >= e.startDay && day <= e.endDay;
+    if (month === e.startMonth) return day >= e.startDay;
+    if (month === e.endMonth) return day <= e.endDay;
+    return month > e.startMonth && month < e.endMonth;
+  });
+}
+
+// ═══ UNI-SEMESTER HAMBURG (Vorlesungszeiten) ═══
+// Vorlesungszeit: ca. Mitte Okt bis Mitte Feb, Mitte Apr bis Mitte Jul
+function isVorlesungszeit(date) {
+  const d = date || new Date();
+  const m = d.getMonth(); // 0-basiert
+  const day = d.getDate();
+  // WiSe: 15. Okt bis 15. Feb
+  if (m >= 9 && m <= 11) return day >= 15 || m > 9; // Okt ab 15., Nov, Dez
+  if (m === 0) return true; // Jan komplett
+  if (m === 1) return day <= 15; // Feb bis 15.
+  // SoSe: 15. Apr bis 15. Jul
+  if (m === 3) return day >= 15; // Apr ab 15.
+  if (m >= 4 && m <= 5) return true; // Mai, Jun
+  if (m === 6) return day <= 15; // Jul bis 15.
+  return false;
+}
+
+// ═══ PAYWEEK-EFFEKT (Gehaltseingang) ═══
+function getPayweekFactor(date) {
+  const d = date || new Date();
+  const day = d.getDate();
+  const lastDay = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+  // Erste Woche (1-7): Gehalt gerade eingegangen, mehr Budget
+  if (day <= 7) return 1.05;
+  // Letzte Woche: Budget knapper
+  if (day >= lastDay - 6) return 0.97;
+  return 1.0;
+}
+
+// ═══ TAGESLICHT/DUNKELHEIT ═══
+function getSunsetHour(weather) {
+  if (!weather?.daily?.sunset?.[0]) return 18; // Fallback
+  const sunset = weather.daily.sunset[0]; // "2026-02-21T17:45"
+  const h = parseInt(sunset.split('T')[1]?.split(':')[0] || '18');
+  return h;
+}
+
+function getSunriseHour(weather) {
+  if (!weather?.daily?.sunrise?.[0]) return 7;
+  const sunrise = weather.daily.sunrise[0];
+  return parseInt(sunrise.split('T')[1]?.split(':')[0] || '7');
+}
+
+// ═══ STUNDLICHER WETTER-FORECAST ═══
+function getHourlyWeather(hour, weatherData) {
+  if (!weatherData?.hourly?.temperature_2m) return null;
+  const idx = hour; // Index 0-23 for today
+  if (idx < 0 || idx >= weatherData.hourly.temperature_2m.length) return null;
+  return {
+    temperature: weatherData.hourly.temperature_2m[idx],
+    apparentTemperature: weatherData.hourly.apparent_temperature?.[idx] ?? null,
+    windspeed: weatherData.hourly.windspeed_10m?.[idx] ?? null,
+    weathercode: weatherData.hourly.weathercode?.[idx] ?? 0,
+    isDay: weatherData.hourly.is_day?.[idx] ?? 1,
+    precipitationProbability: weatherData.hourly.precipitation_probability?.[idx] ?? 0
+  };
+}
+
+// Gefuehlte Temperatur fuer Vibe (ersetzt echte Temperatur wo relevant)
+function getEffectiveTemperature(weather, hour, weatherData) {
+  const hourly = getHourlyWeather(hour, weatherData);
+  if (hourly && hourly.apparentTemperature !== null) return hourly.apparentTemperature;
+  if (weather?.temperature) return weather.temperature;
+  return 10; // Fallback
+}
+
+// Canonical name mapping for STADTTEILE aliases
+const _STADTTEIL_CANONICAL = {
+  'st. pauli': 'st. pauli', 'st.pauli': 'st. pauli', 'pauli': 'st. pauli', 'reeperbahn': 'st. pauli',
+  'schanze': 'sternschanze', 'sternschanze': 'sternschanze',
+  'eimsbuettel': 'eimsbuettel', 'eimsbüttel': 'eimsbuettel',
+};
+
+function getStadtteilForPlace(place) {
+  if (!place.lat || !place.lon) return null;
+  // First: exact bounding box match
+  for (const [name, bounds] of Object.entries(STADTTEILE)) {
+    if (place.lat >= bounds.latMin && place.lat <= bounds.latMax &&
+        place.lon >= bounds.lonMin && place.lon <= bounds.lonMax) {
+      const canonical = _STADTTEIL_CANONICAL[name] || name;
+      return STADTTEIL_INDEX[canonical] || null;
+    }
+  }
+  // Fallback: nearest Stadtteil center (within 2km)
+  let nearest = null, nearestDist = 2000;
+  for (const [name, bounds] of Object.entries(STADTTEILE)) {
+    const centerLat = (bounds.latMin + bounds.latMax) / 2;
+    const centerLon = (bounds.lonMin + bounds.lonMax) / 2;
+    const dist = haversine(place.lat, place.lon, centerLat, centerLon);
+    if (dist < nearestDist) {
+      const canonical = _STADTTEIL_CANONICAL[name] || name;
+      const idx = STADTTEIL_INDEX[canonical];
+      if (idx) { nearest = idx; nearestDist = dist; }
+    }
+  }
+  return nearest;
+}
+
+// ═══ CATEGORY-SPECIFIC HOUR CURVES ═══
+// Cafes peak 15-17, Bars peak 20-23, Clubs peak 23-02
 const HOUR_CURVES = {
-  weekday: {
+  cafe_weekday: {
+    0: 0.01, 1: 0.01, 2: 0.01, 3: 0.01, 4: 0.01, 5: 0.01,
+    6: 0.05, 7: 0.15, 8: 0.35, 9: 0.50, 10: 0.60, 11: 0.65,
+    12: 0.55, 13: 0.50, 14: 0.60, 15: 0.75, 16: 0.80, 17: 0.65,
+    18: 0.40, 19: 0.20, 20: 0.10, 21: 0.05, 22: 0.02, 23: 0.01
+  },
+  cafe_weekend: {
+    0: 0.01, 1: 0.01, 2: 0.01, 3: 0.01, 4: 0.01, 5: 0.01,
+    6: 0.03, 7: 0.08, 8: 0.20, 9: 0.40, 10: 0.65, 11: 0.80,
+    12: 0.70, 13: 0.60, 14: 0.70, 15: 0.85, 16: 0.90, 17: 0.70,
+    18: 0.40, 19: 0.20, 20: 0.10, 21: 0.05, 22: 0.02, 23: 0.01
+  },
+  bar_weekday: {
     0: 0.25, 1: 0.15, 2: 0.08, 3: 0.03, 4: 0.01, 5: 0.01,
     6: 0.02, 7: 0.03, 8: 0.05, 9: 0.06, 10: 0.08, 11: 0.12,
     12: 0.18, 13: 0.15, 14: 0.12, 15: 0.14, 16: 0.18, 17: 0.30,
     18: 0.45, 19: 0.60, 20: 0.80, 21: 0.90, 22: 0.85, 23: 0.60
   },
-  weekend: {
+  bar_weekend: {
     0: 0.65, 1: 0.50, 2: 0.35, 3: 0.20, 4: 0.08, 5: 0.03,
     6: 0.02, 7: 0.03, 8: 0.05, 9: 0.06, 10: 0.10, 11: 0.15,
     12: 0.20, 13: 0.18, 14: 0.16, 15: 0.20, 16: 0.25, 17: 0.35,
     18: 0.50, 19: 0.65, 20: 0.78, 21: 0.88, 22: 0.95, 23: 1.00
+  },
+  club_weekday: {
+    0: 0.40, 1: 0.30, 2: 0.15, 3: 0.05, 4: 0.02, 5: 0.01,
+    6: 0.01, 7: 0.01, 8: 0.01, 9: 0.01, 10: 0.01, 11: 0.01,
+    12: 0.01, 13: 0.01, 14: 0.01, 15: 0.01, 16: 0.01, 17: 0.05,
+    18: 0.08, 19: 0.12, 20: 0.25, 21: 0.40, 22: 0.65, 23: 0.85
+  },
+  club_weekend: {
+    0: 0.90, 1: 0.85, 2: 0.70, 3: 0.50, 4: 0.30, 5: 0.15,
+    6: 0.05, 7: 0.01, 8: 0.01, 9: 0.01, 10: 0.01, 11: 0.01,
+    12: 0.01, 13: 0.01, 14: 0.01, 15: 0.02, 16: 0.05, 17: 0.10,
+    18: 0.20, 19: 0.35, 20: 0.55, 21: 0.70, 22: 0.85, 23: 1.00
+  },
+  restaurant_weekday: {
+    0: 0.02, 1: 0.01, 2: 0.01, 3: 0.01, 4: 0.01, 5: 0.01,
+    6: 0.02, 7: 0.05, 8: 0.10, 9: 0.12, 10: 0.15, 11: 0.40,
+    12: 0.70, 13: 0.65, 14: 0.35, 15: 0.20, 16: 0.15, 17: 0.25,
+    18: 0.55, 19: 0.80, 20: 0.90, 21: 0.75, 22: 0.45, 23: 0.15
+  },
+  restaurant_weekend: {
+    0: 0.05, 1: 0.02, 2: 0.01, 3: 0.01, 4: 0.01, 5: 0.01,
+    6: 0.02, 7: 0.05, 8: 0.10, 9: 0.15, 10: 0.25, 11: 0.50,
+    12: 0.75, 13: 0.70, 14: 0.40, 15: 0.25, 16: 0.20, 17: 0.30,
+    18: 0.60, 19: 0.85, 20: 0.95, 21: 0.80, 22: 0.50, 23: 0.20
   }
 };
 
-function getHourMultiplier(dow, hour) {
+function getCurveType(category) {
+  const cat = (category || '').toLowerCase();
+  if (['cafe', 'coffee'].includes(cat)) return 'cafe';
+  if (['nightclub', 'club'].includes(cat)) return 'club';
+  if (['restaurant', 'mittagstisch'].includes(cat)) return 'restaurant';
+  return 'bar'; // Default: bar, pub, cocktailbar, wine, biergarten, etc.
+}
+
+function getHourMultiplier(dow, hour, category) {
   const isWeekend = (dow === 5 || dow === 6);
-  const curve = isWeekend ? HOUR_CURVES.weekend : HOUR_CURVES.weekday;
+  const curveType = getCurveType(category);
+  const key = `${curveType}_${isWeekend ? 'weekend' : 'weekday'}`;
+  const curve = HOUR_CURVES[key] || HOUR_CURVES.bar_weekday;
   return curve[hour] || 0.1;
+}
+
+// ═══ WEATHER DYNAMICS: Temperature jumps, rain changes ═══
+let _yesterdayWeather = null;
+
+function getWeatherDynamicsBonus(weather) {
+  if (!weather || !weather.temperature) return 0;
+  let bonus = 0;
+  const temp = weather.temperature;
+  const code = weather.weathercode || 0;
+
+  // Temperature jump from yesterday
+  if (_yesterdayWeather && _yesterdayWeather.temperature) {
+    const tempDiff = temp - _yesterdayWeather.temperature;
+    if (tempDiff >= 10) bonus += 15;       // +10 Grad = massiver Outdoor-Effekt
+    else if (tempDiff >= 5) bonus += 8;    // +5 Grad = spuerbar mehr los
+    else if (tempDiff <= -10) bonus -= 10; // Kaelteeinbruch
+    else if (tempDiff <= -5) bonus -= 5;
+
+    // Rain to sunshine switch
+    const wasRainy = _yesterdayWeather.weathercode >= 51;
+    const isSunny = code < 3;
+    if (wasRainy && isSunny && temp > 12) bonus += 10; // Regen -> Sonne = alle raus!
+    if (!wasRainy && code >= 61) bonus -= 5;            // Sonne -> Regen = Daempfer
+  }
+
+  // First warm day of season (> 18 Grad nach langem Winter)
+  const month = new Date().getMonth();
+  if ([2, 3].includes(month) && temp > 18 && code < 3) bonus += 12; // Fruehlings-Effekt
+  if ([8, 9].includes(month) && temp > 20 && code < 3) bonus += 5;  // Spaetsommer-Bonus
+
+  return bonus;
+}
+
+// ═══ SEASON FACTOR (improved: considers daylight + temperature) ═══
+function getSeasonFactor(weather) {
+  const month = new Date().getMonth();
+  const temp = weather?.temperature || 10;
+  // Base season factor
+  let factor = ([10,11,0,1].includes(month)) ? 0.7 : ([2,3,8,9].includes(month)) ? 0.85 : 1.0;
+  // Temperature adjustment: warm winter day = boost, cold summer day = penalty
+  if (factor < 1.0 && temp > 12) factor += 0.1; // Milder Wintertag
+  if (factor >= 1.0 && temp < 12) factor -= 0.1; // Kalter Sommertag
+  return Math.max(0.5, Math.min(1.1, factor));
 }
 
 function findDayPeak(place, targetDow, context) {
@@ -1249,7 +1545,7 @@ function findDayPeak(place, targetDow, context) {
   let peakScore = 0;
   let peakHour = 20;
   for (let h = 0; h < 24; h++) {
-    const hourMult = getHourMultiplier(targetDow, h);
+    const hourMult = getHourMultiplier(targetDow, h, place.category);
     const score = (baseScore * dayMult * hourMult + addBoosts) * (1 + weatherPenaltyPct);
     if (score > peakScore) { peakScore = score; peakHour = h; }
   }
@@ -1260,7 +1556,7 @@ function calculateVibeForDay(place, targetDow, currentHour) {
   const dayMult = { 0: 0.4, 1: 0.35, 2: 0.4, 3: 0.55, 4: 0.7, 5: 1.0, 6: 0.95 }[targetDow] || 0.4;
   const rawBase = place.vibeScore || place.enriched?.vibeScore || computeBaseVibe(place);
   const baseScore = Math.min(rawBase, 70);
-  const hourMult = getHourMultiplier(targetDow, currentHour);
+  const hourMult = getHourMultiplier(targetDow, currentHour, place.category);
   const vibeAtHour = Math.round(Math.min(100, baseScore * dayMult * hourMult));
   const { peakScore, peakHour } = findDayPeak(place, targetDow, {});
   return { vibeAtHour, vibePeak: peakScore, vibePeakHour: peakHour };
@@ -1278,32 +1574,110 @@ function calculateDynamicVibe(place, context) {
     : (openStatus === null) ? 0.5
     : 1.0;
 
+  // ── 1. DAY MULTIPLIER (Basis: Wochentag) ──
   // So=0.4, Mo=0.35, Di=0.4, Mi=0.55, Do=0.7, Fr=1.0, Sa=0.95
-  const dayMultiplier = { 0: 0.4, 1: 0.35, 2: 0.4, 3: 0.55, 4: 0.7, 5: 1.0, 6: 0.95 }[dow] || 0.4;
+  let dayMultiplier = { 0: 0.4, 1: 0.35, 2: 0.4, 3: 0.55, 4: 0.7, 5: 1.0, 6: 0.95 }[dow] || 0.4;
 
-  // Hour multiplier from curves (replaces old getTimeCurve)
-  const hourMultiplier = getHourMultiplier(dow, hour);
+  // Feiertag = wie Samstag (Leute haben frei, gehen abends raus)
+  if (context.holiday) dayMultiplier = Math.max(dayMultiplier, 0.90);
+  // Brueckentag = wie Freitag (viele haben frei genommen)
+  if (context.bridgeDay) dayMultiplier = Math.max(dayMultiplier, 0.85);
+  // Vorabend eines Feiertags = Boost (morgen frei = laenger feiern)
+  if (context.holidayEve) dayMultiplier = Math.max(dayMultiplier, 0.90);
 
-  const weatherMod = getWeatherMod(place, weather);
+  // ── 2. HOUR MULTIPLIER (Kategorie-spezifische Kurven) ──
+  const hourMultiplier = getHourMultiplier(dow, hour, place.category);
+
+  // ── 3. WETTER (gefuehlte Temperatur + stuendlicher Forecast) ──
+  // Fuer die relevante Ausgehzeit (17-23h) das stuendliche Wetter nehmen
+  const relevantHour = (hour >= 17 && hour <= 23) ? hour : Math.max(hour, 19);
+  const effectiveTemp = getEffectiveTemperature(weather, relevantHour, context.weatherData);
+  // weatherMod mit effektiver Temperatur berechnen
+  const weatherForVibe = weather ? { ...weather, temperature: effectiveTemp } : weather;
+  const weatherMod = getWeatherMod(place, weatherForVibe);
+  
+  // Wind-Malus fuer Outdoor-Locations
+  const hourlyW = getHourlyWeather(relevantHour, context.weatherData);
+  let windPenalty = 0;
+  if (hourlyW && hourlyW.windspeed > 30 && (place.outdoor_seating || (place.category || '') === 'biergarten')) {
+    windPenalty = -8; // Starker Wind = Outdoor unangenehm
+  } else if (hourlyW && hourlyW.windspeed > 50) {
+    windPenalty = -5; // Sturm = auch Indoor weniger Leute unterwegs
+  }
+
   const eventBoost = hasEventToday ? 12 : 0;
   const afterworkBoost = isAfterworkDay ? 8 : 0;
 
-  const month = new Date().getMonth();
-  const seasonFactor = ([10,11,0,1].includes(month)) ? 0.7 : ([2,3,8,9].includes(month)) ? 0.85 : 1.0;
+  const seasonFactor = getSeasonFactor(weather);
 
-  // Combined multiplier: day x hour gives the overall activity level
-  // This single multiplication determines the score range:
-  // Fr 23h: 1.0 * 1.0 = 1.0 -> base 70 -> score 70
-  // Di 20h: 0.4 * 0.8 = 0.32 -> base 65 -> score ~28 (+ boosts)
-  // Mo 14h: 0.35 * 0.12 = 0.042 -> base 65 -> score ~3
+  // ── 4. STADTTEIL (Demografie + Peak-Days) ──
+  const stadtteil = getStadtteilForPlace(place);
+  let stadtteilMod = stadtteil ? (stadtteil.barDensityFactor - 0.5) * 15 : 0;
+  
+  // Stadtteil-Peak-Days: Bonus wenn heute ein Peak-Day fuer dieses Viertel ist
+  if (stadtteil && stadtteil.peakDays && stadtteil.peakDays.includes(dow)) {
+    stadtteilMod += 3; // Dieses Viertel ist heute besonders aktiv
+  }
+
+  // Weather dynamics (temperature jumps, rain-to-sun transitions)
+  const weatherDynamics = getWeatherDynamicsBonus(weather);
+
+  // ── 5. GROSSEVENTS (stadtteil-spezifisch) ──
+  let majorEventBoost = 0;
+  if (context.majorEventsEnriched && context.majorEventsEnriched.length > 0) {
+    for (const evt of context.majorEventsEnriched) {
+      if (!evt.stadtteile) { // ueberall (z.B. Silvester)
+        majorEventBoost += evt.boost;
+      } else if (stadtteil) {
+        // Nur Boost wenn die Bar im betroffenen Stadtteil ist
+        const stadtteilName = Object.entries(STADTTEIL_INDEX).find(([k, v]) => v === stadtteil)?.[0] || '';
+        if (evt.stadtteile.includes(stadtteilName)) {
+          majorEventBoost += evt.boost;
+        }
+      }
+    }
+  }
+
+  // ── 6. SEMESTER-EFFEKT (Studenten-Stadtteile) ──
+  let semesterMod = 0;
+  if (stadtteil && ['jung', 'jung-gemischt'].includes(stadtteil.ageGroup)) {
+    if (context.vorlesungszeit) {
+      semesterMod = 3; // Studenten da = mehr los in jungen Vierteln
+    } else {
+      semesterMod = -4; // Semesterferien = weniger junge Leute
+    }
+  }
+
+  // ── 7. PAYWEEK ──
+  const payweekFactor = context.payweekFactor || 1.0;
+
+  // ── 8. DUNKELHEIT/TAGESLICHT ──
+  let daylightMod = 0;
+  if (context.sunsetHour && place.outdoor_seating) {
+    // Biergarten nach Sonnenuntergang: Attraktivitaet sinkt (ausser Sommer)
+    const month = new Date().getMonth();
+    if (hour > context.sunsetHour && ![5, 6, 7].includes(month)) {
+      daylightMod = -3; // Dunkel + nicht Sommer = Outdoor weniger attraktiv
+    }
+    // Lange Sommerabende: Outdoor-Bonus
+    if (context.sunsetHour >= 21 && hour <= context.sunsetHour) {
+      daylightMod = 4; // Noch hell um 21h = Biergarten-Goldzeit
+    }
+  }
+
+  // ── SCORE-BERECHNUNG ──
   const combinedMult = dayMultiplier * hourMultiplier;
   const baseWithTime = baseScore * combinedMult;
-  // Additive boosts are scaled by dayMultiplier only (not hour, events happen regardless of hour)
-  const addBoosts = (eventBoost + afterworkBoost + Math.max(0, weatherMod)) * seasonFactor;
-  // Weather penalties as percentage of current score (not flat subtraction)
-  // So freezing weather reduces by ~15% instead of flat -10/-20
-  const weatherPenaltyPct = weatherMod < 0 ? (weatherMod / 100) : 0; // e.g. -20 -> -0.20
-  let dynamicScore = (baseWithTime + addBoosts) * (1 + weatherPenaltyPct) * closedPenalty;
+  
+  // Additive Boosts (skaliert mit seasonFactor)
+  const addBoosts = (eventBoost + afterworkBoost + Math.max(0, weatherMod) + stadtteilMod 
+    + weatherDynamics + majorEventBoost + semesterMod + daylightMod + windPenalty) * seasonFactor;
+  
+  // Weather penalties als Prozent
+  const weatherPenaltyPct = weatherMod < 0 ? (weatherMod / 100) : 0;
+  
+  // Payweek als Multiplikator auf Gesamtscore
+  let dynamicScore = (baseWithTime + addBoosts) * (1 + weatherPenaltyPct) * closedPenalty * payweekFactor;
   dynamicScore = Math.max(0, Math.min(100, dynamicScore));
 
   // Peak for today
@@ -1311,8 +1685,8 @@ function calculateDynamicVibe(place, context) {
 
   // Trend: compare current hour vs next hour
   const nextHour = (hour + 1) % 24;
-  const currentHourMult = getHourMultiplier(dow, hour);
-  const nextHourMult = getHourMultiplier(dow, nextHour);
+  const currentHourMult = getHourMultiplier(dow, hour, place.category);
+  const nextHourMult = getHourMultiplier(dow, nextHour, place.category);
   const diff = nextHourMult - currentHourMult;
   let vibeTrend = 'stable';
   if (diff > 0.10) vibeTrend = 'up';
@@ -1320,15 +1694,23 @@ function calculateDynamicVibe(place, context) {
   else if (diff < -0.10) vibeTrend = 'down';
   else if (diff < -0.03) vibeTrend = 'slightly_down';
 
-  let vibeReason = '';
+  // ── REASONS (max 3 fuer bessere Erklaerung) ──
   const reasons = [];
-  if (dow === 5 || dow === 6) reasons.push('\u{1F525} Weekend');
-  if (hasEventToday) reasons.push('\u{1F389} Event heute');
-  if (isAfterworkDay) reasons.push('\u{1F37B} Afterwork');
+  if (context.holiday) reasons.push('\u{1F389} Feiertag');
+  else if (context.holidayEve) reasons.push('\u{1F389} Morgen frei!');
+  else if (context.bridgeDay) reasons.push('\u{1F389} Brueckentag');
+  else if (dow === 5 || dow === 6) reasons.push('\u{1F525} Weekend');
+  if (majorEventBoost > 0) reasons.push('\u{1F3AA} ' + (context.majorEventsEnriched[0]?.name || 'Grossevent'));
+  if (hasEventToday && majorEventBoost === 0) reasons.push('\u{1F389} Event heute');
+  if (isAfterworkDay && hour >= 16 && hour <= 20) reasons.push('\u{1F37B} Afterwork');
   if (weatherMod > 0 && place.outdoor_seating) reasons.push('\u2600\uFE0F Biergarten-Wetter');
-  if (weatherMod > 0 && !place.outdoor_seating && weatherMod > 5) reasons.push('\u{1F327}\uFE0F Gem\u00FCtlich drinnen');
+  else if (weatherMod > 5 && !place.outdoor_seating) reasons.push('\u{1F327}\uFE0F Gemuetlich drinnen');
   if (hourMultiplier > 0.7) reasons.push('\u23F0 Prime Time');
-  vibeReason = reasons.slice(0, 2).join(' + ');
+  if (stadtteil && stadtteil.barDensityFactor >= 0.9) reasons.push('\u{1F3D9}\uFE0F Hotspot-Viertel');
+  if (weatherDynamics >= 8) reasons.push('\u2600\uFE0F Wetterumschwung!');
+  if (daylightMod > 0) reasons.push('\u{1F305} Langer Abend');
+  if (!context.vorlesungszeit && semesterMod < 0) reasons.push('\u{1F393} Semesterferien');
+  const vibeReason = reasons.slice(0, 3).join(' + ');
 
   return {
     dynamicVibeScore: Math.round(dynamicScore),
@@ -1337,12 +1719,29 @@ function calculateDynamicVibe(place, context) {
     vibePeak: peakScore,
     vibePeakHour: peakHour,
     vibeTrend: vibeTrend,
+    neighborhood: stadtteil ? {
+      nightlifeScore: stadtteil.nightlifeScore,
+      vibe: stadtteil.vibe,
+      ageGroup: stadtteil.ageGroup,
+      barDensity: stadtteil.barDensity
+    } : null,
     factors: {
-      dayMultiplier,
+      dayMultiplier: Math.round(dayMultiplier * 100) / 100,
       hourMultiplier,
       weatherMod,
+      weatherDynamics,
+      stadtteilMod: Math.round(stadtteilMod * 10) / 10,
+      seasonFactor,
       eventBoost,
-      afterworkBoost
+      afterworkBoost,
+      majorEventBoost,
+      semesterMod,
+      payweekFactor,
+      daylightMod,
+      windPenalty,
+      holiday: context.holiday || false,
+      bridgeDay: context.bridgeDay || false,
+      holidayEve: context.holidayEve || false
     }
   };
 }
@@ -1520,6 +1919,7 @@ function getVibeEmoji(score) {
 function getCurrentVibeContext() {
   const { hour, minute, dow } = getHamburgTime();
   const weather = weatherCache.current;
+  const now = new Date();
   
   // Check if today is an afterwork day for any location
   const todayLocations = afterworkSchedule.locations.filter(loc => loc.days.includes(dow));
@@ -1528,14 +1928,37 @@ function getCurrentVibeContext() {
   // Check if there are major events today
   const majorEvents = getActiveMajorEvents();
   const hasEventToday = majorEvents.length > 0;
+
+  // New enriched context
+  const holiday = isHoliday(now);
+  const holidayName = holiday ? getHolidayName(now) : null;
+  const bridgeDay = isBridgeDay(now);
+  const holidayEve = isHolidayEve(now);
+  const majorEventsEnriched = getActiveMajorEventsEnriched(now);
+  const vorlesungszeit = isVorlesungszeit(now);
+  const payweekFactor = getPayweekFactor(now);
+  const sunsetHour = getSunsetHour(weatherCache);
+  const sunriseHour = getSunriseHour(weatherCache);
   
   return {
     dow,
     hour,
     minute,
     weather,
+    weatherData: weatherCache, // full hourly data
     isAfterworkDay,
-    hasEventToday
+    hasEventToday,
+    // Phase 1
+    holiday,
+    holidayName,
+    bridgeDay,
+    holidayEve,
+    // Phase 2
+    majorEventsEnriched,
+    vorlesungszeit,
+    payweekFactor,
+    sunsetHour,
+    sunriseHour
   };
 }
 
@@ -1544,14 +1967,8 @@ function getCurrentVibeContext() {
 // ═══════════════════════════════════════════════════════════════
 
 function computeVibeScore(place, isHighlight = false) {
-  const { hour, minute, dow } = getHamburgTime();
-  // Use time BLOCKS for stability — score only changes a few times per day
-  // Morning (6-12), Afternoon (12-17), Early Evening (17-20), Prime Time (20-24), Late Night (0-6)
-  const timeBlock = hour < 6 ? 'latenight' : hour < 12 ? 'morning' : hour < 17 ? 'afternoon' : hour < 20 ? 'earlyevening' : 'primetime';
-  const timeDecimal = hour + minute / 60;
   const cat = (place.category || '').toLowerCase();
   const desc = ((place.description || '') + ' ' + (place.name || '')).toLowerCase();
-  const isWeekend = (dow === 5 || dow === 6); // Fr/Sa
   const open = isOpenNow(place.opening_hours);
   if (open === false) return { vibe: 0, vibeLabel: 'Geschlossen', vibeEmoji: '😴' };
 
@@ -1561,138 +1978,12 @@ function computeVibeScore(place, isHighlight = false) {
     return { vibe: 0, vibeLabel: '', vibeEmoji: '🍽️' };
   }
 
-  let vibe = 0;
-
-  // ═══ ABSOLUTE VIBE SCORE ═══
-  // This is NOT relative ("best option right now") but ABSOLUTE:
-  // "What is the real probability of meeting people here?"
-  // 80-100 = Packed bar on Friday night, everyone talking
-  // 50-70  = Good evening crowd, easy to chat
-  // 30-50  = Some people, possible but not guaranteed
-  // 10-30  = Quiet, mostly couples/solo, unlikely to meet anyone
-  // 0-10   = Dead or closed
-
-  // ── 1. SOCIAL CATEGORY BASE ──
-  // Absolute social potential of this type of place at its BEST
-  const socialBase = {
-    'pub': 18, 'irish-pub': 20, 'cocktailbar': 16, 'bar': 16,
-    'wine': 18, 'lounge': 14, 'biergarten': 20,
-    'nightclub': 15, 'sports_bar': 16, 'karaoke': 14,
-    'jazz_club': 12, 'brewery': 16, 'taproom': 16, 'dance_club': 12,
-    'cafe': 5, 'restaurant': 4
-  };
-  vibe += (socialBase[cat] || 10);
-
-  // ── 2. TIME × DAY MATRIX — The core of absolute scoring ──
-  // Peak = Friday/Saturday 20-23h → up to +45
-  // Worst = Sunday/Monday daytime → +2
-  // Time blocks → stable score (doesn't change every minute)
-  const timeBaseMap = { primetime: 45, earlyevening: 30, latenight: 35, afternoon: 8, morning: 2 };
-  let timeBase = timeBaseMap[timeBlock] || 5;
-  
-  vibe += timeBase; // Day dampening handled globally in step 10
-  
-  // Cafés and restaurants get even less from time (they're not evening social spots)
-  if (cat === 'cafe' || cat === 'restaurant') {
-    vibe -= Math.round(timeBase * 0.5); // Halve the time bonus
-  }
-
-  // ── 4. EVENT BOOST — Events = guaranteed people ──
-  const placeKey = (place.name || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
-  const todayEvents = getTodaysEvents(placeKey, dow, hour);
-  if (todayEvents.length > 0) {
-    vibe += Math.min(10, 5 + todayEvents.length * 2); // Cap at +10 for events today
-  }
-  if (place.has_events || place.event_count > 0) vibe += 3;
-
-  // ── 5. DESCRIPTION KEYWORDS — Social signals ──
-  // Keywords add small absolute bonuses (max ~15 total from keywords)
-  const socialKeywords = [
-    [/stimmung|atmosphäre|vibe|gesellig/i, 3],
-    [/live.?musik|open.?mic|jam.?session/i, 4],
-    [/tresen|theke|bar.?hocker|standing/i, 3],
-    [/kiez|kultig|kult|institution/i, 3],
-    [/after.?work|happy.?hour|feierabend/i, 5],
-    [/wein|wine|tasting|verkostung|weinbar/i, 4],
-    [/stammkneipe|stammtisch|regulars/i, 4],
-    [/draußen|terrasse|biergarten|outdoor/i, 3],
-    [/fußball|bundesliga|champions|sport/i, 3],
-    [/small.?talk|kennenlernen|flirt|dating/i, 4],
-    [/community|szene|treffpunkt/i, 3],
-  ];
-  let keywordBonus = 0;
-  for (const [rx, pts] of socialKeywords) {
-    if (rx.test(desc)) keywordBonus += pts;
-  }
-  vibe += Math.min(keywordBonus, 12); // Cap keyword bonus at 12
-
-  // Anti-social signals
-  if (/ruhig|leise|chill|gemütlich.*lesen|arbeit|laptop|coworking/i.test(desc)) vibe -= 5;
-
-  // ── 6. HIGHLIGHT BONUS ──
-  if (isHighlight) vibe += 3;
-
-  // ── 7. SMOKER BARS — often very social (regulars, chats) ──
-  if (place.smoker) vibe += 6;
-
-  // ── 8. COMMUNITY SCORE + RATING POPULARITY ──
-  const ratingMatch = fuzzyMatchRating(place.name);
-  const communityScore = getCommunityScore(place.name);
-  if (ratingMatch || communityScore) {
-    vibe += ratingVibeBonus(ratingMatch, communityScore);
-    // Review count as popularity proxy: more reviews = more visitors = more social
-    const reviews = ratingMatch?.reviewCount || 0;
-    if (reviews > 500) vibe += 6;
-    else if (reviews > 200) vibe += 4;
-    else if (reviews > 50) vibe += 2;
-  }
-
-  // ── 9. BUSYNESS BOOST — busy places = more people to meet ──
-  const bn = estimateBusyness(place, dow, hour);
-  if (bn.busyness > 60) vibe += 4;
-  else if (bn.busyness > 40) vibe += 2;
-
-  // ── 9b. WEATHER FACTOR — real data from Open-Meteo ──
-  const wf = getWeatherFactor(place);
-  if (wf.multiplier !== 1.0) {
-    // Weather shifts the score: rain → indoor bars boost, cold → everyone stays home
-    vibe = Math.round(vibe * wf.multiplier);
-  }
-
-  // ── 9c. LEARNED VIBE BONUS — from user feedback in DB ──
-  try {
-    const db = require('./db');
-    const learnedBonus = db.computeLearnedVibeBonus(place._dbId || null);
-    if (learnedBonus) vibe += Math.round(learnedBonus);
-  } catch(e) { /* db not available */ }
-
-  // ── 10. GLOBAL DAY/TIME DAMPENING ──
-  // Stable block-based dampening — score only changes at block boundaries
-  const dampenMatrix = {
-    // dow: { timeBlock: multiplier }
-    5: { primetime: 1.0, earlyevening: 0.85, latenight: 0.7, afternoon: 0.4, morning: 0.3 }, // Friday
-    6: { primetime: 1.0, earlyevening: 0.85, latenight: 0.7, afternoon: 0.4, morning: 0.3 }, // Saturday
-    4: { primetime: 0.85, earlyevening: 0.75, latenight: 0.5, afternoon: 0.4, morning: 0.3 }, // Thursday
-    3: { primetime: 0.75, earlyevening: 0.65, latenight: 0.45, afternoon: 0.4, morning: 0.3 }, // Wednesday
-    2: { primetime: 0.55, earlyevening: 0.45, latenight: 0.35, afternoon: 0.3, morning: 0.25 }, // Tuesday
-    1: { primetime: 0.45, earlyevening: 0.38, latenight: 0.3, afternoon: 0.25, morning: 0.2 },  // Monday
-    0: { primetime: 0.45, earlyevening: 0.38, latenight: 0.3, afternoon: 0.3, morning: 0.25 },  // Sunday
-  };
-    let dayTimeMultiplier = (dampenMatrix[dow] || dampenMatrix[2])[timeBlock] || 0.4;
-  
-  vibe = vibe * dayTimeMultiplier;
-  // Clamp + slight randomization
-  const nameHash = (place.name || '').split('').reduce((a, c) => a + c.charCodeAt(0), 0);
-  vibe += (nameHash % 7) - 3;
-  vibe = Math.max(0, Math.min(100, Math.round(vibe)));
-
-  // Labels — use SAME emoji system as getVibeEmoji() for consistency!
-  const vibeEmoji = getVibeEmoji(vibe);
-  const vibeLabel = getVibeLabel(vibe);
-
-  return { vibe, vibeLabel, vibeEmoji };
+  // === USE UNIFIED calculateDynamicVibe for consistency ===
+  const ctx = getCurrentVibeContext();
+  const dv = calculateDynamicVibe(place, ctx);
+  const vibe = dv.dynamicVibeScore;
+  return { vibe, vibeLabel: getVibeLabel(vibe), vibeEmoji: getVibeEmoji(vibe) };
 }
-
 // ═══════════════════════════════════════════════════════════════
 // 🎯 HELPER FUNCTIONS FOR IMPROVED HOTSCORE
 // ═══════════════════════════════════════════════════════════════
@@ -2467,7 +2758,8 @@ const server = http.createServer(async (req, res) => {
   const blockedExtensions = ['.db', '.db-shm', '.db-wal', '.env', '.log', '.sh', '.py'];
   const blockedPaths = ['/barfinder_config.json', '/events_config.json', '/package.json', '/package-lock.json',
     '/highlights.json', '/user_data/', '/node_modules/', '/.env', '/db.js', '/server.js',
-    '/cache.json', '/logs/', '/.git/'];
+    '/cache.json', '/logs/', '/.git/', '/verify_places.js', '/verify_state.json', '/verify_log.json',
+    '/stadtteil_index.json', '/barfinder.db', '/backup-db.sh', '/VIBE_SCORE_METRIK.md'];
   const pn = url.pathname.toLowerCase();
   if (blockedExtensions.some(ext => pn.endsWith(ext)) || blockedPaths.some(bp => pn === bp || pn.startsWith(bp))) {
     res.writeHead(403); res.end('Forbidden'); return;
@@ -2710,7 +3002,11 @@ const server = http.createServer(async (req, res) => {
         if (!h.lat || !h.lon) return;
         const dist = haversine(lat, lon, h.lat, h.lon);
         if (dist > radius) return;
-        if (category !== 'all' && h.category !== category) return;
+        if (category !== 'all') {
+          if (category === 'livemusik' || category === 'live-musik') {
+            if (!h.liveMusic && !((h.tags||[]).join(' ')+(h.keywords||[]).join(' ')).toLowerCase().includes('live')) return;
+          } else if (h.category !== category) return;
+        }
         
         const hs = computeHotScore(h, true);
         const rm = fuzzyMatchRating(h.name);
@@ -2755,6 +3051,7 @@ const server = http.createServer(async (req, res) => {
           vibeTrend: dayOffset > 0 ? null : finalDynamicVibe.vibeTrend,
           isNowPerfect: dayOffset > 0 ? false : isNowPerfect,
           vibeFactors: finalDynamicVibe.factors,
+          neighborhood: finalDynamicVibe.neighborhood,
           
           // Legacy vibe data for backward compatibility
           vibeLabel: getVibeLabel(finalDynamicVibe.dynamicVibeScore),
@@ -2791,7 +3088,10 @@ const server = http.createServer(async (req, res) => {
       
       // City-wide vibe summary
       const openPlaces = places.filter(p => p.isOpen === true || p.isOpen === 'likely');
-      const avgVibe = openPlaces.length > 0 ? Math.round(openPlaces.reduce((s, p) => s + (p.vibeScore || 0), 0) / openPlaces.length) : 0;
+      // City vibe: only count bar-like venues (not cafes/restaurants that drag down average)
+      const barCats = new Set(['bar','pub','cocktailbar','wine','irish-pub','nightclub','biergarten','lounge','sports_bar','brewery']);
+      const vibeRelevant = openPlaces.filter(p => barCats.has(p.category) && (p.vibeScore || 0) > 0);
+      const avgVibe = vibeRelevant.length > 0 ? Math.round(vibeRelevant.reduce((s, p) => s + (p.vibeScore || 0), 0) / vibeRelevant.length) : 0;
       const topPeak = places.reduce((best, p) => (p.vibePeak || 0) > (best.vibePeak || 0) ? p : best, places[0] || {});
       const { hour: currentHour } = getHamburgTime();
       const trendArrows = { up: '\u2191', slightly_up: '\u2197', stable: '\u2192', slightly_down: '\u2198', down: '\u2193' };
@@ -2801,6 +3101,33 @@ const server = http.createServer(async (req, res) => {
       const cityTrend = Object.entries(trendCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || 'stable';
 
       const isFuture = dayOffset > 0;
+
+      // Stadtteil-Vibe: Durchschnitt der offenen Bars im Stadtteil des Nutzers
+      const userStadtteil = getStadtteilForPlace({ lat, lon });
+      let stadtteilVibe = null;
+      if (userStadtteil && !isFuture) {
+        const stadtteilBars = vibeRelevant.filter(p => {
+          const pSt = getStadtteilForPlace(p);
+          return pSt === userStadtteil;
+        });
+        if (stadtteilBars.length >= 2) {
+          const stAvg = Math.round(stadtteilBars.reduce((s, p) => s + (p.vibeScore || 0), 0) / stadtteilBars.length);
+          const stTrendCounts = { up: 0, slightly_up: 0, stable: 0, slightly_down: 0, down: 0 };
+          stadtteilBars.forEach(p => { if (p.vibeTrend) stTrendCounts[p.vibeTrend]++; });
+          const stTrend = Object.entries(stTrendCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || 'stable';
+          const stName = Object.entries(STADTTEIL_INDEX).find(([k, v]) => v === userStadtteil)?.[0] || '';
+          stadtteilVibe = {
+            vibeNow: stAvg,
+            vibeTrend: stTrend,
+            vibeTrendArrow: trendArrows[stTrend] || '\u2192',
+            name: stName.charAt(0).toUpperCase() + stName.slice(1),
+            barCount: stadtteilBars.length,
+            nightlifeScore: userStadtteil.nightlifeScore || 0,
+            vibe: userStadtteil.vibe || ''
+          };
+        }
+      }
+
       const cityVibe = {
         vibeNow: isFuture ? null : avgVibe,
         vibePeak: topPeak?.vibePeak || 0,
@@ -2810,7 +3137,8 @@ const server = http.createServer(async (req, res) => {
         vibeLabel: isFuture ? 'Potenzial' : 'Stadt-Vibe',
         isFuture,
         openCount: openPlaces.length,
-        currentHour
+        currentHour,
+        stadtteil: stadtteilVibe
       };
 
       // Deduplicate tags: remove tags that match category, and normalize duplicates
@@ -3128,7 +3456,7 @@ const server = http.createServer(async (req, res) => {
         const vibeScale = rawPeak > 0 ? 85 / rawPeak : 3;
 
         for (let h = 0; h < 24; h++) {
-          const hourMult = getHourMultiplier(dow, h);
+          const hourMult = getHourMultiplier(dow, h, "bar");
           const rawSoll = avgBase * dayMult * hourMult * seasonFactor;
           // Apply scale + floor of 5% during bar hours, 2% otherwise
           const floor = (h >= 10 && h <= 23) ? 5 : 2;
@@ -3165,25 +3493,20 @@ const server = http.createServer(async (req, res) => {
         });
       }
 
-      // Current city vibe (actual right now)
+      // Current city vibe: use same calculateDynamicVibe as /api/places for consistency
+      const vibeContext = getCurrentVibeContext();
+      const barCatsSet = new Set(BAR_CATS);
       const openPlaces = allPlaces.filter(p => {
+        if (!barCatsSet.has(p.category)) return false;
         const oh = p.opening_hours || (p.enriched ? p.enriched.opening_hours : null);
         const status = isOpenSmart(oh, p.category);
         return status === true || status === 'likely';
       });
-      // Use same scale as forecast for consistency
-      const rawPeakGlobal = avgBase * 1.0 * 1.0 * seasonFactor;
-      const vibeScaleGlobal = rawPeakGlobal > 0 ? 85 / rawPeakGlobal : 3;
-      const currentRaw = avgBase * (dayMults[currentDow] || 0.4) * getHourMultiplier(currentDow, currentHour) * seasonFactor;
-      const currentFloor = (currentHour >= 10 && currentHour <= 23) ? 5 : 2;
-      const currentAvgVibe = Math.round(Math.min(100, Math.max(currentFloor, currentRaw * vibeScaleGlobal + (currentDow >= 3 && currentHour >= 17 ? 8 : 0))));
-      // Legacy calc (unused but kept for reference)
-      const _legacyVibe = openPlaces.length > 0 ?
-        Math.round(openPlaces.reduce((s, p) => {
-          const raw = p.vibeScore || (p.enriched ? p.enriched.vibeScore : null) || computeBaseVibe(p);
-          const base = Math.min(raw, 70);
-          return s + base * (dayMults[currentDow] || 0.4) * getHourMultiplier(currentDow, currentHour);
-        }, 0) / openPlaces.length) : 0;
+      const vibeScores = openPlaces.map(p => {
+        const dv = calculateDynamicVibe(p, vibeContext);
+        return dv.dynamicVibeScore || 0;
+      }).filter(v => v > 0);
+      const currentAvgVibe = vibeScores.length > 0 ? Math.round(vibeScores.reduce((s, v) => s + v, 0) / vibeScores.length) : 0;
 
       sendJSON(req, res, 200, {
         currentVibe: currentAvgVibe,
@@ -3542,7 +3865,7 @@ const server = http.createServer(async (req, res) => {
         vibeScore: vs.vibe,
         vibeLabel: vs.vibeLabel,
         vibeEmoji: vs.vibeEmoji,
-        communityScore: getCommunityScore(p.name) || null,
+        communityScore: getCommunityScore(h.name) || null,
         estimatedBusyness: bn.busyness,
         busynessLabel: bn.busynessLabel,
         busynessColor: bn.busynessColor,

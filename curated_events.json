@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-02-16",
+    "generated": "2026-02-23",
     "sources": [
       "meetup.com",
       "lu.ma/hamburg",
@@ -537,78 +537,6 @@
   ],
   "one_time": [
     {
-      "name": "WeRoad Afterwork: Neue Leute & gute Laune",
-      "date": "2026-02-18",
-      "location": "TBA (Hamburg)",
-      "category": "afterwork",
-      "time": "19:00",
-      "description": "Afterwork für Reisebegeisterte, neue Leute kennenlernen.",
-      "url": "https://www.meetup.com/de-DE/wemeets-norddeutschland/events/313206002/"
-    },
-    {
-      "name": "HH.security #21",
-      "date": "2026-02-19",
-      "location": "MOIA GmbH",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Security Meetup bei MOIA. Talks + Networking + Bier.",
-      "url": "https://www.meetup.com/de-DE/moia-gmbh/events/312431544/"
-    },
-    {
-      "name": "Dev & Design Meetup #17",
-      "date": "2026-02-19",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "18:00",
-      "description": "Dev & Design Community Treffen. Talks + Networking.",
-      "url": "https://www.meetup.com/de-DE/devanddesign-meetup-hamburg/events/312767456/"
-    },
-    {
-      "name": "Data Viz in Museums",
-      "date": "2026-02-19",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Datenvisualisierung trifft Museumskultur. Talks + Drinks.",
-      "url": "https://www.meetup.com/de-DE/data-visualization-meetup-hamburg/events/312196081/"
-    },
-    {
-      "name": "Open Game Night for advanced gamers",
-      "date": "2026-02-19",
-      "location": "Würfel & Zucker",
-      "category": "social",
-      "time": "18:00",
-      "description": "Offene Spielerunde für Kenner im Brettspielcafé.",
-      "url": "https://www.meetup.com/de-DE/wuerfelundzucker/events/313221316/"
-    },
-    {
-      "name": "Eppendorfer Spiele Club — Samstag Session",
-      "date": "2026-02-21",
-      "location": "Eppendorf",
-      "category": "social",
-      "time": "13:00",
-      "description": "Ganztags-Spieleclub von 13-22 Uhr. Brett- und Kartenspiele.",
-      "url": "https://www.meetup.com/de-DE/spielen-in-hamburg/events/307559012/"
-    },
-    {
-      "name": "Kaffee/Lunch — Women's Network Circle",
-      "date": "2026-02-22",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "13:30",
-      "description": "Lockerer Kaffee/Lunch-Treff für Frauen. Netzwerken ohne Agenda.",
-      "url": "https://www.meetup.com/de-DE/womenscirclehamburg/events/312975967/"
-    },
-    {
-      "name": "Game Night — Games & Good Conversations",
-      "date": "2026-02-22",
-      "location": "TBA (Hamburg)",
-      "category": "social",
-      "time": "14:00",
-      "description": "Spieleabend + nette Gespräche. Deutsch & Englisch.",
-      "url": "https://www.meetup.com/de-DE/meetup-group-ylmalxpv/events/312878178/"
-    },
-    {
       "name": "Open Game Night for English Speakers",
       "date": "2026-02-24",
       "location": "Würfel & Zucker",
@@ -643,6 +571,18 @@
       "time": "18:00",
       "description": "Einsteiger-freundliche offene Spielerunde.",
       "url": "https://www.meetup.com/de-DE/wuerfelundzucker/events/313145724/"
+    },
+    {
+      "name": "Climate Coffee Hamburg",
+      "date": "2026-02-25",
+      "location": "Copenhagen Coffee Lab",
+      "address": "Poolstraße, 20355 Hamburg",
+      "category": "networking",
+      "time": "09:00",
+      "description": "Kaffee + Klima-Talk. Lockeres Morgen-Networking für Sustainability-Interessierte.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
     },
     {
       "name": "DEAR WORLD — Week-Breaker",
@@ -681,6 +621,30 @@
       "url": "https://www.meetup.com/de-DE/netzwerken-mit-heykes-karstens/events/313223246/"
     },
     {
+      "name": "10x Impact with AI Agents",
+      "date": "2026-02-26",
+      "location": "OTTO",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:00",
+      "description": "Otto Group Event zu AI Agents. Talks + Networking. Waitlist mit 195+ Interessenten.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "After Work Club Hamburg",
+      "date": "2026-02-26",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
+      "category": "afterwork",
+      "time": "18:00",
+      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, Drinks, Tanzfläche. Planten un Blomen Blick.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
       "name": "Betreutes Spielen: Blood on the Clocktower",
       "date": "2026-02-27",
       "location": "Würfel & Zucker",
@@ -690,6 +654,18 @@
       "url": "https://www.meetup.com/de-DE/wuerfelundzucker/events/313163241/"
     },
     {
+      "name": "Health Network Hamburg Apéro Vol. 11",
+      "date": "2026-02-27",
+      "location": "RoofDrop Bar",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Health-Branche trifft sich zum Apéro. Lockeres Networking mit Drinks auf der Rooftop Bar.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
       "name": "Hamburg Hackathon: Innovate the Skies & Beyond",
       "date": "2026-02-28",
       "location": "TBA (Hamburg)",
@@ -697,6 +673,18 @@
       "time": "08:00",
       "description": "Ganztags-Hackathon. Social Developers Club.",
       "url": "https://www.meetup.com/de-DE/social-developers-club/events/313109806/"
+    },
+    {
+      "name": "Offline Reading Party",
+      "date": "2026-03-01",
+      "location": "Kleine Milchkanne",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "15:00",
+      "description": "Offline Club Hamburg: Gemeinsam lesen, offline sein, Kaffee trinken. Digital Detox Event.",
+      "price": "10 EUR",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
     },
     {
       "name": "F*ck the Small Talk #1",
@@ -744,6 +732,18 @@
       "url": "https://www.meetup.com/de-DE/hamburg-vue-js-meetup/events/313066853/"
     },
     {
+      "name": "After Work Club Hamburg",
+      "date": "2026-03-05",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
+      "category": "afterwork",
+      "time": "18:00",
+      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, Drinks, Tanzfläche.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
       "name": "Drinks @ Reh Bar Ottensen",
       "date": "2026-03-06",
       "location": "Reh Bar",
@@ -751,6 +751,18 @@
       "time": "19:00",
       "description": "360° Events Afterwork-Drinks in der Reh Bar.",
       "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262805/"
+    },
+    {
+      "name": "SGC International Womens Day 2026",
+      "date": "2026-03-08",
+      "location": "SGC Studio",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "10:00",
+      "description": "Reclaim Your Power: Internationaler Frauentag im SGC Studio. Empowerment + Networking.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
     },
     {
       "name": "Bee for Breakfast — Beehive Hamburg",

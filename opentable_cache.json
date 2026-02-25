@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T03:06:40.787Z",
+  "lastUpdated": "2026-02-25T03:04:52.674Z",
   "source": "opentable.de",
   "restaurants": [
     {
@@ -9,7 +9,7 @@
       "cuisine": "Deutsch",
       "priceRange": "€€€€",
       "neighborhood": "Altstadt",
-      "popularity": 5,
+      "popularity": 2,
       "isSponsored": true,
       "url": "https://www.opentable.de/r/the-lisbeth-hamburg",
       "source": "opentable"
@@ -17,7 +17,7 @@
     {
       "name": "Nil",
       "rating": null,
-      "reviewCount": 419,
+      "reviewCount": 421,
       "cuisine": "Aus aller Welt",
       "priceRange": "€€€€",
       "neighborhood": "St. Pauli",
@@ -27,26 +27,14 @@
       "source": "opentable"
     },
     {
-      "name": "Atlantic Restaurant",
-      "rating": null,
-      "reviewCount": 47,
-      "cuisine": "Französisch",
-      "priceRange": "€€€€",
-      "neighborhood": "St Georg",
-      "popularity": null,
-      "isSponsored": true,
-      "url": "https://www.opentable.de/r/atlantic-restaurant-hamburg",
-      "source": "opentable"
-    },
-    {
       "name": "The Table Kevin Fehling",
       "rating": null,
       "reviewCount": 55,
       "cuisine": "International",
       "priceRange": "€€€€",
       "neighborhood": "HafenCity",
-      "popularity": 3,
-      "isSponsored": true,
+      "popularity": null,
+      "isSponsored": false,
       "url": "https://www.opentable.de/r/the-table-kevin-fehling-hamburg",
       "source": "opentable"
     },
@@ -57,21 +45,21 @@
       "cuisine": "International",
       "priceRange": "€€€€",
       "neighborhood": "Ottensen",
-      "popularity": 3,
+      "popularity": 2,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/petit-amour-spritzenplatz-hamburg-deutschland-hamburg",
       "source": "opentable"
     },
     {
-      "name": "Koer Kulinarik & Bar",
+      "name": "Atlantic Restaurant",
       "rating": null,
-      "reviewCount": 112,
-      "cuisine": "Marktküche",
+      "reviewCount": 48,
+      "cuisine": "Französisch",
       "priceRange": "€€€€",
-      "neighborhood": "Winterhude",
-      "popularity": 3,
-      "isSponsored": false,
-      "url": "https://www.opentable.de/r/koer-kulinarik-and-bar-hamburg",
+      "neighborhood": "St Georg",
+      "popularity": 2,
+      "isSponsored": true,
+      "url": "https://www.opentable.de/r/atlantic-restaurant-hamburg",
       "source": "opentable"
     },
     {
@@ -94,8 +82,20 @@
       "priceRange": "€€€€",
       "neighborhood": "St. Pauli",
       "popularity": 4,
-      "isSponsored": false,
+      "isSponsored": true,
       "url": "https://www.opentable.de/r/haebel-hamburg",
+      "source": "opentable"
+    },
+    {
+      "name": "Koer Kulinarik & Bar",
+      "rating": null,
+      "reviewCount": 112,
+      "cuisine": "Marktküche",
+      "priceRange": "€€€€",
+      "neighborhood": "Winterhude",
+      "popularity": 4,
+      "isSponsored": false,
+      "url": "https://www.opentable.de/r/koer-kulinarik-and-bar-hamburg",
       "source": "opentable"
     },
     {
@@ -117,7 +117,7 @@
       "cuisine": "International",
       "priceRange": "€€€€",
       "neighborhood": "Neustadt",
-      "popularity": 7,
+      "popularity": 2,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/restaurant-haerlin-hamburg",
       "source": "opentable"

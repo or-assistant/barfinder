@@ -1,0 +1,339 @@
+[
+  {
+    "name": "Zum Silbersack",
+    "status": "suspect",
+    "issues": [
+      "Website dead (403)"
+    ],
+    "timestamp": "2026-02-22T03:08:34.432Z"
+  },
+  {
+    "name": "Zwick",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:40.226Z"
+  },
+  {
+    "name": "Schramme 10",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:43.943Z"
+  },
+  {
+    "name": "Borchers",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:46.681Z"
+  },
+  {
+    "name": "Schröders",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:48.042Z"
+  },
+  {
+    "name": "Paola's",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:49.343Z"
+  },
+  {
+    "name": "Ratsherrn Klause",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:57.315Z"
+  },
+  {
+    "name": "Holsten-Schwemme",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:08:58.560Z"
+  },
+  {
+    "name": "Hong-Kong Hotel Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:01.101Z"
+  },
+  {
+    "name": "Old Sailor",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:02.441Z"
+  },
+  {
+    "name": "Zur Scharfen Ecke",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:03.717Z"
+  },
+  {
+    "name": "Haifisch Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:05.562Z"
+  },
+  {
+    "name": "Zum Silbersack",
+    "status": "suspect",
+    "issues": [
+      "Website dead (403)"
+    ],
+    "timestamp": "2026-02-22T03:09:16.123Z"
+  },
+  {
+    "name": "Zwick",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:21.334Z"
+  },
+  {
+    "name": "Schramme 10",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:24.745Z"
+  },
+  {
+    "name": "Borchers",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:26.963Z"
+  },
+  {
+    "name": "Schröders",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:28.072Z"
+  },
+  {
+    "name": "Paola's",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:29.181Z"
+  },
+  {
+    "name": "Ratsherrn Klause",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:33.054Z"
+  },
+  {
+    "name": "Holsten-Schwemme",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:34.162Z"
+  },
+  {
+    "name": "Hong-Kong Hotel Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:35.273Z"
+  },
+  {
+    "name": "Old Sailor",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:36.384Z"
+  },
+  {
+    "name": "Zur Scharfen Ecke",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:37.493Z"
+  },
+  {
+    "name": "Haifisch Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:39.111Z"
+  },
+  {
+    "name": "Hatari Pfälzer Stube",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:41.329Z"
+  },
+  {
+    "name": "Absturz",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:42.736Z"
+  },
+  {
+    "name": "Hamburg 60",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:45.791Z"
+  },
+  {
+    "name": "Gaststätte Dorotheen Eck",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:49.143Z"
+  },
+  {
+    "name": "Eimseck",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:54.742Z"
+  },
+  {
+    "name": "Freundlich + Kompetent",
+    "status": "suspect",
+    "issues": [
+      "Website dead (403)"
+    ],
+    "timestamp": "2026-02-22T03:09:57.739Z"
+  },
+  {
+    "name": "Klimperkiste",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:09:59.914Z"
+  },
+  {
+    "name": "Murphy's Irish Pub",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:06.526Z"
+  },
+  {
+    "name": "Zum Flensburger",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:07.842Z"
+  },
+  {
+    "name": "Le Lion — Bar de Paris",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:11.540Z"
+  },
+  {
+    "name": "Boilerman Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:13.900Z"
+  },
+  {
+    "name": "Christiansen's",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:18.629Z"
+  },
+  {
+    "name": "dripBAR",
+    "status": "likely_closed",
+    "issues": [
+      "Nicht in OSM gefunden",
+      "Website unreachable (timeout)"
+    ],
+    "timestamp": "2026-02-22T03:10:28.837Z"
+  },
+  {
+    "name": "Liquid Garden",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:30.072Z"
+  },
+  {
+    "name": "Ba Nomu",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:31.368Z"
+  },
+  {
+    "name": "Collab Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:32.668Z"
+  },
+  {
+    "name": "The Rabbithole Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:34.509Z"
+  },
+  {
+    "name": "Jahreszeiten Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-02-22T03:10:35.894Z"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "date": "2026-02-23",
+    "status": "partial",
+    "note": "Web search unavailable (no Brave API key). Enrichment based on local knowledge only. New locations and events could not be searched."
+  },
+  "enriched_descriptions": [
+    {
+      "name": "Omas Apotheke",
+      "neighborhood": "Schanze",
+      "description": "Kultige Raucher-Kneipe im Herzen der Schanze. Urig, laut, authentisch. Publikum: Schanzenviertel-Locals, Studenten, Nachtschwärmer. Preisniveau: günstig. Klassische Hamburger Eckkneipe mit Charakter.",
+      "tags_add": ["kultkneipe", "günstig", "authentisch"]
+    },
+    {
+      "name": "Vinos",
+      "neighborhood": "Eppendorf",
+      "description": "Gemütliche Weinbar in Eppendorf. Ü35-Publikum, entspannte Atmosphäre, gute Weinauswahl. Ideal für ruhige Abende zu zweit oder in kleiner Runde.",
+      "tags_add": ["weinbar", "gemütlich", "date-spot"]
+    },
+    {
+      "name": "CavaRo Weinbar",
+      "neighborhood": "Eppendorf",
+      "description": "Stilvolle Weinbar mit Flirt-Faktor. Ü35-Publikum, gehobenes Ambiente, Schwerpunkt auf Wein und gehobene Kleinigkeiten. Gute Adresse für After-Work und Dates.",
+      "tags_add": ["gehoben", "date-spot", "after-work"]
+    },
+    {
+      "name": "ERNST GESING & CO",
+      "neighborhood": "Barmbek",
+      "description": "Weinbar in Barmbek mit besonderem Konzept. Verbindet Wein-Genuss mit entspannter Nachbarschafts-Atmosphäre.",
+      "tags_add": ["weinbar", "nachbarschaft"]
+    },
+    {
+      "name": "Meisenfrei",
+      "neighborhood": "Eppendorf",
+      "description": "Beliebte Nachbarschaftskneipe in Eppendorf. Lockere Atmosphäre, gemischtes Publikum, gute Stimmung am Wochenende.",
+      "tags_add": ["nachbarschaft", "locker"]
+    },
+    {
+      "name": "Bar Jasou",
+      "neighborhood": "",
+      "description": "Cocktailbar mit kreativem Ansatz. Handgemachte Drinks, stilvolles Interieur.",
+      "tags_add": ["cocktails", "kreativ"]
+    },
+    {
+      "name": "Austerbar",
+      "neighborhood": "",
+      "description": "Bar mit gehobenem Anspruch, Seafood-Akzente und feine Drinks. Elegantes Publikum.",
+      "tags_add": ["gehoben", "seafood"]
+    },
+    {
+      "name": "Bodega",
+      "neighborhood": "",
+      "description": "Nachbarschaftskneipe mit spanischem Flair. Unkompliziert, günstig, gute Tapas-Auswahl.",
+      "tags_add": ["spanisch", "günstig", "tapas"]
+    }
+  ],
+  "new_locations": [],
+  "events_this_week": [],
+  "actions_needed": [
+    "Brave API Key einrichten für vollständige Web-Recherche (openclaw configure --section web)",
+    "4289 von 5229 Locations haben schwache/fehlende Beschreibungen",
+    "Event-Recherche und neue Locations konnten nicht durchgeführt werden"
+  ]
+}

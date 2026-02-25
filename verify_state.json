@@ -1,0 +1,398 @@
+{
+  "lastIndex": 50,
+  "flagged": [
+    {
+      "name": "Zum Silbersack",
+      "address": "Silbersackstraße 9, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website dead (403)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Zwick",
+      "address": "Mittelweg 36, Pöseldorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Schramme 10",
+      "address": "Schrammsweg 10, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Borchers",
+      "address": "Eppendorfer Weg 172, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Schröders",
+      "address": "Eppendorfer Weg 198, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Paola's",
+      "address": "Marie-Jonas-Platz, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ratsherrn Klause",
+      "address": "Schanzenstraße 36, Sternschanze",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Holsten-Schwemme",
+      "address": "Seilerstraße, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hong-Kong Hotel Bar",
+      "address": "Schmuckstraße 9, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Old Sailor",
+      "address": "Hamburger Berg, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zur Scharfen Ecke",
+      "address": "Davidstraße 1, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Haifisch Bar",
+      "address": "Große Elbstraße 128, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Hatari Pfälzer Stube",
+      "address": "Hamburger Berg 8, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Absturz",
+      "address": "Hamburger Berg 15, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hamburg 60",
+      "address": "Schinkelstraße 4, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Gaststätte Dorotheen Eck",
+      "address": "Dorotheenstraße 190, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Eimseck",
+      "address": "Methfesselstraße 88, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Freundlich + Kompetent",
+      "address": "Hamburger Straße 13, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website dead (403)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Klimperkiste",
+      "address": "Esplanade 18, Neustadt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Murphy's Irish Pub",
+      "address": "Friedrichstraße 24, St. Pauli",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Zum Flensburger",
+      "address": "Lübecker Straße 121, Hamm",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Le Lion — Bar de Paris",
+      "address": "Rathausstraße 3, Altstadt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Boilerman Bar",
+      "address": "Eppendorfer Baum 9, Hoheluft",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Christiansen's",
+      "address": "Pinnasberg 60, St. Pauli",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "dripBAR",
+      "address": "Antonistraße 4, Hamburg",
+      "category": "cocktailbar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Liquid Garden",
+      "address": "Kleine Johannisstraße, Innenstadt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ba Nomu",
+      "address": "Juliusstraße 22, St. Pauli",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Collab Bar",
+      "address": "Hein-Hoyer-Straße 63, Hamburg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Rabbithole Bar",
+      "address": "Bartelsstraße 12, Sternschanze",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Jahreszeiten Bar",
+      "address": "Neuer Jungfernstieg 9-14, Hamburg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    }
+  ],
+  "verified": 50,
+  "lastRun": "2026-02-22T03:10:35.894Z"
+}

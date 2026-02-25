@@ -1,14 +1,5 @@
 [
   {
-    "title": "5 seats leftSocializing",
-    "date": "2026-02-21",
-    "time": "6:00 PM",
-    "venue": "Socializer : Hamburg",
-    "url": "https://www.meetup.com/the-socializer-hamburg/events/313366016/",
-    "source": "meetup.com",
-    "type": "social"
-  },
-  {
     "title": "Meet Internationals and Locals | Social Melting Pot HAMBURG",
     "date": "2026-02-25",
     "time": "7:00 PM",
@@ -18,7 +9,25 @@
     "type": "social"
   },
   {
-    "title": "Rust Hack & Learn March 2026",
+    "title": "1 seat leftRestauranttasting | Women's Network Circle",
+    "date": "2026-02-25",
+    "time": "6:30 PM",
+    "venue": "W:CIRCLE - Women's Circle Hamburg",
+    "url": "https://www.meetup.com/womenscirclehamburg/events/313020244/",
+    "source": "meetup.com",
+    "type": "tasting"
+  },
+  {
+    "title": "build fridays - work on your startup alongside other founders (bring laptop)",
+    "date": "2026-02-27",
+    "time": "4:00 PM",
+    "venue": "AI BEAVERS",
+    "url": "https://www.meetup.com/ai-beavers/events/312769562/",
+    "source": "meetup.com",
+    "type": "networking"
+  },
+  {
+    "title": "6 seats leftRust Hack & Learn March 2026",
     "date": "2026-03-04",
     "time": "6:00 PM",
     "venue": "Rust Meetup Hamburg",
@@ -32,15 +41,6 @@
     "time": "9:30 AM",
     "venue": "Beehive Networking Meetup Hamburg",
     "url": "https://www.meetup.com/meetup-group-chfcpdue/events/313095557/",
-    "source": "meetup.com",
-    "type": "networking"
-  },
-  {
-    "title": "Agentic Conf Hamburg - A Full Day Conference in March",
-    "date": "2026-03-22",
-    "time": "9:00 AM",
-    "venue": "Agentic Coding Meetup Hamburg",
-    "url": "https://www.meetup.com/agentic-coding-meetup-hamburg/events/313186589/",
     "source": "meetup.com",
     "type": "networking"
   }

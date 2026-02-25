@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "title": "admark.ai und die Startup-Brüder aus „Die Höhle der Löwen“",
+      "date": "2026-02-24",
+      "time": "",
+      "venue": "Hamburg",
+      "description": "Wir sprachen mit dem Gründer von admark.ai über deinen Auftritt bei \"Die Höhle der Löwen\" und den Deal mit Carsten Maschmeyer.\nThe post admark.ai und die Startup-Brüder aus &#8222;Die Höhle der Löwen&#8220; appeared first on Hamburg Startups.",
+      "url": "https://www.hamburg-startups.net/admark-ai-und-die-startup-brueder-aus-die-hoehle-der-loewen/",
+      "type": "startup",
+      "source": "hamburg-startups"
+    },
+    {
       "title": "Ticketing für Hamburg Innovation Summit 2026 gestartet",
       "date": "2026-02-17",
       "time": "",
@@ -27,16 +37,6 @@
       "venue": "Hamburg",
       "description": "Der Empfang für die Finalistinnen unseres Wettbewerbs STARTERiN Hamburg war wieder ein außergewöhnliches Erlebnis.\nThe post Exklusiver Empfang im Rathaus für unsere STARTERiNNEN 2025! appeared first on Hamburg Startups.",
       "url": "https://www.hamburg-startups.net/exklusiver-empfang-im-rathaus-fuer-unsere-starterinnen-2025/",
-      "type": "startup",
-      "source": "hamburg-startups"
-    },
-    {
-      "title": "Exaere gewinnt beim dritten Future Founder Demo Day",
-      "date": "2026-01-28",
-      "time": "",
-      "venue": "Hamburg",
-      "description": "Beim 3. Demo Day des Förderprogramms Future Founder präsentierten sich wieder Hochschulprojekte, die das Zeug zum Startup haben.\nThe post Exaere gewinnt beim dritten Future Founder Demo Day appeared first on Hamburg Startups.",
-      "url": "https://www.hamburg-startups.net/exaere-gewinnt-beim-dritten-future-founder-demo-day/",
       "type": "startup",
       "source": "hamburg-startups"
     },
@@ -131,7 +131,7 @@
       "source": "hamburg-business"
     }
   ],
-  "fetchedAt": "2026-02-21T03:06:41.770Z",
+  "fetchedAt": "2026-02-25T03:04:53.858Z",
   "sources": [
     "hamburg-startups.net",
     "hamburg-business.com"

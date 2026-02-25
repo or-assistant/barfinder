@@ -679,6 +679,8 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
       <h2>🎉 Hier solltest du JETZT hin!</h2>
       <p id="vibeOverlayTime"></p>
     </div>
+    <div id="vibeExplainer" style="width:100%;max-width:420px;margin-bottom:20px"></div>
+    <div id="vibeAgeFilter" style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-bottom:16px;width:100%;max-width:420px"></div>
     <div id="vibeRecoList"></div>
   </div>
 
@@ -700,59 +702,96 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
     </button>
     <div class="methodik-body" id="methodik-body">
       <div class="methodik-inner">
-        <h4>🎉 VibeScore (0-100)</h4>
-        <p>Wahrscheinlichkeit, auf Leute zu treffen & gute Stimmung.</p>
+        <h4>🎉 Vibe Score v2.0 (0 bis 100%)</h4>
+        <p>Vorhersage, wie wahrscheinlich an einem Ort zu einer bestimmten Zeit etwas los ist.</p>
+        
+        <div style="background:rgba(187,134,252,.08);border:1px solid rgba(187,134,252,.2);border-radius:12px;padding:16px;margin:12px 0;text-align:center">
+          <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1px;color:var(--text2);margin-bottom:8px">Barfinder Vibe Index (BVI)</div>
+          <div style="font-family:'Courier New',monospace;font-size:.95rem;color:#BB86FC;line-height:1.8;letter-spacing:.5px">
+            V<sub style="font-size:.6em">i,t</sub> = ( B<sub style="font-size:.6em">i</sub> &middot; D<sub style="font-size:.6em">w</sub> &middot; H<sub style="font-size:.6em">c,h</sub> + &Sigma; &beta;<sub style="font-size:.6em">k</sub> ) &middot; S<sub style="font-size:.6em">m</sub> &middot; W<sub style="font-size:.6em">&phi;</sub> &middot; O<sub style="font-size:.6em">i</sub> &middot; P<sub style="font-size:.6em">d</sub>
+          </div>
+          <div style="margin-top:12px;text-align:left;font-size:.68rem;color:var(--text2);line-height:1.7;columns:2;column-gap:16px">
+            <div>V<sub style="font-size:.7em">i,t</sub> = Vibe Score Location i zur Zeit t</div>
+            <div>B<sub style="font-size:.7em">i</sub> = Base Score [15, 65] &cap; max 70</div>
+            <div>D<sub style="font-size:.7em">w</sub> = Tag-Faktor [0.35, 1.0]</div>
+            <div>H<sub style="font-size:.7em">c,h</sub> = Stunden-Kurve Kategorie c, Stunde h</div>
+            <div>&Sigma;&beta;<sub style="font-size:.7em">k</sub> = Summe aller Boosts (Wetter, Events, Stadtteil, Semester, Tageslicht, Wind)</div>
+            <div>S<sub style="font-size:.7em">m</sub> = Saison-Faktor [0.5, 1.1]</div>
+            <div>W<sub style="font-size:.7em">&phi;</sub> = Wetter-Penalty [0.6, 1.0]</div>
+            <div>O<sub style="font-size:.7em">i</sub> = Offen-Faktor [0.25, 1.0]</div>
+            <div>P<sub style="font-size:.7em">d</sub> = Payweek-Faktor [0.97, 1.05]</div>
+          </div>
+          <div style="margin-top:8px;font-size:.6rem;color:var(--text2);opacity:.6">n = 12 Faktoren &middot; 8 Stundenkurven &middot; 18 Stadtteile &middot; 10 Grossevents</div>
+        </div>
+        
+        <h4>📐 Base Score (15 bis 65)</h4>
+        <p>Statischer Grundwert eines Ortes:</p>
         <ul>
-          <li>Base-Score je Kategorie, gekappt auf max 70</li>
-          <li>Wochentag-Multiplikator: So=0.4, Mo=0.35, Di=0.4, Mi=0.55, Do=0.7, Fr=1.0, Sa=0.95</li>
-          <li>Stunden-Multiplikator: Abhängig von Kategorie-Peaks (Cocktailbar: 22-01h, Pub: 20-23h etc.)</li>
-          <li>Event-Boost: +20 wenn Event stattfindet</li>
-          <li>Community Score: 70+ = +10, 55+ = +5</li>
-          <li>Keywords: "live musik", "after work" etc.</li>
-          <li>Smoker-Bonus: Stammkneipe-Effekt +5</li>
-          <li>Geschlossene L&auml;den: nur 25% vom Score</li>
-          <li>Wetter-Einfluss (siehe unten)</li>
+          <li>Kategorie: Nightclub +18, Bar +12, Cafe +4</li>
+          <li>Publikum: Kreative +8, Studenten +7, Gemischt +6</li>
+          <li>Atmosph&auml;re: Wild +12, Lebendig +8, Gem&uuml;tlich +4</li>
+          <li>Preis, Specials, Outdoor-Seating, Date-Spot</li>
+          <li>Gedeckelt auf max 70 nach allen Multiplikatoren</li>
+        </ul>
+        
+        <h4>📅 Tag-Multiplikator (x0.35 bis x1.0)</h4>
+        <ul>
+          <li>Mo=0.35 (am wenigsten), Fr=1.0 (am meisten), Sa=0.95</li>
+          <li><strong>Feiertag</strong> = mindestens x0.90 (wie Samstag)</li>
+          <li><strong>Br&uuml;ckentag</strong> = mindestens x0.85</li>
+          <li><strong>Vorabend</strong> eines Feiertags = mindestens x0.90</li>
+        </ul>
+        
+        <h4>⏰ Stunden-Multiplikator (x0.01 bis x1.0)</h4>
+        <ul>
+          <li>8 Kurven: Cafe/Bar/Club/Restaurant je Wochentag und Weekend</li>
+          <li>Bar Weekend Peak: 23h (x1.0), Bar Weekday Peak: 21h (x0.90)</li>
+          <li>Club Weekend Peak: 23h bis 1h, Cafe Peak: 15 bis 16h</li>
+        </ul>
+        
+        <h4>➕ Additive Boosts</h4>
+        <ul>
+          <li>🌤️ <strong>Gef&uuml;hlte Temperatur:</strong> Ber&uuml;cksichtigt Wind-Chill, nicht nur Thermometer</li>
+          <li>🌤️ <strong>St&uuml;ndliches Wetter:</strong> Prognose f&uuml;r die Abendstunden, nicht nur "jetzt"</li>
+          <li>💨 <strong>Wind:</strong> &gt;30 km/h = Outdoor-Malus, &gt;50 km/h = Alle</li>
+          <li>📈 <strong>Wetter-Dynamik:</strong> +10&deg;C vs. gestern = Alle raus! Regen&#8594;Sonne = Bonus</li>
+          <li>🎪 <strong>Grossevents:</strong> Hafengeburtstag bis +20, Reeperbahn Festival +25, Silvester +30</li>
+          <li>🏙️ <strong>Stadtteil:</strong> Bar-Dichte + Peak-Days des Viertels</li>
+          <li>🎓 <strong>Semester:</strong> Vorlesungszeit = +3 in jungen Vierteln, Ferien = -4</li>
+          <li>🌅 <strong>Tageslicht:</strong> Lange Sommerabende = Biergarten-Bonus</li>
+          <li>💰 <strong>Payweek:</strong> Monatsanfang +5%, Monatsende -3%</li>
+          <li>🎉 <strong>Events/Afterwork:</strong> Lokale Events, Afterwork-Tage</li>
         </ul>
 
-        <h4>🔥 HotScore (0-100)</h4>
-        <p>Wie beliebt ist der Laden insgesamt?</p>
+        <h4>✖️ Multiplikative Penalties</h4>
         <ul>
-          <li>Community Score <span class="weight-bar"><span class="wb-fill" style="width:40px"></span><span class="wb-label">40%</span></span></li>
-          <li>Bewertungen <span class="weight-bar"><span class="wb-fill" style="width:30px"></span><span class="wb-label">30%</span></span></li>
-          <li>Kategorie-Beliebtheit <span class="weight-bar"><span class="wb-fill" style="width:30px"></span><span class="wb-label">30%</span></span></li>
+          <li>Geschlossen: nur 25% vom Score</li>
+          <li>Schlechtwetter: bis -20% (proportional, nicht flach)</li>
+          <li>Saison: Winter x0.7, &Uuml;bergang x0.85, Sommer x1.0</li>
+        </ul>
+        
+        <h4>🔥 HotScore (0 bis 100)</h4>
+        <p>Beliebtheit eines Ladens insgesamt:</p>
+        <ul>
+          <li>Community Score (40%), Bewertungen (30%), Kategorie (30%)</li>
         </ul>
 
-        <h4>⭐ Gesch&auml;tzte Auslastung (0-100)</h4>
-        <p>Wie voll ist es gerade wahrscheinlich?</p>
-        <ul>
-          <li>&Ouml;ffnungszeiten-basiert</li>
-          <li>Peak-Zeiten je Kategorie (Cocktailbar: 22-01h, Pub: 20-23h)</li>
-          <li>Wochentag-Multiplikator (gleiche Gewichtung wie VibeScore)</li>
-          <li>Wetter-Einfluss</li>
-          <li>Gro&szlig;events: Hafengeburtstag, OMR etc. = Stadt-Boost</li>
-        </ul>
-
-        <h4>🌤️ Wetter-Einfluss</h4>
-        <ul>
-          <li>Starker Regen: Outdoor x0.5, Indoor x1.1</li>
-          <li>Sch&ouml;nes Wetter 20&deg;C+: Biergarten x1.2</li>
-          <li>Kalt &lt;0°C: Alle x0.8</li>
-        </ul>
-
-        <h4>📡 Datenquellen</h4>
+        <h4>📡 Datenquellen (alle legal & kostenlos)</h4>
         <div class="data-sources">
           <span class="ds-tag">🗄️ Eigene DB (4.787 Locations)</span>
           <span class="ds-tag">⭐ Community Score (188)</span>
-          <span class="ds-tag">🎫 624 Events (Multi-Source)</span>
-          <span class="ds-tag">🤝 Luma Events</span>
-          <span class="ds-tag">🎫 Eventbrite</span>
-          <span class="ds-tag">📡 RSS Pipeline (News, Tourism)</span>
-          <span class="ds-tag">🏙️ Startup City Hamburg</span>
-          <span class="ds-tag">🍺 Bar Events (Aalhaus etc.)</span>
+          <span class="ds-tag">🎫 Events (Multi-Source)</span>
+          <span class="ds-tag">🌤️ Open-Meteo (Wetter + Forecast)</span>
+          <span class="ds-tag">🎉 date.nager.at (Feiertage)</span>
+          <span class="ds-tag">🏙️ Stadtteil-Index (18 Bezirke)</span>
+          <span class="ds-tag">🎪 Grossevent-Kalender Hamburg</span>
+          <span class="ds-tag">🎓 Uni-Semester-Kalender</span>
+          <span class="ds-tag">🤝 Luma + Eventbrite Events</span>
+          <span class="ds-tag">📡 RSS Pipeline</span>
           <span class="ds-tag">📰 szene-hamburg.de</span>
           <span class="ds-tag">🎉 Mit Vergn&uuml;gen Hamburg</span>
-          <span class="ds-tag">🌤️ Open-Meteo Wetter</span>
         </div>
+        <p style="font-size:.7rem;color:var(--text2);margin-top:8px">Metrik-Version 2.0 (21.02.2026). Alle Daten aus legalen, offenen Quellen.</p>
       </div>
     </div>
   </div>
@@ -1780,7 +1819,7 @@ function renderHero(){
   const el=document.getElementById('heroSection');
   // Combine hot + all places, dedupe, open or opens today, sort by vibe
   // Use server-side isOpen as source of truth; only fall back to opensToday for places without server status
-  const allOpen=[...S.hot,...S.places].filter(h=>osIsOpen(h)||(((h.openStatus||{}).status||'')!=='closed'&&opensToday(h)!==false));
+  const allOpen=[...S.places,...S.hot].filter(h=>osIsOpen(h)||(((h.openStatus||{}).status||'')!=='closed'&&opensToday(h)!==false));
   const seen=new Set();const deduped=[];
   allOpen.forEach(h=>{const k=h.name?.toLowerCase();if(!seen.has(k)){seen.add(k);deduped.push(h)}});
   const topVibe=deduped.sort((a,b)=>(b.vibeScore||0)-(a.vibeScore||0)).slice(0,5);
@@ -2014,6 +2053,11 @@ function showVibeRecommendation(){
   let candidates=[...S.places].filter(p=>osIsOpen(p)||opensToday(p)!==false);
   candidates.sort((a,b)=>(b.vibeScore||0)-(a.vibeScore||0));
   
+  // Apply age filter if set
+  if(window._vibeAgeFilter){
+    candidates=candidates.filter(p=>p.neighborhood&&p.neighborhood.ageGroup===window._vibeAgeFilter);
+  }
+  
   // Split: open NOW vs opens later
   const openNow=candidates.filter(p=>osIsOpen(p));
   const opensLater=candidates.filter(p=>!osIsOpen(p));
@@ -2027,7 +2071,84 @@ function showVibeRecommendation(){
   const now=new Date();
   const timeStr=now.toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Berlin'});
   const dayStr=now.toLocaleDateString('de-DE',{weekday:'long',timeZone:'Europe/Berlin'});
-  document.getElementById('vibeOverlayTime').textContent=`${dayStr}, ${timeStr} Uhr — basierend auf deinem Standort`;
+  document.getElementById('vibeOverlayTime').textContent=`${dayStr}, ${timeStr} Uhr`;
+  
+  // ═══ VIBE EXPLAINER v2: Klare Formel-Darstellung ═══
+  const explainer=document.getElementById('vibeExplainer');
+  const sf=top[0]?.vibeFactors||{};
+  const curDow=now.getDay();
+  const curHour=now.getHours();
+  const dayNames=['So','Mo','Di','Mi','Do','Fr','Sa'];
+  const dayEmojis=['😴','😐','😐','😊','🥳','🔥','🔥'];
+
+  // Hauptfaktoren (Multiplikatoren): IMMER anzeigen
+  const mainFactors=[
+    {label:'Wochentag',value:dayNames[curDow]+(sf.holiday?' (Feiertag)':sf.bridgeDay?' (Brueckentag)':sf.holidayEve?' (Morgen frei!)':''),icon:sf.holiday||sf.bridgeDay?'🎉':dayEmojis[curDow],pct:Math.round((sf.dayMultiplier||0.4)*100),color:sf.dayMultiplier>=0.9?'#34C759':sf.dayMultiplier>=0.55?'#FF9500':'#FF453A'},
+    {label:'Uhrzeit',value:curHour+':00 Uhr',icon:curHour>=22?'🌙':curHour>=20?'✨':curHour>=17?'🌆':curHour>=12?'☀️':'🌅',pct:Math.round((sf.hourMultiplier||0.1)*100),color:sf.hourMultiplier>=0.7?'#34C759':sf.hourMultiplier>=0.3?'#FF9500':'#FF453A'},
+    {label:'Saison',value:sf.seasonFactor>=1.0?'Hauptsaison':sf.seasonFactor>=0.85?'Uebergang':'Nebensaison',icon:sf.seasonFactor>=1.0?'☀️':sf.seasonFactor>=0.85?'🌤️':'❄️',pct:Math.round((sf.seasonFactor||0.7)*100),color:sf.seasonFactor>=0.9?'#34C759':'#FF9500'}
+  ];
+
+  // Bonusfaktoren: nur anzeigen wenn aktiv (!=0)
+  const bonuses=[];
+  if(sf.weatherMod&&sf.weatherMod!==0)bonuses.push({label:'Wetter',value:(sf.weatherMod>0?'+':'')+sf.weatherMod,icon:sf.weatherMod>0?'☀️':'🌧️',positive:sf.weatherMod>0});
+  if(sf.windPenalty&&sf.windPenalty!==0)bonuses.push({label:'Wind',value:sf.windPenalty,icon:'💨',positive:false});
+  if(sf.weatherDynamics&&sf.weatherDynamics!==0)bonuses.push({label:'vs. Gestern',value:(sf.weatherDynamics>0?'+':'')+sf.weatherDynamics,icon:sf.weatherDynamics>0?'📈':'📉',positive:sf.weatherDynamics>0});
+  if(sf.majorEventBoost)bonuses.push({label:'Grossevent',value:'+'+sf.majorEventBoost,icon:'🎪',positive:true});
+  if(sf.eventBoost)bonuses.push({label:'Lokales Event',value:'+'+sf.eventBoost,icon:'🎉',positive:true});
+  if(sf.afterworkBoost&&curHour>=16&&curHour<=20)bonuses.push({label:'Afterwork',value:'+'+sf.afterworkBoost,icon:'🍻',positive:true});
+  if(sf.stadtteilMod&&sf.stadtteilMod!==0)bonuses.push({label:'Viertel',value:(sf.stadtteilMod>0?'+':'')+Math.round(sf.stadtteilMod),icon:'🏙️',positive:sf.stadtteilMod>0});
+  if(sf.semesterMod&&sf.semesterMod!==0)bonuses.push({label:sf.semesterMod>0?'Uni-Betrieb':'Semesterferien',value:(sf.semesterMod>0?'+':'')+sf.semesterMod,icon:'🎓',positive:sf.semesterMod>0});
+  if(sf.daylightMod&&sf.daylightMod!==0)bonuses.push({label:sf.daylightMod>0?'Langer Abend':'Dunkelheit',value:(sf.daylightMod>0?'+':'')+sf.daylightMod,icon:sf.daylightMod>0?'🌅':'🌑',positive:sf.daylightMod>0});
+  if(sf.payweekFactor&&sf.payweekFactor!==1.0)bonuses.push({label:sf.payweekFactor>1?'Monatsanfang':'Monatsende',value:(sf.payweekFactor>1?'+':'')+Math.round((sf.payweekFactor-1)*100)+'%',icon:'💰',positive:sf.payweekFactor>1});
+
+  // Top-Bar Score fuer Kontext
+  const topScore=top[0]?.vibeScore||0;
+  const topBase=top[0]?.baseVibeScore||0;
+
+  explainer.innerHTML=`
+    <div style="background:var(--surface);border-radius:14px;padding:14px;border:1px solid rgba(255,255,255,.08)">
+      <div style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text2);margin-bottom:4px">📊 Vibe Score Formel</div>
+      <div style="font-size:.65rem;color:var(--text2);margin-bottom:12px;opacity:.7">Base (${topBase}) x Tag x Stunde + Boosts = ${topScore}%</div>
+      
+      <div style="font-size:.65rem;font-weight:700;color:var(--text2);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px">Multiplikatoren</div>
+      ${mainFactors.map(f=>`
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+          <span style="font-size:.75rem;min-width:82px;color:var(--text2)">${f.icon} ${f.label}</span>
+          <div style="flex:1;height:5px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden">
+            <div style="height:100%;width:${f.pct}%;background:${f.color};border-radius:3px;transition:width .5s"></div>
+          </div>
+          <span style="font-size:.7rem;color:${f.color};min-width:70px;text-align:right;font-weight:600">${f.pct}% ${f.value}</span>
+        </div>
+      `).join('')}
+      
+      ${bonuses.length?`
+        <div style="font-size:.65rem;font-weight:700;color:var(--text2);margin:10px 0 6px;text-transform:uppercase;letter-spacing:.5px">Aktive Boosts/Penalties</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px">
+          ${bonuses.map(b=>`
+            <span style="font-size:.7rem;padding:3px 10px;border-radius:10px;font-weight:600;
+              background:${b.positive?'rgba(52,199,89,.12)':'rgba(255,69,58,.12)'};
+              color:${b.positive?'#34C759':'#FF453A'}">
+              ${b.icon} ${b.label} ${b.value}
+            </span>
+          `).join('')}
+        </div>
+      `:''}
+    </div>
+  `;
+  
+  // ═══ AGE GROUP FILTER ═══
+  const ageFilter=document.getElementById('vibeAgeFilter');
+  const ageGroups=new Map();
+  candidates.forEach(p=>{
+    const ag=(p.neighborhood&&p.neighborhood.ageGroup)||null;
+    if(ag&&!ageGroups.has(ag))ageGroups.set(ag,0);
+    if(ag)ageGroups.set(ag,ageGroups.get(ag)+1);
+  });
+  const ageLabels={'jung':'🎓 Jung (<30)','jung-gemischt':'🎉 Jung-Gemischt','jung-mittel':'👔 Jung-Mittel','gemischt':'🌍 Gemischt','mittel':'👥 Mittel','35plus':'🥂 35+','aelter':'🍷 Reifer','aelter-wohlhabend':'💎 Gehoben','business':'💼 Business','business-mittel':'💼 Business'};
+  const ageBtns=[{key:null,label:'Alle'}];
+  for(const [key] of ageGroups){ageBtns.push({key,label:ageLabels[key]||key});}
+  if(!window._vibeAgeFilter)window._vibeAgeFilter=null;
+  ageFilter.innerHTML=ageBtns.map(a=>`<button onclick="filterVibeAge(${a.key?`'${a.key}'`:'null'})" style="padding:5px 12px;border-radius:16px;font-size:.72rem;font-weight:600;border:1.5px solid ${window._vibeAgeFilter===a.key||(!window._vibeAgeFilter&&!a.key)?'#FF6B35':'rgba(255,255,255,.15)'};background:${window._vibeAgeFilter===a.key||(!window._vibeAgeFilter&&!a.key)?'rgba(255,107,53,.15)':'rgba(255,255,255,.05)'};color:${window._vibeAgeFilter===a.key||(!window._vibeAgeFilter&&!a.key)?'#FF6B35':'var(--text2)'};cursor:pointer;font-family:inherit">${a.label}</button>`).join('');
   
   const list=document.getElementById('vibeRecoList');
   list.innerHTML='';
@@ -2068,10 +2189,18 @@ function showVibeRecommendation(){
     // Maps link
     const mapsUrl=`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`;
     
+    const nbh=p.neighborhood||{};
+    const ageBadge=nbh.ageGroup?({'jung':'🎓','jung-gemischt':'🎉','jung-mittel':'👔','gemischt':'🌍','mittel':'👥','35plus':'🥂','aelter':'🍷','aelter-wohlhabend':'💎','business':'💼','business-mittel':'💼'}[nbh.ageGroup]||''):'';
+    const nbhBadges=[];
+    if(nbh.ageGroup)nbhBadges.push(`<span style="font-size:.65rem;padding:2px 7px;border-radius:8px;background:rgba(123,47,190,.15);color:#BB86FC;font-weight:600">${ageBadge} ${nbh.ageGroup.replace('aelter','reifer').replace('-',' ')}</span>`);
+    if(nbh.vibe)nbhBadges.push(`<span style="font-size:.65rem;padding:2px 7px;border-radius:8px;background:rgba(255,107,53,.1);color:#FF9500;font-weight:600">${nbh.vibe}</span>`);
+    if(nbh.barDensity)nbhBadges.push(`<span style="font-size:.65rem;padding:2px 7px;border-radius:8px;background:rgba(52,199,89,.1);color:#34C759;font-weight:600">Dichte: ${nbh.barDensity}</span>`);
+    
     card.innerHTML=`
       <div class="vr-rank">${rankLabels[i]||'#'+(i+1)}</div>
       <div class="vr-name">${p.name}</div>
       <div class="vr-cat">${catLabel} · ${p.address||''}</div>
+      ${nbhBadges.length?`<div style="display:flex;gap:4px;flex-wrap:wrap;margin:6px 0">${nbhBadges.join('')}</div>`:''}
       <div class="vr-reason">${reason}</div>
       <div class="vr-stats">${statsHtml.join('')}</div>
       <div style="display:flex;gap:8px;margin-top:12px">
@@ -2088,7 +2217,13 @@ function showVibeRecommendation(){
   document.body.style.overflow='hidden';
 }
 
+function filterVibeAge(ageKey){
+  window._vibeAgeFilter=ageKey;
+  showVibeRecommendation();
+}
+
 function closeVibeOverlay(){
+  window._vibeAgeFilter=null;
   document.getElementById('vibeOverlay').classList.remove('open');
   document.body.style.overflow='';
 }
@@ -3080,6 +3215,9 @@ async function openVibePopup(){
     if(!d||!d.days){overlay.remove();return;}
     const card=overlay.firstChild;
 
+    // Use cityVibe from places API as single source of truth for "jetzt"
+    const displayVibe=(S.cityVibe&&S.cityVibe.vibeNow!=null)?S.cityVibe.vibeNow:d.currentVibe;
+
     // Week overview bars
     let weekHTML='';
     const maxPeak=Math.max(...d.days.map(dy=>Math.max(dy.peakSoll,dy.peakIst,1)));
@@ -3106,7 +3244,7 @@ async function openVibePopup(){
     card.innerHTML=`
       <div style="padding:24px 20px 16px;text-align:center;border-bottom:1px solid rgba(255,255,255,.06)">
         <div style="font-size:.7rem;color:var(--text2);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px">📍 ${d.location||'Hamburg'}</div>
-        <div style="font-size:2.4rem;font-weight:300;color:#BB86FC;line-height:1">${d.currentVibe>=70?'🔥':d.currentVibe>=40?'🎉':d.currentVibe>=20?'✨':d.currentVibe>=10?'🌙':'😴'} ${d.currentVibe}%</div>
+        <div style="font-size:2.4rem;font-weight:300;color:#BB86FC;line-height:1">${displayVibe>=70?'🔥':displayVibe>=40?'🎉':displayVibe>=20?'✨':displayVibe>=10?'🌙':'😴'} ${displayVibe}%</div>
         <div style="font-size:.82rem;color:var(--text2);margin-top:4px">Stadt-Vibe jetzt</div>
       </div>
       <div style="padding:16px 12px 8px">

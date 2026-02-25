@@ -1,45 +1,5 @@
 [
   {
-    "title": "Founders Running Club Hamburg",
-    "date": "2026-02-21",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/founders-running-club-hamburg-21-2-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Founders Running Club (FRC) brings founders, investors, tech, creative people and startup enthusiasts together for weekly easy runs and networking."
-  },
-  {
-    "title": "Social Entrepreneurship Forum Hamburg",
-    "date": "2026-02-24",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/social-entrepreneurship-forum-hamburg-2026",
-    "source": "startupcity",
-    "type": "social",
-    "description": "A whole day dedicated to social entrepreneurship in Hamburg – with exciting speakers, opportunities to get involved and space for discussion!"
-  },
-  {
-    "title": "AI in business, but how? - AI agents",
-    "date": "2026-02-24",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/ai-in-business-but-how-ai-agents",
-    "source": "startupcity",
-    "type": "tech",
-    "description": "This event explains the basics of AI agents in an understandable way, shows practical application examples and highlights key legal framework conditions."
-  },
-  {
-    "title": "Start-up School: Info Session",
-    "date": "2026-02-24",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/start-up-school-info-session",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "The DESY Start-up School is a three-month online programme to support scientists and engineers in turning research-based ideas into viable businesses."
-  },
-  {
     "title": "ZAL Innovation Days 2026",
     "date": "2026-02-25",
     "time": "",
@@ -98,6 +58,16 @@
     "source": "startupcity",
     "type": "networking",
     "description": "Ukrainian Science & Tech Hamburg is happy to invite you to the first-ever English-speaking event of the community — this time in a panel discussion format."
+  },
+  {
+    "title": "Founders Running Club Hamburg",
+    "date": "2026-02-28",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/founders-running-club-hamburg-28-2-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "Founders Running Club (FRC) brings founders, investors, tech, creative people and startup enthusiasts together for weekly easy runs and networking."
   },
   {
     "title": "Universities in Hamburg as Startup Launchpads",
@@ -188,6 +158,16 @@
     "source": "startupcity",
     "type": "social",
     "description": "Delicious vegan food, impulses & inspiring talks - Social Entrepreneurship City Hamburg Edition!"
+  },
+  {
+    "title": "Bits & Pretzels Community Hamburg: Network & Leadership – Afterwork Event",
+    "date": "2026-03-26",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/bits-pretzels-community-hamburg-network-leadership-afterwork-event",
+    "source": "startupcity",
+    "type": "afterwork",
+    "description": "Bits & Pretzels Hamburg is excited to host their third community event in Hamburg! This time, they're putting Leadership center stage."
   },
   {
     "title": "Hack the AI future: Show your skills",
@@ -358,5 +338,25 @@
     "source": "startupcity",
     "type": "social",
     "description": "Portside Game Assembly is the new industry conference for leading indie game makers, organised by Gamecity Hamburg."
+  },
+  {
+    "title": "AiDiA Business & Culture Fest",
+    "date": "2026-09-04",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/aidia-business-culture-fest",
+    "source": "startupcity",
+    "type": "social",
+    "description": "Germany's biggest business and culture event is taking off again in 2026 – bigger, louder, better."
+  },
+  {
+    "title": "AI Media Leaders Conference 2026",
+    "date": "2026-11-12",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/ai-media-leaders-conference-2026",
+    "source": "startupcity",
+    "type": "tech",
+    "description": "On 12 November, the AI Media Leaders Conference will bring together leading decision-makers to shape the future of the industry in the age of AI."
   }
 ]

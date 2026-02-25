@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-02-21T03:01:56.889Z",
-  "count": 34,
+  "lastUpdated": "2026-02-25T03:01:42.262Z",
+  "count": 35,
   "sources": {
     "nextmedia": {
       "url": "https://nextmedia-hamburg.de/events/",
-      "count": 6
+      "count": 7
     },
     "aric": {
       "url": "https://aric-hamburg.de/events/",
-      "count": 26
+      "count": 27
     },
     "kreativgesellschaft": {
       "url": "https://kreativgesellschaft.org/termine/",
@@ -16,24 +16,6 @@
     }
   },
   "events": [
-    {
-      "title": "ARIC-Tipp | Förderfrühstück Green Industry and Circular Economy Hamburg",
-      "date": "2026-02-24",
-      "time": "10:00 - 12:00",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/foerderfruehstueck-circular-economy/",
-      "source": "aric",
-      "type": "meetup"
-    },
-    {
-      "title": "AI Mix & Mingle in February| KI-Stammtisch im Februar",
-      "date": "2026-02-24",
-      "time": "18:30 - 21:00",
-      "venue": "Zoë II &#8211; Sofabar",
-      "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-february-ki-stammtisch-im-februar-3/",
-      "source": "aric",
-      "type": "meetup"
-    },
     {
       "title": "ARIC-Tipp | Innovation Days at ZAL TechCenter",
       "date": "2026-02-25",
@@ -143,6 +125,24 @@
       "type": "techtalk"
     },
     {
+      "title": "Agentic Coding Meetup",
+      "date": "2026-03-16",
+      "time": "17:30 - 20:00",
+      "venue": "SPACE",
+      "url": "https://aric-hamburg.de/veranstaltung/agentic-coding-meetup/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
+      "title": "ARIC-Tipp | Boost your Business",
+      "date": "2026-03-17",
+      "time": "10:00 - 17:00",
+      "venue": "Handelskammer Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/boost-your-business/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
       "title": "Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker",
       "date": "2026-03-18",
       "time": "16:00 - 18:00",
@@ -200,9 +200,9 @@
       "title": "WoHa! | Women's Hackathon 2026",
       "date": "2026-04-18",
       "time": "09:30 - 16:00",
-      "venue": "SPACE von nextMedia.Hamburg und der Hamburg Kreativ Gesellschaft",
-      "url": "https://aric-hamburg.de/veranstaltung/woha-womens-hackathon-2026/",
-      "source": "aric",
+      "venue": "SPACE Hamburg | Am Sandtorkai 27",
+      "url": "https://nextmedia-hamburg.de/events/kalender/woha-womens-hackathon-2026/",
+      "source": "nextmedia",
       "type": "meetup"
     },
     {
@@ -231,6 +231,15 @@
       "url": "https://aric-hamburg.de/veranstaltung/ai-mix-mingle-in-may-ki-stammtisch-im-mai/",
       "source": "aric",
       "type": "meetup"
+    },
+    {
+      "title": "ARIC-Tipp | Ageing with Tech Festival 2026",
+      "date": "2026-06-09",
+      "time": "00:00 - 23:59",
+      "venue": "KörberHaus",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-tipp-ageing-with-tech-festival-2026/",
+      "source": "aric",
+      "type": "networking"
     },
     {
       "title": "ARIC-Tipp | Transfer Workshop: ErUM-Scientists & Industry in Dialogue",

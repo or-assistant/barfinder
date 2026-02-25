@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-21T03:06:44.852Z",
+  "scraped_at": "2026-02-25T03:04:56.395Z",
   "count": 31,
   "events": [
     {
@@ -13,9 +13,39 @@
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "D Jugend Fußball Turnier",
-      "date": "2026-02-22",
-      "time": "11:00",
+      "title": "Chorprobe",
+      "date": "2026-02-26",
+      "time": "19:30",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Chor Lentföhrden",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Treff in geselliger Runde",
+      "date": "2026-02-26",
+      "time": "14:00",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Seniorenclub",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Erste Hilfe Kurs FF Lentföhrden",
+      "date": "2026-02-28",
+      "time": "08:00",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Feuerwehr Lentföhrden",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Karateprüfung Vorbereitung",
+      "date": "2026-02-28",
+      "time": "10:00",
       "venue": "Sporthalle",
       "description": "Veranstalter: TSV Lentföhrden",
       "source": "lentfoehrden.de",
@@ -23,41 +53,11 @@
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "CDU Fraktionssitzung",
-      "date": "2026-02-23",
-      "time": "19:30",
-      "venue": "Bürgermeisterbüro",
-      "description": "Veranstalter: CDU Lentföhrden",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Jahreshauptversammlung",
-      "date": "2026-02-23",
-      "time": "19:00",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Förderverein Freibad",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Sozialausschuss",
-      "date": "2026-02-24",
-      "time": "20:00",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Gemeinde Lentföhrden",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Fraktionssitzung KWV",
-      "date": "2026-02-25",
-      "time": "19:30",
-      "venue": "Bürgermeisterbüro",
-      "description": "Veranstalter: KWV Lentföhrden",
+      "title": "Karate-Prüfungstag",
+      "date": "2026-03-01",
+      "time": "10:00",
+      "venue": "Sporthalle",
+      "description": "Veranstalter: TSV Lentföhrden",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"

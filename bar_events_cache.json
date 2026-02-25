@@ -1,8 +1,16 @@
 {
-  "lastUpdated": "2026-02-21T03:00:07.535Z",
+  "lastUpdated": "2026-02-25T03:00:10.905Z",
   "events": [
     {
-      "title": "DJ Nicolaye<br>Sa. 7.3.: Martha</p>",
+      "title": "DJ Nicolaye |&nbsp;Aal Night +++</p>",
+      "date": "2026-02-27",
+      "time": "21:00",
+      "location": "Aalhaus",
+      "category": "dj",
+      "source": "aalhaus.de"
+    },
+    {
+      "title": "DJ Nicolaye<br>Sa. 7.3.: Martha Penelope</p>",
       "date": "2026-02-27",
       "time": "21:00",
       "location": "Aalhaus",
@@ -28,22 +36,6 @@
     {
       "title": "15 UHR vorm MOLOTOW",
       "date": "2026-12-30",
-      "time": "20:00",
-      "location": "Molotow",
-      "category": "event",
-      "source": "molotowclub.com"
-    },
-    {
-      "title": ":&nbsp;HINTERLANDGANG&nbsp;-&nbsp;Ausverkauft!",
-      "date": "2026-02-21",
-      "time": "20:00",
-      "location": "Molotow",
-      "category": "event",
-      "source": "molotowclub.com"
-    },
-    {
-      "title": ":&nbsp;DEPRI&nbsp;DISKO&nbsp;-&nbsp;Melancholische&nbsp;Tanzmusik\" loading='lazy",
-      "date": "2026-02-21",
       "time": "20:00",
       "location": "Molotow",
       "category": "event",
@@ -146,22 +138,6 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;EADES&nbsp;-&nbsp;Abgesagt!\" loading='lazy' rel=\"lightbox\">",
-      "date": "2026-03-06",
-      "time": "20:00",
-      "location": "Molotow",
-      "category": "event",
-      "source": "molotowclub.com"
-    },
-    {
-      "title": ":&nbsp;EADES&nbsp;-&nbsp;Abgesagt!\" id=\"media2\" rel=\"lightbox\">",
-      "date": "2026-03-06",
-      "time": "20:00",
-      "location": "Molotow",
-      "category": "event",
-      "source": "molotowclub.com"
-    },
-    {
       "title": ":&nbsp;TOP&nbsp;TEN&nbsp;BAR\" loading='lazy' rel=\"lightbox\">",
       "date": "2026-03-06",
       "time": "20:00",
@@ -178,7 +154,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;NILS&nbsp;KEPPEL\" loading='lazy' rel=\"lightbox\">",
+      "title": ":&nbsp;NILS&nbsp;KEPPEL",
       "date": "2026-03-07",
       "time": "20:00",
       "location": "Molotow",
@@ -378,7 +354,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;BRIGITTE&nbsp;CALLS&nbsp;ME&nbsp;BABY\" id=\"media2\" rel=\"lightbox\">",
+      "title": ":&nbsp;BRIGITTE&nbsp;CALLS&nbsp;ME&nbsp;BABY&nbsp;-&nbsp;Ausverkauft!\" id=\"media",
       "date": "2026-03-20",
       "time": "20:00",
       "location": "Molotow",
@@ -402,7 +378,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;THE&nbsp;TERRYS\" loading='lazy' rel=\"lightbox\">",
+      "title": ":&nbsp;THE&nbsp;TERRYS",
       "date": "2026-03-21",
       "time": "20:00",
       "location": "Molotow",
@@ -410,7 +386,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;THE&nbsp;TERRYS\" id=\"media2\" rel=\"lightbox\">",
+      "title": ":&nbsp;THE&nbsp;TERRYS",
       "date": "2026-03-21",
       "time": "20:00",
       "location": "Molotow",
@@ -426,7 +402,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;SHATTEN\" loading='lazy' rel=\"lightbox\">",
+      "title": ":&nbsp;SHATTEN",
       "date": "2026-03-21",
       "time": "20:00",
       "location": "Molotow",
@@ -570,7 +546,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;THE&nbsp;HAUNTED&nbsp;YOUTH",
+      "title": ":&nbsp;THE&nbsp;HAUNTED&nbsp;YOUTH&nbsp;-&nbsp;Ausverkauft!",
       "date": "2026-04-10",
       "time": "20:00",
       "location": "Molotow",
@@ -594,7 +570,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;RIKAS&nbsp;-&nbsp;Ausverkauft!\" loading='lazy' rel=\"lightbox\">",
+      "title": ":&nbsp;RIKAS&nbsp;-&nbsp;Ausverkauft\" loading='lazy' rel=\"lightbox\">",
       "date": "2026-04-12",
       "time": "20:00",
       "location": "Molotow",
@@ -650,7 +626,31 @@
       "source": "molotowclub.com"
     },
     {
-      "title": ":&nbsp;ANDA&nbsp;MORTS&nbsp;-&nbsp;Ausverkauft!\" loading='lazy' rel=\"lightbox\">",
+      "title": ":&nbsp;DAS&nbsp;LUMPENPACK&nbsp;-&nbsp;Ausverkauft\" loading='lazy' rel=\"lightbox",
+      "date": "2026-04-18",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": ":&nbsp;POST&nbsp;PUNK&nbsp;NIGHT&nbsp;VOL.&nbsp;2\" loading='lazy' rel=\"lightbox\"",
+      "date": "2026-04-18",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "live_music",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": ":&nbsp;POST&nbsp;PUNK&nbsp;NIGHT&nbsp;VOL.&nbsp;2\" id=\"media2\" rel=\"lightbox\">",
+      "date": "2026-04-18",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "live_music",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": ":&nbsp;ANDA&nbsp;MORTS&nbsp;-&nbsp;Ausverkauft\" loading='lazy' rel=\"lightbox\">",
       "date": "2026-04-19",
       "time": "20:00",
       "location": "Molotow",
@@ -764,6 +764,14 @@
     {
       "title": ":&nbsp;THE&nbsp;SOPHS\" id=\"media2\" rel=\"lightbox\">",
       "date": "2026-04-28",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": ":&nbsp;AYSANABEE\" loading='lazy' rel=\"lightbox\">",
+      "date": "2026-04-29",
       "time": "20:00",
       "location": "Molotow",
       "category": "event",
@@ -914,6 +922,22 @@
       "source": "molotowclub.com"
     },
     {
+      "title": ":&nbsp;JARED&nbsp;HART\" loading='lazy' rel=\"lightbox\">",
+      "date": "2026-06-09",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": ":&nbsp;JARED&nbsp;HART\" id=\"media2\" rel=\"lightbox\">",
+      "date": "2026-06-09",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
       "title": ":&nbsp;JORDANA\" loading='lazy' rel=\"lightbox\">",
       "date": "2026-06-12",
       "time": "20:00",
@@ -924,6 +948,14 @@
     {
       "title": ":&nbsp;JORDANA\" id=\"media2\" rel=\"lightbox\">",
       "date": "2026-06-12",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": ":&nbsp;ZEKE",
+      "date": "2026-06-17",
       "time": "20:00",
       "location": "Molotow",
       "category": "event",
@@ -994,8 +1026,16 @@
       "source": "molotowclub.com"
     },
     {
-      "title": "HINTERLANDGANG - Ausverkauft!",
-      "date": "2026-02-21",
+      "title": ":&nbsp;THE&nbsp;VEILS\" loading='lazy' rel=\"lightbox\">",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "RAR",
+      "date": "2026-03-01",
       "time": "20:00",
       "location": "Molotow",
       "category": "event",
@@ -1010,15 +1050,7 @@
       "source": "molotowclub.com"
     },
     {
-      "title": "EADES - Abgesagt!  '/>",
-      "date": "2026-03-06",
-      "time": "20:00",
-      "location": "Molotow",
-      "category": "event",
-      "source": "molotowclub.com"
-    },
-    {
-      "title": "NILS KEPPEL  '/>",
+      "title": "NILS KEPPEL",
       "date": "2026-03-07",
       "time": "20:00",
       "location": "Molotow",
@@ -1050,16 +1082,24 @@
       "source": "molotowclub.com"
     },
     {
-      "title": "THE TERRYS  '/>",
-      "date": "2026-03-21",
+      "title": "DREAM NAILS  '/>",
+      "date": "2026-03-10",
       "time": "20:00",
       "location": "Molotow",
       "category": "event",
       "source": "molotowclub.com"
     },
     {
-      "title": "SHATTEN  '/>",
-      "date": "2026-03-21",
+      "title": "THE HAUNT",
+      "date": "2026-03-12",
+      "time": "20:00",
+      "location": "Molotow",
+      "category": "event",
+      "source": "molotowclub.com"
+    },
+    {
+      "title": "UNSANE",
+      "date": "2026-03-13",
       "time": "20:00",
       "location": "Molotow",
       "category": "event",
@@ -1242,14 +1282,6 @@
       "source": "gruenspan.de"
     },
     {
-      "title": "), München (27.2.), Berlin (4.3.) und Hamburg (5.3.). Als Special Guest wird die",
-      "date": "2026-02-23",
-      "time": "20:00",
-      "location": "Gruenspan",
-      "category": "event",
-      "source": "gruenspan.de"
-    },
-    {
       "title": "und bildet das emotionale Zentrum: zwei Perspektiven, zwei Stimmen, ein gemeinsa",
       "date": "2026-03-06",
       "time": "20:00",
@@ -1391,30 +1423,6 @@
       "time": "20:00",
       "location": "Fabrik",
       "category": "event",
-      "source": "fabrik.de"
-    },
-    {
-      "title": "ClashGames #EIERKOPF-Show",
-      "date": "2026-02-21",
-      "time": "16:00",
-      "location": "Fabrik",
-      "category": "event",
-      "source": "fabrik.de"
-    },
-    {
-      "title": "Kensington Europe Tour 2026",
-      "date": "2026-02-23",
-      "time": "19:00",
-      "location": "Fabrik",
-      "category": "event",
-      "source": "fabrik.de"
-    },
-    {
-      "title": "Reisen Reisen - der Podcast Live 2026",
-      "date": "2026-02-24",
-      "time": "19:00",
-      "location": "Fabrik",
-      "category": "live_music",
       "source": "fabrik.de"
     },
     {
@@ -1826,6 +1834,14 @@
       "source": "fabrik.de"
     },
     {
+      "title": "Hamburgs Gro\\u00dfe \\u00dc40-Party",
+      "date": "2026-05-16",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "dj",
+      "source": "fabrik.de"
+    },
+    {
       "title": "16 Horsepower Tour 2026",
       "date": "2026-05-18",
       "time": "18:00",
@@ -1844,7 +1860,7 @@
     {
       "title": "Choir! Choir! Choir! We Will CHOIR! You: An EPIC Queen Sing-Along! ",
       "date": "2026-05-23",
-      "time": "18:00",
+      "time": "19:00",
       "location": "Fabrik",
       "category": "event",
       "source": "fabrik.de"
@@ -1887,6 +1903,14 @@
       "time": "18:00",
       "location": "Fabrik",
       "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Boomer Party Party-Mix: 70er - 90er",
+      "date": "2026-06-05",
+      "time": "17:00",
+      "location": "Fabrik",
+      "category": "dj",
       "source": "fabrik.de"
     },
     {
@@ -1940,6 +1964,14 @@
     {
       "title": "Oidorno Das war nicht sehr Oi, mein Freund!",
       "date": "2026-08-21",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "The Gardener & The Tree Sole Tour",
+      "date": "2026-09-03",
       "time": "18:00",
       "location": "Fabrik",
       "category": "event",
@@ -2071,6 +2103,14 @@
       "time": "15:00",
       "location": "Fabrik",
       "category": "live_music",
+      "source": "fabrik.de"
+    },
+    {
+      "title": "Eagles of Death Metal Celebrating 20 Years of \\u201eDeath by Sexy\\u2026\\u201c Europe & UK Tour",
+      "date": "2026-11-10",
+      "time": "18:00",
+      "location": "Fabrik",
+      "category": "event",
       "source": "fabrik.de"
     },
     {
