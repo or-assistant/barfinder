@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T03:00:37.209Z",
+  "lastUpdated": "2026-02-28T08:35:11.091Z",
   "sources": [
     {
       "source": "szene-hamburg-bars",
@@ -49,7 +49,7 @@
           "image": "https://szene-hamburg.com/wp-content/uploads/2016/05/Daniel-Bar-Sternschanze-Hamburg-375x211.jpg"
         }
       ],
-      "scrapedAt": "2026-02-25T03:00:30.305Z"
+      "scrapedAt": "2026-02-28T08:35:01.589Z"
     },
     {
       "source": "szene-hamburg-nachtleben",
@@ -171,7 +171,7 @@
           "image": "https://szene-hamburg.com/wp-content/uploads/2020/05/molotow-leer-corona-375x211.jpg"
         }
       ],
-      "scrapedAt": "2026-02-25T03:00:32.802Z"
+      "scrapedAt": "2026-02-28T08:35:04.784Z"
     },
     {
       "source": "hamburg-de-veranstaltungen",
@@ -180,24 +180,24 @@
       "items": [
         {
           "title": "Erlebnisse in der Hansestadt",
-          "url": "https://www.hamburg.de/freizeit/jahreszeiten/winter",
+          "url": "https://www.hamburg.de/freizeit/jahreszeiten/fruehling/ostertipps-termine-305558",
           "date": null,
           "location": null,
-          "description": "Winterausflüge, Teestuben besuchen & mehr – in Hamburg gibt es in der kalten Jahreszeit viele tolle Möglichkeiten, um den Winter so richtig zu genießen."
+          "description": "Zum Beginn der wärmeren Jahreszeit bringen die Märkte mit Blumen, Kunsthandwerk und Osterdekoration den Frühling nach Hamburg. Hier finden Sie eine Übersicht von Oster- und Frühlingsmärkten in der Hansestadt."
         },
         {
-          "title": "Tipps für die Wintermonate",
-          "url": "https://www.hamburg.de/freizeit/jahreszeiten/winter",
+          "title": "Oster- und Frühlingsmärkte 2026",
+          "url": "https://www.hamburg.de/freizeit/jahreszeiten/fruehling/ostertipps-termine-305558",
           "date": null,
           "location": null,
-          "description": "Winterausflüge, Teestuben besuchen & mehr – in Hamburg gibt es in der kalten Jahreszeit viele tolle Möglichkeiten, um den Winter so richtig zu genießen."
+          "description": "Zum Beginn der wärmeren Jahreszeit bringen die Märkte mit Blumen, Kunsthandwerk und Osterdekoration den Frühling nach Hamburg. Hier finden Sie eine Übersicht von Oster- und Frühlingsmärkten in der Hansestadt."
         },
         {
-          "title": "Indoor-Aktivitäten in Hamburg",
-          "url": "https://www.hamburg.de/freizeit/aktivitaeten/indoor/uebersicht-304710",
+          "title": "Endlich frei!",
+          "url": "https://www.hamburg.de/freizeit/kinder/ferien-308904",
           "date": null,
           "location": null,
-          "description": "Ob Trampolinspringen, große Indoor-Spielplätze oder Lasertag – hier finden Sie Tipps für Indoor-Aktivitäten für Kinder und Erwachsene in Hamburg in der Übersicht."
+          "description": "Basteln, Mitmach-Aktionen, Cool-Japan Fest, Ausflüge und mehr: Hier finden Sie Tipps für die Frühjahrsferien 2026 in Hamburg."
         },
         {
           "title": "Hamburg CARD",
@@ -228,7 +228,7 @@
           "description": "Erleben Sie die Fortsetzung der Harry-Potter-Saga noch bis Sommer 2026 als Live-Erlebnis im Theater am Großmarkt!"
         }
       ],
-      "scrapedAt": "2026-02-25T03:00:34.685Z"
+      "scrapedAt": "2026-02-28T08:35:06.678Z"
     },
     {
       "source": "hamburg-de-nightlife",
@@ -350,7 +350,7 @@
           "image": "https://szene-hamburg.com/wp-content/uploads/2021/04/soli-merch1-c-johanna-zobel-375x211.jpg"
         }
       ],
-      "scrapedAt": "2026-02-25T03:00:35.987Z"
+      "scrapedAt": "2026-02-28T08:35:09.626Z"
     }
   ]
 }

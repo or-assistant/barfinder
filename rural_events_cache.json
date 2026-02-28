@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-02-25T03:04:56.395Z",
-  "count": 31,
+  "scraped_at": "2026-02-28T03:05:17.820Z",
+  "count": 30,
   "events": [
     {
       "title": "Veranstaltung",
@@ -8,46 +8,6 @@
       "time": "Beginn",
       "venue": "Ort",
       "description": "Veranstalter: Veranstalter",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Chorprobe",
-      "date": "2026-02-26",
-      "time": "19:30",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Chor Lentföhrden",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Treff in geselliger Runde",
-      "date": "2026-02-26",
-      "time": "14:00",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Seniorenclub",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Erste Hilfe Kurs FF Lentföhrden",
-      "date": "2026-02-28",
-      "time": "08:00",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Feuerwehr Lentföhrden",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Karateprüfung Vorbereitung",
-      "date": "2026-02-28",
-      "time": "10:00",
-      "venue": "Sporthalle",
-      "description": "Veranstalter: TSV Lentföhrden",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"
@@ -63,14 +23,44 @@
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Ü40 @ Wolters Gasthof",
-      "date": "2026-02-14",
+      "title": "private Veranstaltung",
+      "date": "2026-03-01",
+      "time": "11:00",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: privat",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Gemeindevertretung",
+      "date": "2026-03-03",
       "time": "20:00",
-      "venue": "Wolters Gasthof, Weddelbrook",
-      "description": "14.02.2026 Ü40",
-      "source": "wolters-gasthof",
-      "type": "party",
-      "url": "https://woltersgasthof.eatbu.com"
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Gemeinde Lentföhrden",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Chor Probe",
+      "date": "2026-03-04",
+      "time": "19:30",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Chorgruppe Lentföhrden",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Info Veranstaltung Ehrentag - Vereinsmesse | KWV",
+      "date": "2026-03-04",
+      "time": "20:00",
+      "venue": "Sportlerheim",
+      "description": "Veranstalter: KWV Lentföhrden",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
     },
     {
       "title": "live @ Wolters Gasthof",
@@ -84,22 +74,22 @@
     },
     {
       "title": "Disco @ Wolters Gasthof",
-      "date": "2026-02-14",
+      "date": "2026-03-21",
       "time": "20:00",
       "venue": "Wolters Gasthof, Weddelbrook",
-      "description": "Disco: 14. Februar u 30 u 40 var config = config || {}; config.websiteOpenStatus = config.websiteOpenStatus || {}; config.websiteOpenStatus.ajaxUrl = \"https://website.dish.co/website/openStatus?establishmentId=1021737&lang=de\"; Reservieren Sie einen Tisch Wolters Gasthof am Mönchsweg in Weddelbrook Unsere rustikale deutsche K&uuml;che wird Sie mit besonders authentischen und traditionellen Gerichten verw&ouml;hnen.&nbsp; &ndash; da ist f&uuml;r jeden etwas dabei. F&uuml;r alle Food-Blogger: Fotomachen und direkt auf Instagram teilen &ndash; kein Problem, wir haben kostenloses WLAN. F&uuml;r Raucher haben wir einen zus&auml;tzlichen Bereich eingerichtet im Biergarten mit Glasdach Unsere zwei Ferienwohnung f&uuml;r 80&euro; (oben)/ 90&euro; (unten) die Nacht liegen direkt im gr&uuml;nen neben dem Gasthof und verf&uuml;gen &uuml;ber freies WLAN, freie Parkpl&auml;tze, voll ausgestattete K&uuml;chen, Bettw&auml;sche und Handt&uuml;cher vor Ort! Vor dem Restaurant finden Sie gratis Parkpl&auml;tze f&uuml;r unsere G&auml;ste. Uns ist es wichtig, dass wir alle Menschen willkommen hei&szlig;en k&ouml;nnen. Daher haben wir einen barrierefreien Zugang. Ihre Haustiere sind bei uns willkommen! Reservieren Sie noch heute einen Tisch bei uns und genie&szlig;en Sie Ihren Aufenthalt mit Essen in unseren stilvollen R&auml;umlichkeiten. Es war noch nie leichter: Nutzen Sie unsere Online-Reservierung und bestellen Sie ganz leicht einen Tisch. Aber auch ein Anruf unter +4941921412 ist m&ouml;glich. Als Zahlungsm&ouml;glichkeiten akzeptieren wir VISA, MasterCard ,&nbsp; kontaktloses Bezahlen und EC-Karten. Au&szlig;erdem besteht die M&ouml;glichkeit der Barzahlung. Wenn Sie unsere Speisen gerne zu Hause genie&szlig;en wollen, k&ouml;nnen Sie sie auch zum Mitnehmen bei uns bestellen. Steht bei Ihnen ein Ereignis an, das Sie gerne in gr&ouml;&szlig;erer Gesellschaft begehen m&ouml;gen?&nbsp; wir freuen uns auf Sie. Wir bieten unsere R&auml;ume auch gerne f&uuml;r Hochzeiten oder andere Gro&szlig;veranstaltungen an. Melden Sie sich bei uns, wir helfen Ihnen, diesen ganz besonderen Tag nach Ihren W&uuml;nschen zu gestalten. Montag und Dienstag sind bei uns Ruhetage. An allen anderen Tagen bedienen wir Sie gerne. Galerie Einblicke in Wolters Gasthof Wolters Gasthof von 1787 Glückstädter Str.3 24576 Weddelbrook Gastliches Haus 2017 Sonnige Stunden im Biergarten Leckeres Kalt- Warmes Büffet auf dem Saal oder auf der Diele Dorfdiscoo in Weddelbrook Galerie öffnen Einblicke in Wolters Gasthof Wolters Gasthof von 1787 Glückstädter Str.3 24576 Weddelbrook Gastliches Haus 2017 Sonnige Stunden im Biergarten Leckeres Kalt- Warmes Büffet auf dem Saal oder auf der Diele Dorfdiscoo in Weddelbrook Biergarten am späten Abend Anti- Pasti Buffett Immer schick am runden Tisch. Auf Wunsch mit Hussen. Zur Weihnachtszeit lecker Rotkohl mit Entenkeule Biergarten am Tag Die rustikale Diele mit dem Dielentor von 1787 Toll dekoriert zur grünen Hochzeit Die Saalfeier gerne auch zum Festpreis. Büffets oder Menue- das entscheiden Sie Schicke Hochzeitsdeko Die bekannten Ü Partys bis 500 Personen haben Spaß! Kalt Warmes oder Menue für die kleine oder große Gesellschaft. Die \" neue\" Gaststube nach dem Brand. Kartenspielen oder Bierchen an der Theke. Wechselnde Motto-Themen, ob Ü 16 oder Ü 18 oder Ü 25 Partys, der Mix macht es ! Freundliche Bedienung haben wir auch! Unser Saal für Ihre Feiern bei uns Party ob ü 40 ü20 oder ü16, der Mix macht es ! Kalt- Warmes Buffet zur Hochzeit Hochzeitsbüffet Villa Wolf Grauburgunder Uns Appleboom So feiern Brasilianer Gemütlichkeit auch an der Theke mit der alten Gaststube! var config = config || {}; config.websiteGallery = config.websiteGallery || {}; config.websiteGallery.mediaNumber = 52; Á la carte, Biergarten und Buffets - bei uns ist für jeden etwas dabei! Á la carte, Biergarten und Buffets - bei uns ist für jeden etwas dabei! var config = config || {}; config.websiteGallery = config.websiteGallery || {}; config.websiteGallery.mediaNumber = 1; Speisekarte Galerie öffnen Speisekarte var config = config || {}; config.websiteGallery = config.websiteGallery || {}; config.websiteGallery.mediaNumber = 12; Unseren Gutschein verwenden Gutscheine von Wolters Gasthof Das perfekte Geschenk zu jedem feierlichen Anlass! per PayPal &uuml;ber Heiner.wolters@t-online.de oder ganz klassisch vor Ort &uuml;ber Karte oder mit Bargeld var config = config || {}; config.websiteVouchers = config.websiteVouchers || {}; config.websiteVouchers.readMore = '… mehr anzeigen'; config.websiteVouchers.readLess = '… weniger anzeigen'; Unser Event besuchen 14.02.2026",
+      "description": "Disco: 21. März 80er 90er var config = config || {}; config.websiteOpenStatus = config.websiteOpenStatus || {}; config.websiteOpenStatus.ajaxUrl = \"https://website.dish.co/website/openStatus?establishmentId=1021737&lang=de\"; Reservieren Sie einen Tisch Wolters Gasthof am Mönchsweg in Weddelbrook Unsere rustikale deutsche K&uuml;che wird Sie mit besonders authentischen und traditionellen Gerichten verw&ouml;hnen.&nbsp; &ndash; da ist f&uuml;r jeden etwas dabei. F&uuml;r alle Food-Blogger: Fotomachen und direkt auf Instagram teilen &ndash; kein Problem, wir haben kostenloses WLAN. F&uuml;r Raucher haben wir einen zus&auml;tzlichen Bereich eingerichtet im Biergarten mit Glasdach Unsere zwei Ferienwohnung f&uuml;r 80&euro; (oben)/ 90&euro; (unten) die Nacht liegen direkt im gr&uuml;nen neben dem Gasthof und verf&uuml;gen &uuml;ber freies WLAN, freie Parkpl&auml;tze, voll ausgestattete K&uuml;chen, Bettw&auml;sche und Handt&uuml;cher vor Ort! Vor dem Restaurant finden Sie gratis Parkpl&auml;tze f&uuml;r unsere G&auml;ste. Uns ist es wichtig, dass wir alle Menschen willkommen hei&szlig;en k&ouml;nnen. Daher haben wir einen barrierefreien Zugang. Ihre Haustiere sind bei uns willkommen! Reservieren Sie noch heute einen Tisch bei uns und genie&szlig;en Sie Ihren Aufenthalt mit Essen in unseren stilvollen R&auml;umlichkeiten. Es war noch nie leichter: Nutzen Sie unsere Online-Reservierung und bestellen Sie ganz leicht einen Tisch. Aber auch ein Anruf unter +4941921412 ist m&ouml;glich. Als Zahlungsm&ouml;glichkeiten akzeptieren wir VISA, MasterCard ,&nbsp; kontaktloses Bezahlen und EC-Karten. Au&szlig;erdem besteht die M&ouml;glichkeit der Barzahlung. Wenn Sie unsere Speisen gerne zu Hause genie&szlig;en wollen, k&ouml;nnen Sie sie auch zum Mitnehmen bei uns bestellen. Steht bei Ihnen ein Ereignis an, das Sie gerne in gr&ouml;&szlig;erer Gesellschaft begehen m&ouml;gen?&nbsp; wir freuen uns auf Sie. Wir bieten unsere R&auml;ume auch gerne f&uuml;r Hochzeiten oder andere Gro&szlig;veranstaltungen an. Melden Sie sich bei uns, wir helfen Ihnen, diesen ganz besonderen Tag nach Ihren W&uuml;nschen zu gestalten. Montag und Dienstag sind bei uns Ruhetage. An allen anderen Tagen bedienen wir Sie gerne. Galerie Einblicke in Wolters Gasthof Wolters Gasthof von 1787 Glückstädter Str.3 24576 Weddelbrook Gastliches Haus 2017 Sonnige Stunden im Biergarten Leckeres Kalt- Warmes Büffet auf dem Saal oder auf der Diele Dorfdiscoo in Weddelbrook Galerie öffnen Einblicke in Wolters Gasthof Wolters Gasthof von 1787 Glückstädter Str.3 24576 Weddelbrook Gastliches Haus 2017 Sonnige Stunden im Biergarten Leckeres Kalt- Warmes Büffet auf dem Saal oder auf der Diele Dorfdiscoo in Weddelbrook Biergarten am späten Abend Anti- Pasti Buffett Immer schick am runden Tisch. Auf Wunsch mit Hussen. Zur Weihnachtszeit lecker Rotkohl mit Entenkeule Biergarten am Tag Die rustikale Diele mit dem Dielentor von 1787 Toll dekoriert zur grünen Hochzeit Die Saalfeier gerne auch zum Festpreis. Büffets oder Menue- das entscheiden Sie Schicke Hochzeitsdeko Die bekannten Ü Partys bis 500 Personen haben Spaß! Kalt Warmes oder Menue für die kleine oder große Gesellschaft. Die \" neue\" Gaststube nach dem Brand. Kartenspielen oder Bierchen an der Theke. Wechselnde Motto-Themen, ob Ü 16 oder Ü 18 oder Ü 25 Partys, der Mix macht es ! Freundliche Bedienung haben wir auch! Unser Saal für Ihre Feiern bei uns Party ob ü 40 ü20 oder ü16, der Mix macht es ! Kalt- Warmes Buffet zur Hochzeit Hochzeitsbüffet Villa Wolf Grauburgunder Uns Appleboom So feiern Brasilianer Gemütlichkeit auch an der Theke mit der alten Gaststube! var config = config || {}; config.websiteGallery = config.websiteGallery || {}; config.websiteGallery.mediaNumber = 52; Á la carte, Biergarten und Buffets - bei uns ist für jeden etwas dabei! Á la carte, Biergarten und Buffets - bei uns ist für jeden etwas dabei! var config = config || {}; config.websiteGallery = config.websiteGallery || {}; config.websiteGallery.mediaNumber = 1; Speisekarte Galerie öffnen Speisekarte var config = config || {}; config.websiteGallery = config.websiteGallery || {}; config.websiteGallery.mediaNumber = 12; Unseren Gutschein verwenden Gutscheine von Wolters Gasthof Das perfekte Geschenk zu jedem feierlichen Anlass! per PayPal &uuml;ber Heiner.wolters@t-online.de oder ganz klassisch vor Ort &uuml;ber Karte oder mit Bargeld var config = config || {}; config.websiteVouchers = config.websiteVouchers || {}; config.websiteVouchers.readMore = '… mehr anzeigen'; config.websiteVouchers.readLess = '… weniger anzeigen'; Unser Event besuchen nächste Disco 21.03.2026",
       "source": "wolters-gasthof",
       "type": "party",
       "url": "https://woltersgasthof.eatbu.com"
     },
     {
-      "title": "Ü40 @ Wolters Gasthof",
+      "title": "Theater @ Wolters Gasthof",
       "date": "2026-02-21",
       "time": "20:00",
       "venue": "Wolters Gasthof, Weddelbrook",
-      "description": "Ü40 Eintritt bis 22 Uhr - 5&euro; Unser Event besuchen Großer Biergarten ### Unser Event besuchen Theaterzeit in Weddelbrook! Plattdeutsches Theater 21.02.",
+      "description": "Theaterzeit in Weddelbrook! Plattdeutsches Theater 21.02.",
       "source": "wolters-gasthof",
-      "type": "party",
+      "type": "culture",
       "url": "https://woltersgasthof.eatbu.com"
     },
     {

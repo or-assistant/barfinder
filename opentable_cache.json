@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-02-25T03:04:52.674Z",
+  "lastUpdated": "2026-02-28T03:05:12.821Z",
   "source": "opentable.de",
   "restaurants": [
+    {
+      "name": "Nil",
+      "rating": null,
+      "reviewCount": 422,
+      "cuisine": "Aus aller Welt",
+      "priceRange": "€€€€",
+      "neighborhood": "St. Pauli",
+      "popularity": 7,
+      "isSponsored": false,
+      "url": "https://www.opentable.de/r/nil-hamburg",
+      "source": "opentable"
+    },
     {
       "name": "THE LISBETH",
       "rating": null,
@@ -10,20 +22,44 @@
       "priceRange": "€€€€",
       "neighborhood": "Altstadt",
       "popularity": 2,
-      "isSponsored": true,
+      "isSponsored": false,
       "url": "https://www.opentable.de/r/the-lisbeth-hamburg",
       "source": "opentable"
     },
     {
-      "name": "Nil",
+      "name": "Petit Amour, Spritzenplatz, Hamburg, Deutschland",
       "rating": null,
-      "reviewCount": 421,
-      "cuisine": "Aus aller Welt",
+      "reviewCount": 52,
+      "cuisine": "International",
       "priceRange": "€€€€",
-      "neighborhood": "St. Pauli",
-      "popularity": 11,
+      "neighborhood": "Ottensen",
+      "popularity": null,
       "isSponsored": false,
-      "url": "https://www.opentable.de/r/nil-hamburg",
+      "url": "https://www.opentable.de/r/petit-amour-spritzenplatz-hamburg-deutschland-hamburg",
+      "source": "opentable"
+    },
+    {
+      "name": "Atlantic Restaurant",
+      "rating": null,
+      "reviewCount": 48,
+      "cuisine": "Französisch",
+      "priceRange": "€€€€",
+      "neighborhood": "St Georg",
+      "popularity": null,
+      "isSponsored": true,
+      "url": "https://www.opentable.de/r/atlantic-restaurant-hamburg",
+      "source": "opentable"
+    },
+    {
+      "name": "Koer Kulinarik & Bar",
+      "rating": null,
+      "reviewCount": 112,
+      "cuisine": "Marktküche",
+      "priceRange": "€€€€",
+      "neighborhood": "Winterhude",
+      "popularity": 3,
+      "isSponsored": false,
+      "url": "https://www.opentable.de/r/koer-kulinarik-and-bar-hamburg",
       "source": "opentable"
     },
     {
@@ -39,27 +75,15 @@
       "source": "opentable"
     },
     {
-      "name": "Petit Amour, Spritzenplatz, Hamburg, Deutschland",
+      "name": "Haebel",
       "rating": null,
-      "reviewCount": 52,
-      "cuisine": "International",
+      "reviewCount": 257,
+      "cuisine": "Moderne französische Küche",
       "priceRange": "€€€€",
-      "neighborhood": "Ottensen",
-      "popularity": 2,
-      "isSponsored": false,
-      "url": "https://www.opentable.de/r/petit-amour-spritzenplatz-hamburg-deutschland-hamburg",
-      "source": "opentable"
-    },
-    {
-      "name": "Atlantic Restaurant",
-      "rating": null,
-      "reviewCount": 48,
-      "cuisine": "Französisch",
-      "priceRange": "€€€€",
-      "neighborhood": "St Georg",
-      "popularity": 2,
+      "neighborhood": "St. Pauli",
+      "popularity": 3,
       "isSponsored": true,
-      "url": "https://www.opentable.de/r/atlantic-restaurant-hamburg",
+      "url": "https://www.opentable.de/r/haebel-hamburg",
       "source": "opentable"
     },
     {
@@ -72,30 +96,6 @@
       "popularity": null,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/piment-wahabi-nouri-hamburg",
-      "source": "opentable"
-    },
-    {
-      "name": "Haebel",
-      "rating": null,
-      "reviewCount": 257,
-      "cuisine": "Moderne französische Küche",
-      "priceRange": "€€€€",
-      "neighborhood": "St. Pauli",
-      "popularity": 4,
-      "isSponsored": true,
-      "url": "https://www.opentable.de/r/haebel-hamburg",
-      "source": "opentable"
-    },
-    {
-      "name": "Koer Kulinarik & Bar",
-      "rating": null,
-      "reviewCount": 112,
-      "cuisine": "Marktküche",
-      "priceRange": "€€€€",
-      "neighborhood": "Winterhude",
-      "popularity": 4,
-      "isSponsored": false,
-      "url": "https://www.opentable.de/r/koer-kulinarik-and-bar-hamburg",
       "source": "opentable"
     },
     {
@@ -117,7 +117,7 @@
       "cuisine": "International",
       "priceRange": "€€€€",
       "neighborhood": "Neustadt",
-      "popularity": 2,
+      "popularity": 4,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/restaurant-haerlin-hamburg",
       "source": "opentable"

@@ -1,33 +1,24 @@
 [
   {
-    "title": "Meet Internationals and Locals | Social Melting Pot HAMBURG",
-    "date": "2026-02-25",
-    "time": "7:00 PM",
-    "venue": "Social Melting Pot - Hamburg | Cultural & Language exchange",
-    "url": "https://www.meetup.com/social-melting-pot-hamburg-cultural-and-language-exchange/events/312986103/",
+    "title": "Language Exchange Night 🇬🇧🇩🇪🇪🇸",
+    "date": "2026-02-28",
+    "time": "6:30 PM",
+    "venue": "Neue Leute kennenlernen / Meet New People",
+    "url": "https://www.meetup.com/meetup-group-ylmalxpv/events/312620714/",
     "source": "meetup.com",
     "type": "social"
   },
   {
-    "title": "1 seat leftRestauranttasting | Women's Network Circle",
-    "date": "2026-02-25",
-    "time": "6:30 PM",
-    "venue": "W:CIRCLE - Women's Circle Hamburg",
-    "url": "https://www.meetup.com/womenscirclehamburg/events/313020244/",
-    "source": "meetup.com",
-    "type": "tasting"
-  },
-  {
-    "title": "build fridays - work on your startup alongside other founders (bring laptop)",
-    "date": "2026-02-27",
-    "time": "4:00 PM",
-    "venue": "AI BEAVERS",
-    "url": "https://www.meetup.com/ai-beavers/events/312769562/",
-    "source": "meetup.com",
+    "title": "Craft Biertour Hamburg",
+    "date": "2026-02-28",
+    "time": "14:00",
+    "venue": "Hamburg",
+    "url": "https://prinz.de/hamburg/events/craft-biertour-hamburg-ueberquell-restaurant-brauerei/2026-02-28/",
+    "source": "prinz.de",
     "type": "networking"
   },
   {
-    "title": "6 seats leftRust Hack & Learn March 2026",
+    "title": "Rust Hack & Learn March 2026",
     "date": "2026-03-04",
     "time": "6:00 PM",
     "venue": "Rust Meetup Hamburg",
@@ -36,11 +27,38 @@
     "type": "networking"
   },
   {
+    "title": "3 seats leftMeet Internationals and Locals | Social Melting Pot HAMBURG",
+    "date": "2026-03-04",
+    "time": "7:00 PM",
+    "venue": "Social Melting Pot - Hamburg | Cultural & Language exchange",
+    "url": "https://www.meetup.com/social-melting-pot-hamburg-cultural-and-language-exchange/events/313308235/",
+    "source": "meetup.com",
+    "type": "social"
+  },
+  {
+    "title": "Special FRIDAY Edition in Hamburg✨ - Social Melting Pot 🌍",
+    "date": "2026-03-06",
+    "time": "7:00 PM",
+    "venue": "Social Melting Pot - Hamburg | Cultural & Language exchange",
+    "url": "https://www.meetup.com/social-melting-pot-hamburg-cultural-and-language-exchange/events/313341166/",
+    "source": "meetup.com",
+    "type": "social"
+  },
+  {
     "title": "Bee for Breakfast im Beehive Hamburg City",
     "date": "2026-03-10",
     "time": "9:30 AM",
     "venue": "Beehive Networking Meetup Hamburg",
     "url": "https://www.meetup.com/meetup-group-chfcpdue/events/313095557/",
+    "source": "meetup.com",
+    "type": "networking"
+  },
+  {
+    "title": "Agentic Conf Hamburg - A Full Day Conference in March",
+    "date": "2026-03-22",
+    "time": "9:00 AM",
+    "venue": "Agentic Coding Meetup Hamburg",
+    "url": "https://www.meetup.com/agentic-coding-meetup-hamburg/events/313186589/",
     "source": "meetup.com",
     "type": "networking"
   }

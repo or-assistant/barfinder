@@ -37,7 +37,15 @@
     "reviewSnippet": "Looks like a really cool bar, and it was really crowded after 9. I love highball here, basil and New...",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 68
+    "reviewCount": 67
+  },
+  {
+    "name": "Frau Möller",
+    "rating": 4,
+    "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
+    "source": "yelp",
+    "searchCategory": "bars",
+    "reviewCount": 275
   },
   {
     "name": "Paddy’s Bar",
@@ -46,14 +54,6 @@
     "source": "yelp",
     "searchCategory": "bars",
     "reviewCount": 16
-  },
-  {
-    "name": "Daniel’s Company",
-    "rating": 4.8,
-    "reviewSnippet": "War Samstag wieder eine super Party Stimmung im Daniels und tolle Gäste.. Dj Noak u. so gar der Cult Dj legte mahl wieser auf .TOLLER ABEND",
-    "source": "yelp",
-    "searchCategory": "bars",
-    "reviewCount": 5
   },
   {
     "name": "Le Lion",
@@ -88,20 +88,20 @@
     "reviewCount": 19
   },
   {
-    "name": "Frau Möller",
-    "rating": 4,
-    "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
-    "source": "yelp",
-    "searchCategory": "bars",
-    "reviewCount": 275
-  },
-  {
     "name": "Oyster Bar",
     "rating": 5,
     "reviewSnippet": "Der Bringer, der absolute Bringer in Familie Kowalkes Restaurant-Reich ist die winzige charmante Oyster Bar. Hinter dem kleinen Tresen dieser wie aus…",
     "source": "yelp",
     "searchCategory": "bars",
     "reviewCount": 1
+  },
+  {
+    "name": "Klimperkiste",
+    "rating": 4.3,
+    "reviewSnippet": "A cozy little bar, mixed with tourists and locals. Nice staff, very reasonable prices.",
+    "source": "yelp",
+    "searchCategory": "bars",
+    "reviewCount": 116
   },
   {
     "name": "Meyer Lansky’s",
@@ -120,12 +120,12 @@
     "reviewCount": 30
   },
   {
-    "name": "The Old Dubliner - Irish Pub",
-    "rating": 4.3,
-    "reviewSnippet": "A well run pub with an Irish theme. live music. one of the better bars in Harburg.",
+    "name": "Ilohh Bar",
+    "rating": 4.9,
+    "reviewSnippet": "Geil, eine echt nice Bar, die den Zusatz",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 48
+    "reviewCount": 16
   },
   {
     "name": "Tower Bar",
@@ -160,25 +160,17 @@
     "reviewCount": 4
   },
   {
-    "name": "Rosi’s Bar",
-    "rating": 4.2,
-    "reviewSnippet": "Love this place, always go when I'm in Hamburg. Good music, laid-back feel and cold beer (Astra...",
+    "name": "Zum Silbersack",
+    "rating": 4.3,
+    "reviewSnippet": "This is a trad German pub just off the Reeperbahn. Well worth checking out to see the crowd of...",
     "source": "yelp",
     "searchCategory": "kneipen",
-    "reviewCount": 40
+    "reviewCount": 84
   },
   {
     "name": "Gaststätte Knobel-Eck",
     "rating": 2,
     "reviewSnippet": "Die Gaststätte",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 2
-  },
-  {
-    "name": "Zur gemütlichen Ecke",
-    "rating": 4,
-    "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
     "source": "yelp",
     "searchCategory": "kneipen",
     "reviewCount": 2
@@ -192,9 +184,17 @@
     "reviewCount": 22
   },
   {
-    "name": "Die Schmiede",
+    "name": "Zur gemütlichen Ecke",
     "rating": 4,
-    "reviewSnippet": "Die Schmiede ist eine kleine gemütliche Bierkneipe in der Lämmertwiete, der Gastro-Meile von Harburg. Sie existiert jetzt schon seit rund 32 Jahren…",
+    "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 2
+  },
+  {
+    "name": "Dorotheen Eck",
+    "rating": 4.1,
+    "reviewSnippet": "Das",
     "source": "yelp",
     "searchCategory": "kneipen",
     "reviewCount": 11
@@ -234,10 +234,18 @@
   {
     "name": "Kleinhuis´ Bistro & Weinhandel",
     "rating": 4.9,
-    "reviewSnippet": "Hotel Baseler Hof, Neustadt€€Closed until 11:30 AM",
+    "reviewSnippet": "Hotel Baseler Hof, Neustadt€€Closed today",
     "source": "yelp",
     "searchCategory": "wine",
     "reviewCount": 7
+  },
+  {
+    "name": "Moet & Chandon Bar",
+    "rating": 4.2,
+    "reviewSnippet": "Hach. Die",
+    "source": "yelp",
+    "searchCategory": "wine",
+    "reviewCount": 5
   },
   {
     "name": "Weinladen",
@@ -246,14 +254,6 @@
     "source": "yelp",
     "searchCategory": "wine",
     "reviewCount": 11
-  },
-  {
-    "name": "Moet & Chandon Bar",
-    "rating": 4.2,
-    "reviewSnippet": "Alsterhaus, Neustadt€€€Closed until 10:00 AM",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 5
   },
   {
     "name": "Südhang",
@@ -270,6 +270,14 @@
     "source": "yelp",
     "searchCategory": "wine",
     "reviewCount": 24
+  },
+  {
+    "name": "Ufer",
+    "rating": 4.3,
+    "reviewSnippet": "Now it's a great wine bar with awesome service. The main guy working here comes from the Four...",
+    "source": "yelp",
+    "searchCategory": "wine",
+    "reviewCount": 73
   },
   {
     "name": "Weinbar Vineyard",
@@ -296,14 +304,6 @@
     "reviewCount": 5
   },
   {
-    "name": "Il Garage",
-    "rating": 4.5,
-    "reviewSnippet": "Wie, ist bin der erste?! Tolle Weinbar im schicken Ottensen. Hier gibt es tolle Weine im offenen Ausschank. Das Angebot wechselt oft und es gibt auch…",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 2
-  },
-  {
     "name": "Irish Pub in the Fleetenkieker",
     "rating": 3.9,
     "reviewSnippet": "My uncle wanted to show me one of his favorite pubs so I was excited. Unfortunately the experience...",
@@ -312,36 +312,12 @@
     "reviewCount": 24
   },
   {
-    "name": "Roschinsky’s",
-    "rating": 4.1,
-    "reviewSnippet": "Boys and girls if you like rock music and if you are looking for one of the best rocking pubs in...",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 59
-  },
-  {
-    "name": "Klimperkiste",
+    "name": "The Old Dubliner - Irish Pub",
     "rating": 4.3,
-    "reviewSnippet": "A great, quirky, little pub hiding in the same street as Hofbrau and opposite the big casino.",
+    "reviewSnippet": "A real Dublin pub has to have a washroom like that. Thank you for the great ales.",
     "source": "yelp",
     "searchCategory": "pubs",
-    "reviewCount": 116
-  },
-  {
-    "name": "Murphy’s",
-    "rating": 4.1,
-    "reviewSnippet": "Pretty expensive Irish pub just south of the Reeperbahn. EUR4.50 for a pint of Murphy's Red.",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 18
-  },
-  {
-    "name": "Skorbut",
-    "rating": 5,
-    "reviewSnippet": "Das Skorbut ist Anfang Oktober 2009 auf die Südseite der Reeperbahn (neben den ehemaligen Beatclub) gezogen und bereits nach einer Woche sah der Club…",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 7
+    "reviewCount": 48
   },
   {
     "name": "Zum Tanzenden Einhorn",
@@ -352,11 +328,35 @@
     "reviewCount": 47
   },
   {
+    "name": "Skorbut",
+    "rating": 5,
+    "reviewSnippet": "Das Skorbut ist Anfang Oktober 2009 auf die Südseite der Reeperbahn (neben den ehemaligen Beatclub) gezogen und bereits nach einer Woche sah der Club…",
+    "source": "yelp",
+    "searchCategory": "pubs",
+    "reviewCount": 7
+  },
+  {
+    "name": "Murphy’s",
+    "rating": 4.1,
+    "reviewSnippet": "Pretty expensive Irish pub just south of the Reeperbahn. EUR4.50 for a pint of Murphy's Red.",
+    "source": "yelp",
+    "searchCategory": "pubs",
+    "reviewCount": 18
+  },
+  {
     "name": "Irish Rover",
     "rating": 4.1,
     "reviewSnippet": "Great pub and delicious food. Had grilled brandy chicken with yummy creamy mushroom sauce.",
     "source": "yelp",
     "searchCategory": "pubs",
     "reviewCount": 80
+  },
+  {
+    "name": "Kuddl",
+    "rating": 4.5,
+    "reviewSnippet": "Pleasantly surprised by this place! It's a very very nice pub. We always love to go here.",
+    "source": "yelp",
+    "searchCategory": "pubs",
+    "reviewCount": 14
   }
 ]

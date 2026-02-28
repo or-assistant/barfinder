@@ -36,19 +36,19 @@
     "type": "afterwork"
   },
   {
-    "title": "Hamburgs großes Speed Dating Event",
-    "date": "2026-02-28",
-    "time": "17:00",
-    "venue": "Hamburg · Hamburg",
+    "title": "Info Workshop & Afterwork - Kapitalanlage leicht erklärt",
+    "date": "2026-03-19",
+    "time": "19:00",
+    "venue": "Hamburg · Maison16",
     "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
     "source": "eventbrite",
     "type": "afterwork"
   },
   {
-    "title": "Maker Challenge Meetup",
-    "date": "2026-02-26",
+    "title": "Hamburgs großes Speed Dating Event",
+    "date": "2026-02-28",
     "time": "17:00",
-    "venue": "Hamburg · Fab City Haus - New Production Institute",
+    "venue": "Hamburg · Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
     "source": "eventbrite",
     "type": "afterwork"
@@ -76,6 +76,15 @@
     "date": "2026-04-07",
     "time": "19:00",
     "venue": "Hamburg · Alexanderstraße 16",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
+    "source": "eventbrite",
+    "type": "afterwork"
+  },
+  {
+    "title": "Ü40 Socialmatch - Hamburg",
+    "date": "2026-03-29",
+    "time": "19:30",
+    "venue": "Hamburg · Genaue Location wird einen Tag vor dem Event per E-Mail mitgeteilt",
     "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
     "source": "eventbrite",
     "type": "afterwork"
@@ -135,15 +144,6 @@
     "type": "afterwork"
   },
   {
-    "title": "Friday Nights in Hamburg: 20's edition | Dinner with Strangers",
-    "date": "2026-02-27",
-    "time": "19:00",
-    "venue": "Hamburg · Restaurant of the Week",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
-    "source": "eventbrite",
-    "type": "afterwork"
-  },
-  {
     "title": "Freiburgs großes Speed Dating Event",
     "date": "2026-03-29",
     "time": "17:00",
@@ -162,28 +162,28 @@
     "type": "afterwork"
   },
   {
-    "title": "Echte Werte – Premiumstrategie im Jahreszeiten Verlag",
-    "date": "2026-02-26",
+    "title": "Friday Nights in Hamburg: 20's edition | Dinner with Strangers",
+    "date": "2026-03-27",
+    "time": "19:00",
+    "venue": "Hamburg · Restaurant of the Week",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
+    "source": "eventbrite",
+    "type": "afterwork"
+  },
+  {
+    "title": "1 Irishman in Hamburg | A stand-up comedy show in English | 7:30PM",
+    "date": "2026-04-23",
+    "time": "19:30",
+    "venue": "Hamburg · Indra Club 64",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
+    "source": "eventbrite",
+    "type": "afterwork"
+  },
+  {
+    "title": "Olympische und Paralympische Spiele in Hamburg – Konzept und Kommunikation",
+    "date": "2026-03-11",
     "time": "18:30",
-    "venue": "Hamburg · Jahreszeiten Verlag",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "BPW Hamburg: Equal Pay Day Soirée",
-    "date": "2026-02-27",
-    "time": "18:00",
-    "venue": "Hamburg · Treffany Teehaus - Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Networking // Open Space // März Hamburg",
-    "date": "2026-03-09",
-    "time": "18:00",
-    "venue": "Hamburg · Consensa Projektberatung GmbH & Co. KG",
+    "venue": "Hamburg · Design Offices Hamburg Hammerbrook",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
@@ -198,28 +198,10 @@
     "type": "networking"
   },
   {
-    "title": "Impact Lunch: Social Entrepreneurship City Hamburg Edition",
-    "date": "2026-03-25",
-    "time": "12:00",
-    "venue": "Hamburg · Impact Hub Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Young-BPW-Netzwerkabend: “Let’s talk & create”",
-    "date": "2026-03-11",
-    "time": "19:00",
-    "venue": "Hamburg · Restaurant Blattgold",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Verkaufsqueen lädt ein: Netzwerken mit Spaß und Erfolg",
-    "date": "2026-03-27",
-    "time": "10:00",
-    "venue": "Hamburg · Tybas Dance Center",
+    "title": "Networking // Open Space // März Hamburg",
+    "date": "2026-03-09",
+    "time": "18:00",
+    "venue": "Hamburg · Consensa Projektberatung GmbH & Co. KG",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
@@ -234,10 +216,10 @@
     "type": "networking"
   },
   {
-    "title": "FLINTA* finance circle Vol. 2",
-    "date": "2026-03-08",
-    "time": "11:00",
-    "venue": "Hamburg · Erste Liebe Bar",
+    "title": "Impact Lunch: Social Entrepreneurship City Hamburg Edition",
+    "date": "2026-03-25",
+    "time": "12:00",
+    "venue": "Hamburg · Impact Hub Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
@@ -252,10 +234,28 @@
     "type": "networking"
   },
   {
-    "title": "Female Business Meet up AHRENSBURG",
+    "title": "Young-BPW-Netzwerkabend: “Let’s talk & create”",
     "date": "2026-03-11",
     "time": "19:00",
-    "venue": "Ahrensburg · ZEITLOS AHRENSBURG",
+    "venue": "Hamburg · Restaurant Blattgold",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
+    "source": "eventbrite",
+    "type": "networking"
+  },
+  {
+    "title": "FLINTA* finance circle Vol. 2",
+    "date": "2026-03-08",
+    "time": "11:00",
+    "venue": "Hamburg · Erste Liebe Bar",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
+    "source": "eventbrite",
+    "type": "networking"
+  },
+  {
+    "title": "Verkaufsqueen lädt ein: Netzwerken mit Spaß und Erfolg",
+    "date": "2026-03-27",
+    "time": "10:00",
+    "venue": "Hamburg · Tybas Dance Center",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
@@ -270,19 +270,28 @@
     "type": "networking"
   },
   {
-    "title": "Italienischer Kochkurs",
-    "date": "2026-07-09",
+    "title": "Female Business Meet up AHRENSBURG",
+    "date": "2026-03-11",
     "time": "19:00",
-    "venue": "Hamburg · Olivia Kochschule",
+    "venue": "Ahrensburg · ZEITLOS AHRENSBURG",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
   },
   {
-    "title": "BVMID Unternehmer:DIALOG Hamburg | Netzwerken. Vertrauen. Erfolg.",
-    "date": "2026-02-26",
-    "time": "18:30",
-    "venue": "Hamburg · frag.hugo Informationssicherheit GmbH",
+    "title": "Vom Stillstand zum Vorsprung",
+    "date": "2026-04-15",
+    "time": "19:00",
+    "venue": "Hamburg · Hanse Lounge, 2. Stock",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
+    "source": "eventbrite",
+    "type": "networking"
+  },
+  {
+    "title": "Resilienz-Café Hamburg | \"Stress lass nach\"",
+    "date": "2026-04-17",
+    "time": "15:00",
+    "venue": "Hamburg · Café Koppel",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
@@ -291,6 +300,15 @@
     "title": "Argentina vegana",
     "date": "2026-03-28",
     "time": "11:00",
+    "venue": "Hamburg · Olivia Kochschule",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
+    "source": "eventbrite",
+    "type": "networking"
+  },
+  {
+    "title": "Italienischer Kochkurs",
+    "date": "2026-07-09",
+    "time": "19:00",
     "venue": "Hamburg · Olivia Kochschule",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
@@ -310,6 +328,15 @@
     "date": "2026-06-19",
     "time": "18:00",
     "venue": "Hamburg · Olivia Kochschule",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
+    "source": "eventbrite",
+    "type": "networking"
+  },
+  {
+    "title": "HAMBURG BÖRSE 2026",
+    "date": "2026-05-07",
+    "time": "14:30",
+    "venue": "Hamburg · Handelskammer Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
     "source": "eventbrite",
     "type": "networking"
@@ -378,15 +405,6 @@
     "type": "tasting"
   },
   {
-    "title": "Monkeys Signature Tasting: European Wines",
-    "date": "2026-02-27",
-    "time": "19:00",
-    "venue": "Hamburg · Monkeys Wine Boutique",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
-    "source": "eventbrite",
-    "type": "tasting"
-  },
-  {
     "title": "SCHÖNER TRINKEN SPECIAL",
     "date": "2026-03-28",
     "time": "19:00",
@@ -414,15 +432,6 @@
     "type": "tasting"
   },
   {
-    "title": "ENTDECKE DEN KIEZ NEU - DIE TASTING TOUR DURCH ST. PAULI",
-    "date": "2026-03-24",
-    "time": "19:00",
-    "venue": "Hamburg · Weinladen | St. Pauli",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
-    "source": "eventbrite",
-    "type": "tasting"
-  },
-  {
     "title": "Taste the world of Ceremony Cacao",
     "date": "2026-03-29",
     "time": "15:00",
@@ -432,19 +441,19 @@
     "type": "tasting"
   },
   {
-    "title": "Georgien im Glas – Entdecke die Wiege des Weins!",
-    "date": "2026-03-28",
+    "title": "ENTDECKE DEN KIEZ NEU - DIE TASTING TOUR DURCH ST. PAULI",
+    "date": "2026-03-24",
     "time": "19:00",
-    "venue": "Hamburg · Maison 16",
+    "venue": "Hamburg · Weinladen | St. Pauli",
     "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
     "source": "eventbrite",
     "type": "tasting"
   },
   {
-    "title": "Ungarn im Glas – zwischen Herkunft & Geschichte",
-    "date": "2026-02-26",
-    "time": "19:30",
-    "venue": "Hamburg · Maison16",
+    "title": "Georgien im Glas – Entdecke die Wiege des Weins!",
+    "date": "2026-03-28",
+    "time": "19:00",
+    "venue": "Hamburg · Maison 16",
     "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
     "source": "eventbrite",
     "type": "tasting"
@@ -477,10 +486,28 @@
     "type": "tasting"
   },
   {
-    "title": "\"Schaumwein & Sushi -Prickler Special- Perlen zum Sushi\"",
-    "date": "2026-02-27",
+    "title": "Hopfen trifft Kruste: Brot & Bier-Tasting",
+    "date": "2026-11-21",
+    "time": "18:00",
+    "venue": "Buxtehude · Bertha-von-Suttner-Allee 2",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
+    "source": "eventbrite",
+    "type": "tasting"
+  },
+  {
+    "title": "WeinSEMINAR - \"Mit allen Sinnen\" - Sensorik schulen und Blindverkostung",
+    "date": "2026-03-06",
     "time": "19:00",
     "venue": "Hamburg · Hoheluftchaussee 66",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
+    "source": "eventbrite",
+    "type": "tasting"
+  },
+  {
+    "title": "Wein & Märchen – ein besonderer Genussabend bei Maison16",
+    "date": "2026-03-24",
+    "time": "19:00",
+    "venue": "Hamburg · Maison16",
     "url": "https://www.eventbrite.de/d/germany--hamburg/wine-tasting/",
     "source": "eventbrite",
     "type": "tasting"
@@ -496,18 +523,9 @@
   },
   {
     "title": "Social Bartour - Drink Play Party",
-    "date": "2026-02-27",
+    "date": "2026-02-28",
     "time": "20:00",
     "venue": "Hamburg · Beatles-Platz",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "JIMDOConnect Buchholz: Netzwerken für Selbstständige \"Warum gründen?\"",
-    "date": "2026-03-17",
-    "time": "18:00",
-    "venue": "Buchholz in der Nordheide · NORSU Institut",
     "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
     "source": "eventbrite",
     "type": "social"
@@ -522,19 +540,28 @@
     "type": "social"
   },
   {
-    "title": "WICKED RAVE: The Musical & Pop Night // Bahnhof Pauli Hamburg",
+    "title": "CHERRY MOON X CODA",
     "date": "2026-02-28",
-    "time": "23:00",
-    "venue": "Hamburg · Bahnhof Pauli",
+    "time": "22:00",
+    "venue": "Hamburg · Congresspl. 2",
     "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
     "source": "eventbrite",
     "type": "social"
   },
   {
-    "title": "Bad Bunny Party • Uebel & Gefährlich • Hamburg",
+    "title": "The Taylor Party // Hamburg",
+    "date": "2026-04-18",
+    "time": "18:00",
+    "venue": "Hamburg · HALO Club Hamburg",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
+    "source": "eventbrite",
+    "type": "social"
+  },
+  {
+    "title": "WICKED RAVE: The Musical & Pop Night // Bahnhof Pauli Hamburg",
     "date": "2026-02-28",
-    "time": "23:59",
-    "venue": "Hamburg · Uebel & Gefährlich",
+    "time": "23:00",
+    "venue": "Hamburg · Bahnhof Pauli",
     "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
     "source": "eventbrite",
     "type": "social"
@@ -576,6 +603,24 @@
     "type": "social"
   },
   {
+    "title": "Curious about … Gen-Z (und Gen Alpha) - with Noel Dederichs.",
+    "date": "2026-03-25",
+    "time": "18:30",
+    "venue": "Hamburg · Curious Company GmbH",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
+    "source": "eventbrite",
+    "type": "social"
+  },
+  {
+    "title": "Fresh@Fresenius",
+    "date": "2026-03-05",
+    "time": "22:00",
+    "venue": "Hamburg · Nikki Tiger",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
+    "source": "eventbrite",
+    "type": "social"
+  },
+  {
     "title": "GHANA INDEPENDENCE CELEBRATION WITH SARKODIE,2026",
     "date": "2026-03-14",
     "time": "20:00",
@@ -603,27 +648,18 @@
     "type": "social"
   },
   {
-    "title": "40plus Party Hamburg/ Sa, 18.04./ Angie's",
-    "date": "2026-04-18",
-    "time": "22:00",
-    "venue": "Hamburg · Angie's",
+    "title": "DAYDRINKING SEEHAUS x NAKED. (CHANDON WINTER WONDERLAND)",
+    "date": "2026-02-28",
+    "time": "14:00",
+    "venue": "Hamburg · An d. Alster 10a",
     "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
     "source": "eventbrite",
     "type": "social"
   },
   {
-    "title": "Master the Art of Buying, Selling & Scaling Startups Successfully!",
-    "date": "2026-03-01",
-    "time": "13:00",
-    "venue": "Hamburg · TBA",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
-    "source": "eventbrite",
-    "type": "startup"
-  },
-  {
     "title": "Startups Mentorship Program",
-    "date": "2026-02-26",
-    "time": "19:30",
+    "date": "2026-04-08",
+    "time": "17:00",
     "venue": "Hamburg · Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
@@ -631,7 +667,7 @@
   },
   {
     "title": "Startups Fund Raising Program",
-    "date": "2026-02-27",
+    "date": "2026-03-06",
     "time": "19:00",
     "venue": "Hamburg · Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
@@ -643,15 +679,6 @@
     "date": "2026-03-10",
     "time": "16:30",
     "venue": "Hamburg · Impact Hub Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
-    "source": "eventbrite",
-    "type": "startup"
-  },
-  {
-    "title": "Launch Your Own Successful AI App | AI Startup | Workshop 2026",
-    "date": "2026-03-01",
-    "time": "13:00",
-    "venue": "Hamburg · TBD",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"
@@ -675,15 +702,6 @@
     "type": "startup"
   },
   {
-    "title": "Master AI Entrepreneurship - From A to Z Masterclass",
-    "date": "2026-02-26",
-    "time": "13:00",
-    "venue": "Hamburg · TBD",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
-    "source": "eventbrite",
-    "type": "startup"
-  },
-  {
     "title": "Unternehmertreffen Hamburg + HEINRICH&WOLLERING + Munich Milan + Investoren",
     "date": "2026-10-16",
     "time": "18:00",
@@ -693,10 +711,19 @@
     "type": "startup"
   },
   {
-    "title": "Prompt to Profit — Learn Generative AI for Business and Innovation",
-    "date": "2026-02-26",
-    "time": "13:00",
-    "venue": "Hamburg · TBD",
+    "title": "betabreakfast w/Talissa Hackbarths Weltumsegelung",
+    "date": "2026-03-26",
+    "time": "10:00",
+    "venue": "Hamburg · betahaus hamburg | coworking & events",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
+    "source": "eventbrite",
+    "type": "startup"
+  },
+  {
+    "title": "betabreakfast w/Reflectra.Network + Louisa Mittmann",
+    "date": "2026-03-19",
+    "time": "10:00",
+    "venue": "Hamburg · betahaus hamburg | coworking & events",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"
@@ -711,10 +738,19 @@
     "type": "startup"
   },
   {
-    "title": "Bee for Breakfast Hamburg City",
-    "date": "2026-03-10",
-    "time": "09:30",
-    "venue": "Hamburg · Beehive Hamburg City",
+    "title": "innovate:me – Mit KI die Logistik-Arbeitswelt gestalten",
+    "date": "2026-04-09",
+    "time": "10:00",
+    "venue": "Hamburg · Digital Hub Logistics & Commerce",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
+    "source": "eventbrite",
+    "type": "startup"
+  },
+  {
+    "title": "Unternehmertreffen mit SBS LEGAL und Munich Milan in Hamburg + INVESTOREN",
+    "date": "2026-05-07",
+    "time": "18:00",
+    "venue": "Hamburg · SBS Legal Rechtsanwälte",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"
@@ -733,24 +769,6 @@
     "date": "2026-02-28",
     "time": "09:30",
     "venue": "Hamburg · Monument Hommage an Brahms",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
-    "source": "eventbrite",
-    "type": "startup"
-  },
-  {
-    "title": "Öffentliche Finanzierung: Von der Strategie zur erfolgreichen Bewilligung",
-    "date": "2026-02-26",
-    "time": "15:00",
-    "venue": "Hamburg · Digital Hub Logistics Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
-    "source": "eventbrite",
-    "type": "startup"
-  },
-  {
-    "title": "Buchhaltung für Einsteiger, Teil 2",
-    "date": "2026-03-23",
-    "time": "14:15",
-    "venue": "Hamburg · Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"

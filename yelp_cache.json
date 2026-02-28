@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T03:03:17.452Z",
+  "lastUpdated": "2026-02-28T08:37:54.631Z",
   "source": "yelp.de",
   "bars": [
     {
@@ -43,18 +43,18 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Paddy’s Bar",
-      "rating": 4.5,
+      "name": "Frau Möller",
+      "rating": 4,
       "reviewCount": null,
-      "reviewSnippet": "Not contrived, decent bar in a nice side street location, pleasant place to watch English football...",
+      "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
       "source": "yelp",
       "searchCategory": "bars"
     },
     {
-      "name": "Daniel’s Company",
-      "rating": 4.8,
+      "name": "Paddy’s Bar",
+      "rating": 4.5,
       "reviewCount": null,
-      "reviewSnippet": "War Samstag wieder eine super Party Stimmung im Daniels und tolle Gäste.. Dj Noak u. so gar der Cult Dj legte mahl wieser auf .TOLLER ABEND",
+      "reviewSnippet": "Not contrived, decent bar in a nice side street location, pleasant place to watch English football...",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -91,18 +91,18 @@
       "searchCategory": "bars"
     },
     {
-      "name": "Frau Möller",
-      "rating": 4,
-      "reviewCount": null,
-      "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
-      "source": "yelp",
-      "searchCategory": "bars"
-    },
-    {
       "name": "Oyster Bar",
       "rating": 5,
       "reviewCount": null,
       "reviewSnippet": "Der Bringer, der absolute Bringer in Familie Kowalkes Restaurant-Reich ist die winzige charmante Oyster Bar. Hinter dem kleinen Tresen dieser wie aus…",
+      "source": "yelp",
+      "searchCategory": "bars"
+    },
+    {
+      "name": "Klimperkiste",
+      "rating": 4.3,
+      "reviewCount": null,
+      "reviewSnippet": "A cozy little bar, mixed with tourists and locals. Nice staff, very reasonable prices.",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -123,10 +123,10 @@
       "searchCategory": "bars"
     },
     {
-      "name": "The Old Dubliner - Irish Pub",
-      "rating": 4.3,
+      "name": "Ilohh Bar",
+      "rating": 4.9,
       "reviewCount": null,
-      "reviewSnippet": "A well run pub with an Irish theme. live music. one of the better bars in Harburg.",
+      "reviewSnippet": "Geil, eine echt nice Bar, die den Zusatz",
       "source": "yelp",
       "searchCategory": "bars"
     },
@@ -163,10 +163,10 @@
       "searchCategory": "kneipen"
     },
     {
-      "name": "Rosi’s Bar",
-      "rating": 4.2,
+      "name": "Zum Silbersack",
+      "rating": 4.3,
       "reviewCount": null,
-      "reviewSnippet": "Love this place, always go when I'm in Hamburg. Good music, laid-back feel and cold beer (Astra...",
+      "reviewSnippet": "This is a trad German pub just off the Reeperbahn. Well worth checking out to see the crowd of...",
       "source": "yelp",
       "searchCategory": "kneipen"
     },
@@ -179,14 +179,6 @@
       "searchCategory": "kneipen"
     },
     {
-      "name": "Zur gemütlichen Ecke",
-      "rating": 4,
-      "reviewCount": null,
-      "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
-      "source": "yelp",
-      "searchCategory": "kneipen"
-    },
-    {
       "name": "Zur scharfen Ecke",
       "rating": 4.3,
       "reviewCount": null,
@@ -195,10 +187,18 @@
       "searchCategory": "kneipen"
     },
     {
-      "name": "Die Schmiede",
+      "name": "Zur gemütlichen Ecke",
       "rating": 4,
       "reviewCount": null,
-      "reviewSnippet": "Die Schmiede ist eine kleine gemütliche Bierkneipe in der Lämmertwiete, der Gastro-Meile von Harburg. Sie existiert jetzt schon seit rund 32 Jahren…",
+      "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
+      "source": "yelp",
+      "searchCategory": "kneipen"
+    },
+    {
+      "name": "Dorotheen Eck",
+      "rating": 4.1,
+      "reviewCount": null,
+      "reviewSnippet": "Das",
       "source": "yelp",
       "searchCategory": "kneipen"
     },
@@ -238,7 +238,15 @@
       "name": "Kleinhuis´ Bistro & Weinhandel",
       "rating": 4.9,
       "reviewCount": null,
-      "reviewSnippet": "Hotel Baseler Hof, Neustadt€€Closed until 11:30 AM",
+      "reviewSnippet": "Hotel Baseler Hof, Neustadt€€Closed today",
+      "source": "yelp",
+      "searchCategory": "wine"
+    },
+    {
+      "name": "Moet & Chandon Bar",
+      "rating": 4.2,
+      "reviewCount": null,
+      "reviewSnippet": "Hach. Die",
       "source": "yelp",
       "searchCategory": "wine"
     },
@@ -247,14 +255,6 @@
       "rating": 3.7,
       "reviewCount": null,
       "reviewSnippet": "Honestly, it seems the can barely differentiate between red and white wine.",
-      "source": "yelp",
-      "searchCategory": "wine"
-    },
-    {
-      "name": "Moet & Chandon Bar",
-      "rating": 4.2,
-      "reviewCount": null,
-      "reviewSnippet": "Alsterhaus, Neustadt€€€Closed until 10:00 AM",
       "source": "yelp",
       "searchCategory": "wine"
     },
@@ -271,6 +271,14 @@
       "rating": 4.8,
       "reviewCount": null,
       "reviewSnippet": "Ach, ist das schön hier. Da kann man sich nur wohlfühlen in geselliger Runde. Herzlich, freundlich und entspannt. Und das nicht weit weg von…",
+      "source": "yelp",
+      "searchCategory": "wine"
+    },
+    {
+      "name": "Ufer",
+      "rating": 4.3,
+      "reviewCount": null,
+      "reviewSnippet": "Now it's a great wine bar with awesome service. The main guy working here comes from the Four...",
       "source": "yelp",
       "searchCategory": "wine"
     },
@@ -299,14 +307,6 @@
       "searchCategory": "wine"
     },
     {
-      "name": "Il Garage",
-      "rating": 4.5,
-      "reviewCount": null,
-      "reviewSnippet": "Wie, ist bin der erste?! Tolle Weinbar im schicken Ottensen. Hier gibt es tolle Weine im offenen Ausschank. Das Angebot wechselt oft und es gibt auch…",
-      "source": "yelp",
-      "searchCategory": "wine"
-    },
-    {
       "name": "Irish Pub in the Fleetenkieker",
       "rating": 3.9,
       "reviewCount": null,
@@ -315,34 +315,10 @@
       "searchCategory": "pubs"
     },
     {
-      "name": "Roschinsky’s",
-      "rating": 4.1,
-      "reviewCount": null,
-      "reviewSnippet": "Boys and girls if you like rock music and if you are looking for one of the best rocking pubs in...",
-      "source": "yelp",
-      "searchCategory": "pubs"
-    },
-    {
-      "name": "Klimperkiste",
+      "name": "The Old Dubliner - Irish Pub",
       "rating": 4.3,
       "reviewCount": null,
-      "reviewSnippet": "A great, quirky, little pub hiding in the same street as Hofbrau and opposite the big casino.",
-      "source": "yelp",
-      "searchCategory": "pubs"
-    },
-    {
-      "name": "Murphy’s",
-      "rating": 4.1,
-      "reviewCount": null,
-      "reviewSnippet": "Pretty expensive Irish pub just south of the Reeperbahn. EUR4.50 for a pint of Murphy's Red.",
-      "source": "yelp",
-      "searchCategory": "pubs"
-    },
-    {
-      "name": "Skorbut",
-      "rating": 5,
-      "reviewCount": null,
-      "reviewSnippet": "Das Skorbut ist Anfang Oktober 2009 auf die Südseite der Reeperbahn (neben den ehemaligen Beatclub) gezogen und bereits nach einer Woche sah der Club…",
+      "reviewSnippet": "A real Dublin pub has to have a washroom like that. Thank you for the great ales.",
       "source": "yelp",
       "searchCategory": "pubs"
     },
@@ -355,10 +331,34 @@
       "searchCategory": "pubs"
     },
     {
+      "name": "Skorbut",
+      "rating": 5,
+      "reviewCount": null,
+      "reviewSnippet": "Das Skorbut ist Anfang Oktober 2009 auf die Südseite der Reeperbahn (neben den ehemaligen Beatclub) gezogen und bereits nach einer Woche sah der Club…",
+      "source": "yelp",
+      "searchCategory": "pubs"
+    },
+    {
+      "name": "Murphy’s",
+      "rating": 4.1,
+      "reviewCount": null,
+      "reviewSnippet": "Pretty expensive Irish pub just south of the Reeperbahn. EUR4.50 for a pint of Murphy's Red.",
+      "source": "yelp",
+      "searchCategory": "pubs"
+    },
+    {
       "name": "Irish Rover",
       "rating": 4.1,
       "reviewCount": null,
       "reviewSnippet": "Great pub and delicious food. Had grilled brandy chicken with yummy creamy mushroom sauce.",
+      "source": "yelp",
+      "searchCategory": "pubs"
+    },
+    {
+      "name": "Kuddl",
+      "rating": 4.5,
+      "reviewCount": null,
+      "reviewSnippet": "Pleasantly surprised by this place! It's a very very nice pub. We always love to go here.",
       "source": "yelp",
       "searchCategory": "pubs"
     }

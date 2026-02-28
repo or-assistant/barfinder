@@ -1,65 +1,5 @@
 [
   {
-    "title": "ZAL Innovation Days 2026",
-    "date": "2026-02-25",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/zal-innovation-days-2026",
-    "source": "startupcity",
-    "type": "tech",
-    "description": "Get ready to dive deep into the future of tech and innovation at ZAL Innovation Days 2026 - where ideas become reality!"
-  },
-  {
-    "title": "12MIN.ME | FOCUS: INNOVATE #3",
-    "date": "2026-02-25",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/12minme-focus-innovate-3",
-    "source": "startupcity",
-    "type": "tech",
-    "description": "This event is all about innovation and technological breakthroughs. Three inspiring speakers will present their latest ideas, projects or research findings."
-  },
-  {
-    "title": "Workshop: Solo self-employment",
-    "date": "2026-02-26",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/workshop-solo-self-employment-2-26",
-    "source": "startupcity",
-    "type": "social",
-    "description": "This workshop will explore the question: Why become self-employed?"
-  },
-  {
-    "title": "10x Impact with AI Agents",
-    "date": "2026-02-26",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/10x-impact-with-ai-agents",
-    "source": "startupcity",
-    "type": "tech",
-    "description": "This event is for software development teams building real systems with AI agents: engineers, data scientists, and tech-savvy product managers."
-  },
-  {
-    "title": "build fridays hamburg",
-    "date": "2026-02-27",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-27-2-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
-  },
-  {
-    "title": "AI at Work: When ‘Faster’ Quietly Becomes ‘Sloppier",
-    "date": "2026-02-27",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/ai-at-work-when-faster-quietly-becomes-sloppier",
-    "source": "startupcity",
-    "type": "networking",
-    "description": "Ukrainian Science & Tech Hamburg is happy to invite you to the first-ever English-speaking event of the community — this time in a panel discussion format."
-  },
-  {
     "title": "Founders Running Club Hamburg",
     "date": "2026-02-28",
     "time": "",
@@ -78,6 +18,16 @@
     "source": "startupcity",
     "type": "startup",
     "description": "Discover how Hamburg’s universities can power your startup journey."
+  },
+  {
+    "title": "build fridays hamburg",
+    "date": "2026-03-06",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-6-3-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
   },
   {
     "title": "Impact Academy: understanding the startup funding landscape",
@@ -128,6 +78,16 @@
     "source": "startupcity",
     "type": "social",
     "description": "Want to shape 2026 with courage? On 17 March 2026, everything will revolve around you and your company."
+  },
+  {
+    "title": "Digital Alumni Lunch: Founding – Now more than ever!",
+    "date": "2026-03-23",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/digital-alumni-lunch-founding-now-more-than-ever",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "At this event, you will learn how to turn your idea into a successful business model – whether it’s a startup, freelance project or social project."
   },
   {
     "title": "AI.WOMEN Circle #2 - Spring Edition",

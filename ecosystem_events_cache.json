@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-25T03:01:42.262Z",
-  "count": 35,
+  "lastUpdated": "2026-02-28T08:36:19.974Z",
+  "count": 34,
   "sources": {
     "nextmedia": {
       "url": "https://nextmedia-hamburg.de/events/",
@@ -8,7 +8,7 @@
     },
     "aric": {
       "url": "https://aric-hamburg.de/events/",
-      "count": 27
+      "count": 25
     },
     "kreativgesellschaft": {
       "url": "https://kreativgesellschaft.org/termine/",
@@ -16,51 +16,6 @@
     }
   },
   "events": [
-    {
-      "title": "ARIC-Tipp | Innovation Days at ZAL TechCenter",
-      "date": "2026-02-25",
-      "time": "00:00 - 23:59",
-      "venue": "ZAL Zentrum für Angewandte Luftfahrtforschung GmbH",
-      "url": "https://aric-hamburg.de/veranstaltung/zal-innovation-days/",
-      "source": "aric",
-      "type": "startup"
-    },
-    {
-      "title": "ARIC-Tipp | AIM Leaders Meet-up",
-      "date": "2026-02-26",
-      "time": "11:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-tipp-aim-leaders-meet-up-umgang-mit-lizenzierung-und-urheberrecht/",
-      "source": "aric",
-      "type": "meetup"
-    },
-    {
-      "title": "ARIC Brown Bag Session: KI-Agenten – Überblick, Chancen & Risiken",
-      "date": "2026-02-26",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-ki-agenten-ueberblick-chancen-risiken/",
-      "source": "aric",
-      "type": "techtalk"
-    },
-    {
-      "title": "Öffentliche Finanzierung: Von der Strategie zur erfolgreichen Bewilligung",
-      "date": "2026-02-26",
-      "time": "15:00 - 17:00",
-      "venue": "Digital Hub Logistics Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/oeffentliche-finanzierung-von-der-strategie-zur-erfolgreichen-bewilligung/",
-      "source": "aric",
-      "type": "startup"
-    },
-    {
-      "title": "Fragestunde - kompakte Beratung für Kreative",
-      "date": "2026-02-26",
-      "time": "15:00 - 17:00",
-      "venue": "Hamburg",
-      "url": "https://kreativgesellschaft.org/termine/",
-      "source": "kreativgesellschaft",
-      "type": "networking"
-    },
     {
       "title": "Audiencers' Festival",
       "date": "2026-03-03",
@@ -143,6 +98,15 @@
       "type": "meetup"
     },
     {
+      "title": "ARIC Brown Bag: Wenn KI schützt: Maya gegen häusliche Gewalt",
+      "date": "2026-03-17",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-wenn-ki-schuetzt-maya-gegen-haeusliche-gewalt/",
+      "source": "aric",
+      "type": "meetup"
+    },
+    {
       "title": "Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker",
       "date": "2026-03-18",
       "time": "16:00 - 18:00",
@@ -179,6 +143,24 @@
       "type": "meetup"
     },
     {
+      "title": "Fragestunde - kompakte Beratung für Kreative",
+      "date": "2026-03-26",
+      "time": "15:00 - 17:00",
+      "venue": "Hamburg",
+      "url": "https://kreativgesellschaft.org/termine/",
+      "source": "kreativgesellschaft",
+      "type": "networking"
+    },
+    {
+      "title": "Gamecity Treff März 2026",
+      "date": "2026-03-26",
+      "time": "18:00 - 23:00",
+      "venue": "Hamburg",
+      "url": "https://kreativgesellschaft.org/termine/",
+      "source": "kreativgesellschaft",
+      "type": "meetup"
+    },
+    {
       "title": "Perfektion war gestern. Stärken stärken ist heute!",
       "date": "2026-03-30",
       "time": "16:00 - 18:00",
@@ -186,6 +168,15 @@
       "url": "https://nextmedia-hamburg.de/events/kalender/perfektion-war-gestern-staerken-staerken-ist-heute/",
       "source": "nextmedia",
       "type": "networking"
+    },
+    {
+      "title": "ARIC Brown Bag: Beyond Quantum Resilience: Embedded Security with & for PQC",
+      "date": "2026-03-31",
+      "time": "12:00 - 12:30",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-beyond-quantum-resilience-embedded-security-with-for-pqc/",
+      "source": "aric",
+      "type": "techtalk"
     },
     {
       "title": "ARIC Brown Bag: Balancing edge autonomy and cloud intelligence",

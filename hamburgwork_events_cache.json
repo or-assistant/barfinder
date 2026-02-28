@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "title": "So wirkt Social Entrepreneurship in Hamburg!",
+      "date": "2026-02-25",
+      "time": "",
+      "venue": "Hamburg",
+      "description": "Beim zweiten Social Entrepreneurship Forum stand wieder soziales Unternehmertum im Fokus und was Hamburg dafür tut.\nThe post So wirkt Social Entrepreneurship in Hamburg! appeared first on Hamburg Startups.",
+      "url": "https://www.hamburg-startups.net/so-wirkt-social-entrepreneurship-in-hamburg/",
+      "type": "startup",
+      "source": "hamburg-startups"
+    },
+    {
       "title": "admark.ai und die Startup-Brüder aus „Die Höhle der Löwen“",
       "date": "2026-02-24",
       "time": "",
@@ -27,16 +37,6 @@
       "venue": "Hamburg",
       "description": "Startups können sich jetzt für das Förderprogramm #UpdateHamburg und den Wettbewerb DeepTech StartAperitivo bewerben.\nThe post Jetzt bewerben für #UpdateHamburg und DeepTech StartAperitivo! appeared first on Hamburg Startups.",
       "url": "https://www.hamburg-startups.net/jetzt-bewerben-fuer-updatehamburg-und-deeptech-startaperitivo/",
-      "type": "startup",
-      "source": "hamburg-startups"
-    },
-    {
-      "title": "Exklusiver Empfang im Rathaus für unsere STARTERiNNEN 2025!",
-      "date": "2026-02-03",
-      "time": "",
-      "venue": "Hamburg",
-      "description": "Der Empfang für die Finalistinnen unseres Wettbewerbs STARTERiN Hamburg war wieder ein außergewöhnliches Erlebnis.\nThe post Exklusiver Empfang im Rathaus für unsere STARTERiNNEN 2025! appeared first on Hamburg Startups.",
-      "url": "https://www.hamburg-startups.net/exklusiver-empfang-im-rathaus-fuer-unsere-starterinnen-2025/",
       "type": "startup",
       "source": "hamburg-startups"
     },
@@ -131,7 +131,7 @@
       "source": "hamburg-business"
     }
   ],
-  "fetchedAt": "2026-02-25T03:04:53.858Z",
+  "fetchedAt": "2026-02-28T03:05:14.338Z",
   "sources": [
     "hamburg-startups.net",
     "hamburg-business.com"
