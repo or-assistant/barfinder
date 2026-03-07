@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "title": "Für diese Wettbewerbe und Events könnt ihr euch jetzt bewerben",
+      "date": "2026-03-04",
+      "time": "",
+      "venue": "Hamburg",
+      "description": "Für diese Hamburger Wettbewerbe und Events können sich Startups jetzt bewerben: Health Innovation Award, Startup Pitch Battle und Boostcamp.\nThe post Für diese Wettbewerbe und Events könnt ihr euch jetzt bewerben appeared first on Hamburg Startups.",
+      "url": "https://www.hamburg-startups.net/fuer-diese-wettbewerbe-und-events-koennt-ihr-euch-jetzt-bewerben/",
+      "type": "startup",
+      "source": "hamburg-startups"
+    },
+    {
       "title": "So wirkt Social Entrepreneurship in Hamburg!",
       "date": "2026-02-25",
       "time": "",
@@ -27,16 +37,6 @@
       "venue": "Hamburg",
       "description": "Die kostenlosen Tickets für den Hamburg Innovation Summit 2026, der am 18. Juni stattfinden wird, sind jetzt erhältlich.\nThe post Ticketing für Hamburg Innovation Summit 2026 gestartet appeared first on Hamburg Startups.",
       "url": "https://www.hamburg-startups.net/ticketing-fuer-hamburg-innovation-summit-2026-gestartet/",
-      "type": "startup",
-      "source": "hamburg-startups"
-    },
-    {
-      "title": "Jetzt bewerben für #UpdateHamburg und DeepTech StartAperitivo!",
-      "date": "2026-02-05",
-      "time": "",
-      "venue": "Hamburg",
-      "description": "Startups können sich jetzt für das Förderprogramm #UpdateHamburg und den Wettbewerb DeepTech StartAperitivo bewerben.\nThe post Jetzt bewerben für #UpdateHamburg und DeepTech StartAperitivo! appeared first on Hamburg Startups.",
-      "url": "https://www.hamburg-startups.net/jetzt-bewerben-fuer-updatehamburg-und-deeptech-startaperitivo/",
       "type": "startup",
       "source": "hamburg-startups"
     },
@@ -131,7 +131,7 @@
       "source": "hamburg-business"
     }
   ],
-  "fetchedAt": "2026-02-28T03:05:14.338Z",
+  "fetchedAt": "2026-03-07T03:04:47.452Z",
   "sources": [
     "hamburg-startups.net",
     "hamburg-business.com"

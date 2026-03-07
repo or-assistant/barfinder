@@ -1,22 +1,30 @@
 {
-  "lastUpdated": "2026-02-28T03:04:49.420Z",
+  "lastUpdated": "2026-03-07T03:04:24.863Z",
   "source": "hamburg.mitvergnuegen.com",
   "articles": [
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "title": "11 feuchtfröhliche Day Drinking Orte",
+      "source": "mitvergnuegen",
+      "isBarRelevant": true,
+      "isFoodRelevant": false,
+      "scrapedAt": "2026-03-07T03:03:34.493Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "title": "11 Cafés mit schöner Terrasse zum Draußensitzen",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": true,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/tipps-fruehling-sonne/",
       "title": "11 Orte, um die erste Frühlingssonne zu genießen",
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/was-geht-am-wochenende-in-hamburg/",
-      "title": "11 vergnügte Tipps für dieses Wochenende in Hamburg",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/sonntagsbrunch-hamburg/",
@@ -24,15 +32,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2024/unternehmungen-regen-kinder-hamburg/",
-      "title": "11 Unternehmungen in Hamburg mit Kindern bei Regen",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/radtouren-hamburg-2/",
@@ -40,7 +40,15 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/fruehling-ausflug-hamburg-umland/",
+      "title": "11 schöne Frühlingsausflüge in und um Hamburg",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": false,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/konzerte-in-hamburg/",
@@ -48,7 +56,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/flohmaerkte-hamburg/",
@@ -56,7 +64,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/aussicht-hamburg-von-oben/",
@@ -64,7 +72,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/museum-hamburg/",
@@ -72,7 +80,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/schietwetter-hamburg-unternehmungen-bei-regen/",
@@ -80,7 +88,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/cafes-am-wasser-in-hamburg/",
@@ -88,7 +96,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/restaurants-innenstadt-hamburg/",
@@ -96,7 +104,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/boozy-brunch-hamburg-fruehstueck/",
@@ -104,7 +112,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/restaurants-portugiesenviertel-hamburg/",
@@ -112,7 +120,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/herbst-restaurants-hamburg/",
@@ -120,7 +128,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
@@ -128,7 +136,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
@@ -136,7 +144,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/versteckte-cafes/",
@@ -144,7 +152,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/draussen-fruehstueck-hamburg/",
@@ -152,7 +160,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/matcha-hamburg/",
@@ -160,7 +168,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/ausfluege-hamburg-himmelfahrtswochenende/",
@@ -168,7 +176,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/hofcafes-in-und-um-hamburg/",
@@ -176,7 +184,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/ausfluege-wochenende-hamburg/",
@@ -184,7 +192,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/tolle-ausfluege-ans-meer-ostsee-nordsee/",
@@ -192,7 +200,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/happy-hour-hamburg/",
@@ -200,7 +208,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/11-tolle-orte-fuer-ein-feierabendbier/",
@@ -208,15 +216,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2025/day-drinking-orte/",
-      "title": "11 feuchtfröhliche Day Drinking Orte",
-      "source": "mitvergnuegen",
-      "isBarRelevant": true,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/trinken-am-wasser-hamburg/",
@@ -224,7 +224,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/rooftop-bar-hamburg/",
@@ -232,7 +232,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/guenstig-essen-trinken-innenstadt/",
@@ -240,7 +240,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/cafes-hamburg-guenstig-fruehstuecken/",
@@ -248,7 +248,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/outlets-hamburg/",
@@ -256,7 +256,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/dinge-kostenlos-machen-hamburg/",
@@ -264,7 +264,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/kostenlose-unternehmungen-fruehling-hamburg/",
@@ -272,7 +272,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2022/hamburger-maultasche-mies-manisch-und-machtgierig-mein-nein-zu-moewen/",
@@ -280,7 +280,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/dauersingle-hamburg/",
@@ -288,7 +288,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2023/umzug-nach-eimsbuettel/",
@@ -296,7 +296,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2021/hamburg-hakt-nach-sprueche-teller/",
@@ -304,7 +304,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/herbertstrasse-hamburg-frau/",
@@ -312,7 +312,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/ausflugsziele-fuer-schlechtes-wetter/",
@@ -320,7 +320,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/hamburger-schietwetter/",
@@ -328,7 +328,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2023/11-saetze-die-man-beim-sex-und-bei-schietwetter-hoeren-kann/",
@@ -336,7 +336,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2023/umsonst-drinnen-hamburg/",
@@ -344,7 +344,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/11-spielplaetze-fuer-vergnuegte-kinder/",
@@ -352,7 +352,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/kostenlos-unternehmungen-kinder-hamburg/",
@@ -360,7 +360,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/kinderfreundliche-restaurants-hamburg/",
@@ -368,7 +368,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/secondhand-kinderlaeden-hamburg/",
@@ -376,7 +376,23 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2024/unternehmungen-regen-kinder-hamburg/",
+      "title": "11 Unternehmungen in Hamburg mit Kindern bei Regen",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": false,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/tipps-samstag-maerz-hamburg/",
+      "title": "11 Tipps für einen frühlingshaften Samstag im März",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": false,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/restaurants-schanzenviertel-hamburg/",
@@ -384,23 +400,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/11-laeden-fuer-koestliche-vegane-pizza/",
-      "title": "11 Läden für köstliche vegane Pizza",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/lueneburg-tipps-ausflug/",
-      "title": "11 Dinge, die man in Lüneburg gesehen und gemacht haben muss",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://mitvergnuegen.com/2023/open-air-clubs-berlin/",
@@ -408,7 +408,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://mitvergnuegen.com/2025/food-events-april-2025/",
@@ -416,7 +416,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://mitvergnuegen.com/2025/neueroeffnungen-berlin-restaurants-april-2025/",
@@ -424,7 +424,23 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/11-laeden-fuer-koestliche-vegane-pizza/",
+      "title": "11 Läden für köstliche vegane Pizza",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": true,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/lueneburg-tipps-ausflug/",
+      "title": "11 Dinge, die man in Lüneburg gesehen und gemacht haben muss",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": false,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/comfort-food-hamburg/",
@@ -432,7 +448,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/tipps-samstag-februar/",
@@ -440,15 +456,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/romantische-bars-hamburg/",
-      "title": "11 romantische Bars für den Valentinstag",
-      "source": "mitvergnuegen",
-      "isBarRelevant": true,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/cafes-fruehstuecken-in-hamburg/",
@@ -456,7 +464,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/lieblingscafes-redaktion-hamburg/",
@@ -464,31 +472,15 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
-      "url": "https://hamburg.mitvergnuegen.com/2026/pho-suppe-hamburg/",
-      "title": "11 Läden für phantastische Phở-Suppe",
+      "url": "https://hamburg.mitvergnuegen.com/2026/romantische-bars-hamburg/",
+      "title": "11 romantische Bars für den Valentinstag",
       "source": "mitvergnuegen",
-      "isBarRelevant": false,
+      "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/gute-laune-orte-hamburg/",
-      "title": "11 ultimative Gute-Laune-Orte in Hamburg",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/schoene-cafes-in-hamburg/",
-      "title": "11 schöne Cafés in Hamburg",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     }
   ],
   "events": [
@@ -498,7 +490,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/flohmaerkte-hamburg/",
@@ -506,7 +498,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://mitvergnuegen.com/2025/food-events-april-2025/",
@@ -514,17 +506,25 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     }
   ],
   "barRelevant": [
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "title": "11 feuchtfröhliche Day Drinking Orte",
+      "source": "mitvergnuegen",
+      "isBarRelevant": true,
+      "isFoodRelevant": false,
+      "scrapedAt": "2026-03-07T03:03:34.493Z"
+    },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/boozy-brunch-hamburg-fruehstueck/",
       "title": "11 feuchtfröhliche Orte für Boozy Brunch",
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/happy-hour-hamburg/",
@@ -532,7 +532,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/11-tolle-orte-fuer-ein-feierabendbier/",
@@ -540,15 +540,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2025/day-drinking-orte/",
-      "title": "11 feuchtfröhliche Day Drinking Orte",
-      "source": "mitvergnuegen",
-      "isBarRelevant": true,
-      "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/trinken-am-wasser-hamburg/",
@@ -556,7 +548,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/rooftop-bar-hamburg/",
@@ -564,7 +556,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/guenstig-essen-trinken-innenstadt/",
@@ -572,7 +564,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://mitvergnuegen.com/2023/open-air-clubs-berlin/",
@@ -580,7 +572,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/romantische-bars-hamburg/",
@@ -588,17 +580,25 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": false,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     }
   ],
   "foodRelevant": [
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "title": "11 Cafés mit schöner Terrasse zum Draußensitzen",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": true,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/sonntagsbrunch-hamburg/",
       "title": "11 Orte für einen leckeren Sonntagsbrunch in Hamburg",
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/cafes-am-wasser-in-hamburg/",
@@ -606,7 +606,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/restaurants-innenstadt-hamburg/",
@@ -614,7 +614,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/boozy-brunch-hamburg-fruehstueck/",
@@ -622,7 +622,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/restaurants-portugiesenviertel-hamburg/",
@@ -630,7 +630,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/herbst-restaurants-hamburg/",
@@ -638,7 +638,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
@@ -646,7 +646,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
@@ -654,7 +654,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/versteckte-cafes/",
@@ -662,7 +662,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/draussen-fruehstueck-hamburg/",
@@ -670,7 +670,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/hofcafes-in-und-um-hamburg/",
@@ -678,7 +678,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/guenstig-essen-trinken-innenstadt/",
@@ -686,7 +686,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": true,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/cafes-hamburg-guenstig-fruehstuecken/",
@@ -694,7 +694,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.466Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2022/hamburger-maultasche-mies-manisch-und-machtgierig-mein-nein-zu-moewen/",
@@ -702,7 +702,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/hamburger-schietwetter/",
@@ -710,7 +710,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/kinderfreundliche-restaurants-hamburg/",
@@ -718,7 +718,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/restaurants-schanzenviertel-hamburg/",
@@ -726,15 +726,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/11-laeden-fuer-koestliche-vegane-pizza/",
-      "title": "11 Läden für köstliche vegane Pizza",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://mitvergnuegen.com/2025/food-events-april-2025/",
@@ -742,7 +734,15 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
+    },
+    {
+      "url": "https://hamburg.mitvergnuegen.com/2026/11-laeden-fuer-koestliche-vegane-pizza/",
+      "title": "11 Läden für köstliche vegane Pizza",
+      "source": "mitvergnuegen",
+      "isBarRelevant": false,
+      "isFoodRelevant": true,
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2026/comfort-food-hamburg/",
@@ -750,7 +750,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2025/cafes-fruehstuecken-in-hamburg/",
@@ -758,7 +758,7 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     },
     {
       "url": "https://hamburg.mitvergnuegen.com/2024/lieblingscafes-redaktion-hamburg/",
@@ -766,30 +766,190 @@
       "source": "mitvergnuegen",
       "isBarRelevant": false,
       "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
-    },
-    {
-      "url": "https://hamburg.mitvergnuegen.com/2026/schoene-cafes-in-hamburg/",
-      "title": "11 schöne Cafés in Hamburg",
-      "source": "mitvergnuegen",
-      "isBarRelevant": false,
-      "isFoodRelevant": true,
-      "scrapedAt": "2026-02-28T03:03:58.467Z"
+      "scrapedAt": "2026-03-07T03:03:34.494Z"
     }
   ],
   "bars": [
     {
-      "name": "braena",
-      "address": "Heußweg 93, 20255 Hamburg",
+      "name": "Karo Karo",
+      "address": "Marktstraße 41, 20357 Hamburg",
       "neighborhood": null,
       "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/sonntagsbrunch-hamburg/",
-      "articleTitle": "11 Orte für einen leckeren Sonntagsbrunch in Hamburg"
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Torhauskantine",
+      "address": "Wiesendamm 3, 22305 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Enchanté Aperitivo Drinks Wine & Food",
+      "address": "Wohlwillstraße 49, 20359 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Katze",
+      "address": "Schulterblatt 88, 20357 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Pony Bar",
+      "address": "Allende-Platz 1, 20146 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Kante",
+      "address": "Wohlwillstraße 54, 20359 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Mastroianni Bar",
+      "address": "Eppendorfer Weg 79, 20259 Hamburg",
+      "neighborhood": "Eppendorf",
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Sierichs Biergarten",
+      "address": "Südring 5 b, 22303 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Entenwerder1",
+      "address": "Entenwerder 1, 20539 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Little Amsterdam",
+      "address": "Klosterallee 69, 20144 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Mimosas Brunch Club Neustadt",
+      "address": "Wexstraße 27, 20355 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/day-drinking-orte/",
+      "articleTitle": "11 feuchtfröhliche Day Drinking Orte"
+    },
+    {
+      "name": "Klippkroog",
+      "address": "Große Bergstraße 255, 22767 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "LüttLiv",
+      "address": "Maurienstraße 19, 22305 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Elbgold in der Schanze",
+      "address": "Lagerstraße 34c, 20357 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Café Kofje",
+      "address": "Walddörferstraße 12, 22041 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
     },
     {
       "name": "Trucys",
       "address": "Winterhuder Weg 142, 22085 Hamburg",
       "neighborhood": "Winterhude",
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Café Johanna",
+      "address": "Venusberg 26c, 20459 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Cafe Schmidt Elbe",
+      "address": "Große Elbstraße 212, Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Petit Café",
+      "address": "Hegestraße 29, 20249 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Klatschmohn",
+      "address": "Arnoldstraße 48, 22763 Hamburg, Deutschland",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Marie Louise",
+      "address": "Poolstraße 32, 20355 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "Glück und Selig",
+      "address": "Heußweg 97, 20255 Hamburg",
+      "neighborhood": null,
+      "source": "mitvergnuegen",
+      "articleUrl": "https://hamburg.mitvergnuegen.com/2026/cafes-mit-terrasse-hamburg/",
+      "articleTitle": "11 Cafés mit schöner Terrasse zum Draußensitzen"
+    },
+    {
+      "name": "braena",
+      "address": "Heußweg 93, 20255 Hamburg",
+      "neighborhood": null,
       "source": "mitvergnuegen",
       "articleUrl": "https://hamburg.mitvergnuegen.com/2025/sonntagsbrunch-hamburg/",
       "articleTitle": "11 Orte für einen leckeren Sonntagsbrunch in Hamburg"
@@ -851,22 +1011,6 @@
       "articleTitle": "11 Orte für einen leckeren Sonntagsbrunch in Hamburg"
     },
     {
-      "name": "Glück und Selig",
-      "address": "Heußweg 97, 20255 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/sonntagsbrunch-hamburg/",
-      "articleTitle": "11 Orte für einen leckeren Sonntagsbrunch in Hamburg"
-    },
-    {
-      "name": "Mimosas Brunch Club Neustadt",
-      "address": "Wexstraße 27, 20355 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/sonntagsbrunch-hamburg/",
-      "articleTitle": "11 Orte für einen leckeren Sonntagsbrunch in Hamburg"
-    },
-    {
       "name": "Cafe Canale",
       "address": "Poelchaukamp 7, 22301 Hamburg",
       "neighborhood": null,
@@ -893,14 +1037,6 @@
     {
       "name": "Nord Coast Coffee Roastery",
       "address": "Deichstraße 9, 20459 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-am-wasser-in-hamburg/",
-      "articleTitle": "11 Cafés in Hamburg am Wasser"
-    },
-    {
-      "name": "Little Amsterdam",
-      "address": "Klosterallee 69, 20144 Hamburg",
       "neighborhood": null,
       "source": "mitvergnuegen",
       "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-am-wasser-in-hamburg/",
@@ -1083,14 +1219,6 @@
       "articleTitle": "11 richtig gute Restaurants & Cafés im Portugiesenviertel, die ihr kennen solltet"
     },
     {
-      "name": "Café Johanna",
-      "address": "Venusberg 26c, 20459 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/restaurants-portugiesenviertel-hamburg/",
-      "articleTitle": "11 richtig gute Restaurants & Cafés im Portugiesenviertel, die ihr kennen solltet"
-    },
-    {
       "name": "Casa Ricardo",
       "address": "Rambachstraße 7, 20459 Hamburg",
       "neighborhood": null,
@@ -1233,198 +1361,6 @@
       "source": "mitvergnuegen",
       "articleUrl": "https://hamburg.mitvergnuegen.com/2025/herbst-restaurants-hamburg/",
       "articleTitle": "11 gemütliche Restaurants für leckeres Herbst-Essen"
-    },
-    {
-      "name": "EM Breakfastclub",
-      "address": "Neuer Pferdemarkt 14, 20359 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Playground Coffee St. Pauli",
-      "address": "Detlev-Bremer-Strasse 21, 20359 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Maria Café",
-      "address": "Kleine Freiheit 68, 22767 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Café Miller",
-      "address": "Detlev-Bremer-Straße 16, 20359 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Kandie Shop",
-      "address": "Wohlwillstraße 16, 20359 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Good One Café",
-      "address": "Sternstraße 25, 20357 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Blackline St. Pauli",
-      "address": "Paul-Roosen-Straße 39, 22767 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Kraweel",
-      "address": "Paul-Roosen-Straße 6, 22767 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Mother's Fine Coffee",
-      "address": "Davidstraße 29, 20359 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Kante",
-      "address": "Wohlwillstraße 54, 20359 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Kjeks",
-      "address": "Schanzenstraße 79, 20357 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/cafes-st-pauli/",
-      "articleTitle": "11 Cafés auf St. Pauli, die ihr kennen solltet"
-    },
-    {
-      "name": "Marshall Street Coffee",
-      "address": "Schopenstehl 30, 20095 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Eleven 11:11 Eleven",
-      "address": "Beethovenstr. 13, 22083 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Marie Louise",
-      "address": "Poolstraße 32, 20355 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "La Caffètteria",
-      "address": "Abendrothsweg 54, 20251 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Nord Coast Coffee Roastery Eppendorfer Weg",
-      "address": "Eppendorfer Weg 171, 20253 Hamburg",
-      "neighborhood": "Eppendorf",
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Good One Café Schanze",
-      "address": "Sternstraße 25, 20357 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Klippkroog",
-      "address": "Große Bergstraße 255, 22767 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Rumi",
-      "address": "Gertigstraße 23, 22303 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Okaya",
-      "address": "Mercado, Ottensener Hauptstraße 10, 22765 Hamburg",
-      "neighborhood": "Ottensen",
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Mikkels Backstube & Cafe",
-      "address": "Kleine Rainstraße 10, 22765 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Knusperkeks",
-      "address": "Veringstraße 30, 21107 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Karlsons Grindel",
-      "address": "Rutschbahn 15A, 20146 Hamburg",
-      "neighborhood": null,
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
-    },
-    {
-      "name": "Favorita",
-      "address": "Eppendorfer Weg 215, 20253 Hamburg",
-      "neighborhood": "Eppendorf",
-      "source": "mitvergnuegen",
-      "articleUrl": "https://hamburg.mitvergnuegen.com/2025/21-cafes-fruehstuecken-hamburg/",
-      "articleTitle": "21 fantastische Orte zum Frühstücken in Hamburg"
     }
   ]
 }

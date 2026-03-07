@@ -1,57 +1,21 @@
 {
-  "lastUpdated": "2026-02-28T08:36:19.974Z",
-  "count": 34,
+  "lastUpdated": "2026-03-07T03:01:42.091Z",
+  "count": 30,
   "sources": {
     "nextmedia": {
       "url": "https://nextmedia-hamburg.de/events/",
-      "count": 7
+      "count": 6
     },
     "aric": {
       "url": "https://aric-hamburg.de/events/",
-      "count": 25
+      "count": 26
     },
     "kreativgesellschaft": {
       "url": "https://kreativgesellschaft.org/termine/",
-      "count": 8
+      "count": 0
     }
   },
   "events": [
-    {
-      "title": "Audiencers' Festival",
-      "date": "2026-03-03",
-      "time": "09:00 - 17:00",
-      "venue": "SPACE | Am Sandtorkai 27 20457 Hamburg",
-      "url": "https://nextmedia-hamburg.de/events/kalender/audiencers-festival/",
-      "source": "nextmedia",
-      "type": "networking"
-    },
-    {
-      "title": "ARIC Brown Bag Session: AI & Digital Methods for Smart Mobility",
-      "date": "2026-03-03",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-ai-digital-methods-for-smart-mobility/",
-      "source": "aric",
-      "type": "techtalk"
-    },
-    {
-      "title": "ARIC Brown Bag Session: Innovationsland Deutschland",
-      "date": "2026-03-05",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-innovationsland-deutschland/",
-      "source": "aric",
-      "type": "meetup"
-    },
-    {
-      "title": "Fragestunde - kompakte Beratung für Kreative (online)",
-      "date": "2026-03-05",
-      "time": "15:00 - 17:00",
-      "venue": "Hamburg",
-      "url": "https://kreativgesellschaft.org/termine/",
-      "source": "kreativgesellschaft",
-      "type": "networking"
-    },
     {
       "title": "ARIC-Tipp | AgentCamp – Hamburg",
       "date": "2026-03-07",
@@ -107,6 +71,15 @@
       "type": "meetup"
     },
     {
+      "title": "ARIC-Tipp | Online-Workshop: Diskriminierung durch KI",
+      "date": "2026-03-17",
+      "time": "13:00 - 15:00",
+      "venue": "ARIC Hamburg",
+      "url": "https://aric-hamburg.de/veranstaltung/diskriminierung-durch-ki/",
+      "source": "aric",
+      "type": "networking"
+    },
+    {
       "title": "Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker",
       "date": "2026-03-18",
       "time": "16:00 - 18:00",
@@ -143,24 +116,6 @@
       "type": "meetup"
     },
     {
-      "title": "Fragestunde - kompakte Beratung für Kreative",
-      "date": "2026-03-26",
-      "time": "15:00 - 17:00",
-      "venue": "Hamburg",
-      "url": "https://kreativgesellschaft.org/termine/",
-      "source": "kreativgesellschaft",
-      "type": "networking"
-    },
-    {
-      "title": "Gamecity Treff März 2026",
-      "date": "2026-03-26",
-      "time": "18:00 - 23:00",
-      "venue": "Hamburg",
-      "url": "https://kreativgesellschaft.org/termine/",
-      "source": "kreativgesellschaft",
-      "type": "meetup"
-    },
-    {
       "title": "Perfektion war gestern. Stärken stärken ist heute!",
       "date": "2026-03-30",
       "time": "16:00 - 18:00",
@@ -177,6 +132,24 @@
       "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-beyond-quantum-resilience-embedded-security-with-for-pqc/",
       "source": "aric",
       "type": "techtalk"
+    },
+    {
+      "title": "ARIC-Tipp | ChefTreff AI Hackathon",
+      "date": "2026-04-09",
+      "time": "00:00 - 23:59",
+      "venue": "Factory Hammerbrooklyn",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-tipp-cheftreff-ai-hackathon/",
+      "source": "aric",
+      "type": "pitch"
+    },
+    {
+      "title": "ARIC Movie Night | The Imitation Game",
+      "date": "2026-04-09",
+      "time": "19:30 - 22:00",
+      "venue": "Passage Kino",
+      "url": "https://aric-hamburg.de/veranstaltung/aric-movie-night-the-imitation-game/",
+      "source": "aric",
+      "type": "startup"
     },
     {
       "title": "ARIC Brown Bag: Balancing edge autonomy and cloud intelligence",
@@ -257,15 +230,6 @@
       "venue": "Kloster Eberbach",
       "url": "https://aric-hamburg.de/veranstaltung/faz-konferenz-fuer-kuenstliche-intelligenz/",
       "source": "aric",
-      "type": "networking"
-    },
-    {
-      "title": "Portside Game Assembly 2026",
-      "date": "2026-06-26",
-      "time": "09:30 - 23:59",
-      "venue": "Gamecity Hamburg veranstaltet am",
-      "url": "https://kreativgesellschaft.org/termine/",
-      "source": "kreativgesellschaft",
       "type": "networking"
     },
     {

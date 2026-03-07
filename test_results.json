@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-02-28T03:05:32.084Z",
-  "passed": 21,
-  "failed": 2,
+  "timestamp": "2026-03-07T03:05:00.716Z",
+  "passed": 22,
+  "failed": 1,
   "total": 23,
   "ok": false,
   "tests": [
     {
       "test": "/api/places status 200",
       "ok": true,
-      "detail": "200, 8475ms"
+      "detail": "200, 4900ms"
     },
     {
       "test": "/api/places has entries",
@@ -22,13 +22,13 @@
     },
     {
       "test": "/api/places < 5000ms (Overpass live)",
-      "ok": false,
-      "detail": "8475ms"
+      "ok": true,
+      "detail": "4900ms"
     },
     {
       "test": "/api/hot status 200",
       "ok": true,
-      "detail": "200, 2221ms"
+      "detail": "200, 1710ms"
     },
     {
       "test": "/api/hot all have vibeScore/hotScore",
@@ -38,12 +38,12 @@
     {
       "test": "/api/hot < 200ms",
       "ok": false,
-      "detail": "2221ms"
+      "detail": "1710ms"
     },
     {
       "test": "/api/events status 200",
       "ok": true,
-      "detail": "200, 83ms"
+      "detail": "200, 52ms"
     },
     {
       "test": "/api/events returns array",
@@ -53,7 +53,7 @@
     {
       "test": "/api/sources status 200",
       "ok": true,
-      "detail": "200, 17ms"
+      "detail": "200, 8ms"
     },
     {
       "test": "/api/sources all have status",
@@ -68,7 +68,7 @@
     {
       "test": "/api/weather has temp/weatherEmoji",
       "ok": true,
-      "detail": "🌧️ 10.7°C"
+      "detail": "☁️ 4.7°C"
     },
     {
       "test": "/api/weather < 100ms",

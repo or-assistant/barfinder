@@ -1,33 +1,13 @@
 [
   {
     "title": "Founders Running Club Hamburg",
-    "date": "2026-02-28",
+    "date": "2026-03-07",
     "time": "",
     "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/founders-running-club-hamburg-28-2-26",
+    "url": "https://startupcity.hamburg/news-events/events/founders-running-club-hamburg-7-3-26",
     "source": "startupcity",
     "type": "startup",
     "description": "Founders Running Club (FRC) brings founders, investors, tech, creative people and startup enthusiasts together for weekly easy runs and networking."
-  },
-  {
-    "title": "Universities in Hamburg as Startup Launchpads",
-    "date": "2026-03-04",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/universities-in-hamburg-as-startup-launchpads",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Discover how Hamburg’s universities can power your startup journey."
-  },
-  {
-    "title": "build fridays hamburg",
-    "date": "2026-03-06",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-6-3-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
   },
   {
     "title": "Impact Academy: understanding the startup funding landscape",
@@ -40,6 +20,26 @@
     "description": "Find potential funding for your business with Startup City Hamburg."
   },
   {
+    "title": "The Female AI Club x Pragal Prinzenberg: Community Meet-up",
+    "date": "2026-03-11",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/the-female-ai-club-x-pragal-prinzenberg-community-meet-up",
+    "source": "startupcity",
+    "type": "networking",
+    "description": "The first official Female AI Club Meet-up in Hamburg is coming up."
+  },
+  {
+    "title": "Hamburg Global Innovators Circle Meetup",
+    "date": "2026-03-11",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/hamburg-global-innovators-circle-meetup-3-26",
+    "source": "startupcity",
+    "type": "afterwork",
+    "description": "No talks, no programme. Just good food, good drinks, good conversations, and celebrating one year of building together the Hamburg Global Innovators Circle."
+  },
+  {
     "title": "Power ventures: how to morph industries with green innovation",
     "date": "2026-03-12",
     "time": "",
@@ -50,6 +50,16 @@
     "description": "Join in for an inspiring evening at the intersection of climate innovation, entrepreneurship, and collaboration."
   },
   {
+    "title": "12MIN.ME | HAMBURG | IGNITE  #116",
+    "date": "2026-03-12",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/12minme-hamburg-ignite-116",
+    "source": "startupcity",
+    "type": "social",
+    "description": "IGNITE is the standard event of 12min.me with three talks on different topics! All topics are welcome at the monthly talks."
+  },
+  {
     "title": "Internorga 2026",
     "date": "2026-03-13",
     "time": "",
@@ -58,6 +68,26 @@
     "source": "startupcity",
     "type": "social",
     "description": "From 13 to 17 March 2026, Hamburg will once again be the absolute hotspot for the entire out-of-home market with INTERNORGA."
+  },
+  {
+    "title": "build fridays hamburg",
+    "date": "2026-03-13",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-13-3-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
+  },
+  {
+    "title": "International Exchange Night",
+    "date": "2026-03-13",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/international-exchange-night",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "Join in for the final highlight of the START Sprint Week, where student teams present their MVP pitches developed during the intensive trial sprint."
   },
   {
     "title": "d3con 2026",
@@ -78,6 +108,16 @@
     "source": "startupcity",
     "type": "social",
     "description": "Want to shape 2026 with courage? On 17 March 2026, everything will revolve around you and your company."
+  },
+  {
+    "title": "How to: Respond confidently to critical questions",
+    "date": "2026-03-18",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/how-to-respond-confidently-to-critical-questions",
+    "source": "startupcity",
+    "type": "social",
+    "description": "Lawyer Jannika Maaß-Schoon strengthens your communication and debating skills and shows you how to keep your composure under pressure."
   },
   {
     "title": "Digital Alumni Lunch: Founding – Now more than ever!",
@@ -170,6 +210,16 @@
     "description": "A barcamp has nothing to do with drinking. It's more about sharing knowledge and experiences."
   },
   {
+    "title": "WoHa! | Women’s Hackathon 2026",
+    "date": "2026-04-18",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/woha-womens-hackathon-2026",
+    "source": "startupcity",
+    "type": "tech",
+    "description": "On April 18, the third edition of ARIC's Hackathon for Women will take place."
+  },
+  {
     "title": "Startup toolbox: Personal Branding & Social Media",
     "date": "2026-04-21",
     "time": "",
@@ -240,6 +290,16 @@
     "description": "The OMR Festival with expo, conference, masterclasses, side events and live concerts is a festival for the digital universe."
   },
   {
+    "title": "How to: Press - How do I get into the media?",
+    "date": "2026-05-28",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/how-to-presse-how-do-i-get-into-the-media",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "How can you get your startup into the media? In this session, expert Ronja Ebeling shows you how you can place your topic in print and digital media."
+  },
+  {
     "title": "(Self-)Leadership for Female Founders",
     "date": "2026-06-03",
     "time": "",
@@ -248,6 +308,16 @@
     "source": "startupcity",
     "type": "startup",
     "description": "This full-day, interactive workshop offers an empowering space for female founders and aspiring leaders to explore what it truly means to lead."
+  },
+  {
+    "title": "Next.GenSummit for Good",
+    "date": "2026-06-04",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/nextgensummit-for-good-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "At the free Next.Gen Summit for Good, young founders and those interested in starting a business can take their idea or social startup to the next level."
   },
   {
     "title": "Hamburg Innovation Summit 2026",

@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "generated": "2026-02-23",
+    "generated": "2026-03-02",
     "sources": [
       "meetup.com",
       "lu.ma/hamburg",
+      "afterworkclub.de",
       "szene-hamburg.com",
       "domain knowledge"
     ],
@@ -537,199 +538,62 @@
   ],
   "one_time": [
     {
-      "name": "Open Game Night for English Speakers",
-      "date": "2026-02-24",
-      "location": "Würfel & Zucker",
-      "category": "social",
-      "time": "18:00",
-      "description": "English-speaking board game night im Brettspielcafé.",
-      "url": "https://www.meetup.com/de-DE/wuerfelundzucker/events/313145822/"
-    },
-    {
-      "name": "AWSC Spiele-Abend 25.02.",
-      "date": "2026-02-25",
-      "location": "itemis AG Hamburg",
-      "category": "social",
-      "time": "19:00",
-      "description": "After Work Social Club Spieleabend bei itemis AG.",
-      "url": "https://luma.com/hamburg"
-    },
-    {
-      "name": "12MIN.ME | FOCUS: INNOVATE #3",
-      "date": "2026-02-25",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "19:12",
-      "description": "Kurzvorträge à 12 Minuten + Networking. Fokus: Innovation.",
-      "url": "https://www.meetup.com/de-DE/12minhh/events/313142421/"
-    },
-    {
-      "name": "Open Gaming Night for Beginners",
-      "date": "2026-02-25",
-      "location": "Würfel & Zucker",
-      "category": "social",
-      "time": "18:00",
-      "description": "Einsteiger-freundliche offene Spielerunde.",
-      "url": "https://www.meetup.com/de-DE/wuerfelundzucker/events/313145724/"
-    },
-    {
-      "name": "Climate Coffee Hamburg",
-      "date": "2026-02-25",
-      "location": "Copenhagen Coffee Lab",
-      "address": "Poolstraße, 20355 Hamburg",
-      "category": "networking",
-      "time": "09:00",
-      "description": "Kaffee + Klima-Talk. Lockeres Morgen-Networking für Sustainability-Interessierte.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "DEAR WORLD — Week-Breaker",
-      "date": "2026-02-26",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "19:00",
-      "description": "Internationaler Afterwork-Abend. Neue Leute kennenlernen.",
-      "url": "https://www.meetup.com/de-DE/dear-world-hamburg-the-international-week-breaker/events/313366763/"
-    },
-    {
-      "name": "LLMs in Java — JUG Hamburg",
-      "date": "2026-02-26",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "19:00",
-      "description": "Java User Group Hamburg. Tech-Talk + Networking + Pizza & Bier.",
-      "url": "https://www.meetup.com/de-DE/jug-hamburg/events/313265701/"
-    },
-    {
-      "name": "Beyond Books Buchtreff — Growth Circle",
-      "date": "2026-02-26",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Buchclub zu Business & Persönlichkeitsentwicklung.",
-      "url": "https://www.meetup.com/de-DE/growth-circle-finanzen-karriere-pers-entwicklung/events/313020157/"
-    },
-    {
-      "name": "Selbstorganisation in Teams — Heykes & Karstens",
-      "date": "2026-02-26",
-      "location": "Heykes & Karstens Akademie",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Business-Impulsvortrag + Networking. Thema: Selbstorganisation.",
-      "url": "https://www.meetup.com/de-DE/netzwerken-mit-heykes-karstens/events/313223246/"
-    },
-    {
-      "name": "10x Impact with AI Agents",
-      "date": "2026-02-26",
-      "location": "OTTO",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:00",
-      "description": "Otto Group Event zu AI Agents. Talks + Networking. Waitlist mit 195+ Interessenten.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "After Work Club Hamburg",
-      "date": "2026-02-26",
-      "location": "Café Schöne Aussichten",
-      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
-      "category": "afterwork",
-      "time": "18:00",
-      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, Drinks, Tanzfläche. Planten un Blomen Blick.",
-      "price": "Eintritt",
-      "url": "https://afterworkclub.de/",
-      "confidence": "high"
-    },
-    {
-      "name": "Betreutes Spielen: Blood on the Clocktower",
-      "date": "2026-02-27",
-      "location": "Würfel & Zucker",
-      "category": "social",
-      "time": "18:30",
-      "description": "Angeleitetes Social Deduction Spiel für Erfahrene.",
-      "url": "https://www.meetup.com/de-DE/wuerfelundzucker/events/313163241/"
-    },
-    {
-      "name": "Health Network Hamburg Apéro Vol. 11",
-      "date": "2026-02-27",
-      "location": "RoofDrop Bar",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Health-Branche trifft sich zum Apéro. Lockeres Networking mit Drinks auf der Rooftop Bar.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Hamburg Hackathon: Innovate the Skies & Beyond",
-      "date": "2026-02-28",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "08:00",
-      "description": "Ganztags-Hackathon. Social Developers Club.",
-      "url": "https://www.meetup.com/de-DE/social-developers-club/events/313109806/"
-    },
-    {
-      "name": "Offline Reading Party",
-      "date": "2026-03-01",
-      "location": "Kleine Milchkanne",
-      "address": "Hamburg",
-      "category": "social",
-      "time": "15:00",
-      "description": "Offline Club Hamburg: Gemeinsam lesen, offline sein, Kaffee trinken. Digital Detox Event.",
-      "price": "10 EUR",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "F*ck the Small Talk #1",
+      "name": "F*ck the Small Talk Hamburg #1",
       "date": "2026-03-02",
       "location": "TBA (Hamburg)",
       "category": "networking",
       "time": "18:30",
-      "description": "Deep Connection Event: Tiefgründige Gespräche statt Smalltalk. Curious Connection Club.",
-      "url": "https://www.meetup.com/de-DE/meetnewpeoplehamburg/events/313285907/"
+      "description": "Deep Connection Event: Tiefgründige Gespräche statt Smalltalk. Sold out auf lu.ma.",
+      "price": "18€",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
     },
     {
-      "name": "Rust Hack & Learn March 2026",
-      "date": "2026-03-04",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "18:00",
-      "description": "Rust Meetup: Hack & Learn Session. Coden + Austausch.",
-      "url": "https://www.meetup.com/de-DE/rust-meetup-hamburg/events/311942636/"
-    },
-    {
-      "name": "OpenCoffee Club Hamburg — Mehr Kaffee!",
+      "name": "OpenCoffee Club Hamburg",
       "date": "2026-03-04",
       "location": "TBA (Hamburg)",
       "category": "networking",
       "time": "09:00",
       "description": "Lockeres Business-Frühstück für Unternehmer & Freelancer.",
-      "url": "https://www.meetup.com/de-DE/opencoffeeclub_hamburg/events/313203153/"
+      "price": "kostenlos",
+      "url": "https://www.meetup.com/de-DE/opencoffeeclub_hamburg/events/313203153/",
+      "confidence": "high"
+    },
+    {
+      "name": "Community Brainstorming @ betahaus Schanze",
+      "date": "2026-03-04",
+      "location": "betahaus | Schanze",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "19:00",
+      "description": "The Offline Club Hamburg: Community-Brainstorming. Sold out auf lu.ma.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Agentic Coding Meetup",
+      "date": "2026-03-04",
+      "location": "Am Sandtorkai 27",
+      "address": "Am Sandtorkai 27, 20457 Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Meetup zu Agentic Coding. Talks + Networking in der HafenCity.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
     },
     {
       "name": "Board Games @ Café MAY Barmbek",
       "date": "2026-03-05",
       "location": "Café MAY",
+      "address": "Fuhlsbüttler Str. 36, 22305 Hamburg",
       "category": "social",
       "time": "19:00",
       "description": "360° Events Spieleabend im Café MAY.",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262415/"
-    },
-    {
-      "name": "Vue.js Meetup #19",
-      "date": "2026-03-05",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Vue.js Community Treffen. Talks + Networking.",
-      "url": "https://www.meetup.com/de-DE/hamburg-vue-js-meetup/events/313066853/"
+      "price": "kostenlos",
+      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262415/",
+      "confidence": "high"
     },
     {
       "name": "After Work Club Hamburg",
@@ -738,29 +602,68 @@
       "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
       "category": "afterwork",
       "time": "18:00",
-      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, Drinks, Tanzfläche.",
+      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, Drinks, Tanzfläche. Gewinnzahl der Woche beachten!",
       "price": "Eintritt",
       "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "Power Ventures: Green Innovation",
+      "date": "2026-03-05",
+      "location": "1KOMMA5° Showroom Hamburg",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Carbon13 Event: How to morph industries with green innovation. Talks + Networking.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
       "confidence": "high"
     },
     {
       "name": "Drinks @ Reh Bar Ottensen",
       "date": "2026-03-06",
       "location": "Reh Bar",
+      "address": "Bahrenfelder Str. 157, 22765 Hamburg",
       "category": "afterwork",
       "time": "19:00",
       "description": "360° Events Afterwork-Drinks in der Reh Bar.",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262805/"
+      "price": "kostenlos",
+      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262805/",
+      "confidence": "high"
     },
     {
-      "name": "SGC International Womens Day 2026",
+      "name": "Music Bingo @ Hard Rock Cafe",
+      "date": "2026-03-06",
+      "location": "Hard Rock Cafe Hamburg",
+      "address": "Bei den St. Pauli-Landungsbrücken 5, 20359 Hamburg",
+      "category": "social",
+      "time": "19:30",
+      "description": "Music Bingo Night: Musik erkennen + Bingo spielen. Fun Social Event mit Preisen.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "SGC International Women's Day 2026",
       "date": "2026-03-08",
       "location": "SGC Studio",
       "address": "Hamburg",
       "category": "networking",
       "time": "10:00",
-      "description": "Reclaim Your Power: Internationaler Frauentag im SGC Studio. Empowerment + Networking.",
+      "description": "Reclaim Your Power: Internationaler Frauentag. Empowerment + Networking.",
       "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Bits & Pretzels Community Hamburg: Afterwork",
+      "date": "2026-03-10",
+      "location": "1KOMMA5° Showroom Hamburg",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Network & Leadership Afterwork Event. Waitlist auf lu.ma — sehr beliebt!",
+      "price": "kostenlos",
       "url": "https://luma.com/hamburg",
       "confidence": "high"
     },
@@ -768,10 +671,73 @@
       "name": "Bee for Breakfast — Beehive Hamburg",
       "date": "2026-03-10",
       "location": "Beehive Hamburg City",
+      "address": "Willy-Brandt-Str. 75, 20459 Hamburg",
       "category": "networking",
       "time": "09:30",
-      "description": "Business-Frühstück im Beehive Coworking.",
-      "url": "https://www.meetup.com/de-DE/meetup-group-chfcpdue/events/313095557/"
+      "description": "Monatliches Business-Frühstück im Beehive Coworking.",
+      "price": "kostenlos",
+      "url": "https://www.meetup.com/de-DE/meetup-group-chfcpdue/events/313095557/",
+      "confidence": "high"
+    },
+    {
+      "name": "OpenClaw Hamburg Meetup",
+      "date": "2026-03-11",
+      "location": "Neuer Jungfernstieg 5",
+      "address": "Neuer Jungfernstieg 5, 20354 Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "OpenClaw Community Meetup. Waitlist mit 55+ Interessenten.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "After Work Club Hamburg",
+      "date": "2026-03-12",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
+      "category": "afterwork",
+      "time": "18:00",
+      "description": "Hamburgs Original-Afterwork. Jeden Donnerstag: House, Dance Classics, Drinks.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "Agentic Conf Hamburg 2026",
+      "date": "2026-03-13",
+      "location": "SAE Institute Hamburg",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "09:00",
+      "description": "Ganztägige Konferenz zu AI Agents. 121+ Interessenten. Hochkarätig besetzt.",
+      "price": "117,81€",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Hamburger Zukunftsentscheid: Grün, aber um welchen Preis?",
+      "date": "2026-03-13",
+      "location": "Haus 73",
+      "address": "Schulterblatt 73, 20357 Hamburg",
+      "category": "social",
+      "time": "19:00",
+      "description": "Studopolis-Debatte über Hamburgs Zukunft. Diskussion + Networking.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Drinks @ Reh Bar Ottensen",
+      "date": "2026-03-13",
+      "location": "Reh Bar",
+      "address": "Bahrenfelder Str. 157, 22765 Hamburg",
+      "category": "afterwork",
+      "time": "19:00",
+      "description": "360° Events Afterwork-Drinks in der Reh Bar.",
+      "price": "kostenlos",
+      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
+      "confidence": "high"
     }
   ]
 }

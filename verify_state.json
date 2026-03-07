@@ -1,5 +1,5 @@
 {
-  "lastIndex": 50,
+  "lastIndex": 100,
   "flagged": [
     {
       "name": "Zum Silbersack",
@@ -391,8 +391,555 @@
         "osm": "not_found",
         "web": "alive"
       }
+    },
+    {
+      "name": "Bar 1910",
+      "address": "Kirchenallee 34-36, St. Georg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Central Congress",
+      "address": "Reesendamm, Innenstadt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Berglund",
+      "address": "Barmbeker Straße 83, Winterhude",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "A wolf will never be a pet",
+      "address": "Karolinenstraße 18, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Website dead (404)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Efi Bar",
+      "address": "Schulterblatt, Sternschanze",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Witwenball",
+      "address": "Große Bleichen, Innenstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Vin Aqua Vin",
+      "address": "Müggenkampstraße, Eimsbüttel",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Vineyard",
+      "address": "Weidenallee 10, Eimsbüttel",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Enchanté",
+      "address": "Wohlwillstraße, St. Pauli",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "W die Weinbar",
+      "address": "Mühlenkamp, Winterhude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Alte Druckerei",
+      "address": "Deichstraße 40, Altstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ufer Weinbar",
+      "address": "Eimsbütteler Chaussee, Eimsbüttel",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Neumann's am Grindel",
+      "address": "Grindelhof, Rotherbaum",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Gota Weinbar",
+      "address": "Jean-Paul-Weg 38, Jarrestadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Dal Fabbro Winebar",
+      "address": "Eppendorfer Weg 176, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "VIA DEI MILLE",
+      "address": "Eppendorfer Weg 287, Eppendorf",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kleines Jacob",
+      "address": "Elbchaussee 404, Othmarschen",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kleinhuis' Café & Weinstube",
+      "address": "Neanderstraße 27, Neustadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Gastronomie Pütter",
+      "address": "Harvestehuder Weg 44, Harvestehude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Restaurant Schoppenhauer",
+      "address": "Reimerstwiete 20-22, Speicherstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Dorotheum Weinbar",
+      "address": "Dorotheenstraße 176, Winterhude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Guter Wein Weinlokal",
+      "address": "Kellinghusenstraße 15, Eppendorf",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "HADLEY's",
+      "address": "Beim Schlump 84a, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Neumanns Bistro St. Georg",
+      "address": "Lange Reihe 101, St. Georg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Il Garage",
+      "address": "Kleine Rainstraße 3, Ottensen",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Heritage Bar & Restaurant",
+      "address": "An der Alster 52, St. Georg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "TWOSIX Rooftop Weinbar",
+      "address": "Marseiller Straße 2, Neustadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "1700 Winery Bar",
+      "address": "Ferdinandstraße 15, Altstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Goldfischglas",
+      "address": "Eppendorfer Weg 178, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Pelican Bar",
+      "address": "Am Brunnenhof 2, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Botanik Distrikt",
+      "address": "Eppendorfer Landstraße 180, Eppendorf",
+      "category": "bar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Clouds",
+      "address": "Reeperbahn 1, Tanzende Türme",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Standard",
+      "address": "Hamburger Berg, St. Pauli",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Tower Bar",
+      "address": "Seewartenstraße 9, Hotel Hafen Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Kleinraumdisko",
+      "address": "Neuer Kamp 17, St. Pauli",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Kleines Phi",
+      "address": "Feldstraße 36, Karolinenviertel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "KOPS Bar",
+      "address": "Neuer Pferdemarkt 36, St. Pauli",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Black Forest Bar",
+      "address": "Eppendorfer Weg 185, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bierkrug",
+      "address": "Eppendorfer Weg 220, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Strandpauli",
+      "address": "St. Pauli Fischmarkt 28a",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Nachtasyl",
+      "address": "Alstertor 1, Thalia Theater",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Astra Stube",
+      "address": "Max-Brauer-Allee 200, Altona",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
     }
   ],
-  "verified": 50,
-  "lastRun": "2026-02-22T03:10:35.894Z"
+  "verified": 100,
+  "lastRun": "2026-03-01T03:08:54.284Z"
 }

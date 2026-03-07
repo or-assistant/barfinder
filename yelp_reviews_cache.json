@@ -16,6 +16,14 @@
     "reviewCount": 20
   },
   {
+    "name": "Klimperkiste",
+    "rating": 4.3,
+    "reviewSnippet": "A cozy little bar, mixed with tourists and locals. Nice staff, very reasonable prices.",
+    "source": "yelp",
+    "searchCategory": "bars",
+    "reviewCount": 116
+  },
+  {
     "name": "Boilerman Bar",
     "rating": 4.6,
     "reviewSnippet": "25Hours Hotel Altes Hafenamt, HafenCity€€Closed until 5:00 PM",
@@ -24,12 +32,12 @@
     "reviewCount": 11
   },
   {
-    "name": "3-Zimmerwohnung",
-    "rating": 4.5,
-    "reviewSnippet": "Wow. Really cool bar. I was well impressed to find the first Tornado table since I've been in...",
+    "name": "The Chug Club",
+    "rating": 4.7,
+    "reviewSnippet": "Attentive, precise and super easy going. Best bar service I've ever experienced, I think.",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 64
+    "reviewCount": 24
   },
   {
     "name": "The Boilerman Bar",
@@ -40,12 +48,20 @@
     "reviewCount": 67
   },
   {
-    "name": "Frau Möller",
-    "rating": 4,
-    "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
+    "name": "3-Zimmerwohnung",
+    "rating": 4.5,
+    "reviewSnippet": "Wow. Really cool bar. I was well impressed to find the first Tornado table since I've been in...",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 275
+    "reviewCount": 64
+  },
+  {
+    "name": "Daniel’s Company",
+    "rating": 4.8,
+    "reviewSnippet": "War Samstag wieder eine super Party Stimmung im Daniels und tolle Gäste.. Dj Noak u. so gar der Cult Dj legte mahl wieser auf .TOLLER ABEND",
+    "source": "yelp",
+    "searchCategory": "bars",
+    "reviewCount": 5
   },
   {
     "name": "Paddy’s Bar",
@@ -69,15 +85,7 @@
     "reviewSnippet": "make it to the bar you'll probably be slightly amazed, even if you see great bars almost everywhere...",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 43
-  },
-  {
-    "name": "Gunclub",
-    "rating": 4.9,
-    "reviewSnippet": "This is a real bar with really good music and authentic staff and a great selection of drinks.",
-    "source": "yelp",
-    "searchCategory": "bars",
-    "reviewCount": 9
+    "reviewCount": 42
   },
   {
     "name": "Campari Dachterrasse",
@@ -88,6 +96,14 @@
     "reviewCount": 19
   },
   {
+    "name": "Frau Möller",
+    "rating": 4,
+    "reviewSnippet": "I love the atmosphere here, as it does have the feel of a dive bar but with great bar food as well.",
+    "source": "yelp",
+    "searchCategory": "bars",
+    "reviewCount": 275
+  },
+  {
     "name": "Oyster Bar",
     "rating": 5,
     "reviewSnippet": "Der Bringer, der absolute Bringer in Familie Kowalkes Restaurant-Reich ist die winzige charmante Oyster Bar. Hinter dem kleinen Tresen dieser wie aus…",
@@ -96,20 +112,20 @@
     "reviewCount": 1
   },
   {
-    "name": "Klimperkiste",
-    "rating": 4.3,
-    "reviewSnippet": "A cozy little bar, mixed with tourists and locals. Nice staff, very reasonable prices.",
+    "name": "Diamond Sky",
+    "rating": 3.8,
+    "reviewSnippet": "Super Location mit Sternenhimmel. Bequeme Sofas. Freundliches Personal. leckere Shisha . Jeden Tag verschiedene Angebote. Günstige Getränke Preise.…",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 116
+    "reviewCount": 4
   },
   {
-    "name": "Meyer Lansky’s",
-    "rating": 3.9,
-    "reviewSnippet": "Drink prices are good though during happy hour so I'd recommend trying it out.",
+    "name": "Gunclub",
+    "rating": 4.9,
+    "reviewSnippet": "This is a real bar with really good music and authentic staff and a great selection of drinks.",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 93
+    "reviewCount": 9
   },
   {
     "name": "Fundbureau",
@@ -120,14 +136,6 @@
     "reviewCount": 30
   },
   {
-    "name": "Ilohh Bar",
-    "rating": 4.9,
-    "reviewSnippet": "Geil, eine echt nice Bar, die den Zusatz",
-    "source": "yelp",
-    "searchCategory": "bars",
-    "reviewCount": 16
-  },
-  {
     "name": "Tower Bar",
     "rating": 4.1,
     "reviewSnippet": "The drinks were delicious & well priced (though I wish I had gotten here early enough or happy hour...",
@@ -136,12 +144,68 @@
     "reviewCount": 49
   },
   {
-    "name": "Pony Bar",
-    "rating": 4,
-    "reviewSnippet": "venue is cleverly designed and has comfy seating arrangements and a great bar to sit at.",
+    "name": "Eros-Bar",
+    "rating": 3,
+    "reviewSnippet": "Die berühmte",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 97
+    "reviewCount": 1
+  },
+  {
+    "name": "Erika’s Eck",
+    "rating": 4.1,
+    "reviewSnippet": "The schnitzels taste fantastic, with a definite home-cooked old-school German pub kind of a feel.",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 256
+  },
+  {
+    "name": "Zum Bierstübchen",
+    "rating": 3.5,
+    "reviewSnippet": "Das Bierstübchen ist in Wilhelmsburg Kult. Zwar klein, aber gemütlich. Die Preise können sich sehen lassen, die Bedienung ist meistens freundlich,…",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 2
+  },
+  {
+    "name": "Kuddl",
+    "rating": 4.5,
+    "reviewSnippet": "Pleasantly surprised by this place! It's a very very nice pub. We always love to go here.",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 14
+  },
+  {
+    "name": "White Eagle",
+    "rating": 3.5,
+    "reviewSnippet": "Danke Elizabetha! ....( die coolste Thresenfrau ever) Alles vorhanden in der Kneipe, von Arbeitslos bis Manager, Transen, professionelle Damen, geile…",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 4
+  },
+  {
+    "name": "Windstärke 11",
+    "rating": 3,
+    "reviewSnippet": "Wir waren im Mai einmal da. Um es kurz zu machen: Das Lokal an sich würde ich als verrucht bezeichnen. Allerdings sind die Preise für Getränke auch…",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 4
+  },
+  {
+    "name": "Zum Silbersack",
+    "rating": 4.3,
+    "reviewSnippet": "This is a trad German pub just off the Reeperbahn. Well worth checking out to see the crowd of...",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 84
+  },
+  {
+    "name": "Zum alten Ritter",
+    "rating": 4.2,
+    "reviewSnippet": "Surprising good little pub. The beer is pretty good and reasonably priced.",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 15
   },
   {
     "name": "Vertigo",
@@ -160,17 +224,25 @@
     "reviewCount": 4
   },
   {
-    "name": "Zum Silbersack",
-    "rating": 4.3,
-    "reviewSnippet": "This is a trad German pub just off the Reeperbahn. Well worth checking out to see the crowd of...",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 84
-  },
-  {
     "name": "Gaststätte Knobel-Eck",
     "rating": 2,
     "reviewSnippet": "Die Gaststätte",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 2
+  },
+  {
+    "name": "Rosi’s Bar",
+    "rating": 4.2,
+    "reviewSnippet": "Love this place, always go when I'm in Hamburg. Good music, laid-back feel and cold beer (Astra...",
+    "source": "yelp",
+    "searchCategory": "kneipen",
+    "reviewCount": 40
+  },
+  {
+    "name": "Zur gemütlichen Ecke",
+    "rating": 4,
+    "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
     "source": "yelp",
     "searchCategory": "kneipen",
     "reviewCount": 2
@@ -184,28 +256,12 @@
     "reviewCount": 22
   },
   {
-    "name": "Zur gemütlichen Ecke",
+    "name": "Die Schmiede",
     "rating": 4,
-    "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 2
-  },
-  {
-    "name": "Dorotheen Eck",
-    "rating": 4.1,
-    "reviewSnippet": "Das",
+    "reviewSnippet": "Die Schmiede ist eine kleine gemütliche Bierkneipe in der Lämmertwiete, der Gastro-Meile von Harburg. Sie existiert jetzt schon seit rund 32 Jahren…",
     "source": "yelp",
     "searchCategory": "kneipen",
     "reviewCount": 11
-  },
-  {
-    "name": "The Chug Club",
-    "rating": 4.7,
-    "reviewSnippet": "Immer wieder ein Garant für ein erstklassiges Bar- und Cocktailvergnügen mit Stil. Wo gibt es heute schon noch Wasser zum Drink? Und bei Betty…",
-    "source": "yelp",
-    "searchCategory": "cocktail",
-    "reviewCount": 24
   },
   {
     "name": "Heaven’s Nest",
@@ -216,20 +272,12 @@
     "reviewCount": 11
   },
   {
-    "name": "Christiansen’s",
-    "rating": 4.6,
-    "reviewSnippet": "Christiansen's has a reputation of one of the best cocktail bars in Hamburg, where bartenders take...",
+    "name": "Meyer Lansky’s",
+    "rating": 3.9,
+    "reviewSnippet": "It was was also dark and moody looking, set up to be like a cocktail bar that a mobster might...",
     "source": "yelp",
     "searchCategory": "cocktail",
-    "reviewCount": 146
-  },
-  {
-    "name": "Die Treppe",
-    "rating": 4.8,
-    "reviewSnippet": "Preis - Leistung ist es die beste Cocktailbar von Hamburg. Der Chef und sein Team kennen ihren Job. Sehr kreative Cocktails auf der Karte. Für jeden…",
-    "source": "yelp",
-    "searchCategory": "cocktail",
-    "reviewCount": 4
+    "reviewCount": 93
   },
   {
     "name": "Kleinhuis´ Bistro & Weinhandel",
@@ -240,20 +288,20 @@
     "reviewCount": 7
   },
   {
-    "name": "Moet & Chandon Bar",
-    "rating": 4.2,
-    "reviewSnippet": "Hach. Die",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 5
-  },
-  {
     "name": "Weinladen",
     "rating": 3.7,
     "reviewSnippet": "Honestly, it seems the can barely differentiate between red and white wine.",
     "source": "yelp",
     "searchCategory": "wine",
     "reviewCount": 11
+  },
+  {
+    "name": "Moet & Chandon Bar",
+    "rating": 4.2,
+    "reviewSnippet": "Alsterhaus, Neustadt€€€Closed until 10:00 AM",
+    "source": "yelp",
+    "searchCategory": "wine",
+    "reviewCount": 5
   },
   {
     "name": "Südhang",
@@ -272,20 +320,12 @@
     "reviewCount": 24
   },
   {
-    "name": "Ufer",
-    "rating": 4.3,
-    "reviewSnippet": "Now it's a great wine bar with awesome service. The main guy working here comes from the Four...",
+    "name": "Weinboutique Hamburger Hof",
+    "rating": 4.7,
+    "reviewSnippet": ":-)) echt gelungener Abend Gestern. Tolle Musik und leckere Weine Wann ist das nächste Event?",
     "source": "yelp",
     "searchCategory": "wine",
-    "reviewCount": 73
-  },
-  {
-    "name": "Weinbar Vineyard",
-    "rating": 3.8,
-    "reviewSnippet": "snacks - relaxing summer terrace - good service About wines: open wine selection is not that...",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 79
+    "reviewCount": 6
   },
   {
     "name": "wineBANK",
@@ -296,67 +336,19 @@
     "reviewCount": 3
   },
   {
+    "name": "Kleinod",
+    "rating": 4.7,
+    "reviewSnippet": "to go to a different bar, and it was quite busy so we walked up the street and saw this wine bar.",
+    "source": "yelp",
+    "searchCategory": "wine",
+    "reviewCount": 6
+  },
+  {
     "name": "W die Weinbar",
     "rating": 5,
     "reviewSnippet": "Dass ich negativ voreingenommen war, ist sicher nicht der Grund für den überragenden Eindruck: Wir waren vorher im Nachbarlokal Portomarin und fragten...",
     "source": "yelp",
     "searchCategory": "wine",
     "reviewCount": 5
-  },
-  {
-    "name": "Irish Pub in the Fleetenkieker",
-    "rating": 3.9,
-    "reviewSnippet": "My uncle wanted to show me one of his favorite pubs so I was excited. Unfortunately the experience...",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 24
-  },
-  {
-    "name": "The Old Dubliner - Irish Pub",
-    "rating": 4.3,
-    "reviewSnippet": "A real Dublin pub has to have a washroom like that. Thank you for the great ales.",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 48
-  },
-  {
-    "name": "Zum Tanzenden Einhorn",
-    "rating": 4.3,
-    "reviewSnippet": "choice for a quick pint (if you don't mind that the entire rest of the pub will be sitting around...",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 47
-  },
-  {
-    "name": "Skorbut",
-    "rating": 5,
-    "reviewSnippet": "Das Skorbut ist Anfang Oktober 2009 auf die Südseite der Reeperbahn (neben den ehemaligen Beatclub) gezogen und bereits nach einer Woche sah der Club…",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 7
-  },
-  {
-    "name": "Murphy’s",
-    "rating": 4.1,
-    "reviewSnippet": "Pretty expensive Irish pub just south of the Reeperbahn. EUR4.50 for a pint of Murphy's Red.",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 18
-  },
-  {
-    "name": "Irish Rover",
-    "rating": 4.1,
-    "reviewSnippet": "Great pub and delicious food. Had grilled brandy chicken with yummy creamy mushroom sauce.",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 80
-  },
-  {
-    "name": "Kuddl",
-    "rating": 4.5,
-    "reviewSnippet": "Pleasantly surprised by this place! It's a very very nice pub. We always love to go here.",
-    "source": "yelp",
-    "searchCategory": "pubs",
-    "reviewCount": 14
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-28T03:05:17.820Z",
+  "scraped_at": "2026-03-07T03:04:50.737Z",
   "count": 30,
   "events": [
     {
@@ -13,51 +13,51 @@
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Karate-Prüfungstag",
-      "date": "2026-03-01",
-      "time": "10:00",
-      "venue": "Sporthalle",
-      "description": "Veranstalter: TSV Lentföhrden",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "private Veranstaltung",
-      "date": "2026-03-01",
-      "time": "11:00",
+      "title": "Jahreshauptversammlung",
+      "date": "2026-03-08",
+      "time": "9:00",
       "venue": "Gemeindezentrum",
-      "description": "Veranstalter: privat",
+      "description": "Veranstalter: Taubenverein",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Gemeindevertretung",
-      "date": "2026-03-03",
-      "time": "20:00",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Gemeinde Lentföhrden",
+      "title": "Jahreshauptversammlung",
+      "date": "2026-03-12",
+      "time": "19:30",
+      "venue": "Sportlerheim",
+      "description": "Veranstalter: CDU Lentföhrden",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Chor Probe",
-      "date": "2026-03-04",
+      "title": "Chorprobe",
+      "date": "2026-03-12",
       "time": "19:30",
       "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Chorgruppe Lentföhrden",
+      "description": "Veranstalter: Chor Lentföhrden",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Info Veranstaltung Ehrentag - Vereinsmesse | KWV",
-      "date": "2026-03-04",
-      "time": "20:00",
-      "venue": "Sportlerheim",
-      "description": "Veranstalter: KWV Lentföhrden",
+      "title": "Spielenachmittag",
+      "date": "2026-03-12",
+      "time": "14:00",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Seniorenclub",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Spiele- und Lesegruppe",
+      "date": "2026-03-13",
+      "time": "15:00",
+      "venue": "Gemeindezentrum",
+      "description": "Veranstalter: Gemeinde Lentföhrden",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"

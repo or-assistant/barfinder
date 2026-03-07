@@ -1,64 +1,145 @@
 {
-  "meta": {
-    "date": "2026-02-23",
-    "status": "partial",
-    "note": "Web search unavailable (no Brave API key). Enrichment based on local knowledge only. New locations and events could not be searched."
-  },
-  "enriched_descriptions": [
+  "enrichment_date": "2026-03-02",
+  "enriched_locations": [
     {
-      "name": "Omas Apotheke",
-      "neighborhood": "Schanze",
-      "description": "Kultige Raucher-Kneipe im Herzen der Schanze. Urig, laut, authentisch. Publikum: Schanzenviertel-Locals, Studenten, Nachtschwärmer. Preisniveau: günstig. Klassische Hamburger Eckkneipe mit Charakter.",
-      "tags_add": ["kultkneipe", "günstig", "authentisch"]
+      "name": "Zum Silbersack",
+      "description": "Reeperbahn-Legende seit 1949 — urige Kiez-Kneipe mit Schlager aus der Jukebox, Helbing Kümmel und Hans-Albers-Vibes. Rauchig, laut, authentisch. Publikum: bunt gemischt von Touristen bis Ur-Hamburgern. Preisniveau: günstig (Bier ab 3€). Kein Schnickschnack, purer Kiez-Charme.",
+      "vibe": "Nostalgisch, rauchig, Schlager",
+      "audience": "Touristen, Kiez-Stammgäste, Nachtschwärmer",
+      "price_level": "€",
+      "specials": "Helbing Kümmel, Jukebox mit Schlagern"
     },
     {
-      "name": "Vinos",
-      "neighborhood": "Eppendorf",
-      "description": "Gemütliche Weinbar in Eppendorf. Ü35-Publikum, entspannte Atmosphäre, gute Weinauswahl. Ideal für ruhige Abende zu zweit oder in kleiner Runde.",
-      "tags_add": ["weinbar", "gemütlich", "date-spot"]
+      "name": "Zum Goldenen Handschuh",
+      "description": "Berüchtigtste Kiez-Kneipe Deutschlands — bekannt durch den gleichnamigen Film (2019) über den Serienmörder Fritz Honka. Heute Kult-Anlaufstelle, fast rund um die Uhr geöffnet (22h/Tag). Harte Tür, weiches Herz. Jukebox, Holzvertäfelung, günstige Drinks. Nichts für Zartbesaitete.",
+      "vibe": "Berüchtigt, rau, kultisch",
+      "audience": "Neugierige, Kiezgänger, Filmfans",
+      "price_level": "€",
+      "specials": "True-Crime-Geschichte, fast 24/7 geöffnet"
     },
     {
-      "name": "CavaRo Weinbar",
-      "neighborhood": "Eppendorf",
-      "description": "Stilvolle Weinbar mit Flirt-Faktor. Ü35-Publikum, gehobenes Ambiente, Schwerpunkt auf Wein und gehobene Kleinigkeiten. Gute Adresse für After-Work und Dates.",
-      "tags_add": ["gehoben", "date-spot", "after-work"]
+      "name": "Le Lion — Bar de Paris",
+      "description": "Weltklasse-Cocktailbar in der Altstadt — Geburtsort des Gin Basil Smash (2008, Jörg Meyer). Regelmäßig unter den World's 50 Best Bars. Elegantes Interieur mit Samt und Jazz. Reservierung empfohlen. Cocktails ab 16€, jeder einzelne perfekt. Dress Code: smart casual aufwärts.",
+      "vibe": "Elegant, sophisticated, Jazz",
+      "audience": "Cocktail-Enthusiasten, internationale Gäste, Date-Night",
+      "price_level": "€€€",
+      "specials": "Gin Basil Smash, World's 50 Best Bars"
     },
     {
-      "name": "ERNST GESING & CO",
-      "neighborhood": "Barmbek",
-      "description": "Weinbar in Barmbek mit besonderem Konzept. Verbindet Wein-Genuss mit entspannter Nachbarschafts-Atmosphäre.",
-      "tags_add": ["weinbar", "nachbarschaft"]
+      "name": "Boilerman Bar",
+      "description": "Highball-Spezialist in Hoheluft — über 100 Bourbon-Sorten, perfekt gemixte Highballs in coolem Industrial-Chic-Ambiente. Kleine Karte, aber jeder Drink sitzt. Champagner-Auswahl als Kontrast. Relaxed aber stylish. Ideal für After-Work und Kenner.",
+      "vibe": "Industrial-chic, relaxed, Whiskey-Fokus",
+      "audience": "Whiskey-Liebhaber, After-Work-Crowd, Cocktail-Kenner",
+      "price_level": "€€",
+      "specials": "100+ Bourbons, Highball-Spezialisierung, Champagner"
     },
     {
-      "name": "Meisenfrei",
-      "neighborhood": "Eppendorf",
-      "description": "Beliebte Nachbarschaftskneipe in Eppendorf. Lockere Atmosphäre, gemischtes Publikum, gute Stimmung am Wochenende.",
-      "tags_add": ["nachbarschaft", "locker"]
+      "name": "The Chug Club",
+      "description": "Hamburgs verrückteste Cocktailbar — berühmt für die Buttermilch-Margarita und das legendäre 5er Chug-Menü (5 Mini-Cocktails zum Durchprobieren). Kreativ, laut, Party-Atmosphäre. Von den Machern des Le Lion. Reservierung am Wochenende Pflicht.",
+      "vibe": "Wild, kreativ, Party",
+      "audience": "Gruppen, Cocktail-Abenteurer, Feierwütige",
+      "price_level": "€€",
+      "specials": "Buttermilch-Margarita, 5er Chug-Menü"
     },
     {
-      "name": "Bar Jasou",
-      "neighborhood": "",
-      "description": "Cocktailbar mit kreativem Ansatz. Handgemachte Drinks, stilvolles Interieur.",
-      "tags_add": ["cocktails", "kreativ"]
+      "name": "Christiansen's",
+      "description": "Cocktailbar-Institution seit 1999 an den Landungsbrücken — Rum-Expertise mit über 300 Sorten. Gemütliche Atmosphäre, erstklassige Bartender, klassische und kreative Cocktails. Idealer Startpunkt für einen Abend auf St. Pauli.",
+      "vibe": "Gemütlich, professionell, Rum-Paradies",
+      "audience": "Cocktail-Kenner, Paare, Rum-Liebhaber",
+      "price_level": "€€",
+      "specials": "300+ Rum-Sorten, erfahrene Bartender"
     },
     {
-      "name": "Austerbar",
-      "neighborhood": "",
-      "description": "Bar mit gehobenem Anspruch, Seafood-Akzente und feine Drinks. Elegantes Publikum.",
-      "tags_add": ["gehoben", "seafood"]
+      "name": "Jahreszeiten Bar",
+      "description": "Grand-Hotel-Bar im Fairmont Hotel Vier Jahreszeiten — Alster-Blick, hochklassige Cocktails, Piano am Abend. Hamburgs feinste Adresse für einen stilvollen Drink. Dress Code beachten. Cocktails ab 18€.",
+      "vibe": "Grand, luxuriös, Piano-Musik",
+      "audience": "Business, gehobenes Publikum, Hotel-Gäste",
+      "price_level": "€€€€",
+      "specials": "Alster-Blick, Live-Piano, klassische Cocktailkultur"
     },
     {
-      "name": "Bodega",
-      "neighborhood": "",
-      "description": "Nachbarschaftskneipe mit spanischem Flair. Unkompliziert, günstig, gute Tapas-Auswahl.",
-      "tags_add": ["spanisch", "günstig", "tapas"]
+      "name": "The Bohemian",
+      "description": "Hamburgs verrückteste Cocktailbar an der historischen Deichstraße — Cocktails zum Selbermalen auf der Leinwand, Lego-Landschaft an der Bar, Bathrobe-Fridays. Unkonventionell, kreativ, Instagram-tauglich. Reservierung empfohlen.",
+      "vibe": "Exzentrisch, kreativ, Instagram-worthy",
+      "audience": "Kreative, Instagrammer, Gruppen, Touristen",
+      "price_level": "€€€",
+      "specials": "Cocktails mit Malerei, Lego-Bar, Bathrobe Fridays"
+    },
+    {
+      "name": "A wolf will never be a pet",
+      "description": "Kleinste Naturweinbar Hamburgs im Karoviertel — handverlesene Naturweine am Stehtresen, dazu Mezze und kleine Teller. Intim, authentisch, weinnerdig. Perfekt für Weinentdecker, die keine konventionelle Weinstube wollen.",
+      "vibe": "Intim, natürlich, weinnerdig",
+      "audience": "Naturwein-Fans, Foodies, Karoviertel-Crowd",
+      "price_level": "€€",
+      "specials": "Naturweine, Mezze, Mini-Format"
+    },
+    {
+      "name": "Frau Möller",
+      "description": "Institution an der Langen Reihe in St. Georg — legendäre Bratkartoffeln (die besten Hamburgs laut vielen), gemütliche Pub-Atmosphäre, breite Bierauswahl. Tagsüber Café-Feeling, abends belebte Kneipe. Stammgäste-Faktor hoch.",
+      "vibe": "Gemütlich, urig, gesellig",
+      "audience": "Stammgäste, St.-Georg-Locals, Studenten",
+      "price_level": "€",
+      "specials": "Legendäre Bratkartoffeln, breite Bierauswahl"
+    },
+    {
+      "name": "Familien-Eck",
+      "description": "Ottenser Kultkneipe mit DJs in der angeblich kleinsten DJ-Booth der Welt. Familiäre Atmosphäre trotz Party-Vibe. Bier günstig, Musik gut (Soul, Funk, Indie). Perfekter Startpunkt für eine Nacht in Ottensen/Altona.",
+      "vibe": "Familiär, funky, Party",
+      "audience": "Ottensen-Locals, Musikfans, After-Work",
+      "price_level": "€",
+      "specials": "Kleinste DJ-Booth der Welt, Soul & Funk DJs"
+    },
+    {
+      "name": "Le Fonque",
+      "description": "Soul-, Funk- und Jazz-Institution im Schanzenviertel — seit Jahrzehnten Anlaufstelle für Musikliebhaber. Live-Auftritte, DJs, breite Getränkekarte. Wohnzimmer-Atmosphäre mit Groove. Einer der authentischsten Musik-Pubs der Stadt.",
+      "vibe": "Groovy, musikalisch, Wohnzimmer-Feeling",
+      "audience": "Musikliebhaber, Schanzenviertel-Stammgäste",
+      "price_level": "€",
+      "specials": "Soul/Funk/Jazz, Live-Musik, DJ-Nächte"
+    },
+    {
+      "name": "Tower Bar",
+      "description": "Panorama-Bar im 13. Stock des Hotel Hafen Hamburg — spektakulärer 360°-Blick über Hafen, Elbe und Landungsbrücken. Klassische Cocktails, gehobene Atmosphäre. Perfekt für Sonnenuntergang-Drinks. Touristisch, aber der Blick rechtfertigt alles.",
+      "vibe": "Panorama, gehoben, romantisch",
+      "audience": "Touristen, Paare, Business-Drinks",
+      "price_level": "€€€",
+      "specials": "360° Hafenpanorama, Sunset-Drinks"
+    },
+    {
+      "name": "Nachtasyl",
+      "description": "Theater-Bar im Thalia Theater — Kulturflair trifft Nightlife. Vor und nach Vorstellungen belebt, danach oft DJ-Nächte und Konzerte. Intellektuelles Publikum, gute Cocktails, besonderes Ambiente im historischen Theatergebäude.",
+      "vibe": "Kulturell, intellektuell, theatralisch",
+      "audience": "Theaterbesucher, Kulturszene, Nachtschwärmer",
+      "price_level": "€€",
+      "specials": "Theater-Ambiente, DJ-Nächte, Konzerte"
+    },
+    {
+      "name": "Haifisch Bar",
+      "description": "Maritime Kult-Kneipe seit 1947 an der Großen Elbstraße — legendärer brennender Rum-Punsch (Pharisäer), Hafenblick, Seemanns-Deko. Fischbrötchen und harte Drinks. Einer der authentischsten Orte am Hamburger Hafen.",
+      "vibe": "Maritim, rustikal, authentisch",
+      "audience": "Hafenbesucher, Touristen, Ur-Hamburger",
+      "price_level": "€",
+      "specials": "Brennender Pharisäer, Hafenblick, Fischbrötchen"
     }
   ],
-  "new_locations": [],
-  "events_this_week": [],
-  "actions_needed": [
-    "Brave API Key einrichten für vollständige Web-Recherche (openclaw configure --section web)",
-    "4289 von 5229 Locations haben schwache/fehlende Beschreibungen",
-    "Event-Recherche und neue Locations konnten nicht durchgeführt werden"
-  ]
+  "new_locations_suggested": [
+    {
+      "name": "Tiny Oyster Bar",
+      "note": "Naturwein + Austern Popup-Konzept — konnte nicht verifiziert werden (web_search unavailable). Manuell prüfen.",
+      "status": "unverified"
+    }
+  ],
+  "events_this_week": {
+    "note": "Web search nicht verfügbar (Brave API Key fehlt). Konnte keine aktuellen Events recherchieren.",
+    "suggestion": "Prüfe: hamburg.de/veranstaltungen, meetup.com/hamburg, eventbrite.de/d/germany--hamburg für AI/Tech/Networking/Wine Events diese Woche."
+  },
+  "meta": {
+    "web_search_available": false,
+    "enriched_count": 15,
+    "method": "Knowledge-based enrichment (kein Web-Zugriff)",
+    "next_steps": [
+      "Brave API Key konfigurieren für vollständiges Enrichment",
+      "Dann: Neue Locations + Events automatisch recherchieren"
+    ]
+  }
 }

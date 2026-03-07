@@ -1420,3 +1420,388 @@ Kreativ Gesellschaft: 8 events
     📖 11 Orte für einen leckeren Sonntagsbrunch in Hamburg...
     📖 11 Cafés in Hamburg am Wasser...
     📖 11 Restaurants, die ihr in der Innenstadt kennen solltet...
+    📖 11 feuchtfröhliche Orte für Boozy Brunch...
+    📖 11 richtig gute Restaurants & Cafés im Portugiesenviertel, d...
+    📖 11 gemütliche Restaurants für leckeres Herbst-Essen...
+    📖 11 Cafés auf St. Pauli, die ihr kennen solltet...
+    📖 21 fantastische Orte zum Frühstücken in Hamburg...
+
+🎉 Done: 61 articles, 3 events, 81 bars
+   Bar-relevant: 9, Food-relevant: 23
+🍽️ OpenTable Hamburg Scraper starting...
+  🔍 Loading OpenTable Hamburg...
+  📊 Extracting restaurant data...
+
+🍽️ OpenTable: 34 restaurants saved
+   With rating: 4, with cuisine: 29
+🏢 Hamburg Digital Ecosystem Events Scraper
+══════════════════════════════════════════════════
+📡 Fetching hamburg-startups.net RSS...
+📡 Fetching hamburg-business.com events...
+  ✅ Found 4 event-related posts from hamburg-startups.net
+  ✅ Found 9 events from hamburg-business.com
+
+✅ Saved 13 events to /home/openclaw/.openclaw/workspace/barfinder/hamburgwork_events_cache.json
+🏡 Rural Events Scraper — Lentföhrden & Umkreis
+
+📍 Scraping lentfoehrden.de...
+🍺 Scraping woltersgasthof.eatbu.com...
+  → 12 Events gefunden
+  → 6 Events gefunden
+📅 12 wiederkehrende Dorffeste/Saisonevents hinzugefügt
+
+✅ 30 Events gespeichert → ./rural_events_cache.json
+
+🧪 Barfinder Test Suite
+══════════════════════════════════════════════════
+
+📡 API Health Checks:
+✅ /api/places status 200 — 200, 6490ms
+✅ /api/places has entries — 100 places
+✅ /api/places all have name/lat/lon
+❌ /api/places < 5000ms (Overpass live) — 6490ms
+✅ /api/hot status 200 — 200, 2371ms
+✅ /api/hot all have vibeScore/hotScore
+❌ /api/hot < 200ms — 2371ms
+✅ /api/events status 200 — 200, 38ms
+✅ /api/events returns array — 0 events
+✅ /api/sources status 200 — 200, 7ms
+✅ /api/sources all have status — 16 sources
+✅ /api/weather status 200 — 200, 2ms
+✅ /api/weather has temp/weatherEmoji — 🌧️ 11.9°C
+✅ /api/weather < 100ms — 2ms
+
+🔍 Daten-Konsistenz:
+✅ All places have numeric lat/lon
+✅ vibeScore 0-100 — 100 places with vibeScore
+✅ estimatedBusyness check (none on /api/places — ok)
+✅ isOpen is boolean or null — 100 places
+✅ No duplicate places — all unique
+
+📁 Cache-Dateien:
+✅ cache.json exists & valid JSON
+✅ network_events_cache.json exists & valid JSON
+✅ google_ratings_cache.json exists & valid JSON
+✅ events_pipeline_cache.json exists & valid JSON
+
+══════════════════════════════════════════════════
+📊 Ergebnis: 21/23 Tests bestanden ⚠️
+❌ 2 Tests fehlgeschlagen
+
+💾 Ergebnisse → test_results.json
+
+⚠️ 157 location(s) with suspicious coordinates:
+  ❌ Zentrale (Dorfstraße 7, Kisdorf)
+     Coordinates outside Hamburg bounding box: 53.888, 9.933
+  ❌ Langeloher Hof (Langeloh, Bad Bramstedt)
+     Coordinates outside Bad Bramstedt bounding box: 53.5727146, 9.8465686
+  ❌ Phoenix Stübchen (Am Sportplatz 1a, 24629 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8103523, 10.0101077
+  ❌ Hotel & Restaurant & Bar & Lounge Lindenhof (Hamburger Straße 8, Bad Bramstedt)
+     Coordinates outside Bad Bramstedt bounding box: 53.4884074, 10.2388931
+  ❌ Wolters Gasthof von 1787 (Glückstädter Straße 3, 24576 Weddelbrook)
+     Coordinates outside Hamburg bounding box: 53.9049, 9.8329
+  ❌ Billard & Spielcafé (Hamburger Straße)
+     Coordinates outside Hamburg bounding box: 53.9167, 9.88333
+  ❌ Rock Bar (Ulzburger Str. 609, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.6538118, 10.0770973
+  ❌ Billiard-Café (Rathausplatz 1, Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7926888, 9.9808134
+  ❌ Holstenhof (Struvenhüttener Straße, 24640 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8760251, 9.9873914
+  ❌ Thassos (Heidland, 24568 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8367515, 9.9531143
+  ❌ China Town (Königstraße, 24568 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8379551, 9.9605709
+  ❌ The Irish Pub (Beckersbergstraße, 24558 Hamburg (Ulzburg))
+     Coordinates outside Hamburg bounding box: 53.7937898, 9.9829
+  ❌ Der Tanzhase - Hotel, Restaurant, Tanzbar (Dorfstraße 6-8, 24640 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9102647, 10.0251846
+  ❌ Wolters Gasthof (Glückstädter Straße 3, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9048928, 9.8329106
+  ❌ Restaurant Deichgraf (Am Köhlerhof 4, 24576 Hamburg (Bissenmoor))
+     Coordinates outside Hamburg bounding box: 53.9124229, 9.8830813
+  ❌ Restaurant Meteora (Mühlenstraße, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.916886, 9.8844619
+  ❌ China Restaurant Ho (Im Winkel 1, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9212396, 9.8813653
+  ❌ Cockpit (Dorfstraße, 24640 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9138568, 10.0376691
+  ❌ Landgasthof Goldener Hahn (Am Dorfplatz 1, 24641 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8516798, 10.1262328
+  ❌ Kiek ut Stuben (Kiekut, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9484983, 10.0296659
+  ❌ Gasthof Zum Fährhaus (Stellauer Kirchenweg, 25563 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9282676, 9.7252037
+  ❌ Restaurant Thassos zur Linde (Chemnitzstraße 1, 25355 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.7891244, 9.7731855
+  ❌ Zum Pilz (Düsterlohe, 25355 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.7887738, 9.7525854
+  ❌ Gut Kaden Restaurant (Kadener Straße 9, 25486 Hamburg (Kaden))
+     Coordinates outside Hamburg bounding box: 53.7853637, 9.9480991
+  ❌ Ricklinger Landbrauerei Zur Alten Försterei (K 52, 24635 Hamburg)
+     Coordinates outside Hamburg bounding box: 54.0158311, 10.167158
+  ❌ Diars Bar (Kurhausstraße 64)
+     Coordinates outside Hamburg bounding box: 53.9418451, 10.3062648
+  ❌ Gasthof Zur Eiche (Dorfstraße 27, 23826 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.895356, 10.1781647
+  ❌ Maria & Toni (Berliner Damm, 25479 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.7511528, 9.9193216
+  ❌ Kühl's Gasthof (Hauptstraße 41, 24647 Hamburg)
+     Coordinates outside Hamburg bounding box: 54.072537, 9.8951062
+  ❌ Süd Restaurant (Hamburg, 94B, Witte de Withstraat, Cool, Centrum, Rotterdam, Zuid-Holland, Nederland, 3012 BT, Nederland)
+     Coordinates outside Hamburg bounding box: 51.9150631, 4.4755388
+  ❌ Süd Restaurant (no address)
+     Coordinates outside northern Germany: 51.9150631, 4.4755388
+  ❌ Alte Liebe am Kaispeicher B (Am Kaispeicher B, 20457 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.5419, undefined
+  ❌ Blue (Südportal 2, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.653509, 9.9833617
+  ❌ Arizona Kitchen (Niendorfer Straße 176, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.6594697, 9.9804062
+  ❌ Zum goldenen Bullen (Pascalkehre 13a, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7448166, 9.944083
+  ❌ Dani´s Rhener Treff (Wilstedter Straße 101, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7502833, 10.0079056
+  ❌ Ristorante Da Calogero (Carl-Zeiss-Straße 8, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7468369, 9.9341001
+  ❌ Amáre Bistro-Lounge (Max-Weber-Straße 7, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7446227, 9.9340967
+  ❌ Casa di Campo (Ulzburger Landstraße 447, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7520817, 9.9598647
+  ❌ Mr. Gyros (Ulzburger Straße 472, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.7319713, 9.996982
+  ❌ Mythos (Friedrichsgaber Straße 57, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7467218, 9.9424767
+  ❌ Rio Grande (Ulzburger Straße 593, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.7323932, 9.9964307
+  ❌ Burger Lounge (Friedrichsgaber Straße 103, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7435054, 9.9530831
+  ❌ Nitt (Norderstedter Straße 2, Henstedt-Ulzburg)
+     Coordinates outside Norderstedt bounding box: 53.7529746, 9.9971246
+  ❌ Barew (Max-Weber-Straße 30, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.745348, 9.939617
+  ❌ Steak-House Meeschensee (Elfenhagen 51, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.7538652, 9.9791342
+  ❌ Eis Soost (Wilstedter Straße 35)
+     Coordinates outside Hamburg bounding box: 53.7537766, 9.9952851
+  ❌ Mühlenstein (Mühlenstraße 25, Wedel)
+     Coordinates outside Hamburg bounding box: 53.582442, 9.7012237
+  ❌ 28GRAD Strandbad Wedel (Hakendamm 2, Wedel)
+     Coordinates outside Hamburg bounding box: 53.570528, 9.6962381
+  ❌ ToGao (Beim Hoophof 3a, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5792529, 9.7048926
+  ❌ Casa di Amici (Rathausplatz 4, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5810493, 9.7030943
+  ❌ Buon Gusto (Mühlenstraße 28, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5823393, 9.7007437
+  ❌ Gelato In (Mühlenstraße 31, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5821369, 9.7013019
+  ❌ La Giara (Mühlenstraße 24, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5825311, 9.7008203
+  ❌ Batavia (Brooksdamm, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5817863, 9.6950508
+  ❌ La Vela Wedel (Deichstraße 19, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5741801, 9.6812498
+  ❌ Hotel Restaurant Alte Schmiede (Osterjork 24, Jork)
+     Coordinates outside Hamburg bounding box: 53.5319402, 9.6839987
+  ❌ Kingz - Das Grillhaus (Rudolf-Breitscheid-Straße 40, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5788826, 9.7100885
+  ❌ Porter-House (Am Marktplatz 2a, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5835215, 9.6974322
+  ❌ Fontana (Moorweg 2, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5936018, 9.723067
+  ❌ Yvonne's kleines Gasthaus (Gärtnerstraße 20, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5866147, 9.6975671
+  ❌ Mundfein (Rosengarten 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5813447, 9.7049935
+  ❌ Café MöwenNest (Yachthafenstraße 6, Jork)
+     Coordinates outside Hamburg bounding box: 53.5533303, 9.6683969
+  ❌ Garduong (Bahnhofstraße 31, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5781631, 9.7051754
+  ❌ Taverna Hellas (Altländer Markt 1, Jork)
+     Coordinates outside Hamburg bounding box: 53.5335335, 9.679488
+  ❌ Glashaus Cafe (Am Elbdeich 31, Jork)
+     Coordinates outside Hamburg bounding box: 53.5449245, 9.675212
+  ❌ Monsoon (Am Marktplatz 7, Wedel)
+     Coordinates outside Hamburg bounding box: 53.583878, 9.6982254
+  ❌ Indah's Kaffeehaus (Bahnhofstraße 9, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5803545, 9.703912
+  ❌ Restaurant Vom Land zum Meer (Am Elbdeich 27a, Jork)
+     Coordinates outside Hamburg bounding box: 53.5427199, 9.6807465
+  ❌ Soho Asian Cuisine & Sushi Bar (Rosengarten 29, Wedel)
+     Coordinates outside Hamburg bounding box: 53.58203, 9.7097214
+  ❌ Schulauer Fährhaus (Parnaßstraße 29, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5693451, 9.7032971
+  ❌ Kathrins Genuss Welt (Bürgerei 1, Jork)
+     Coordinates outside Hamburg bounding box: 53.5326761, 9.6810103
+  ❌ JA AN (Altländer Markt 1-4, Jork)
+     Coordinates outside Hamburg bounding box: 53.5334501, 9.6796793
+  ❌ Gelato in (Strandbaddamm 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5713253, 9.697453
+  ❌ Sea Bully (Deichstraße 20)
+     Coordinates outside Hamburg bounding box: 53.575634, 9.6787801
+  ❌ Taverna Plaka (Kronskamp 60, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5802529, 9.720886
+  ❌ Red Koi (Strandbaddamm 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5714125, 9.6978224
+  ❌ Asiaaroma (Bahnhofstraße 52, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5755065, 9.7060749
+  ❌ Pane Vino (Am Marktplatz 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5841006, 9.6975143
+  ❌ Taverna zum Griechen (Feldstraße 46)
+     Coordinates outside Hamburg bounding box: 53.5760851, 9.7151166
+  ❌ Reepschlägerhaus (Schauenburger Straße 4, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5864337, 9.6930059
+  ❌ Back-Cafe Wedel (Egenbüttelweg 4, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5906829, 9.7160872
+  ❌ Hofcafe Obsthof Feindt (Westerjork 57, Jork)
+     Coordinates outside Hamburg bounding box: 53.5344123, 9.670421
+  ❌ 1221 (Schützenhofstraße 7, Jork)
+     Coordinates outside Hamburg bounding box: 53.5316343, 9.6812561
+  ❌ Hotel Altes Land (Schützenhofstraße 16, Jork)
+     Coordinates outside Hamburg bounding box: 53.5310992, 9.6820909
+  ❌ Restaurant Horster Mühle (Zur Wassermühle 4, Horst)
+     Coordinates outside Hamburg bounding box: 53.3688024, 10.0252177
+  ❌ Maschener Eiscafe (Horster Landstraße 118, Maschen)
+     Coordinates outside Hamburg bounding box: 53.3773706, 10.0344422
+  ❌ Max Tu (Poststraße 3-5, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3850033, 9.9823624
+  ❌ Gran Sasso (Unter den Linden 12A, Stelle)
+     Coordinates outside Hamburg bounding box: 53.3819986, 10.1113272
+  ❌ Bäckerei Soetebier (Horster Landstraße 64, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3832924, 10.0368519
+  ❌ Nikos Taverne (Horster Landstraße 121, Maschen-Heide)
+     Coordinates outside Hamburg bounding box: 53.3771056, 10.0346593
+  ❌ Pizzeria La Stella (Harburger Straße 16, Stelle)
+     Coordinates outside Hamburg bounding box: 53.3849867, 10.1073799
+  ❌ BARrica (Schillerplatz 1, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3870449, 9.9830677
+  ❌ Món Việt (Horster Landstraße 116, Maschen)
+     Coordinates outside Hamburg bounding box: 53.3778079, 10.0346597
+  ❌ Restaurant Zum Lindenhof (Bremer Straße 55, Nenndorf)
+     Coordinates outside Hamburg bounding box: 53.3791112, 9.8955096
+  ❌ Johannsen's (Helmstorfer Straße 19, Lindhorst)
+     Coordinates outside Hamburg bounding box: 53.373522, 9.9876149
+  ❌ Bambus Lounge (Harburger Straße 43, Stelle)
+     Coordinates outside Hamburg bounding box: 53.386008, 10.100311
+  ❌ Dat Backhus (Bremer Straße 51, Nenndorf)
+     Coordinates outside Hamburg bounding box: 53.3795417, 9.8963095
+  ❌ Restaurant Böttchers Gasthaus (Bremer Straße 44, Nenndorf)
+     Coordinates outside Hamburg bounding box: 53.3798281, 9.8956626
+  ❌ Herr Nilsson (Hittfelder Schulstraße, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3862774, 9.9857273
+  ❌ Osteria Rustica (Eikhoff 2, Rosengarten)
+     Coordinates outside Hamburg bounding box: 53.3706847, 9.9381436
+  ❌ Knolles Bistro (Ohlendorfer Straße 3, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3436414, 10.0290175
+  ❌ Sushi Circle (Ohlendorfer Straße 3, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3438364, 10.0285386
+  ❌ PAN-NAM Restaurant (Bahnhofstraße 35a, Rosengarten)
+     Coordinates outside Hamburg bounding box: 53.3675819, 9.924964
+  ❌ aroma Bistro (Am Tennisplatz 2, Hittfeld)
+     Coordinates outside Hamburg bounding box: 53.3880868, 9.9829312
+  ❌ Aphrodite (Hinter den Höllen 1, Ramelsloh)
+     Coordinates outside Hamburg bounding box: 53.3423587, 10.006216
+  ❌ Lieblingsplatz (Moorstraße 41, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.363214, 9.9933192
+  ❌ Gentles Club Die Orgel (Rübenkamp 27, Maschen)
+     Coordinates outside Hamburg bounding box: 53.3883141, 10.0272758
+  ❌ Athena (Lüneburger Straße 45, Stelle)
+     Coordinates outside Hamburg bounding box: 53.3790933, 10.1216076
+  ❌ Zum Dorfkrug (Bei der Kirche 8, Stelle)
+     Coordinates outside Hamburg bounding box: 53.380291, 10.1124232
+  ❌ Hittfelder Mühle (Weg zur Mühle 10, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.381579, 9.9838587
+  ❌ Mylos (Weg zur Mühle 10a, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3815129, 9.9835425
+  ❌ Capri (Steindamm 6)
+     Coordinates outside Hamburg bounding box: 53.7509439, 9.9211508
+  ❌ Hofcafé Landhaus Saggau (Dreiüm 29)
+     Coordinates outside Hamburg bounding box: 53.7623578, 9.9352391
+  ❌ Tamanori (Hamburger Straße 183, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7717735, 9.9790804
+  ❌ Omiros (Neuer Weg 16, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7888505, 10.0021614
+  ❌ d'Alessio (Hamburger Straße 66, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7798092, 9.9771789
+  ❌ Christina's Kuchen und Torten im Café am Wöddel (Am Wöddel 25)
+     Coordinates outside Hamburg bounding box: 53.7874407, 10.0074004
+  ❌ Restaurant Ambrosia (Weg am Sportplatz 15, Tangstedt)
+     Coordinates outside Hamburg bounding box: 53.7511108, 10.0655017
+  ❌ Mr. Singh (Berliner Damm 2A, Ellerau)
+     Coordinates outside Hamburg bounding box: 53.7499924, 9.9192567
+  ❌ Taste of Asia (Bahnstraße 2, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7496694, 9.9193425
+  ❌ Lakeside Kitchen & Bar (Højerweg 2, Ellerau)
+     Coordinates outside Hamburg bounding box: 53.7529306, 9.9206137
+  ❌ Jagdhaus Waldfrieden (Kieler Straße 1, Bilsen)
+     Coordinates outside Hamburg bounding box: 53.7548129, 9.8815196
+  ❌ Alter Heidkrug (Segeberger Straße 10, Kayhude)
+     Coordinates outside Hamburg bounding box: 53.7490717, 10.1264677
+  ❌ Schosterkrog (Dorfstraße 11, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.787309, 10.0031197
+  ❌ Tommys Eisbar (Am Markt 13, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6839746, 9.6662181
+  ❌ Restaurant Parkhotel Rosarium (Berliner Straße 10)
+     Coordinates outside Hamburg bounding box: 53.6841687, 9.6699799
+  ❌ von Stamm (Kleiner Sand 60, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6860468, 9.6716829
+  ❌ Himara (Norderstraße 60c, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.7028854, 9.7143987
+  ❌ Lee 1996 Asian Cuisine (Großer Sand 24, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6823314, 9.6668288
+  ❌ Restaurant Pathos (Hauptstraße 29, Holm)
+     Coordinates outside Hamburg bounding box: 53.6213191, 9.6716372
+  ❌ Hofcafé Almthof (Almtweg 37, Appen)
+     Coordinates outside Hamburg bounding box: 53.6633592, 9.7223192
+  ❌ St. Esprit (Klosterhof 4, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6812043, 9.6568966
+  ❌ Restaurant am Kloster (Marktstraße 2, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6829418, 9.6561321
+  ❌ Presse Café (Am Markt 4, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6835506, 9.6654404
+  ❌ Kleiner Friedrich (Friedrichstraße 2-4, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.6976117, 9.7125498
+  ❌ Golden Smoke (Bahnhofsplatz 4)
+     Coordinates outside Hamburg bounding box: 53.6972323, 9.7145341
+  ❌ asiahub (Uetersener Straße 1, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.6969267, 9.7126528
+  ❌ Osteria La Vite (Hauptstraße 18, Holm)
+     Coordinates outside Hamburg bounding box: 53.6205623, 9.6736407
+  ❌ Birkenhain (Heimstättenstraße 87, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.7108252, 9.7110059
+  ❌ Ladiges Gasthof (Hauptstraße 14, Holm)
+     Coordinates outside Hamburg bounding box: 53.6195663, 9.6748034
+  ❌ Tower-Restaurant Uetersen-Heist (Bültenkoppel 19, Heist)
+     Coordinates outside Hamburg bounding box: 53.6442753, 9.7046067
+  ❌ Café Langes Mühle (Heidgrabener Straße 3, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6922829, 9.6739641
+  ❌ Hotel Lindenhof (Großer Ring 7, Heist)
+     Coordinates outside Hamburg bounding box: 53.6535145, 9.6567403
+  ❌ Flens' Kneipe (Großenseer Straße 8b, Lütjensee)
+     Coordinates outside Hamburg bounding box: 53.6405881, 10.3612707
+  ❌ Zur Bilsener Mühle (Kieler Straße 25, Bilsen)
+     Coordinates outside Hamburg bounding box: 53.7729967, 9.8757265
+  ❌ Hotel & Restaurant Luna (Heinrich-Hertz-Straße 2, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6179108, 10.392262
+  ❌ Grill-Imbiss ELLAS (Europaplatz 8)
+     Coordinates outside Hamburg bounding box: 53.609378, 10.4075004
+  ❌ Eiscafe Griem (Poststraße 33, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6078314, 10.4115467
+  ❌ Alter Dorfkrug (Fritz-Berodt-Straße 1, Großensee)
+     Coordinates outside Hamburg bounding box: 53.6152167, 10.3413368
+  ❌ BeachClubTrittau (Großenseer Straße 10a)
+     Coordinates outside Hamburg bounding box: 53.6163566, 10.3964886
+  ❌ Grander Mühle (Lauenburger Straße 1)
+     Coordinates outside Hamburg bounding box: 53.5786928, 10.3904331
+  ❌ mönch & mücke (Zum Mönchsteich 1, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6290909, 10.3832422
+  ❌ Restaurant Piccolino (Trittauer Straße 19, Großensee)
+     Coordinates outside Hamburg bounding box: 53.6120731, 10.3455704
+  ❌ Strandhus (Seestraße 1, Großensee)
+     Coordinates outside Hamburg bounding box: 53.6144976, 10.3484878
+  ❌ Zwanzig21 (Möllner Straße 6, Kuddewörde)
+     Coordinates outside Hamburg bounding box: 53.5804181, 10.3942938
+  ❌ Zum Rappen (Hamburger Straße 30, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6034801, 10.4104851
