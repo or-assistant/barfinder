@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T03:00:38.472Z",
+  "lastUpdated": "2026-03-14T03:00:35.656Z",
   "sources": [
     {
       "source": "szene-hamburg-bars",
@@ -49,7 +49,7 @@
           "image": "https://szene-hamburg.com/wp-content/uploads/2016/05/Daniel-Bar-Sternschanze-Hamburg-375x211.jpg"
         }
       ],
-      "scrapedAt": "2026-03-07T03:00:27.387Z"
+      "scrapedAt": "2026-03-14T03:00:26.777Z"
     },
     {
       "source": "szene-hamburg-nachtleben",
@@ -171,7 +171,7 @@
           "image": "https://szene-hamburg.com/wp-content/uploads/2020/05/molotow-leer-corona-375x211.jpg"
         }
       ],
-      "scrapedAt": "2026-03-07T03:00:30.601Z"
+      "scrapedAt": "2026-03-14T03:00:29.744Z"
     },
     {
       "source": "hamburg-de-veranstaltungen",
@@ -228,7 +228,7 @@
           "description": "Erleben Sie die Fortsetzung der Harry-Potter-Saga noch bis Sommer 2026 als Live-Erlebnis im Theater am Großmarkt!"
         }
       ],
-      "scrapedAt": "2026-03-07T03:00:32.494Z"
+      "scrapedAt": "2026-03-14T03:00:31.544Z"
     },
     {
       "source": "hamburg-de-nightlife",
@@ -350,7 +350,7 @@
           "image": "https://szene-hamburg.com/wp-content/uploads/2021/04/soli-merch1-c-johanna-zobel-375x211.jpg"
         }
       ],
-      "scrapedAt": "2026-03-07T03:00:35.706Z"
+      "scrapedAt": "2026-03-14T03:00:34.072Z"
     }
   ]
 }

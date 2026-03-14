@@ -32,14 +32,6 @@
     "reviewCount": 11
   },
   {
-    "name": "The Chug Club",
-    "rating": 4.7,
-    "reviewSnippet": "Attentive, precise and super easy going. Best bar service I've ever experienced, I think.",
-    "source": "yelp",
-    "searchCategory": "bars",
-    "reviewCount": 24
-  },
-  {
     "name": "The Boilerman Bar",
     "rating": 4.3,
     "reviewSnippet": "Looks like a really cool bar, and it was really crowded after 9. I love highball here, basil and New...",
@@ -85,7 +77,7 @@
     "reviewSnippet": "make it to the bar you'll probably be slightly amazed, even if you see great bars almost everywhere...",
     "source": "yelp",
     "searchCategory": "bars",
-    "reviewCount": 42
+    "reviewCount": 43
   },
   {
     "name": "Campari Dachterrasse",
@@ -110,6 +102,14 @@
     "source": "yelp",
     "searchCategory": "bars",
     "reviewCount": 1
+  },
+  {
+    "name": "Meyer Lansky’s",
+    "rating": 3.9,
+    "reviewSnippet": "Drink prices are good though during happy hour so I'd recommend trying it out.",
+    "source": "yelp",
+    "searchCategory": "bars",
+    "reviewCount": 93
   },
   {
     "name": "Diamond Sky",
@@ -152,62 +152,6 @@
     "reviewCount": 1
   },
   {
-    "name": "Erika’s Eck",
-    "rating": 4.1,
-    "reviewSnippet": "The schnitzels taste fantastic, with a definite home-cooked old-school German pub kind of a feel.",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 256
-  },
-  {
-    "name": "Zum Bierstübchen",
-    "rating": 3.5,
-    "reviewSnippet": "Das Bierstübchen ist in Wilhelmsburg Kult. Zwar klein, aber gemütlich. Die Preise können sich sehen lassen, die Bedienung ist meistens freundlich,…",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 2
-  },
-  {
-    "name": "Kuddl",
-    "rating": 4.5,
-    "reviewSnippet": "Pleasantly surprised by this place! It's a very very nice pub. We always love to go here.",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 14
-  },
-  {
-    "name": "White Eagle",
-    "rating": 3.5,
-    "reviewSnippet": "Danke Elizabetha! ....( die coolste Thresenfrau ever) Alles vorhanden in der Kneipe, von Arbeitslos bis Manager, Transen, professionelle Damen, geile…",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 4
-  },
-  {
-    "name": "Windstärke 11",
-    "rating": 3,
-    "reviewSnippet": "Wir waren im Mai einmal da. Um es kurz zu machen: Das Lokal an sich würde ich als verrucht bezeichnen. Allerdings sind die Preise für Getränke auch…",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 4
-  },
-  {
-    "name": "Zum Silbersack",
-    "rating": 4.3,
-    "reviewSnippet": "This is a trad German pub just off the Reeperbahn. Well worth checking out to see the crowd of...",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 84
-  },
-  {
-    "name": "Zum alten Ritter",
-    "rating": 4.2,
-    "reviewSnippet": "Surprising good little pub. The beer is pretty good and reasonably priced.",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 15
-  },
-  {
     "name": "Vertigo",
     "rating": 5,
     "reviewSnippet": "Hervorragende kleine Kneipe mit erstaunlich guten Livebands und sehr netter Atmosphäre. Hier erinnert sich das freundliche Personal sogar am nächsten…",
@@ -224,14 +168,6 @@
     "reviewCount": 4
   },
   {
-    "name": "Gaststätte Knobel-Eck",
-    "rating": 2,
-    "reviewSnippet": "Die Gaststätte",
-    "source": "yelp",
-    "searchCategory": "kneipen",
-    "reviewCount": 2
-  },
-  {
     "name": "Rosi’s Bar",
     "rating": 4.2,
     "reviewSnippet": "Love this place, always go when I'm in Hamburg. Good music, laid-back feel and cold beer (Astra...",
@@ -240,12 +176,12 @@
     "reviewCount": 40
   },
   {
-    "name": "Zur gemütlichen Ecke",
-    "rating": 4,
-    "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
+    "name": "Dreyer",
+    "rating": 4.5,
+    "reviewSnippet": "When you get passed the COVID vaccine check the atmosphere is great nice Cold Holstein beer and you...",
     "source": "yelp",
     "searchCategory": "kneipen",
-    "reviewCount": 2
+    "reviewCount": 16
   },
   {
     "name": "Zur scharfen Ecke",
@@ -256,99 +192,27 @@
     "reviewCount": 22
   },
   {
-    "name": "Die Schmiede",
+    "name": "Zur gemütlichen Ecke",
     "rating": 4,
-    "reviewSnippet": "Die Schmiede ist eine kleine gemütliche Bierkneipe in der Lämmertwiete, der Gastro-Meile von Harburg. Sie existiert jetzt schon seit rund 32 Jahren…",
+    "reviewSnippet": "Für mich eine der schönsten Kneipen Hamburgs. Eine echte Hafenkneipe und dank der etwas verstecken Lage ganz ohne Touristen. Der Inhaber Dieter…",
     "source": "yelp",
     "searchCategory": "kneipen",
-    "reviewCount": 11
+    "reviewCount": 2
   },
   {
-    "name": "Heaven’s Nest",
-    "rating": 3.7,
-    "reviewSnippet": "Diese Location ist einfach superb. In den Tanzenden Türmen, dem von dem berühmten Stararchitekten Hadi Teherani entworfenen Bau, im 23./24. Stock…",
+    "name": "Gaststätte Knobel-Eck",
+    "rating": 2,
+    "reviewSnippet": "Die Gaststätte",
     "source": "yelp",
-    "searchCategory": "cocktail",
-    "reviewCount": 11
+    "searchCategory": "kneipen",
+    "reviewCount": 2
   },
   {
-    "name": "Meyer Lansky’s",
-    "rating": 3.9,
-    "reviewSnippet": "It was was also dark and moody looking, set up to be like a cocktail bar that a mobster might...",
-    "source": "yelp",
-    "searchCategory": "cocktail",
-    "reviewCount": 93
-  },
-  {
-    "name": "Kleinhuis´ Bistro & Weinhandel",
-    "rating": 4.9,
-    "reviewSnippet": "Hotel Baseler Hof, Neustadt€€Closed today",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 7
-  },
-  {
-    "name": "Weinladen",
-    "rating": 3.7,
-    "reviewSnippet": "Honestly, it seems the can barely differentiate between red and white wine.",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 11
-  },
-  {
-    "name": "Moet & Chandon Bar",
-    "rating": 4.2,
-    "reviewSnippet": "Alsterhaus, Neustadt€€€Closed until 10:00 AM",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 5
-  },
-  {
-    "name": "Südhang",
-    "rating": 4.3,
-    "reviewSnippet": "There aren't too many wine bars around Hamburg, but the Südhang is one.",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 81
-  },
-  {
-    "name": "DER BOCKSBEUTEL",
-    "rating": 4.8,
-    "reviewSnippet": "Ach, ist das schön hier. Da kann man sich nur wohlfühlen in geselliger Runde. Herzlich, freundlich und entspannt. Und das nicht weit weg von…",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 24
-  },
-  {
-    "name": "Weinboutique Hamburger Hof",
-    "rating": 4.7,
-    "reviewSnippet": ":-)) echt gelungener Abend Gestern. Tolle Musik und leckere Weine Wann ist das nächste Event?",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 6
-  },
-  {
-    "name": "wineBANK",
-    "rating": 4,
-    "reviewSnippet": "Es handelt sich um ein Weinlager, in dem man sich eigene Fächer mieten kann. Eine Bank ist es insofern als dass die Fächer recht gut gesichert sind.…",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 3
-  },
-  {
-    "name": "Kleinod",
-    "rating": 4.7,
-    "reviewSnippet": "to go to a different bar, and it was quite busy so we walked up the street and saw this wine bar.",
-    "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 6
-  },
-  {
-    "name": "W die Weinbar",
+    "name": "7 Days",
     "rating": 5,
-    "reviewSnippet": "Dass ich negativ voreingenommen war, ist sicher nicht der Grund für den überragenden Eindruck: Wir waren vorher im Nachbarlokal Portomarin und fragten...",
+    "reviewSnippet": "Das 7 Days ist weit mehr als nur eine einfache Kneipe. Hier kann man richtig lecker essen. Hausmannskost, wie man sie nur noch selten bekommt. Im…",
     "source": "yelp",
-    "searchCategory": "wine",
-    "reviewCount": 5
+    "searchCategory": "kneipen",
+    "reviewCount": 1
   }
 ]

@@ -1,358 +1,7 @@
 [
   {
-    "title": "Ü30 Socialmatch - Hamburg",
-    "date": "2026-03-18",
-    "time": "19:30",
-    "venue": "Hamburg · Genaue Location wird einen Tag vor dem Event per E-Mail mitgeteilt",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
-    "source": "eventbrite",
-    "type": "afterwork"
-  },
-  {
-    "title": "Ü20 Socialmatch - Hamburg",
-    "date": "2026-03-25",
-    "time": "19:30",
-    "venue": "Hamburg · Genaue Location wird einen Tag vor dem Event per E-Mail mitgeteilt",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
-    "source": "eventbrite",
-    "type": "afterwork"
-  },
-  {
-    "title": "Ü40 Socialmatch - Hamburg",
-    "date": "2026-03-29",
-    "time": "19:30",
-    "venue": "Hamburg · Genaue Location wird einen Tag vor dem Event per E-Mail mitgeteilt",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
-    "source": "eventbrite",
-    "type": "afterwork"
-  },
-  {
-    "title": "ADHS@WORK #3",
-    "date": "2026-03-17",
-    "time": "12:30",
-    "venue": "Hamburg · betahaus | Schanze",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/after-work/",
-    "source": "eventbrite",
-    "type": "afterwork"
-  },
-  {
-    "title": "Olympische und Paralympische Spiele in Hamburg – Konzept und Kommunikation",
-    "date": "2026-03-11",
-    "time": "18:30",
-    "venue": "Hamburg · Design Offices Hamburg Hammerbrook",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "edunautika 2026 in Hamburg",
-    "date": "2026-04-18",
-    "time": "08:30",
-    "venue": "Hamburg · Max-Brauer-Schule",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Impact Lunch: Social Entrepreneurship City Hamburg Edition",
-    "date": "2026-03-25",
-    "time": "12:00",
-    "venue": "Hamburg · Impact Hub Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Aachen meets Hamburg - das Unternehmer:innen Netzwerk-Treffen 2026",
-    "date": "2026-03-23",
-    "time": "16:00",
-    "venue": "Hamburg · ristorante L ancora",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Networking // Open Space // März Hamburg",
-    "date": "2026-03-09",
-    "time": "18:00",
-    "venue": "Hamburg · Consensa Projektberatung GmbH & Co. KG",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Female Business Breakfast Hamburg",
-    "date": "2026-03-12",
-    "time": "10:00",
-    "venue": "Hamburg · Marshall Street Coffee",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Verkaufsqueen lädt ein: Netzwerken mit Spaß und Erfolg",
-    "date": "2026-03-27",
-    "time": "10:00",
-    "venue": "Hamburg · Tybas Dance Center",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Female Business Walk & Talk Hamburg",
-    "date": "2026-03-17",
-    "time": "18:00",
-    "venue": "Hamburg · Treffpunkt am Alex Jungfernstieg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Female Business Meet up AHRENSBURG",
-    "date": "2026-03-11",
-    "time": "19:00",
-    "venue": "Ahrensburg · ZEITLOS AHRENSBURG",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Female Business Meetup Hamburg",
-    "date": "2026-03-25",
-    "time": "19:00",
-    "venue": "Hamburg · 60 Seconds to napoli | Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Vom Stillstand zum Vorsprung",
-    "date": "2026-04-15",
-    "time": "19:00",
-    "venue": "Hamburg · Hanse Lounge, 2. Stock",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "HAMBURG BÖRSE 2026",
-    "date": "2026-05-07",
-    "time": "14:30",
-    "venue": "Hamburg · Handelskammer Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Female Business Lunch Hamburg",
-    "date": "2026-03-24",
-    "time": "12:30",
-    "venue": "Hamburg · 1620 Brunch & Dinner",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Resilienz-Café Hamburg | \"Stress lass nach\"",
-    "date": "2026-04-17",
-    "time": "15:00",
-    "venue": "Hamburg · Café Koppel",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Argentina vegana",
-    "date": "2026-03-28",
-    "time": "11:00",
-    "venue": "Hamburg · Olivia Kochschule",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Italienischer Kochkurs",
-    "date": "2026-07-09",
-    "time": "19:00",
-    "venue": "Hamburg · Olivia Kochschule",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Die levantinische Küche",
-    "date": "2026-06-19",
-    "time": "18:00",
-    "venue": "Hamburg · Olivia Kochschule",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Female Finance & Career - Workshop",
-    "date": "2026-04-23",
-    "time": "18:30",
-    "venue": "Hamburg · Gotenstraße 12",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/networking/",
-    "source": "eventbrite",
-    "type": "networking"
-  },
-  {
-    "title": "Social Developers Conference 2026",
-    "date": "2026-03-21",
-    "time": "10:00",
-    "venue": "Hamburg · SAE Institute Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "Impact Lunch: Social Entrepreneurship City Edition",
-    "date": "2026-06-24",
-    "time": "12:00",
-    "venue": "Hamburg · Impact Hub Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "The Taylor Party // Hamburg",
-    "date": "2026-04-18",
-    "time": "18:00",
-    "venue": "Hamburg · HALO Club Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "Curious about … Gen-Z (und Gen Alpha) - with Noel Dederichs.",
-    "date": "2026-03-25",
-    "time": "18:30",
-    "venue": "Hamburg · Curious Company GmbH",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "Ü30 Party Hamburg / Sa, 14.03./ Angie's",
-    "date": "2026-03-14",
-    "time": "22:00",
-    "venue": "Hamburg · Angie's",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "Kizomba Matine Presents: KIZKONPA mit VASCO",
-    "date": "2026-03-08",
-    "time": "05:00",
-    "venue": "Hamburg · Generator Hostel Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "GHANA INDEPENDENCE CELEBRATION WITH SARKODIE,2026",
-    "date": "2026-03-14",
-    "time": "20:00",
-    "venue": "Hamburg · Hermann-Buck-Weg 9",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "Bollywood Neon Holi Party in Hamburg",
-    "date": "2026-03-14",
-    "time": "23:00",
-    "venue": "Hamburg · Die Insel Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "40plus Party Hamburg/ Sa, 18.04./ Angie's",
-    "date": "2026-04-18",
-    "time": "22:00",
-    "venue": "Hamburg · Angie's",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "closely. Crime Dinner",
-    "date": "2026-03-18",
-    "time": "19:00",
-    "venue": "Hamburg · Manzels",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "HERITAGE - SYLT SPECIAL x ROTES KLIFF x PETER KLIEM",
-    "date": "2026-04-02",
-    "time": "18:00",
-    "venue": "Hamburg · HERITAGE Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "KÄSE UND WEIN – DAS IST FEIN",
-    "date": "2026-03-25",
-    "time": "19:00",
-    "venue": "Hamburg · Weinladen | St. Pauli",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "SCHÖNER TRINKEN - SCHLUCK FÜR SCHLUCK SCHLAUER",
-    "date": "2026-03-11",
-    "time": "19:00",
-    "venue": "Hamburg · Weinladen | St. Pauli",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "XXL Semester Party @ HALO Club (Semester Opening Party)",
-    "date": "2026-04-09",
-    "time": "23:00",
-    "venue": "Hamburg · HALO Club Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "The new lagos exclusive house party",
-    "date": "2026-03-21",
-    "time": "18:00",
-    "venue": "Hamburg · Ludolfstraße 42",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "HUDCON • The Heated Rivalry Night • Uebel & Gefährlich Hamburg",
-    "date": "2026-04-18",
-    "time": "23:59",
-    "venue": "Hamburg · Uebel & Gefährlich",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
-    "title": "Kennt ihr schon...? Pitchen statt Swipen",
-    "date": "2026-03-15",
-    "time": "20:00",
-    "venue": "Hamburg · Haus 73",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/social/",
-    "source": "eventbrite",
-    "type": "social"
-  },
-  {
     "title": "Master the Art of Buying, Selling & Scaling Startups Successfully!",
-    "date": "2026-03-08",
+    "date": "2026-03-15",
     "time": "13:00",
     "venue": "Hamburg · TBA",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
@@ -360,17 +9,8 @@
     "type": "startup"
   },
   {
-    "title": "Startups Mentorship Program",
-    "date": "2026-04-08",
-    "time": "17:00",
-    "venue": "Hamburg · Hamburg",
-    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
-    "source": "eventbrite",
-    "type": "startup"
-  },
-  {
     "title": "Startups Fund Raising Program",
-    "date": "2026-03-13",
+    "date": "2026-03-20",
     "time": "19:00",
     "venue": "Hamburg · Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
@@ -378,17 +18,17 @@
     "type": "startup"
   },
   {
-    "title": "Impact Academy: Startup-Förderlandschaft verstehen",
-    "date": "2026-03-10",
-    "time": "16:30",
-    "venue": "Hamburg · Impact Hub Hamburg",
+    "title": "Startup Mentorship Program — Build, Fund & Scale",
+    "date": "2026-04-08",
+    "time": "17:00",
+    "venue": "Hamburg · Die Diele Coworking Space & Hangout",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"
   },
   {
     "title": "Launch Your Own Successful AI App | AI Startup | Workshop 2026",
-    "date": "2026-03-08",
+    "date": "2026-03-15",
     "time": "13:00",
     "venue": "Hamburg · TBD",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
@@ -415,7 +55,7 @@
   },
   {
     "title": "Master AI Entrepreneurship - From A to Z Masterclass",
-    "date": "2026-03-08",
+    "date": "2026-03-15",
     "time": "13:00",
     "venue": "Hamburg · TBD",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
@@ -433,7 +73,7 @@
   },
   {
     "title": "Prompt to Profit — Learn Generative AI for Business and Innovation",
-    "date": "2026-03-08",
+    "date": "2026-03-15",
     "time": "13:00",
     "venue": "Hamburg · TBD",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
@@ -468,19 +108,28 @@
     "type": "startup"
   },
   {
-    "title": "Campfire on Mars #54 - Entwicklung & Zukunftslust in 2026",
-    "date": "2026-04-08",
-    "time": "18:30",
-    "venue": "Hamburg · XO Projects GmbH",
+    "title": "innovate:me – Mit KI die Logistik-Arbeitswelt gestalten",
+    "date": "2026-04-09",
+    "time": "10:00",
+    "venue": "Hamburg · Digital Hub Logistics & Commerce",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"
   },
   {
-    "title": "innovate:me – Mit KI die Logistik-Arbeitswelt gestalten",
-    "date": "2026-04-09",
-    "time": "10:00",
-    "venue": "Hamburg · Digital Hub Logistics & Commerce",
+    "title": "Impact Lunch: Social Entrepreneurship City Hamburg Edition",
+    "date": "2026-03-25",
+    "time": "12:00",
+    "venue": "Hamburg · Impact Hub Hamburg",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
+    "source": "eventbrite",
+    "type": "startup"
+  },
+  {
+    "title": "Campfire on Mars #54 - Entwicklung & Zukunftslust in 2026",
+    "date": "2026-04-08",
+    "time": "18:30",
+    "venue": "Hamburg · XO Projects GmbH",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"
@@ -499,6 +148,15 @@
     "date": "2026-05-07",
     "time": "18:00",
     "venue": "Hamburg · SBS Legal Rechtsanwälte",
+    "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
+    "source": "eventbrite",
+    "type": "startup"
+  },
+  {
+    "title": "Buchhaltung für Einsteiger, Teil 2",
+    "date": "2026-03-28",
+    "time": "14:15",
+    "venue": "Hamburg · Hamburg",
     "url": "https://www.eventbrite.de/d/germany--hamburg/startup/",
     "source": "eventbrite",
     "type": "startup"

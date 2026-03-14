@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T03:04:50.737Z",
+  "scraped_at": "2026-03-14T03:04:45.801Z",
   "count": 30,
   "events": [
     {
@@ -14,27 +14,17 @@
     },
     {
       "title": "Jahreshauptversammlung",
-      "date": "2026-03-08",
-      "time": "9:00",
-      "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Taubenverein",
-      "source": "lentfoehrden.de",
-      "type": "social",
-      "url": "https://www.lentfoehrden.de"
-    },
-    {
-      "title": "Jahreshauptversammlung",
-      "date": "2026-03-12",
+      "date": "2026-03-16",
       "time": "19:30",
       "venue": "Sportlerheim",
-      "description": "Veranstalter: CDU Lentföhrden",
+      "description": "Veranstalter: TC an der Au e.V.",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"
     },
     {
       "title": "Chorprobe",
-      "date": "2026-03-12",
+      "date": "2026-03-19",
       "time": "19:30",
       "venue": "Gemeindezentrum",
       "description": "Veranstalter: Chor Lentföhrden",
@@ -43,21 +33,31 @@
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Spielenachmittag",
-      "date": "2026-03-12",
-      "time": "14:00",
+      "title": "Handarbeit",
+      "date": "2026-03-19",
+      "time": "14:30",
       "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Seniorenclub",
+      "description": "Veranstalter: Handarbeitskreis \"Die Wollmäuse\"",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"
     },
     {
-      "title": "Spiele- und Lesegruppe",
-      "date": "2026-03-13",
-      "time": "15:00",
+      "title": "Jahreshauptversammlung 2026 TSV Lentföhrden",
+      "date": "2026-03-20",
+      "time": "19:00",
+      "venue": "Sportlerheim",
+      "description": "Veranstalter: TSV Lentföhrden",
+      "source": "lentfoehrden.de",
+      "type": "social",
+      "url": "https://www.lentfoehrden.de"
+    },
+    {
+      "title": "Fortbildung",
+      "date": "2026-03-20",
+      "time": "08:00 bis 15:00",
       "venue": "Gemeindezentrum",
-      "description": "Veranstalter: Gemeinde Lentföhrden",
+      "description": "Veranstalter: Kita Zwergenhügel",
       "source": "lentfoehrden.de",
       "type": "social",
       "url": "https://www.lentfoehrden.de"

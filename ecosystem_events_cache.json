@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-03-07T03:01:42.091Z",
-  "count": 30,
+  "lastUpdated": "2026-03-14T03:01:39.073Z",
+  "count": 28,
   "sources": {
     "nextmedia": {
       "url": "https://nextmedia-hamburg.de/events/",
-      "count": 6
+      "count": 7
     },
     "aric": {
       "url": "https://aric-hamburg.de/events/",
-      "count": 26
+      "count": 23
     },
     "kreativgesellschaft": {
       "url": "https://kreativgesellschaft.org/termine/",
@@ -16,33 +16,6 @@
     }
   },
   "events": [
-    {
-      "title": "ARIC-Tipp | AgentCamp – Hamburg",
-      "date": "2026-03-07",
-      "time": "09:00 - 17:00",
-      "venue": "q.beyond AG",
-      "url": "https://aric-hamburg.de/veranstaltung/agentcamp-hamburg/",
-      "source": "aric",
-      "type": "networking"
-    },
-    {
-      "title": "ARIC Brown Bag Session: Souveränität: Vom Buzzword zur Datenhoheit",
-      "date": "2026-03-10",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-souveraenitaet-vom-buzzword-zur-datenhoheit/",
-      "source": "aric",
-      "type": "techtalk"
-    },
-    {
-      "title": "ARIC Brown Bag Session:  AI Adoption Best Practices for KMU/SMEs",
-      "date": "2026-03-12",
-      "time": "12:00 - 12:30",
-      "venue": "ARIC Hamburg",
-      "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-session-ai-adoption-best-practices-for-kmu-smes/",
-      "source": "aric",
-      "type": "techtalk"
-    },
     {
       "title": "Agentic Coding Meetup",
       "date": "2026-03-16",
@@ -159,6 +132,15 @@
       "url": "https://aric-hamburg.de/veranstaltung/aric-brown-bag-balancing-edge-autonomy-and-cloud-intelligence/",
       "source": "aric",
       "type": "techtalk"
+    },
+    {
+      "title": "AIM Leaders Meet-up",
+      "date": "2026-04-16",
+      "time": "09:00 - 11:00",
+      "venue": "SPACE Hamburg | Am Sandtorkai 27",
+      "url": "https://nextmedia-hamburg.de/events/kalender/aim-leaders-meet-up/",
+      "source": "nextmedia",
+      "type": "meetup"
     },
     {
       "title": "WoHa! | Women's Hackathon 2026",

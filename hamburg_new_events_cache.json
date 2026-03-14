@@ -1,39 +1,39 @@
 [
   {
     "title": "Language Exchange Night 🇬🇧🇩🇪🇪🇸",
-    "date": "2026-03-07",
+    "date": "2026-03-14",
     "time": "6:30 PM",
     "venue": "Neue Leute kennenlernen / Meet New People",
-    "url": "https://www.meetup.com/meetup-group-ylmalxpv/events/312620715/",
+    "url": "https://www.meetup.com/meetup-group-ylmalxpv/events/312926694/",
     "source": "meetup.com",
     "type": "social"
   },
   {
-    "title": "Sunday Coffee *Ours*Every two weeks on",
-    "date": "2026-03-08",
-    "time": "2:30 PM",
-    "venue": "Socializer : Hamburg",
-    "url": "https://www.meetup.com/the-socializer-hamburg/events/313384132/",
-    "source": "meetup.com",
-    "type": "social"
-  },
-  {
-    "title": "Bee for Breakfast im Beehive Hamburg City",
-    "date": "2026-03-10",
-    "time": "9:30 AM",
-    "venue": "Beehive Networking Meetup Hamburg",
-    "url": "https://www.meetup.com/meetup-group-chfcpdue/events/313095557/",
+    "title": "#102: PDP Indexmanagement bei OTTO – Von Produkten zu Varianten",
+    "date": "2026-03-17",
+    "time": "7:00 PM",
+    "venue": "SEO Meetup Hamburg",
+    "url": "https://www.meetup.com/seo-meetup-hamburg/events/313724140/",
     "source": "meetup.com",
     "type": "networking"
   },
   {
     "title": "Meet Internationals and Locals | Social Melting Pot HAMBURG",
-    "date": "2026-03-11",
+    "date": "2026-03-18",
     "time": "7:00 PM",
     "venue": "Social Melting Pot - Hamburg | Cultural & Language exchange",
-    "url": "https://www.meetup.com/social-melting-pot-hamburg-cultural-and-language-exchange/events/312767592/",
+    "url": "https://www.meetup.com/social-melting-pot-hamburg-cultural-and-language-exchange/events/313431505/",
     "source": "meetup.com",
     "type": "social"
+  },
+  {
+    "title": "build fridays - work on your startup alongside other founders (bring laptop)",
+    "date": "2026-03-20",
+    "time": "4:00 PM",
+    "venue": "AI BEAVERS",
+    "url": "https://www.meetup.com/ai-beavers/events/313003225/",
+    "source": "meetup.com",
+    "type": "networking"
   },
   {
     "title": "Agentic Conf Hamburg - A Full Day Conference in March",
@@ -43,5 +43,14 @@
     "url": "https://www.meetup.com/agentic-coding-meetup-hamburg/events/313186589/",
     "source": "meetup.com",
     "type": "networking"
+  },
+  {
+    "title": "Gründungs-Stammtisch",
+    "date": "2026-03-23",
+    "time": "5:30 PM",
+    "venue": "Gründer und Selbstständige",
+    "url": "https://www.meetup.com/grunder-und-selbststandige-hamburg/events/313161986/",
+    "source": "meetup.com",
+    "type": "bar"
   }
 ]

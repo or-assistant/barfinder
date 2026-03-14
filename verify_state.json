@@ -1,5 +1,5 @@
 {
-  "lastIndex": 100,
+  "lastIndex": 150,
   "flagged": [
     {
       "name": "Zum Silbersack",
@@ -938,8 +938,607 @@
         "osm": "not_found",
         "web": "no_url"
       }
+    },
+    {
+      "name": "Bar du Nord",
+      "address": "Mühlenkamp 1, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "ÜberQuell",
+      "address": "St. Pauli Fischmarkt 28-32",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Ratsherrn Brauerei",
+      "address": "Lagerstraße 30a, Schanzenviertel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Molly Malone's",
+      "address": "Ferdinandstraße 30-32, Neustadt",
+      "category": "irish-pub",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Paddy's Pit",
+      "address": "Reeperbahn 46, St. Pauli",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Galway Girl",
+      "address": "Schulterblatt 65, Sternschanze",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "James Joyce",
+      "address": "Holzdamm 23, St. Georg",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Shamrock",
+      "address": "Feldstraße 36, Karolinenviertel",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "O'Malley's",
+      "address": "Hein-Hoyer-Straße 13, St. Pauli",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kitty O'Shea's",
+      "address": "Große Bleichen 36, Neustadt",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Dubliner",
+      "address": "Lange Reihe 71, St. Georg",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Klönstuuv",
+      "address": "Bad Bramstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zentrale",
+      "address": "Dorfstraße 7, Kisdorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kiek In",
+      "address": "Am Markt 3, Kaltenkirchen",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Langeloher Hof",
+      "address": "Langeloh, Bad Bramstedt",
+      "category": "nightclub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Galerie-Café Schlossgefängnis",
+      "address": "Rantzau 9, Barmstedt",
+      "category": "cafe",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Da Colin",
+      "address": "Hamburger Straße 15, Kaltenkirchen",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zum Alten Markt",
+      "address": "Kuhberg 4, Barmstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Phoenix Stübchen",
+      "address": "Am Sportplatz 1a, 24629 Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Rantzau7",
+      "address": "Rantzau 7, Barmstedt",
+      "category": "restaurant",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+      "address": "Hamburger Straße 8, Bad Bramstedt",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bleicke's Gasthaus",
+      "address": "Bleeck 22, Bad Bramstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Wolters Gasthof von 1787",
+      "address": "Glückstädter Straße 3, 24576 Weddelbrook",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Shape",
+      "address": "Hamburger Straße, Kaltenkirchen",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zobis Cocktailbar",
+      "address": "Bahnhofstr. 1, Henstedt-Ulzburg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Glücksmarie",
+      "address": "Birkenweg 23, Bad Bramstedt",
+      "category": "restaurant",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Billard & Spielcafé",
+      "address": "Hamburger Straße",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Der Gutschmecker",
+      "address": "Bad Bramstedt",
+      "category": "restaurant",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Rock Bar",
+      "address": "Ulzburger Str. 609, Norderstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Herz von Garstedt",
+      "address": "Garstedt, Norderstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Cafeteria Latina",
+      "address": "Norderstedt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Petrol Bar",
+      "address": "Norderstraße 26, Harksheide",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Strandhaus Norderstedt",
+      "address": "Stadtpark, Norderstedt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kamphuis",
+      "address": "Kampstraße 57, Quickborn",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "VIVA",
+      "address": "Kieler Str. 91, Quickborn",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Billiard-Café",
+      "address": "Rathausplatz 1, Ulzburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Klackermatsch",
+      "address": "Oldesloer Straße, Bad Segeberg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "entflammBAR",
+      "address": "Eppendorfer Weg 177, Eppendorf",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Moe's Bar",
+      "address": "Hegestraße 44, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Planet Dart & Billard Bar",
+      "address": "Eppendorfer Weg 166, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Frank und Frei",
+      "address": "Schanzenstraße 93, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Calistoga Wine Saloon",
+      "address": "Eppendorfer Landstraße 44, Eppendorf",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Chrissi's",
+      "address": "Stellinger Weg 15, Eimsbüttel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bar Chamäleon",
+      "address": "Methfesselstraße 28, Eimsbüttel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Pandora",
+      "address": "Vereinsstraße 54, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kuddl",
+      "address": "Lutterothstraße 83, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
     }
   ],
-  "verified": 100,
-  "lastRun": "2026-03-01T03:08:54.284Z"
+  "verified": 150,
+  "lastRun": "2026-03-08T03:01:26.913Z"
 }

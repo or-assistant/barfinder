@@ -672,5 +672,374 @@
       "Nicht in OSM gefunden"
     ],
     "timestamp": "2026-03-01T03:08:51.809Z"
+  },
+  {
+    "name": "Bar du Nord",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:15.226Z"
+  },
+  {
+    "name": "ÜberQuell",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:17.309Z"
+  },
+  {
+    "name": "Ratsherrn Brauerei",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:27.396Z"
+  },
+  {
+    "name": "Molly Malone's",
+    "status": "likely_closed",
+    "issues": [
+      "Nicht in OSM gefunden",
+      "Website unreachable (timeout)"
+    ],
+    "timestamp": "2026-03-08T03:00:28.745Z"
+  },
+  {
+    "name": "Paddy's Pit",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:30.684Z"
+  },
+  {
+    "name": "The Galway Girl",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:31.941Z"
+  },
+  {
+    "name": "James Joyce",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:33.262Z"
+  },
+  {
+    "name": "The Shamrock",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:34.819Z"
+  },
+  {
+    "name": "O'Malley's",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:36.137Z"
+  },
+  {
+    "name": "Kitty O'Shea's",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:37.581Z"
+  },
+  {
+    "name": "The Dubliner",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:38.858Z"
+  },
+  {
+    "name": "Klönstuuv",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:40.097Z"
+  },
+  {
+    "name": "Zentrale",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:41.835Z"
+  },
+  {
+    "name": "Kiek In",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:43.109Z"
+  },
+  {
+    "name": "Langeloher Hof",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:44.849Z"
+  },
+  {
+    "name": "Galerie-Café Schlossgefängnis",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:46.169Z"
+  },
+  {
+    "name": "Da Colin",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:47.549Z"
+  },
+  {
+    "name": "Zum Alten Markt",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:48.866Z"
+  },
+  {
+    "name": "Phoenix Stübchen",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:51.212Z"
+  },
+  {
+    "name": "Rantzau7",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:52.471Z"
+  },
+  {
+    "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:53.810Z"
+  },
+  {
+    "name": "Bleicke's Gasthaus",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:55.007Z"
+  },
+  {
+    "name": "Wolters Gasthof von 1787",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:56.411Z"
+  },
+  {
+    "name": "Shape",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:57.625Z"
+  },
+  {
+    "name": "Zobis Cocktailbar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:00:58.796Z"
+  },
+  {
+    "name": "Glücksmarie",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:00.632Z"
+  },
+  {
+    "name": "Billard & Spielcafé",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:02.037Z"
+  },
+  {
+    "name": "Der Gutschmecker",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:03.316Z"
+  },
+  {
+    "name": "Rock Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:04.678Z"
+  },
+  {
+    "name": "Herz von Garstedt",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:05.910Z"
+  },
+  {
+    "name": "Cafeteria Latina",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:07.214Z"
+  },
+  {
+    "name": "Petrol Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:08.511Z"
+  },
+  {
+    "name": "Strandhaus Norderstedt",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:09.702Z"
+  },
+  {
+    "name": "Kamphuis",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:10.946Z"
+  },
+  {
+    "name": "VIVA",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:12.231Z"
+  },
+  {
+    "name": "Billiard-Café",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:14.072Z"
+  },
+  {
+    "name": "Klackermatsch",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:15.433Z"
+  },
+  {
+    "name": "entflammBAR",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:16.579Z"
+  },
+  {
+    "name": "Moe's Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:17.919Z"
+  },
+  {
+    "name": "Planet Dart & Billard Bar",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:19.262Z"
+  },
+  {
+    "name": "Frank und Frei",
+    "status": "suspect",
+    "issues": [
+      "Website unreachable (timeout)"
+    ],
+    "timestamp": "2026-03-08T03:01:20.527Z"
+  },
+  {
+    "name": "Calistoga Wine Saloon",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:21.825Z"
+  },
+  {
+    "name": "Chrissi's",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:23.123Z"
+  },
+  {
+    "name": "Bar Chamäleon",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:24.444Z"
+  },
+  {
+    "name": "Pandora",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:25.656Z"
+  },
+  {
+    "name": "Kuddl",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-08T03:01:26.913Z"
   }
 ]

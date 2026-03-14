@@ -1,93 +1,13 @@
 [
   {
     "title": "Founders Running Club Hamburg",
-    "date": "2026-03-07",
+    "date": "2026-03-14",
     "time": "",
     "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/founders-running-club-hamburg-7-3-26",
+    "url": "https://startupcity.hamburg/news-events/events/founders-running-club-hamburg-14-3-26",
     "source": "startupcity",
     "type": "startup",
     "description": "Founders Running Club (FRC) brings founders, investors, tech, creative people and startup enthusiasts together for weekly easy runs and networking."
-  },
-  {
-    "title": "Impact Academy: understanding the startup funding landscape",
-    "date": "2026-03-10",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/impact-academy-understanding-the-startup-funding-landscape-3-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Find potential funding for your business with Startup City Hamburg."
-  },
-  {
-    "title": "The Female AI Club x Pragal Prinzenberg: Community Meet-up",
-    "date": "2026-03-11",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/the-female-ai-club-x-pragal-prinzenberg-community-meet-up",
-    "source": "startupcity",
-    "type": "networking",
-    "description": "The first official Female AI Club Meet-up in Hamburg is coming up."
-  },
-  {
-    "title": "Hamburg Global Innovators Circle Meetup",
-    "date": "2026-03-11",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/hamburg-global-innovators-circle-meetup-3-26",
-    "source": "startupcity",
-    "type": "afterwork",
-    "description": "No talks, no programme. Just good food, good drinks, good conversations, and celebrating one year of building together the Hamburg Global Innovators Circle."
-  },
-  {
-    "title": "Power ventures: how to morph industries with green innovation",
-    "date": "2026-03-12",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/power-ventures-how-to-morph-industries-with-green-innovation",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Join in for an inspiring evening at the intersection of climate innovation, entrepreneurship, and collaboration."
-  },
-  {
-    "title": "12MIN.ME | HAMBURG | IGNITE  #116",
-    "date": "2026-03-12",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/12minme-hamburg-ignite-116",
-    "source": "startupcity",
-    "type": "social",
-    "description": "IGNITE is the standard event of 12min.me with three talks on different topics! All topics are welcome at the monthly talks."
-  },
-  {
-    "title": "Internorga 2026",
-    "date": "2026-03-13",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/internorga-2026",
-    "source": "startupcity",
-    "type": "social",
-    "description": "From 13 to 17 March 2026, Hamburg will once again be the absolute hotspot for the entire out-of-home market with INTERNORGA."
-  },
-  {
-    "title": "build fridays hamburg",
-    "date": "2026-03-13",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-13-3-26",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
-  },
-  {
-    "title": "International Exchange Night",
-    "date": "2026-03-13",
-    "time": "",
-    "venue": "Hamburg",
-    "url": "https://startupcity.hamburg/news-events/events/international-exchange-night",
-    "source": "startupcity",
-    "type": "startup",
-    "description": "Join in for the final highlight of the START Sprint Week, where student teams present their MVP pitches developed during the intensive trial sprint."
   },
   {
     "title": "d3con 2026",
@@ -118,6 +38,36 @@
     "source": "startupcity",
     "type": "social",
     "description": "Lawyer Jannika Maaß-Schoon strengthens your communication and debating skills and shows you how to keep your composure under pressure."
+  },
+  {
+    "title": "Hacking Retail & Food Vol.2",
+    "date": "2026-03-18",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/hacking-retail-food-vol2",
+    "source": "startupcity",
+    "type": "networking",
+    "description": "Expect insights, real talk, and the chance to connect with people who are actively shaping the future of food."
+  },
+  {
+    "title": "Legacy SaaS in times of vibe coding",
+    "date": "2026-03-19",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/legacy-saas-in-times-of-vibe-coding",
+    "source": "startupcity",
+    "type": "tech",
+    "description": "At this event, you will get answers to the quastion how AI shapes the future of legacy SaaS."
+  },
+  {
+    "title": "build fridays hamburg",
+    "date": "2026-03-20",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/build-fridays-hamburg-20-3-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "This is a weekly gathering for people building startups. Come work on your thing alongside others doing the same. Network while you actually ship."
   },
   {
     "title": "Digital Alumni Lunch: Founding – Now more than ever!",
@@ -160,6 +110,26 @@
     "description": "Delicious vegan food, impulses & inspiring talks - Social Entrepreneurship City Hamburg Edition!"
   },
   {
+    "title": "Entrepreneurship Lunch: LLMs, Agentic Coding and the Impact on Software Innovation",
+    "date": "2026-03-25",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/entrepreneurship-lunch-llms-agentic-coding-and-the-impact-on-software-innovation",
+    "source": "startupcity",
+    "type": "tech",
+    "description": "In this entrepreneurship lunch session you will get an insight into Large Language Models (LLMs), Agentic Coding and the Impact on Software Innovation."
+  },
+  {
+    "title": "Climate Coffee - Hamburg",
+    "date": "2026-03-26",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/climate-coffee-hamburg",
+    "source": "startupcity",
+    "type": "networking",
+    "description": "A monthly coffee meet up for anyone working in or interested by the climate spaces. Part of the global Climate Coffee series."
+  },
+  {
     "title": "Bits & Pretzels Community Hamburg: Network & Leadership – Afterwork Event",
     "date": "2026-03-26",
     "time": "",
@@ -200,6 +170,16 @@
     "description": "Aircraft Interiors Expo (AIX) is the world’s leading marketplace for airlines and the supply chain to meet."
   },
   {
+    "title": "Start-up toolbox: prototyping and user feedback",
+    "date": "2026-04-14",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/start-up-toolbox-prototyping-and-user-feedback",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "In this workshop, you will learn about different forms and possibilities of prototyping and experience in a practical exercise how valuable it can be."
+  },
+  {
     "title": "Barcamp foodlab.",
     "date": "2026-04-16",
     "time": "",
@@ -208,6 +188,16 @@
     "source": "startupcity",
     "type": "social",
     "description": "A barcamp has nothing to do with drinking. It's more about sharing knowledge and experiences."
+  },
+  {
+    "title": "Meet4Insights",
+    "date": "2026-04-17",
+    "time": "",
+    "venue": "Hamburg",
+    "url": "https://startupcity.hamburg/news-events/events/meet4insights-26",
+    "source": "startupcity",
+    "type": "startup",
+    "description": "Meet people, expand your expertise and take a big step closer to your startup goal – welcome to Meet4Insights!"
   },
   {
     "title": "WoHa! | Women’s Hackathon 2026",

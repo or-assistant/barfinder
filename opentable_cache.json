@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T03:04:46.516Z",
+  "lastUpdated": "2026-03-14T03:04:41.710Z",
   "source": "opentable.de",
   "restaurants": [
     {
@@ -9,31 +9,19 @@
       "cuisine": "Aus aller Welt",
       "priceRange": "€€€€",
       "neighborhood": "St. Pauli",
-      "popularity": 8,
+      "popularity": 10,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/nil-hamburg",
       "source": "opentable"
     },
     {
-      "name": "Petit Amour, Spritzenplatz, Hamburg, Deutschland",
-      "rating": null,
-      "reviewCount": 52,
-      "cuisine": "International",
-      "priceRange": "€€€€",
-      "neighborhood": "Ottensen",
-      "popularity": null,
-      "isSponsored": false,
-      "url": "https://www.opentable.de/r/petit-amour-spritzenplatz-hamburg-deutschland-hamburg",
-      "source": "opentable"
-    },
-    {
       "name": "Koer Kulinarik & Bar",
       "rating": null,
-      "reviewCount": 112,
+      "reviewCount": 113,
       "cuisine": "Marktküche",
       "priceRange": "€€€€",
       "neighborhood": "Winterhude",
-      "popularity": 5,
+      "popularity": 8,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/koer-kulinarik-and-bar-hamburg",
       "source": "opentable"
@@ -41,11 +29,11 @@
     {
       "name": "Piment Wahabi Nouri",
       "rating": null,
-      "reviewCount": 1,
+      "reviewCount": 2,
       "cuisine": "Französisch",
       "priceRange": "€€€€",
       "neighborhood": "Hoheluft-Ost",
-      "popularity": null,
+      "popularity": 2,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/piment-wahabi-nouri-hamburg",
       "source": "opentable"
@@ -53,7 +41,7 @@
     {
       "name": "Haebel",
       "rating": null,
-      "reviewCount": 257,
+      "reviewCount": 256,
       "cuisine": "Moderne französische Küche",
       "priceRange": "€€€€",
       "neighborhood": "St. Pauli",
@@ -63,15 +51,15 @@
       "source": "opentable"
     },
     {
-      "name": "Restaurant Haerlin",
+      "name": "Petit Amour, Spritzenplatz, Hamburg, Deutschland",
       "rating": null,
-      "reviewCount": 67,
+      "reviewCount": 52,
       "cuisine": "International",
       "priceRange": "€€€€",
-      "neighborhood": "Neustadt",
-      "popularity": 5,
+      "neighborhood": "Ottensen",
+      "popularity": 3,
       "isSponsored": false,
-      "url": "https://www.opentable.de/r/restaurant-haerlin-hamburg",
+      "url": "https://www.opentable.de/r/petit-amour-spritzenplatz-hamburg-deutschland-hamburg",
       "source": "opentable"
     },
     {
@@ -87,39 +75,39 @@
       "source": "opentable"
     },
     {
+      "name": "The Table Kevin Fehling",
+      "rating": null,
+      "reviewCount": 58,
+      "cuisine": "International",
+      "priceRange": "€€€€",
+      "neighborhood": "HafenCity",
+      "popularity": 2,
+      "isSponsored": false,
+      "url": "https://www.opentable.de/r/the-table-kevin-fehling-hamburg",
+      "source": "opentable"
+    },
+    {
       "name": "Atlantic Restaurant",
       "rating": null,
       "reviewCount": 48,
       "cuisine": "Französisch",
       "priceRange": "€€€€",
       "neighborhood": "St Georg",
-      "popularity": 2,
+      "popularity": null,
       "isSponsored": false,
       "url": "https://www.opentable.de/r/atlantic-restaurant-hamburg",
       "source": "opentable"
     },
     {
-      "name": "Buoy",
+      "name": "Restaurant Haerlin",
       "rating": null,
-      "reviewCount": 54,
-      "cuisine": "Mediterran",
-      "priceRange": "€€€€",
-      "neighborhood": "HafenCity",
-      "popularity": 2,
-      "isSponsored": false,
-      "url": "https://www.opentable.de/r/buoy-hamburg",
-      "source": "opentable"
-    },
-    {
-      "name": "The Table Kevin Fehling",
-      "rating": null,
-      "reviewCount": 56,
+      "reviewCount": 67,
       "cuisine": "International",
       "priceRange": "€€€€",
-      "neighborhood": "HafenCity",
-      "popularity": 4,
+      "neighborhood": "Neustadt",
+      "popularity": null,
       "isSponsored": false,
-      "url": "https://www.opentable.de/r/the-table-kevin-fehling-hamburg",
+      "url": "https://www.opentable.de/r/restaurant-haerlin-hamburg",
       "source": "opentable"
     },
     {

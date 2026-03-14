@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated": "2026-03-02",
+    "generated": "2026-03-09",
     "sources": [
-      "meetup.com",
       "lu.ma/hamburg",
       "afterworkclub.de",
       "szene-hamburg.com",
+      "meetup.com",
       "domain knowledge"
     ],
     "note": "Events marked 'high' confidence are verified from live sources. 'medium' are well-known recurring Hamburg events from established venues."
@@ -16,11 +16,7 @@
       "location": "Wechselnde Locations",
       "address": "Hamburg Innenstadt",
       "category": "afterwork",
-      "days": [
-        2,
-        3,
-        4
-      ],
+      "days": [2, 3, 4],
       "time": "19:00",
       "description": "Community mit 20.000+ Mitgliedern. 1-2x monatlich Afterwork Events, lockeres Netzwerken in wechselnden Bars.",
       "price": "kostenlos",
@@ -32,9 +28,7 @@
       "location": "itemis AG Hamburg",
       "address": "Überseeallee 1, 20457 Hamburg",
       "category": "social",
-      "days": [
-        3
-      ],
+      "days": [3],
       "time": "19:00",
       "description": "After Work Social Club Spieleabend — Board Games & Drinks in lockerer Atmosphäre",
       "price": "kostenlos",
@@ -46,9 +40,7 @@
       "location": "Wechselnde Locations",
       "address": "Hamburg",
       "category": "networking",
-      "days": [
-        3
-      ],
+      "days": [3],
       "time": "19:00",
       "description": "Wöchentliches Treffen: Internationals & Locals kennenlernen. Cultural & Language Exchange in entspannter Bar-Atmosphäre.",
       "price": "kostenlos",
@@ -60,9 +52,7 @@
       "location": "Alster",
       "address": "Treffpunkt: Jungfernstieg, 20354 Hamburg",
       "category": "networking",
-      "days": [
-        3
-      ],
+      "days": [3],
       "time": "19:00",
       "description": "Wöchentlicher Spaziergang um die Alster mit netten Gesprächen. Lockeres Kennenlernen beim Gehen.",
       "price": "kostenlos",
@@ -74,9 +64,7 @@
       "location": "Wechselnde Bars",
       "address": "Hamburg",
       "category": "networking",
-      "days": [
-        4
-      ],
+      "days": [4],
       "time": "19:00",
       "description": "Alle 2 Wochen donnerstags. Internationales Afterwork-Treffen, lockeres Kennenlernen in Bars.",
       "price": "kostenlos",
@@ -84,18 +72,15 @@
       "confidence": "high"
     },
     {
-      "name": "WeRoad Afterwork",
-      "location": "Wechselnde Locations",
-      "address": "Hamburg",
+      "name": "After Work Club — Das Original",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
       "category": "afterwork",
-      "days": [
-        2,
-        3
-      ],
-      "time": "19:00",
-      "description": "Afterwork für Reisebegeisterte 20-50 Jahre. Neue Leute & gute Laune in netten Bars.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/wemeets-norddeutschland/",
+      "days": [4],
+      "time": "18:00",
+      "description": "Hamburgs erster After Work Club seit 1999. Jeden Donnerstag: House, Dance Classics, R'n'B. Terrasse mit Blick auf Planten un Blomen.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
       "confidence": "high"
     },
     {
@@ -103,9 +88,7 @@
       "location": "The Baby Goat Barn",
       "address": "Wohlwillstraße 30, 20359 Hamburg",
       "category": "quiz",
-      "days": [
-        3
-      ],
+      "days": [3],
       "time": "20:00",
       "description": "Beliebtes Pub Quiz auf St. Pauli. Regelmäßig ausverkauft! Pop-Culture, Musik, Allgemeinwissen.",
       "price": "5-10€",
@@ -117,10 +100,7 @@
       "location": "Reh Bar",
       "address": "Bahrenfelder Str. 157, 22765 Hamburg",
       "category": "afterwork",
-      "days": [
-        4,
-        5
-      ],
+      "days": [4, 5],
       "time": "19:00",
       "description": "360° Events Hamburg organisiert regelmäßig Afterwork-Drinks in der Reh Bar Ottensen.",
       "price": "kostenlos",
@@ -132,12 +112,7 @@
       "location": "Würfel & Zucker",
       "address": "Bundesstraße 2, 20146 Hamburg",
       "category": "social",
-      "days": [
-        2,
-        3,
-        4,
-        5
-      ],
+      "days": [2, 3, 4, 5],
       "time": "18:00",
       "description": "Mehrmals wöchentlich offene Spieleabende: Einsteiger, Kenner, English Speakers. Gemütliches Brettspielcafé.",
       "price": "8€",
@@ -145,27 +120,11 @@
       "confidence": "high"
     },
     {
-      "name": "Board Games @ Café MAY Barmbek",
-      "location": "Café MAY",
-      "address": "Fuhlsbüttler Str. 36, 22305 Hamburg",
-      "category": "social",
-      "days": [
-        4
-      ],
-      "time": "19:00",
-      "description": "Monatlicher Spieleabend von 360° Events Hamburg im gemütlichen Café MAY.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
-      "confidence": "high"
-    },
-    {
       "name": "OpenCoffee Club Hamburg",
       "location": "Wechselnde Cafés",
       "address": "Hamburg",
       "category": "networking",
-      "days": [
-        3
-      ],
+      "days": [3],
       "time": "09:00",
       "description": "Lockeres Business-Frühstück. Unternehmer, Freelancer und Kreative beim Kaffee. Kein Pitch-Zwang.",
       "price": "kostenlos",
@@ -173,41 +132,11 @@
       "confidence": "high"
     },
     {
-      "name": "Beehive Networking Breakfast",
-      "location": "Beehive Hamburg City",
-      "address": "Willy-Brandt-Str. 75, 20459 Hamburg",
-      "category": "networking",
-      "days": [
-        2
-      ],
-      "time": "09:30",
-      "description": "Monatliches Business-Frühstück: Bee for Breakfast. Netzwerken in Coworking-Atmosphäre.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/meetup-group-chfcpdue/",
-      "confidence": "high"
-    },
-    {
-      "name": "FrFrFr — Freelance Frühstück Freitag",
-      "location": "Wechselnde Cafés",
-      "address": "Hamburg",
-      "category": "networking",
-      "days": [
-        5
-      ],
-      "time": "09:00",
-      "description": "IT-Freelancer treffen sich freitags zum Frühstück. Lockerer Austausch unter Selbstständigen.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/it-freelancers-in-hamburg/",
-      "confidence": "high"
-    },
-    {
       "name": "F*ck the Small Talk Hamburg",
       "location": "Wechselnde Locations",
       "address": "Hamburg",
       "category": "networking",
-      "days": [
-        1
-      ],
+      "days": [1],
       "time": "18:30",
       "description": "Tiefgründige Gespräche statt Smalltalk. Connection Games & Deep Talks. Monatlich.",
       "price": "18€",
@@ -219,9 +148,7 @@
       "location": "TRU Fitness Club",
       "address": "Große Elbstraße 277, 22767 Hamburg",
       "category": "afterwork",
-      "days": [
-        4
-      ],
+      "days": [4],
       "time": "18:30",
       "description": "Sport & Social Afterwork im Fitness Club an der Elbe. Workout + Drinks danach.",
       "price": "kostenlos",
@@ -229,28 +156,11 @@
       "confidence": "high"
     },
     {
-      "name": "Hamburger Afterwork im 20up",
-      "location": "20up Bar",
-      "address": "Bernhard-Nocht-Str. 97, 20359 Hamburg",
-      "category": "afterwork",
-      "days": [
-        4
-      ],
-      "time": "18:00",
-      "description": "Afterwork mit Panoramablick über den Hafen. Cocktails in der Empire Riverside Rooftop Bar.",
-      "price": "kostenlos (Getränke selbst)",
-      "url": "https://www.empire-riverside.de/20up/",
-      "confidence": "medium"
-    },
-    {
       "name": "Clouds Afterwork",
       "location": "Clouds — Heaven's Bar & Kitchen",
       "address": "Reeperbahn 1, 20359 Hamburg",
       "category": "afterwork",
-      "days": [
-        4,
-        5
-      ],
+      "days": [4, 5],
       "time": "17:00",
       "description": "Afterwork in der 23. Etage des Tanzenden Turms. Skyline-Blick, DJ, Cocktails.",
       "price": "kostenlos (Getränke selbst)",
@@ -262,15 +172,9 @@
       "location": "Le Lion — Bar de Paris",
       "address": "Rathausstraße 3, 20095 Hamburg",
       "category": "social",
-      "days": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
+      "days": [2, 3, 4, 5, 6],
       "time": "18:00",
-      "description": "Hamburgs beste Cocktailbar. Gehobenes Publikum, exzellente Cocktails. Kein explizites Event, aber Institution für Ü35 Business Crowd.",
+      "description": "Hamburgs beste Cocktailbar. Gehobenes Publikum, exzellente Cocktails. Institution für Ü35 Business Crowd.",
       "price": "Cocktails ab 16€",
       "url": "https://www.lelion.net/",
       "confidence": "medium"
@@ -280,9 +184,7 @@
       "location": "Vlet in der Speicherstadt",
       "address": "Am Sandtorkai 23/24, 20457 Hamburg",
       "category": "wine-tasting",
-      "days": [
-        4
-      ],
+      "days": [4],
       "time": "19:00",
       "description": "Regelmäßige Weinabende mit norddeutscher Küche in der historischen Speicherstadt.",
       "price": "ab 59€",
@@ -290,28 +192,11 @@
       "confidence": "medium"
     },
     {
-      "name": "Haerlin Wine Tasting",
-      "location": "Hotel Vier Jahreszeiten — Haerlin",
-      "address": "Neuer Jungfernstieg 9-14, 20354 Hamburg",
-      "category": "wine-tasting",
-      "days": [
-        5
-      ],
-      "time": "19:00",
-      "description": "Exklusive Weinproben im 2-Sterne-Restaurant. Wechselnde Themen, gehobenes Ambiente.",
-      "price": "ab 89€",
-      "url": "https://www.fairmont-vier-jahreszeiten.de/",
-      "confidence": "medium"
-    },
-    {
       "name": "Weinprobe bei Jacques' Wein-Depot",
       "location": "Jacques' Wein-Depot",
       "address": "Eppendorfer Weg 76, 20259 Hamburg",
       "category": "wine-tasting",
-      "days": [
-        5,
-        6
-      ],
+      "days": [5, 6],
       "time": "19:00",
       "description": "Regelmäßige Weinproben mit 6-8 Weinen. Verschiedene Filialen in Hamburg.",
       "price": "15-25€",
@@ -323,11 +208,7 @@
       "location": "Trauben & Zeiten",
       "address": "Schulterblatt 26, 20357 Hamburg",
       "category": "wine-tasting",
-      "days": [
-        3,
-        4,
-        5
-      ],
+      "days": [3, 4, 5],
       "time": "18:00",
       "description": "Gemütliche Naturwein-Bar im Schanzenviertel. Offene Weinverkostungen und Wine & Cheese Abende.",
       "price": "ab 15€",
@@ -339,11 +220,9 @@
       "location": "Haus 73",
       "address": "Schulterblatt 73, 20357 Hamburg",
       "category": "quiz",
-      "days": [
-        1
-      ],
+      "days": [1],
       "time": "20:00",
-      "description": "Wöchentliche Quiz Night in der Schanze. Allgemeinwissen, Musik, Film. Kultiger Veranstaltungsort.",
+      "description": "Wöchentliche Quiz Night in der Schanze. Allgemeinwissen, Musik, Film.",
       "price": "2-3€",
       "url": "https://haus73.de/",
       "confidence": "medium"
@@ -353,9 +232,7 @@
       "location": "Molotow",
       "address": "Nobistor 14, 22767 Hamburg",
       "category": "quiz",
-      "days": [
-        2
-      ],
+      "days": [2],
       "time": "20:00",
       "description": "Kultiges Pub Quiz im legendären Molotow auf St. Pauli. Teams von 2-6 Personen.",
       "price": "kostenlos",
@@ -363,144 +240,11 @@
       "confidence": "medium"
     },
     {
-      "name": "12MIN.ME Hamburg",
-      "location": "Wechselnde Locations",
-      "address": "Hamburg",
-      "category": "networking",
-      "days": [
-        3,
-        4
-      ],
-      "time": "19:12",
-      "description": "Monatliches Format: 12-Minuten-Talks + Networking. 1-2x pro Monat, wechselnde Tage (Mi/Do). Innovation, Kreativität, Business.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/12minhh/",
-      "confidence": "high",
-      "recurrence": "1-2x pro Monat"
-    },
-    {
-      "name": "Growth Circle — Buchtreff",
-      "location": "Wechselnde Cafés",
-      "address": "Hamburg",
-      "category": "networking",
-      "days": [
-        4
-      ],
-      "time": "18:30",
-      "description": "Monatlicher Buchclub zu Business, Finanzen, Persönlichkeitsentwicklung. Lockerer Austausch.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/growth-circle-finanzen-karriere-pers-entwicklung/",
-      "confidence": "high"
-    },
-    {
-      "name": "W:CIRCLE — Women's Network Hamburg",
-      "location": "Wechselnde Cafés",
-      "address": "Hamburg",
-      "category": "networking",
-      "days": [
-        0
-      ],
-      "time": "13:30",
-      "description": "Monatliches Kaffee/Lunch-Treffen für Frauen. Lockeres Netzwerken ohne Pitch-Atmosphäre.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/womenscirclehamburg/",
-      "confidence": "high"
-    },
-    {
-      "name": "Alsterhaus Afterwork Apéro",
-      "location": "Alsterhaus — Le Buffet",
-      "address": "Jungfernstieg 16-20, 20354 Hamburg",
-      "category": "afterwork",
-      "days": [
-        4
-      ],
-      "time": "18:00",
-      "description": "Gehobenes Afterwork im Hamburger Traditionshaus. Champagner & Häppchen. Ü35 Business Crowd.",
-      "price": "ab 20€",
-      "url": "https://www.alsterhaus.de/",
-      "confidence": "medium"
-    },
-    {
-      "name": "Literaturhaus Hamburg — Wine & Words",
-      "location": "Literaturhaus Hamburg",
-      "address": "Schwanenwik 38, 22087 Hamburg",
-      "category": "wine-tasting",
-      "days": [
-        4
-      ],
-      "time": "19:30",
-      "description": "Regelmäßige Literatur- & Weinabende. Autoren-Lesungen mit begleitender Weinverkostung.",
-      "price": "15-25€",
-      "url": "https://www.literaturhaus-hamburg.de/",
-      "confidence": "medium"
-    },
-    {
-      "name": "Harbour Front Afterwork",
-      "location": "StrandPauli",
-      "address": "St. Pauli Hafenstraße 89, 20359 Hamburg",
-      "category": "afterwork",
-      "days": [
-        5
-      ],
-      "time": "17:00",
-      "description": "Freitags Afterwork am Elbstrand. DJs, Drinks, Hafenblick. Saisonal (April-Oktober).",
-      "price": "kostenlos",
-      "url": "https://www.strandpauli.de/",
-      "confidence": "medium"
-    },
-    {
-      "name": "Eppendorfer Spiele Club",
-      "location": "Wechselnde Locations Eppendorf",
-      "address": "Hamburg-Eppendorf",
-      "category": "social",
-      "days": [
-        6
-      ],
-      "time": "13:00",
-      "description": "Monatlicher Spieleclub samstags. Brett- und Kartenspiele, 13-22 Uhr. Gemischtes Publikum.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/spielen-in-hamburg/",
-      "confidence": "high"
-    },
-    {
-      "name": "Cocktail-Kurs @ Giftbar",
-      "location": "Giftbar",
-      "address": "Detlev-Bremer-Str. 13, 20359 Hamburg",
-      "category": "social",
-      "days": [
-        6
-      ],
-      "time": "18:00",
-      "description": "Regelmäßige Cocktail-Workshops samstags. Mixology lernen in kleinen Gruppen auf St. Pauli.",
-      "price": "ab 49€",
-      "url": "https://www.giftbar.de/",
-      "confidence": "medium"
-    },
-    {
-      "name": "Elbphilharmonie After Work Konzert",
-      "location": "Elbphilharmonie — Kleiner Saal",
-      "address": "Platz der Deutschen Einheit 4, 20457 Hamburg",
-      "category": "live-music",
-      "days": [
-        3
-      ],
-      "time": "18:30",
-      "description": "Mittwochs-Kurzkonzerte (ca. 1h) in der Elbphilharmonie. Klassik, Jazz, World Music. Danach Drinks auf der Plaza.",
-      "price": "ab 15€",
-      "url": "https://www.elbphilharmonie.de/",
-      "confidence": "medium"
-    },
-    {
       "name": "Jazz im Birdland",
       "location": "Birdland Jazzclub",
       "address": "Gärtnerstraße 122, 20253 Hamburg",
       "category": "live-music",
-      "days": [
-        2,
-        4,
-        5,
-        6
-      ],
+      "days": [2, 4, 5, 6],
       "time": "21:00",
       "description": "Hamburgs renommiertester Jazzclub. Live-Jazz mehrmals wöchentlich. Intime Atmosphäre, gehobenes Publikum.",
       "price": "10-20€",
@@ -508,153 +252,68 @@
       "confidence": "medium"
     },
     {
-      "name": "HEY MOMIE Hangout",
-      "location": "elephants Superfood Bar",
-      "address": "Hamburg",
-      "category": "networking",
-      "days": [
-        6
-      ],
-      "time": "11:00",
-      "description": "Monatliches Meetup & Hangout. Brunch-Networking in der Superfood Bar.",
-      "price": "15€",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
+      "name": "Elbphilharmonie After Work Konzert",
+      "location": "Elbphilharmonie — Kleiner Saal",
+      "address": "Platz der Deutschen Einheit 4, 20457 Hamburg",
+      "category": "live-music",
+      "days": [3],
+      "time": "18:30",
+      "description": "Mittwochs-Kurzkonzerte (ca. 1h) in der Elbphilharmonie. Klassik, Jazz, World Music.",
+      "price": "ab 15€",
+      "url": "https://www.elbphilharmonie.de/",
+      "confidence": "medium"
     },
     {
-      "name": "build fridays — Startup Co-Working",
+      "name": "12MIN.ME Hamburg",
       "location": "Wechselnde Locations",
       "address": "Hamburg",
       "category": "networking",
-      "days": [
-        5
-      ],
-      "time": "16:00",
-      "description": "Jeden Freitag: Co-Working mit anderen Gründern. Laptop mitbringen, gemeinsam arbeiten & austauschen.",
+      "days": [3, 4],
+      "time": "19:12",
+      "description": "Monatliches Format: 12-Minuten-Talks + Networking. 1-2x pro Monat. Innovation, Kreativität, Business.",
       "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/ai-beavers/",
-      "confidence": "high"
+      "url": "https://www.meetup.com/de-DE/12minhh/",
+      "confidence": "high",
+      "recurrence": "1-2x pro Monat"
+    },
+    {
+      "name": "Literaturhaus Hamburg — Wine & Words",
+      "location": "Literaturhaus Hamburg",
+      "address": "Schwanenwik 38, 22087 Hamburg",
+      "category": "wine-tasting",
+      "days": [4],
+      "time": "19:30",
+      "description": "Regelmäßige Literatur- & Weinabende. Autoren-Lesungen mit begleitender Weinverkostung.",
+      "price": "15-25€",
+      "url": "https://www.literaturhaus-hamburg.de/",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hamburger Afterwork im 20up",
+      "location": "20up Bar",
+      "address": "Bernhard-Nocht-Str. 97, 20359 Hamburg",
+      "category": "afterwork",
+      "days": [4],
+      "time": "18:00",
+      "description": "Afterwork mit Panoramablick über den Hafen. Cocktails in der Empire Riverside Rooftop Bar.",
+      "price": "kostenlos (Getränke selbst)",
+      "url": "https://www.empire-riverside.de/20up/",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alsterhaus Afterwork Apéro",
+      "location": "Alsterhaus — Le Buffet",
+      "address": "Jungfernstieg 16-20, 20354 Hamburg",
+      "category": "afterwork",
+      "days": [4],
+      "time": "18:00",
+      "description": "Gehobenes Afterwork im Hamburger Traditionshaus. Champagner & Häppchen. Ü35 Business Crowd.",
+      "price": "ab 20€",
+      "url": "https://www.alsterhaus.de/",
+      "confidence": "medium"
     }
   ],
   "one_time": [
-    {
-      "name": "F*ck the Small Talk Hamburg #1",
-      "date": "2026-03-02",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Deep Connection Event: Tiefgründige Gespräche statt Smalltalk. Sold out auf lu.ma.",
-      "price": "18€",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "OpenCoffee Club Hamburg",
-      "date": "2026-03-04",
-      "location": "TBA (Hamburg)",
-      "category": "networking",
-      "time": "09:00",
-      "description": "Lockeres Business-Frühstück für Unternehmer & Freelancer.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/opencoffeeclub_hamburg/events/313203153/",
-      "confidence": "high"
-    },
-    {
-      "name": "Community Brainstorming @ betahaus Schanze",
-      "date": "2026-03-04",
-      "location": "betahaus | Schanze",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "19:00",
-      "description": "The Offline Club Hamburg: Community-Brainstorming. Sold out auf lu.ma.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Agentic Coding Meetup",
-      "date": "2026-03-04",
-      "location": "Am Sandtorkai 27",
-      "address": "Am Sandtorkai 27, 20457 Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Meetup zu Agentic Coding. Talks + Networking in der HafenCity.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Board Games @ Café MAY Barmbek",
-      "date": "2026-03-05",
-      "location": "Café MAY",
-      "address": "Fuhlsbüttler Str. 36, 22305 Hamburg",
-      "category": "social",
-      "time": "19:00",
-      "description": "360° Events Spieleabend im Café MAY.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262415/",
-      "confidence": "high"
-    },
-    {
-      "name": "After Work Club Hamburg",
-      "date": "2026-03-05",
-      "location": "Café Schöne Aussichten",
-      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
-      "category": "afterwork",
-      "time": "18:00",
-      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, Drinks, Tanzfläche. Gewinnzahl der Woche beachten!",
-      "price": "Eintritt",
-      "url": "https://afterworkclub.de/",
-      "confidence": "high"
-    },
-    {
-      "name": "Power Ventures: Green Innovation",
-      "date": "2026-03-05",
-      "location": "1KOMMA5° Showroom Hamburg",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Carbon13 Event: How to morph industries with green innovation. Talks + Networking.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Drinks @ Reh Bar Ottensen",
-      "date": "2026-03-06",
-      "location": "Reh Bar",
-      "address": "Bahrenfelder Str. 157, 22765 Hamburg",
-      "category": "afterwork",
-      "time": "19:00",
-      "description": "360° Events Afterwork-Drinks in der Reh Bar.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/events/313262805/",
-      "confidence": "high"
-    },
-    {
-      "name": "Music Bingo @ Hard Rock Cafe",
-      "date": "2026-03-06",
-      "location": "Hard Rock Cafe Hamburg",
-      "address": "Bei den St. Pauli-Landungsbrücken 5, 20359 Hamburg",
-      "category": "social",
-      "time": "19:30",
-      "description": "Music Bingo Night: Musik erkennen + Bingo spielen. Fun Social Event mit Preisen.",
-      "price": "TBA",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "SGC International Women's Day 2026",
-      "date": "2026-03-08",
-      "location": "SGC Studio",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "10:00",
-      "description": "Reclaim Your Power: Internationaler Frauentag. Empowerment + Networking.",
-      "price": "TBA",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
     {
       "name": "Bits & Pretzels Community Hamburg: Afterwork",
       "date": "2026-03-10",
@@ -676,19 +335,7 @@
       "time": "09:30",
       "description": "Monatliches Business-Frühstück im Beehive Coworking.",
       "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/meetup-group-chfcpdue/events/313095557/",
-      "confidence": "high"
-    },
-    {
-      "name": "OpenClaw Hamburg Meetup",
-      "date": "2026-03-11",
-      "location": "Neuer Jungfernstieg 5",
-      "address": "Neuer Jungfernstieg 5, 20354 Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "OpenClaw Community Meetup. Waitlist mit 55+ Interessenten.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
+      "url": "https://www.meetup.com/de-DE/meetup-group-chfcpdue/",
       "confidence": "high"
     },
     {
@@ -710,7 +357,7 @@
       "address": "Hamburg",
       "category": "networking",
       "time": "09:00",
-      "description": "Ganztägige Konferenz zu AI Agents. 121+ Interessenten. Hochkarätig besetzt.",
+      "description": "Ganztägige Konferenz zu AI Agents. 139+ Interessenten. Hochkarätig besetzt.",
       "price": "117,81€",
       "url": "https://luma.com/hamburg",
       "confidence": "high"
@@ -737,6 +384,126 @@
       "description": "360° Events Afterwork-Drinks in der Reh Bar.",
       "price": "kostenlos",
       "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
+      "confidence": "high"
+    },
+    {
+      "name": "Music Bingo @ Hard Rock Cafe",
+      "date": "2026-03-13",
+      "location": "Hard Rock Cafe Hamburg",
+      "address": "Bei den St. Pauli-Landungsbrücken 5, 20359 Hamburg",
+      "category": "social",
+      "time": "19:30",
+      "description": "Music Bingo Night: Musik erkennen + Bingo spielen. Fun Social Event mit Preisen.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Offline Reading Party @ Kleine Milchkanne",
+      "date": "2026-03-14",
+      "location": "Kleine Milchkanne",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "15:00",
+      "description": "The Offline Club Hamburg: Gemeinsam lesen in gemütlicher Café-Atmosphäre. Digital Detox.",
+      "price": "10€",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Burn Brunch by Girlhood",
+      "date": "2026-03-15",
+      "location": "Kopf & Körper Studios",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "11:00",
+      "description": "Brunch + Community Event von Girlhood DE.",
+      "price": "50€",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Wunder Mobility Meetup: AVs & Teleoperations",
+      "date": "2026-03-17",
+      "location": "Wunder Mobility",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Meetup zu autonomem Fahren & Teleoperations im Carsharing. 47+ Interessenten.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "After Work Club Hamburg",
+      "date": "2026-03-19",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
+      "category": "afterwork",
+      "time": "18:00",
+      "description": "Hamburgs Original-Afterwork. Jeden Donnerstag.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "Music Bingo @ The Irishman",
+      "date": "2026-03-20",
+      "location": "The Irishman Hamburg",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "19:30",
+      "description": "Music Bingo Night im Irishman. Musik erkennen + Bingo spielen.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Health Network Hamburg Apéro Vol. 12",
+      "date": "2026-03-20",
+      "location": "RoofDrop Bar",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Health-Branche Networking-Apéro. 35+ Interessenten. Rooftop-Bar Atmosphäre.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Drinks @ Reh Bar Ottensen",
+      "date": "2026-03-20",
+      "location": "Reh Bar",
+      "address": "Bahrenfelder Str. 157, 22765 Hamburg",
+      "category": "afterwork",
+      "time": "19:00",
+      "description": "360° Events Afterwork-Drinks in der Reh Bar.",
+      "price": "kostenlos",
+      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
+      "confidence": "high"
+    },
+    {
+      "name": "AWSC Sonntagsbrunch",
+      "date": "2026-03-22",
+      "location": "eleven 11:11 eleven | Eppendorf",
+      "address": "Hamburg-Eppendorf",
+      "category": "social",
+      "time": "11:00",
+      "description": "After Work Social Club Sonntagsbrunch. Lockeres Kennenlernen beim Brunch.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "F*ck the Small Talk Hamburg #2",
+      "date": "2026-03-22",
+      "location": "TBA (Hamburg)",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Deep Connection Event: Tiefgründige Gespräche statt Smalltalk.",
+      "price": "18€",
+      "url": "https://luma.com/hamburg",
       "confidence": "high"
     }
   ]

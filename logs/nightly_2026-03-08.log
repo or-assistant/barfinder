@@ -1,0 +1,915 @@
+[2026-03-08 03:00:01] ═══ Nightly Update gestartet ═══
+[2026-03-08 03:00:01] ▶ Bar Events (scrape_bar_events.js)...
+[2026-03-08T03:00:01.145Z] Starting bar event scrape...
+  Scraping Aalhaus (https://aalhaus.de)...
+  → 3 events found
+  Scraping Molotow (https://www.molotowclub.com/programm/)...
+  → 141 events found
+  Scraping Nochtspeicher (https://nochtspeicher.de/)...
+  → 5 events found
+  Scraping Gruenspan (https://www.gruenspan.de/programm/)...
+  → 16 events found
+  Scraping Fabrik (https://www.fabrik.de/programm/)...
+  → 112 events found
+  Scraping Knust (https://www.knusthamburg.de/programm/)...
+  → 5 events found
+  Scraping Hafenklang (https://www.hafenklang.com/)...
+[2026-03-08 03:00:02] ERROR: Already running (PID 1656713)
+  → 5 events found
+  Scraping Logo (https://www.logo-hamburg.de/programm/)...
+  → 0 events found
+  Scraping Uebel & Gefährlich (https://www.uebelundgefaehrlich.com/programm/)...
+  → 0 events found
+  Scraping Fundbureau (https://fundbureau.de/)...
+  → 0 events found
+  Scraping Stage Club (https://www.stageclub.de/programm/)...
+  → 8 events found
+Saved 295 events to /home/openclaw/.openclaw/workspace/barfinder/bar_events_cache.json
+Done: 2026-03-07 DJ <a href="https://www.instagram.com/p/DVgFKb_jL5u/">Martha Penelope | Aal Nite</a> +++</p>
+  2026-03-07 DJ <a href="https://www.instagram.com/p/DVgFKb_jL5u/">Martha Penelope |&nbsp;Aal Nite</a></p>
+  2026-04-02 <a href="https://www.facebook.com/events/852527251177593">Bube, Dame, König, Aal &#8211; Das 136. Aalhaus Doppelkopf-Turnier</a></p>
+  2026-03-19 ... Geistershow" id="media2" rel="lightbox">
+  2026-12-30 15 UHR vorm MOLOTOW
+  2026-03-08 :&nbsp;PIYA
+  2026-03-08 :&nbsp;PIYA
+  2026-03-09 :&nbsp;FALSE&nbsp;LEFTY
+  2026-03-10 :&nbsp;DREAM&nbsp;NAILS" loading='lazy' rel="lightbox">
+  2026-03-12 :&nbsp;THE&nbsp;HAUNT
+  2026-03-12 :&nbsp;THE&nbsp;HAUNT
+  2026-03-12 :&nbsp;TRANS*TAPE&nbsp;-&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbo
+  2026-03-13 :&nbsp;UNSANE
+  2026-03-13 :&nbsp;UNSANE
+  2026-03-13 :&nbsp;COMING&nbsp;OF&nbsp;AGE!&nbsp;(GEN-Z&nbsp;PARTY)" loading='lazy' rel="lig
+  2026-03-13 :&nbsp;ALCOHOLIC&nbsp;FAITH&nbsp;MISSION" loading='lazy' rel="lightbox">
+  2026-03-14 :&nbsp;DAS&nbsp;QUIZ&nbsp;IM&nbsp;EXIL" loading='lazy' rel="lightbox">
+  2026-03-14 :&nbsp;DAS&nbsp;QUIZ&nbsp;IM&nbsp;EXIL" id="media2" rel="lightbox">
+  2026-03-14 :&nbsp;DEPRI&nbsp;DISKO&nbsp;-&nbsp;Melancholische&nbsp;Tanzmusik" loading='lazy
+  2026-03-14 :&nbsp;PVA
+  2026-03-15 :&nbsp;ISE
+  2026-03-15 :&nbsp;ISE
+  2026-03-17 :&nbsp;TRAMHAUS
+  2026-03-18 :&nbsp;SPYRES&nbsp;-&nbsp;ACHTUNG:&nbsp;Show&nbsp;wurde&nbsp;verlegt&nbsp;auf&nb
+  2026-03-18 :&nbsp;PUB&nbsp;QUIZ&nbsp;-&nbsp;Kategorisch&nbsp;Fragwürdig" id="media2" rel="l
+  2026-03-19 :&nbsp;ZECK" loading='lazy' rel="lightbox">
+  2026-03-19 :&nbsp;ZECK" id="media2" rel="lightbox">
+  2026-03-19 :&nbsp;SPYRES
+  2026-03-20 :&nbsp;BRIGITTE&nbsp;CALLS&nbsp;ME&nbsp;BABY&nbsp;-&nbsp;Ausverkauft!
+  2026-03-20 :&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbox">
+  2026-03-20 :&nbsp;MOTORBOOTY!
+  2026-03-21 :&nbsp;THE&nbsp;TERRYS
+  2026-03-21 :&nbsp;THE&nbsp;TERRYS
+  2026-03-21 :&nbsp;MR.&nbsp;BRIGHTSIDE" loading='lazy' rel="lightbox">
+  2026-03-21 :&nbsp;SHATTEN
+  2026-03-23 :&nbsp;FRITZI&nbsp;ERNST
+  2026-03-24 :&nbsp;PALES
+  2026-03-24 :&nbsp;PALES
+  2026-03-25 :&nbsp;HINNERK&nbsp;KÖHN&nbsp;@&nbsp;MOLOTOW" loading='lazy' rel="lightbox">
+  2026-03-26 :&nbsp;SIOVO" loading='lazy' rel="lightbox">
+  2026-03-26 :&nbsp;SIOVO" id="media2" rel="lightbox">
+  2026-03-27 :&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbox">
+  2026-03-27 :&nbsp;DON'T&nbsp;STOP&nbsp;ME&nbsp;NOW&nbsp;-&nbsp;From&nbsp;60s&nbsp;to&nbsp;9
+  2026-03-28 :&nbsp;DEADLETTER" loading='lazy' rel="lightbox">
+  2026-03-28 :&nbsp;ENTDECK&nbsp;THE&nbsp;DRECK" loading='lazy' rel="lightbox">
+  2026-03-28 :&nbsp;ENTDECK&nbsp;THE&nbsp;DRECK" id="media2" rel="lightbox">
+  2026-03-28 :&nbsp;SLOE&nbsp;NOON" loading='lazy' rel="lightbox">
+  2026-04-02 :&nbsp;DOWN&nbsp;IN&nbsp;THE&nbsp;PAST&nbsp;-&nbsp;TOP&nbsp;TEN&nbsp;BAR" loadin
+  2026-04-03 :&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbox">
+  2026-04-03 :&nbsp;GIRLS&nbsp;ULTRA&nbsp;ESSENTIALS" id="media2" rel="lightbox">
+  2026-04-04 :&nbsp;NOVA&nbsp;TWINS
+  2026-04-04 :&nbsp;NOVA&nbsp;TWINS
+  2026-04-04 :&nbsp;DON'T&nbsp;YOU&nbsp;WANT&nbsp;ME&nbsp;-&nbsp;80s&nbsp;Party" id="media2"
+  2026-04-04 :&nbsp;POST&nbsp;PUNK,&nbsp;LOFI&nbsp;ROCK,&nbsp;CRANK&nbsp;WAVE&nbsp;mit&nbsp;L
+  2026-04-08 :&nbsp;LIN
+  2026-04-08 :&nbsp;LIN
+  2026-04-08 :&nbsp;DIE&nbsp;SAUNA" loading='lazy' rel="lightbox">
+  2026-04-09 :&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbox">
+  2026-04-10 :&nbsp;THE&nbsp;HAUNTED&nbsp;YOUTH&nbsp;-&nbsp;Ausverkauft!
+  2026-04-10 :&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbox">
+  2026-04-10 :&nbsp;MOTORBOOTY!
+  2026-04-11 :&nbsp;DEPRI&nbsp;DISKO&nbsp;-&nbsp;Melancholische&nbsp;Tanzmusik" loading='lazy
+  2026-04-11 :&nbsp;JULIA&nbsp;EFFEKT" loading='lazy' rel="lightbox">
+  2026-04-11 :&nbsp;JULIA&nbsp;EFFEKT" id="media2" rel="lightbox">
+  2026-04-12 :&nbsp;RIKAS&nbsp;-&nbsp;Ausverkauft!
+  2026-04-15 :&nbsp;KEO
+  2026-04-15 :&nbsp;KEO
+  2026-04-16 :&nbsp;VALENTINO&nbsp;VIVACE
+  2026-04-16 :&nbsp;PUB&nbsp;QUIZ&nbsp;-&nbsp;Kategorisch&nbsp;Fragwürdig" id="media2" rel="l
+  2026-04-17 :&nbsp;CHRISTIN&nbsp;NICHOLS&nbsp;-&nbsp;KONZERT&nbsp;VERSCHOBEN&nbsp;AUF&nbsp;D
+  2026-06-06 !" loading='lazy' rel="lightbox">
+  2026-04-17 :&nbsp;HIGGS&nbsp;CHICKS&nbsp;+&nbsp;WE&nbsp;SMILE" loading='lazy' rel="lightbox
+  2026-04-18 :&nbsp;DAS&nbsp;LUMPENPACK&nbsp;-&nbsp;Ausverkauft" loading='lazy' rel="lightbox
+  2026-04-18 :&nbsp;ENTDECK&nbsp;THE&nbsp;DRECK" loading='lazy' rel="lightbox">
+  2026-04-18 :&nbsp;ENTDECK&nbsp;THE&nbsp;DRECK" id="media2" rel="lightbox">
+  2026-04-18 :&nbsp;POST&nbsp;PUNK&nbsp;NIGHT&nbsp;VOL.&nbsp;2" loading='lazy' rel="lightbox"
+  2026-04-18 :&nbsp;POST&nbsp;PUNK&nbsp;NIGHT&nbsp;VOL.&nbsp;2" id="media2" rel="lightbox">
+  2026-04-18 :&nbsp;MOTORBOOTY!
+  2026-04-19 :&nbsp;ANDA&nbsp;MORTS&nbsp;-&nbsp;Ausverkauft" loading='lazy' rel="lightbox">
+  2026-04-20 :&nbsp;ANDA&nbsp;MORTS" loading='lazy' rel="lightbox">
+  2026-04-21 :&nbsp;WINTERSLEEP" loading='lazy' rel="lightbox">
+  2026-04-22 :&nbsp;THE&nbsp;VIRGINMARYS" loading='lazy' rel="lightbox">
+  2026-04-22 :&nbsp;THE&nbsp;VIRGINMARYS" id="media2" rel="lightbox">
+  2026-04-22 :&nbsp;BLAKE&nbsp;HARLEY
+  2026-04-23 :&nbsp;TOP&nbsp;TEN&nbsp;BAR" loading='lazy' rel="lightbox">
+  2026-04-24 :&nbsp;GARAGEVILLE&nbsp;-&nbsp;THE&nbsp;WEEKEND&nbsp;-&nbsp;2026&nbsp;&nbsp;
+  2026-04-24 :&nbsp;GARAGEVILLE&nbsp;-&nbsp;THE&nbsp;WEEKEND&nbsp;-&nbsp;2026&nbsp;&nbsp;
+  2026-04-24 :&nbsp;ASTRAL&nbsp;BAKERS" loading='lazy' rel="lightbox">
+  2026-04-24 :&nbsp;VINYL&nbsp;EXPLOSION&nbsp;-&nbsp;ALTERNATIVE&nbsp;INDIE&nbsp;DANCE" id="m
+  2026-04-25 :&nbsp;GARAGEVILLE&nbsp;-&nbsp;THE&nbsp;WEEKEND&nbsp;-&nbsp;2026&nbsp;
+  2026-04-25 :&nbsp;GARAGEVILLE&nbsp;-&nbsp;THE&nbsp;WEEKEND&nbsp;-&nbsp;2026&nbsp;
+  2026-04-25 :&nbsp;PHILIPPA&nbsp;KINSKY" id="media2" rel="lightbox">
+  2026-04-25 :&nbsp;THIS&nbsp;CHARMING&nbsp;MAN&nbsp;
+  2026-04-26 :&nbsp;BRATAKUS" loading='lazy' rel="lightbox">
+  2026-04-26 :&nbsp;BRATAKUS" id="media2" rel="lightbox">
+  2026-04-28 :&nbsp;THE&nbsp;SOPHS" loading='lazy' rel="lightbox">
+  2026-04-28 :&nbsp;THE&nbsp;SOPHS" id="media2" rel="lightbox">
+  2026-04-29 :&nbsp;AYSANABEE" loading='lazy' rel="lightbox">
+  2026-04-30 :&nbsp;L.A.&nbsp;SALAMI&nbsp;-&nbsp;Nachholtermin,&nbsp;Tickets&nbsp;vom&nbsp;31
+  2026-04-30 :&nbsp;L.A.&nbsp;SALAMI&nbsp;-&nbsp;Nachholtermin,&nbsp;Tickets&nbsp;vom&nbsp;31
+  2026-04-30 :&nbsp;ARCHERS
+  2026-04-30 :&nbsp;ARCHERS
+  2026-05-07 :&nbsp;BO&nbsp;STALOCH
+  2026-05-07 :&nbsp;BO&nbsp;STALOCH
+  2026-05-08 :&nbsp;LETTERS&nbsp;SENT&nbsp;HOME
+  2026-05-08 :&nbsp;LETTERS&nbsp;SENT&nbsp;HOME
+  2026-05-13 :&nbsp;HIGH&nbsp;DESERT&nbsp;QUEEN" loading='lazy' rel="lightbox">
+  2026-05-15 :&nbsp;TRUSTFUNDBABES
+  2026-05-16 :&nbsp;DÖLL" loading='lazy' rel="lightbox">
+  2026-05-19 :&nbsp;THE&nbsp;RIONS" loading='lazy' rel="lightbox">
+  2026-05-19 :&nbsp;THE&nbsp;RIONS" id="media2" rel="lightbox">
+  2026-05-23 :&nbsp;SURF&nbsp;TRASH" loading='lazy' rel="lightbox">
+  2026-05-24 :&nbsp;JOHN&nbsp;5" loading='lazy' rel="lightbox">
+  2026-05-24 :&nbsp;JOHN&nbsp;5" id="media2" rel="lightbox">
+  2026-05-26 :&nbsp;WREST
+  2026-05-27 :&nbsp;HINNERK&nbsp;KÖHN&nbsp;@&nbsp;MOLOTOW" id="media2" rel="lightbox">
+  2026-05-29 :&nbsp;KLANGKOSMOS&nbsp;FESTIVAL" loading='lazy' rel="lightbox">
+  2026-06-06 :&nbsp;GET&nbsp;WELL&nbsp;SOON" loading='lazy' rel="lightbox">
+  2026-06-06 :&nbsp;CHRISTIN&nbsp;NICHOLS" loading='lazy' rel="lightbox">
+  2026-06-09 :&nbsp;JARED&nbsp;HART" loading='lazy' rel="lightbox">
+  2026-06-09 :&nbsp;JARED&nbsp;HART" id="media2" rel="lightbox">
+  2026-06-12 :&nbsp;JORDANA" loading='lazy' rel="lightbox">
+  2026-06-12 :&nbsp;JORDANA" id="media2" rel="lightbox">
+  2026-06-17 :&nbsp;ZEKE
+  2026-07-22 :&nbsp;SORRY&nbsp;ABOUT&nbsp;YOUR&nbsp;DAUGHTER
+  2026-07-30 :&nbsp;WELTTURBOJUGENDTAGE&nbsp;XX&nbsp;-&nbsp;Ausverkauft!
+  2026-08-01 :&nbsp;WELTTURBOJUGENDTAGE&nbsp;XX&nbsp;-&nbsp;Ausverkauft!
+  2026-10-03 :&nbsp;ALEX&nbsp;MOFA&nbsp;GANG" loading='lazy' rel="lightbox">
+  2026-10-21 :&nbsp;ALIEN&nbsp;CHICKS" loading='lazy' rel="lightbox">
+  2026-10-24 :&nbsp;MICHEL&nbsp;VON&nbsp;WUSSOW" loading='lazy' rel="lightbox">
+  2026-11-01 :&nbsp;SECHSER" loading='lazy' rel="lightbox">
+  2026-11-07 :&nbsp;JACK&nbsp;AND&nbsp;THE&nbsp;WEATHERMAN" loading='lazy' rel="lightbox">
+  2026-11-09 :&nbsp;NO&nbsp;CIGAR" loading='lazy' rel="lightbox">
+  2026-11-09 :&nbsp;NO&nbsp;CIGAR" id="media2" rel="lightbox">
+  2026-11-21 :&nbsp;SMILE&nbsp;AND&nbsp;BURN&nbsp;+&nbsp;PLAIINS&nbsp;+&nbsp;THE&nbsp;PILL" l
+  2026-11-25 :&nbsp;THE&nbsp;VEILS" loading='lazy' rel="lightbox">
+  2026-03-08 PIYA
+  2026-03-09 FALSE LEFTY
+  2026-04-08 LIN
+  2026-04-08 DIE SAUNA  '/>
+  2026-05-07 BO STALOCH
+  2026-05-08 LETTERS SENT HOME
+  2026-06-09 JARED HART  '/>
+  2026-11-09 NO CIGAR  '/>
+  2026-08-01 7" rel="stylesheet">
+  2033-05-04 " rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  2033-05-04 " rel="stylesheet">
+  2026-05-30 ) zeigen die Band aufgeräumter, fokussierter und druckvoller denn je – produzier
+  2026-04-01 4/jquery.min.js",main)}else{main()}
+  2026-05-06 5' media='all' />
+  2026-05-06 5' media='all' />
+  2026-09-06 1' media='all' />
+  2026-09-06 1' media='all' />
+  2026-07-03 1" id="jquery-core-js">
+  2026-04-03 1" id="jquery-migrate-js">
+  2026-09-06 1" />
+  2026-03-20 (ausverkauft)
+  2026-05-06 5" id="mec-select2-script-js">
+  2026-05-06 5" id="mec-lity-script-js">
+  2026-05-06 5" id="mec-colorbrightness-script-js">
+  2026-05-06 5" id="mec-owl-carousel-script-js">
+  2026-04-08 5" id="swiper-js">
+  2026-04-29 sind bereits erhältlich &lt;a href=&quot;https://www.gruenspan.de/konzerte/sing-
+  2026-03-20 (ausverkauft)",
+  2026-08-17 3/lazyload.min.js">
+  2026-09-01 jpg?w=1200" />
+  2026-09-01 jpg?w=460&h=350&zx=2805&zy=2345&ti=1770904014&code=002fa2bdafbd06bd6cceceb6047c3
+  2026-09-01 jpg?w=920&h=700&zx=2805&zy=2345&ti=1770904014&code=f5bf0c0e092e4c74622a4f508356e
+  2026-09-01 jpg?w=600&h=480&zx=2805&zy=2345&ti=1770904014&code=1ad144314f107536d68f88e805ad4
+  2026-09-01 jpg?w=1200&h=960&zx=2805&zy=2345&ti=1770904014&code=a42d854820cf86a5f6b201d73c9c
+  2026-09-01 jpg?w=350&h=266&zx=2805&zy=2345&ti=1770904014&code=c7e7fe014e7a4a58cb6b7feacc42f
+  2026-09-01 jpg?w=700&h=532&zx=2805&zy=2345&ti=1770904014&code=cf0ecb79a8e21e08ed0ec46733242
+  2026-09-01 jpg?w=820&h=420&zx=2805&zy=2345&ti=1770904014&code=e524bf008cb3c366ffb923ec46a10
+  2026-09-01 jpg?w=350&h=266&zx=2805&zy=2345&ti=1770904014&code=c7e7fe014e7a4a58cb6b7feacc42f
+  2026-09-01 jpg?w=700&h=532&zx=2805&zy=2345&ti=1770904014&code=cf0ecb79a8e21e08ed0ec46733242
+  2026-09-01 jpg","description":"XZIBIT \u2013 Kingmaker Tour 2026\r\nHip-Hop-Legende XZIBIT
+  2073-12-01 1.381 1.245-1.381h3.678V.64L10.057.625c-4.834 0-5.75 3.673-5.75 6.025v2.68H.616v
+  2026-04-03 1.min.js")
+  2026-03-08 Thrice
+  2026-03-13 Marc Broussard
+  2026-03-14 Irish Heartbeat Let\u00b4s Celebrate St. Patrick\u00b4s Day
+  2026-03-15 Randale
+  2026-03-18 The Divine Comedy European Tour 2026
+  2026-03-19 Thorbj\u00f8rn Risager & The Black Tornado Live 2026
+  2026-03-20 Squeeze Tried, Tested and Trixies Tour
+  2026-03-21 The Boxer Rebellion
+  2026-03-22 Alice Merton
+  2026-03-23 The Life and Death of Martin Luther King Schultheater in englischer Sprache
+  2026-03-23 The Life and Death of Martin Luther King Schultheater in englischer Sprache
+  2026-03-24 The Great Gatsby Schultheater in englischer Sprache
+  2026-03-24 The Great Gatsby Schultheater in englischer Sprache
+  2026-03-25 The Magic Mumble Jumble Better Days Tour 2026
+  2026-03-26 The Jeremy Days Beauty in Broken Tour
+  2026-03-27 DeWolff & Blues Pills Double Bill Tour 2026
+  2026-03-28 Morgan Wallen Tribute UK
+  2026-03-30 The Young ClassX Stadtteilkonzert West
+  2026-03-31 The Young ClassX Stadtteilkonzert Mitte
+  2026-04-02 Max Goldt Aber?
+  2026-04-04 Kr\u00fcsch Kollektiv
+  2026-04-05 Reggaeville Easter Special
+  2026-04-08 Axel Rudi Pell Ghost Town Tour 2026
+  2026-04-10 Boomer Party Party-Mix: 70er - 90er
+  2026-04-12 Kulturtag der Julius-Leber-Stadtteilschule Mischen Impossible Together
+  2026-04-13 The Aristocrats The Duck Tour 2026
+  2026-04-16 Sound of Nashville pr\u00e4sentiert: Tucker Wetmore The Brunette World Tour
+  2026-04-17 Bummelkasten Irgendwas Bestimmtes
+  2026-04-18 Bummelkasten Irgendwas Bestimmtes
+  2026-04-19 Bummelkasten Irgendwas Bestimmtes
+  2026-04-20 Le Comte de Monte  Cristo Schultheater in franz\u00f6sischer Sprache
+  2026-04-20 Le Comte de Monte  Cristo Schultheater in franz\u00f6sischer Sprache
+  2026-04-21 Vonda Shepard European Spring Tour 2026
+  2026-04-22 Franny Dougan ***ABGESAGT***
+  2026-04-23 Mundstuhl Wir kommen
+  2026-04-24 Matteo Mancuso Route96 Tour
+  2026-04-26 Jan Plewka singt Rio Reiser
+  2026-04-30 \u00dc30\/40 Tanz in den Mai Party
+  2026-05-03 Les N\u00e9gresses Vertes Zobitour
+  2026-05-07 Larry Fleet Another Year Older 2026 Tour
+  2026-05-08 Randall King Sound of Nashville pr\u00e4sentiert: A long way from Amarillo
+  2026-05-10 Safri Duo Live in Germany 2026
+  2026-05-11 Jutes Far From Dilworth Tour
+  2026-05-13 XZIBIT Kingmaker European Tour 2026 With Furnace Band
+  2026-05-15 EA80
+  2026-05-16 Hamburgs Gro\u00dfe \u00dc40-Party
+  2026-05-18 16 Horsepower Tour 2026
+  2026-05-19 Luka Bloom The Beloved Tour 2026
+  2026-05-23 Choir! Choir! Choir! We Will CHOIR! You: An EPIC Queen Sing-Along! 
+  2026-05-24 Body Rhythm Festival & Friends Performance Night: Where bodies meet sound
+  2026-05-29 Tower of Power 58 Years of Funk & Soul
+  2026-05-31 Eule findet den Beat Das Theater-Konzert f\u00fcr Kinder
+  2026-05-31 Eule findet den Beat Das Theater-Konzert f\u00fcr Kinder
+  2026-06-02 Hazmat Modine
+  2026-06-05 Boomer Party Party-Mix: 70er - 90er
+  2026-06-06 Die Hamburger Stadtmeisterschaften Poetry Slam Finale
+  2026-06-07 Red Leather Tahoe Tour
+  2026-06-09 Bilmuri The Kinda Hard Tour 2026
+  2026-06-12 NDR Vokalensemble voiceXchange#14 Hamburg & Shanty feat. mahoin RELOADED
+  2026-06-13 Tuten & Blasen 50 Jahre Tuten & Blasen
+  2026-06-14 Touch\u00e9 Amor\u00e9 Performing the Album Stage Four
+  2026-07-25 Cody Pennington Country Show
+  2026-08-21 Oidorno Das war nicht sehr Oi, mein Freund!
+  2026-09-03 The Gardener & The Tree Sole Tour
+  2026-09-11 Festival Seelenbrand unplugged
+  2026-09-17 Plewka & Schmedtje Between the Lights
+  2026-09-22 Poets of the Fall
+  2026-09-24 Manfred Mann\u00b4s Earth Band Live 2026
+  2026-09-30 Ella Carina Werner Buchpremiere: Menopause Turbosause
+  2026-10-08 Jack Savoretti We Will Always Be The Way We Were Tour 2026
+  2026-10-17 Alin Coen Du bedeutest mir die Welt Tour
+  2026-10-18 Joel Brandenstein Emotionen II Tour
+  2026-10-24 Tiavo Hotel Tiavo Tour 2026
+  2026-10-25 Kitty, Daisy & Lewis Germany Tour 2026
+  2026-10-26 Carl Carlton & Melanie Wiegmann Miles of Time Tour
+  2026-10-28 The Kilkennys THANK YOU FOR THE DAYS TOUR 2026
+  2026-11-01 Unter meinem Bett
+  2026-11-05 Joe Jackson & Band Hope and Fury Tour 2026
+  2026-11-07 STOPPOK RUND-Reise - die Band-Tour 2026
+  2026-11-08 Fredrik Vahle Kinderkonzert
+  2026-11-08 Fredrik Vahle Kinderkonzert
+  2026-11-10 Eagles of Death Metal Celebrating 20 Years of \u201eDeath by Sexy\u2026\u201c Europe & UK Tour
+  2026-11-13 The Irish Folk Festival Gold dust in your Pocket
+  2026-11-14 CONNY & Liser \u00c6lpha Male Club Tour 2026
+  2026-11-15 The High Kings The Rocky Road Tour 
+  2026-11-17 Rock Legends
+  2026-11-18 Tony Bauer Fallschirmspringer
+  2026-11-19 Lina Maly 10 Jahre Nur zu Besuch
+  2026-11-20 Pohlmann Beweggr\u00fcnde Tour
+  2026-11-21 UK Subs Fifty Years of UK Punkrock
+  2026-11-28 Le Fly Club Tour 2026
+  2026-11-30 Scala & Kolacny Brothers Scala 30
+  2026-12-17 Erdm\u00f6bel Weihnachtstour 2026
+  2026-12-19 Inga Rumpf & Friends 80 REASONS TO ROCK
+  2026-12-27 Beatles Revival Band
+  2026-12-28 Corvus Corax In Ecclesia 2026
+  2026-12-30 Jaya the Cat
+  2027-02-04 Pippo Pollina Solo in Concert - Special Guest: Elisa Sandrini
+  2027-02-13 Herzchen & Mijalee Tour 2027
+  2026-06-02 1.min.js">
+  2026-06-03 1' id='jquery-core-js'>
+  2026-10-06 Tickets behalten ihre Gültigtkeit
+  2026-08-01 plakat-290x165.jpeg" alt="50 JAHRE KNUST: TOM HENGST" \>
+  2026-04-06 Tickets behalten ihre Gültigtkeit
+  2026-09-06 1' media='all' />
+  2026-09-06 1' media='all' />
+  2026-09-06 1' media='all' />
+  2026-09-06 1' media='all' />
+  2026-09-06 1" />
+  2026-04-04 1/css/swiper.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"
+  2026-04-04 1/css/swiper.min.css">
+  2026-05-01 1/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'" i
+  2026-05-01 1/dist/leaflet.css">
+  2026-07-03 3/html5shiv.min.js">
+  2026-04-01 2/respond.min.js">
+  2026-04-04 1/js/swiper.min.js">
+  2026-05-01 1/dist/leaflet.js', 'sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905
+[2026-03-08 03:00:15] ✅ Bar Events fertig
+[2026-03-08 03:00:15] ▶ Hamburg Sources (scrape_hamburg_sources.js)...
+🔍 Scraping new Hamburg event sources...
+
+📡 Scraping meetup.com...
+   Found 4 relevant events
+📡 Scraping prinz.de...
+   Found 0 relevant events
+
+✅ Total: 4 unique bar/nightlife/networking events
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/hamburg_new_events_cache.json
+  • [meetup.com] 2026-03-08 2:30 PM — Sunday Coffee *Ours*Every two weeks on @ Socializer : Hamburg (social)
+  • [meetup.com] 2026-03-10 9:30 AM — Bee for Breakfast im Beehive Hamburg City @ Beehive Networking Meetup Hamburg (networking)
+  • [meetup.com] 2026-03-11 7:00 PM — Meet Internationals and Locals | Social Melting Pot HAMBURG @ Social Melting Pot - Hamburg | Cultural & Language exchange (social)
+  • [meetup.com] 2026-03-22 9:00 AM — Agentic Conf Hamburg - A Full Day Conference in March @ Agentic Coding Meetup Hamburg (networking)
+[2026-03-08 03:00:24] ✅ Hamburg Sources fertig
+[2026-03-08 03:00:24] ▶ Hamburg Events (scrape_hamburg_events.js)...
+🎉 Hamburg Events Scraper
+========================
+
+
+🔍 Scraping: szene-hamburg-bars
+  URL: https://www.szene-hamburg.de/thema/bar/
+  Status: 200
+  HTML size: 85.8 KB
+  Found 7 items
+  Sample: "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg"
+
+🔍 Scraping: szene-hamburg-nachtleben
+  URL: https://www.szene-hamburg.de/thema/nachtleben/
+  Status: 200
+  HTML size: 111.9 KB
+  Found 19 items
+  Sample: "Kultur in Hamburg: Live ist hart"
+
+🔍 Scraping: hamburg-de-veranstaltungen
+  URL: https://www.hamburg.de/veranstaltungen/
+  Status: 200
+  HTML size: 231.6 KB
+  Found 7 items
+  Sample: "Erlebnisse in der Hansestadt"
+
+🔍 Scraping: hamburg-de-nightlife
+  URL: https://www.szene-hamburg.de/thema/club/
+  Status: 200
+  HTML size: 112.2 KB
+  Found 19 items
+  Sample: "Feiern unter freiem Himmel: 10 Open-Air-Locations in Hamburg"
+
+✅ Results saved to /home/openclaw/.openclaw/workspace/barfinder/hamburg_events_cache.json
+
+📊 Summary:
+  szene-hamburg-bars: 7 items ✓
+  szene-hamburg-nachtleben: 19 items ✓
+  hamburg-de-veranstaltungen: 7 items ✓
+  hamburg-de-nightlife: 19 items ✓
+[2026-03-08 03:00:36] ✅ Hamburg Events fertig
+[2026-03-08 03:00:36] ▶ Events Pipeline (scrape_events_pipeline.js)...
+🔄 Event Pipeline Scraper starting...
+   2026-03-08T03:00:36.563Z
+
+  ✅ Abendblatt: 100 items, 82 relevant
+  ✅ Google News "hamburg+bar+after+work": 16 items
+  ✅ Hamburg Tourism: 31 relevant events
+  ✅ Google News "hamburg+veranstaltung+networking": 27 items
+  ✅ Google News "hamburg+after+work+event": 50 items
+  ✅ Google News "hamburg+wine+tasting+bar": 25 items
+  ✅ Meetup cache: 4 events merged
+
+📊 Total raw: 226
+📊 After dedup: 200
+
+✅ Saved 200 events to /home/openclaw/.openclaw/workspace/barfinder/events_pipeline_cache.json
+[2026-03-08 03:00:38] ✅ Events Pipeline fertig
+[2026-03-08 03:00:38] ▶ Eventbrite Hamburg (scrape_eventbrite.js)...
+🎫 Eventbrite Scraper starting...
+   2026-03-08T03:00:38.856Z
+  🔍 Scraping: afterwork → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fafter-work%2F
+  📄 afterwork: Got 1588 chars
+  ✅ afterwork: Parsed 8 events
+  🔍 Scraping: networking → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fnetworking%2F
+  📄 networking: Got 4724 chars
+  ✅ networking: Parsed 40 events
+  🔍 Scraping: tasting → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fwine-tasting%2F
+  📄 tasting: Got 369 chars
+  ✅ tasting: Parsed 0 events
+  🔍 Scraping: social → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fsocial%2F
+  📄 social: Got 369 chars
+  ✅ social: Parsed 0 events
+  🔍 Scraping: startup → https://smry.ai/proxy?url=https%3A%2F%2Fwww.eventbrite.de%2Fd%2Fgermany--hamburg%2Fstartup%2F
+  📄 startup: Got 369 chars
+  ✅ startup: Parsed 0 events
+
+🎫 Eventbrite: 22 events saved to /home/openclaw/.openclaw/workspace/barfinder/eventbrite_events_cache.json
+[2026-03-08 03:01:37] ✅ Eventbrite Hamburg fertig
+[2026-03-08 03:01:37] ▶ Ecosystem Events (scrape_ecosystem_events.js)...
+🔍 Scraping Hamburg ecosystem events...
+
+nextMedia.Hamburg: 6 events
+ARIC Hamburg: 25 events
+Kreativ Gesellschaft: 0 events
+
+✅ Total unique future events: 29
+
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/ecosystem_events_cache.json
+  📅 2026-03-10 | techtalk     | ARIC Brown Bag Session: Souveränität: Vom Buzzword zur Daten [aric]
+  📅 2026-03-12 | techtalk     | ARIC Brown Bag Session:  AI Adoption Best Practices for KMU/ [aric]
+  📅 2026-03-16 | meetup       | Agentic Coding Meetup [aric]
+  📅 2026-03-17 | meetup       | ARIC-Tipp | Boost your Business [aric]
+  📅 2026-03-17 | meetup       | ARIC Brown Bag: Wenn KI schützt: Maya gegen häusliche Gewalt [aric]
+  📅 2026-03-17 | networking   | ARIC-Tipp | Online-Workshop: Diskriminierung durch KI [aric]
+  📅 2026-03-18 | techtalk     | Zeitlos ungerecht | Präsenz-Vortrag von Teresa Bücker [nextmedia]
+  📅 2026-03-19 | meetup       | ARIC Brown Bag Session: Nachhaltig wirtschaften mit KI [aric]
+  📅 2026-03-26 | networking   | Festival [nextmedia]
+  📅 2026-03-26 | meetup       | ARIC Brown Bag Session: Hire or Fire: Wer bleibt in der KI-Ä [aric]
+  📅 2026-03-30 | networking   | Perfektion war gestern. Stärken stärken ist heute! [nextmedia]
+  📅 2026-03-31 | techtalk     | ARIC Brown Bag: Beyond Quantum Resilience: Embedded Security [aric]
+  📅 2026-04-09 | pitch        | ARIC-Tipp | ChefTreff AI Hackathon [aric]
+  📅 2026-04-09 | startup      | ARIC Movie Night | The Imitation Game [aric]
+  📅 2026-04-14 | techtalk     | ARIC Brown Bag: Balancing edge autonomy and cloud intelligen [aric]
+  📅 2026-04-18 | meetup       | WoHa! | Women's Hackathon 2026 [nextmedia]
+  📅 2026-04-28 | meetup       | AI Mix & Mingle in April| KI-Stammtisch im April [aric]
+  📅 2026-05-19 | meetup       | AI Mix & Mingle Women's Edition [aric]
+  📅 2026-05-26 | meetup       | AI Mix & Mingle in May| KI-Stammtisch im Mai [aric]
+  📅 2026-06-09 | networking   | ARIC-Tipp | Ageing with Tech Festival 2026 [aric]
+  📅 2026-06-18 | pitch        | ARIC-Tipp | Transfer Workshop: ErUM-Scientists & Industry in [aric]
+  📅 2026-06-22 | meetup       | ARIC-Tipp | ISC High Performance 2026 [aric]
+  📅 2026-06-22 | networking   | FAZ Konferenz für Künstliche Intelligenz [aric]
+  📅 2026-06-30 | meetup       | AI Mix & Mingle in June| KI-Stammtisch im Juni [aric]
+  📅 2026-09-08 | networking   | KI-Summit 2026 [aric]
+  📅 2026-09-09 | networking   | scoopcamp [nextmedia]
+  📅 2026-09-29 | meetup       | AI Mix & Mingle in September| KI-Stammtisch im September [aric]
+  📅 2026-11-12 | networking   | AI Media Leaders [nextmedia]
+  📅 2026-11-24 | meetup       | AI Mix & Mingle in November| KI-Stammtisch im November [aric]
+[2026-03-08 03:01:40] ✅ Ecosystem Events fertig
+[2026-03-08 03:01:40] ▶ Yelp Reviews (scrape_yelp_reviews.js)...
+🍻 Yelp Reviews Scraper starting...
+
+  📡 Fetching: Bars in Hamburg...
+    → Page 1: 0 bars found
+  📡 Fetching page 2: Bars...
+    → Page 2: 9 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Kneipen in Hamburg...
+    → Page 1: 9 bars found
+  📡 Fetching page 2: Kneipen...
+    → Page 2: 8 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Cocktail+Bars in Hamburg...
+    → Page 1: 9 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Wine+Bars in Hamburg...
+    → Page 1: 10 bars found
+  ⏳ Waiting 3s...
+  📡 Fetching: Pubs in Hamburg...
+    → Page 1: 0 bars found
+
+✅ Saved 41 bars to /home/openclaw/.openclaw/workspace/barfinder/yelp_reviews_cache.json
+✅ Updated legacy /home/openclaw/.openclaw/workspace/barfinder/yelp_cache.json with 41 bars
+
+📊 Stats: 41 total, 41 with rating, 41 with review snippet
+[2026-03-08 03:03:13] ✅ Yelp Reviews fertig
+[2026-03-08 03:03:13] ▶ New Sources (Startupcity, MOPO etc.) (scrape_new_sources.js)...
+═══ New Sources Scraper ═══
+📅 2026-03-08T03:03:13.530Z
+🏙️ Scraping startupcity.hamburg...
+📰 Scraping MOPO...
+🏛️ Scraping Handelskammer...
+🚶 Scraping rausgegangen.de...
+  ✅ 382 events from rausgegangen.de
+  ✅ 42 events from startupcity.hamburg
+  ✅ 1 events from Handelskammer
+  ✅ 0 events from MOPO
+
+═══ Total: 39 events ═══
+  startupcity: 42
+  mopo: 0
+  handelskammer: 1
+  rausgegangen: 382
+💾 Saved to /home/openclaw/.openclaw/workspace/barfinder/new_sources_events_cache.json
+[2026-03-08 03:03:16] ✅ New Sources (Startupcity, MOPO etc.) fertig
+[2026-03-08 03:03:16] ▶ Mit Vergnügen Hamburg (scrape_mitvergnuegen.js)...
+🎉 Mit Vergnügen Hamburg Scraper starting...
+  🔍 Scraping homepage...
+  📋 Found 60 articles
+  🍸 Scraping 8 bar/food articles for venues...
+    📖 11 feuchtfröhliche Day Drinking Orte...
+    📖 11 Cafés mit schöner Terrasse zum Draußensitzen...
+    📖 11 Orte für einen leckeren Sonntagsbrunch in Hamburg...
+    📖 11 Cafés in Hamburg am Wasser...
+    📖 11 Restaurants, die ihr in der Innenstadt kennen solltet...
+    📖 11 feuchtfröhliche Orte für Boozy Brunch...
+    📖 11 richtig gute Restaurants & Cafés im Portugiesenviertel, d...
+    📖 11 gemütliche Restaurants für leckeres Herbst-Essen...
+
+🎉 Done: 60 articles, 3 events, 74 bars
+   Bar-relevant: 9, Food-relevant: 23
+[2026-03-08 03:04:21] ✅ Mit Vergnügen Hamburg fertig
+[2026-03-08 03:04:21] ▶ OpenTable Hamburg (scrape_opentable.js)...
+🍽️ OpenTable Hamburg Scraper starting...
+  🔍 Loading OpenTable Hamburg...
+  📊 Extracting restaurant data...
+
+🍽️ OpenTable: 15 restaurants saved
+   With rating: 4, with cuisine: 10
+[2026-03-08 03:04:42] ✅ OpenTable Hamburg fertig
+[2026-03-08 03:04:42] ▶ Hamburg Digital Ecosystem (scrape_hamburgwork.js)...
+🏢 Hamburg Digital Ecosystem Events Scraper
+══════════════════════════════════════════════════
+📡 Fetching hamburg-startups.net RSS...
+📡 Fetching hamburg-business.com events...
+  ✅ Found 9 events from hamburg-business.com
+  ✅ Found 4 event-related posts from hamburg-startups.net
+
+✅ Saved 13 events to /home/openclaw/.openclaw/workspace/barfinder/hamburgwork_events_cache.json
+[2026-03-08 03:04:43] ✅ Hamburg Digital Ecosystem fertig
+[2026-03-08 03:04:43] ▶ Rural Events (Lentföhrden) (scrape_rural_events.js)...
+🏡 Rural Events Scraper — Lentföhrden & Umkreis
+
+📍 Scraping lentfoehrden.de...
+🍺 Scraping woltersgasthof.eatbu.com...
+  → 12 Events gefunden
+  → 6 Events gefunden
+📅 12 wiederkehrende Dorffeste/Saisonevents hinzugefügt
+
+✅ 30 Events gespeichert → ./rural_events_cache.json
+[2026-03-08 03:04:45] ✅ Rural Events (Lentföhrden) fertig
+[2026-03-08 03:04:45] 📅 Sonntag → Google Ratings Refresh
+[2026-03-08 03:04:45] ⏭️ Google Ratings übersprungen (scrape_ratings_batch.js nicht vorhanden)
+[2026-03-08 03:04:45] 🔄 Server neustarten...
+[2026-03-08 03:04:48] ✅ Server neugestartet
+[2026-03-08 03:04:48] 🧪 Tests starten...
+
+🧪 Barfinder Test Suite
+══════════════════════════════════════════════════
+
+📡 API Health Checks:
+✅ /api/places status 200 — 200, 5076ms
+✅ /api/places has entries — 100 places
+✅ /api/places all have name/lat/lon
+❌ /api/places < 5000ms (Overpass live) — 5076ms
+✅ /api/hot status 200 — 200, 1862ms
+✅ /api/hot all have vibeScore/hotScore
+❌ /api/hot < 200ms — 1862ms
+✅ /api/events status 200 — 200, 43ms
+✅ /api/events returns array — 0 events
+✅ /api/sources status 200 — 200, 10ms
+✅ /api/sources all have status — 16 sources
+✅ /api/weather status 200 — 200, 6ms
+✅ /api/weather has temp/weatherEmoji — ☁️ 9.7°C
+✅ /api/weather < 100ms — 6ms
+
+🔍 Daten-Konsistenz:
+✅ All places have numeric lat/lon
+✅ vibeScore 0-100 — 100 places with vibeScore
+✅ estimatedBusyness check (none on /api/places — ok)
+✅ isOpen is boolean or null — 100 places
+✅ No duplicate places — all unique
+
+📁 Cache-Dateien:
+✅ cache.json exists & valid JSON
+✅ network_events_cache.json exists & valid JSON
+✅ google_ratings_cache.json exists & valid JSON
+✅ events_pipeline_cache.json exists & valid JSON
+
+══════════════════════════════════════════════════
+📊 Ergebnis: 21/23 Tests bestanden ⚠️
+❌ 2 Tests fehlgeschlagen
+
+💾 Ergebnisse → test_results.json
+
+[2026-03-08 03:04:55] ERROR: Tests fehlgeschlagen
+[2026-03-08 03:04:55] 🗺️ Standort-Plausibilitätscheck...
+⚠️ 157 location(s) with suspicious coordinates:
+  ❌ Zentrale (Dorfstraße 7, Kisdorf)
+     Coordinates outside Hamburg bounding box: 53.888, 9.933
+  ❌ Langeloher Hof (Langeloh, Bad Bramstedt)
+     Coordinates outside Bad Bramstedt bounding box: 53.5727146, 9.8465686
+  ❌ Phoenix Stübchen (Am Sportplatz 1a, 24629 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8103523, 10.0101077
+  ❌ Hotel & Restaurant & Bar & Lounge Lindenhof (Hamburger Straße 8, Bad Bramstedt)
+     Coordinates outside Bad Bramstedt bounding box: 53.4884074, 10.2388931
+  ❌ Wolters Gasthof von 1787 (Glückstädter Straße 3, 24576 Weddelbrook)
+     Coordinates outside Hamburg bounding box: 53.9049, 9.8329
+  ❌ Billard & Spielcafé (Hamburger Straße)
+     Coordinates outside Hamburg bounding box: 53.9167, 9.88333
+  ❌ Rock Bar (Ulzburger Str. 609, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.6538118, 10.0770973
+  ❌ Billiard-Café (Rathausplatz 1, Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7926888, 9.9808134
+  ❌ Holstenhof (Struvenhüttener Straße, 24640 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8760251, 9.9873914
+  ❌ Thassos (Heidland, 24568 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8367515, 9.9531143
+  ❌ China Town (Königstraße, 24568 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8379551, 9.9605709
+  ❌ The Irish Pub (Beckersbergstraße, 24558 Hamburg (Ulzburg))
+     Coordinates outside Hamburg bounding box: 53.7937898, 9.9829
+  ❌ Der Tanzhase - Hotel, Restaurant, Tanzbar (Dorfstraße 6-8, 24640 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9102647, 10.0251846
+  ❌ Wolters Gasthof (Glückstädter Straße 3, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9048928, 9.8329106
+  ❌ Restaurant Deichgraf (Am Köhlerhof 4, 24576 Hamburg (Bissenmoor))
+     Coordinates outside Hamburg bounding box: 53.9124229, 9.8830813
+  ❌ Restaurant Meteora (Mühlenstraße, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.916886, 9.8844619
+  ❌ China Restaurant Ho (Im Winkel 1, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9212396, 9.8813653
+  ❌ Cockpit (Dorfstraße, 24640 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9138568, 10.0376691
+  ❌ Landgasthof Goldener Hahn (Am Dorfplatz 1, 24641 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.8516798, 10.1262328
+  ❌ Kiek ut Stuben (Kiekut, 24576 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9484983, 10.0296659
+  ❌ Gasthof Zum Fährhaus (Stellauer Kirchenweg, 25563 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.9282676, 9.7252037
+  ❌ Restaurant Thassos zur Linde (Chemnitzstraße 1, 25355 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.7891244, 9.7731855
+  ❌ Zum Pilz (Düsterlohe, 25355 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.7887738, 9.7525854
+  ❌ Gut Kaden Restaurant (Kadener Straße 9, 25486 Hamburg (Kaden))
+     Coordinates outside Hamburg bounding box: 53.7853637, 9.9480991
+  ❌ Ricklinger Landbrauerei Zur Alten Försterei (K 52, 24635 Hamburg)
+     Coordinates outside Hamburg bounding box: 54.0158311, 10.167158
+  ❌ Diars Bar (Kurhausstraße 64)
+     Coordinates outside Hamburg bounding box: 53.9418451, 10.3062648
+  ❌ Gasthof Zur Eiche (Dorfstraße 27, 23826 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.895356, 10.1781647
+  ❌ Maria & Toni (Berliner Damm, 25479 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.7511528, 9.9193216
+  ❌ Kühl's Gasthof (Hauptstraße 41, 24647 Hamburg)
+     Coordinates outside Hamburg bounding box: 54.072537, 9.8951062
+  ❌ Süd Restaurant (Hamburg, 94B, Witte de Withstraat, Cool, Centrum, Rotterdam, Zuid-Holland, Nederland, 3012 BT, Nederland)
+     Coordinates outside Hamburg bounding box: 51.9150631, 4.4755388
+  ❌ Süd Restaurant (no address)
+     Coordinates outside northern Germany: 51.9150631, 4.4755388
+  ❌ Alte Liebe am Kaispeicher B (Am Kaispeicher B, 20457 Hamburg)
+     Coordinates outside Hamburg bounding box: 53.5419, undefined
+  ❌ Blue (Südportal 2, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.653509, 9.9833617
+  ❌ Arizona Kitchen (Niendorfer Straße 176, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.6594697, 9.9804062
+  ❌ Zum goldenen Bullen (Pascalkehre 13a, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7448166, 9.944083
+  ❌ Dani´s Rhener Treff (Wilstedter Straße 101, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7502833, 10.0079056
+  ❌ Ristorante Da Calogero (Carl-Zeiss-Straße 8, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7468369, 9.9341001
+  ❌ Amáre Bistro-Lounge (Max-Weber-Straße 7, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7446227, 9.9340967
+  ❌ Casa di Campo (Ulzburger Landstraße 447, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7520817, 9.9598647
+  ❌ Mr. Gyros (Ulzburger Straße 472, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.7319713, 9.996982
+  ❌ Mythos (Friedrichsgaber Straße 57, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7467218, 9.9424767
+  ❌ Rio Grande (Ulzburger Straße 593, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.7323932, 9.9964307
+  ❌ Burger Lounge (Friedrichsgaber Straße 103, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7435054, 9.9530831
+  ❌ Nitt (Norderstedter Straße 2, Henstedt-Ulzburg)
+     Coordinates outside Norderstedt bounding box: 53.7529746, 9.9971246
+  ❌ Barew (Max-Weber-Straße 30, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.745348, 9.939617
+  ❌ Steak-House Meeschensee (Elfenhagen 51, Norderstedt)
+     Coordinates outside Norderstedt bounding box: 53.7538652, 9.9791342
+  ❌ Eis Soost (Wilstedter Straße 35)
+     Coordinates outside Hamburg bounding box: 53.7537766, 9.9952851
+  ❌ Mühlenstein (Mühlenstraße 25, Wedel)
+     Coordinates outside Hamburg bounding box: 53.582442, 9.7012237
+  ❌ 28GRAD Strandbad Wedel (Hakendamm 2, Wedel)
+     Coordinates outside Hamburg bounding box: 53.570528, 9.6962381
+  ❌ ToGao (Beim Hoophof 3a, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5792529, 9.7048926
+  ❌ Casa di Amici (Rathausplatz 4, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5810493, 9.7030943
+  ❌ Buon Gusto (Mühlenstraße 28, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5823393, 9.7007437
+  ❌ Gelato In (Mühlenstraße 31, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5821369, 9.7013019
+  ❌ La Giara (Mühlenstraße 24, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5825311, 9.7008203
+  ❌ Batavia (Brooksdamm, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5817863, 9.6950508
+  ❌ La Vela Wedel (Deichstraße 19, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5741801, 9.6812498
+  ❌ Hotel Restaurant Alte Schmiede (Osterjork 24, Jork)
+     Coordinates outside Hamburg bounding box: 53.5319402, 9.6839987
+  ❌ Kingz - Das Grillhaus (Rudolf-Breitscheid-Straße 40, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5788826, 9.7100885
+  ❌ Porter-House (Am Marktplatz 2a, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5835215, 9.6974322
+  ❌ Fontana (Moorweg 2, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5936018, 9.723067
+  ❌ Yvonne's kleines Gasthaus (Gärtnerstraße 20, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5866147, 9.6975671
+  ❌ Mundfein (Rosengarten 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5813447, 9.7049935
+  ❌ Café MöwenNest (Yachthafenstraße 6, Jork)
+     Coordinates outside Hamburg bounding box: 53.5533303, 9.6683969
+  ❌ Garduong (Bahnhofstraße 31, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5781631, 9.7051754
+  ❌ Taverna Hellas (Altländer Markt 1, Jork)
+     Coordinates outside Hamburg bounding box: 53.5335335, 9.679488
+  ❌ Glashaus Cafe (Am Elbdeich 31, Jork)
+     Coordinates outside Hamburg bounding box: 53.5449245, 9.675212
+  ❌ Monsoon (Am Marktplatz 7, Wedel)
+     Coordinates outside Hamburg bounding box: 53.583878, 9.6982254
+  ❌ Indah's Kaffeehaus (Bahnhofstraße 9, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5803545, 9.703912
+  ❌ Restaurant Vom Land zum Meer (Am Elbdeich 27a, Jork)
+     Coordinates outside Hamburg bounding box: 53.5427199, 9.6807465
+  ❌ Soho Asian Cuisine & Sushi Bar (Rosengarten 29, Wedel)
+     Coordinates outside Hamburg bounding box: 53.58203, 9.7097214
+  ❌ Schulauer Fährhaus (Parnaßstraße 29, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5693451, 9.7032971
+  ❌ Kathrins Genuss Welt (Bürgerei 1, Jork)
+     Coordinates outside Hamburg bounding box: 53.5326761, 9.6810103
+  ❌ JA AN (Altländer Markt 1-4, Jork)
+     Coordinates outside Hamburg bounding box: 53.5334501, 9.6796793
+  ❌ Gelato in (Strandbaddamm 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5713253, 9.697453
+  ❌ Sea Bully (Deichstraße 20)
+     Coordinates outside Hamburg bounding box: 53.575634, 9.6787801
+  ❌ Taverna Plaka (Kronskamp 60, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5802529, 9.720886
+  ❌ Red Koi (Strandbaddamm 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5714125, 9.6978224
+  ❌ Asiaaroma (Bahnhofstraße 52, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5755065, 9.7060749
+  ❌ Pane Vino (Am Marktplatz 3, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5841006, 9.6975143
+  ❌ Taverna zum Griechen (Feldstraße 46)
+     Coordinates outside Hamburg bounding box: 53.5760851, 9.7151166
+  ❌ Reepschlägerhaus (Schauenburger Straße 4, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5864337, 9.6930059
+  ❌ Back-Cafe Wedel (Egenbüttelweg 4, Wedel)
+     Coordinates outside Hamburg bounding box: 53.5906829, 9.7160872
+  ❌ Hofcafe Obsthof Feindt (Westerjork 57, Jork)
+     Coordinates outside Hamburg bounding box: 53.5344123, 9.670421
+  ❌ 1221 (Schützenhofstraße 7, Jork)
+     Coordinates outside Hamburg bounding box: 53.5316343, 9.6812561
+  ❌ Hotel Altes Land (Schützenhofstraße 16, Jork)
+     Coordinates outside Hamburg bounding box: 53.5310992, 9.6820909
+  ❌ Restaurant Horster Mühle (Zur Wassermühle 4, Horst)
+     Coordinates outside Hamburg bounding box: 53.3688024, 10.0252177
+  ❌ Maschener Eiscafe (Horster Landstraße 118, Maschen)
+     Coordinates outside Hamburg bounding box: 53.3773706, 10.0344422
+  ❌ Max Tu (Poststraße 3-5, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3850033, 9.9823624
+  ❌ Gran Sasso (Unter den Linden 12A, Stelle)
+     Coordinates outside Hamburg bounding box: 53.3819986, 10.1113272
+  ❌ Bäckerei Soetebier (Horster Landstraße 64, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3832924, 10.0368519
+  ❌ Nikos Taverne (Horster Landstraße 121, Maschen-Heide)
+     Coordinates outside Hamburg bounding box: 53.3771056, 10.0346593
+  ❌ Pizzeria La Stella (Harburger Straße 16, Stelle)
+     Coordinates outside Hamburg bounding box: 53.3849867, 10.1073799
+  ❌ BARrica (Schillerplatz 1, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3870449, 9.9830677
+  ❌ Món Việt (Horster Landstraße 116, Maschen)
+     Coordinates outside Hamburg bounding box: 53.3778079, 10.0346597
+  ❌ Restaurant Zum Lindenhof (Bremer Straße 55, Nenndorf)
+     Coordinates outside Hamburg bounding box: 53.3791112, 9.8955096
+  ❌ Johannsen's (Helmstorfer Straße 19, Lindhorst)
+     Coordinates outside Hamburg bounding box: 53.373522, 9.9876149
+  ❌ Bambus Lounge (Harburger Straße 43, Stelle)
+     Coordinates outside Hamburg bounding box: 53.386008, 10.100311
+  ❌ Dat Backhus (Bremer Straße 51, Nenndorf)
+     Coordinates outside Hamburg bounding box: 53.3795417, 9.8963095
+  ❌ Restaurant Böttchers Gasthaus (Bremer Straße 44, Nenndorf)
+     Coordinates outside Hamburg bounding box: 53.3798281, 9.8956626
+  ❌ Herr Nilsson (Hittfelder Schulstraße, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3862774, 9.9857273
+  ❌ Osteria Rustica (Eikhoff 2, Rosengarten)
+     Coordinates outside Hamburg bounding box: 53.3706847, 9.9381436
+  ❌ Knolles Bistro (Ohlendorfer Straße 3, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3436414, 10.0290175
+  ❌ Sushi Circle (Ohlendorfer Straße 3, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3438364, 10.0285386
+  ❌ PAN-NAM Restaurant (Bahnhofstraße 35a, Rosengarten)
+     Coordinates outside Hamburg bounding box: 53.3675819, 9.924964
+  ❌ aroma Bistro (Am Tennisplatz 2, Hittfeld)
+     Coordinates outside Hamburg bounding box: 53.3880868, 9.9829312
+  ❌ Aphrodite (Hinter den Höllen 1, Ramelsloh)
+     Coordinates outside Hamburg bounding box: 53.3423587, 10.006216
+  ❌ Lieblingsplatz (Moorstraße 41, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.363214, 9.9933192
+  ❌ Gentles Club Die Orgel (Rübenkamp 27, Maschen)
+     Coordinates outside Hamburg bounding box: 53.3883141, 10.0272758
+  ❌ Athena (Lüneburger Straße 45, Stelle)
+     Coordinates outside Hamburg bounding box: 53.3790933, 10.1216076
+  ❌ Zum Dorfkrug (Bei der Kirche 8, Stelle)
+     Coordinates outside Hamburg bounding box: 53.380291, 10.1124232
+  ❌ Hittfelder Mühle (Weg zur Mühle 10, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.381579, 9.9838587
+  ❌ Mylos (Weg zur Mühle 10a, Seevetal)
+     Coordinates outside Hamburg bounding box: 53.3815129, 9.9835425
+  ❌ Capri (Steindamm 6)
+     Coordinates outside Hamburg bounding box: 53.7509439, 9.9211508
+  ❌ Hofcafé Landhaus Saggau (Dreiüm 29)
+     Coordinates outside Hamburg bounding box: 53.7623578, 9.9352391
+  ❌ Tamanori (Hamburger Straße 183, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7717735, 9.9790804
+  ❌ Omiros (Neuer Weg 16, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7888505, 10.0021614
+  ❌ d'Alessio (Hamburger Straße 66, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.7798092, 9.9771789
+  ❌ Christina's Kuchen und Torten im Café am Wöddel (Am Wöddel 25)
+     Coordinates outside Hamburg bounding box: 53.7874407, 10.0074004
+  ❌ Restaurant Ambrosia (Weg am Sportplatz 15, Tangstedt)
+     Coordinates outside Hamburg bounding box: 53.7511108, 10.0655017
+  ❌ Mr. Singh (Berliner Damm 2A, Ellerau)
+     Coordinates outside Hamburg bounding box: 53.7499924, 9.9192567
+  ❌ Taste of Asia (Bahnstraße 2, Quickborn)
+     Coordinates outside Hamburg bounding box: 53.7496694, 9.9193425
+  ❌ Lakeside Kitchen & Bar (Højerweg 2, Ellerau)
+     Coordinates outside Hamburg bounding box: 53.7529306, 9.9206137
+  ❌ Jagdhaus Waldfrieden (Kieler Straße 1, Bilsen)
+     Coordinates outside Hamburg bounding box: 53.7548129, 9.8815196
+  ❌ Alter Heidkrug (Segeberger Straße 10, Kayhude)
+     Coordinates outside Hamburg bounding box: 53.7490717, 10.1264677
+  ❌ Schosterkrog (Dorfstraße 11, Henstedt-Ulzburg)
+     Coordinates outside Hamburg bounding box: 53.787309, 10.0031197
+  ❌ Tommys Eisbar (Am Markt 13, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6839746, 9.6662181
+  ❌ Restaurant Parkhotel Rosarium (Berliner Straße 10)
+     Coordinates outside Hamburg bounding box: 53.6841687, 9.6699799
+  ❌ von Stamm (Kleiner Sand 60, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6860468, 9.6716829
+  ❌ Himara (Norderstraße 60c, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.7028854, 9.7143987
+  ❌ Lee 1996 Asian Cuisine (Großer Sand 24, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6823314, 9.6668288
+  ❌ Restaurant Pathos (Hauptstraße 29, Holm)
+     Coordinates outside Hamburg bounding box: 53.6213191, 9.6716372
+  ❌ Hofcafé Almthof (Almtweg 37, Appen)
+     Coordinates outside Hamburg bounding box: 53.6633592, 9.7223192
+  ❌ St. Esprit (Klosterhof 4, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6812043, 9.6568966
+  ❌ Restaurant am Kloster (Marktstraße 2, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6829418, 9.6561321
+  ❌ Presse Café (Am Markt 4, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6835506, 9.6654404
+  ❌ Kleiner Friedrich (Friedrichstraße 2-4, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.6976117, 9.7125498
+  ❌ Golden Smoke (Bahnhofsplatz 4)
+     Coordinates outside Hamburg bounding box: 53.6972323, 9.7145341
+  ❌ asiahub (Uetersener Straße 1, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.6969267, 9.7126528
+  ❌ Osteria La Vite (Hauptstraße 18, Holm)
+     Coordinates outside Hamburg bounding box: 53.6205623, 9.6736407
+  ❌ Birkenhain (Heimstättenstraße 87, Tornesch)
+     Coordinates outside Hamburg bounding box: 53.7108252, 9.7110059
+  ❌ Ladiges Gasthof (Hauptstraße 14, Holm)
+     Coordinates outside Hamburg bounding box: 53.6195663, 9.6748034
+  ❌ Tower-Restaurant Uetersen-Heist (Bültenkoppel 19, Heist)
+     Coordinates outside Hamburg bounding box: 53.6442753, 9.7046067
+  ❌ Café Langes Mühle (Heidgrabener Straße 3, Uetersen)
+     Coordinates outside Hamburg bounding box: 53.6922829, 9.6739641
+  ❌ Hotel Lindenhof (Großer Ring 7, Heist)
+     Coordinates outside Hamburg bounding box: 53.6535145, 9.6567403
+  ❌ Flens' Kneipe (Großenseer Straße 8b, Lütjensee)
+     Coordinates outside Hamburg bounding box: 53.6405881, 10.3612707
+  ❌ Zur Bilsener Mühle (Kieler Straße 25, Bilsen)
+     Coordinates outside Hamburg bounding box: 53.7729967, 9.8757265
+  ❌ Hotel & Restaurant Luna (Heinrich-Hertz-Straße 2, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6179108, 10.392262
+  ❌ Grill-Imbiss ELLAS (Europaplatz 8)
+     Coordinates outside Hamburg bounding box: 53.609378, 10.4075004
+  ❌ Eiscafe Griem (Poststraße 33, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6078314, 10.4115467
+  ❌ Alter Dorfkrug (Fritz-Berodt-Straße 1, Großensee)
+     Coordinates outside Hamburg bounding box: 53.6152167, 10.3413368
+  ❌ BeachClubTrittau (Großenseer Straße 10a)
+     Coordinates outside Hamburg bounding box: 53.6163566, 10.3964886
+  ❌ Grander Mühle (Lauenburger Straße 1)
+     Coordinates outside Hamburg bounding box: 53.5786928, 10.3904331
+  ❌ mönch & mücke (Zum Mönchsteich 1, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6290909, 10.3832422
+  ❌ Restaurant Piccolino (Trittauer Straße 19, Großensee)
+     Coordinates outside Hamburg bounding box: 53.6120731, 10.3455704
+  ❌ Strandhus (Seestraße 1, Großensee)
+     Coordinates outside Hamburg bounding box: 53.6144976, 10.3484878
+  ❌ Zwanzig21 (Möllner Straße 6, Kuddewörde)
+     Coordinates outside Hamburg bounding box: 53.5804181, 10.3942938
+  ❌ Zum Rappen (Hamburger Straße 30, Trittau)
+     Coordinates outside Hamburg bounding box: 53.6034801, 10.4104851
+[2026-03-08 03:04:55] ERROR: ⚠️ Verdächtige Koordinaten gefunden — siehe location_issues.json
+[2026-03-08 03:04:55] 📊 Running data enrichment...
+[2026-03-08 03:05:37] 🔍 Running quality check...
+[2026-03-08 03:05:37] 🗄️ Re-syncing SQLite DB...
+[2026-03-08 03:05:38] ═══ Nightly Update beendet (Fehler: 1) ═══
