@@ -1,0 +1,2262 @@
+{
+  "lastIndex": 250,
+  "flagged": [
+    {
+      "name": "Zum Silbersack",
+      "address": "Silbersackstraße 9, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website dead (403)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Zwick",
+      "address": "Mittelweg 36, Pöseldorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Schramme 10",
+      "address": "Schrammsweg 10, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Borchers",
+      "address": "Eppendorfer Weg 172, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Schröders",
+      "address": "Eppendorfer Weg 198, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Paola's",
+      "address": "Marie-Jonas-Platz, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ratsherrn Klause",
+      "address": "Schanzenstraße 36, Sternschanze",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Holsten-Schwemme",
+      "address": "Seilerstraße, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hong-Kong Hotel Bar",
+      "address": "Schmuckstraße 9, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Old Sailor",
+      "address": "Hamburger Berg, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zur Scharfen Ecke",
+      "address": "Davidstraße 1, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Haifisch Bar",
+      "address": "Große Elbstraße 128, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Hatari Pfälzer Stube",
+      "address": "Hamburger Berg 8, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Absturz",
+      "address": "Hamburger Berg 15, St. Pauli",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hamburg 60",
+      "address": "Schinkelstraße 4, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Gaststätte Dorotheen Eck",
+      "address": "Dorotheenstraße 190, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Eimseck",
+      "address": "Methfesselstraße 88, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Freundlich + Kompetent",
+      "address": "Hamburger Straße 13, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website dead (403)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Klimperkiste",
+      "address": "Esplanade 18, Neustadt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Murphy's Irish Pub",
+      "address": "Friedrichstraße 24, St. Pauli",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Zum Flensburger",
+      "address": "Lübecker Straße 121, Hamm",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Le Lion — Bar de Paris",
+      "address": "Rathausstraße 3, Altstadt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Boilerman Bar",
+      "address": "Eppendorfer Baum 9, Hoheluft",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Christiansen's",
+      "address": "Pinnasberg 60, St. Pauli",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "dripBAR",
+      "address": "Antonistraße 4, Hamburg",
+      "category": "cocktailbar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Liquid Garden",
+      "address": "Kleine Johannisstraße, Innenstadt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ba Nomu",
+      "address": "Juliusstraße 22, St. Pauli",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Collab Bar",
+      "address": "Hein-Hoyer-Straße 63, Hamburg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Rabbithole Bar",
+      "address": "Bartelsstraße 12, Sternschanze",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Jahreszeiten Bar",
+      "address": "Neuer Jungfernstieg 9-14, Hamburg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Bar 1910",
+      "address": "Kirchenallee 34-36, St. Georg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Central Congress",
+      "address": "Reesendamm, Innenstadt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Berglund",
+      "address": "Barmbeker Straße 83, Winterhude",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "A wolf will never be a pet",
+      "address": "Karolinenstraße 18, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Website dead (404)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Efi Bar",
+      "address": "Schulterblatt, Sternschanze",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Witwenball",
+      "address": "Große Bleichen, Innenstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Vin Aqua Vin",
+      "address": "Müggenkampstraße, Eimsbüttel",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Vineyard",
+      "address": "Weidenallee 10, Eimsbüttel",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Enchanté",
+      "address": "Wohlwillstraße, St. Pauli",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "W die Weinbar",
+      "address": "Mühlenkamp, Winterhude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Alte Druckerei",
+      "address": "Deichstraße 40, Altstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ufer Weinbar",
+      "address": "Eimsbütteler Chaussee, Eimsbüttel",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Neumann's am Grindel",
+      "address": "Grindelhof, Rotherbaum",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Gota Weinbar",
+      "address": "Jean-Paul-Weg 38, Jarrestadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Dal Fabbro Winebar",
+      "address": "Eppendorfer Weg 176, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "VIA DEI MILLE",
+      "address": "Eppendorfer Weg 287, Eppendorf",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kleines Jacob",
+      "address": "Elbchaussee 404, Othmarschen",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kleinhuis' Café & Weinstube",
+      "address": "Neanderstraße 27, Neustadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Gastronomie Pütter",
+      "address": "Harvestehuder Weg 44, Harvestehude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Restaurant Schoppenhauer",
+      "address": "Reimerstwiete 20-22, Speicherstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Dorotheum Weinbar",
+      "address": "Dorotheenstraße 176, Winterhude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Guter Wein Weinlokal",
+      "address": "Kellinghusenstraße 15, Eppendorf",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "HADLEY's",
+      "address": "Beim Schlump 84a, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Neumanns Bistro St. Georg",
+      "address": "Lange Reihe 101, St. Georg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Il Garage",
+      "address": "Kleine Rainstraße 3, Ottensen",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Heritage Bar & Restaurant",
+      "address": "An der Alster 52, St. Georg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "TWOSIX Rooftop Weinbar",
+      "address": "Marseiller Straße 2, Neustadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "1700 Winery Bar",
+      "address": "Ferdinandstraße 15, Altstadt",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Goldfischglas",
+      "address": "Eppendorfer Weg 178, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Pelican Bar",
+      "address": "Am Brunnenhof 2, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Botanik Distrikt",
+      "address": "Eppendorfer Landstraße 180, Eppendorf",
+      "category": "bar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Clouds",
+      "address": "Reeperbahn 1, Tanzende Türme",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Standard",
+      "address": "Hamburger Berg, St. Pauli",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Tower Bar",
+      "address": "Seewartenstraße 9, Hotel Hafen Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Kleinraumdisko",
+      "address": "Neuer Kamp 17, St. Pauli",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Kleines Phi",
+      "address": "Feldstraße 36, Karolinenviertel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "KOPS Bar",
+      "address": "Neuer Pferdemarkt 36, St. Pauli",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Black Forest Bar",
+      "address": "Eppendorfer Weg 185, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bierkrug",
+      "address": "Eppendorfer Weg 220, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Strandpauli",
+      "address": "St. Pauli Fischmarkt 28a",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Nachtasyl",
+      "address": "Alstertor 1, Thalia Theater",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Astra Stube",
+      "address": "Max-Brauer-Allee 200, Altona",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bar du Nord",
+      "address": "Mühlenkamp 1, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "ÜberQuell",
+      "address": "St. Pauli Fischmarkt 28-32",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Ratsherrn Brauerei",
+      "address": "Lagerstraße 30a, Schanzenviertel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Molly Malone's",
+      "address": "Ferdinandstraße 30-32, Neustadt",
+      "category": "irish-pub",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Paddy's Pit",
+      "address": "Reeperbahn 46, St. Pauli",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Galway Girl",
+      "address": "Schulterblatt 65, Sternschanze",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "James Joyce",
+      "address": "Holzdamm 23, St. Georg",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Shamrock",
+      "address": "Feldstraße 36, Karolinenviertel",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "O'Malley's",
+      "address": "Hein-Hoyer-Straße 13, St. Pauli",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kitty O'Shea's",
+      "address": "Große Bleichen 36, Neustadt",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Dubliner",
+      "address": "Lange Reihe 71, St. Georg",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Klönstuuv",
+      "address": "Bad Bramstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zentrale",
+      "address": "Dorfstraße 7, Kisdorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kiek In",
+      "address": "Am Markt 3, Kaltenkirchen",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Langeloher Hof",
+      "address": "Langeloh, Bad Bramstedt",
+      "category": "nightclub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Galerie-Café Schlossgefängnis",
+      "address": "Rantzau 9, Barmstedt",
+      "category": "cafe",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Da Colin",
+      "address": "Hamburger Straße 15, Kaltenkirchen",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zum Alten Markt",
+      "address": "Kuhberg 4, Barmstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Phoenix Stübchen",
+      "address": "Am Sportplatz 1a, 24629 Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Rantzau7",
+      "address": "Rantzau 7, Barmstedt",
+      "category": "restaurant",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+      "address": "Hamburger Straße 8, Bad Bramstedt",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bleicke's Gasthaus",
+      "address": "Bleeck 22, Bad Bramstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Wolters Gasthof von 1787",
+      "address": "Glückstädter Straße 3, 24576 Weddelbrook",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Shape",
+      "address": "Hamburger Straße, Kaltenkirchen",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zobis Cocktailbar",
+      "address": "Bahnhofstr. 1, Henstedt-Ulzburg",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Glücksmarie",
+      "address": "Birkenweg 23, Bad Bramstedt",
+      "category": "restaurant",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Billard & Spielcafé",
+      "address": "Hamburger Straße",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Der Gutschmecker",
+      "address": "Bad Bramstedt",
+      "category": "restaurant",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Rock Bar",
+      "address": "Ulzburger Str. 609, Norderstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Herz von Garstedt",
+      "address": "Garstedt, Norderstedt",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Cafeteria Latina",
+      "address": "Norderstedt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Petrol Bar",
+      "address": "Norderstraße 26, Harksheide",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Strandhaus Norderstedt",
+      "address": "Stadtpark, Norderstedt",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kamphuis",
+      "address": "Kampstraße 57, Quickborn",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "VIVA",
+      "address": "Kieler Str. 91, Quickborn",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Billiard-Café",
+      "address": "Rathausplatz 1, Ulzburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Klackermatsch",
+      "address": "Oldesloer Straße, Bad Segeberg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "entflammBAR",
+      "address": "Eppendorfer Weg 177, Eppendorf",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Moe's Bar",
+      "address": "Hegestraße 44, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Planet Dart & Billard Bar",
+      "address": "Eppendorfer Weg 166, Eppendorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Frank und Frei",
+      "address": "Schanzenstraße 93, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Calistoga Wine Saloon",
+      "address": "Eppendorfer Landstraße 44, Eppendorf",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Chrissi's",
+      "address": "Stellinger Weg 15, Eimsbüttel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Bar Chamäleon",
+      "address": "Methfesselstraße 28, Eimsbüttel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Pandora",
+      "address": "Vereinsstraße 54, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kuddl",
+      "address": "Lutterothstraße 83, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "3-Zimmerwohnung",
+      "address": "Eimsbütteler Chaussee 30, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Café Bar Sonnenseite",
+      "address": "Weidenallee 24",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Nuts Beer & More",
+      "address": "Stellinger Weg 21, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Parissa's",
+      "address": "Sierichstraße 112, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Schüttler's Bar",
+      "address": "Gertigstraße 16, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Gaststätte Profil",
+      "address": "Mühlenkamp 39, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Corner",
+      "address": "Mühlenkamp 19, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Fofftein",
+      "address": "Gertigstraße 32, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Don Antonio",
+      "address": "Mühlenkamp 27, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Tre Pazzi",
+      "address": "Gertigstraße 9, Winterhude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Zum Glaskasten",
+      "address": "Barmbeker Straße 61, Winterhude",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Portomarin",
+      "address": "Mühlenkamp 1, Winterhude",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "BRIX",
+      "address": "Hoheluftchaussee 58, Hoheluft-West",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "The Green Room",
+      "address": "Grindelallee 28, Rotherbaum",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Irish Rover",
+      "address": "Grindelhof 27, Rotherbaum",
+      "category": "irish-pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Wein Michel",
+      "address": "Grindelhof 62, Rotherbaum",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Kaffee Stark",
+      "address": "Klosterallee 32, Harvestehude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Pöseldorf Krug",
+      "address": "Milchstraße 7, Pöseldorf",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Nikkei Nine Bar",
+      "address": "Neuer Wall 13, Neustadt/Harvestehude",
+      "category": "cocktailbar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Nil",
+      "address": "Eppendorfer Weg 275, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Cox",
+      "address": "Eppendorfer Weg 259, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Café May Eppendorf",
+      "address": "Eppendorfer Landstraße 62, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Markt 7",
+      "address": "Marie-Jonas-Platz 7, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Trattoria Italiana da Basso",
+      "address": "Eppendorfer Weg 268, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Heinz Catering & Bar",
+      "address": "Eppendorfer Landstraße 34, Eppendorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Isemarkt Weinhandlung Kreutzfeldt",
+      "address": "Eppendorfer Baum 27, Eimsbüttel/Hoheluft",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Café May Eimsbüttel",
+      "address": "Eimsbütteler Straße 24, Eimsbüttel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Tante Gerda",
+      "address": "Methfesselstraße 44, Eimsbüttel",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Campari Bar",
+      "address": "Schanzenstraße 18, Eimsbüttel/Schanze",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Café Klatsch",
+      "address": "Mühlenkamp 25, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ristorante Dante",
+      "address": "Mühlenkamp 37, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Vlet Winterhude",
+      "address": "Gertigstraße 7, Winterhude",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Grüne Perle",
+      "address": "Hoheluftchaussee 42, Hoheluft-West",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Leib & Seele",
+      "address": "Grindelhof 52, Rotherbaum",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Café Storch",
+      "address": "Milchstraße 19, Pöseldorf",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Harlin",
+      "address": "Neuer Jungfernstieg 9-14, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Sky Bar Airport Plaza",
+      "address": "Flughafenstraße 1-3, Fuhlsbüttel",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ruby Lotti Rooftop Bar",
+      "address": "Rödingsmarkt 9, Altstadt",
+      "category": "cocktailbar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website dead (404)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "20up Bar",
+      "address": "Bernhard-Nocht-Straße 97, St. Pauli (Empire Riverside Hotel)",
+      "category": "cocktailbar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website dead (404)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "East Hotel Bar",
+      "address": "Simon-von-Utrecht-Straße 31, St. Pauli",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "After Work Club - Café Schöne Aussichten",
+      "address": "St. Petersburger Straße, St. Pauli",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Störtebeker Elbphilharmonie",
+      "address": "Platz der Deutschen Einheit 4, HafenCity",
+      "category": "bar",
+      "status": "likely_closed",
+      "issues": [
+        "Nicht in OSM gefunden",
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Cave Bar",
+      "address": "Sternschanze 6, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "AlsterCliff",
+      "address": "Fährdamm, Harvestehude",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Schumachers Biergarten",
+      "address": "Bundesstraße 31, Rotherbaum",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Ahoi by Steffen Henssler",
+      "address": "Große Elbstraße 212, Altona",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Hamburger Biergarten",
+      "address": "Südring, Stadtpark Winterhude",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Tiefental",
+      "address": "Tiefental, Eppendorf",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Barmeier's Café & Biergarten",
+      "address": "Barmbeker Straße, Winterhude",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Biergarten Zum Anleger",
+      "address": "Finkenwerder, Hamburg",
+      "category": "biergarten",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Fabrik",
+      "address": "Bahrenfelder Straße 233, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Website dead (404)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Indra Club 64",
+      "address": "Große Freiheit 64, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "alive"
+      }
+    },
+    {
+      "name": "Maison 16",
+      "address": "Heußweg 16, 20255 Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Website dead (403)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Mathilde Bar",
+      "address": "Bogenstraße 5, Hamburg",
+      "category": "bar",
+      "status": "suspect",
+      "issues": [
+        "Website dead (403)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
+    },
+    {
+      "name": "Belvedere",
+      "address": "Mittelweg, 20148 Hamburg (Rotherbaum)",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    }
+  ],
+  "verified": 250,
+  "lastRun": "2026-03-22T03:07:38.457Z"
+}

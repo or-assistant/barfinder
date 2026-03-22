@@ -1,0 +1,1889 @@
+{
+  "checked": 200,
+  "fixes": [
+    {
+      "name": "Zwick",
+      "addr": "Eppendorfer Weg 111, Harvestehude",
+      "old": [
+        53.5749,
+        9.9772
+      ],
+      "new": [
+        53.5748011,
+        9.9617685
+      ],
+      "dist_m": 1019
+    },
+    {
+      "name": "Die Glocke",
+      "addr": "Klosterallee 65, Harvestehude",
+      "old": [
+        53.5762,
+        9.9835
+      ],
+      "new": [
+        53.5794175,
+        9.9794
+      ],
+      "dist_m": 449
+    },
+    {
+      "name": "Schramme 10",
+      "addr": "Schrammsweg 10, Eppendorf",
+      "old": [
+        53.5793,
+        9.9842
+      ],
+      "new": [
+        53.5906351,
+        9.988829
+      ],
+      "dist_m": 1297
+    },
+    {
+      "name": "Fricke 69",
+      "addr": "Frickestraße 69, Eppendorf",
+      "old": [
+        53.58,
+        9.978
+      ],
+      "new": [
+        53.5964883,
+        9.9776697
+      ],
+      "dist_m": 1834
+    },
+    {
+      "name": "Borchers",
+      "addr": "Eppendorfer Weg, Eppendorf",
+      "old": [
+        53.581,
+        9.977
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 557
+    },
+    {
+      "name": "Schröders",
+      "addr": "Eppendorfer Weg, Eppendorf",
+      "old": [
+        53.5805,
+        9.976
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 640
+    },
+    {
+      "name": "Paola's",
+      "addr": "Eppendorf, Hamburg",
+      "old": [
+        53.58,
+        9.975
+      ],
+      "new": [
+        53.5903912,
+        9.9868771
+      ],
+      "dist_m": 1396
+    },
+    {
+      "name": "Frau Möller",
+      "addr": "Lange Reihe 96, St. Georg",
+      "old": [
+        53.556,
+        10.01
+      ],
+      "new": [
+        53.5586859,
+        10.0131972
+      ],
+      "dist_m": 366
+    },
+    {
+      "name": "Familien-Eck",
+      "addr": "Friedensallee 9, Ottensen",
+      "old": [
+        53.557,
+        9.966
+      ],
+      "new": [
+        53.5545073,
+        9.927292
+      ],
+      "dist_m": 2572
+    },
+    {
+      "name": "Hong-Kong Hotel Bar",
+      "addr": "Schmuckstraße 9, St. Pauli",
+      "old": [
+        53.5498,
+        9.9655
+      ],
+      "new": [
+        53.5511507,
+        9.9590176
+      ],
+      "dist_m": 454
+    },
+    {
+      "name": "Haifisch Bar",
+      "addr": "Große Elbstraße 128, Altona",
+      "old": [
+        53.547,
+        9.951
+      ],
+      "new": [
+        53.544474,
+        9.9459206
+      ],
+      "dist_m": 438
+    },
+    {
+      "name": "Alte Runde Ecke",
+      "addr": "Grasweg 1, Winterhude",
+      "old": [
+        53.583,
+        9.992
+      ],
+      "new": [
+        53.5930699,
+        10.00112
+      ],
+      "dist_m": 1271
+    },
+    {
+      "name": "Hamburg 60",
+      "addr": "Schinkelstraße 4, Winterhude",
+      "old": [
+        53.5835,
+        9.993
+      ],
+      "new": [
+        53.5820132,
+        10.0138966
+      ],
+      "dist_m": 1389
+    },
+    {
+      "name": "Gaststätte Dorotheen Eck",
+      "addr": "Dorotheenstraße 190, Winterhude",
+      "old": [
+        53.584,
+        9.987
+      ],
+      "new": [
+        53.592251,
+        10.0023557
+      ],
+      "dist_m": 1367
+    },
+    {
+      "name": "Edenhall",
+      "addr": "Barmbeker Straße 47, Winterhude",
+      "old": [
+        53.581,
+        9.996
+      ],
+      "new": [
+        53.5865729,
+        10.0171348
+      ],
+      "dist_m": 1527
+    },
+    {
+      "name": "Le Fonque",
+      "addr": "Juliusstraße 33, Eimsbüttel",
+      "old": [
+        53.568,
+        9.962
+      ],
+      "new": [
+        53.5614357,
+        9.9615739
+      ],
+      "dist_m": 730
+    },
+    {
+      "name": "Kneipe Fasan",
+      "addr": "Eichenstraße 10, Eimsbüttel",
+      "old": [
+        53.568,
+        9.963
+      ],
+      "new": [
+        53.5750164,
+        9.9634646
+      ],
+      "dist_m": 781
+    },
+    {
+      "name": "Eimseck",
+      "addr": "Methfesselstraße 88, Eimsbüttel",
+      "old": [
+        53.57,
+        9.958
+      ],
+      "new": [
+        53.5807905,
+        9.9476268
+      ],
+      "dist_m": 1382
+    },
+    {
+      "name": "Berliner Betrüger",
+      "addr": "Juliusstraße 15, Sternschanze",
+      "old": [
+        53.5665,
+        9.9625
+      ],
+      "new": [
+        53.5610222,
+        9.9606756
+      ],
+      "dist_m": 621
+    },
+    {
+      "name": "Freundlich + Kompetent",
+      "addr": "Hamburger Straße 13, Mundsburg",
+      "old": [
+        53.563,
+        10.019
+      ],
+      "new": [
+        53.5711606,
+        10.0282062
+      ],
+      "dist_m": 1092
+    },
+    {
+      "name": "Klimperkiste",
+      "addr": "Esplanade 18, Neustadt",
+      "old": [
+        53.554,
+        9.991
+      ],
+      "new": [
+        53.5577387,
+        9.990494
+      ],
+      "dist_m": 417
+    },
+    {
+      "name": "Aalhaus",
+      "addr": "Eggerstedtstraße 39, Altona",
+      "old": [
+        53.553,
+        9.951
+      ],
+      "new": [
+        53.5592721,
+        9.9469322
+      ],
+      "dist_m": 747
+    },
+    {
+      "name": "Zum Flensburger",
+      "addr": "Lübecker Straße 121, Hamm",
+      "old": [
+        53.556,
+        10.029
+      ],
+      "new": [
+        53.5630494,
+        10.0328966
+      ],
+      "dist_m": 825
+    },
+    {
+      "name": "Omas Apotheke",
+      "addr": "Schanzenstraße 87, Sternschanze",
+      "old": [
+        53.566,
+        9.972
+      ],
+      "new": [
+        53.562819,
+        9.9653266
+      ],
+      "dist_m": 565
+    },
+    {
+      "name": "Le Lion — Bar de Paris",
+      "addr": "Rathausstraße 3, Altstadt",
+      "old": [
+        53.553,
+        9.995
+      ],
+      "new": [
+        53.5501314,
+        9.9945288
+      ],
+      "dist_m": 320
+    },
+    {
+      "name": "Boilerman Bar",
+      "addr": "Eppendorfer Baum 9, Hoheluft",
+      "old": [
+        53.572,
+        9.97
+      ],
+      "new": [
+        53.5842806,
+        9.9826569
+      ],
+      "dist_m": 1601
+    },
+    {
+      "name": "Christiansen's",
+      "addr": "Pinnasberg 60, St. Pauli",
+      "old": [
+        53.5505,
+        9.959
+      ],
+      "new": [
+        53.5465643,
+        9.9576875
+      ],
+      "dist_m": 446
+    },
+    {
+      "name": "The Chug Club",
+      "addr": "Taubenstraße 13, St. Pauli",
+      "old": [
+        53.551,
+        9.965
+      ],
+      "new": [
+        53.5482839,
+        9.965012
+      ],
+      "dist_m": 302
+    },
+    {
+      "name": "The Bohemian",
+      "addr": "Deichstraße 7, Altstadt",
+      "old": [
+        53.549,
+        9.996
+      ],
+      "new": [
+        53.5470169,
+        9.988676
+      ],
+      "dist_m": 532
+    },
+    {
+      "name": "Clockers",
+      "addr": "Paul-Roosen-Straße 27, St. Pauli",
+      "old": [
+        53.551,
+        9.9635
+      ],
+      "new": [
+        53.5530894,
+        9.9579241
+      ],
+      "dist_m": 435
+    },
+    {
+      "name": "dripBAR",
+      "addr": "Hein-Köllisch-Platz 1, St. Pauli",
+      "old": [
+        53.5495,
+        9.962
+      ],
+      "new": [
+        53.5475494,
+        9.9576473
+      ],
+      "dist_m": 360
+    },
+    {
+      "name": "Liquid Garden",
+      "addr": "Kleine Johannisstraße, Innenstadt",
+      "old": [
+        53.553,
+        9.994
+      ],
+      "new": [
+        53.549222,
+        9.9937914
+      ],
+      "dist_m": 420
+    },
+    {
+      "name": "Ba Nomu",
+      "addr": "Juliusstraße 22, St. Pauli",
+      "old": [
+        53.5555,
+        9.9685
+      ],
+      "new": [
+        53.5616591,
+        9.9612056
+      ],
+      "dist_m": 837
+    },
+    {
+      "name": "The Rabbithole Bar",
+      "addr": "Bartelsstraße 12, Sternschanze",
+      "old": [
+        53.565,
+        9.966
+      ],
+      "new": [
+        53.562027,
+        9.9649097
+      ],
+      "dist_m": 338
+    },
+    {
+      "name": "Berglund",
+      "addr": "Barmbeker Straße 83, Winterhude",
+      "old": [
+        53.583,
+        9.988
+      ],
+      "new": [
+        53.5910895,
+        10.008635
+      ],
+      "dist_m": 1632
+    },
+    {
+      "name": "Efi Bar",
+      "addr": "Schulterblatt, Sternschanze",
+      "old": [
+        53.565,
+        9.968
+      ],
+      "new": [
+        53.563102,
+        9.9607206
+      ],
+      "dist_m": 525
+    },
+    {
+      "name": "Witwenball",
+      "addr": "Große Bleichen, Innenstadt",
+      "old": [
+        53.5535,
+        9.992
+      ],
+      "new": [
+        53.5521032,
+        9.9868423
+      ],
+      "dist_m": 374
+    },
+    {
+      "name": "Weinladen St. Pauli",
+      "addr": "Paul-Roosen-Straße, St. Pauli",
+      "old": [
+        53.551,
+        9.963
+      ],
+      "new": [
+        53.553043,
+        9.9585878
+      ],
+      "dist_m": 370
+    },
+    {
+      "name": "Vin Aqua Vin",
+      "addr": "Müggenkampstraße, Eimsbüttel",
+      "old": [
+        53.571,
+        9.962
+      ],
+      "new": [
+        53.5797092,
+        9.9443561
+      ],
+      "dist_m": 1515
+    },
+    {
+      "name": "Vineyard",
+      "addr": "Weidenallee 10, Eimsbüttel",
+      "old": [
+        53.57,
+        9.959
+      ],
+      "new": [
+        53.5669275,
+        9.9661746
+      ],
+      "dist_m": 584
+    },
+    {
+      "name": "W die Weinbar",
+      "addr": "Mühlenkamp, Winterhude",
+      "old": [
+        53.585,
+        9.988
+      ],
+      "new": [
+        53.5829191,
+        10.0102753
+      ],
+      "dist_m": 1488
+    },
+    {
+      "name": "Alte Druckerei",
+      "addr": "Deichstraße 40, Altstadt",
+      "old": [
+        53.549,
+        9.9955
+      ],
+      "new": [
+        53.5466473,
+        9.9879285
+      ],
+      "dist_m": 565
+    },
+    {
+      "name": "Ufer Weinbar",
+      "addr": "Eimsbütteler Chaussee, Eimsbüttel",
+      "old": [
+        53.57,
+        9.957
+      ],
+      "new": [
+        53.5664731,
+        9.9579483
+      ],
+      "dist_m": 397
+    },
+    {
+      "name": "Gota Weinbar",
+      "addr": "Jean-Paul-Weg 38, Jarrestadt",
+      "old": [
+        53.587,
+        9.994
+      ],
+      "new": [
+        53.586819,
+        10.0207827
+      ],
+      "dist_m": 1768
+    },
+    {
+      "name": "Dal Fabbro Winebar",
+      "addr": "Eppendorfer Weg 176, Eimsbüttel",
+      "old": [
+        53.574,
+        9.97
+      ],
+      "new": [
+        53.5803836,
+        9.96896
+      ],
+      "dist_m": 713
+    },
+    {
+      "name": "Restaurant Klinker",
+      "addr": "Schlankreye 73, Eimsbüttel",
+      "old": [
+        53.572,
+        9.969
+      ],
+      "new": [
+        53.5773576,
+        9.9769424
+      ],
+      "dist_m": 794
+    },
+    {
+      "name": "VIA DEI MILLE",
+      "addr": "Eppendorfer Weg 287, Eppendorf",
+      "old": [
+        53.578,
+        9.975
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 912
+    },
+    {
+      "name": "Uhlenhorster Weinstube",
+      "addr": "Papenhuder Straße 29, Uhlenhorst",
+      "old": [
+        53.569,
+        10.014
+      ],
+      "new": [
+        53.566716,
+        10.0188614
+      ],
+      "dist_m": 409
+    },
+    {
+      "name": "Zur Traube",
+      "addr": "Karl-Theodor-Straße 4, Ottensen",
+      "old": [
+        53.553,
+        9.945
+      ],
+      "new": [
+        53.5485872,
+        9.9310961
+      ],
+      "dist_m": 1041
+    },
+    {
+      "name": "Kleinhuis' Café & Weinstube",
+      "addr": "Neanderstraße 27, Neustadt",
+      "old": [
+        53.549,
+        9.981
+      ],
+      "new": [
+        53.551164,
+        9.9773356
+      ],
+      "dist_m": 341
+    },
+    {
+      "name": "Gastronomie Pütter",
+      "addr": "Harvestehuder Weg 44, Harvestehude",
+      "old": [
+        53.571,
+        10.001
+      ],
+      "new": [
+        53.5781825,
+        9.9989931
+      ],
+      "dist_m": 810
+    },
+    {
+      "name": "Restaurant Schoppenhauer",
+      "addr": "Reimerstwiete 20-22, Speicherstadt",
+      "old": [
+        53.546,
+        9.996
+      ],
+      "new": [
+        53.5456405,
+        9.9913775
+      ],
+      "dist_m": 308
+    },
+    {
+      "name": "Dorotheum Weinbar",
+      "addr": "Dorotheenstraße 176, Winterhude",
+      "old": [
+        53.578,
+        10.003
+      ],
+      "new": [
+        53.5909272,
+        10.0025151
+      ],
+      "dist_m": 1438
+    },
+    {
+      "name": "Guter Wein Weinlokal",
+      "addr": "Kellinghusenstraße 15, Eppendorf",
+      "old": [
+        53.579,
+        9.991
+      ],
+      "new": [
+        53.5911305,
+        9.9918709
+      ],
+      "dist_m": 1350
+    },
+    {
+      "name": "Poletto Winebar",
+      "addr": "Eppendorfer Weg 287, Eppendorf",
+      "old": [
+        53.579,
+        9.973
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 892
+    },
+    {
+      "name": "HADLEY's",
+      "addr": "Beim Schlump 84a, Eimsbüttel",
+      "old": [
+        53.568,
+        9.971
+      ],
+      "new": [
+        53.5703946,
+        9.976892
+      ],
+      "dist_m": 471
+    },
+    {
+      "name": "Neumanns Bistro St. Georg",
+      "addr": "Lange Reihe 101, St. Georg",
+      "old": [
+        53.556,
+        10.01
+      ],
+      "new": [
+        53.5592092,
+        10.0131691
+      ],
+      "dist_m": 414
+    },
+    {
+      "name": "Il Garage",
+      "addr": "Kleine Rainstraße 3, Ottensen",
+      "old": [
+        53.553,
+        9.939
+      ],
+      "new": [
+        53.5538794,
+        9.9292774
+      ],
+      "dist_m": 650
+    },
+    {
+      "name": "Piccolo Paradiso",
+      "addr": "Brüderstraße 25, Neustadt",
+      "old": [
+        53.552,
+        9.986
+      ],
+      "new": [
+        53.5513806,
+        9.9808993
+      ],
+      "dist_m": 344
+    },
+    {
+      "name": "Restaurant Schoppenhauer",
+      "addr": "Reimerstwiete 20-22, Altstadt",
+      "old": [
+        53.546,
+        9.996
+      ],
+      "new": [
+        53.5456405,
+        9.9913775
+      ],
+      "dist_m": 308
+    },
+    {
+      "name": "Goldfischglas",
+      "addr": "Eppendorfer Weg 178, Eppendorf",
+      "old": [
+        53.576,
+        9.978
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 1054
+    },
+    {
+      "name": "Pelican Bar",
+      "addr": "Paul-Roosen-Straße, St. Pauli",
+      "old": [
+        53.551,
+        9.9632
+      ],
+      "new": [
+        53.553043,
+        9.9585878
+      ],
+      "dist_m": 380
+    },
+    {
+      "name": "Botanik Distrikt",
+      "addr": "Eppendorfer Landstraße, Eppendorf",
+      "old": [
+        53.5785,
+        9.981
+      ],
+      "new": [
+        53.5973088,
+        9.9890097
+      ],
+      "dist_m": 2157
+    },
+    {
+      "name": "KOPS Bar",
+      "addr": "Neuer Pferdemarkt, St. Pauli",
+      "old": [
+        53.556,
+        9.97
+      ],
+      "new": [
+        53.5566443,
+        9.9640978
+      ],
+      "dist_m": 396
+    },
+    {
+      "name": "Black Forest Bar",
+      "addr": "Eppendorfer Weg, Eppendorf",
+      "old": [
+        53.58,
+        9.974
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 764
+    },
+    {
+      "name": "Bierkrug",
+      "addr": "Eppendorfer Weg, Eppendorf",
+      "old": [
+        53.579,
+        9.981
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 695
+    },
+    {
+      "name": "Strandpauli",
+      "addr": "St. Pauli Fischmarkt 28a",
+      "old": [
+        53.545,
+        9.965
+      ],
+      "new": [
+        53.5463195,
+        9.953024
+      ],
+      "dist_m": 805
+    },
+    {
+      "name": "Nachtasyl",
+      "addr": "Alstertor 1, Thalia Theater",
+      "old": [
+        53.5565,
+        9.9905
+      ],
+      "new": [
+        53.5517538,
+        9.9981836
+      ],
+      "dist_m": 732
+    },
+    {
+      "name": "Café Gnosa",
+      "addr": "Lange Reihe 93, St. Georg",
+      "old": [
+        53.556,
+        10.0075
+      ],
+      "new": [
+        53.5587826,
+        10.0127916
+      ],
+      "dist_m": 467
+    },
+    {
+      "name": "Astra Stube",
+      "addr": "Max-Brauer-Allee 200, Altona",
+      "old": [
+        53.554,
+        9.957
+      ],
+      "new": [
+        53.5613196,
+        9.9555553
+      ],
+      "dist_m": 819
+    },
+    {
+      "name": "Bar du Nord",
+      "addr": "Mühlenkamp 1, Winterhude",
+      "old": [
+        53.578,
+        10.002
+      ],
+      "new": [
+        53.5799154,
+        10.0125307
+      ],
+      "dist_m": 727
+    },
+    {
+      "name": "ÜberQuell",
+      "addr": "St. Pauli Fischmarkt 28-32",
+      "old": [
+        53.5448,
+        9.9545
+      ],
+      "new": [
+        53.5462979,
+        9.9585513
+      ],
+      "dist_m": 315
+    },
+    {
+      "name": "Galopper",
+      "addr": "Stellinger Weg 35, Eimsbüttel",
+      "old": [
+        53.57,
+        9.955
+      ],
+      "new": [
+        53.5795165,
+        9.9486664
+      ],
+      "dist_m": 1138
+    },
+    {
+      "name": "Molly Malone's",
+      "addr": "Ferdinandstraße 30-32, Neustadt",
+      "old": [
+        53.5525,
+        9.987
+      ],
+      "new": [
+        53.5537831,
+        9.9994569
+      ],
+      "dist_m": 835
+    },
+    {
+      "name": "The Galway Girl",
+      "addr": "Schulterblatt 65, Sternschanze",
+      "old": [
+        53.5635,
+        9.967
+      ],
+      "new": [
+        53.5616022,
+        9.9619945
+      ],
+      "dist_m": 392
+    },
+    {
+      "name": "The Dubliner",
+      "addr": "Lange Reihe 71, St. Georg",
+      "old": [
+        53.5555,
+        10.0095
+      ],
+      "new": [
+        53.5580001,
+        10.0117042
+      ],
+      "dist_m": 314
+    },
+    {
+      "name": "Kiek In",
+      "addr": "Am Markt 3, Kaltenkirchen",
+      "old": [
+        53.835,
+        9.96
+      ],
+      "new": [
+        53.6477414,
+        10.0085051
+      ],
+      "dist_m": 21065
+    },
+    {
+      "name": "Langeloher Hof",
+      "addr": "Langeloh, Bad Bramstedt",
+      "old": [
+        53.866,
+        9.86
+      ],
+      "new": [
+        53.5727146,
+        9.8465686
+      ],
+      "dist_m": 32624
+    },
+    {
+      "name": "Galerie-Café Schlossgefängnis",
+      "addr": "Rantzau 9, Barmstedt",
+      "old": [
+        53.836,
+        9.86
+      ],
+      "new": [
+        53.56808,
+        10.0644906
+      ],
+      "dist_m": 32691
+    },
+    {
+      "name": "Da Colin",
+      "addr": "Hamburger Straße 15, Kaltenkirchen",
+      "old": [
+        53.843,
+        9.959
+      ],
+      "new": [
+        53.5706535,
+        10.0272532
+      ],
+      "dist_m": 30615
+    },
+    {
+      "name": "Zum Alten Markt",
+      "addr": "Kuhberg 4, Barmstedt",
+      "old": [
+        53.834,
+        9.87
+      ],
+      "new": [
+        53.5464623,
+        9.9733865
+      ],
+      "dist_m": 32689
+    },
+    {
+      "name": "Phoenix Stübchen",
+      "addr": "Kisdorf",
+      "old": [
+        53.88,
+        9.91
+      ],
+      "new": [
+        53.8082982,
+        9.9827608
+      ],
+      "dist_m": 9293
+    },
+    {
+      "name": "Rantzau7",
+      "addr": "Rantzau 7, Barmstedt",
+      "old": [
+        53.836,
+        9.859
+      ],
+      "new": [
+        53.5679741,
+        10.0643647
+      ],
+      "dist_m": 32726
+    },
+    {
+      "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+      "addr": "Hamburger Straße 8, Bad Bramstedt",
+      "old": [
+        53.921,
+        9.879
+      ],
+      "new": [
+        53.4884074,
+        10.2388931
+      ],
+      "dist_m": 53619
+    },
+    {
+      "name": "Shape",
+      "addr": "Hamburger Straße, Kaltenkirchen",
+      "old": [
+        53.834,
+        9.958
+      ],
+      "new": [
+        53.5744808,
+        10.0373151
+      ],
+      "dist_m": 29326
+    },
+    {
+      "name": "Zobis Cocktailbar",
+      "addr": "Bahnhofstr. 1, Henstedt-Ulzburg",
+      "old": [
+        53.788,
+        9.967
+      ],
+      "new": [
+        53.5589301,
+        9.8116557
+      ],
+      "dist_m": 27450
+    },
+    {
+      "name": "Glücksmarie",
+      "addr": "Birkenweg 23, Bad Bramstedt",
+      "old": [
+        53.9014,
+        9.8912
+      ],
+      "new": [
+        53.6595971,
+        10.1275296
+      ],
+      "dist_m": 31049
+    },
+    {
+      "name": "Rock Bar",
+      "addr": "Ulzburger Str. 609, Norderstedt",
+      "old": [
+        53.7343,
+        9.996
+      ],
+      "new": [
+        53.6538118,
+        10.0770973
+      ],
+      "dist_m": 10422
+    },
+    {
+      "name": "Herz von Garstedt",
+      "addr": "Garstedt, Norderstedt",
+      "old": [
+        53.71,
+        9.98
+      ],
+      "new": [
+        53.6587665,
+        9.9886536
+      ],
+      "dist_m": 5725
+    },
+    {
+      "name": "Cafeteria Latina",
+      "addr": "Norderstedt",
+      "old": [
+        53.705,
+        9.985
+      ],
+      "new": [
+        53.7341678,
+        10.02115
+      ],
+      "dist_m": 4022
+    },
+    {
+      "name": "Petrol Bar",
+      "addr": "Norderstedt",
+      "old": [
+        53.708,
+        9.99
+      ],
+      "new": [
+        53.7341678,
+        10.02115
+      ],
+      "dist_m": 3559
+    },
+    {
+      "name": "Strandhaus Norderstedt",
+      "addr": "Stadtpark, Norderstedt",
+      "old": [
+        53.706,
+        10
+      ],
+      "new": [
+        53.5956195,
+        10.0176691
+      ],
+      "dist_m": 12329
+    },
+    {
+      "name": "Kamphuis",
+      "addr": "Kampstraße 57, Quickborn",
+      "old": [
+        53.7295,
+        9.913
+      ],
+      "new": [
+        53.5611823,
+        9.9664361
+      ],
+      "dist_m": 19045
+    },
+    {
+      "name": "VIVA",
+      "addr": "Kieler Str. 91, Quickborn",
+      "old": [
+        53.7316,
+        9.8951
+      ],
+      "new": [
+        53.570121,
+        9.9438502
+      ],
+      "dist_m": 18241
+    },
+    {
+      "name": "Klackermatsch",
+      "addr": "Oldesloer Straße, Bad Segeberg",
+      "old": [
+        53.9342,
+        10.3125
+      ],
+      "new": [
+        53.645281,
+        9.9299659
+      ],
+      "dist_m": 40786
+    },
+    {
+      "name": "entflammBAR",
+      "addr": "Eppendorfer Weg 177, Eppendorf",
+      "old": [
+        53.5775,
+        9.9785
+      ],
+      "new": [
+        53.5853462,
+        9.9817799
+      ],
+      "dist_m": 899
+    },
+    {
+      "name": "Moe's Bar",
+      "addr": "Hegestraße 44, Eppendorf",
+      "old": [
+        53.5802,
+        9.9818
+      ],
+      "new": [
+        53.5848535,
+        9.9847587
+      ],
+      "dist_m": 553
+    },
+    {
+      "name": "Planet Dart & Billard Bar",
+      "addr": "Eppendorfer Weg 166, Eppendorf",
+      "old": [
+        53.5768,
+        9.9792
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 951
+    },
+    {
+      "name": "Frank und Frei",
+      "addr": "Erikastraße 55, Eppendorf",
+      "old": [
+        53.5795,
+        9.976
+      ],
+      "new": [
+        53.5938994,
+        9.9869559
+      ],
+      "dist_m": 1757
+    },
+    {
+      "name": "Calistoga Wine Saloon",
+      "addr": "Eppendorfer Landstraße 44, Eppendorf",
+      "old": [
+        53.5812,
+        9.9825
+      ],
+      "new": [
+        53.587616,
+        9.9856665
+      ],
+      "dist_m": 743
+    },
+    {
+      "name": "Chrissi's",
+      "addr": "Stellinger Weg 15, Eimsbüttel",
+      "old": [
+        53.5715,
+        9.9548
+      ],
+      "new": [
+        53.5780603,
+        9.9510745
+      ],
+      "dist_m": 770
+    },
+    {
+      "name": "Bar Chamäleon",
+      "addr": "Methfesselstraße 28, Eimsbüttel",
+      "old": [
+        53.5695,
+        9.959
+      ],
+      "new": [
+        53.5780787,
+        9.942845
+      ],
+      "dist_m": 1431
+    },
+    {
+      "name": "Kuddl",
+      "addr": "Lutterothstraße 83, Eimsbüttel",
+      "old": [
+        53.5705,
+        9.957
+      ],
+      "new": [
+        53.5815089,
+        9.9444782
+      ],
+      "dist_m": 1477
+    },
+    {
+      "name": "3-Zimmerwohnung",
+      "addr": "Eimsbütteler Chaussee 30, Eimsbüttel",
+      "old": [
+        53.5698,
+        9.9605
+      ],
+      "new": [
+        53.5680881,
+        9.9561699
+      ],
+      "dist_m": 343
+    },
+    {
+      "name": "Café Bar Sonnenseite",
+      "addr": "Weidenallee 21, Eimsbüttel",
+      "old": [
+        53.567,
+        9.96
+      ],
+      "new": [
+        53.5664211,
+        9.9650137
+      ],
+      "dist_m": 337
+    },
+    {
+      "name": "Nuts Beer & More",
+      "addr": "Stellinger Weg 21, Eimsbüttel",
+      "old": [
+        53.571,
+        9.9555
+      ],
+      "new": [
+        53.5785238,
+        9.9505911
+      ],
+      "dist_m": 897
+    },
+    {
+      "name": "Parissa's",
+      "addr": "Sierichstraße 112, Winterhude",
+      "old": [
+        53.587,
+        9.995
+      ],
+      "new": [
+        53.5889404,
+        10.0017503
+      ],
+      "dist_m": 495
+    },
+    {
+      "name": "Schüttler's Bar",
+      "addr": "Gertigstraße 16, Winterhude",
+      "old": [
+        53.5845,
+        9.991
+      ],
+      "new": [
+        53.5815881,
+        10.0139323
+      ],
+      "dist_m": 1548
+    },
+    {
+      "name": "Goldbeker",
+      "addr": "Mühlenkamp 30, Winterhude",
+      "old": [
+        53.583,
+        9.997
+      ],
+      "new": [
+        53.5804158,
+        10.012465
+      ],
+      "dist_m": 1061
+    },
+    {
+      "name": "Gaststätte Profil",
+      "addr": "Mühlenkamp 39, Winterhude",
+      "old": [
+        53.5835,
+        9.9975
+      ],
+      "new": [
+        53.5820031,
+        10.0108192
+      ],
+      "dist_m": 895
+    },
+    {
+      "name": "Corner",
+      "addr": "Mühlenkamp 19, Winterhude",
+      "old": [
+        53.5828,
+        9.9965
+      ],
+      "new": [
+        53.5808711,
+        10.0118709
+      ],
+      "dist_m": 1037
+    },
+    {
+      "name": "Fofftein",
+      "addr": "Gertigstraße 32, Winterhude",
+      "old": [
+        53.5838,
+        9.994
+      ],
+      "new": [
+        53.5821214,
+        10.0152964
+      ],
+      "dist_m": 1418
+    },
+    {
+      "name": "Don Antonio",
+      "addr": "Mühlenkamp 27, Winterhude",
+      "old": [
+        53.5832,
+        9.998
+      ],
+      "new": [
+        53.5829191,
+        10.0102753
+      ],
+      "dist_m": 811
+    },
+    {
+      "name": "Tre Pazzi",
+      "addr": "Gertigstraße 9, Winterhude",
+      "old": [
+        53.5848,
+        9.9935
+      ],
+      "new": [
+        53.5816193,
+        10.0130236
+      ],
+      "dist_m": 1336
+    },
+    {
+      "name": "Zum Glaskasten",
+      "addr": "Barmbeker Straße 61, Winterhude",
+      "old": [
+        53.5842,
+        9.9925
+      ],
+      "new": [
+        53.5910895,
+        10.008635
+      ],
+      "dist_m": 1312
+    },
+    {
+      "name": "Portomarin",
+      "addr": "Mühlenkamp 1, Winterhude",
+      "old": [
+        53.5852,
+        9.9882
+      ],
+      "new": [
+        53.5799154,
+        10.0125307
+      ],
+      "dist_m": 1710
+    },
+    {
+      "name": "Avenue 95",
+      "addr": "Hoheluftchaussee 95, Hoheluft-West",
+      "old": [
+        53.574,
+        9.971
+      ],
+      "new": [
+        53.5823329,
+        9.969979
+      ],
+      "dist_m": 929
+    },
+    {
+      "name": "BRIX",
+      "addr": "Hoheluftchaussee 58, Hoheluft-West",
+      "old": [
+        53.5735,
+        9.972
+      ],
+      "new": [
+        53.5815189,
+        9.9728526
+      ],
+      "dist_m": 893
+    },
+    {
+      "name": "The Green Room",
+      "addr": "Grindelallee 28, Rotherbaum",
+      "old": [
+        53.5655,
+        9.9785
+      ],
+      "new": [
+        53.5651336,
+        9.98361
+      ],
+      "dist_m": 340
+    },
+    {
+      "name": "Irish Rover",
+      "addr": "Grindelhof 27, Rotherbaum",
+      "old": [
+        53.5672,
+        9.9775
+      ],
+      "new": [
+        53.5684466,
+        9.9826185
+      ],
+      "dist_m": 365
+    },
+    {
+      "name": "Wein Michel",
+      "addr": "Grindelhof 62, Rotherbaum",
+      "old": [
+        53.567,
+        9.9805
+      ],
+      "new": [
+        53.5704084,
+        9.9852238
+      ],
+      "dist_m": 491
+    },
+    {
+      "name": "Kaffee Stark",
+      "addr": "Klosterallee 32, Harvestehude",
+      "old": [
+        53.573,
+        9.985
+      ],
+      "new": [
+        53.5797688,
+        9.97972
+      ],
+      "dist_m": 829
+    },
+    {
+      "name": "Pöseldorf Krug",
+      "addr": "Milchstraße 7, Pöseldorf",
+      "old": [
+        53.5695,
+        9.9895
+      ],
+      "new": [
+        53.5707232,
+        9.9971911
+      ],
+      "dist_m": 526
+    },
+    {
+      "name": "Nikkei Nine Bar",
+      "addr": "Neuer Wall 13, Neustadt/Harvestehude",
+      "old": [
+        53.556,
+        9.991
+      ],
+      "new": [
+        53.5521247,
+        9.9922817
+      ],
+      "dist_m": 439
+    },
+    {
+      "name": "Nil",
+      "addr": "Eppendorfer Weg 275, Eppendorf",
+      "old": [
+        53.579,
+        9.9775
+      ],
+      "new": [
+        53.5853462,
+        9.9817799
+      ],
+      "dist_m": 760
+    },
+    {
+      "name": "Cox",
+      "addr": "Eppendorfer Weg 259, Eppendorf",
+      "old": [
+        53.5787,
+        9.979
+      ],
+      "new": [
+        53.5853462,
+        9.9817799
+      ],
+      "dist_m": 761
+    },
+    {
+      "name": "Café May Eppendorf",
+      "addr": "Eppendorfer Landstraße 62, Eppendorf",
+      "old": [
+        53.581,
+        9.983
+      ],
+      "new": [
+        53.5889988,
+        9.9869424
+      ],
+      "dist_m": 927
+    },
+    {
+      "name": "Markt 7",
+      "addr": "Marie-Jonas-Platz 7, Eppendorf",
+      "old": [
+        53.5815,
+        9.982
+      ],
+      "new": [
+        53.5905335,
+        9.9864339
+      ],
+      "dist_m": 1046
+    },
+    {
+      "name": "Trattoria Italiana da Basso",
+      "addr": "Eppendorfer Weg 268, Eppendorf",
+      "old": [
+        53.5795,
+        9.977
+      ],
+      "new": [
+        53.5852476,
+        9.981478
+      ],
+      "dist_m": 704
+    },
+    {
+      "name": "Heinz Catering & Bar",
+      "addr": "Eppendorfer Landstraße 34, Eppendorf",
+      "old": [
+        53.5808,
+        9.9815
+      ],
+      "new": [
+        53.5915413,
+        9.9874717
+      ],
+      "dist_m": 1258
+    },
+    {
+      "name": "Isemarkt Weinhandlung Kreutzfeldt",
+      "addr": "Eppendorfer Baum 27, Eimsbüttel/Hoheluft",
+      "old": [
+        53.5728,
+        9.968
+      ],
+      "new": [
+        53.5836258,
+        9.9841705
+      ],
+      "dist_m": 1609
+    },
+    {
+      "name": "Café May Eimsbüttel",
+      "addr": "Eimsbütteler Straße 24, Eimsbüttel",
+      "old": [
+        53.569,
+        9.9575
+      ],
+      "new": [
+        53.5693001,
+        9.9497712
+      ],
+      "dist_m": 511
+    },
+    {
+      "name": "Tante Gerda",
+      "addr": "Methfesselstraße 44, Eimsbüttel",
+      "old": [
+        53.57,
+        9.956
+      ],
+      "new": [
+        53.5787261,
+        9.9450192
+      ],
+      "dist_m": 1211
+    },
+    {
+      "name": "Campari Bar",
+      "addr": "Schanzenstraße 18, Eimsbüttel/Schanze",
+      "old": [
+        53.5685,
+        9.961
+      ],
+      "new": [
+        53.5599396,
+        9.9649382
+      ],
+      "dist_m": 987
+    },
+    {
+      "name": "Café Klatsch",
+      "addr": "Mühlenkamp 25, Winterhude",
+      "old": [
+        53.5837,
+        9.996
+      ],
+      "new": [
+        53.5829191,
+        10.0102753
+      ],
+      "dist_m": 946
+    },
+    {
+      "name": "Zipang",
+      "addr": "Eppendorfer Weg 171, Winterhude",
+      "old": [
+        53.5858,
+        9.9892
+      ],
+      "new": [
+        53.579736,
+        9.9662831
+      ],
+      "dist_m": 1656
+    },
+    {
+      "name": "Eisenstein",
+      "addr": "Friedensallee 9, Winterhude/Eppendorf",
+      "old": [
+        53.585,
+        9.989
+      ],
+      "new": [
+        53.5545073,
+        9.927292
+      ],
+      "dist_m": 5301
+    },
+    {
+      "name": "Ristorante Dante",
+      "addr": "Mühlenkamp 37, Winterhude",
+      "old": [
+        53.5833,
+        9.9968
+      ],
+      "new": [
+        53.5816483,
+        10.0110857
+      ],
+      "dist_m": 961
+    },
+    {
+      "name": "Vlet Winterhude",
+      "addr": "Gertigstraße 7, Winterhude",
+      "old": [
+        53.5855,
+        9.9945
+      ],
+      "new": [
+        53.5815569,
+        10.0128223
+      ],
+      "dist_m": 1286
+    },
+    {
+      "name": "Die Wohngemeinschaft",
+      "addr": "Hoheluftchaussee 62, Hoheluft-West",
+      "old": [
+        53.5748,
+        9.9705
+      ],
+      "new": [
+        53.5817738,
+        9.9726316
+      ],
+      "dist_m": 788
+    },
+    {
+      "name": "Grüne Perle",
+      "addr": "Hoheluftchaussee 42, Hoheluft-West",
+      "old": [
+        53.5745,
+        9.969
+      ],
+      "new": [
+        53.5806151,
+        9.9740184
+      ],
+      "dist_m": 756
+    },
+    {
+      "name": "Café Eppendorfer Baum",
+      "addr": "Eppendorfer Baum 35, Hoheluft/Rotherbaum",
+      "old": [
+        53.5725,
+        9.97
+      ],
+      "new": [
+        53.5841286,
+        9.9819276
+      ],
+      "dist_m": 1514
+    },
+    {
+      "name": "Leib & Seele",
+      "addr": "Grindelhof 52, Rotherbaum",
+      "old": [
+        53.5665,
+        9.9795
+      ],
+      "new": [
+        53.5694191,
+        9.9845678
+      ],
+      "dist_m": 466
+    },
+    {
+      "name": "Café Storch",
+      "addr": "Milchstraße 19, Pöseldorf",
+      "old": [
+        53.5698,
+        9.988
+      ],
+      "new": [
+        53.5705684,
+        9.9973633
+      ],
+      "dist_m": 624
+    }
+  ],
+  "not_found": [
+    "A wolf will never be a pet",
+    "TWOSIX Rooftop Weinbar",
+    "Klönstuuv",
+    "Zentrale",
+    "Bleicke's Gasthaus",
+    "Wolters Gasthof von 1787",
+    "Ostseecamp Lehmberg",
+    "Billard & Spielcafé",
+    "Der Gutschmecker",
+    "Billiard-Café"
+  ]
+}

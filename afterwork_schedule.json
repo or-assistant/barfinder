@@ -1,0 +1,876 @@
+{
+  "_info": "Afterwork-Events mit konkreten Wochentagen. days: 0=So,1=Mo,...6=Sa. Nur Locations mit echten regelmäßigen Afterwork-Events/Specials.",
+  "_updated": "2026-02-19",
+  "_note": "Cross-checked against highlights.json. Locations NOT in highlights.json listed in _unmatched.",
+  "_unmatched": [
+    "Wechselnde Locations (Meetup groups)",
+    "TRU Fitness Club",
+    "Alsterhaus Le Buffet",
+    "The Fontenay Bar",
+    "Hotel Atlantic Bar",
+    "Handelskammer Hamburg"
+  ],
+  "locations": [
+    {
+      "name": "After Work Club - Café Schöne Aussichten",
+      "days": [
+        4
+      ],
+      "time": "18:00-23:00",
+      "description": "Hamburgs Original-Afterwork seit 1999. House, 80s, Dance Classics. Jeden Donnerstag an der Alster.",
+      "eventName": "After Work Club Hamburg",
+      "confidence": "high",
+      "source": "afterworkclub.de"
+    },
+    {
+      "name": "Clouds",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork mit Panoramablick über Hamburg. 23. Etage Tanzende Türme. Mi-Fr.",
+      "eventName": "Clouds Afterwork",
+      "confidence": "high",
+      "source": "clouds-hamburg.de"
+    },
+    {
+      "name": "clouds – Heaven’s Bar & Kitchen",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork in der 23. Etage. Skyline-Blick, DJ, Cocktails. Mi-Fr.",
+      "eventName": "Clouds Heaven's Afterwork",
+      "confidence": "high",
+      "source": "clouds-hamburg.de"
+    },
+    {
+      "name": "20up Bar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork-Drinks in der Sky-Bar im Empire Riverside Hotel. Blick über den Hafen.",
+      "eventName": "20up Afterwork",
+      "confidence": "high",
+      "source": "empire-riverside.de"
+    },
+    {
+      "name": "HADLEY's",
+      "days": [
+        3,
+        4
+      ],
+      "time": "17:00-21:00",
+      "description": "Weinbar-Afterwork an der Alster. Mittwoch & Donnerstag. Gehobenes Ambiente.",
+      "eventName": "HADLEY's Wine Afterwork",
+      "confidence": "medium",
+      "source": "hadleys.de"
+    },
+    {
+      "name": "East Hotel Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork im East Hotel St. Pauli. DJ-Lounge am Donnerstag & Freitag.",
+      "eventName": "East Afterwork Lounge",
+      "confidence": "medium",
+      "source": "east-hamburg.de"
+    },
+    {
+      "name": "AlsterCliff",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork mit Alsterblick. Mi-Fr bei gutem Wetter auch draußen.",
+      "eventName": "AlsterCliff Afterwork",
+      "confidence": "high",
+      "source": "alstercliff.de"
+    },
+    {
+      "name": "Bullerei",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork-Drinks in Tim Mälzers Bullerei. Donnerstag & Freitag in der Schanze.",
+      "eventName": "Bullerei Feierabend",
+      "confidence": "medium",
+      "source": "bullerei.com"
+    },
+    {
+      "name": "Altes Mädchen",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Craft Beer Afterwork in der Schanze. Ratsherrn Bier vom Fass, lockere Atmosphäre.",
+      "eventName": "Craft Beer Afterwork",
+      "confidence": "high",
+      "source": "altes-maedchen.com"
+    },
+    {
+      "name": "Kinfelts Kitchen & Wine",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork-Wine in der HafenCity. Mi-Fr. Wein & kleine Gerichte.",
+      "eventName": "Kinfelts Wine Hour",
+      "confidence": "medium",
+      "source": "kinfelts.de"
+    },
+    {
+      "name": "Ruby Lotti Rooftop Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Rooftop-Afterwork mit Blick über die City. Cocktails & Sundowner.",
+      "eventName": "Ruby Lotti Sundowner",
+      "confidence": "medium",
+      "source": "ruby-hotels.com"
+    },
+    {
+      "name": "Jahreszeiten Bar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Klassischer Afterwork im Fairmont Hotel Vier Jahreszeiten. Gehobene Cocktails an der Binnenalster.",
+      "eventName": "Jahreszeiten Afterwork",
+      "confidence": "high",
+      "source": "fairmont.com"
+    },
+    {
+      "name": "Neni",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork mit Elbblick in der HafenCity. 25hours Hotel. Levantinische Küche & Drinks.",
+      "eventName": "Neni Afterwork",
+      "confidence": "medium",
+      "source": "nenihh.de"
+    },
+    {
+      "name": "Rive",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork am Hafen. Fischrestaurant mit starker Bar. Blick auf die Elbe.",
+      "eventName": "Rive Hafenblick Afterwork",
+      "confidence": "medium",
+      "source": "rive.de"
+    },
+    {
+      "name": "Waterkant",
+      "days": [
+        4,
+        5
+      ],
+      "time": "16:00-21:00",
+      "description": "Afterwork auf St. Pauli. Entspannter Start ins Wochenende. Große Terrasse.",
+      "eventName": "Waterkant Feierabend",
+      "confidence": "medium",
+      "source": "waterkant-hamburg.de"
+    },
+    {
+      "name": "Fleetschlösschen",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork in der Speicherstadt. Kleine Bar, großer Charme. Wein & Bier.",
+      "eventName": "Fleetschlösschen Afterwork",
+      "confidence": "medium",
+      "source": "fleetsloesschen.de"
+    },
+    {
+      "name": "Cox",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork-Cocktails an der Langen Reihe. Mi-Fr. Beliebter Treffpunkt in St. Georg.",
+      "eventName": "Cox Cocktail Afterwork",
+      "confidence": "medium",
+      "source": "restaurant-cox.de"
+    },
+    {
+      "name": "Reh-Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "19:00-23:00",
+      "description": "Regelmäßige Afterwork-Drinks in der Reh-Bar Ottensen. 360° Events Hamburg.",
+      "eventName": "360° Afterwork Drinks",
+      "confidence": "high",
+      "source": "meetup.com/360-grad-events-hamburg"
+    },
+    {
+      "name": "Strandpauli",
+      "days": [
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Freitags Afterwork am Elbstrand. DJs, Drinks, Hafenblick. Saisonal April-Oktober.",
+      "eventName": "StrandPauli Friday Afterwork",
+      "confidence": "high",
+      "source": "strandpauli.de"
+    },
+    {
+      "name": "Tower Bar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork im Hotel Hafen Hamburg. Legendärer Blick auf den Hafen. Cocktails.",
+      "eventName": "Tower Bar Sundowner",
+      "confidence": "high",
+      "source": "hotel-hafen-hamburg.de"
+    },
+    {
+      "name": "Campari Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork in der Universitätsstraße. Italienische Drinks, Aperitivo-Kultur.",
+      "eventName": "Campari Aperitivo Afterwork",
+      "confidence": "medium",
+      "source": "campari-bar.de"
+    },
+    {
+      "name": "bar noir Tortue",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Gehobener Afterwork im Tortue Hotel. Bar Noir: dunkle Eleganz, Signature Cocktails.",
+      "eventName": "Tortue Bar Noir Afterwork",
+      "confidence": "high",
+      "source": "tortue.de"
+    },
+    {
+      "name": "Le Lion — Bar de Paris",
+      "days": [
+        4,
+        5
+      ],
+      "time": "18:00-22:00",
+      "description": "Exklusiver Cocktail-Afterwork in der besten Bar Hamburgs. Reservierung empfohlen.",
+      "eventName": "Le Lion Afterwork",
+      "confidence": "medium",
+      "source": "lelion.net"
+    },
+    {
+      "name": "Boilerman Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork mit Highballs & Whisky in Eppendorf. Donnerstag & Freitag.",
+      "eventName": "Boilerman Afterwork",
+      "confidence": "medium",
+      "source": "boilerman.de"
+    },
+    {
+      "name": "The Chug Club",
+      "days": [
+        4,
+        5
+      ],
+      "time": "18:00-22:00",
+      "description": "Afterwork-Shots & Cocktails auf St. Pauli. Donnerstag & Freitag.",
+      "eventName": "Chug Club Afterwork",
+      "confidence": "medium",
+      "source": "thechugclub.com"
+    },
+    {
+      "name": "Christiansen's",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Whisky & Cocktail Afterwork an der Großen Freiheit. Institution seit Jahrzehnten.",
+      "eventName": "Christiansen's Feierabend",
+      "confidence": "medium",
+      "source": "christiansens.de"
+    },
+    {
+      "name": "Liberté",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Weinbar-Afterwork in der Schanze. Französischer Stil, gute Weine.",
+      "eventName": "Liberté Wine Afterwork",
+      "confidence": "medium",
+      "source": "liberte-hamburg.de"
+    },
+    {
+      "name": "1700 Winery Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Wein-Afterwork in Winterhude. Über 30 offene Weine, tolle Atmosphäre.",
+      "eventName": "1700 Wine Afterwork",
+      "confidence": "medium",
+      "source": "1700winerybar.de"
+    },
+    {
+      "name": "Beyond Beer",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Craft Beer Afterwork in der Schanze. Riesige Bier-Auswahl.",
+      "eventName": "Beyond Beer Afterwork",
+      "confidence": "medium",
+      "source": "beyondbeer.de"
+    },
+    {
+      "name": "Shape",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork im Alten Wall. Business Crowd, gehobene Drinks.",
+      "eventName": "Shape Afterwork",
+      "confidence": "medium",
+      "source": "shape-hamburg.de"
+    },
+    {
+      "name": "Maison 16",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork im Herzen der HafenCity. Französische Barkultur.",
+      "eventName": "Maison 16 Afterwork",
+      "confidence": "medium",
+      "source": "maison16.de"
+    },
+    {
+      "name": "Meerwein",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Weinbar-Afterwork in Eimsbüttel. Offene Weine, Bergkäse, Terrasse.",
+      "eventName": "Meerwein Afterwork",
+      "confidence": "high",
+      "source": "meerwein.hamburg"
+    },
+    {
+      "name": "Ufer Weinbar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork-Weine direkt an der Alster. Donnerstag & Freitag.",
+      "eventName": "Ufer Weinbar Afterwork",
+      "confidence": "medium",
+      "source": "ufer-weinbar.de"
+    },
+    {
+      "name": "Ratsherrn Brauerei",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork in der Schanzenhöfe-Brauerei. Frisches Bier, rustikales Ambiente.",
+      "eventName": "Ratsherrn Afterwork",
+      "confidence": "medium",
+      "source": "ratsherrn.de"
+    },
+    {
+      "name": "Weinladen St. Pauli",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Gemütlicher Wein-Afterwork auf St. Pauli. Kleine Weinbar mit Charakter.",
+      "eventName": "Weinladen Afterwork",
+      "confidence": "medium",
+      "source": "weinladen-stpauli.de"
+    },
+    {
+      "name": "Vin Aqua Vin",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Naturwein-Afterwork in Eimsbüttel. Mi-Fr. Hippes Publikum, tolle Weine.",
+      "eventName": "Vin Aqua Vin Afterwork",
+      "confidence": "medium",
+      "source": "vinaquavin.de"
+    },
+    {
+      "name": "Generation Bar",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork mit Cocktails in der HafenCity. Jung, urban, modern.",
+      "eventName": "Generation Afterwork",
+      "confidence": "medium",
+      "source": "generationbar.de"
+    },
+    {
+      "name": "Poletto Winebar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Italienischer Wein-Afterwork am Eppendorfer Weg. Cornelia Poletto's Weinbar.",
+      "eventName": "Poletto Wine Afterwork",
+      "confidence": "medium",
+      "source": "poletto.de"
+    },
+    {
+      "name": "Dorotheum Weinbar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Wein-Afterwork in der Innenstadt. Österreichische Weine, gemütlich.",
+      "eventName": "Dorotheum Afterwork",
+      "confidence": "medium",
+      "source": "dorotheum-weinbar.de"
+    },
+    {
+      "name": "Kitty O'Shea's",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Irish Pub Afterwork in der City. Live-Sport, Guinness, lockere Atmosphäre.",
+      "eventName": "Kitty's Afterwork",
+      "confidence": "medium",
+      "source": "kittyosheas.de"
+    },
+    {
+      "name": "Alsterperle",
+      "days": [
+        4,
+        5
+      ],
+      "time": "16:00-20:00",
+      "description": "Afterwork an der Außenalster. Saisonal bei gutem Wetter. Kiosk-Charme.",
+      "eventName": "Alsterperle Sundowner",
+      "confidence": "medium",
+      "source": "alsterperle.com"
+    },
+    {
+      "name": "Café Klatsch",
+      "days": [
+        4
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork-Treff in der Schanze. Donnerstags besonders beliebt.",
+      "eventName": "Klatsch Afterwork",
+      "confidence": "medium",
+      "source": "local-knowledge"
+    },
+    {
+      "name": "Corner",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork im Grindelviertel. Beliebte Neighborhood-Bar.",
+      "eventName": "Corner Afterwork",
+      "confidence": "medium",
+      "source": "local-knowledge"
+    },
+    {
+      "name": "Mövenpick",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Afterwork im Mövenpick Hotel. Wein & Cocktails an der Sternschanze.",
+      "eventName": "Mövenpick Afterwork",
+      "confidence": "medium",
+      "source": "moevenpick.com"
+    },
+    {
+      "name": "Sky Bar Airport Plaza",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork mit Flughafenblick. Ungewöhnliche Location, Business-Crowd.",
+      "eventName": "Sky Bar Afterwork",
+      "confidence": "medium",
+      "source": "local-knowledge"
+    },
+    {
+      "name": "Strandperle",
+      "days": [
+        5
+      ],
+      "time": "16:00-21:00",
+      "description": "Freitags Afterwork am Elbstrand Övelgönne. Saisonal Mai-September. Kult-Kiosk.",
+      "eventName": "Strandperle Friday Sundowner",
+      "confidence": "medium",
+      "source": "strandperle-hamburg.de"
+    },
+    {
+      "name": "Goldfischglas",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork in der Schanze. Cocktails, lockere Atmosphäre, junge Crowd.",
+      "eventName": "Goldfischglas Afterwork",
+      "confidence": "medium",
+      "source": "local-knowledge"
+    },
+    {
+      "name": "clockers BAR St. Pauli",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Specialty Coffee trifft Afterwork-Drinks. St. Pauli.",
+      "eventName": "Clockers Afterwork",
+      "confidence": "medium",
+      "source": "local-knowledge"
+    },
+    {
+      "name": "Bar Hamburg",
+      "days": [
+        4,
+        5
+      ],
+      "time": "18:00-23:00",
+      "description": "Afterwork & Pre-Club-Drinks an der Reeperbahn. Donnerstag & Freitag.",
+      "eventName": "Bar Hamburg Afterwork",
+      "confidence": "medium",
+      "source": "barhamburg.com"
+    },
+    {
+      "name": "CavaRo Weinbar",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-21:00",
+      "description": "Wein-Afterwork im Rotherbaum. Gemütlich, gute Auswahl.",
+      "eventName": "CavaRo Afterwork",
+      "confidence": "medium",
+      "source": "local-knowledge"
+    },
+    {
+      "name": "Seehaus Hamburg",
+      "days": [
+        3
+      ],
+      "time": "18:00-24:00",
+      "description": "Sundowner an der Alster — Elektro-DJs, Champagner, Sushi auf den Bootsstegen",
+      "eventName": "Sundowner Mittwoch",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Cascadas",
+      "days": [
+        2
+      ],
+      "time": "18:00-23:00",
+      "description": "Salsa & Bachata After Work — heiße Latin-Rhythmen jeden Dienstag",
+      "eventName": "Salsa Tuesday",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Klangbar",
+      "days": [
+        4
+      ],
+      "time": "19:00-23:00",
+      "description": "Afterwork Bergedorf — Fingerfood, Rumschnacken, später Funk Soul House",
+      "eventName": "Afterwork Donnerstag",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Enchanté",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-23:00",
+      "description": "Aperitivo After Work — Wineballs, Burrata, stylisches Ambiente auf St. Pauli",
+      "eventName": "Aperitivo Abend",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "MS KOI",
+      "days": [
+        4
+      ],
+      "time": "18:00-22:00",
+      "description": "After Work Cruise auf der Elbe — tanzend in den Sonnenuntergang (Frühling/Sommer)",
+      "eventName": "After Work Cruise",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Chilli Club",
+      "days": [
+        2
+      ],
+      "time": "18:00-24:00",
+      "description": "After Work Lounge HafenCity — Deep & Dope Loungemusik, Cocktails 6,55€, Sushi-Mix",
+      "eventName": "After Work Lounge",
+      "confidence": "high",
+      "source": "prinz.de"
+    },
+    {
+      "name": "Golf Lounge",
+      "days": [
+        3
+      ],
+      "time": "18:00-21:00",
+      "description": "Afterwork mit Elbblick — 9-Loch Putt, Grillstation, Cocktailbar, DJ-Musik",
+      "eventName": "Afterwork Lounge",
+      "confidence": "high",
+      "source": "prinz.de"
+    },
+    {
+      "name": "Sausalitos",
+      "days": [
+        4
+      ],
+      "time": "17:00-23:00",
+      "description": "After Work Style — Live-DJ mit House, Funk, Soul. Jumbo-Cocktail Happy Hour 17-18h",
+      "eventName": "Afterwork Style",
+      "confidence": "high",
+      "source": "prinz.de"
+    },
+    {
+      "name": "Paninoteca",
+      "days": [
+        5
+      ],
+      "time": "19:30-23:00",
+      "description": "Afterwork Hamburg Events — Networking, Poker Nights, italienisches Fingerfood",
+      "eventName": "AWHH Event",
+      "confidence": "high",
+      "source": "afterworkhamburg.de"
+    },
+    {
+      "name": "Wavecity",
+      "days": [
+        4,
+        5
+      ],
+      "time": "18:00-23:00",
+      "description": "Afterwork Hamburg in der HafenCity — Networking und Drinks",
+      "eventName": "AWHH Afterwork",
+      "confidence": "medium",
+      "source": "afterworkhamburg.de"
+    },
+    {
+      "name": "CIU' DIE BAR",
+      "days": [
+        4
+      ],
+      "time": "18:00-23:00",
+      "description": "Afterwork Hamburg am Ballindamm — Fine Drinks und Beats",
+      "eventName": "AWHH Afterwork",
+      "confidence": "medium",
+      "source": "afterworkhamburg.de"
+    },
+    {
+      "name": "HERITAGE Rooftop Bar",
+      "days": [
+        4
+      ],
+      "time": "18:00-23:00",
+      "description": "FEIERABEND im 9. Stock des Le Méridien — Skyline-Blick, DJ-Beats, Welcome-Drink. Saisonstart meist März.",
+      "eventName": "FEIERABEND Rooftop",
+      "confidence": "high",
+      "source": "Oliver's research",
+      "seasonal": "März-Oktober"
+    },
+    {
+      "name": "SIDE Design Hotel",
+      "days": [
+        4,
+        5
+      ],
+      "time": "18:00-23:00",
+      "description": "Sky Lounge & Botanist Balcony im 8. Stock — DJ-Sounds, Premium-Drinks, Catering von [m]eatery",
+      "eventName": "Rooftop Afterwork",
+      "confidence": "high",
+      "source": "Oliver's research",
+      "seasonal": "Frühling-Sommer"
+    },
+    {
+      "name": "Sausalitos Chilehaus",
+      "days": [
+        4
+      ],
+      "time": "17:00-23:00",
+      "description": "Afterwork im Chilehaus-Innenhof — Riesen-Cocktails, kalifornisch-mexikanisches Flair, freier Eintritt",
+      "eventName": "After Work Style",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Die Tagesbar",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "time": "15:00-20:00",
+      "description": "Day Drinking an der Nikolaikirche — 8m Marmor-Bar, kreative Drinks, neo-mediterrane Bites. Perfekt für den frühen Feierabend.",
+      "eventName": "Early Afterwork",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Elbwein",
+      "days": [
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Geheimtipp in der Schanze — versteckter Weinladen durch einen Tunnel. Ruhe, guter Wein, kein Party-Trubel.",
+      "eventName": "Wein-Feierabend",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Socialmatch Hamburg",
+      "days": [
+        4,
+        5
+      ],
+      "time": "20:00-23:00",
+      "description": "Spielerisches Networking — in kleiner Gruppe (max 10) mit Brettspiel neue Leute kennenlernen. Wechselnde Bars, 3-4x/Monat.",
+      "eventName": "Socialmatch",
+      "confidence": "high",
+      "source": "Oliver's research"
+    },
+    {
+      "name": "Hotel Atlantic Hamburg",
+      "days": [
+        4
+      ],
+      "time": "18:00-22:00",
+      "description": "Atrium Afterwork im altehrwürdigen Atlantic — Snacks, Lounge-Musik oder Live-Acts, Premium-Drinks in der Abendsonne.",
+      "eventName": "Atrium Afterwork",
+      "confidence": "high",
+      "source": "Oliver's research",
+      "seasonal": "Juli-August"
+    },
+    {
+      "name": "Alte Liebe am Kaispeicher B",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "time": "17:00-22:00",
+      "description": "Afterwork an der HafenCity mit direktem Elbblick. Gehobene Küche & Cocktails am Kaispeicher B.",
+      "eventName": "Alte Liebe Afterwork",
+      "confidence": "high",
+      "source": "oliver-curated"
+    },
+    {
+      "name": "Reeper B. Club",
+      "days": [
+        4
+      ],
+      "time": "22:00-05:00",
+      "description": "Party Karaoke auf der Reeperbahn. Jeden Donnerstag ab 22 Uhr, Eintritt frei. Jeden 2. Donnerstag: KAOS Karaoke mit Kornfetti.",
+      "eventName": "Karaoke Night",
+      "confidence": "high",
+      "source": "reeper-b.club"
+    },
+    {
+      "name": "Reeper B. Club",
+      "days": [
+        5,
+        6
+      ],
+      "time": "21:00-05:00",
+      "description": "Party Karaoke auf der Reeperbahn. Freitag und Samstag ab 21 Uhr, Eintritt frei. Maritime Partylocation mit Dachterrasse.",
+      "eventName": "Party Karaoke Weekend",
+      "confidence": "high",
+      "source": "reeper-b.club"
+    }
+  ]
+}

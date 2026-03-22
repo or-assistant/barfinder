@@ -1,0 +1,3993 @@
+[
+  {
+    "name": "Zum Silbersack",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5497,
+      "lon": 9.963,
+      "address": "Silbersackstraße 9, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5488785,
+      "lon": 9.9599637,
+      "address": "Silbersackstraße 9, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 220,
+    "action": "fix_coords",
+    "note": "Distance 220m"
+  },
+  {
+    "name": "Zum Goldenen Handschuh",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5507,
+      "lon": 9.9645,
+      "address": "Hamburger Berg 2, St. Pauli"
+    },
+    "found": {
+      "lat": 53.550013,
+      "lon": 9.9611095,
+      "address": "Hamburger Berg 2, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 237,
+    "action": "fix_coords",
+    "note": "Distance 237m"
+  },
+  {
+    "name": "Elbschlosskeller",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5505,
+      "lon": 9.965,
+      "address": "Hamburger Berg 5, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5502431,
+      "lon": 9.9611017,
+      "address": "Hamburger Berg 5, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 259,
+    "action": "fix_coords",
+    "note": "Distance 259m"
+  },
+  {
+    "name": "Erika's Eck",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5565,
+      "lon": 9.9705,
+      "address": "Sternstraße 98, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5610678,
+      "lon": 9.9675684,
+      "address": "Sternstraße 98, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 544,
+    "action": "fix_coords",
+    "note": "Distance 544m"
+  },
+  {
+    "name": "Zwick",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5719448,
+      "lon": 9.9949177,
+      "address": "Mittelweg 36, Pöseldorf"
+    },
+    "found": {
+      "lat": 53.5692024,
+      "lon": 9.9947238,
+      "address": "Mittelweg 36, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 305,
+    "action": "fix_coords",
+    "note": "Distance 305m"
+  },
+  {
+    "name": "Zwick St. Pauli",
+    "status": "ok",
+    "current": {
+      "lat": 53.550623,
+      "lon": 9.969368,
+      "address": "Millerntorplatz 1, St. Pauli"
+    },
+    "found": {
+      "lat": 53.550623,
+      "lon": 9.969368,
+      "address": "Millerntorplatz 1, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Die Glocke",
+    "status": "ok",
+    "current": {
+      "lat": 53.5794175,
+      "lon": 9.9794,
+      "address": "Klosterallee 65, Harvestehude"
+    },
+    "found": {
+      "lat": 53.5794175,
+      "lon": 9.9794,
+      "address": "Klosterallee 65, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Schramme 10",
+    "status": "ok",
+    "current": {
+      "lat": 53.5906351,
+      "lon": 9.988829,
+      "address": "Schrammsweg 10, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5906351,
+      "lon": 9.988829,
+      "address": "Schrammsweg 10, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Fricke 46",
+    "status": "ok",
+    "current": {
+      "lat": 53.5964883,
+      "lon": 9.9776697,
+      "address": "Frickestraße 46, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5949988,
+      "lon": 9.9783031,
+      "address": "Frickestraße 46, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 171,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Borchers",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5854,
+      "lon": 9.9803,
+      "address": "Eppendorfer Weg 172, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5801576,
+      "lon": 9.9682391,
+      "address": "Eppendorfer Weg 172, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 987,
+    "action": "fix_coords",
+    "note": "Distance 987m"
+  },
+  {
+    "name": "Schröders",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.586,
+      "lon": 9.979,
+      "address": "Eppendorfer Weg 198, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5813286,
+      "lon": 9.9717966,
+      "address": "Eppendorfer Weg 198, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 704,
+    "action": "fix_coords",
+    "note": "Distance 704m"
+  },
+  {
+    "name": "Paola's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5903912,
+      "lon": 9.9868771,
+      "address": "Eppendorf, Hamburg"
+    },
+    "found": {
+      "lat": 53.5903912,
+      "lon": 9.9868771,
+      "address": ", Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Frau Möller",
+    "status": "ok",
+    "current": {
+      "lat": 53.5586859,
+      "lon": 10.0131972,
+      "address": "Lange Reihe 96, St. Georg"
+    },
+    "found": {
+      "lat": 53.5586859,
+      "lon": 10.0131972,
+      "address": "Lange Reihe 96, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Familien-Eck",
+    "status": "ok",
+    "current": {
+      "lat": 53.5545,
+      "lon": 9.9273,
+      "address": "Friedensallee 9, Ottensen"
+    },
+    "found": {
+      "lat": 53.5545073,
+      "lon": 9.927292,
+      "address": "Friedensallee 9, Ottensen, Hamburg"
+    },
+    "distance_diff_m": 1,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Ratsherrn Klause",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.563,
+      "lon": 9.968,
+      "address": "Schanzenstraße 36, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5609811,
+      "lon": 9.9655547,
+      "address": "Schanzenstraße 36, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 277,
+    "action": "fix_coords",
+    "note": "Distance 277m"
+  },
+  {
+    "name": "Holsten-Schwemme",
+    "status": "ok",
+    "current": {
+      "lat": 53.55,
+      "lon": 9.9638,
+      "address": "Seilerstraße, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5504449,
+      "lon": 9.9642596,
+      "address": "Seilerstraße, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 58,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Hong-Kong Hotel Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5511507,
+      "lon": 9.9590176,
+      "address": "Schmuckstraße 9, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5511507,
+      "lon": 9.9590176,
+      "address": "Schmuckstraße 9, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Old Sailor",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5505,
+      "lon": 9.9648,
+      "address": "Hamburger Berg, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5508698,
+      "lon": 9.9612843,
+      "address": "Hamburger Berg, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 236,
+    "action": "fix_coords",
+    "note": "Distance 236m"
+  },
+  {
+    "name": "Zur Scharfen Ecke",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5492,
+      "lon": 9.962,
+      "address": "Davidstraße 1, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5471498,
+      "lon": 9.9627769,
+      "address": "Davidstraße 1, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 234,
+    "action": "fix_coords",
+    "note": "Distance 234m"
+  },
+  {
+    "name": "Haifisch Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.544474,
+      "lon": 9.9459206,
+      "address": "Große Elbstraße 128, Altona"
+    },
+    "found": {
+      "lat": 53.544474,
+      "lon": 9.9459206,
+      "address": "Große Elbstraße 128, Altona, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Lehmitz",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5495,
+      "lon": 9.9625,
+      "address": "Reeperbahn 22, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5501306,
+      "lon": 9.966187,
+      "address": "Reeperbahn 22, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 253,
+    "action": "fix_coords",
+    "note": "Distance 253m"
+  },
+  {
+    "name": "Hatari Pfälzer Stube",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5506,
+      "lon": 9.9643,
+      "address": "Hamburger Berg 8, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5504344,
+      "lon": 9.9611324,
+      "address": "Hamburger Berg 8, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 210,
+    "action": "fix_coords",
+    "note": "Distance 210m"
+  },
+  {
+    "name": "Absturz",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5504,
+      "lon": 9.9647,
+      "address": "Hamburger Berg 15, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5509805,
+      "lon": 9.961081,
+      "address": "Hamburger Berg 15, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 248,
+    "action": "fix_coords",
+    "note": "Distance 248m"
+  },
+  {
+    "name": "Alte Runde Ecke",
+    "status": "ok",
+    "current": {
+      "lat": 53.5930699,
+      "lon": 10.00112,
+      "address": "Grasweg 1, Winterhude"
+    },
+    "found": {
+      "lat": 53.5930699,
+      "lon": 10.00112,
+      "address": "Grasweg 1, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Hamburg 60",
+    "status": "ok",
+    "current": {
+      "lat": 53.5820132,
+      "lon": 10.0138966,
+      "address": "Schinkelstraße 4, Winterhude"
+    },
+    "found": {
+      "lat": 53.5820132,
+      "lon": 10.0138966,
+      "address": "Schinkelstraße 4, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Gaststätte Dorotheen Eck",
+    "status": "ok",
+    "current": {
+      "lat": 53.592251,
+      "lon": 10.0023557,
+      "address": "Dorotheenstraße 190, Winterhude"
+    },
+    "found": {
+      "lat": 53.592251,
+      "lon": 10.0023557,
+      "address": "Dorotheenstraße 190, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Le Fonque",
+    "status": "ok",
+    "current": {
+      "lat": 53.5614357,
+      "lon": 9.9615739,
+      "address": "Juliusstraße 33, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5614357,
+      "lon": 9.9615739,
+      "address": "Juliusstraße 33, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Kneipe Fasan",
+    "status": "ok",
+    "current": {
+      "lat": 53.5750164,
+      "lon": 9.9634646,
+      "address": "Eichenstraße 10, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5750164,
+      "lon": 9.9634646,
+      "address": "Eichenstraße 10, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Eimseck",
+    "status": "ok",
+    "current": {
+      "lat": 53.5807905,
+      "lon": 9.9476268,
+      "address": "Methfesselstraße 88, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5807905,
+      "lon": 9.9476268,
+      "address": "Methfesselstraße 88, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Berliner Betrüger",
+    "status": "ok",
+    "current": {
+      "lat": 53.5610222,
+      "lon": 9.9606756,
+      "address": "Juliusstraße 15, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5610222,
+      "lon": 9.9606756,
+      "address": "Juliusstraße 15, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Freundlich + Kompetent",
+    "status": "ok",
+    "current": {
+      "lat": 53.5711606,
+      "lon": 10.0282062,
+      "address": "Hamburger Straße 13, Mundsburg"
+    },
+    "found": {
+      "lat": 53.5711606,
+      "lon": 10.0282062,
+      "address": "Hamburger Straße 13, Uhlenhorst, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Klimperkiste",
+    "status": "ok",
+    "current": {
+      "lat": 53.5577387,
+      "lon": 9.990494,
+      "address": "Esplanade 18, Neustadt"
+    },
+    "found": {
+      "lat": 53.5577387,
+      "lon": 9.990494,
+      "address": "Esplanade 18, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Aalhaus",
+    "status": "ok",
+    "current": {
+      "lat": 53.5592721,
+      "lon": 9.9469322,
+      "address": "Eggerstedtstraße 39, Altona"
+    },
+    "found": {
+      "lat": 53.5592721,
+      "lon": 9.9469322,
+      "address": "Eggerstedtstraße 39, Altona-Nord, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "(10) and counting",
+    "status": "ok",
+    "current": {
+      "lat": 53.563,
+      "lon": 9.965,
+      "address": "Bartelsstraße 55, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5628044,
+      "lon": 9.9636049,
+      "address": "Bartelsstraße 55, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 95,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Kemp's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5682232,
+      "lon": 9.9951557,
+      "address": "Mittelweg 27, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5682232,
+      "lon": 9.9951557,
+      "address": "Mittelweg 27, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Murphy's Irish Pub",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5505,
+      "lon": 9.962,
+      "address": "Friedrichstraße 24, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5485469,
+      "lon": 9.9612805,
+      "address": "Friedrichstraße 24, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 222,
+    "action": "fix_coords",
+    "note": "Distance 222m"
+  },
+  {
+    "name": "Zum Flensburger",
+    "status": "ok",
+    "current": {
+      "lat": 53.5630494,
+      "lon": 10.0328966,
+      "address": "Lübecker Straße 121, Hamm"
+    },
+    "found": {
+      "lat": 53.5630494,
+      "lon": 10.0328966,
+      "address": "Lübecker Straße 121, Hohenfelde, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Omas Apotheke",
+    "status": "ok",
+    "current": {
+      "lat": 53.562819,
+      "lon": 9.9653266,
+      "address": "Schanzenstraße 87, Sternschanze"
+    },
+    "found": {
+      "lat": 53.562819,
+      "lon": 9.9653266,
+      "address": "Schanzenstraße 87, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Le Lion — Bar de Paris",
+    "status": "ok",
+    "current": {
+      "lat": 53.5501314,
+      "lon": 9.9945288,
+      "address": "Rathausstraße 3, Altstadt"
+    },
+    "found": {
+      "lat": 53.5501314,
+      "lon": 9.9945288,
+      "address": "Rathausstraße 3, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Boilerman Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5842806,
+      "lon": 9.9826569,
+      "address": "Eppendorfer Baum 9, Hoheluft"
+    },
+    "found": {
+      "lat": 53.5824704,
+      "lon": 9.9863563,
+      "address": "Eppendorfer Baum 9, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 316,
+    "action": "fix_coords",
+    "note": "Distance 316m"
+  },
+  {
+    "name": "Christiansen's",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5465643,
+      "lon": 9.9576875,
+      "address": "Pinnasberg 60, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5463983,
+      "lon": 9.9542864,
+      "address": "Pinnasberg 60, Altona, Hamburg"
+    },
+    "distance_diff_m": 225,
+    "action": "fix_coords",
+    "note": "Distance 225m"
+  },
+  {
+    "name": "The Chug Club",
+    "status": "ok",
+    "current": {
+      "lat": 53.5482839,
+      "lon": 9.965012,
+      "address": "Taubenstraße 13, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5482839,
+      "lon": 9.965012,
+      "address": "Taubenstraße 13, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "The Bohemian",
+    "status": "ok",
+    "current": {
+      "lat": 53.5470169,
+      "lon": 9.988676,
+      "address": "Deichstraße 7, Altstadt"
+    },
+    "found": {
+      "lat": 53.5471484,
+      "lon": 9.9889471,
+      "address": "Deichstraße, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 23,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Clockers",
+    "status": "ok",
+    "current": {
+      "lat": 53.5530894,
+      "lon": 9.9579241,
+      "address": "Paul-Roosen-Straße 27, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5530894,
+      "lon": 9.9579241,
+      "address": "Paul-Roosen-Straße 27, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "dripBAR",
+    "status": "ok",
+    "current": {
+      "lat": 53.5475494,
+      "lon": 9.9576473,
+      "address": "Hein-Köllisch-Platz 1, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5475494,
+      "lon": 9.9576473,
+      "address": "Hein-Köllisch-Platz 1, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Liquid Garden",
+    "status": "ok",
+    "current": {
+      "lat": 53.549222,
+      "lon": 9.9937914,
+      "address": "Kleine Johannisstraße, Innenstadt"
+    },
+    "found": {
+      "lat": 53.549222,
+      "lon": 9.9937914,
+      "address": "Kleine Johannisstraße, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Ba Nomu",
+    "status": "ok",
+    "current": {
+      "lat": 53.5616591,
+      "lon": 9.9612056,
+      "address": "Juliusstraße 22, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5616591,
+      "lon": 9.9612056,
+      "address": "Juliusstraße 22, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Collab Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5515,
+      "lon": 9.9655,
+      "address": "Hein-Hoyer-Straße, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5532533,
+      "lon": 9.9630444,
+      "address": "Hein-Hoyer-Straße, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 254,
+    "action": "fix_coords",
+    "note": "Distance 254m"
+  },
+  {
+    "name": "The Rabbithole Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.562027,
+      "lon": 9.9649097,
+      "address": "Bartelsstraße 12, Sternschanze"
+    },
+    "found": {
+      "lat": 53.562027,
+      "lon": 9.9649097,
+      "address": "Bartelsstraße 12, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Jahreszeiten Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5545,
+      "lon": 9.993,
+      "address": "Neuer Jungfernstieg 9-14, Innenstadt"
+    },
+    "found": {
+      "lat": 53.5555409,
+      "lon": 9.9915198,
+      "address": "Neuer Jungfernstieg 9-14, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 152,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "bar noir Tortue",
+    "status": "ok",
+    "current": {
+      "lat": 53.553,
+      "lon": 9.988,
+      "address": "Stadthausbrücke 10, Neustadt"
+    },
+    "found": {
+      "lat": 53.5515743,
+      "lon": 9.9863132,
+      "address": "Stadthausbrücke 10, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 194,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Bar 1910",
+    "status": "ok",
+    "current": {
+      "lat": 53.5555,
+      "lon": 10.007,
+      "address": "Kirchenallee 34-36, St. Georg"
+    },
+    "found": {
+      "lat": 53.5555913,
+      "lon": 10.0078506,
+      "address": "Kirchenallee, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 57,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Central Congress",
+    "status": "ok",
+    "current": {
+      "lat": 53.553,
+      "lon": 9.992,
+      "address": "Reesendamm, Innenstadt"
+    },
+    "found": {
+      "lat": 53.5523661,
+      "lon": 9.9940272,
+      "address": "Reesendamm, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 151,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Berglund",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5911,
+      "lon": 9.9975,
+      "address": "Barmbeker Straße 83, Winterhude"
+    },
+    "found": {
+      "lat": 53.5925222,
+      "lon": 10.0026504,
+      "address": "Barmbeker Straße, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 375,
+    "action": "fix_coords",
+    "note": "Distance 375m"
+  },
+  {
+    "name": "A wolf will never be a pet",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.558,
+      "lon": 9.966,
+      "address": "Karolienstraße 29, Karolinenviertel"
+    },
+    "found": {
+      "lat": 53.5588176,
+      "lon": 9.9752002,
+      "address": "Karolinenstraße 18, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 614,
+    "action": "fix_coords",
+    "note": "Distance 614m"
+  },
+  {
+    "name": "Efi Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.563102,
+      "lon": 9.9607206,
+      "address": "Schulterblatt, Sternschanze"
+    },
+    "found": {
+      "lat": 53.563102,
+      "lon": 9.9607206,
+      "address": "Schulterblatt, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Witwenball",
+    "status": "ok",
+    "current": {
+      "lat": 53.5521032,
+      "lon": 9.9868423,
+      "address": "Große Bleichen, Innenstadt"
+    },
+    "found": {
+      "lat": 53.5519488,
+      "lon": 9.9860216,
+      "address": "Große Bleichen, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 57,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Weinladen St. Pauli",
+    "status": "ok",
+    "current": {
+      "lat": 53.553,
+      "lon": 9.9585,
+      "address": "Paul-Roosen-Straße, St. Pauli"
+    },
+    "found": {
+      "lat": 53.553043,
+      "lon": 9.9585878,
+      "address": "Paul-Roosen-Straße, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 8,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Vin Aqua Vin",
+    "status": "ok",
+    "current": {
+      "lat": 53.5797092,
+      "lon": 9.9443561,
+      "address": "Müggenkampstraße, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5797092,
+      "lon": 9.9443561,
+      "address": "Müggenkampstraße, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Vineyard",
+    "status": "ok",
+    "current": {
+      "lat": 53.5669275,
+      "lon": 9.9661746,
+      "address": "Weidenallee 10, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5669275,
+      "lon": 9.9661746,
+      "address": "Weidenallee 10b, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Enchanté",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5508,
+      "lon": 9.9615,
+      "address": "Wohlwillstraße, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5533968,
+      "lon": 9.9614913,
+      "address": "Wohlwillstraße, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 289,
+    "action": "fix_coords",
+    "note": "Distance 289m"
+  },
+  {
+    "name": "W die Weinbar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5828,
+      "lon": 9.9985,
+      "address": "Mühlenkamp, Winterhude"
+    },
+    "found": {
+      "lat": 53.5829191,
+      "lon": 10.0102753,
+      "address": "Mühlenkamp, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 777,
+    "action": "fix_coords",
+    "note": "Distance 777m"
+  },
+  {
+    "name": "Alte Druckerei",
+    "status": "ok",
+    "current": {
+      "lat": 53.5466473,
+      "lon": 9.9879285,
+      "address": "Deichstraße 40, Altstadt"
+    },
+    "found": {
+      "lat": 53.5466473,
+      "lon": 9.9879285,
+      "address": "Deichstraße, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Ufer Weinbar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5664731,
+      "lon": 9.9579483,
+      "address": "Eimsbütteler Chaussee, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5664731,
+      "lon": 9.9579483,
+      "address": "Eimsbütteler Chaussee, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Neumann's am Grindel",
+    "status": "ok",
+    "current": {
+      "lat": 53.566,
+      "lon": 9.98,
+      "address": "Grindelhof, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5669,
+      "lon": 9.9811781,
+      "address": "Grindelallee, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 127,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Gota Weinbar",
+    "status": "ok",
+    "current": {
+      "lat": 53.586819,
+      "lon": 10.0207827,
+      "address": "Jean-Paul-Weg 38, Jarrestadt"
+    },
+    "found": {
+      "lat": 53.586819,
+      "lon": 10.0207827,
+      "address": "Jean-Paul-Weg 38, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Dal Fabbro Winebar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5803836,
+      "lon": 9.96896,
+      "address": "Eppendorfer Weg 176, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5803836,
+      "lon": 9.96896,
+      "address": "Eppendorfer Weg 176, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Restaurant Klinker",
+    "status": "ok",
+    "current": {
+      "lat": 53.5773576,
+      "lon": 9.9769424,
+      "address": "Schlankreye 73, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5773576,
+      "lon": 9.9769424,
+      "address": "Schlankreye 73, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "VIA DEI MILLE",
+    "status": "ok",
+    "current": {
+      "lat": 53.5851,
+      "lon": 9.9817,
+      "address": "Eppendorfer Weg 287, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5851319,
+      "lon": 9.9808748,
+      "address": "Eppendorfer Weg 287, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 55,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Uhlenhorster Weinstube",
+    "status": "ok",
+    "current": {
+      "lat": 53.566716,
+      "lon": 10.0188614,
+      "address": "Papenhuder Straße 29, Uhlenhorst"
+    },
+    "found": {
+      "lat": 53.566716,
+      "lon": 10.0188614,
+      "address": "Papenhuder Straße 29, Uhlenhorst, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Zur Traube",
+    "status": "ok",
+    "current": {
+      "lat": 53.5485872,
+      "lon": 9.9310961,
+      "address": "Karl-Theodor-Straße 4, Ottensen"
+    },
+    "found": {
+      "lat": 53.5485872,
+      "lon": 9.9310961,
+      "address": "Karl-Theodor-Straße 4, Ottensen, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Kleines Jacob",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.548,
+      "lon": 9.865,
+      "address": "Elbchaussee 404, Othmarschen"
+    },
+    "found": {
+      "lat": 53.5507229,
+      "lon": 9.8438222,
+      "address": "Elbchaussee 404, Nienstedten, Hamburg"
+    },
+    "distance_diff_m": 1431,
+    "action": "fix_coords",
+    "note": "Distance 1431m"
+  },
+  {
+    "name": "Kleinhuis' Café & Weinstube",
+    "status": "ok",
+    "current": {
+      "lat": 53.551164,
+      "lon": 9.9773356,
+      "address": "Neanderstraße 27, Neustadt"
+    },
+    "found": {
+      "lat": 53.551164,
+      "lon": 9.9773356,
+      "address": "Neanderstraße 27, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Gastronomie Pütter",
+    "status": "ok",
+    "current": {
+      "lat": 53.5781825,
+      "lon": 9.9989931,
+      "address": "Harvestehuder Weg 44, Harvestehude"
+    },
+    "found": {
+      "lat": 53.5781825,
+      "lon": 9.9989931,
+      "address": "Harvestehuder Weg 44, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Restaurant Schoppenhauer",
+    "status": "ok",
+    "current": {
+      "lat": 53.5456405,
+      "lon": 9.9913775,
+      "address": "Reimerstwiete 20-22, Speicherstadt"
+    },
+    "found": {
+      "lat": 53.5456405,
+      "lon": 9.9913775,
+      "address": "Reimerstwiete, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Dorotheum Weinbar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5909272,
+      "lon": 10.0025151,
+      "address": "Dorotheenstraße 176, Winterhude"
+    },
+    "found": {
+      "lat": 53.5909272,
+      "lon": 10.0025151,
+      "address": "Dorotheenstraße 176, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Guter Wein Weinlokal",
+    "status": "ok",
+    "current": {
+      "lat": 53.5911305,
+      "lon": 9.9918709,
+      "address": "Kellinghusenstraße 15, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5911305,
+      "lon": 9.9918709,
+      "address": "Kellinghusenstraße 15, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "HADLEY's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5703946,
+      "lon": 9.976892,
+      "address": "Beim Schlump 84a, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5703946,
+      "lon": 9.976892,
+      "address": "Beim Schlump 84a, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Neumanns Bistro St. Georg",
+    "status": "ok",
+    "current": {
+      "lat": 53.5592092,
+      "lon": 10.0131691,
+      "address": "Lange Reihe 101, St. Georg"
+    },
+    "found": {
+      "lat": 53.5592092,
+      "lon": 10.0131691,
+      "address": "Lange Reihe 101, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Il Garage",
+    "status": "ok",
+    "current": {
+      "lat": 53.5538794,
+      "lon": 9.9292774,
+      "address": "Kleine Rainstraße 3, Ottensen"
+    },
+    "found": {
+      "lat": 53.5538794,
+      "lon": 9.9292774,
+      "address": "Kleine Rainstraße 3, Ottensen, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Heritage Bar & Restaurant",
+    "status": "ok",
+    "current": {
+      "lat": 53.559,
+      "lon": 10.008,
+      "address": "An der Alster 52, St. Georg"
+    },
+    "found": {
+      "lat": 53.5585283,
+      "lon": 10.0080313,
+      "address": "An der Alster 52, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 52,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Piccolo Paradiso",
+    "status": "ok",
+    "current": {
+      "lat": 53.5513806,
+      "lon": 9.9808993,
+      "address": "Brüderstraße 25, Neustadt"
+    },
+    "found": {
+      "lat": 53.5513806,
+      "lon": 9.9808993,
+      "address": "Brüderstraße 25, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "TWOSIX Rooftop Weinbar",
+    "status": "needs_review",
+    "current": {
+      "lat": 53.553,
+      "lon": 9.99,
+      "address": "Marseiller Straße 2, Neustadt"
+    },
+    "found": null,
+    "distance_diff_m": null,
+    "action": "review",
+    "note": "Not found on Nominatim"
+  },
+  {
+    "name": "1700 Winery Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.553,
+      "lon": 9.997,
+      "address": "Ferdinandstraße 15, Altstadt"
+    },
+    "found": {
+      "lat": 53.5542393,
+      "lon": 10.0008305,
+      "address": "Ferdinandstraße 15, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 288,
+    "action": "fix_coords",
+    "note": "Distance 288m"
+  },
+  {
+    "name": "Katze",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.563,
+      "lon": 9.966,
+      "address": "Schulterblatt 86, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5624855,
+      "lon": 9.9618886,
+      "address": "Schulterblatt 86, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 277,
+    "action": "fix_coords",
+    "note": "Distance 277m"
+  },
+  {
+    "name": "Goldfischglas",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5846,
+      "lon": 9.9825,
+      "address": "Eppendorfer Weg 178, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5805184,
+      "lon": 9.9691755,
+      "address": "Eppendorfer Weg 178, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 990,
+    "action": "fix_coords",
+    "note": "Distance 990m"
+  },
+  {
+    "name": "Pelican Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5528,
+      "lon": 9.9588,
+      "address": "Paul-Roosen-Straße, St. Pauli"
+    },
+    "found": {
+      "lat": 53.553043,
+      "lon": 9.9585878,
+      "address": "Paul-Roosen-Straße, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 30,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Botanik Distrikt",
+    "status": "ok",
+    "current": {
+      "lat": 53.5973088,
+      "lon": 9.9890097,
+      "address": "Eppendorfer Landstraße, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5967941,
+      "lon": 9.9883802,
+      "address": "Eppendorfer Landstraße, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 71,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Clouds",
+    "status": "ok",
+    "current": {
+      "lat": 53.5495,
+      "lon": 9.965,
+      "address": "Reeperbahn 1, Tanzende Türme"
+    },
+    "found": {
+      "lat": 53.5496762,
+      "lon": 9.9676124,
+      "address": "Reeperbahn 1, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 174,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Standard",
+    "status": "ok",
+    "current": {
+      "lat": 53.5508,
+      "lon": 9.9612,
+      "address": "Große Freiheit, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5516342,
+      "lon": 9.9587727,
+      "address": "Simon-von-Utrecht-Straße, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 185,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Tower Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.546,
+      "lon": 9.966,
+      "address": "Seewartenstraße 9, Hotel Hafen Hamburg"
+    },
+    "found": {
+      "lat": 53.5467278,
+      "lon": 9.9690756,
+      "address": "Seewartenstraße 9, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 219,
+    "action": "fix_coords",
+    "note": "Distance 219m"
+  },
+  {
+    "name": "Kleinraumdisko",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5595,
+      "lon": 9.966,
+      "address": "Neuer Kamp 17, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5574942,
+      "lon": 9.9662348,
+      "address": "Neuer Kamp 17, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 224,
+    "action": "fix_coords",
+    "note": "Distance 224m"
+  },
+  {
+    "name": "Kleines Phi",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.559,
+      "lon": 9.968,
+      "address": "Feldstraße 36, Karolinenviertel"
+    },
+    "found": {
+      "lat": 53.5574524,
+      "lon": 9.9702407,
+      "address": "Feldstraße 36, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 227,
+    "action": "fix_coords",
+    "note": "Distance 227m"
+  },
+  {
+    "name": "KOPS Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5566443,
+      "lon": 9.9640978,
+      "address": "Neuer Pferdemarkt, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5566443,
+      "lon": 9.9640978,
+      "address": "Neuer Pferdemarkt, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Black Forest Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5849,
+      "lon": 9.9808,
+      "address": "Eppendorfer Weg 185, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5804471,
+      "lon": 9.9679162,
+      "address": "Eppendorfer Weg 185, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 984,
+    "action": "fix_coords",
+    "note": "Distance 984m"
+  },
+  {
+    "name": "Bierkrug",
+    "status": "ok",
+    "current": {
+      "lat": 53.5857,
+      "lon": 9.9795,
+      "address": "Eppendorfer Weg 220, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5850709,
+      "lon": 9.981077,
+      "address": "Eppendorfer Weg, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 125,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Strandpauli",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5463195,
+      "lon": 9.953024,
+      "address": "St. Pauli Fischmarkt 28a"
+    },
+    "found": {
+      "lat": 53.5459134,
+      "lon": 9.9570885,
+      "address": "St. Pauli Fischmarkt, Altona, Hamburg"
+    },
+    "distance_diff_m": 272,
+    "action": "fix_coords",
+    "note": "Distance 272m"
+  },
+  {
+    "name": "Nachtasyl",
+    "status": "ok",
+    "current": {
+      "lat": 53.5517538,
+      "lon": 9.9981836,
+      "address": "Alstertor 1, Thalia Theater"
+    },
+    "found": {
+      "lat": 53.5517538,
+      "lon": 9.9981836,
+      "address": "Alstertor 1, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café Gnosa",
+    "status": "ok",
+    "current": {
+      "lat": 53.5587826,
+      "lon": 10.0127916,
+      "address": "Lange Reihe 93, St. Georg"
+    },
+    "found": {
+      "lat": 53.5587826,
+      "lon": 10.0127916,
+      "address": "Lange Reihe 93, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Astra Stube",
+    "status": "ok",
+    "current": {
+      "lat": 53.5613196,
+      "lon": 9.9555553,
+      "address": "Max-Brauer-Allee 200, Altona"
+    },
+    "found": {
+      "lat": 53.5613196,
+      "lon": 9.9555553,
+      "address": "Max-Brauer-Allee 200, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Häkken",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.551,
+      "lon": 9.961,
+      "address": "Spielbudenplatz 21, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5492444,
+      "lon": 9.9643491,
+      "address": "Spielbudenplatz 21, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 295,
+    "action": "fix_coords",
+    "note": "Distance 295m"
+  },
+  {
+    "name": "Mojo Club",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5495,
+      "lon": 9.9645,
+      "address": "Reeperbahn 1, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5496762,
+      "lon": 9.9676124,
+      "address": "Reeperbahn 1, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 207,
+    "action": "fix_coords",
+    "note": "Distance 207m"
+  },
+  {
+    "name": "Bar du Nord",
+    "status": "ok",
+    "current": {
+      "lat": 53.58,
+      "lon": 10.0128,
+      "address": "Mühlenkamp 1, Winterhude"
+    },
+    "found": {
+      "lat": 53.5799271,
+      "lon": 10.0125677,
+      "address": "Mühlenkamp 1, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 17,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "ÜberQuell",
+    "status": "ok",
+    "current": {
+      "lat": 53.5462979,
+      "lon": 9.9585513,
+      "address": "St. Pauli Fischmarkt 28-32"
+    },
+    "found": {
+      "lat": 53.5462979,
+      "lon": 9.9585513,
+      "address": "St. Pauli Fischmarkt 28-32, Altona-Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Beyond Beer",
+    "status": "ok",
+    "current": {
+      "lat": 53.566,
+      "lon": 9.963,
+      "address": "Weidenallee 55, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5674397,
+      "lon": 9.9647866,
+      "address": "Weidenallee, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 199,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Altes Mädchen",
+    "status": "ok",
+    "current": {
+      "lat": 53.563,
+      "lon": 9.969,
+      "address": "Lagerstraße 28b, Schanzenhöfe"
+    },
+    "found": {
+      "lat": 53.5630114,
+      "lon": 9.9684846,
+      "address": "Lagerstraße 28b, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 34,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Galopper",
+    "status": "ok",
+    "current": {
+      "lat": 53.5795165,
+      "lon": 9.9486664,
+      "address": "Stellinger Weg 35, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5795165,
+      "lon": 9.9486664,
+      "address": "Stellinger Weg 35, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Ratsherrn Brauerei",
+    "status": "ok",
+    "current": {
+      "lat": 53.5625,
+      "lon": 9.969,
+      "address": "Lagerstraße 30a, Schanzenviertel"
+    },
+    "found": {
+      "lat": 53.5627333,
+      "lon": 9.9681992,
+      "address": "Lagerstraße 30 A, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 59,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Molly Malone's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5537831,
+      "lon": 9.9994569,
+      "address": "Ferdinandstraße 30-32, Neustadt"
+    },
+    "found": {
+      "lat": 53.5537831,
+      "lon": 9.9994569,
+      "address": "Ferdinandstraße, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Paddy's Pit",
+    "status": "ok",
+    "current": {
+      "lat": 53.55,
+      "lon": 9.964,
+      "address": "Reeperbahn 46, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5498943,
+      "lon": 9.9644886,
+      "address": "Reeperbahn 46, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 34,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "The Galway Girl",
+    "status": "ok",
+    "current": {
+      "lat": 53.5616022,
+      "lon": 9.9619945,
+      "address": "Schulterblatt 65, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5616022,
+      "lon": 9.9619945,
+      "address": "Schulterblatt 65, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "James Joyce",
+    "status": "ok",
+    "current": {
+      "lat": 53.556,
+      "lon": 10.006,
+      "address": "Holzdamm 23, St. Georg"
+    },
+    "found": {
+      "lat": 53.5561637,
+      "lon": 10.0057472,
+      "address": "Holzdamm, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 25,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "The Shamrock",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.557,
+      "lon": 9.967,
+      "address": "Feldstraße 36, Karolinenviertel"
+    },
+    "found": {
+      "lat": 53.5574524,
+      "lon": 9.9702407,
+      "address": "Feldstraße 36, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 220,
+    "action": "fix_coords",
+    "note": "Distance 220m"
+  },
+  {
+    "name": "O'Malley's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5502,
+      "lon": 9.9615,
+      "address": "Hein-Hoyer-Straße 13, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5506902,
+      "lon": 9.9620873,
+      "address": "Hein-Hoyer-Straße 13, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 67,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Kitty O'Shea's",
+    "status": "ok",
+    "current": {
+      "lat": 53.554,
+      "lon": 9.99,
+      "address": "Große Bleichen 36, Neustadt"
+    },
+    "found": {
+      "lat": 53.5532702,
+      "lon": 9.9888694,
+      "address": "Große Bleichen 36, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 110,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "The Dubliner",
+    "status": "ok",
+    "current": {
+      "lat": 53.5580001,
+      "lon": 10.0117042,
+      "address": "Lange Reihe 71, St. Georg"
+    },
+    "found": {
+      "lat": 53.5580001,
+      "lon": 10.0117042,
+      "address": "Lange Reihe 71, St. Georg, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Klönstuuv",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.92,
+      "lon": 9.885,
+      "address": "Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.9167,
+      "lon": 9.88333,
+      "address": ", Bad Bramstedt"
+    },
+    "distance_diff_m": 383,
+    "action": "fix_coords",
+    "note": "Distance 383m"
+  },
+  {
+    "name": "Zentrale",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.888,
+      "lon": 9.933,
+      "address": "Dorfstraße 7, Kisdorf"
+    },
+    "found": {
+      "lat": 52.5225038,
+      "lon": 13.2107561,
+      "address": "Dorfstraße 7, Spandau, Berlin"
+    },
+    "distance_diff_m": 265869,
+    "action": "review",
+    "note": "Large distance: 265869m"
+  },
+  {
+    "name": "Kiek In",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.8384505,
+      "lon": 9.9622009,
+      "address": "Am Markt 3, Kaltenkirchen"
+    },
+    "found": {
+      "lat": 54.1738725,
+      "lon": 12.0819499,
+      "address": "Am Markt 3, Warnemünde, Rostock"
+    },
+    "distance_diff_m": 143451,
+    "action": "review",
+    "note": "Large distance: 143451m"
+  },
+  {
+    "name": "Langeloher Hof",
+    "status": "ok",
+    "current": {
+      "lat": 53.5727146,
+      "lon": 9.8465686,
+      "address": "Langeloh, Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.5717925,
+      "lon": 9.8464145,
+      "address": "Langelohstraße, Osdorf, Hamburg"
+    },
+    "distance_diff_m": 103,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Galerie-Café Schlossgefängnis",
+    "status": "ok",
+    "current": {
+      "lat": 53.56808,
+      "lon": 10.0644906,
+      "address": "Rantzau 9, Barmstedt"
+    },
+    "found": {
+      "lat": 53.56808,
+      "lon": 10.0644906,
+      "address": "Rantzaustraße 9, Marienthal, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Da Colin",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.8369278,
+      "lon": 9.9586028,
+      "address": "Hamburger Straße 15, Kaltenkirchen"
+    },
+    "found": {
+      "lat": 52.5248635,
+      "lon": 13.6377221,
+      "address": "Hamburger Straße 15, Mahlsdorf, Berlin"
+    },
+    "distance_diff_m": 285243,
+    "action": "review",
+    "note": "Large distance: 285243m"
+  },
+  {
+    "name": "Zum Alten Markt",
+    "status": "ok",
+    "current": {
+      "lat": 53.5464623,
+      "lon": 9.9733865,
+      "address": "Kuhberg 4, Barmstedt"
+    },
+    "found": {
+      "lat": 53.5464623,
+      "lon": 9.9733865,
+      "address": "Kuhberg 4, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Phoenix Stübchen",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.8082982,
+      "lon": 9.9827608,
+      "address": "Kisdorf"
+    },
+    "found": {
+      "lat": 53.8103523,
+      "lon": 10.0101077,
+      "address": ", Kisdorf"
+    },
+    "distance_diff_m": 1810,
+    "action": "fix_coords",
+    "note": "Distance 1810m"
+  },
+  {
+    "name": "Rantzau7",
+    "status": "ok",
+    "current": {
+      "lat": 53.5679741,
+      "lon": 10.0643647,
+      "address": "Rantzau 7, Barmstedt"
+    },
+    "found": {
+      "lat": 53.5679741,
+      "lon": 10.0643647,
+      "address": "Rantzaustraße 7, Marienthal, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+    "status": "ok",
+    "current": {
+      "lat": 53.4884074,
+      "lon": 10.2388931,
+      "address": "Hamburger Straße 8, Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.4884074,
+      "lon": 10.2388931,
+      "address": "Hamburger Landstraße 8, Bergedorf, Wentorf bei Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Bleicke's Gasthaus",
+    "status": "ok",
+    "current": {
+      "lat": 53.92,
+      "lon": 9.883,
+      "address": "Bleeck 22, Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.9187468,
+      "lon": 9.8822707,
+      "address": "Bleeck, Bad Bramstedt"
+    },
+    "distance_diff_m": 147,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Wolters Gasthof von 1787",
+    "status": "ok",
+    "current": {
+      "lat": 53.9049,
+      "lon": 9.8329,
+      "address": "Glückstädter Straße 3, 24576 Weddelbrook"
+    },
+    "found": {
+      "lat": 53.9048928,
+      "lon": 9.8329106,
+      "address": "Glückstädter Straße 3, Weddelbrook"
+    },
+    "distance_diff_m": 1,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Shape",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.8375869,
+      "lon": 9.9568024,
+      "address": "Hamburger Straße, Kaltenkirchen"
+    },
+    "found": {
+      "lat": 53.5744808,
+      "lon": 10.0373151,
+      "address": "Louis-Braille-Platz, Barmbek-Süd, Hamburg"
+    },
+    "distance_diff_m": 29732,
+    "action": "review",
+    "note": "Large distance: 29732m"
+  },
+  {
+    "name": "Zobis Cocktailbar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5589301,
+      "lon": 9.8116557,
+      "address": "Bahnhofstr. 1, Henstedt-Ulzburg"
+    },
+    "found": {
+      "lat": 49.2365401,
+      "lon": 6.9923805,
+      "address": "Bahnhofstraße 71-73, St. Johann, Saarbrücken"
+    },
+    "distance_diff_m": 518797,
+    "action": "review",
+    "note": "Large distance: 518797m"
+  },
+  {
+    "name": "Glücksmarie",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.9035828,
+      "lon": 9.891209,
+      "address": "Birkenweg 23, Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.6595971,
+      "lon": 10.1275296,
+      "address": "Birkenweg 23, Bergstedt, Hamburg"
+    },
+    "distance_diff_m": 31259,
+    "action": "review",
+    "note": "Large distance: 31259m"
+  },
+  {
+    "name": "Billard & Spielcafé",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.919,
+      "lon": 9.885,
+      "address": "Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.9167,
+      "lon": 9.88333,
+      "address": ", Bad Bramstedt"
+    },
+    "distance_diff_m": 278,
+    "action": "fix_coords",
+    "note": "Distance 278m"
+  },
+  {
+    "name": "Der Gutschmecker",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.92,
+      "lon": 9.88,
+      "address": "Bad Bramstedt"
+    },
+    "found": {
+      "lat": 53.9167,
+      "lon": 9.88333,
+      "address": ", Bad Bramstedt"
+    },
+    "distance_diff_m": 427,
+    "action": "fix_coords",
+    "note": "Distance 427m"
+  },
+  {
+    "name": "Rock Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.6538118,
+      "lon": 10.0770973,
+      "address": "Ulzburger Str. 609, Norderstedt"
+    },
+    "found": {
+      "lat": 53.7343087,
+      "lon": 9.9960222,
+      "address": "Ulzburger Straße 609, Friedrichsgabe, Norderstedt"
+    },
+    "distance_diff_m": 10422,
+    "action": "review",
+    "note": "Large distance: 10422m"
+  },
+  {
+    "name": "Herz von Garstedt",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.6816393,
+      "lon": 9.9812747,
+      "address": "Garstedt, Norderstedt"
+    },
+    "found": {
+      "lat": 53.6727792,
+      "lon": 9.9786885,
+      "address": ", Garstedt, Norderstedt"
+    },
+    "distance_diff_m": 1000,
+    "action": "fix_coords",
+    "note": "Distance 1000m"
+  },
+  {
+    "name": "Cafeteria Latina",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.6958,
+      "lon": 9.995,
+      "address": "Norderstedt"
+    },
+    "found": {
+      "lat": 53.7089898,
+      "lon": 9.9891914,
+      "address": ", Norderstedt"
+    },
+    "distance_diff_m": 1516,
+    "action": "fix_coords",
+    "note": "Distance 1516m"
+  },
+  {
+    "name": "Petrol Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.6965,
+      "lon": 9.9955,
+      "address": "Norderstedt"
+    },
+    "found": {
+      "lat": 53.7089898,
+      "lon": 9.9891914,
+      "address": ", Norderstedt"
+    },
+    "distance_diff_m": 1450,
+    "action": "fix_coords",
+    "note": "Distance 1450m"
+  },
+  {
+    "name": "Strandhaus Norderstedt",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.7155337,
+      "lon": 10.0204793,
+      "address": "Stadtpark, Norderstedt"
+    },
+    "found": {
+      "lat": 53.5956195,
+      "lon": 10.0176691,
+      "address": ", Hamburg"
+    },
+    "distance_diff_m": 13335,
+    "action": "review",
+    "note": "Large distance: 13335m"
+  },
+  {
+    "name": "Kamphuis",
+    "status": "ok",
+    "current": {
+      "lat": 53.5611823,
+      "lon": 9.9664361,
+      "address": "Kampstraße 57, Quickborn"
+    },
+    "found": {
+      "lat": 53.5611823,
+      "lon": 9.9664361,
+      "address": "Kampstraße, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "VIVA",
+    "status": "ok",
+    "current": {
+      "lat": 53.570121,
+      "lon": 9.9438502,
+      "address": "Kieler Str. 91, Quickborn"
+    },
+    "found": {
+      "lat": 53.570121,
+      "lon": 9.9438502,
+      "address": "Kieler Straße 91, Altona-Nord, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Billiard-Café",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.79,
+      "lon": 9.965,
+      "address": "Henstedt-Ulzburg"
+    },
+    "found": {
+      "lat": 53.7926888,
+      "lon": 9.9808134,
+      "address": ", Henstedt-Ulzburg"
+    },
+    "distance_diff_m": 1081,
+    "action": "fix_coords",
+    "note": "Distance 1081m"
+  },
+  {
+    "name": "Klackermatsch",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.645281,
+      "lon": 9.9299659,
+      "address": "Oldesloer Straße, Bad Segeberg"
+    },
+    "found": {
+      "lat": 53.6468457,
+      "lon": 9.9341237,
+      "address": "Oldesloer Straße, Schnelsen, Hamburg"
+    },
+    "distance_diff_m": 325,
+    "action": "fix_coords",
+    "note": "Distance 325m"
+  },
+  {
+    "name": "entflammBAR",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5855,
+      "lon": 9.9805,
+      "address": "Eppendorfer Weg 177, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5834612,
+      "lon": 9.9764186,
+      "address": "Eppendorfer Weg, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 352,
+    "action": "fix_coords",
+    "note": "Distance 352m"
+  },
+  {
+    "name": "Moe's Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5848535,
+      "lon": 9.9847587,
+      "address": "Hegestraße 44, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5834317,
+      "lon": 9.9823665,
+      "address": "Hegestraße 44, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 223,
+    "action": "fix_coords",
+    "note": "Distance 223m"
+  },
+  {
+    "name": "Planet Dart & Billard Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5844,
+      "lon": 9.9828,
+      "address": "Eppendorfer Weg 166, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5797067,
+      "lon": 9.9674495,
+      "address": "Eppendorfer Weg 166, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 1140,
+    "action": "fix_coords",
+    "note": "Distance 1140m"
+  },
+  {
+    "name": "Frank und Frei",
+    "status": "ok",
+    "current": {
+      "lat": 53.5631,
+      "lon": 9.9653,
+      "address": "Schanzenstraße 93, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5631223,
+      "lon": 9.9652728,
+      "address": "Schanzenstraße 93, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 3,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Calistoga Wine Saloon",
+    "status": "ok",
+    "current": {
+      "lat": 53.587616,
+      "lon": 9.9856665,
+      "address": "Eppendorfer Landstraße 44, Eppendorf"
+    },
+    "found": {
+      "lat": 53.587616,
+      "lon": 9.9856665,
+      "address": "Eppendorfer Landstraße 44, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Chrissi's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5780603,
+      "lon": 9.9510745,
+      "address": "Stellinger Weg 15, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5780603,
+      "lon": 9.9510745,
+      "address": "Stellinger Weg 15, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Bar Chamäleon",
+    "status": "ok",
+    "current": {
+      "lat": 53.5780787,
+      "lon": 9.942845,
+      "address": "Methfesselstraße 28, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5780787,
+      "lon": 9.942845,
+      "address": "Methfesselstraße 28, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Pandora",
+    "status": "ok",
+    "current": {
+      "lat": 53.5688,
+      "lon": 9.9615,
+      "address": "Vereinsstraße 54, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5677674,
+      "lon": 9.9612272,
+      "address": "Vereinsstraße 54, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 116,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Kuddl",
+    "status": "ok",
+    "current": {
+      "lat": 53.5815089,
+      "lon": 9.9444782,
+      "address": "Lutterothstraße 83, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5815089,
+      "lon": 9.9444782,
+      "address": "Lutterothstraße 83, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "3-Zimmerwohnung",
+    "status": "ok",
+    "current": {
+      "lat": 53.5680881,
+      "lon": 9.9561699,
+      "address": "Eimsbütteler Chaussee 30, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5672254,
+      "lon": 9.9568564,
+      "address": "Eimsbütteler Chaussee, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 106,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café Bar Sonnenseite",
+    "status": "ok",
+    "current": {
+      "lat": 53.5664211,
+      "lon": 9.9650137,
+      "address": "Weidenallee 21, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5664211,
+      "lon": 9.9650137,
+      "address": "Weidenallee 21, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Nuts Beer & More",
+    "status": "ok",
+    "current": {
+      "lat": 53.5785238,
+      "lon": 9.9505911,
+      "address": "Stellinger Weg 21, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5790704,
+      "lon": 9.9496882,
+      "address": "Stellinger Weg, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 85,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Parissa's",
+    "status": "ok",
+    "current": {
+      "lat": 53.5889404,
+      "lon": 10.0017503,
+      "address": "Sierichstraße 112, Winterhude"
+    },
+    "found": {
+      "lat": 53.5889404,
+      "lon": 10.0017503,
+      "address": "Sierichstraße 112, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Schüttler's Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5815881,
+      "lon": 10.0139323,
+      "address": "Gertigstraße 16, Winterhude"
+    },
+    "found": {
+      "lat": 53.5815881,
+      "lon": 10.0139323,
+      "address": "Gertigstraße 16, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Goldbeker",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5804158,
+      "lon": 10.012465,
+      "address": "Mühlenkamp 30, Winterhude"
+    },
+    "found": {
+      "lat": 53.5829191,
+      "lon": 10.0102753,
+      "address": "Mühlenkamp, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 314,
+    "action": "fix_coords",
+    "note": "Distance 314m"
+  },
+  {
+    "name": "Gaststätte Profil",
+    "status": "ok",
+    "current": {
+      "lat": 53.5820031,
+      "lon": 10.0108192,
+      "address": "Mühlenkamp 39, Winterhude"
+    },
+    "found": {
+      "lat": 53.5820031,
+      "lon": 10.0108192,
+      "address": "Mühlenkamp 39, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Corner",
+    "status": "ok",
+    "current": {
+      "lat": 53.5808711,
+      "lon": 10.0118709,
+      "address": "Mühlenkamp 19, Winterhude"
+    },
+    "found": {
+      "lat": 53.5808711,
+      "lon": 10.0118709,
+      "address": "Mühlenkamp 19, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Fofftein",
+    "status": "ok",
+    "current": {
+      "lat": 53.5821214,
+      "lon": 10.0152964,
+      "address": "Gertigstraße 32, Winterhude"
+    },
+    "found": {
+      "lat": 53.5821214,
+      "lon": 10.0152964,
+      "address": "Gertigstraße, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Don Antonio",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5831,
+      "lon": 9.9978,
+      "address": "Mühlenkamp 27, Winterhude"
+    },
+    "found": {
+      "lat": 53.5829892,
+      "lon": 10.0102116,
+      "address": "Mühlenkamp, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 819,
+    "action": "fix_coords",
+    "note": "Distance 819m"
+  },
+  {
+    "name": "Tre Pazzi",
+    "status": "ok",
+    "current": {
+      "lat": 53.5816193,
+      "lon": 10.0130236,
+      "address": "Gertigstraße 9, Winterhude"
+    },
+    "found": {
+      "lat": 53.5816193,
+      "lon": 10.0130236,
+      "address": "Gertigstraße 9, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Zum Glaskasten",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5898,
+      "lon": 9.995,
+      "address": "Barmbeker Straße 61, Winterhude"
+    },
+    "found": {
+      "lat": 53.5932413,
+      "lon": 10.0005171,
+      "address": "Barmbeker Straße, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 528,
+    "action": "fix_coords",
+    "note": "Distance 528m"
+  },
+  {
+    "name": "Portomarin",
+    "status": "ok",
+    "current": {
+      "lat": 53.5798,
+      "lon": 10.0125,
+      "address": "Mühlenkamp 1, Winterhude"
+    },
+    "found": {
+      "lat": 53.5798356,
+      "lon": 10.0126392,
+      "address": "Mühlenkamp 1, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 10,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Avenue 95",
+    "status": "ok",
+    "current": {
+      "lat": 53.5823329,
+      "lon": 9.969979,
+      "address": "Hoheluftchaussee 95, Hoheluft-West"
+    },
+    "found": {
+      "lat": 53.5823329,
+      "lon": 9.969979,
+      "address": "Hoheluftchaussee 95, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "BRIX",
+    "status": "ok",
+    "current": {
+      "lat": 53.5815189,
+      "lon": 9.9728526,
+      "address": "Hoheluftchaussee 58, Hoheluft-West"
+    },
+    "found": {
+      "lat": 53.5815189,
+      "lon": 9.9728526,
+      "address": "Hoheluftchaussee 58, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café Leonar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.568,
+      "lon": 9.981,
+      "address": "Grindelhof 59, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5697536,
+      "lon": 9.9840813,
+      "address": "Grindelhof 59, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 282,
+    "action": "fix_coords",
+    "note": "Distance 282m"
+  },
+  {
+    "name": "Pony Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5665,
+      "lon": 9.979,
+      "address": "Allendeplatz 1, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5672471,
+      "lon": 9.9822538,
+      "address": "Allende-Platz 1, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 230,
+    "action": "fix_coords",
+    "note": "Distance 230m"
+  },
+  {
+    "name": "Haco36",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5676,
+      "lon": 9.98,
+      "address": "Grindelhof 36, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5688541,
+      "lon": 9.9835382,
+      "address": "Grindelhof, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 272,
+    "action": "fix_coords",
+    "note": "Distance 272m"
+  },
+  {
+    "name": "The Green Room",
+    "status": "ok",
+    "current": {
+      "lat": 53.5651336,
+      "lon": 9.98361,
+      "address": "Grindelallee 28, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5651336,
+      "lon": 9.98361,
+      "address": "Grindelallee 28, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Irish Rover",
+    "status": "ok",
+    "current": {
+      "lat": 53.5684466,
+      "lon": 9.9826185,
+      "address": "Grindelhof 27, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5684466,
+      "lon": 9.9826185,
+      "address": "Grindelhof 27, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Wein Michel",
+    "status": "ok",
+    "current": {
+      "lat": 53.5704084,
+      "lon": 9.9852238,
+      "address": "Grindelhof 62, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5704084,
+      "lon": 9.9852238,
+      "address": "Grindelhof 62, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Kaffee Stark",
+    "status": "ok",
+    "current": {
+      "lat": 53.5797688,
+      "lon": 9.97972,
+      "address": "Klosterallee 32, Harvestehude"
+    },
+    "found": {
+      "lat": 53.5804033,
+      "lon": 9.9799649,
+      "address": "Klosterallee, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 72,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Pöseldorf Krug",
+    "status": "ok",
+    "current": {
+      "lat": 53.5707232,
+      "lon": 9.9971911,
+      "address": "Milchstraße 7, Pöseldorf"
+    },
+    "found": {
+      "lat": 53.5707232,
+      "lon": 9.9971911,
+      "address": "Milchstraße 7, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Nikkei Nine Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5521247,
+      "lon": 9.9922817,
+      "address": "Neuer Wall 13, Neustadt/Harvestehude"
+    },
+    "found": {
+      "lat": 53.5521247,
+      "lon": 9.9922817,
+      "address": "Neuer Wall 13, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Nil",
+    "status": "ok",
+    "current": {
+      "lat": 53.5849,
+      "lon": 9.982,
+      "address": "Eppendorfer Weg 275, Eppendorf"
+    },
+    "found": {
+      "lat": 53.584704,
+      "lon": 9.979452,
+      "address": "Eppendorfer Weg 275, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 170,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Cox",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5852,
+      "lon": 9.9818,
+      "address": "Eppendorfer Weg 259, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5838341,
+      "lon": 9.9771064,
+      "address": "Eppendorfer Weg 259, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 345,
+    "action": "fix_coords",
+    "note": "Distance 345m"
+  },
+  {
+    "name": "Café May Eppendorf",
+    "status": "ok",
+    "current": {
+      "lat": 53.5889988,
+      "lon": 9.9869424,
+      "address": "Eppendorfer Landstraße 62, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5889988,
+      "lon": 9.9869424,
+      "address": "Eppendorfer Landstraße 62, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Markt 7",
+    "status": "ok",
+    "current": {
+      "lat": 53.5905335,
+      "lon": 9.9864339,
+      "address": "Marie-Jonas-Platz 7, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5905335,
+      "lon": 9.9864339,
+      "address": "Marie-Jonas-Platz, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Trattoria Italiana da Basso",
+    "status": "ok",
+    "current": {
+      "lat": 53.585,
+      "lon": 9.9815,
+      "address": "Eppendorfer Weg 268, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5840774,
+      "lon": 9.9790437,
+      "address": "Eppendorfer Weg 268, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 192,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Heinz Catering & Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5915413,
+      "lon": 9.9874717,
+      "address": "Eppendorfer Landstraße 34, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5915413,
+      "lon": 9.9874717,
+      "address": "Eppendorfer Landstraße, Eppendorf, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Isemarkt Weinhandlung Kreutzfeldt",
+    "status": "ok",
+    "current": {
+      "lat": 53.5836258,
+      "lon": 9.9841705,
+      "address": "Eppendorfer Baum 27, Eimsbüttel/Hoheluft"
+    },
+    "found": {
+      "lat": 53.5837716,
+      "lon": 9.9831798,
+      "address": "Eppendorfer Baum 27, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 67,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café May Eimsbüttel",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5693001,
+      "lon": 9.9497712,
+      "address": "Eimsbütteler Straße 24, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5654081,
+      "lon": 9.9565869,
+      "address": "Eimsbütteler Straße 24, Altona-Nord, Hamburg"
+    },
+    "distance_diff_m": 624,
+    "action": "fix_coords",
+    "note": "Distance 624m"
+  },
+  {
+    "name": "Tante Gerda",
+    "status": "ok",
+    "current": {
+      "lat": 53.5787261,
+      "lon": 9.9450192,
+      "address": "Methfesselstraße 44, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.5787261,
+      "lon": 9.9450192,
+      "address": "Methfesselstraße 44, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Campari Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5599396,
+      "lon": 9.9649382,
+      "address": "Schanzenstraße 18, Eimsbüttel/Schanze"
+    },
+    "found": {
+      "lat": 53.5599396,
+      "lon": 9.9649382,
+      "address": "Schanzenstraße 16-18, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café Klatsch",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5825,
+      "lon": 9.999,
+      "address": "Mühlenkamp 25, Winterhude"
+    },
+    "found": {
+      "lat": 53.5829191,
+      "lon": 10.0102753,
+      "address": "Mühlenkamp, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 746,
+    "action": "fix_coords",
+    "note": "Distance 746m"
+  },
+  {
+    "name": "Zipang",
+    "status": "ok",
+    "current": {
+      "lat": 53.579736,
+      "lon": 9.9662831,
+      "address": "Eppendorfer Weg 171, Winterhude"
+    },
+    "found": {
+      "lat": 53.579736,
+      "lon": 9.9662831,
+      "address": "Eppendorfer Weg 171, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Eisenstein",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5638,
+      "lon": 9.9421,
+      "address": "Friedensallee 9, Winterhude/Eppendorf"
+    },
+    "found": {
+      "lat": 53.5545073,
+      "lon": 9.927292,
+      "address": "Friedensallee 9, Ottensen, Hamburg"
+    },
+    "distance_diff_m": 1423,
+    "action": "fix_coords",
+    "note": "Distance 1423m"
+  },
+  {
+    "name": "Ristorante Dante",
+    "status": "ok",
+    "current": {
+      "lat": 53.5816483,
+      "lon": 10.0110857,
+      "address": "Mühlenkamp 37, Winterhude"
+    },
+    "found": {
+      "lat": 53.5816483,
+      "lon": 10.0110857,
+      "address": "Mühlenkamp 37, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Vlet Winterhude",
+    "status": "ok",
+    "current": {
+      "lat": 53.5815569,
+      "lon": 10.0128223,
+      "address": "Gertigstraße 7, Winterhude"
+    },
+    "found": {
+      "lat": 53.5815569,
+      "lon": 10.0128223,
+      "address": "Gertigstraße 7, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Grüne Perle",
+    "status": "ok",
+    "current": {
+      "lat": 53.5806151,
+      "lon": 9.9740184,
+      "address": "Hoheluftchaussee 42, Hoheluft-West"
+    },
+    "found": {
+      "lat": 53.5806151,
+      "lon": 9.9740184,
+      "address": "Hoheluftchaussee 42, Hoheluft-West, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Abaton Bistro",
+    "status": "ok",
+    "current": {
+      "lat": 53.5675,
+      "lon": 9.979,
+      "address": "Allendeplatz 3, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5675859,
+      "lon": 9.9819368,
+      "address": "Allende-Platz 3, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 194,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café Eppendorfer Baum",
+    "status": "ok",
+    "current": {
+      "lat": 53.5841286,
+      "lon": 9.9819276,
+      "address": "Eppendorfer Baum 35, Hoheluft/Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5841286,
+      "lon": 9.9819276,
+      "address": "Eppendorfer Baum 35, Hoheluft-Ost, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Leib & Seele",
+    "status": "ok",
+    "current": {
+      "lat": 53.5694191,
+      "lon": 9.9845678,
+      "address": "Grindelhof 52, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5694191,
+      "lon": 9.9845678,
+      "address": "Grindelhof 52, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Café Storch",
+    "status": "ok",
+    "current": {
+      "lat": 53.5705684,
+      "lon": 9.9973633,
+      "address": "Milchstraße 19, Pöseldorf"
+    },
+    "found": {
+      "lat": 53.5705684,
+      "lon": 9.9973633,
+      "address": "Milchstraße 19, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Harlin",
+    "status": "ok",
+    "current": {
+      "lat": 53.5555,
+      "lon": 9.9905,
+      "address": "Neuer Jungfernstieg 9, Harvestehude/Innenstadt"
+    },
+    "found": {
+      "lat": 53.5553809,
+      "lon": 9.9913765,
+      "address": "Neuer Jungfernstieg 9, Neustadt, Hamburg"
+    },
+    "distance_diff_m": 59,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Sky Bar Airport Plaza",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.6537179,
+      "lon": 9.9835876,
+      "address": "Flughafenstraße 1-3, Fuhlsbüttel"
+    },
+    "found": {
+      "lat": 53.6324334,
+      "lon": 10.0082805,
+      "address": "Flughafenstraße 1-3, Fuhlsbüttel, Hamburg"
+    },
+    "distance_diff_m": 2872,
+    "action": "review",
+    "note": "Large distance: 2872m"
+  },
+  {
+    "name": "Ruby Lotti Rooftop Bar",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5508663,
+      "lon": 9.9853397,
+      "address": "Rödingsmarkt 9, Altstadt"
+    },
+    "found": {
+      "lat": 53.548204,
+      "lon": 9.9873849,
+      "address": "Rödingsmarkt 9, Altstadt, Hamburg"
+    },
+    "distance_diff_m": 325,
+    "action": "fix_coords",
+    "note": "Distance 325m"
+  },
+  {
+    "name": "20up Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.547282,
+      "lon": 9.963355,
+      "address": "Bernhard-Nocht-Straße 97, St. Pauli (Empire Riverside Hotel)"
+    },
+    "found": {
+      "lat": 53.5472091,
+      "lon": 9.9633526,
+      "address": "Bernhard-Nocht-Straße 97, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 8,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "East Hotel Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.551252,
+      "lon": 9.9661345,
+      "address": "Simon-von-Utrecht-Straße 31, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5512744,
+      "lon": 9.9659858,
+      "address": "Simon-von-Utrecht-Straße 31, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 10,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "After Work Club - Café Schöne Aussichten",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5634,
+      "lon": 9.9749,
+      "address": "Planten un Blomen Park, Stephansplatz/Dammtor"
+    },
+    "found": {
+      "lat": 53.5619584,
+      "lon": 9.9813309,
+      "address": ", St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 454,
+    "action": "fix_coords",
+    "note": "Distance 454m"
+  },
+  {
+    "name": "Störtebeker Elbphilharmonie",
+    "status": "ok",
+    "current": {
+      "lat": 53.5415077,
+      "lon": 9.983489,
+      "address": "Platz der Deutschen Einheit 4, HafenCity"
+    },
+    "found": {
+      "lat": 53.5411501,
+      "lon": 9.9853769,
+      "address": ", HafenCity, Hamburg"
+    },
+    "distance_diff_m": 131,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Pyjama Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5499876,
+      "lon": 9.9653913,
+      "address": "Reeperbahn, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5498075,
+      "lon": 9.9649616,
+      "address": "Reeperbahn, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 35,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "7ieben Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5624979,
+      "lon": 9.961774,
+      "address": "Schulterblatt 86, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5624979,
+      "lon": 9.961774,
+      "address": "Schulterblatt 86, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Cave Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5646391,
+      "lon": 9.9705488,
+      "address": "Sternschanze 6, Sternschanze"
+    },
+    "found": {
+      "lat": 53.5646391,
+      "lon": 9.9705488,
+      "address": "Sternschanze 6, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Tiefgang Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.557316,
+      "lon": 9.9656747,
+      "address": "Neuer Kamp 9, Sternschanze"
+    },
+    "found": {
+      "lat": 53.557316,
+      "lon": 9.9656747,
+      "address": "Neuer Kamp 9, Sternschanze, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Radiance Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5816837,
+      "lon": 10.0088648,
+      "address": "Dorotheenstraße 37, Winterhude"
+    },
+    "found": {
+      "lat": 53.5816837,
+      "lon": 10.0088648,
+      "address": "Dorotheenstraße 37, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Bar Same Same",
+    "status": "ok",
+    "current": {
+      "lat": 53.5957168,
+      "lon": 9.99809,
+      "address": "Alsterdorfer Straße 18-20, Winterhude"
+    },
+    "found": {
+      "lat": 53.5957168,
+      "lon": 9.99809,
+      "address": "Alsterdorfer Straße 18-20, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Zaza Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5805356,
+      "lon": 10.0125513,
+      "address": "Mühlenkamp 12, Winterhude"
+    },
+    "found": {
+      "lat": 53.5805356,
+      "lon": 10.0125513,
+      "address": "Mühlenkamp 12, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Ratsherrn Bar Mühlenkamp",
+    "status": "ok",
+    "current": {
+      "lat": 53.5797869,
+      "lon": 10.0131747,
+      "address": "Mühlenkamp 2, Winterhude"
+    },
+    "found": {
+      "lat": 53.5797869,
+      "lon": 10.0131747,
+      "address": "Mühlenkamp 2, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Taugenichts Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5604525,
+      "lon": 9.9479252,
+      "address": "Holstenstraße 192, Altona-Nord"
+    },
+    "found": {
+      "lat": 53.5604525,
+      "lon": 9.9479252,
+      "address": "Holstenstraße 192, Altona-Nord, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Craft Bier Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5635864,
+      "lon": 9.9592948,
+      "address": "Max-Brauer-Allee 275, Altona-Nord"
+    },
+    "found": {
+      "lat": 53.5635864,
+      "lon": 9.9592948,
+      "address": "Max-Brauer-Allee 275, Altona-Nord, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Bar La Notte",
+    "status": "ok",
+    "current": {
+      "lat": 53.5557074,
+      "lon": 9.9521282,
+      "address": "Steinheimplatz 10, Altona"
+    },
+    "found": {
+      "lat": 53.5557074,
+      "lon": 9.9521282,
+      "address": "Steinheimplatz 10, Altona, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Köpi-Bar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5596976,
+      "lon": 9.8880002,
+      "address": "Beselerplatz 11, Groß Flottbek"
+    },
+    "found": {
+      "lat": 53.5596976,
+      "lon": 9.8880002,
+      "address": "Beselerplatz 11, Groß Flottbek, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Quer",
+    "status": "ok",
+    "current": {
+      "lat": 53.5545699,
+      "lon": 9.9287796,
+      "address": "Bahrenfelder Straße 180, Ottensen"
+    },
+    "found": {
+      "lat": 53.5545699,
+      "lon": 9.9287796,
+      "address": "Bahrenfelder Straße 180, Ottensen, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Mutter",
+    "status": "ok",
+    "current": {
+      "lat": 53.558978,
+      "lon": 9.9626451,
+      "address": "Stresemannstraße 11, Eimsbüttel"
+    },
+    "found": {
+      "lat": 53.558978,
+      "lon": 9.9626451,
+      "address": "Stresemannstraße 11, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Eldorado",
+    "status": "ok",
+    "current": {
+      "lat": 53.5559477,
+      "lon": 9.9628998,
+      "address": "Wohlwillstraße 50, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5559477,
+      "lon": 9.9628998,
+      "address": "Wohlwillstraße 50, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Strandperle",
+    "status": "ok",
+    "current": {
+      "lat": 53.5444649,
+      "lon": 9.9054982,
+      "address": "Övelgönne 60, Othmarschen"
+    },
+    "found": {
+      "lat": 53.5444649,
+      "lon": 9.9054982,
+      "address": "Övelgönne 60, Othmarschen, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "AlsterCliff",
+    "status": "ok",
+    "current": {
+      "lat": 53.5740167,
+      "lon": 10.0021864,
+      "address": "Fährdamm, Harvestehude"
+    },
+    "found": {
+      "lat": 53.5736719,
+      "lon": 10.0027406,
+      "address": "Fährdamm, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 53,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Schumachers Biergarten",
+    "status": "ok",
+    "current": {
+      "lat": 53.5656602,
+      "lon": 9.9792657,
+      "address": "Bundesstraße 31, Rotherbaum"
+    },
+    "found": {
+      "lat": 53.5656602,
+      "lon": 9.9792657,
+      "address": "Bundesstraße 31, Rotherbaum, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Landhaus Walter",
+    "status": "ok",
+    "current": {
+      "lat": 53.5939939,
+      "lon": 10.0151627,
+      "address": "Otto-Wels-Straße 2, Winterhude"
+    },
+    "found": {
+      "lat": 53.5939939,
+      "lon": 10.0151627,
+      "address": "Otto-Wels-Straße 2, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Zum Wattkorn",
+    "status": "ok",
+    "current": {
+      "lat": 53.6637794,
+      "lon": 10.0237393,
+      "address": "Tangstedter Landstraße 230, Langenhorn"
+    },
+    "found": {
+      "lat": 53.6637794,
+      "lon": 10.0237393,
+      "address": "Tangstedter Landstraße 230, Langenhorn, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Ahoi by Steffen Henssler",
+    "status": "ok",
+    "current": {
+      "lat": 53.5448256,
+      "lon": 9.9391548,
+      "address": "Große Elbstraße 212, Altona"
+    },
+    "found": {
+      "lat": 53.5448256,
+      "lon": 9.9391548,
+      "address": "Große Elbstraße 212, Altona, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Hamburger Biergarten",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5942209,
+      "lon": 10.015782,
+      "address": "Südring, Stadtpark Winterhude"
+    },
+    "found": {
+      "lat": 53.5923402,
+      "lon": 10.0132447,
+      "address": "Südring, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 268,
+    "action": "fix_coords",
+    "note": "Distance 268m"
+  },
+  {
+    "name": "Tiefental",
+    "status": "ok",
+    "current": {
+      "lat": 53.5836092,
+      "lon": 9.9856198,
+      "address": "Tiefental, Eppendorf"
+    },
+    "found": {
+      "lat": 53.5835819,
+      "lon": 9.9855876,
+      "address": "Isestraße, Harvestehude, Hamburg"
+    },
+    "distance_diff_m": 4,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Barmeier's Café & Biergarten",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5971059,
+      "lon": 9.9898631,
+      "address": "Barmbeker Straße, Winterhude"
+    },
+    "found": {
+      "lat": 53.5932413,
+      "lon": 10.0005171,
+      "address": "Barmbeker Straße, Winterhude, Hamburg"
+    },
+    "distance_diff_m": 824,
+    "action": "fix_coords",
+    "note": "Distance 824m"
+  },
+  {
+    "name": "Biergarten Zum Anleger",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5157,
+      "lon": 9.9986758,
+      "address": "Finkenwerder, Hamburg"
+    },
+    "found": {
+      "lat": 53.5308822,
+      "lon": 9.8585234,
+      "address": ", Finkenwerder, Hamburg"
+    },
+    "distance_diff_m": 9417,
+    "action": "review",
+    "note": "Large distance: 9417m"
+  },
+  {
+    "name": "Karo Beach",
+    "status": "wrong_coords",
+    "current": {
+      "lat": 53.5570239,
+      "lon": 9.9669853,
+      "address": "Karolinenviertel, Hamburg"
+    },
+    "found": {
+      "lat": 53.5584476,
+      "lon": 9.9726697,
+      "address": ", St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 407,
+    "action": "fix_coords",
+    "note": "Distance 407m"
+  },
+  {
+    "name": "Brücke 10 im Strandhaus",
+    "status": "ok",
+    "current": {
+      "lat": 53.5449045,
+      "lon": 9.8922714,
+      "address": "Övelgönner Hohlweg 12, Othmarschen"
+    },
+    "found": {
+      "lat": 53.5449153,
+      "lon": 9.8922627,
+      "address": "Övelgönner Hohlweg 12, Othmarschen, Hamburg"
+    },
+    "distance_diff_m": 1,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Knust",
+    "status": "ok",
+    "current": {
+      "lat": 53.5581388,
+      "lon": 9.9679333,
+      "address": "Neuer Kamp 30, Karolinenviertel"
+    },
+    "found": {
+      "lat": 53.5581388,
+      "lon": 9.9679333,
+      "address": "Neuer Kamp 30, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Gruenspan",
+    "status": "ok",
+    "current": {
+      "lat": 53.5518065,
+      "lon": 9.9583884,
+      "address": "Große Freiheit 58, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5518065,
+      "lon": 9.9583884,
+      "address": "Große Freiheit 58, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Fabrik",
+    "status": "ok",
+    "current": {
+      "lat": 53.5567411,
+      "lon": 9.9291883,
+      "address": "Barnerstraße 36, Ottensen"
+    },
+    "found": {
+      "lat": 53.5567411,
+      "lon": 9.9291883,
+      "address": "Barnerstraße 36, Ottensen, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Prinzenbar",
+    "status": "ok",
+    "current": {
+      "lat": 53.5488176,
+      "lon": 9.9647442,
+      "address": "Kastanienallee 20, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5488176,
+      "lon": 9.9647442,
+      "address": "Kastanienallee 20, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Indra Club 64",
+    "status": "ok",
+    "current": {
+      "lat": 53.5520911,
+      "lon": 9.9582575,
+      "address": "Große Freiheit 64, St. Pauli"
+    },
+    "found": {
+      "lat": 53.5520911,
+      "lon": 9.9582575,
+      "address": "Große Freiheit 64, St. Pauli, Hamburg"
+    },
+    "distance_diff_m": 0,
+    "action": "none",
+    "note": ""
+  },
+  {
+    "name": "Maison 16",
+    "status": "ok",
+    "current": {
+      "lat": 53.5747,
+      "lon": 9.9511,
+      "address": "Heußweg 16, 20255 Hamburg"
+    },
+    "found": {
+      "lat": 53.574677,
+      "lon": 9.951098,
+      "address": "Heußweg 16, Eimsbüttel, Hamburg"
+    },
+    "distance_diff_m": 3,
+    "action": "none",
+    "note": ""
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Mathilde Bar",
+    "description": "Gemütliche Literatur-Bar in Eimsbüttel (Bogenstraße) mit rund 150 Lesungen und Veranstaltungen im Jahr. Entspannte Atmosphäre mit Cocktails, Guinness und Jever vom Fass.",
+    "current_category": "pub",
+    "category_suggestion": "bar",
+    "category_change": true,
+    "confidence": "high"
+  },
+  {
+    "name": "Vinos",
+    "description": "Weinlokal an der Eppendorfer Landstraße – der Name deutet klar auf Wein als Schwerpunkt hin.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "F&F",
+    "description": "Café am Lehmweg in Hoheluft-Ost, einem belebten Viertel mit vielen kleinen Gastronomien.",
+    "current_category": "cafe",
+    "category_suggestion": "cafe",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Windschirm",
+    "description": "Bar am Hallerplatz in Rotherbaum/Eimsbüttel.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Zoë II",
+    "description": "Bar am Neuen Pferdemarkt in der Sternschanze – ein belebtes Ausgehviertel.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Bar Jasou",
+    "description": "Bar in der Sophienallee in Eimsbüttel.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "ERNST GESING & CO",
+    "description": "Weinhandlung bzw. Weinbar an der Barmbeker Straße in Winterhude.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Austerbar",
+    "description": "Bar in der Sillemstraße in Eimsbüttel.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "CavaRo Weinbar",
+    "description": "Weinbar an der Rothenbaumchaussee in Rotherbaum – der Name verweist auf Cava und Wein.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Pecato Weine",
+    "description": "Weinladen oder Weinbar in der Weidenallee in Eimsbüttel.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Lemon",
+    "description": "Bar in der Vereinsstraße in Eimsbüttel.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Auster",
+    "description": "Bar in der Sillemstraße in Eimsbüttel – gleiche Straße wie die Austerbar, möglicherweise verwandt.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "sulsul korean food & bar",
+    "description": "Koreanisches Restaurant mit Bar-Bereich in der Osterstraße in Eimsbüttel. 'Sulsul' bedeutet auf Koreanisch so viel wie 'Trinkkultur'.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "WeinSteins",
+    "description": "Weinbar Beim Schlump in Eimsbüttel – der Name ist ein Wortspiel mit Wein und Einstein.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Nou7Bar",
+    "description": "Bar in der Gertigstraße in Winterhude – einer beliebten Ausgehmeile im Mühlenkamp-Viertel.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Kim Do Weinbar",
+    "description": "Weinbar in der Gertigstraße in Winterhude.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Sarsari Lounge",
+    "description": "Lounge-Bar an der Alsterdorfer Straße in Winterhude. Der Name und 'Lounge' deuten auf eine orientalisch-gemütliche Atmosphäre hin.",
+    "current_category": "bar",
+    "category_suggestion": "bar",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Wijnhus",
+    "description": "Weinbar am Krohnskamp in Winterhude – 'Wijnhus' ist niederländisch für Weinhaus.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "Wein & Boules",
+    "description": "Weinbar mit Boules-Spielmöglichkeit in der Schanzenstraße in der Sternschanze – eine kreative Kombination aus Wein und Freizeit.",
+    "current_category": "wine",
+    "category_suggestion": "wine",
+    "category_change": false,
+    "confidence": "low"
+  },
+  {
+    "name": "MAISON TANUKI",
+    "description": "Französisch inspirierte Weinbar in Eppendorf (Woldsenweg) mit Fokus auf Burgunderweine und saisonale französische Küche.",
+    "current_category": "bar",
+    "category_suggestion": "wine",
+    "category_change": true,
+    "confidence": "high"
+  }
+]

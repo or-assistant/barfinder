@@ -1,0 +1,1958 @@
+[
+  {
+    "name": "Zum Silbersack",
+    "lat": 53.5497,
+    "lon": 9.963,
+    "address": "Silbersackstraße 9, St. Pauli",
+    "category": "pub",
+    "description": "Reeperbahn-Legende seit 1949 — Schlager, Helbing, Tischklettern",
+    "opening_hours": "Mo-Su 12:00-04:00",
+    "smoker": true
+  },
+  {
+    "name": "Zum Goldenen Handschuh",
+    "lat": 53.5507,
+    "lon": 9.9645,
+    "address": "Hamburger Berg 2, St. Pauli",
+    "category": "pub",
+    "description": "Berüchtigte Kiez-Kult-Kneipe, 22h/Tag geöffnet, Honka-Stube",
+    "website": "https://www.goldener-handschuh.de",
+    "opening_hours": "Mo-Su 18:00-16:00",
+    "smoker": true
+  },
+  {
+    "name": "Elbschlosskeller",
+    "lat": 53.5505,
+    "lon": 9.965,
+    "address": "Hamburger Berg 5, St. Pauli",
+    "category": "pub",
+    "description": "24/7 geöffnet, 365 Tage — echtes Kiez-Original",
+    "opening_hours": "24/7",
+    "smoker": true
+  },
+  {
+    "name": "Erika's Eck",
+    "lat": 53.5565,
+    "lon": 9.9705,
+    "address": "Sternstraße 98, St. Pauli",
+    "category": "pub",
+    "description": "24/7 Kult-Imbiss-Kneipe — Kaffee 1,50€, Currywurst & Schnitzel",
+    "opening_hours": "24/7",
+    "smoker": true
+  },
+  {
+    "name": "Zwick",
+    "lat": 53.5719448,
+    "lon": 9.9949177,
+    "address": "Mittelweg 36, Pöseldorf",
+    "category": "pub",
+    "description": "Legendäre Kneipe seit Jahrzehnten in Eppendorf/Harvestehude — Pöseldorfer Institution",
+    "website": "https://www.zwick-hamburg.de",
+    "opening_hours": "Mo-Su 12:00-02:00",
+    "neighborhood": "Pöseldorf"
+  },
+  {
+    "name": "Die Glocke",
+    "lat": 53.5794175,
+    "lon": 9.9794,
+    "address": "Klosterallee 65, Harvestehude",
+    "category": "pub",
+    "description": "Institution seit 1977 — Zwickel vom Fass, bodenständige Küche, Isemarkt-Klassiker",
+    "opening_hours": "Mo 12:00-01:00; Tu 09:00-01:00; We-Th 12:00-01:00; Fr 09:00-01:00; Sa-Su 12:00-01:00"
+  },
+  {
+    "name": "Schramme 10",
+    "lat": 53.5906351,
+    "lon": 9.988829,
+    "address": "Schrammsweg 10, Eppendorf",
+    "category": "pub",
+    "description": "Kult-Pub Eppendorf — Guinness vom Fass, Fußball, Erdnussschalen am Boden",
+    "website": "https://schramme10.com",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Fricke 46",
+    "lat": 53.5964883,
+    "lon": 9.9776697,
+    "address": "Frickestraße 46, Eppendorf",
+    "category": "bar",
+    "description": "Beliebte Eppendorfer Bar — Treffpunkt zum Leute kennenlernen, Olivers Empfehlung",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Borchers",
+    "lat": 53.5854,
+    "lon": 9.9803,
+    "address": "Eppendorfer Weg 172, Eppendorf",
+    "category": "bar",
+    "description": "Gemütliche Bar in Eppendorf — entspannte Atmosphäre, Olivers Empfehlung",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Schröders",
+    "lat": 53.586,
+    "lon": 9.979,
+    "address": "Eppendorfer Weg 198, Eppendorf",
+    "category": "bar",
+    "description": "Eppendorfer Klassiker — Bar & Restaurant, entspanntes Publikum, Olivers Empfehlung",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Paola's",
+    "lat": 53.5903912,
+    "lon": 9.9868771,
+    "address": "Eppendorf, Hamburg",
+    "category": "bar",
+    "description": "Italienisch inspirierte Bar in Eppendorf — Wein, Aperitivo, Olivers Empfehlung",
+    "opening_hours": "Tu-Sa 17:00-00:00"
+  },
+  {
+    "name": "Frau Möller",
+    "lat": 53.5586859,
+    "lon": 10.0131972,
+    "address": "Lange Reihe 96, St. Georg",
+    "category": "pub",
+    "description": "Institution an der Langen Reihe — beste Bratkartoffeln der Stadt",
+    "website": "https://fraumoeller.com",
+    "opening_hours": "Mo-Su 10:00-02:00"
+  },
+  {
+    "name": "Familien-Eck",
+    "lat": 53.5545,
+    "lon": 9.9273,
+    "address": "Friedensallee 9, Ottensen",
+    "category": "pub",
+    "description": "Familiäre Atmosphäre, DJs in der kleinsten Booth der Stadt, günstige Drinks",
+    "opening_hours": "Mo-Su 18:00-03:00",
+    "smoker": true
+  },
+  {
+    "name": "Ratsherrn Klause",
+    "lat": 53.563,
+    "lon": 9.968,
+    "address": "Schanzenstraße 36, Sternschanze",
+    "category": "pub",
+    "description": "Kult ggü. Schanzenpark — Ratsherrn vom Fass, Jukebox, Tanzfläche",
+    "opening_hours": "Mo-Su 18:00-03:00"
+  },
+  {
+    "name": "Holsten-Schwemme",
+    "lat": 53.55,
+    "lon": 9.9638,
+    "address": "Seilerstraße, St. Pauli",
+    "category": "pub",
+    "description": "Urig maritime Kneipe — Herrengedeck & hausgemachte Mexikaner",
+    "opening_hours": "Mo-Su 18:00-04:00",
+    "smoker": true
+  },
+  {
+    "name": "Hong-Kong Hotel Bar",
+    "lat": 53.5511507,
+    "lon": 9.9590176,
+    "address": "Schmuckstraße 9, St. Pauli",
+    "category": "pub",
+    "description": "Seit 1934 — angeblich bester Mexikaner der Stadt, Hamburgs Chinatown-Relikt",
+    "opening_hours": "Mo-Su 18:00-06:00",
+    "smoker": true
+  },
+  {
+    "name": "Old Sailor",
+    "lat": 53.5505,
+    "lon": 9.9648,
+    "address": "Hamburger Berg, St. Pauli",
+    "category": "pub",
+    "description": "Klein, verraucht, authentisch — Biertulpen & Jukebox",
+    "opening_hours": "Mo-Su 20:00-04:00",
+    "smoker": true
+  },
+  {
+    "name": "Zur Scharfen Ecke",
+    "lat": 53.5492,
+    "lon": 9.962,
+    "address": "Davidstraße 1, St. Pauli",
+    "category": "pub",
+    "description": "Klassische Kiezkneipe — maritime Einrichtung, Jukebox, echte Hamburger",
+    "opening_hours": "Mo-Th 14:00-23:00; Fr-Su 12:00-23:00"
+  },
+  {
+    "name": "Haifisch Bar",
+    "lat": 53.544474,
+    "lon": 9.9459206,
+    "address": "Große Elbstraße 128, Altona",
+    "category": "pub",
+    "description": "Maritime Kneipe seit 1947 — Hafenblick, brennender Fischergeist",
+    "opening_hours": "Mo-Su 11:00-04:00"
+  },
+  {
+    "name": "Lehmitz",
+    "lat": 53.5495,
+    "lon": 9.9625,
+    "address": "Reeperbahn 22, St. Pauli",
+    "category": "pub",
+    "description": "Legendäre Reeperbahn-Spelunke, nahezu 24/7",
+    "opening_hours": "Mo-Su 06:00-04:00",
+    "smoker": true
+  },
+  {
+    "name": "Hatari Pfälzer Stube",
+    "lat": 53.5506,
+    "lon": 9.9643,
+    "address": "Hamburger Berg 8, St. Pauli",
+    "category": "pub",
+    "description": "Kiez-Kult-Kneipe mit Charakter am Hamburger Berg",
+    "opening_hours": "Mo-Su 18:00-04:00",
+    "smoker": true
+  },
+  {
+    "name": "Absturz",
+    "lat": 53.5504,
+    "lon": 9.9647,
+    "address": "Hamburger Berg 15, St. Pauli",
+    "category": "pub",
+    "description": "No-frills Kiez-Kneipe am Hamburger Berg",
+    "opening_hours": "Mo-Su 20:00-05:00",
+    "smoker": true
+  },
+  {
+    "name": "Alte Runde Ecke",
+    "lat": 53.5930699,
+    "lon": 10.00112,
+    "address": "Grasweg 1, Winterhude",
+    "category": "pub",
+    "description": "Maritime Jukebox-Kneipe bei Reiner & Ingrid in Winterhude",
+    "opening_hours": "Mo-Su 11:00-02:00"
+  },
+  {
+    "name": "Hamburg 60",
+    "lat": 53.5820132,
+    "lon": 10.0138966,
+    "address": "Schinkelstraße 4, Winterhude",
+    "category": "pub",
+    "description": "Sportkneipe Winterhude — HSV & Pauli friedlich bei Bier vereint",
+    "opening_hours": "Mo-Th 17:00-01:00; Fr 17:00-02:00; Sa 14:30-02:00; Su 14:30-01:00"
+  },
+  {
+    "name": "Gaststätte Dorotheen Eck",
+    "lat": 53.592251,
+    "lon": 10.0023557,
+    "address": "Dorotheenstraße 190, Winterhude",
+    "category": "pub",
+    "description": "Gaby & Olaf begrüßen Stammgäste seit über 10 Jahren",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Edenhall",
+    "lat": 53.5865729,
+    "lon": 10.0171348,
+    "address": "Barmbeker Straße 47, Winterhude",
+    "category": "pub",
+    "description": "Seit 36 Jahren Gaststätte & Bar in Winterhude — saisonale Küche",
+    "website": "https://www.edenhall-hamburg.de",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Le Fonque",
+    "lat": 53.5614357,
+    "lon": 9.9615739,
+    "address": "Juliusstraße 33, Eimsbüttel",
+    "category": "pub",
+    "description": "Soul, Funk & Jazz — Institution der Hamburger Kneipenszene, Rauchen erlaubt",
+    "opening_hours": "Mo-Th 21:00-03:00; Fr-Sa 21:00-05:00; Su 21:00-03:00",
+    "smoker": true,
+    "liveMusic": true,
+    "musicNights": "Do, Fr, Sa"
+  },
+  {
+    "name": "Kneipe Fasan",
+    "lat": 53.5750164,
+    "lon": 9.9634646,
+    "address": "Eichenstraße 10, Eimsbüttel",
+    "category": "pub",
+    "description": "Älteste Studentenkneipe Hamburgs — Biergarten, Bundesliga",
+    "website": "https://www.fasan-hamburg.de",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Eimseck",
+    "lat": 53.5807905,
+    "lon": 9.9476268,
+    "address": "Methfesselstraße 88, Eimsbüttel",
+    "category": "pub",
+    "description": "Eimsbütteler Nachbarschafts-Treff mit Billard, Darts & Kicker",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Berliner Betrüger",
+    "lat": 53.5610222,
+    "lon": 9.9606756,
+    "address": "Juliusstraße 15, Sternschanze",
+    "category": "pub",
+    "description": "Verwinkelte Schanzenkneipe — Kicker, viele kleine Räume, morgens Café",
+    "opening_hours": "Mo-Su 18:00-04:00"
+  },
+  {
+    "name": "Freundlich + Kompetent",
+    "lat": 53.5711606,
+    "lon": 10.0282062,
+    "address": "Hamburger Straße 13, Mundsburg",
+    "category": "pub",
+    "description": "F+K — Live-Musik, Kicker, Bierautomat, sympathische Mundsburg-Kneipe",
+    "website": "https://www.freundlichundkompetent.de",
+    "opening_hours": "Mo-Su 18:00-03:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "Klimperkiste",
+    "lat": 53.5577387,
+    "lon": 9.990494,
+    "address": "Esplanade 18, Neustadt",
+    "category": "pub",
+    "description": "Kneipe bis 4 Uhr morgens — gute Cocktails, abseits vom Kiez",
+    "opening_hours": "Tu-Fr 16:00-04:00; Sa 18:00-04:00"
+  },
+  {
+    "name": "Aalhaus",
+    "lat": 53.5592721,
+    "lon": 9.9469322,
+    "address": "Eggerstedtstraße 39, Altona",
+    "category": "pub",
+    "description": "Altona-Perle — Pub Quiz (#118 am 19.3.), Live-Konzerte, DoKo-Turnier, Fußball auf Leinwand, DJ Sets, Espresso Martini, Oliven am Tresen. Stammkneipe-Charakter, Community-Treffpunkt",
+    "website": "https://aalhaus.de",
+    "opening_hours": "Mo-Th 18:00-01:00; Fr 18:00-03:00; Sa 15:00-03:00; Su 15:00-23:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "(10) and counting",
+    "lat": 53.563,
+    "lon": 9.965,
+    "address": "Bartelsstraße 55, Sternschanze",
+    "category": "pub",
+    "description": "Schanze-Geheimtipp — günstige Drinks, Kicker, coole Musik",
+    "opening_hours": "Mo-Su 18:00-03:00"
+  },
+  {
+    "name": "Murphy's Irish Pub",
+    "lat": 53.5505,
+    "lon": 9.962,
+    "address": "Friedrichstraße 24, St. Pauli",
+    "category": "irish-pub",
+    "description": "Irisches Bier, täglich Live-Musik, Mi-Fr bis 7 Uhr morgens",
+    "website": "http://www.murphys-hh.de",
+    "opening_hours": "We-Fr 18:00-07:00; Sa 16:00-07:00; Mo-Tu 18:00-02:00; Su 16:00-02:00",
+    "liveMusic": true,
+    "musicNights": "Mo, Di, Mi, Do, Fr, Sa, Su"
+  },
+  {
+    "name": "Zum Flensburger",
+    "lat": 53.5630494,
+    "lon": 10.0328966,
+    "address": "Lübecker Straße 121, Hamm",
+    "category": "pub",
+    "description": "Alles Flens! Bunte Beleuchtung, gemütliche Kneipe in Hamm",
+    "opening_hours": "Mo-Th 16:00-23:30; Fr-Sa 16:00-01:00"
+  },
+  {
+    "name": "Omas Apotheke",
+    "lat": 53.562819,
+    "lon": 9.9653266,
+    "address": "Schanzenstraße 87, Sternschanze",
+    "category": "pub",
+    "description": "Kult-Kneipe in der Schanze",
+    "opening_hours": "Mo-Su 18:00-03:00",
+    "smoker": true
+  },
+  {
+    "name": "Le Lion — Bar de Paris",
+    "lat": 53.5501314,
+    "lon": 9.9945288,
+    "address": "Rathausstraße 3, Altstadt",
+    "category": "cocktailbar",
+    "description": "Weltklasse — Erfinder des Gin Basil Smash, Jazz & R'n'B, nahe Rathaus",
+    "website": "https://www.lelion.net",
+    "opening_hours": "Mo-Sa 18:00-02:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "Boilerman Bar",
+    "lat": 53.5842806,
+    "lon": 9.9826569,
+    "address": "Eppendorfer Baum 9, Hoheluft",
+    "category": "cocktailbar",
+    "description": "Perfekte Highballs, 100 Bourbon-Sorten, Champagner — auch in der HafenCity",
+    "website": "https://www.boilermanbar.com",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "Christiansen's",
+    "lat": 53.5465643,
+    "lon": 9.9576875,
+    "address": "Pinnasberg 60, St. Pauli",
+    "category": "cocktailbar",
+    "description": "Cocktailbar-Legende an den Landungsbrücken seit 1999",
+    "website": "https://www.christiansens.de",
+    "opening_hours": "Mo-Su 19:00-03:00"
+  },
+  {
+    "name": "The Chug Club",
+    "lat": 53.5482839,
+    "lon": 9.965012,
+    "address": "Taubenstraße 13, St. Pauli",
+    "category": "cocktailbar",
+    "description": "Buttermilch-Margarita & legendäres 5er Chug-Menü — seit 2015",
+    "opening_hours": "Tu-Sa 19:00-03:00"
+  },
+  {
+    "name": "The Bohemian",
+    "lat": 53.5470169,
+    "lon": 9.988676,
+    "address": "Deichstraße 7, Altstadt",
+    "category": "cocktailbar",
+    "description": "Verrückte Cocktails zum Malen, Lego-Landschaft, historische Deichstraße",
+    "opening_hours": "We-Sa 18:00-01:00"
+  },
+  {
+    "name": "Clockers",
+    "lat": 53.5530894,
+    "lon": 9.9579241,
+    "address": "Paul-Roosen-Straße 27, St. Pauli",
+    "category": "cocktailbar",
+    "description": "Erstklassiges Ambiente — Fischbrötchen Martini, riesige Gin-Auswahl",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "dripBAR",
+    "lat": 53.5475494,
+    "lon": 9.9576473,
+    "address": "Hein-Köllisch-Platz 1, St. Pauli",
+    "category": "cocktailbar",
+    "description": "Slow-Drip-Verfahren — Drinks wie ein 5-Gänge-Menü am Hafen",
+    "opening_hours": "We-Sa 19:00-02:00"
+  },
+  {
+    "name": "Liquid Garden",
+    "lat": 53.549222,
+    "lon": 9.9937914,
+    "address": "Kleine Johannisstraße, Innenstadt",
+    "category": "cocktailbar",
+    "description": "Einmal um die Welt trinken — Drinks nach Kontinenten sortiert",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Ba Nomu",
+    "lat": 53.5616591,
+    "lon": 9.9612056,
+    "address": "Juliusstraße 22, St. Pauli",
+    "category": "cocktailbar",
+    "description": "Japanisch inspiriert — bester Espresso Martini der Stadt, Gyoza & Tacos",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Collab Bar",
+    "lat": 53.5515,
+    "lon": 9.9655,
+    "address": "Hein-Hoyer-Straße, St. Pauli",
+    "category": "cocktailbar",
+    "description": "Mixology-Größe Chloé Merz — auch top alkoholfrei (Midnight Oasis)",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "The Rabbithole Bar",
+    "lat": 53.562027,
+    "lon": 9.9649097,
+    "address": "Bartelsstraße 12, Sternschanze",
+    "category": "cocktailbar",
+    "description": "Schönste Sitzgelegenheiten Hamburgs, seit 2016, saisonale Superbunnies",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "Jahreszeiten Bar",
+    "lat": 53.5545,
+    "lon": 9.993,
+    "address": "Neuer Jungfernstieg 9-14, Innenstadt",
+    "category": "cocktailbar",
+    "description": "Hotel Vier Jahreszeiten — hochklassige Klassiker von Enrico Wilhelm",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "bar noir Tortue",
+    "lat": 53.553,
+    "lon": 9.988,
+    "address": "Stadthausbrücke 10, Neustadt",
+    "category": "cocktailbar",
+    "description": "Stylish im Tortue Hotel — L'Avocat mit Avocado-Espuma",
+    "opening_hours": "Mo-Su 18:00-02:00"
+  },
+  {
+    "name": "Bar 1910",
+    "lat": 53.5555,
+    "lon": 10.007,
+    "address": "Kirchenallee 34-36, St. Georg",
+    "category": "cocktailbar",
+    "description": "Art-Déco im Hotel Reichshof — 250 Whiskeys, bestes Clubsandwich",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Central Congress",
+    "lat": 53.553,
+    "lon": 9.992,
+    "address": "Reesendamm, Innenstadt",
+    "category": "cocktailbar",
+    "description": "Bar im Konferenzraum-Stil — bester Negroni & Doppelwacholder Martini",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Berglund",
+    "lat": 53.5911,
+    "lon": 9.9975,
+    "address": "Barmbeker Straße 83, Winterhude",
+    "category": "cocktailbar",
+    "description": "Loungemusik, große Sessel, Lieblingsbar-Charakter in Winterhude",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "A wolf will never be a pet",
+    "lat": 53.558,
+    "lon": 9.966,
+    "address": "Karolienstraße 29, Karolinenviertel",
+    "category": "wine",
+    "description": "Kleinste Naturweinbar Hamburgs — Mezze, Stehtresen, auch alkoholfrei",
+    "opening_hours": "Tu-Sa 17:00-23:00"
+  },
+  {
+    "name": "Efi Bar",
+    "lat": 53.563102,
+    "lon": 9.9607206,
+    "address": "Schulterblatt, Sternschanze",
+    "category": "wine",
+    "description": "Perfekter Date-Spot in der Schanze — Burrata & Oliven zum Vino",
+    "opening_hours": "Mo-Su 17:00-00:00"
+  },
+  {
+    "name": "Witwenball",
+    "lat": 53.5521032,
+    "lon": 9.9868423,
+    "address": "Große Bleichen, Innenstadt",
+    "category": "wine",
+    "description": "Massiver Marmortresen — Käseplatte, Steak-Sandwiches, Sorbet mit Schaumwein",
+    "opening_hours": "Tu-Sa 17:00-00:00"
+  },
+  {
+    "name": "Weinladen St. Pauli",
+    "lat": 53.553,
+    "lon": 9.9585,
+    "address": "Paul-Roosen-Straße, St. Pauli",
+    "category": "wine",
+    "description": "200+ Weine, Brotzeit, Champagner — sonnige Nachbarschafts-Perle",
+    "opening_hours": "Mo-Sa 14:00-22:00"
+  },
+  {
+    "name": "Vin Aqua Vin",
+    "lat": 53.5797092,
+    "lon": 9.9443561,
+    "address": "Müggenkampstraße, Eimsbüttel",
+    "category": "wine",
+    "description": "Wein-Fachgeschäft & Bar — Seminare, Kaffeespezialitäten, Glühwein",
+    "opening_hours": "Mo-Fr 12:00-19:00; Sa 10:00-16:00"
+  },
+  {
+    "name": "Vineyard",
+    "lat": 53.5669275,
+    "lon": 9.9661746,
+    "address": "Weidenallee 10, Eimsbüttel",
+    "category": "wine",
+    "description": "Alte Fabrikhalle voller Weinregale — legendärer Flammkuchen, Innenhof",
+    "opening_hours": "Mo-Sa 16:00-23:00"
+  },
+  {
+    "name": "Enchanté",
+    "lat": 53.5508,
+    "lon": 9.9615,
+    "address": "Wohlwillstraße, St. Pauli",
+    "category": "wine",
+    "description": "Aperitivo Bar — Wineballs auf Weinbasis, Vermouth, Schinken & Burrata",
+    "opening_hours": "Tu-Sa 16:00-23:00"
+  },
+  {
+    "name": "W die Weinbar",
+    "lat": 53.5828,
+    "lon": 9.9985,
+    "address": "Mühlenkamp, Winterhude",
+    "category": "wine",
+    "description": "500 Weine aus aller Welt, 60+ glasweise, Bio-Küche in Winterhude",
+    "opening_hours": "Tu-Sa 17:00-00:00"
+  },
+  {
+    "name": "Alte Druckerei",
+    "lat": 53.5466473,
+    "lon": 9.9879285,
+    "address": "Deichstraße 40, Altstadt",
+    "category": "wine",
+    "description": "Wunderhübsch in der Altstadt — Crémant zum Frühstück, Rosé zum Lunch",
+    "opening_hours": "Fr-Su 10:00-23:00; Tu-Th 16:00-23:00"
+  },
+  {
+    "name": "Ufer Weinbar",
+    "lat": 53.5664731,
+    "lon": 9.9579483,
+    "address": "Eimsbütteler Chaussee, Eimsbüttel",
+    "category": "wine",
+    "description": "Weinbar & Frühstückslokal — Blaubeer-Pancakes, Eimsbütteler Gold",
+    "opening_hours": "Tu-Su 10:00-23:00"
+  },
+  {
+    "name": "Neumann's am Grindel",
+    "lat": 53.566,
+    "lon": 9.98,
+    "address": "Grindelhof, Rotherbaum",
+    "category": "wine",
+    "description": "Reichhaltige Weinkarte, drei Flammkuchen-Sorten, Flaschen to go",
+    "opening_hours": "Mo-Sa 16:00-00:00"
+  },
+  {
+    "name": "Gota Weinbar",
+    "lat": 53.586819,
+    "lon": 10.0207827,
+    "address": "Jean-Paul-Weg 38, Jarrestadt",
+    "category": "wine",
+    "description": "Europäische Weine, mediterrane Snacks — Geheimtipp in Jarrestadt, 4.9★",
+    "opening_hours": "Tu-Th 17:00-22:30; Fr-Sa 17:00-00:00"
+  },
+  {
+    "name": "Dal Fabbro Winebar",
+    "lat": 53.5803836,
+    "lon": 9.96896,
+    "address": "Eppendorfer Weg 176, Eimsbüttel",
+    "category": "wine",
+    "description": "Italienisches Weinrestaurant — fantastische Küche, elegantes Ambiente, 4.8★",
+    "opening_hours": "Mo-Th 18:00-23:00; Fr-Sa 17:00-23:00"
+  },
+  {
+    "name": "Restaurant Klinker",
+    "lat": 53.5773576,
+    "lon": 9.9769424,
+    "address": "Schlankreye 73, Eimsbüttel",
+    "category": "wine",
+    "description": "Biodynamische Weine aus Pfalz, Rheinhessen, Slowenien — saisonal & vegetarisch, 4.6★",
+    "opening_hours": "Mo-Fr 18:00-23:00"
+  },
+  {
+    "name": "VIA DEI MILLE",
+    "lat": 53.5851,
+    "lon": 9.9817,
+    "address": "Eppendorfer Weg 287, Eppendorf",
+    "category": "wine",
+    "description": "Italienische Winebar & Ristorante — Klassiker aus allen Regionen Italiens, 4.6★",
+    "opening_hours": "Mo-Fr 12:00-00:00; Sa-Su 17:00-00:00"
+  },
+  {
+    "name": "Uhlenhorster Weinstube",
+    "lat": 53.566716,
+    "lon": 10.0188614,
+    "address": "Papenhuder Straße 29, Uhlenhorst",
+    "category": "wine",
+    "description": "Rustikale Weinstube — Käsefondue, Flammkuchen, umgeben von Weinflaschen, 4.6★",
+    "opening_hours": "Tu-Th 17:00-23:30; Fr-Sa 17:00-00:00"
+  },
+  {
+    "name": "Zur Traube",
+    "lat": 53.5485872,
+    "lon": 9.9310961,
+    "address": "Karl-Theodor-Straße 4, Ottensen",
+    "category": "wine",
+    "description": "Charme durch Kristalllüster & alte Holzfässer — mediterran-französische Küche, Entrecôte-Tipp, 4.6★",
+    "opening_hours": "Mo 18:00-22:00; Th 18:00-23:00; Fr 17:00-00:00; Sa 14:00-00:00; Su 12:00-23:00"
+  },
+  {
+    "name": "Kleines Jacob",
+    "lat": 53.548,
+    "lon": 9.865,
+    "address": "Elbchaussee 404, Othmarschen",
+    "category": "wine",
+    "description": "Weinstube im Hotel Jacob — wechselnde Winzerpartys, idyllischer Außenbereich, 4.6★",
+    "opening_hours": "Mo 17:00-22:30; Th-Su 17:00-22:30"
+  },
+  {
+    "name": "Kleinhuis' Café & Weinstube",
+    "lat": 53.551164,
+    "lon": 9.9773356,
+    "address": "Neanderstraße 27, Neustadt",
+    "category": "wine",
+    "description": "Weinstube im Komponistenquartier — Kultur, Genuss und Wein zwischen Michel & Staatsoper",
+    "opening_hours": "Mo-Sa 12:00-23:00"
+  },
+  {
+    "name": "Gastronomie Pütter",
+    "lat": 53.5781825,
+    "lon": 9.9989931,
+    "address": "Harvestehuder Weg 44, Harvestehude",
+    "category": "wine",
+    "description": "Restaurant & Weinhandel direkt an der Außenalster — erlesene Weine, Catering",
+    "opening_hours": "Mo-Sa 12:00-22:00"
+  },
+  {
+    "name": "Restaurant Schoppenhauer",
+    "lat": 53.5456405,
+    "lon": 9.9913775,
+    "address": "Reimerstwiete 20-22, Speicherstadt",
+    "category": "wine",
+    "description": "Uriges Fachwerk gegenüber der Speicherstadt — herzhafte Speisen & erlesene Weine",
+    "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:00"
+  },
+  {
+    "name": "Dorotheum Weinbar",
+    "lat": 53.5909272,
+    "lon": 10.0025151,
+    "address": "Dorotheenstraße 176, Winterhude",
+    "category": "wine",
+    "description": "Vorzügliche Weinauswahl in gemütlich-rustikalem Ambiente in Winterhude",
+    "opening_hours": "Tu-Sa 17:00-23:00"
+  },
+  {
+    "name": "Guter Wein Weinlokal",
+    "lat": 53.5911305,
+    "lon": 9.9918709,
+    "address": "Kellinghusenstraße 15, Eppendorf",
+    "category": "wine",
+    "description": "Weinproben, Weinseminare, Kochkurse und Weinreisen — der Eppendorfer Wein-Treff",
+    "opening_hours": "Tu-Fr 15:00-22:00; Sa 12:00-22:00"
+  },
+  {
+    "name": "Poletto Winebar",
+    "lat": 53.5851,
+    "lon": 9.9817,
+    "address": "Eppendorfer Weg 287, Eppendorf",
+    "category": "wine",
+    "description": "Feine Weinbar von Cornelia Poletto — anspruchsvollste Weine berühmter Winzer",
+    "opening_hours": "Mo-Sa 17:00-23:00"
+  },
+  {
+    "name": "HADLEY's",
+    "lat": 53.5703946,
+    "lon": 9.976892,
+    "address": "Beim Schlump 84a, Eimsbüttel",
+    "category": "wine",
+    "description": "Offene Weine, wechselnde Flaschenweine, Bergkäse aus Südtirol, Terrasse, 4.5★ — Afterwork-geeignet",
+    "opening_hours": "Tu-Th 17:00-23:00; Fr-Sa 17:00-01:00"
+  },
+  {
+    "name": "Neumanns Bistro St. Georg",
+    "lat": 53.5592092,
+    "lon": 10.0131691,
+    "address": "Lange Reihe 101, St. Georg",
+    "category": "wine",
+    "description": "Weine aus aller Welt, Flammkuchen-Variationen, Prosecco & Champagner, 4.4★",
+    "opening_hours": "Mo-Th 12:00-00:00; Fr-Sa 12:00-01:00; Su 12:00-00:00"
+  },
+  {
+    "name": "Il Garage",
+    "lat": 53.5538794,
+    "lon": 9.9292774,
+    "address": "Kleine Rainstraße 3, Ottensen",
+    "category": "wine",
+    "description": "Weinbar mit Österreich-Schwerpunkt — Abendsonne vor der Tür, 4.2★",
+    "opening_hours": "Th-Fr 17:00-22:00; Sa 13:00-18:00"
+  },
+  {
+    "name": "Heritage Bar & Restaurant",
+    "lat": 53.559,
+    "lon": 10.008,
+    "address": "An der Alster 52, St. Georg",
+    "category": "wine",
+    "description": "Weinbar in der 9. Etage des Le Méridien — exquisiter Alsterblick, 5.0★ (hamburg-tourism.de)",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Piccolo Paradiso",
+    "lat": 53.5513806,
+    "lon": 9.9808993,
+    "address": "Brüderstraße 25, Neustadt",
+    "category": "wine",
+    "description": "Perle am Großneumarkt — ökologische Weine, vegetarisches Essen (hamburg-tourism.de)",
+    "opening_hours": "Tu-Sa 18:00-23:00"
+  },
+  {
+    "name": "TWOSIX Rooftop Weinbar",
+    "lat": 53.553,
+    "lon": 9.99,
+    "address": "Marseiller Straße 2, Neustadt",
+    "category": "wine",
+    "description": "Hamburgs höchstgelegene Weinbar — 26. Etage Radisson Blu, Dachterrasse mit Panorama (hamburg-tourism.de)",
+    "opening_hours": "Mo-Su 17:00-00:00"
+  },
+  {
+    "name": "1700 Winery Bar",
+    "lat": 53.553,
+    "lon": 9.997,
+    "address": "Ferdinandstraße 15, Altstadt",
+    "category": "wine",
+    "description": "Vinothek & Bar im Barceló Hotel — Weinlounge, Meeting Point, offenes Konzept (hamburg-tourism.de)",
+    "opening_hours": "Mo-Su 16:00-00:00"
+  },
+  {
+    "name": "Katze",
+    "lat": 53.563,
+    "lon": 9.966,
+    "address": "Schulterblatt 86, Sternschanze",
+    "category": "bar",
+    "description": "Kultige Schanze-Bar — Happy Hour, legendäre Stimmung, DJs am Wochenende",
+    "opening_hours": "Mo-Su 18:00-04:00",
+    "smoker": true
+  },
+  {
+    "name": "Goldfischglas",
+    "lat": 53.5846,
+    "lon": 9.9825,
+    "address": "Eppendorfer Weg 178, Eppendorf",
+    "category": "bar",
+    "description": "Eppendorfer Institution — Happy Hour, Schwester der Katze",
+    "opening_hours": "Mo-Su 18:00-02:00"
+  },
+  {
+    "name": "Pelican Bar",
+    "lat": 53.5528,
+    "lon": 9.9588,
+    "address": "Paul-Roosen-Straße, St. Pauli",
+    "category": "bar",
+    "description": "Dritte Schwester von Katze & Goldfischglas — poppiges Ambiente, Happy Hour",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Botanik Distrikt",
+    "lat": 53.5973088,
+    "lon": 9.9890097,
+    "address": "Eppendorfer Landstraße, Eppendorf",
+    "category": "bar",
+    "description": "Lavendel-Veilchen-Drinks, Tapas, Bowls, Burger — der Eppendorf-Hotspot",
+    "website": "https://botanikdistrikt.de",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Clouds",
+    "lat": 53.5495,
+    "lon": 9.965,
+    "address": "Reeperbahn 1, Tanzende Türme",
+    "category": "bar",
+    "description": "Barkultur über den Dächern — Sonnenuntergang, Schampus & kreative Drinks",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Standard",
+    "lat": 53.5508,
+    "lon": 9.9612,
+    "address": "Große Freiheit, St. Pauli",
+    "category": "bar",
+    "description": "Aperitivo-Kultur — Stuzzichini gratis zu jedem Drink",
+    "opening_hours": "Tu-Sa 17:00-01:00"
+  },
+  {
+    "name": "Tower Bar",
+    "lat": 53.546,
+    "lon": 9.966,
+    "address": "Seewartenstraße 9, Hotel Hafen Hamburg",
+    "category": "bar",
+    "description": "Panorama-Bar mit Hafenblick im 13. Stock",
+    "website": "https://www.hotel-hafen-hamburg.de",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Kleinraumdisko",
+    "lat": 53.5595,
+    "lon": 9.966,
+    "address": "Neuer Kamp 17, St. Pauli",
+    "category": "bar",
+    "description": "70er-Traum — Ledersofas, Discokugeln, Retro-Hängelampen, Cocktails",
+    "opening_hours": "Tu-Th 19:00-01:00; Fr-Sa 19:00-03:00"
+  },
+  {
+    "name": "Kleines Phi",
+    "lat": 53.559,
+    "lon": 9.968,
+    "address": "Feldstraße 36, Karolinenviertel",
+    "category": "bar",
+    "description": "Kleine feine Bar im Karo-Viertel",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "KOPS Bar",
+    "lat": 53.5566443,
+    "lon": 9.9640978,
+    "address": "Neuer Pferdemarkt, St. Pauli",
+    "category": "bar",
+    "description": "Beliebte Bar am Neuen Pferdemarkt",
+    "opening_hours": "Mo-Su 19:00-03:00"
+  },
+  {
+    "name": "Black Forest Bar",
+    "lat": 53.5849,
+    "lon": 9.9808,
+    "address": "Eppendorfer Weg 185, Eppendorf",
+    "category": "bar",
+    "description": "Cocktailbar in Eppendorf — Schwarzwald-Flair, kreative Drinks, Olivers Empfehlung",
+    "opening_hours": "Tu-Sa 19:00-02:00"
+  },
+  {
+    "name": "Bierkrug",
+    "lat": 53.5857,
+    "lon": 9.9795,
+    "address": "Eppendorfer Weg 220, Eppendorf",
+    "category": "pub",
+    "description": "Traditionskneipe Eppendorf",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Strandpauli",
+    "lat": 53.5463195,
+    "lon": 9.953024,
+    "address": "St. Pauli Fischmarkt 28a",
+    "category": "bar",
+    "description": "Beach-Bar direkt am Hafen mit Elbblick — Sommer-Highlight",
+    "opening_hours": "Mo-Su 12:00-23:00",
+    "liveMusic": true,
+    "musicNights": "Sa, Su"
+  },
+  {
+    "name": "Nachtasyl",
+    "lat": 53.5517538,
+    "lon": 9.9981836,
+    "address": "Alstertor 1, Thalia Theater",
+    "category": "bar",
+    "description": "Theater-Bar im Thalia mit Kulturflair",
+    "opening_hours": "Mo-Su 18:00-01:00",
+    "liveMusic": true,
+    "musicNights": "Mi, Do, Fr"
+  },
+  {
+    "name": "Café Gnosa",
+    "lat": 53.5587826,
+    "lon": 10.0127916,
+    "address": "Lange Reihe 93, St. Georg",
+    "category": "bar",
+    "description": "Legendäres Café & Bar in St. Georg",
+    "opening_hours": "Mo-Su 10:00-01:00"
+  },
+  {
+    "name": "Astra Stube",
+    "lat": 53.5613196,
+    "lon": 9.9555553,
+    "address": "Max-Brauer-Allee 200, Altona",
+    "category": "bar",
+    "description": "Konzert- & Kneipenlocation mit Punk-Charme in Altona",
+    "opening_hours": "Mo-Su 20:00-04:00",
+    "liveMusic": true,
+    "musicNights": "Mi, Do, Fr, Sa"
+  },
+  {
+    "name": "Häkken",
+    "lat": 53.551,
+    "lon": 9.961,
+    "address": "Spielbudenplatz 21, St. Pauli",
+    "category": "bar",
+    "description": "Livemusik-Bar am Spielbudenplatz",
+    "opening_hours": "Mo-Su 19:00-04:00",
+    "liveMusic": true,
+    "musicNights": "Di, Mi, Do, Fr, Sa"
+  },
+  {
+    "name": "Mojo Club",
+    "lat": 53.5495,
+    "lon": 9.9645,
+    "address": "Reeperbahn 1, St. Pauli",
+    "category": "nightclub",
+    "description": "Legendärer Club unter den Tanzenden Türmen — Jazz, Soul, Elektronik",
+    "opening_hours": "Fr-Sa 23:00-06:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "Bar du Nord",
+    "lat": 53.58,
+    "lon": 10.0128,
+    "address": "Mühlenkamp 1, Winterhude",
+    "category": "bar",
+    "description": "Hybrid Café-Bar in Winterhude — tagsüber Café, abends Bar mit Wein & Cocktails, Olivers Empfehlung",
+    "opening_hours": "Mo-Su 10:00-01:00"
+  },
+  {
+    "name": "ÜberQuell",
+    "lat": 53.5462979,
+    "lon": 9.9585513,
+    "address": "St. Pauli Fischmarkt 28-32",
+    "category": "bar",
+    "description": "Craft-Brauhaus + Neapel-Pizza — 7 Eigenbraue, Biergarten am Hafen",
+    "website": "https://www.ueberquell.com",
+    "opening_hours": "Mo-Su 12:00-23:00"
+  },
+  {
+    "name": "Beyond Beer",
+    "lat": 53.566,
+    "lon": 9.963,
+    "address": "Weidenallee 55, Eimsbüttel",
+    "category": "bar",
+    "description": "Craft Beer Store & Taproom — riesige Auswahl, Tastings, Braukurse",
+    "website": "https://www.beyondbeer.de",
+    "opening_hours": "Mo-Sa 12:00-20:00"
+  },
+  {
+    "name": "Altes Mädchen",
+    "lat": 53.563,
+    "lon": 9.969,
+    "address": "Lagerstraße 28b, Schanzenhöfe",
+    "category": "bar",
+    "description": "Craft-Beer-Restaurant in den Schanzenhöfen — Ratsherrn-Biere",
+    "opening_hours": "Mo-Su 12:00-00:00",
+    "liveMusic": true,
+    "musicNights": "Fr"
+  },
+  {
+    "name": "Galopper",
+    "lat": 53.5795165,
+    "lon": 9.9486664,
+    "address": "Stellinger Weg 35, Eimsbüttel",
+    "category": "bar",
+    "description": "8 Craft-Biere vom Hahn, Pizzaofen, internationaler Brauer-Stammtisch",
+    "opening_hours": "Tu-Sa 17:00-00:00"
+  },
+  {
+    "name": "Ratsherrn Brauerei",
+    "lat": 53.5625,
+    "lon": 9.969,
+    "address": "Lagerstraße 30a, Schanzenviertel",
+    "category": "bar",
+    "description": "Hamburger Traditionsbrauerei mit Taproom & Brauereiführungen",
+    "website": "https://www.ratsherrn.de",
+    "opening_hours": "Mo-Sa 11:00-22:00"
+  },
+  {
+    "name": "Molly Malone's",
+    "lat": 53.5537831,
+    "lon": 9.9994569,
+    "address": "Ferdinandstraße 30-32, Neustadt",
+    "category": "irish-pub",
+    "description": "Hamburgs ältester Irish Pub — Guinness, Kilkenny, Live-Musik & Pub Quiz",
+    "website": "https://www.mollymalones.de",
+    "opening_hours": "Mo-Th 16:00-01:00; Fr-Sa 16:00-03:00; Su 16:00-01:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "Paddy's Pit",
+    "lat": 53.55,
+    "lon": 9.964,
+    "address": "Reeperbahn 46, St. Pauli",
+    "category": "irish-pub",
+    "description": "Irish Pub auf der Reeperbahn — Live-Sport, Guinness, Party-Stimmung",
+    "opening_hours": "Mo-Su 17:00-04:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "The Galway Girl",
+    "lat": 53.5616022,
+    "lon": 9.9619945,
+    "address": "Schulterblatt 65, Sternschanze",
+    "category": "irish-pub",
+    "description": "Gemütlicher Irish Pub in der Schanze — Whiskey-Auswahl, Live-Folk, Pub Quiz Mi",
+    "opening_hours": "Mo-Th 17:00-01:00; Fr-Sa 17:00-03:00; Su 17:00-01:00",
+    "liveMusic": true,
+    "musicNights": "Mi, Fr, Sa"
+  },
+  {
+    "name": "James Joyce",
+    "lat": 53.556,
+    "lon": 10.006,
+    "address": "Holzdamm 23, St. Georg",
+    "category": "irish-pub",
+    "description": "Literarischer Irish Pub in St. Georg — Live-Musik, Irish Stew, große Whiskey-Karte",
+    "opening_hours": "Mo-Th 16:00-01:00; Fr-Sa 16:00-02:00; Su 16:00-00:00",
+    "liveMusic": true,
+    "musicNights": "Do, Fr, Sa"
+  },
+  {
+    "name": "The Shamrock",
+    "lat": 53.557,
+    "lon": 9.967,
+    "address": "Feldstraße 36, Karolinenviertel",
+    "category": "irish-pub",
+    "description": "Uriger Irish Pub am Heiligengeistfeld — Live-Sport, Quiz Night, Dart",
+    "opening_hours": "Mo-Th 17:00-01:00; Fr-Sa 17:00-03:00; Su 15:00-01:00"
+  },
+  {
+    "name": "O'Malley's",
+    "lat": 53.5502,
+    "lon": 9.9615,
+    "address": "Hein-Hoyer-Straße 13, St. Pauli",
+    "category": "irish-pub",
+    "description": "Kleiner authentischer Irish Pub in St. Pauli — Guinness vom Fass, Jukebox",
+    "opening_hours": "Mo-Th 18:00-02:00; Fr-Sa 18:00-04:00; Su 18:00-01:00"
+  },
+  {
+    "name": "Kitty O'Shea's",
+    "lat": 53.554,
+    "lon": 9.99,
+    "address": "Große Bleichen 36, Neustadt",
+    "category": "irish-pub",
+    "description": "Irish Pub in der City — After-Work-Spot, Live-Sport auf Großleinwand",
+    "opening_hours": "Mo-Th 12:00-00:00; Fr-Sa 12:00-02:00; Su 14:00-00:00"
+  },
+  {
+    "name": "The Dubliner",
+    "lat": 53.5580001,
+    "lon": 10.0117042,
+    "address": "Lange Reihe 71, St. Georg",
+    "category": "irish-pub",
+    "description": "Gemütlicher Pub an der Langen Reihe — Irish Breakfast, Six Nations Rugby",
+    "opening_hours": "Mo-Th 16:00-01:00; Fr-Sa 12:00-03:00; Su 12:00-01:00",
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "Klönstuuv",
+    "lat": 53.92,
+    "lon": 9.885,
+    "address": "Bad Bramstedt",
+    "category": "pub",
+    "description": "Gemütliche Kneipe in Bad Bramstedt — in der Nähe von Lentföhrden",
+    "opening_hours": "Mo-Su 17:00-23:00"
+  },
+  {
+    "name": "Zentrale",
+    "lat": 53.888,
+    "lon": 9.933,
+    "address": "Dorfstraße 7, Kisdorf",
+    "category": "pub",
+    "description": "Treffpunkt in Kisdorf — Bier, Darts, gute Stimmung",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Kiek In",
+    "lat": 53.6477414,
+    "lon": 10.0085051,
+    "address": "Am Markt 3, Kaltenkirchen",
+    "category": "pub",
+    "description": "Traditionskneipe am Markt in Kaltenkirchen",
+    "opening_hours": "Mo-Su 16:00-01:00"
+  },
+  {
+    "name": "Langeloher Hof",
+    "lat": 53.5727146,
+    "lon": 9.8465686,
+    "address": "Langeloh, Bad Bramstedt",
+    "category": "club",
+    "description": "Disco & Eventlocation bei Bad Bramstedt",
+    "opening_hours": "Fr-Sa 22:00-05:00"
+  },
+  {
+    "name": "Galerie-Café Schlossgefängnis",
+    "lat": 53.56808,
+    "lon": 10.0644906,
+    "address": "Rantzau 9, Barmstedt",
+    "category": "cafe",
+    "description": "Charmantes Café im historischen Schlossgefängnis Barmstedt",
+    "opening_hours": "Tu-Su 10:00-18:00"
+  },
+  {
+    "name": "Da Colin",
+    "lat": 53.5706535,
+    "lon": 10.0272532,
+    "address": "Hamburger Straße 15, Kaltenkirchen",
+    "category": "restaurant",
+    "description": "Italienisches Restaurant in Kaltenkirchen — Pizza, Pasta, Wein",
+    "opening_hours": "Mo-Su 11:30-22:00"
+  },
+  {
+    "name": "Zum Alten Markt",
+    "lat": 53.5464623,
+    "lon": 9.9733865,
+    "address": "Kuhberg 4, Barmstedt",
+    "category": "pub",
+    "description": "Traditionslokal am Alten Markt in Barmstedt",
+    "opening_hours": "Mo-Su 17:00-23:00"
+  },
+  {
+    "name": "Phoenix Stübchen",
+    "lat": 53.8082982,
+    "lon": 9.9827608,
+    "address": "Kisdorf",
+    "category": "pub",
+    "description": "Gemütliches Stübchen in Kisdorf",
+    "opening_hours": "Mo-Su 17:00-23:00"
+  },
+  {
+    "name": "Rantzau7",
+    "lat": 53.5679741,
+    "lon": 10.0643647,
+    "address": "Rantzau 7, Barmstedt",
+    "category": "restaurant",
+    "description": "Restaurant & Bar in Barmstedt — gehobene Küche",
+    "opening_hours": "Tu-Sa 17:00-23:00"
+  },
+  {
+    "name": "Hotel & Restaurant & Bar & Lounge Lindenhof",
+    "lat": 53.4884074,
+    "lon": 10.2388931,
+    "address": "Hamburger Straße 8, Bad Bramstedt",
+    "category": "bar",
+    "description": "Hotel-Bar & Lounge in Bad Bramstedt — Cocktails, Wein, After-Work",
+    "opening_hours": "Mo-Su 17:00-23:00"
+  },
+  {
+    "name": "Bleicke's Gasthaus",
+    "lat": 53.92,
+    "lon": 9.883,
+    "address": "Bleeck 22, Bad Bramstedt",
+    "category": "pub",
+    "description": "Historisches Gasthaus im Zentrum von Bad Bramstedt — regionale Küche, Bier",
+    "opening_hours": "Tu-Su 11:30-22:00"
+  },
+  {
+    "name": "Wolters Gasthof von 1787",
+    "lat": 53.9049,
+    "lon": 9.8329,
+    "address": "Glückstädter Straße 3, 24576 Weddelbrook",
+    "category": "pub",
+    "description": "Generationen-Gasthof seit 1736 am Mönchsweg — Biergarten, Saal, Ü40-Partys, Plattdeutsches Theater, Raucherbereich, Ferienwohnungen, deutsche Küche mit modernem Touch",
+    "website": "https://woltersgasthof.eatbu.com",
+    "opening_hours": "We-Su 17:00-23:00",
+    "smoker": true
+  },
+  {
+    "name": "Ostseecamp Lehmberg",
+    "lat": 54.5078,
+    "lon": 9.9704,
+    "address": "Lehmberger Straße 11, 24369 Waabs",
+    "category": "biergarten",
+    "description": "Campingplatz & Treffpunkt an der Ostsee bei Eckernförde — Biergarten, Community, Strand, Outdoor-Action. Saisonbetrieb: April bis Oktober",
+    "website": "https://www.ostseecamp-lehmberg.de",
+    "opening_hours": "Apr-Oct: Mo-Su 08:00-22:00"
+  },
+  {
+    "name": "Shape",
+    "lat": 53.5744808,
+    "lon": 10.0373151,
+    "address": "Hamburger Straße, Kaltenkirchen",
+    "category": "cocktailbar",
+    "description": "Cocktailbar in Kaltenkirchen — Caipi Day Mi, After Work Do, Happy Weekend Fr+Sa",
+    "opening_hours": "Mo 19:00-00:00; We-Th 19:00-00:00; Fr-Sa 19:00-02:00; Su 19:00-00:00"
+  },
+  {
+    "name": "Zobis Cocktailbar",
+    "lat": 53.5589301,
+    "lon": 9.8116557,
+    "address": "Bahnhofstr. 1, Henstedt-Ulzburg",
+    "category": "cocktailbar",
+    "description": "Kleine feine Lounge in Henstedt-Ulzburg — Cocktails, Whisky Sour, komplette Bar",
+    "opening_hours": "Tu-Th 17:00-00:00; Fr-Sa 17:00-01:00; Su 17:00-23:30"
+  },
+  {
+    "name": "Glücksmarie",
+    "lat": 53.6595971,
+    "lon": 10.1275296,
+    "address": "Birkenweg 23, Bad Bramstedt",
+    "category": "restaurant",
+    "description": "Gehobenes Restaurant in Bad Bramstedt — Bar-Bereich, Gruppen, schickes Ambiente",
+    "opening_hours": "Mo-Th 11:30-23:00; Fr-Sa 11:30-01:00; Su 11:30-23:00"
+  },
+  {
+    "name": "Billard & Spielcafé",
+    "lat": 53.919,
+    "lon": 9.885,
+    "address": "Bad Bramstedt",
+    "category": "bar",
+    "description": "Billard, Darts, Cocktails in Bad Bramstedt — Raucherzone, gute Musik, Sa-Abend-Treff",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Der Gutschmecker",
+    "lat": 53.92,
+    "lon": 9.88,
+    "address": "Bad Bramstedt",
+    "category": "restaurant",
+    "description": "Restaurant mit Bar in Bad Bramstedt — Weihnachtsfeiern, gehobene Küche, gemütlich",
+    "opening_hours": "Tu-Su 17:00-23:00"
+  },
+  {
+    "name": "Rock Bar",
+    "lat": 53.6538118,
+    "lon": 10.0770973,
+    "address": "Ulzburger Str. 609, Norderstedt",
+    "category": "pub",
+    "description": "Rock-Pub in Norderstedt — Live-Atmosphäre, Terrasse, beste Nächte Fr+Sa",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Herz von Garstedt",
+    "lat": 53.6587665,
+    "lon": 9.9886536,
+    "address": "Garstedt, Norderstedt",
+    "category": "pub",
+    "description": "Gemütliche Raucherkneipe in Garstedt — Astra vom Fass, ab 30 Publikum",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Cafeteria Latina",
+    "lat": 53.6958,
+    "lon": 9.995,
+    "address": "Norderstedt",
+    "category": "cocktailbar",
+    "description": "Portugiesisches Café & Cocktailbar in Norderstedt — Frühstück bis Cocktails",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Petrol Bar",
+    "lat": 53.6965,
+    "lon": 9.9955,
+    "address": "Norderstedt",
+    "category": "bar",
+    "description": "Bar in Norderstedt — stylisches Ambiente, Cocktails & Bier",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Strandhaus Norderstedt",
+    "lat": 53.5956195,
+    "lon": 10.0176691,
+    "address": "Stadtpark, Norderstedt",
+    "category": "cocktailbar",
+    "description": "Gehobene Location im Stadtpark Norderstedt — Cocktails, Café, schöne Terrasse",
+    "opening_hours": "Tu-Su 10:00-23:00"
+  },
+  {
+    "name": "Kamphuis",
+    "lat": 53.5611823,
+    "lon": 9.9664361,
+    "address": "Kampstraße 57, Quickborn",
+    "category": "pub",
+    "description": "Kultkneipe in Quickborn — gemütlich, Raucherlokal, Institution",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "VIVA",
+    "lat": 53.570121,
+    "lon": 9.9438502,
+    "address": "Kieler Str. 91, Quickborn",
+    "category": "bar",
+    "description": "Sportsbar & Club in Quickborn — Sa ab 22 Uhr Party",
+    "opening_hours": "Sa 22:00-05:00"
+  },
+  {
+    "name": "Billiard-Café",
+    "lat": 53.79,
+    "lon": 9.965,
+    "address": "Henstedt-Ulzburg",
+    "category": "bar",
+    "description": "Rocker-Bar in Henstedt-Ulzburg — Billard, Dart, Kicker, Rockmusik",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Klackermatsch",
+    "lat": 53.645281,
+    "lon": 9.9299659,
+    "address": "Oldesloer Straße, Bad Segeberg",
+    "category": "pub",
+    "description": "Kneipe in Bad Segeberg — Kicker, Dart, Bier, entspannte Atmosphäre",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "entflammBAR",
+    "lat": 53.5855,
+    "lon": 9.9805,
+    "address": "Eppendorfer Weg 177, Eppendorf",
+    "category": "cocktailbar",
+    "description": "Versteckte Cocktailbar in Eppendorf — gemütlich, ruhig, erstklassige Drinks, 4.6★ Yelp",
+    "opening_hours": "Tu-Th 18:00-00:00; Fr-Sa 18:00-02:00"
+  },
+  {
+    "name": "Moe's Bar",
+    "lat": 53.5848535,
+    "lon": 9.9847587,
+    "address": "Hegestraße 44, Eppendorf",
+    "category": "pub",
+    "description": "Raucherbar mit Großleinwand — Fußball, NBA, Eishockey, 5.0★ Yelp",
+    "opening_hours": "Mo-Su 18:00-02:00",
+    "smoker": true
+  },
+  {
+    "name": "Planet Dart & Billard Bar",
+    "lat": 53.5844,
+    "lon": 9.9828,
+    "address": "Eppendorfer Weg 166, Eppendorf",
+    "category": "pub",
+    "description": "Darts & Billard in Eppendorf — guter Ort für Spieleabende, 4.5★ Yelp",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Frank und Frei",
+    "lat": 53.5938994,
+    "lon": 9.9869559,
+    "address": "Erikastraße 55, Eppendorf",
+    "category": "pub",
+    "description": "Gemütliche Kneipe in Eppendorf — Bier, Burger, entspannte Atmosphäre",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Calistoga Wine Saloon",
+    "lat": 53.587616,
+    "lon": 9.9856665,
+    "address": "Eppendorfer Landstraße 44, Eppendorf",
+    "category": "wine",
+    "description": "Kleine Weinbar mit herzlicher Wirtin — interessante Weine leidenschaftlicher Winzer, 4.0★ Yelp",
+    "opening_hours": "Tu-Fr 17:00-22:30; Sa 15:00-22:30"
+  },
+  {
+    "name": "Chrissi's",
+    "lat": 53.5780603,
+    "lon": 9.9510745,
+    "address": "Stellinger Weg 15, Eimsbüttel",
+    "category": "bar",
+    "description": "Entspannte Cocktailbar im Herzen Eimsbüttels — frisches Bier vom Fass, Terrasse, 5.0★ Yelp",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Bar Chamäleon",
+    "lat": 53.5780787,
+    "lon": 9.942845,
+    "address": "Methfesselstraße 28, Eimsbüttel",
+    "category": "bar",
+    "description": "Toll eingerichtete Bar in Eimsbüttel — super Service, kreative Drinks, 4.7★ Yelp",
+    "opening_hours": "Tu-Sa 18:00-02:00"
+  },
+  {
+    "name": "Pandora",
+    "lat": 53.5688,
+    "lon": 9.9615,
+    "address": "Vereinsstraße 54, Eimsbüttel",
+    "category": "pub",
+    "description": "Bodenständige Kneipe — HSV-Spiele, nette Inhaber, Kicker, 4.7★ Yelp",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Kuddl",
+    "lat": 53.5815089,
+    "lon": 9.9444782,
+    "address": "Lutterothstraße 83, Eimsbüttel",
+    "category": "pub",
+    "description": "Gemütliche 30er-Kneipe — Kicker, Dart, gut besucht am Wochenende, 4.5★ Yelp",
+    "opening_hours": "Mo-Su 18:00-02:00"
+  },
+  {
+    "name": "3-Zimmerwohnung",
+    "lat": 53.5680881,
+    "lon": 9.9561699,
+    "address": "Eimsbütteler Chaussee 30, Eimsbüttel",
+    "category": "pub",
+    "description": "Kult-Kneipe mit Tornado-Kicker — laut, gesellig, gute Gruppen-Location, 4.5★ Yelp",
+    "opening_hours": "Mo-Su 20:00-01:00; Fr-Sa 20:00-03:00"
+  },
+  {
+    "name": "Café Bar Sonnenseite",
+    "lat": 53.5664211,
+    "lon": 9.9650137,
+    "address": "Weidenallee 21, Eimsbüttel",
+    "category": "bar",
+    "description": "Süße kleine Bar in der Weidenallee — nur Drinks, entspannt, 4.4★ Yelp",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Nuts Beer & More",
+    "lat": 53.5785238,
+    "lon": 9.9505911,
+    "address": "Stellinger Weg 21, Eimsbüttel",
+    "category": "pub",
+    "description": "Freundliche Sportkneipe — Bundesliga, leckeres Bier, top Service, 4.8★ Yelp",
+    "opening_hours": "Mo-Su 16:00-01:00"
+  },
+  {
+    "name": "Parissa's",
+    "lat": 53.5889404,
+    "lon": 10.0017503,
+    "address": "Sierichstraße 112, Winterhude",
+    "category": "bar",
+    "description": "Stilvolles Lokal in der Sierichstraße — Qualität & Liebe zum Detail, Terrasse, 5.0★ Yelp",
+    "opening_hours": "Tu-Sa 17:00-23:00; Su 17:00-00:00"
+  },
+  {
+    "name": "Schüttler's Bar",
+    "lat": 53.5815881,
+    "lon": 10.0139323,
+    "address": "Gertigstraße 16, Winterhude",
+    "category": "bar",
+    "description": "Ruhige Bar mit Happy Hour — Terrasse, gute Drinks, Hunde willkommen, 4.9★ Yelp",
+    "opening_hours": "Tu-Th 17:00-01:00; Fr-Sa 17:00-03:00"
+  },
+  {
+    "name": "Goldbeker",
+    "lat": 53.5804158,
+    "lon": 10.012465,
+    "address": "Mühlenkamp 30, Winterhude",
+    "category": "pub",
+    "description": "Mühlenkamp-Institution — Restaurant & Kneipe, Fußball hinten, Terrasse, 3.7★ (104 Reviews)",
+    "opening_hours": "Mo-Su 10:00-01:00; Fr 10:00-02:30; Sa 10:00-02:00"
+  },
+  {
+    "name": "Gaststätte Profil",
+    "lat": 53.5820031,
+    "lon": 10.0108192,
+    "address": "Mühlenkamp 39, Winterhude",
+    "category": "pub",
+    "description": "Mühlenkamp-Kneipe — freundlicher Service, leckeres Bier, Terrasse, 4.0★ Yelp",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Corner",
+    "lat": 53.5808711,
+    "lon": 10.0118709,
+    "address": "Mühlenkamp 19, Winterhude",
+    "category": "pub",
+    "description": "Feierabend-Kneipe am Mühlenkamp — entspannt Bier trinken, 4.5★ Yelp",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Fofftein",
+    "lat": 53.5821214,
+    "lon": 10.0152964,
+    "address": "Gertigstraße 32, Winterhude",
+    "category": "pub",
+    "description": "Absturzkneipe Winterhude — klein, günstig (Astra 1,90€), Charakter-Laden",
+    "opening_hours": "Mo-Su 20:00-03:00",
+    "smoker": true
+  },
+  {
+    "name": "Don Antonio",
+    "lat": 53.5831,
+    "lon": 9.9978,
+    "address": "Mühlenkamp 27, Winterhude",
+    "category": "bar",
+    "description": "Italienische Bar am Mühlenkamp — Drinks & kleine Gerichte",
+    "opening_hours": "Mo-Su 17:00-00:00"
+  },
+  {
+    "name": "Tre Pazzi",
+    "lat": 53.5816193,
+    "lon": 10.0130236,
+    "address": "Gertigstraße 9, Winterhude",
+    "category": "wine",
+    "description": "Neu in Winterhude — edel aber bezahlbar, italienische Weine & Küche, 4.5★ Yelp",
+    "opening_hours": "Tu-Sa 17:00-23:00"
+  },
+  {
+    "name": "Zum Glaskasten",
+    "lat": 53.5898,
+    "lon": 9.995,
+    "address": "Barmbeker Straße 61, Winterhude",
+    "category": "pub",
+    "description": "Leckeres Bier, Kotterschnauze-Bedienung — kein SchickiMicki, 4.5★ Yelp",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Portomarin",
+    "lat": 53.5798,
+    "lon": 10.0125,
+    "address": "Mühlenkamp 1, Winterhude",
+    "category": "bar",
+    "description": "Tapas-Bar & Restaurant am Mühlenkamp — spanische Weine, lebhafte Atmosphäre",
+    "opening_hours": "Mo-Su 17:00-00:00"
+  },
+  {
+    "name": "Avenue 95",
+    "lat": 53.5823329,
+    "lon": 9.969979,
+    "address": "Hoheluftchaussee 95, Hoheluft-West",
+    "category": "bar",
+    "description": "Lounge & Bar — deutsche Küche, Drinks bis 3 Uhr, lebhafte Atmosphäre, 4.4★ Yelp",
+    "opening_hours": "Mo-Su 15:00-03:00"
+  },
+  {
+    "name": "BRIX",
+    "lat": 53.5815189,
+    "lon": 9.9728526,
+    "address": "Hoheluftchaussee 58, Hoheluft-West",
+    "category": "bar",
+    "description": "Charmante Bar mit Lounge-Klängen & Clubsounds — exzellenter Service, 4.8★ Yelp",
+    "opening_hours": "Mo-Su 16:00-01:00; Fr-Sa 16:00-03:00"
+  },
+  {
+    "name": "Café Leonar",
+    "lat": 53.568,
+    "lon": 9.981,
+    "address": "Grindelhof 59, Rotherbaum",
+    "category": "bar",
+    "description": "Kulturcafé & Bar am Grindel — kosmopolitisches Programm, Lesungen, Konzerte",
+    "opening_hours": "Mo-Su 10:00-01:00",
+    "liveMusic": true,
+    "musicNights": "Do, Fr"
+  },
+  {
+    "name": "Pony Bar",
+    "lat": 53.5665,
+    "lon": 9.979,
+    "address": "Allendeplatz 1, Rotherbaum",
+    "category": "pub",
+    "description": "Studenten-Kneipe am Uni-Campus — günstige Drinks, lebhafte Atmosphäre",
+    "opening_hours": "Mo-Su 18:00-02:00"
+  },
+  {
+    "name": "Haco36",
+    "lat": 53.5676,
+    "lon": 9.98,
+    "address": "Grindelhof 36, Rotherbaum",
+    "category": "bar",
+    "description": "Gemütliche Bar am Grindelhof — Cocktails, Bier, Uni-Viertel-Treffpunkt",
+    "opening_hours": "Mo-Sa 18:00-02:00"
+  },
+  {
+    "name": "The Green Room",
+    "lat": 53.5651336,
+    "lon": 9.98361,
+    "address": "Grindelallee 28, Rotherbaum",
+    "category": "pub",
+    "description": "Studentenkneipe im Univiertel — Kicker, günstige Drinks, Pub Quiz",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true
+  },
+  {
+    "name": "Irish Rover",
+    "lat": 53.5684466,
+    "lon": 9.9826185,
+    "address": "Grindelhof 27, Rotherbaum",
+    "category": "irish-pub",
+    "description": "Irischer Pub am Grindel — klein, gemütlich, Live-Musik, 4.1★ Yelp",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true,
+    "liveMusic": true,
+    "musicNights": "Fr, Sa"
+  },
+  {
+    "name": "Wein Michel",
+    "lat": 53.5704084,
+    "lon": 9.9852238,
+    "address": "Grindelhof 62, Rotherbaum",
+    "category": "wine",
+    "description": "Inhabergeführte Weinhandlung & Bar — Petra empfiehlt persönlich, 3.5★ Yelp",
+    "opening_hours": "Mo-Sa 14:00-22:00"
+  },
+  {
+    "name": "Kaffee Stark",
+    "lat": 53.5797688,
+    "lon": 9.97972,
+    "address": "Klosterallee 32, Harvestehude",
+    "category": "bar",
+    "description": "Café tagsüber, Bar abends — Isemarkt-Nachbarschaft, Kuchen & Drinks",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Pöseldorf Krug",
+    "lat": 53.5707232,
+    "lon": 9.9971911,
+    "address": "Milchstraße 7, Pöseldorf",
+    "category": "pub",
+    "description": "Traditions-Treff im Herzen von Pöseldorf — gehobene Kneipe, Alster-Nähe",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Nikkei Nine Bar",
+    "lat": 53.5521247,
+    "lon": 9.9922817,
+    "address": "Neuer Wall 13, Neustadt/Harvestehude",
+    "category": "cocktailbar",
+    "description": "Japanisch-peruanische Cocktails im Fairmont Hotel — High-End-Barkultur",
+    "opening_hours": "Mo-Su 18:00-01:00"
+  },
+  {
+    "name": "Nil",
+    "lat": 53.5849,
+    "lon": 9.982,
+    "address": "Eppendorfer Weg 275, Eppendorf",
+    "category": "bar",
+    "description": "Restaurant & Bar — abends Top-Cocktails an der Bar, saisonale Küche, Eppendorfer Institution",
+    "opening_hours": "Tu-Sa 18:00-01:00"
+  },
+  {
+    "name": "Cox",
+    "lat": 53.5852,
+    "lon": 9.9818,
+    "address": "Eppendorfer Weg 259, Eppendorf",
+    "category": "bar",
+    "description": "Bistro-Bar Eppendorf — Frühstück bis Late Night, Cocktails & Wein am Tresen — Afterwork-geeignet",
+    "opening_hours": "Mo-Su 10:00-01:00"
+  },
+  {
+    "name": "Café May Eppendorf",
+    "lat": 53.5889988,
+    "lon": 9.9869424,
+    "address": "Eppendorfer Landstraße 62, Eppendorf",
+    "category": "bar",
+    "description": "Café tagsüber, abends Bar — Bier, Wein, lockere Atmosphäre, beliebter Treffpunkt",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Markt 7",
+    "lat": 53.5905335,
+    "lon": 9.9864339,
+    "address": "Marie-Jonas-Platz 7, Eppendorf",
+    "category": "bar",
+    "description": "Bistro & Bar am Eppendorfer Markt — Wein, Cocktails, saisonal wechselnde Karte",
+    "opening_hours": "Mo-Su 10:00-00:00"
+  },
+  {
+    "name": "Trattoria Italiana da Basso",
+    "lat": 53.585,
+    "lon": 9.9815,
+    "address": "Eppendorfer Weg 268, Eppendorf",
+    "category": "bar",
+    "description": "Italienisches Restaurant mit Bar — Aperitivo, Wein, abends auch nur auf einen Drink",
+    "opening_hours": "Mo-Su 17:00-23:00"
+  },
+  {
+    "name": "Heinz Catering & Bar",
+    "lat": 53.5915413,
+    "lon": 9.9874717,
+    "address": "Eppendorfer Landstraße 34, Eppendorf",
+    "category": "bar",
+    "description": "Deli & Bar in Eppendorf — abends Wein, Craft Beer, kleine Gerichte",
+    "opening_hours": "Mo-Sa 11:00-23:00"
+  },
+  {
+    "name": "Isemarkt Weinhandlung Kreutzfeldt",
+    "lat": 53.5836258,
+    "lon": 9.9841705,
+    "address": "Eppendorfer Baum 27, Eimsbüttel/Hoheluft",
+    "category": "wine",
+    "description": "Weinhandlung mit Ausschank — Wein glasweise, kleine Snacks, Isemarkt-Nähe",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-16:00"
+  },
+  {
+    "name": "Café May Eimsbüttel",
+    "lat": 53.5693001,
+    "lon": 9.9497712,
+    "address": "Eimsbütteler Straße 24, Eimsbüttel",
+    "category": "bar",
+    "description": "Café-Bar — tagsüber Frühstück & Kuchen, abends Bier, Wein, Cocktails",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Tante Gerda",
+    "lat": 53.5787261,
+    "lon": 9.9450192,
+    "address": "Methfesselstraße 44, Eimsbüttel",
+    "category": "pub",
+    "description": "Café & Kneipe — tagsüber Kaffee & Kuchen, abends Bier & Kicker, Eimsbütteler Klassiker",
+    "opening_hours": "Mo-Su 10:00-01:00"
+  },
+  {
+    "name": "Campari Bar",
+    "lat": 53.5599396,
+    "lon": 9.9649382,
+    "address": "Schanzenstraße 18, Eimsbüttel/Schanze",
+    "category": "bar",
+    "description": "Aperitivo-Café-Bar — italienische Drinks, Campari Spritz, gemütlich-elegant",
+    "opening_hours": "Mo-Su 16:00-00:00"
+  },
+  {
+    "name": "Café Klatsch",
+    "lat": 53.5825,
+    "lon": 9.999,
+    "address": "Mühlenkamp 25, Winterhude",
+    "category": "bar",
+    "description": "Café tagsüber, abends Wein & Cocktails — Mühlenkamp-Institution, Terrasse — Afterwork-geeignet",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Zipang",
+    "lat": 53.579736,
+    "lon": 9.9662831,
+    "address": "Eppendorfer Weg 171, Winterhude",
+    "category": "bar",
+    "description": "Japanisches Restaurant mit Bar — Sake, japanischer Whisky, abends Bar-Atmosphäre",
+    "opening_hours": "Tu-Su 18:00-23:00"
+  },
+  {
+    "name": "Eisenstein",
+    "lat": 53.5638,
+    "lon": 9.9421,
+    "address": "Friedensallee 9, Winterhude/Eppendorf",
+    "category": "bar",
+    "description": "Restaurant, Kino & Bar — abends Cocktails an der großen Bar, Events, Kulturprogramm",
+    "opening_hours": "Mo-Su 11:00-01:00"
+  },
+  {
+    "name": "Ristorante Dante",
+    "lat": 53.5816483,
+    "lon": 10.0110857,
+    "address": "Mühlenkamp 37, Winterhude",
+    "category": "bar",
+    "description": "Italiener am Mühlenkamp — abends Aperitivo & Wein an der Bar, auch ohne Essen",
+    "opening_hours": "Tu-Su 17:00-23:00"
+  },
+  {
+    "name": "Vlet Winterhude",
+    "lat": 53.5815569,
+    "lon": 10.0128223,
+    "address": "Gertigstraße 7, Winterhude",
+    "category": "bar",
+    "description": "Norddeutsches Restaurant mit Bar — Craft Beer, regionale Drinks, gehobenes Ambiente",
+    "opening_hours": "Tu-Sa 17:00-23:00"
+  },
+  {
+    "name": "Die Wohngemeinschaft",
+    "lat": 53.5817738,
+    "lon": 9.9726316,
+    "address": "Hoheluftchaussee 62, Hoheluft-West",
+    "category": "bar",
+    "description": "Café & Bar im Wohnzimmer-Stil — abends Bier, Wein, hausgemachte Limonaden — Afterwork-geeignet",
+    "opening_hours": "Mo-Su 10:00-00:00"
+  },
+  {
+    "name": "Grüne Perle",
+    "lat": 53.5806151,
+    "lon": 9.9740184,
+    "address": "Hoheluftchaussee 42, Hoheluft-West",
+    "category": "bar",
+    "description": "Café-Bar in Hoheluft — Frühstück bis Absacker, Wein & Bier am Tresen",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Abaton Bistro",
+    "lat": 53.5675,
+    "lon": 9.979,
+    "address": "Allendeplatz 3, Rotherbaum",
+    "category": "bar",
+    "description": "Kino-Bistro & Bar am Abaton — Vor & nach dem Film Wein, Bier, Cocktails",
+    "opening_hours": "Mo-Su 16:00-00:00"
+  },
+  {
+    "name": "Café Eppendorfer Baum",
+    "lat": 53.5841286,
+    "lon": 9.9819276,
+    "address": "Eppendorfer Baum 35, Hoheluft/Rotherbaum",
+    "category": "bar",
+    "description": "Frühstücks-Café & Abend-Bar — Wein, Longdrinks, gemütliche Terrasse",
+    "opening_hours": "Mo-Su 09:00-23:00"
+  },
+  {
+    "name": "Leib & Seele",
+    "lat": 53.5694191,
+    "lon": 9.9845678,
+    "address": "Grindelhof 52, Rotherbaum",
+    "category": "bar",
+    "description": "Restaurant & Weinbar am Grindel — abends Wein & Cocktails an der Bar, 4.5★",
+    "opening_hours": "Mo-Sa 17:00-00:00"
+  },
+  {
+    "name": "Café Storch",
+    "lat": 53.5705684,
+    "lon": 9.9973633,
+    "address": "Milchstraße 19, Pöseldorf",
+    "category": "bar",
+    "description": "Pöseldorfer Café-Bar — tagsüber Kuchen, abends Wein & Aperitivo, gehobenes Ambiente",
+    "opening_hours": "Mo-Su 10:00-23:00"
+  },
+  {
+    "name": "Harlin",
+    "lat": 53.5555,
+    "lon": 9.9905,
+    "address": "Neuer Jungfernstieg 9, Harvestehude/Innenstadt",
+    "category": "bar",
+    "description": "Restaurant & Bar im Fairmont — abends auch nur für Drinks, Alsterblick, gehobene Bar-Karte",
+    "opening_hours": "Mo-Su 18:00-01:00"
+  },
+  {
+    "name": "Sky Bar Airport Plaza",
+    "lat": 53.6537179,
+    "lon": 9.9835876,
+    "address": "Flughafenstraße 1-3, Fuhlsbüttel",
+    "neighborhood": "Fuhlsbüttel",
+    "category": "bar",
+    "description": "Afterwork donnerstags in der Airport Plaza — Sky Bar mit Flughafen-Panorama, After-Work-Events",
+    "opening_hours": "Th 17:00-22:00",
+    "website": ""
+  },
+  {
+    "name": "Ruby Lotti Rooftop Bar",
+    "lat": 53.5508663,
+    "lon": 9.9853397,
+    "address": "Rödingsmarkt 9, Altstadt",
+    "neighborhood": "Altstadt",
+    "category": "bar",
+    "description": "Afterwork-Party 'Büroschluss' — regelmäßige Afterwork-Events auf der Rooftop-Terrasse, DJs, Cocktails",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "opening_hours_estimated": true,
+    "website": "https://www.ruby-hotels.com/hamburg-lotti"
+  },
+  {
+    "name": "20up Bar",
+    "lat": 53.547282,
+    "lon": 9.963355,
+    "address": "Bernhard-Nocht-Straße 97, St. Pauli (Empire Riverside Hotel)",
+    "neighborhood": "St. Pauli",
+    "category": "cocktailbar",
+    "description": "Afterwork über den Dächern — Skyline-Bar im 20. Stock, Panoramablick auf Hafen & Elbe, regelmäßige Afterwork-Abende",
+    "opening_hours": "Mo-Su 18:00-02:00",
+    "website": "https://www.empire-riverside.de/20up-bar"
+  },
+  {
+    "name": "East Hotel Bar",
+    "lat": 53.551252,
+    "lon": 9.9661345,
+    "address": "Simon-von-Utrecht-Straße 31, St. Pauli",
+    "neighborhood": "St. Pauli",
+    "category": "bar",
+    "description": "Afterwork im Designhotel — stylische Bar, regelmäßige Afterwork-Partys und Events",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "opening_hours_estimated": true,
+    "website": "https://www.east-hamburg.de"
+  },
+  {
+    "name": "After Work Club - Café Schöne Aussichten",
+    "lat": 53.5634,
+    "lon": 9.9749,
+    "address": "Planten un Blomen Park, Stephansplatz/Dammtor",
+    "neighborhood": "Mitte",
+    "category": "bar",
+    "description": "Der echte Afterwork-Club in Hamburg — jeden Donnerstag 18 Uhr im Park, Treffpunkt für Singles & Networking",
+    "opening_hours": "Do 18:00-22:00",
+    "website": "https://afterworkclub.de"
+  },
+  {
+    "name": "Störtebeker Elbphilharmonie",
+    "lat": 53.5415077,
+    "lon": 9.983489,
+    "address": "Platz der Deutschen Einheit 4, HafenCity",
+    "neighborhood": "HafenCity",
+    "category": "bar",
+    "description": "Restaurant in der Elbphilharmonie — Bier & norddeutsche Küche mit Blick auf die Elbe",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "website": "https://www.stoertebeker-elbphilharmonie.de"
+  }
+]

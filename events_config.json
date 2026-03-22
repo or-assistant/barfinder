@@ -1,0 +1,281 @@
+{
+  "major_events": [
+    {
+      "name": "Hafengeburtstag",
+      "startMonth": 5,
+      "startDay": 8,
+      "endDay": 10,
+      "boost": 1.5,
+      "year": 2026
+    },
+    {
+      "name": "OMR Festival",
+      "startMonth": 5,
+      "startDay": 6,
+      "endDay": 7,
+      "boost": 1.4,
+      "year": 2026
+    },
+    {
+      "name": "Hamburger DOM",
+      "periods": [
+        {
+          "startMonth": 3,
+          "endMonth": 4
+        },
+        {
+          "startMonth": 7,
+          "endMonth": 8
+        },
+        {
+          "startMonth": 11,
+          "endMonth": 12
+        }
+      ],
+      "boost": 1.2,
+      "year": 2026
+    },
+    {
+      "name": "Reeperbahn Festival",
+      "startMonth": 9,
+      "startDay": 17,
+      "endDay": 20,
+      "boost": 1.4,
+      "year": 2026
+    },
+    {
+      "name": "Altonale",
+      "startMonth": 6,
+      "startDay": 14,
+      "endDay": 15,
+      "boost": 1.2,
+      "year": 2026
+    },
+    {
+      "name": "Schlagermove",
+      "startMonth": 7,
+      "startDay": 5,
+      "endDay": 5,
+      "boost": 1.3,
+      "year": 2026
+    },
+    {
+      "name": "Christopher Street Day",
+      "startMonth": 8,
+      "startDay": 2,
+      "endDay": 2,
+      "boost": 1.3,
+      "year": 2026
+    },
+    {
+      "name": "Weihnachtsmärkte",
+      "startMonth": 11,
+      "startDay": 20,
+      "endMonth": 12,
+      "endDay": 23,
+      "boost": 1.3,
+      "year": 2026
+    },
+    {
+      "name": "Silvester",
+      "startMonth": 12,
+      "startDay": 31,
+      "endDay": 31,
+      "boost": 1.5,
+      "year": 2026
+    },
+    {
+      "name": "Osterfeuer",
+      "startMonth": 4,
+      "startDay": 19,
+      "endDay": 20,
+      "boost": 1.3,
+      "region": "rural",
+      "year": 2026
+    },
+    {
+      "name": "Maifeuer / Tanz in den Mai",
+      "startMonth": 4,
+      "startDay": 30,
+      "endDay": 30,
+      "boost": 1.3,
+      "region": "rural",
+      "year": 2026
+    },
+    {
+      "name": "Stoppelfeeten",
+      "startMonth": 8,
+      "startDay": 15,
+      "endDay": 17,
+      "boost": 1.4,
+      "region": "rural",
+      "year": 2026
+    }
+  ],
+  "static_events": [
+    {
+      "title": "Wine Tasting Abend",
+      "location": "Ufer Weinbar",
+      "date": "Fr",
+      "time": "19:00",
+      "description": "Wein-Tasting mit wechselnden Weingütern — entspannt Leute kennenlernen",
+      "category": "tasting"
+    },
+    {
+      "title": "After Work Drinks",
+      "location": "Goldfischglas",
+      "date": "Do",
+      "time": "18:00",
+      "description": "After Work im Goldfischglas — Happy Hour, Leute treffen",
+      "category": "afterwork"
+    },
+    {
+      "title": "Ü40 Party",
+      "location": "Wolters Gasthof von 1787",
+      "date": "Sa",
+      "time": "20:00",
+      "description": "Ü30/Ü40 Disco-Party im Wolters Gasthof Weddelbrook — Eintritt 5€ bis 22 Uhr",
+      "category": "party"
+    }
+  ],
+  "network_static_events": [
+    {
+      "id": "startup_monday",
+      "title": "Hamburg Startup Monday",
+      "category": "startup",
+      "type": "startup",
+      "date": "2026-02-17",
+      "time": "19:00",
+      "location": "Rocket Internet Campus, Hamburg",
+      "description": "Wöchentliches Startup-Meetup - Networking für Gründer und Entrepreneurs. Pitches, Networking und Insights von erfolgreichen Foundern.",
+      "quality": "high",
+      "attendees": "80",
+      "price": "Kostenlos",
+      "source": "static",
+      "tags": [
+        "startup",
+        "gründer",
+        "networking",
+        "pitch"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "hamburg_tech_meetup",
+      "title": "Hamburg Tech Meetup",
+      "category": "tech",
+      "type": "tech",
+      "date": "2026-02-18",
+      "time": "18:30",
+      "location": "Google Campus Hamburg, Klosterwall 23",
+      "description": "Technologie-Networking für Entwickler und IT-Profis. Vorträge zu aktuellen Tech-Trends, Coding Sessions und Networking.",
+      "quality": "medium",
+      "attendees": "120",
+      "price": "Kostenlos",
+      "source": "static",
+      "tags": [
+        "tech",
+        "entwicklung",
+        "IT",
+        "coding"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "business_breakfast_hh",
+      "title": "Business Breakfast Hamburg",
+      "category": "business",
+      "type": "business",
+      "date": "2026-02-19",
+      "time": "08:00",
+      "location": "Handelskammer Hamburg, Adolphsplatz 1",
+      "description": "Exklusives Frühstücks-Networking der Handelskammer Hamburg mit Unternehmern, Entscheidern und Innovatoren.",
+      "quality": "high",
+      "attendees": "50",
+      "price": "25€",
+      "source": "static",
+      "tags": [
+        "business",
+        "handelskammer",
+        "frühstück",
+        "premium"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "ai_innovation_meetup",
+      "title": "Hamburg AI & Innovation Meetup",
+      "category": "tech",
+      "type": "tech",
+      "date": "2026-02-20",
+      "time": "19:00",
+      "location": "MS Deutschland, Überseebrücke",
+      "description": "KI und Innovation im Fokus - Vorträge von Tech-Leadern, Startup-Pitches und Networking auf der MS Deutschland.",
+      "quality": "high",
+      "attendees": "200",
+      "price": "15€",
+      "source": "static",
+      "tags": [
+        "AI",
+        "innovation",
+        "tech",
+        "startups",
+        "ms-deutschland"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "fintech_friday",
+      "title": "FinTech Friday Hamburg",
+      "category": "finance",
+      "type": "fintech",
+      "date": "2026-02-21",
+      "time": "17:30",
+      "location": "Ericusspitze 4, HafenCity",
+      "description": "FinTech-Networking mit Banken, Startups und Investoren. Blockchain, Payment-Innovation und Regulatory Updates.",
+      "quality": "medium",
+      "attendees": "90",
+      "price": "Kostenlos",
+      "source": "static",
+      "tags": [
+        "fintech",
+        "blockchain",
+        "payment",
+        "hafencity"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "weekend_coworking",
+      "title": "Weekend Coworking",
+      "type": "coworking",
+      "date": "Samstag",
+      "time": "10:00",
+      "location": "Caffamacherreihe 43, Hamburg",
+      "description": "Gemeinsam produktiv am Wochenende arbeiten",
+      "url": "https://weekendcoworking.hamburg",
+      "tags": [
+        "coworking",
+        "produktivität",
+        "wochenende"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "brunch_networking",
+      "title": "Sunday Business Brunch",
+      "type": "business",
+      "date": "Sonntag",
+      "time": "11:00",
+      "location": "Jungfernstieg 16-20, Hamburg",
+      "description": "Entspanntes Business-Networking beim Sonntags-Brunch",
+      "url": "https://sundaybrunch.hamburg",
+      "tags": [
+        "business",
+        "brunch",
+        "sonntag"
+      ],
+      "year": 2026
+    }
+  ]
+}

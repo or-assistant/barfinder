@@ -1,0 +1,363 @@
+{
+  "date": "2026-03-01",
+  "total_locations": 5229,
+  "sample_size": 50,
+  "sample_ok": 50,
+  "sample_issues": 0,
+  "issues": [],
+  "method": "Random sample reverse-geocoding via Nominatim. All coordinates resolve to valid Hamburg-area addresses.",
+  "note": "Nominatim cannot confirm bar closures — only that addresses exist. No closures detected in sample.",
+  "changes": [],
+  "details": [
+    {
+      "name": "Haifisch Bar",
+      "lat": 53.544474,
+      "lon": 9.9459206,
+      "osm_name": "Haifischbar",
+      "status": "ok"
+    },
+    {
+      "name": "Restaurant Klinker",
+      "lat": 53.5773576,
+      "lon": 9.9769424,
+      "osm_name": "Restaurant Klinker",
+      "status": "ok"
+    },
+    {
+      "name": "Cafeteria Latina",
+      "lat": 53.7089898,
+      "lon": 9.9891914,
+      "osm_name": "",
+      "status": "ok"
+    },
+    {
+      "name": "Hanami",
+      "lat": 53.5921484,
+      "lon": 10.0029749,
+      "osm_name": "Hanami",
+      "status": "ok"
+    },
+    {
+      "name": "Good one",
+      "lat": 53.5685662,
+      "lon": 9.9553009,
+      "osm_name": "Good one",
+      "status": "ok"
+    },
+    {
+      "name": "gin koi",
+      "lat": 53.5508307,
+      "lon": 9.9299926,
+      "osm_name": "gin koi",
+      "status": "ok"
+    },
+    {
+      "name": "ELMA Speisekneipe",
+      "lat": 53.5574694,
+      "lon": 9.9369861,
+      "osm_name": "ELMA Speisekneipe",
+      "status": "ok"
+    },
+    {
+      "name": "Bar Sankt Georg",
+      "lat": 53.557846,
+      "lon": 10.0115842,
+      "osm_name": "Bar Sankt Georg",
+      "status": "ok"
+    },
+    {
+      "name": "Com Nieu 21",
+      "lat": 53.5488127,
+      "lon": 9.9624019,
+      "osm_name": "Com Nieu 21",
+      "status": "ok"
+    },
+    {
+      "name": "Hooters",
+      "lat": 53.5494702,
+      "lon": 9.9571706,
+      "osm_name": "Hooters",
+      "status": "ok"
+    },
+    {
+      "name": "Moe's Vodka Bombe to go",
+      "lat": 53.5510232,
+      "lon": 9.9599489,
+      "osm_name": "Moe's Vodka Bombe to go",
+      "status": "ok"
+    },
+    {
+      "name": "Akdeniz",
+      "lat": 53.5676431,
+      "lon": 9.9802476,
+      "osm_name": "Akdeniz",
+      "status": "ok"
+    },
+    {
+      "name": "Saigon Nho",
+      "lat": 53.5698875,
+      "lon": 9.9827314,
+      "osm_name": "Saigon Nho",
+      "status": "ok"
+    },
+    {
+      "name": "Maybach",
+      "lat": 53.5778716,
+      "lon": 9.9533956,
+      "osm_name": "Maybach",
+      "status": "ok"
+    },
+    {
+      "name": "Der Geheime Garten - Blumencafé",
+      "lat": 53.5769874,
+      "lon": 9.9429859,
+      "osm_name": "Der Geheime Garten - Blumencafé",
+      "status": "ok"
+    },
+    {
+      "name": "Hofbräuhaus",
+      "lat": 53.5575446,
+      "lon": 9.9920472,
+      "osm_name": "Hofbräuhaus",
+      "status": "ok"
+    },
+    {
+      "name": "Gustav Grün",
+      "lat": 53.5483022,
+      "lon": 10.003015,
+      "osm_name": "Gustav Grün",
+      "status": "ok"
+    },
+    {
+      "name": "Roomyz",
+      "lat": 53.5872454,
+      "lon": 10.0471061,
+      "osm_name": "Roomyz",
+      "status": "ok"
+    },
+    {
+      "name": "Wandrahm",
+      "lat": 53.5462307,
+      "lon": 10.0005836,
+      "osm_name": "Egret Showroom",
+      "status": "ok"
+    },
+    {
+      "name": "Pritsch",
+      "lat": 53.5761226,
+      "lon": 10.0238954,
+      "osm_name": "Pritsch",
+      "status": "ok"
+    },
+    {
+      "name": "Variable",
+      "lat": 53.5591638,
+      "lon": 9.975182,
+      "osm_name": "Variable",
+      "status": "ok"
+    },
+    {
+      "name": "Janssen's",
+      "lat": 53.5880814,
+      "lon": 9.8749084,
+      "osm_name": "Janssen's",
+      "status": "ok"
+    },
+    {
+      "name": "Konfuzius",
+      "lat": 53.6778117,
+      "lon": 10.0011212,
+      "osm_name": "Konfuzius",
+      "status": "ok"
+    },
+    {
+      "name": "Café klatsch",
+      "lat": 53.5586335,
+      "lon": 9.9726892,
+      "osm_name": "Café klatsch",
+      "status": "ok"
+    },
+    {
+      "name": "Public Bar&Nightlounge",
+      "lat": 53.5702203,
+      "lon": 10.0607198,
+      "osm_name": "Public Bar&Nightlounge",
+      "status": "ok"
+    },
+    {
+      "name": "Zum Kreisel",
+      "lat": 53.5546053,
+      "lon": 10.0827556,
+      "osm_name": "Zum Kreisel",
+      "status": "ok"
+    },
+    {
+      "name": "Curry Pirates",
+      "lat": 53.5779909,
+      "lon": 10.0213265,
+      "osm_name": "Curry Pirates",
+      "status": "ok"
+    },
+    {
+      "name": "bataq",
+      "lat": 53.4610261,
+      "lon": 9.9780167,
+      "osm_name": "bataq",
+      "status": "ok"
+    },
+    {
+      "name": "Tunici",
+      "lat": 53.6019839,
+      "lon": 10.0411411,
+      "osm_name": "Tunici",
+      "status": "ok"
+    },
+    {
+      "name": "Burger Factory",
+      "lat": 53.6303768,
+      "lon": 10.0145664,
+      "osm_name": "Burger Factory",
+      "status": "ok"
+    },
+    {
+      "name": "Papaye",
+      "lat": 53.5766178,
+      "lon": 10.0597443,
+      "osm_name": "Papaye",
+      "status": "ok"
+    },
+    {
+      "name": "Cafè Del Rheyna",
+      "lat": 53.6478995,
+      "lon": 10.0157692,
+      "osm_name": "Cafè Del Rheyna",
+      "status": "ok"
+    },
+    {
+      "name": "Miami Cafe bar",
+      "lat": 53.4558714,
+      "lon": 9.9863506,
+      "osm_name": "Miami Cafe bar",
+      "status": "ok"
+    },
+    {
+      "name": "Il Sorriso",
+      "lat": 53.6361631,
+      "lon": 10.0920403,
+      "osm_name": "Il Sorriso",
+      "status": "ok"
+    },
+    {
+      "name": "Medellin Lounge",
+      "lat": 53.5658257,
+      "lon": 9.9058798,
+      "osm_name": "Medellin Lounge",
+      "status": "ok"
+    },
+    {
+      "name": "Café Paari",
+      "lat": 53.6333111,
+      "lon": 10.0534575,
+      "osm_name": "Café Paari",
+      "status": "ok"
+    },
+    {
+      "name": "Zala",
+      "lat": 53.5695567,
+      "lon": 10.0559363,
+      "osm_name": "Zala",
+      "status": "ok"
+    },
+    {
+      "name": "CULDT - Coffee Unlimited",
+      "lat": 53.594427,
+      "lon": 9.9968076,
+      "osm_name": "CULDT - Coffee Unlimited",
+      "status": "ok"
+    },
+    {
+      "name": "VyDelivery",
+      "lat": 53.5798112,
+      "lon": 10.02413,
+      "osm_name": "VyDelivery",
+      "status": "ok"
+    },
+    {
+      "name": "Sushi for friends",
+      "lat": 53.6520381,
+      "lon": 10.1064143,
+      "osm_name": "Sushi for friends",
+      "status": "ok"
+    },
+    {
+      "name": "Luca und Lia",
+      "lat": 53.5624159,
+      "lon": 10.2065894,
+      "osm_name": "Luca und Lia",
+      "status": "ok"
+    },
+    {
+      "name": "Torrefactum",
+      "lat": 53.5617026,
+      "lon": 9.9270917,
+      "osm_name": "Torrefactum",
+      "status": "ok"
+    },
+    {
+      "name": "Kleine Heimat",
+      "lat": 53.7318005,
+      "lon": 9.8993932,
+      "osm_name": "Kleine Heimat",
+      "status": "ok"
+    },
+    {
+      "name": "Joy",
+      "lat": 53.7292905,
+      "lon": 9.8977938,
+      "osm_name": "Joy",
+      "status": "ok"
+    },
+    {
+      "name": "Bla Bla",
+      "lat": 53.4848901,
+      "lon": 10.218307,
+      "osm_name": "Bla Bla",
+      "status": "ok"
+    },
+    {
+      "name": "Braaker Mühle",
+      "lat": 53.61806,
+      "lon": 10.239644,
+      "osm_name": "Braaker Mühle",
+      "status": "ok"
+    },
+    {
+      "name": "Piccolo Luce",
+      "lat": 53.4907913,
+      "lon": 10.2525204,
+      "osm_name": "Piccolo Luce",
+      "status": "ok"
+    },
+    {
+      "name": "American Star Pizza",
+      "lat": 53.3913675,
+      "lon": 9.9840537,
+      "osm_name": "American Star Pizza",
+      "status": "ok"
+    },
+    {
+      "name": "La Villa Rossa",
+      "lat": 53.6727962,
+      "lon": 10.2397062,
+      "osm_name": "La Villa Rossa",
+      "status": "ok"
+    },
+    {
+      "name": "Kroatien",
+      "lat": 53.6803225,
+      "lon": 10.2351347,
+      "osm_name": "Kroatien",
+      "status": "ok"
+    }
+  ]
+}

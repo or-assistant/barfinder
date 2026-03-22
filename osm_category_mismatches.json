@@ -1,0 +1,1154 @@
+[
+  {
+    "name": "Erika's Eck",
+    "osm_name": "Erika's Eck",
+    "our_category": "pub",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Fricke 46",
+    "osm_name": "Fricke 46",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Old Sailor",
+    "osm_name": "Old Sailor",
+    "our_category": "pub",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Freundlich + Kompetent",
+    "osm_name": "Freundlich + Kompetent",
+    "our_category": "pub",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "(10) and counting",
+    "osm_name": "(10) and counting",
+    "our_category": "pub",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Murphy's Irish Pub",
+    "osm_name": "Murphy´s Irish Pup",
+    "our_category": "irish-pub",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 0.889
+  },
+  {
+    "name": "Omas Apotheke",
+    "osm_name": "Omas Apotheke",
+    "our_category": "pub",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Christiansen's",
+    "osm_name": "Christiansen's",
+    "our_category": "cocktailbar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "The Chug Club",
+    "osm_name": "The Chug Club",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "The Bohemian",
+    "osm_name": "The Bohemian",
+    "our_category": "cocktailbar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "dripBAR",
+    "osm_name": "Drip Bar",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 0.933
+  },
+  {
+    "name": "Collab Bar",
+    "osm_name": "Collab",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 0.75
+  },
+  {
+    "name": "Jahreszeiten Bar",
+    "osm_name": "Jahreszeiten Grill",
+    "our_category": "cocktailbar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.824
+  },
+  {
+    "name": "A wolf will never be a pet",
+    "osm_name": "A WOLF WILL NEVER BE A PET",
+    "our_category": "wine",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Dal Fabbro Winebar",
+    "osm_name": "Dal Fabbro",
+    "our_category": "wine",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.714
+  },
+  {
+    "name": "Restaurant Klinker",
+    "osm_name": "Restaurant Klinker",
+    "our_category": "wine",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Uhlenhorster Weinstube",
+    "osm_name": "Uhlenhorster Weinstube",
+    "our_category": "wine",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Zur Traube",
+    "osm_name": "Zur Traube",
+    "our_category": "wine",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Kleinhuis' Café & Weinstube",
+    "osm_name": "Kleinhuis Cafe&Weinstube",
+    "our_category": "wine",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.902
+  },
+  {
+    "name": "HADLEY's",
+    "osm_name": "Hadleys",
+    "our_category": "wine",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 0.933
+  },
+  {
+    "name": "Il Garage",
+    "osm_name": "Il Garage",
+    "our_category": "wine",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Piccolo Paradiso",
+    "osm_name": "Piccolo Paradiso",
+    "our_category": "wine",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Tower Bar",
+    "osm_name": "Tower Bar",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Kleinraumdisko",
+    "osm_name": "Meine Kleinraumdisko",
+    "our_category": "cocktailbar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 0.824
+  },
+  {
+    "name": "Kleines Phi",
+    "osm_name": "Das kleine Phi",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 0.8
+  },
+  {
+    "name": "Nachtasyl",
+    "osm_name": "Nachtasyl",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Gnosa",
+    "osm_name": "Cafe Gnosa",
+    "our_category": "bar",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 0.9
+  },
+  {
+    "name": "Häkken",
+    "osm_name": "Häkken",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "ÜberQuell",
+    "osm_name": "ÜberQuell",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Altes Mädchen",
+    "osm_name": "Altes Mädchen",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Galopper",
+    "osm_name": "Galopper",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Frank und Frei",
+    "osm_name": "Frank und Frei",
+    "our_category": "pub",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Chrissi's",
+    "osm_name": "Chrissi's",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Goldbeker",
+    "osm_name": "Der Goldbeker",
+    "our_category": "pub",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.818
+  },
+  {
+    "name": "Avenue 95",
+    "osm_name": "Avenue 95",
+    "our_category": "bar",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Leonar",
+    "osm_name": "Cafe Leonar",
+    "our_category": "bar",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 0.909
+  },
+  {
+    "name": "Zipang",
+    "osm_name": "Zipang",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Eisenstein",
+    "osm_name": "Eisenstein",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Abaton Bistro",
+    "osm_name": "Abaton Bistro",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Harlin",
+    "osm_name": "Haerlin",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.923
+  },
+  {
+    "name": "Radiance Bar",
+    "osm_name": "Radiance Bar",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Bar Same Same",
+    "osm_name": "Bar Same Same",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Zaza Bar",
+    "osm_name": "Zaza Bar",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Bar La Notte",
+    "osm_name": "Bar La Notte",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Strandperle",
+    "osm_name": "Strandperle",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "AlsterCliff",
+    "osm_name": "AlsterCliff",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Landhaus Walter",
+    "osm_name": "Landhaus Walter",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Zum Wattkorn",
+    "osm_name": "Zum Wattkorn",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Knust",
+    "osm_name": "Knust",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Gruenspan",
+    "osm_name": "Gruenspan",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Fabrik",
+    "osm_name": "Eisfabrik",
+    "our_category": "bar",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 0.8
+  },
+  {
+    "name": "Prinzenbar",
+    "osm_name": "Prinzenbar",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Indra Club 64",
+    "osm_name": "INDRA Musikclub",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 0.714
+  },
+  {
+    "name": "Cafe Unter den Linden",
+    "osm_name": "Cafe Unter den Linden",
+    "our_category": "cafe",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Haus 73",
+    "osm_name": "Haus 73",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Mathilde Bar",
+    "osm_name": "Mathilde Bar",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "CavaRo Weinbar",
+    "osm_name": "CavaRo Weinbar",
+    "our_category": "wine",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Absinth",
+    "osm_name": "Absinth",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Kim Do Weinbar",
+    "osm_name": "Kim Do Weinbar",
+    "our_category": "wine",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "MAISON TANUKI",
+    "osm_name": "MAISON TANUKI",
+    "our_category": "wine",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Pinot & Becks",
+    "osm_name": "Pinot & Becks",
+    "our_category": "wine",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Turmbar",
+    "osm_name": "Turmbar",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Elbwein",
+    "osm_name": "Elbwein",
+    "our_category": "wine",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Nick&Nora",
+    "osm_name": "Nick&Nora",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Shamrock Irish Pub",
+    "osm_name": "Shamrock Irish Pub",
+    "our_category": "irish-pub",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "the Baby Goat House",
+    "osm_name": "the Baby Goat House",
+    "our_category": "irish-pub",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Sands Bar",
+    "osm_name": "Sands Bar",
+    "our_category": "cocktailbar",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Marsbar",
+    "osm_name": "Marsbar",
+    "our_category": "cafe",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "45'LIK",
+    "osm_name": "45’LIK",
+    "our_category": "bar",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 0.833
+  },
+  {
+    "name": "Fleetschlösschen",
+    "osm_name": "Fleetschlösschen",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Morgenmuffel",
+    "osm_name": "Morgenmuffel",
+    "our_category": "cafe",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Cafe Paris",
+    "osm_name": "Cafe Paris",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café May",
+    "osm_name": "Café May",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Cafe Leonar",
+    "osm_name": "Cafe Leonar",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Koppel",
+    "osm_name": "Café Koppel",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Johanna",
+    "osm_name": "Café Johanna",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Milch",
+    "osm_name": "Milch",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Nord Coast Coffee Roastery",
+    "osm_name": "Nord Coast Coffee Roastery",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Stenzel",
+    "osm_name": "Café Stenzel",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Schöne Aussichten",
+    "osm_name": "Schöne Aussichten",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Knuth",
+    "osm_name": "Knuth",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Cafe Schmidtchen",
+    "osm_name": "Cafe Schmidtchen",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Unter den Linden",
+    "osm_name": "Cafe Unter den Linden",
+    "our_category": "fruehstueck",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 0.952
+  },
+  {
+    "name": "vju im Energiebunker",
+    "osm_name": "vju im Energiebunker",
+    "our_category": "fruehstueck",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Oberhafen-Kantine",
+    "osm_name": "Oberhafen-Kantine",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Restaurant Nil",
+    "osm_name": "Restaurant Nil",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Deichgraf",
+    "osm_name": "Deichgraf",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Henssler & Henssler",
+    "osm_name": "Henssler & Henssler",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Bistrot Vienna",
+    "osm_name": "Bistrot Vienna",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Heimatjuwel",
+    "osm_name": "Heimatjuwel",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Philipps Restaurant",
+    "osm_name": "philipps restaurant",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Poletto Winebar",
+    "osm_name": "Poletto Winebar",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Ti Breizh",
+    "osm_name": "Ti Breizh",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Weltcafé ElbFaire",
+    "osm_name": "Weltcafé ElbFaire",
+    "our_category": "mittagstisch",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Monkeys Music Club",
+    "osm_name": "Monkeys Music Club",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Nochtspeicher",
+    "osm_name": "Nochtspeicher",
+    "our_category": "bar",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Kaiserkeller",
+    "osm_name": "Kaiserkeller",
+    "our_category": "nightclub",
+    "osm_amenity": "bar",
+    "suggested": "bar",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Jolly Roger",
+    "osm_name": "Jolly Roger",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Rock Café",
+    "osm_name": "Rock Café",
+    "our_category": "bar",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Alsterperle",
+    "osm_name": "Alsterperle",
+    "our_category": "bar",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Neni",
+    "osm_name": "Neni",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Kinfelts Kitchen & Wine",
+    "osm_name": "Kinfelts Kitchen & Wine",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Liberté",
+    "osm_name": "Liberté",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Rive",
+    "osm_name": "Rive",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Mövenpick",
+    "osm_name": "Mövenpick",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Große Freiheit 36",
+    "osm_name": "Große Freiheit Nr.7",
+    "our_category": "event-location",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 0.842
+  },
+  {
+    "name": "Cascadas",
+    "osm_name": "Cascadas",
+    "our_category": "event-location",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Hühnerposten",
+    "osm_name": "Hühnerposten",
+    "our_category": "event-location",
+    "osm_amenity": "nightclub",
+    "suggested": "nightclub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Marias Ballroom",
+    "osm_name": "Marias Ballroom",
+    "our_category": "event-location",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Waterkant",
+    "osm_name": "waterkant",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Zur Flottbeker Schmiede",
+    "osm_name": "Zur Flottbeker Schmiede",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Elbterassen",
+    "osm_name": "Café Elbterrassen",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.97
+  },
+  {
+    "name": "Witthüs",
+    "osm_name": "Witthüs",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Bobby Reich",
+    "osm_name": "Bobby Reich",
+    "our_category": "biergarten",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Café Sommerterrassen",
+    "osm_name": "Café Sommerterrassen",
+    "our_category": "biergarten",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Borchers",
+    "osm_name": "Café Borchers",
+    "our_category": "mittagstisch",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 0.762
+  },
+  {
+    "name": "Maihan",
+    "osm_name": "Maihan",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Le Jus Deli",
+    "osm_name": "Le Jus Deli",
+    "our_category": "fruehstueck",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Campus am Isemarkt",
+    "osm_name": "Campus am Isemarkt",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Pizza Pazza",
+    "osm_name": "Piazza",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.706
+  },
+  {
+    "name": "Reeperbahn Döner",
+    "osm_name": "Reeperbande",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.786
+  },
+  {
+    "name": "dao dao Streetfood Bar",
+    "osm_name": "ANAN Streetfood",
+    "our_category": "mittagstisch",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 0.703
+  },
+  {
+    "name": "Café Borchers",
+    "osm_name": "Café Borchers",
+    "our_category": "cafe",
+    "osm_amenity": "pub",
+    "suggested": "pub",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Weinwirtschaft Kleines Jacob",
+    "osm_name": "Weinwirtschaft Kleines Jacob",
+    "our_category": "wine",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Herr Max",
+    "osm_name": "Herr Max",
+    "our_category": "restaurant",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Hygge",
+    "osm_name": "Hygge",
+    "our_category": "cafe",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Seehaus Hamburg",
+    "osm_name": "Seehaus Hamburg",
+    "our_category": "bar",
+    "osm_amenity": "restaurant",
+    "suggested": "restaurant",
+    "confidence": "medium",
+    "match_score": 1.0
+  },
+  {
+    "name": "Paninoteca",
+    "osm_name": "La Paninoteca",
+    "our_category": "restaurant",
+    "osm_amenity": "cafe",
+    "suggested": "cafe",
+    "confidence": "medium",
+    "match_score": 0.87
+  }
+]

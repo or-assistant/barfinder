@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-16",
+  "enrichments": [
+    {
+      "name": "Le Lion",
+      "enriched": {
+        "vibe": "sophisticated",
+        "crowd": "30-50, Cocktail-Enthusiasten",
+        "priceLevel": "€€€",
+        "bestTime": "abends",
+        "specials": "cocktails, gin basil smash",
+        "dateSpot": true,
+        "dresscode": "smart casual",
+        "highlights": "Erfinder des Gin Basil Smash|World's 50 Best Bars|Hamburgs beste Cocktailbar",
+        "atmosphere": "Weltklasse-Cocktailbar hinter unscheinbarer Tür. Der Gin Basil Smash wurde hier erfunden. Reservierung empfohlen, Dresscode beachten.",
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "Kleines Phi",
+      "enriched": {
+        "vibe": "lässig",
+        "crowd": "25-40, Karoviertel-Crowd",
+        "priceLevel": "€€",
+        "bestTime": "abends",
+        "specials": "cocktails, wein",
+        "dateSpot": true,
+        "dresscode": "casual",
+        "highlights": "Kleine Bar im Karoviertel|Gute Drinks|Entspannte Nachbarschaft",
+        "atmosphere": "Gemütliche Nachbarschaftsbar im Karoviertel. Klein, persönlich, gute Drinks. Perfekt für ein entspanntes Date.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "KOPS Bar",
+      "enriched": {
+        "vibe": "lässig",
+        "crowd": "25-40",
+        "priceLevel": "€€",
+        "bestTime": "abends, late-night",
+        "specials": "cocktails, bier",
+        "dateSpot": false,
+        "dresscode": "casual",
+        "highlights": "Neuer Pferdemarkt|Lässige Atmosphäre|Gute Cocktails",
+        "atmosphere": "Beliebter Treffpunkt am Neuen Pferdemarkt. Lässig, unkompliziert, gute Drinks zu fairen Preisen.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "Molly Malone's",
+      "enriched": {
+        "vibe": "gemütlich",
+        "crowd": "gemischt, Expats",
+        "priceLevel": "€€",
+        "bestTime": "abends",
+        "specials": "guinness, live-musik, pub quiz",
+        "dateSpot": false,
+        "dresscode": "casual",
+        "highlights": "Hamburgs ältester Irish Pub|Live-Musik|Pub Quiz|Guinness vom Fass",
+        "atmosphere": "Hamburgs ältester Irish Pub mit echtem Flair. Live-Musik, Pub Quiz, Guinness wie in Dublin. Treffpunkt der internationalen Community.",
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "1700 Winery Bar",
+      "enriched": {
+        "vibe": "modern",
+        "crowd": "30-50, Business",
+        "priceLevel": "€€€",
+        "bestTime": "after-work, abends",
+        "specials": "wein, tapas",
+        "dateSpot": true,
+        "dresscode": "smart casual",
+        "highlights": "Vinothek im Barceló Hotel|Große Weinauswahl|Offenes Lounge-Konzept",
+        "atmosphere": "Stilvolle Weinlounge im Barceló Hotel. Große Auswahl, offenes Konzept, gut für After-Work oder ein gepflegtes Glas Wein.",
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "Dorotheum Weinbar",
+      "enriched": {
+        "vibe": "gemütlich",
+        "crowd": "30-55, Weinliebhaber",
+        "priceLevel": "€€-€€€",
+        "bestTime": "abends",
+        "specials": "wein, käse",
+        "dateSpot": true,
+        "dresscode": "casual",
+        "highlights": "Winterhude|Curated Weinauswahl|Rustikales Ambiente",
+        "atmosphere": "Winterhudes gemütliche Weinecke. Handverlesene Weine in rustikalem Ambiente. Perfekt für einen ruhigen Weinabend zu zweit.",
+        "confidence": "high"
+      }
+    }
+  ],
+  "new_locations": [],
+  "events": [],
+  "notes": "Web search nicht verfügbar (Brave API Key fehlt). Enrichment aus Eigenwissen. Neue Locations und Events konnten nicht recherchiert werden."
+}

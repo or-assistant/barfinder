@@ -1,0 +1,112 @@
+{
+  "DEFAULT_LAT": 53.5775,
+  "DEFAULT_LON": 9.9785,
+  "PORT": 3002,
+
+  "SAVED_LOCS": {
+    "home": { "lat": 53.5775, "lon": 9.9785, "label": "Zuhause", "radius": 1000 },
+    "parents": { "lat": 53.8760, "lon": 9.8864, "label": "Lentföhrden", "radius": 20000 },
+    "ostsee": { "lat": 54.5078, "lon": 9.9704, "label": "Ostseecamp Lehmberg", "radius": 15000 }
+  },
+
+  "CACHE_FILES": {
+    "popular_times": "./popular_times_cache.json",
+    "events": "./events_cache.json",
+    "realtime": "./realtime_cache.json",
+    "google_ratings": "./google_ratings_cache.json",
+    "populartimes": "./populartimes_cache.json",
+    "google_popular_times": "./google_popular_times_cache.json",
+    "yelp": "./yelp_cache.json",
+    "yelp_reviews": "./yelp_reviews_cache.json",
+    "hamburg_events": "./hamburg_events_cache.json",
+    "events_pipeline": "./events_pipeline_cache.json",
+    "eventbrite_events": "./eventbrite_events_cache.json",
+    "new_sources_events": "./new_sources_events_cache.json",
+    "mitvergnuegen": "./mitvergnuegen_cache.json",
+    "hamburgwork_events": "./hamburgwork_events_cache.json",
+    "rural_events": "./rural_events_cache.json",
+    "opentable": "./opentable_cache.json",
+    "network_events": "./network_events_cache.json",
+    "bar_events": "./bar_events_cache.json",
+    "facebook_events": "./facebook_events_cache.json"
+  },
+
+  "SCORE_WEIGHTS": {
+    "estimated_popularity_weight": 0.4,
+    "max_event_boost": 40,
+    "highlight_bonus": 12,
+    "max_description_bonus": 18,
+    "random_range": 11,
+
+    "event_type_boosts": {
+      "quiz": 25,
+      "live_music": 30,
+      "karaoke": 20,
+      "dj": 22,
+      "football": 35,
+      "after_work": 15,
+      "happy_hour": 18,
+      "party": 20
+    },
+
+    "vibe_social_base": {
+      "pub": 18, "irish-pub": 20, "cocktailbar": 16, "bar": 16,
+      "wine": 18, "lounge": 14, "biergarten": 20,
+      "nightclub": 15, "sports_bar": 16, "karaoke": 14,
+      "jazz_club": 12, "brewery": 16, "taproom": 16, "dance_club": 12,
+      "cafe": 5, "restaurant": 4
+    },
+
+    "vibe_day_multiplier": {
+      "0": 0.4, "1": 0.5, "2": 0.6, "3": 0.7, "4": 0.85, "5": 1.0, "6": 1.0
+    },
+
+    "vibe_time_base": {
+      "prime_20_23": 45,
+      "after_work_18_20": 30,
+      "late_night_23_02": 35,
+      "transition_16_18": 15,
+      "daytime_12_16": 5,
+      "morning": 2
+    },
+
+    "busyness_peak_curves": {
+      "cocktailbar": { "peaks": [[22, 1]], "peakVal": 70, "offPeak": 15 },
+      "nightclub":   { "peaks": [[22, 1]], "peakVal": 75, "offPeak": 10 },
+      "club":        { "peaks": [[22, 1]], "peakVal": 75, "offPeak": 10 },
+      "pub":         { "peaks": [[20, 23]], "peakVal": 60, "offPeak": 15 },
+      "irish-pub":   { "peaks": [[20, 23]], "peakVal": 60, "offPeak": 15 },
+      "biergarten":  { "peaks": [[17, 21]], "peakVal": 55, "offPeak": 10 },
+      "wine":        { "peaks": [[19, 22]], "peakVal": 55, "offPeak": 12 },
+      "cafe":        { "peaks": [[10, 12], [15, 17]], "peakVal": 50, "offPeak": 15 },
+      "restaurant":  { "peaks": [[12, 14], [18, 21]], "peakVal": 55, "offPeak": 12 },
+      "bar":         { "peaks": [[20, 23]], "peakVal": 60, "offPeak": 15 }
+    },
+
+    "rating_vibe_bonus": {
+      "rating_4_5": 10,
+      "rating_4_0": 5,
+      "rating_3_5": 2,
+      "reviews_500": 5,
+      "reviews_200": 3,
+      "reviews_50": 1
+    }
+  },
+
+  "USER_AGENTS": [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  ],
+
+  "OVERPASS_HOSTS": [
+    "overpass-api.de",
+    "overpass.kumi.systems"
+  ],
+
+  "CACHE_TTL": 3600000,
+  "MIN_REQUEST_INTERVAL": 30000,
+  "GOOGLE_SCRAPE_TIMEOUT": 15000,
+  "WEATHER_REFRESH_INTERVAL": 1800000,
+  "WEATHER_LAT": 53.55,
+  "WEATHER_LON": 10.0
+}

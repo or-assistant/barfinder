@@ -1,0 +1,15 @@
+
+# Cache & Logs
+# Scrapers (removed)
+*.log
+*_cache.json
+*_scraper.*
+.env
+barfinder.db-shm
+barfinder.db-wal
+cache.json
+crawl_*.js
+logs/
+node_modules/
+scrape_*.js
+user_data/

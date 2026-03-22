@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-02-16T03:04:58.506Z",
+  "totalEntries": 336,
+  "issues": 6,
+  "autoFixes": 0,
+  "criticalIssues": 0,
+  "highIssues": 0,
+  "mediumIssues": 6,
+  "dataCompleteness": {
+    "withHours": 291,
+    "withoutHours": 45,
+    "withWebsite": 63,
+    "withoutWebsite": 273,
+    "withDescription": 336,
+    "withoutDescription": 0
+  },
+  "issueDetails": [
+    {
+      "type": "coord_overlap",
+      "severity": "medium",
+      "coord": "53.5545,9.9273",
+      "names": [
+        "Familien-Eck",
+        "Eisenstein"
+      ]
+    },
+    {
+      "type": "coord_overlap",
+      "severity": "medium",
+      "coord": "53.5829,10.0103",
+      "names": [
+        "W die Weinbar",
+        "Goldbeker",
+        "Café Klatsch"
+      ]
+    },
+    {
+      "type": "coord_overlap",
+      "severity": "medium",
+      "coord": "53.5575,9.9702",
+      "names": [
+        "Kleines Phi",
+        "The Shamrock"
+      ]
+    },
+    {
+      "type": "coord_overlap",
+      "severity": "medium",
+      "coord": "53.9167,9.8833",
+      "names": [
+        "Klönstuuv",
+        "Billard & Spielcafé",
+        "Der Gutschmecker"
+      ]
+    },
+    {
+      "type": "coord_overlap",
+      "severity": "medium",
+      "coord": "53.7090,9.9892",
+      "names": [
+        "Cafeteria Latina",
+        "Petrol Bar"
+      ]
+    },
+    {
+      "type": "coord_overlap",
+      "severity": "medium",
+      "coord": "53.5932,10.0005",
+      "names": [
+        "Zum Glaskasten",
+        "Barmeier's Café & Biergarten"
+      ]
+    }
+  ]
+}

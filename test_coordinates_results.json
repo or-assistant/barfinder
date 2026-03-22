@@ -1,0 +1,185 @@
+{
+  "total_bars": 200,
+  "tests": {
+    "has_coordinates": {
+      "passed": 200,
+      "failed": 0,
+      "failures": []
+    },
+    "lat_in_range": {
+      "passed": 199,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "Ostseecamp Lehmberg",
+          "lat": 54.5078,
+          "expected_range": "53.4-54"
+        }
+      ]
+    },
+    "lon_in_range": {
+      "passed": 199,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "Klackermatsch",
+          "lon": 10.3125,
+          "expected_range": "9.5-10.3"
+        }
+      ]
+    },
+    "unique_coordinates": {
+      "passed": 0,
+      "failed": 2,
+      "failures": [
+        {
+          "coordinates": "53.556,10.01",
+          "bars": [
+            {
+              "name": "Frau Möller",
+              "index": 11
+            },
+            {
+              "name": "Neumanns Bistro St. Georg",
+              "index": 78
+            }
+          ]
+        },
+        {
+          "coordinates": "53.546,9.996",
+          "bars": [
+            {
+              "name": "Restaurant Schoppenhauer",
+              "index": 73
+            },
+            {
+              "name": "Restaurant Schoppenhauer",
+              "index": 82
+            }
+          ]
+        }
+      ]
+    },
+    "neighborhood_proximity": {
+      "passed": 133,
+      "failed": 12,
+      "failures": [
+        {
+          "name": "Familien-Eck",
+          "address": "Friedensallee 9, Ottensen",
+          "neighborhood": "Ottensen",
+          "lat": 53.557,
+          "lon": 9.966,
+          "distance_to_center": 2486,
+          "max_expected_distance": 2000
+        },
+        {
+          "name": "Berliner Betrüger",
+          "address": "Juliusstraße 15, Sternschanze",
+          "neighborhood": "Schanze",
+          "lat": 53.5665,
+          "lon": 9.9625,
+          "distance_to_center": 1762,
+          "max_expected_distance": 1500
+        },
+        {
+          "name": "Omas Apotheke",
+          "address": "Schanzenstraße 87, Sternschanze",
+          "neighborhood": "Schanze",
+          "lat": 53.566,
+          "lon": 9.972,
+          "distance_to_center": 1772,
+          "max_expected_distance": 1500
+        },
+        {
+          "name": "Boilerman Bar",
+          "address": "Eppendorfer Baum 9, Hoheluft",
+          "neighborhood": "Eppendorf",
+          "lat": 53.572,
+          "lon": 9.97,
+          "distance_to_center": 2321,
+          "max_expected_distance": 2000
+        },
+        {
+          "name": "The Rabbithole Bar",
+          "address": "Bartelsstraße 12, Sternschanze",
+          "neighborhood": "Schanze",
+          "lat": 53.565,
+          "lon": 9.966,
+          "distance_to_center": 1593,
+          "max_expected_distance": 1500
+        },
+        {
+          "name": "Berglund",
+          "address": "Barmbeker Straße 83, Winterhude",
+          "neighborhood": "Barmbek",
+          "lat": 53.583,
+          "lon": 9.988,
+          "distance_to_center": 3365,
+          "max_expected_distance": 3000
+        },
+        {
+          "name": "Efi Bar",
+          "address": "Schulterblatt, Sternschanze",
+          "neighborhood": "Schanze",
+          "lat": 53.565,
+          "lon": 9.968,
+          "distance_to_center": 1607,
+          "max_expected_distance": 1500
+        },
+        {
+          "name": "Gastronomie Pütter",
+          "address": "Harvestehuder Weg 44, Harvestehude",
+          "neighborhood": "Harvestehude",
+          "lat": 53.571,
+          "lon": 10.001,
+          "distance_to_center": 2623,
+          "max_expected_distance": 2000
+        },
+        {
+          "name": "Zum Glaskasten",
+          "address": "Barmbeker Straße 61, Winterhude",
+          "neighborhood": "Barmbek",
+          "lat": 53.5842,
+          "lon": 9.9925,
+          "distance_to_center": 3041,
+          "max_expected_distance": 3000
+        },
+        {
+          "name": "Nikkei Nine Bar",
+          "address": "Neuer Wall 13, Neustadt/Harvestehude",
+          "neighborhood": "Harvestehude",
+          "lat": 53.556,
+          "lon": 9.991,
+          "distance_to_center": 2844,
+          "max_expected_distance": 2000
+        },
+        {
+          "name": "Café Eppendorfer Baum",
+          "address": "Eppendorfer Baum 35, Hoheluft/Rotherbaum",
+          "neighborhood": "Eppendorf",
+          "lat": 53.5725,
+          "lon": 9.97,
+          "distance_to_center": 2272,
+          "max_expected_distance": 2000
+        },
+        {
+          "name": "Harlin",
+          "address": "Neuer Jungfernstieg 9, Harvestehude/Innenstadt",
+          "neighborhood": "Harvestehude",
+          "lat": 53.5555,
+          "lon": 9.9905,
+          "distance_to_center": 2863,
+          "max_expected_distance": 2000
+        }
+      ]
+    }
+  },
+  "test_timestamp": "2026-02-15T17:46:05.971Z",
+  "summary": {
+    "total_tests": 747,
+    "passed": 731,
+    "failed": 16,
+    "success_rate": "97.9%"
+  }
+}

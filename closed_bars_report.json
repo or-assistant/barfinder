@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Die Wohngemeinschaft",
+    "address": "Hoheluftchaussee 62, Hoheluft-West",
+    "status": "closed",
+    "evidence": "Bereits bestätigt geschlossen (bekannt vor diesem Check). Nicht in OSM vorhanden."
+  },
+  {
+    "name": "Edenhall",
+    "address": "Barmbeker Straße 47, Winterhude",
+    "status": "closed",
+    "evidence": "OSM markiert als disused:amenity=pub (check_date: 2025-09-15). Website edenhall-hamburg.de zeigt Abschiedsnachricht (September 2025): 'nach über vier Jahrzehnten [...] heißt es für uns nun Abschied nehmen. In spätestens zwei Wochen werden wir die Türen des Edenhall für immer schließen.' Gründe: Baustelle 2019, Corona, Ukrainekrieg-Folgen, bevorstehender U-Bahnbau."
+  },
+  {
+    "name": "Botanik Distrikt",
+    "address": "Eppendorfer Landstraße, Eppendorf",
+    "status": "uncertain",
+    "evidence": "Website botanikdistrikt.de hat SSL-Fehler und ist nicht erreichbar. Nicht in OSM als aktiv oder geschlossen gefunden. Kein Eintrag in Nominatim. Instagram-Profil existiert noch. Benötigt Vor-Ort-Überprüfung."
+  },
+  {
+    "name": "Kemp's",
+    "address": "Mittelweg 27, Rotherbaum",
+    "status": "uncertain",
+    "evidence": "Website kempspub.de ist jetzt eine Sedo Domain-Parking-Seite. ABER: In OSM noch als aktiver Pub gelistet. Möglicherweise nur Domain abgelaufen, Pub noch offen. Vor-Ort-Check empfohlen."
+  }
+]

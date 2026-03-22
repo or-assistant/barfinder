@@ -1,0 +1,3031 @@
+[
+  {
+    "name": "Zum Silbersack",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Reeperbahn-Legende seit 1949|Schlager|Tischklettern",
+      "atmosphere": "Rauchige Kultkneipe mit Helbing und Schlager. Hier wird auf Tischen getanzt und keiner guckt komisch.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Zum Goldenen Handschuh",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Berüchtigte Honka-Kneipe|Film-Location|Hamburger Berg",
+      "atmosphere": "Die berüchtigtste Kneipe Hamburgs. Nichts für schwache Nerven, aber ein echtes Erlebnis.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Elbschlosskeller",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "24/7 geöffnet|Echtes Kiez-Original",
+      "atmosphere": "Der Laden der nie schließt. 24/7, 365 Tage. Morgens um 6 genauso voll wie nachts um 2.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Erika's Eck",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "immer",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "24/7 Kult-Imbiss-Kneipe|Currywurst & Schnitzel|Kaffee 1,50€",
+      "atmosphere": "Die Kantine der Nachteulen. Currywurst um 4 Uhr morgens neben dem Taxifahrer.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Zwick",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Institution seit Jahrzehnten|Pöseldorf",
+      "atmosphere": "Hamburger Traditionslokal in bester Lage. Hier trifft sich das gehobene Bürgertum zum Feierabend.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Zwick St. Pauli",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Zwick-Ableger am Millerntor",
+      "atmosphere": "Gleiche Zwick-DNA, aber mit St. Pauli-Flair statt Pöseldorf-Eleganz.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Die Glocke",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Institution seit 1977|Isemarkt-Klassiker|Zwickel vom Fass",
+      "atmosphere": "Urgemütliche Kneipe mit bodenständiger Küche. Dienstags und freitags perfekt nach dem Isemarkt.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Schramme 10",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kult-Pub|Guinness vom Fass|Erdnussschalen am Boden",
+      "atmosphere": "Eppendorfer Institution. Erdnussschalen auf dem Boden, Fußball auf dem Fernseher, Guinness in der Hand.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Frau Möller",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Beste Bratkartoffeln der Stadt|Lange Reihe Institution",
+      "atmosphere": "Gemütliche Kneipe an der Langen Reihe. Die Bratkartoffeln sind legendär.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Familien-Eck",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kleinste DJ-Booth der Stadt|Günstige Drinks",
+      "atmosphere": "Ottenser Wohnzimmer mit der kleinsten DJ-Booth Hamburgs. Laut, eng, großartig.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Ratsherrn Klause",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Gegenüber Schanzenpark|Ratsherrn vom Fass|Jukebox",
+      "atmosphere": "Schanzen-Klassiker mit Jukebox und Tanzfläche. Ratsherrn vom Fass und gute Laune.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Holsten-Schwemme",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Herrengedeck|Hausgemachte Mexikaner|Maritime Kneipe",
+      "atmosphere": "Urig und maritim. Der Mexikaner ist hausgemacht und das Herrengedeck Pflichtprogramm.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Hong-Kong Hotel Bar",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Seit 1934|Bester Mexikaner der Stadt|Chinatown-Relikt",
+      "atmosphere": "Hamburgs letztes Chinatown-Relikt. Angeblich der beste Mexikaner der Stadt, definitiv einer der authentischsten Läden.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Old Sailor",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Klein & verraucht|Jukebox|Hamburger Berg",
+      "atmosphere": "Mini-Kneipe am Hamburger Berg. Biertulpen, Jukebox und ehrliche Kiez-Atmosphäre.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Haifisch Bar",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Maritime Kneipe seit 1947|Hafenblick|Brennender Fischergeist",
+      "atmosphere": "Maritime Kultkneipe direkt am Hafen. Der brennende Fischergeist ist Pflicht.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Lehmitz",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Legendäre Spelunke|Fast 24/7|Reeperbahn",
+      "atmosphere": "Die Lehmitz ist Hamburg pur. Anders Petersen hat hier fotografiert, was den Kiez ausmacht.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Le Fonque",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Live-Musik Do-Sa",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Soul, Funk & Jazz|Rauchen erlaubt|Institution",
+      "atmosphere": "Funk und Soul bis in die Morgenstunden. Rauchen erlaubt, tanzen erwünscht.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Kneipe Fasan",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "studenten",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Älteste Studentenkneipe Hamburgs|Biergarten|Bundesliga",
+      "atmosphere": "Seit Ewigkeiten der Treffpunkt für Studenten in Eimsbüttel. Im Sommer großer Biergarten.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Aalhaus",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "weeklyEvents": "Pub Quiz Mi|Live-Konzerte Fr+Sa|DoKo-Turnier",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Pub Quiz|Live-Konzerte|Community-Treffpunkt Altona",
+      "atmosphere": "Altonas Stammkneipe schlechthin. Pub Quiz, Live-Musik und der beste Community-Spirit.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Omas Apotheke",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Schanze-Kult|Rauchen erlaubt",
+      "atmosphere": "Die Schanze in einer Kneipe. Laut, verraucht, immer voll.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Zur Ritze",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "touristen",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Boxring im Keller|Reeperbahn-Institution",
+      "atmosphere": "Die Ritze hat einen echten Boxring im Keller. Oben Kiez-Kneipe, unten wird geboxt.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Meisenfrei",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kult-Kiez-Bar|Spielbudenplatz",
+      "atmosphere": "Party-Kneipe am Spielbudenplatz. Laut, wild und immer für Überraschungen gut.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Zur Scharfen Ecke",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Klassische Kiezkneipe|Maritime Einrichtung|Davidstraße",
+      "atmosphere": "Klassische Kiezkneipe an der Davidstraße mit maritimem Flair und ehrlicher Atmosphäre.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Berliner Betrüger",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Verwinkelte Räume|Kicker|Morgens Café",
+      "atmosphere": "Labyrinthische Schanzenkneipe mit vielen kleinen Räumen. Morgens Café, abends Kneipe.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Hatari Pfälzer Stube",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kiez-Kult am Hamburger Berg",
+      "atmosphere": "Verraucht, laut und voller Charakter. Hamburger Berg in Reinform.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Zum Schellfischposten",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Inas Nacht (unregelmäßig)",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Inas Nacht TV-Location|Altona Fischmarkt",
+      "atmosphere": "Bekannt durch Inas Nacht. Kleine gemütliche Kneipe am Fischmarkt mit Hamburger Seele.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Le Lion — Bar de Paris",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Erfinder des Gin Basil Smash|Weltklasse-Cocktails|Klingel am Eingang",
+      "atmosphere": "Hamburgs beste Cocktailbar. Man klingelt, wird eingelassen und betritt eine Welt aus perfekten Drinks und Jazz.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Boilerman Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "whisky",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "100+ Bourbon-Sorten|Perfekte Highballs|Champagner",
+      "atmosphere": "Kleine, feine Highball-Bar. Jeder Drink sitzt, die Atmosphäre ist warm und einladend.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Christiansen's",
+    "enriched": {
+      "vibe": "klassisch",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Cocktailbar-Legende seit 1999|Nahe Landungsbrücken",
+      "atmosphere": "Die Grande Dame der Hamburger Cocktailszene. Seit 1999 Maßstab für Barkultur.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "The Chug Club",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Buttermilch-Margarita|5er Chug-Menü",
+      "atmosphere": "Kreative Cocktails in lässigem Setting. Das Chug-Menü mit 5 Drinks ist ein Erlebnis.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "The Bohemian",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Drinks zum Malen|Lego-Landschaft|Historische Deichstraße",
+      "atmosphere": "Verrückt kreativ. Cocktails werden als Erlebnis serviert, in einer der ältesten Straßen Hamburgs.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Clockers",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "gin",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Fischbrötchen Martini|Riesige Gin-Auswahl",
+      "atmosphere": "Erstklassige Cocktails in stilvollem Ambiente. Der Fischbrötchen Martini ist Hamburg im Glas.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "dripBAR",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Slow-Drip-Verfahren|Drinks wie 5-Gänge-Menü",
+      "atmosphere": "Avantgarde-Cocktails am Hafen. Jeder Drink ist ein kleines Kunstwerk.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Ba Nomu",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Japanisch inspiriert|Bester Espresso Martini|Gyoza & Tacos",
+      "atmosphere": "Japan trifft St. Pauli. Der Espresso Martini ist legendär, dazu gibt's Gyoza.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Collab Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Chloé Merz|Auch alkoholfrei top",
+      "atmosphere": "Eine der kreativsten Bars der Stadt. Auch alkoholfreie Drinks auf Weltklasse-Niveau.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "The Rabbithole Bar",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "kreative",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Schönste Sitzgelegenheiten Hamburgs|Saisonale Superbunnies",
+      "atmosphere": "Gemütlich wie ein Wohnzimmer, Drinks wie aus dem Wonderland. Perfekter Date-Spot.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Jahreszeiten Bar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "afterwork",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Hotel Vier Jahreszeiten|Klassiker von Enrico Wilhelm",
+      "atmosphere": "Grande Dame unter den Hotelbars. Hier trinkt das alte Hamburg seine Old Fashioneds.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "bar noir Tortue",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Tortue Hotel|L'Avocat mit Avocado-Espuma",
+      "atmosphere": "Stylish und sophisticated. Die Bar im Tortue ist Hamburgs eleganteste Hotelbar-Newcomerin.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Bar 1910",
+    "enriched": {
+      "vibe": "klassisch",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "whisky",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Art-Déco|250 Whiskeys|Hotel Reichshof",
+      "atmosphere": "Art-Déco-Pracht mit 250 Whiskeys. Wie eine Zeitreise ins goldene Zeitalter der Hotelbars.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Central Congress",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Konferenzraum-Stil|Bester Negroni",
+      "atmosphere": "Im Stil eines alten Konferenzraums. Der Negroni hier ist einer der besten der Stadt.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Berglund",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Loungemusik|Große Sessel|Winterhude-Liebling",
+      "atmosphere": "Winterhudes gemütlichste Bar. Große Sessel, leise Musik, perfekt zum Versacken.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Kleinraumdisko",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "70er-Retro-Design|Ledersofas|Discokugeln",
+      "atmosphere": "70er-Jahre-Traum mit Discokugeln und Ledersofas. Cocktails in Retro-Atmosphäre.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Liquid Garden",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Drinks nach Kontinenten sortiert",
+      "atmosphere": "Einmal um die Welt trinken — jeder Kontinent hat seine eigene Karte.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Shape",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Newcomer-Cocktailbar",
+      "atmosphere": "Moderne Cocktailbar mit kreativem Ansatz.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Nikkei Nine Bar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Japanisch-peruanische Fusion|Fairmont Hotel",
+      "atmosphere": "Nikkei-Küche trifft Barkultur im Fairmont. Elegant, exotisch und teuer.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "A wolf will never be a pet",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "naturwein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Kleinste Naturweinbar Hamburgs|Mezze|Stehtresen",
+      "atmosphere": "Winzig, hip und voller Naturwein. Perfekt für ein Date mit Weinnerds.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Efi Bar",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Perfekter Date-Spot|Burrata & Oliven",
+      "atmosphere": "Die vielleicht romantischste Weinbar der Schanze. Burrata, Oliven, Kerzenlicht.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Witwenball",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Massiver Marmortresen|Käseplatte|Steak-Sandwiches",
+      "atmosphere": "Opulent und elegant. Der Marmortresen allein ist eine Reise wert.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Vineyard",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Alte Fabrikhalle|Legendärer Flammkuchen|Innenhof",
+      "atmosphere": "Weinbar in einer alten Fabrikhalle. Riesige Weinregale, toller Flammkuchen, cooler Innenhof.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Dal Fabbro Winebar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Italienisches Weinrestaurant|Fantastische Küche",
+      "atmosphere": "Italienische Weinkultur auf höchstem Niveau. Perfekt für ein elegantes Dinner.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "W die Weinbar",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "500 Weine|60+ glasweise|Bio-Küche",
+      "atmosphere": "Winterhudes Wein-Wohnzimmer. 500 Weine, viele offen, dazu ehrliche Bio-Küche.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Alte Druckerei",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Historische Deichstraße|Crémant zum Frühstück",
+      "atmosphere": "Wunderschön in der ältesten Straße Hamburgs. Crémant und Rosé in historischem Ambiente.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Enchanté",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Aperitivo Bar|Wineballs|Vermouth",
+      "atmosphere": "Aperitivo-Kultur auf St. Pauli. Wineballs und Vermouth statt Craft Beer.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Weinladen St. Pauli",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "locals",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "200+ Weine|Sonnige Nachbarschafts-Perle",
+      "atmosphere": "Nachbarschafts-Weinladen zum Verweilen. Sonnig, entspannt, große Auswahl.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "TWOSIX Rooftop Weinbar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "26. Etage|Hamburgs höchstgelegene Weinbar|Dachterrasse",
+      "atmosphere": "Wein trinken über den Dächern Hamburgs. Panoramablick aus der 26. Etage.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Heritage Bar & Restaurant",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "9. Etage Le Méridien|Alsterblick",
+      "atmosphere": "Weinbar mit exquisitem Alsterblick. Elegant und perfekt für besondere Anlässe.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Gota Weinbar",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "locals",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Geheimtipp Jarrestadt|4.9★|Mediterrane Snacks",
+      "atmosphere": "Einer der bestbewerteten Geheimtipps Hamburgs. Klein, fein, fantastische Weine.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Zur Traube",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Kristalllüster & Holzfässer|Entrecôte|Mediterran-französisch",
+      "atmosphere": "Kristalllüster und alte Holzfässer treffen auf mediterran-französische Küche. Ottenser Perle.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Kleines Jacob",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Hotel Louis C. Jacob|Elbchaussee|Winzerpartys",
+      "atmosphere": "Weinstube im legendären Hotel Jacob an der Elbchaussee. Hamburgs feinste Adresse.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "HADLEY's",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Terrasse|Bergkäse aus Südtirol|Afterwork",
+      "atmosphere": "Beliebte Afterwork-Location in Eimsbüttel. Offene Weine, Terrasse und guter Käse.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Uhlenhorster Weinstube",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Käsefondue|Flammkuchen|Rustikales Ambiente",
+      "atmosphere": "Gemütlich-rustikale Weinstube. Käsefondue und Flammkuchen in weinseliger Atmosphäre.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Piccolo Paradiso",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "naturwein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Ökologische Weine|Vegetarisch|Großneumarkt",
+      "atmosphere": "Kleine Perle am Großneumarkt. Ökologische Weine und vegetarisches Essen mit Liebe.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Dorotheum Weinbar",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Winterhude|Rustikales Ambiente",
+      "atmosphere": "Winterhudes gemütliche Weinecke. Gute Weine in entspannter Atmosphäre.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Restaurant Klinker",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "naturwein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Biodynamische Weine|Saisonal & vegetarisch",
+      "atmosphere": "Naturwein und saisonale vegetarische Küche. Eimsbüttels Antwort auf die Naturwein-Bewegung.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Ufer Weinbar",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Weinbar & Frühstückslokal|Blaubeer-Pancakes",
+      "atmosphere": "Morgens Pancakes, abends Wein. Eimsbütteler Allrounder mit Charme.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Fricke 46",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Treffpunkt zum Leute kennenlernen|Eppendorf",
+      "atmosphere": "Die Flirt-Bar Eppendorfs. Hier lernt man Leute kennen, ob man will oder nicht.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Borchers",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Entspannte Atmosphäre|Eppendorf",
+      "atmosphere": "Gemütliche Eppendorfer Bar mit entspanntem Publikum. Gut für ein Glas Wein zu zweit.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Schröders",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Eppendorfer Klassiker|Bar & Restaurant",
+      "atmosphere": "Eppendorfer Institution. Bar und Restaurant in einem, entspanntes Publikum.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Paola's",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Italienisch inspiriert|Aperitivo|Eppendorf",
+      "atmosphere": "Aperitivo-Feeling in Eppendorf. Italienisch inspiriert, perfekt für laue Abende.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Katze",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "studenten",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "DJs Fr+Sa",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kult-Bar Schanze|Happy Hour|DJs am Wochenende",
+      "atmosphere": "Die Katze ist Schanze-Party pur. Happy Hour nutzen, dann wird getanzt.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Goldfischglas",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "ue35",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Eppendorfer Institution|Schwester der Katze",
+      "atmosphere": "Die erwachsenere Schwester der Katze. Gleiches Konzept, ruhigeres Publikum in Eppendorf.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Botanik Distrikt",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Lavendel-Veilchen-Drinks|Tapas & Bowls|Eppendorf-Hotspot",
+      "atmosphere": "Der Eppendorf-Hotspot. Kreative Drinks mit Blüten und botanischen Zutaten.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Clouds",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "afterwork",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Tanzende Türme|Panoramablick|Sonnenuntergang",
+      "atmosphere": "Hamburg von oben. Sonnenuntergang über dem Hafen mit Schampus in der Hand.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Tower Bar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "13. Stock Hotel Hafen Hamburg|Panorama-Hafenblick",
+      "atmosphere": "Ikonischer Hafenblick aus dem 13. Stock. Einer der besten Ausblicke der Stadt.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Standard",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Aperitivo-Kultur|Gratis Stuzzichini",
+      "atmosphere": "Italienische Aperitivo-Kultur auf St. Pauli. Zu jedem Drink gibt's gratis Häppchen.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Nachtasyl",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "weeklyEvents": "Live-Musik Mi-Fr",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Theater-Bar im Thalia|Kulturflair|Live-Musik",
+      "atmosphere": "Die Bar des Thalia Theaters. Kulturpublikum trifft Nachtschwärmer bei Live-Musik.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Strandpauli",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "wochenende",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Beach-Bar am Hafen|Elbblick|Sommer-Highlight",
+      "atmosphere": "Sand unter den Füßen, Elbe vor der Nase. DAS Sommer-Gefühl in Hamburg.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Café Gnosa",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "immer",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Legendäres Café & Bar|Lange Reihe|LGBTQ+-freundlich",
+      "atmosphere": "Institution an der Langen Reihe. Tagsüber Café, abends Bar, immer willkommen.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Astra Stube",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Live-Konzerte Mi-Sa",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Punk-Charme|Konzertlocation|Altona",
+      "atmosphere": "Punk und Indie live im kleinen Rahmen. Schwitzige Konzerte und billige Drinks.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Häkken",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Live-Musik Di-Sa",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Livemusik-Bar|Spielbudenplatz",
+      "atmosphere": "Hamburgs zuverlässigste Live-Musik-Bar. Fast jeden Abend Bands auf der kleinen Bühne.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Bar du Nord",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Café-Bar Hybrid|Winterhude|Mühlenkamp",
+      "atmosphere": "Tagsüber bester Kaffee, abends Wein und Cocktails. Winterhudes stylishstes Wohnzimmer.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Black Forest Bar",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Schwarzwald-Flair|Kreative Drinks|Eppendorf",
+      "atmosphere": "Cocktailbar mit Schwarzwald-Charme in Eppendorf. Kreative Drinks in gemütlichem Ambiente.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Altes Mädchen",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "craft-beer",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Schanzenhöfe|Ratsherrn-Biere|Craft Beer Restaurant",
+      "atmosphere": "Craft-Beer-Kathedrale in den Schanzenhöfen. Ratsherrn frisch vom Fass, dazu deftige Küche.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Nil",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Neuer Pferdemarkt|Restaurant & Bar",
+      "atmosphere": "Lässiges Restaurant und Bar am Neuen Pferdemarkt. Kreatives Publikum, gute Drinks.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Cox",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Lange Reihe|St. Georg",
+      "atmosphere": "St. Georgs Lieblingsbar. Entspannt, gut besucht, solide Drinks.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Pelican Bar",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Schwester von Katze & Goldfischglas|Happy Hour",
+      "atmosphere": "Die St. Pauli-Schwester von Katze und Goldfischglas. Poppig, günstig, Happy Hour.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "KOPS Bar",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Neuer Pferdemarkt",
+      "atmosphere": "Beliebte Bar am Neuen Pferdemarkt. Lässig und immer gut besucht.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Alsterperle",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": true,
+      "dresscode": "egal",
+      "highlights": "Direkt an der Alster|Kiosk-Bar|Sonnenuntergang",
+      "atmosphere": "Der schönste Kiosk der Stadt. Bier an der Alster bei Sonnenuntergang — mehr Hamburg geht nicht.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Grüner Jäger",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "studenten",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & DJs mehrmals wöchentlich",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Biergarten|Konzerte|Neuer Pferdemarkt",
+      "atmosphere": "Legendärer Club und Bar mit Biergarten. Konzerte, DJs und lange Nächte.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "20up Bar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "20. Etage Empire Riverside|Panoramablick",
+      "atmosphere": "Cocktails in der 20. Etage mit Blick über ganz Hamburg. Beeindruckend bei jedem Besuch.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Ruby Lotti Rooftop Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Rooftop Bar|Ruby Hotel",
+      "atmosphere": "Rooftop-Cocktails im Ruby Hotel. Hip, stylish und mit Ausblick.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Campari Bar",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Aperitivo|Campari-Drinks",
+      "atmosphere": "Italienisches Aperitivo-Feeling mit Campari-Fokus.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "East Hotel Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "East Hotel St. Pauli|Design-Bar",
+      "atmosphere": "Stylische Hotelbar im East. Asiatisch inspiriertes Design trifft Hamburger Nachtleben.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Pony Bar",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "studenten",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Grindelviertel|Party-Kneipe",
+      "atmosphere": "Das Grindelviertel feiert hier. Günstig, laut, studentisch.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Haus 73",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Veranstaltungen mehrmals wöchentlich",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kulturzentrum|Events|Schulterblatt",
+      "atmosphere": "Mehr als eine Bar — Kulturzentrum auf dem Schulterblatt mit wechselndem Programm.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Fleetschlösschen",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Speicherstadt|Kleinstes Café Hamburgs",
+      "atmosphere": "Winziges Café in der Speicherstadt. Perfekt für einen Stopp bei der Speicherstadt-Tour.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Cotton Club",
+    "enriched": {
+      "vibe": "klassisch",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "weeklyEvents": "Live-Jazz täglich",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Ältester Jazzclub Hamburgs|Live-Jazz täglich",
+      "atmosphere": "Hamburgs ältester Jazzclub. Jeden Abend Live-Jazz in intimer Atmosphäre.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Birdland",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "weeklyEvents": "Live-Jazz regelmäßig",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Jazz-Bar|Live-Musik",
+      "atmosphere": "Jazz-Bar mit regelmäßigen Live-Acts. Für Musikliebhaber ein Muss.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Knust",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte mehrmals wöchentlich",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Konzertlocation|Neuer Kamp|Indie & Punk",
+      "atmosphere": "Legendäre Konzertlocation in einer alten Fleischerei. Indie, Punk, Elektro.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Gruenspan",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & Events",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Legendäre Konzerthalle|Große Freiheit",
+      "atmosphere": "Ikonische Konzerthalle an der Großen Freiheit. Hier haben schon die Beatles gespielt.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Fabrik",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & Kulturprogramm",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Kulturzentrum seit 1971|Altona|Konzerte",
+      "atmosphere": "Altonas Kulturinstitution seit 1971. Konzerte, Theater, Lesungen in alter Fabrikhalle.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Indra Club 64",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Live-Musik regelmäßig",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Beatles-Debüt 1960|Große Freiheit",
+      "atmosphere": "Hier haben die Beatles 1960 ihr Hamburg-Debüt gefeiert. Geschichte an jeder Wand.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Komet Musik Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "DJs & Live-Musik",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Eimsbüttel|Musik-Bar",
+      "atmosphere": "Kleine Musik-Bar mit DJs und gelegentlichen Live-Acts.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Liberté",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "afterwork",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "HafenCity|Elbphilharmonie-Nähe",
+      "atmosphere": "Elegante Bar in der HafenCity. Perfekt vor oder nach der Elbphilharmonie.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Rive",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Fischrestaurant|Hafenblick|Kreuzfahrtterminal",
+      "atmosphere": "Hamburgs bekanntestes Fischrestaurant mit Hafenpanorama. Ein Klassiker.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Störtebeker Elbphilharmonie",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "touristen",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "In der Elbphilharmonie|Craft Beer",
+      "atmosphere": "Craft-Beer-Bar im Erdgeschoss der Elbphilharmonie. Touristisch, aber die Location ist einmalig.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Kinfelts Kitchen & Wine",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "afterwork",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "HafenCity|Wein & Küche",
+      "atmosphere": "Modernes Restaurant mit exzellenter Weinkarte in der HafenCity.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Mojo Club",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "weeklyEvents": "Club-Nächte Fr+Sa",
+      "dateSpot": false,
+      "dresscode": "smart-casual",
+      "highlights": "Unter den Tanzenden Türmen|Jazz Soul Elektronik",
+      "atmosphere": "Hamburgs Vorzeige-Club. Jazz, Soul und Elektronik unter den Tanzenden Türmen.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Uebel & Gefährlich",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Club-Nächte Fr+Sa|Konzerte unter der Woche",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Im Flakturm|Feldstraße|Hamburgs bester Club",
+      "atmosphere": "Club im ehemaligen Flakbunker. Einer der besten Clubs Deutschlands, regelmäßig in Top-Listen.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Fundbureau",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Verschiedene Club-Nächte",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Stresemannstraße|Elektro & Indie",
+      "atmosphere": "Kleiner Club mit großem Programm. Elektro, Indie und experimentelle Nächte.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Hafenklang",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & Club mehrmals wöchentlich",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Große Elbstraße|Punk & Indie|Goldener Salon",
+      "atmosphere": "Punk, Indie und Noise in zwei Floors. Der Goldene Salon ist für DJ-Nächte.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Molotow",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & Club fast täglich",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Reeperbahn-Institution|Indie & Punk|Backyard",
+      "atmosphere": "Das Molotow ist Hamburgs Indie-Herz. Konzerte, DJs und der legendäre Backyard.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Club Hamburg",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "weeklyEvents": "Club-Nächte Fr+Sa",
+      "dateSpot": false,
+      "dresscode": "smart-casual",
+      "highlights": "Reeperbahn|Schickerer Club",
+      "atmosphere": "Hamburgs schickerer Club auf der Reeperbahn. Türpolitik, Dresscode, aber guter Sound.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Baalsaal",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Club-Nächte Fr+Sa",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Reeperbahn|Techno & House",
+      "atmosphere": "Techno und House auf der Reeperbahn. Dunkel, basslastig, schweisstreibend.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Headcrash",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Indie & Alternative|Kleine Bühne",
+      "atmosphere": "Kleiner Club für Indie, Punk und Alternative. Verschwitzt und ehrlich.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "INDRA Musikclub",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Beatles-Historie|Große Freiheit",
+      "atmosphere": "Historischer Musikclub an der Großen Freiheit. Beatles-Geschichte und aktuelle Live-Acts.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Kaiserkeller",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Beatles-Keller|Große Freiheit",
+      "atmosphere": "Im Kaiserkeller haben die Beatles gespielt. Heute Live-Musik und Club im historischen Gewölbe.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Docks",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & Club-Nächte",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Spielbudenplatz|Konzerte & Club",
+      "atmosphere": "Vielseitige Konzert- und Clublocation am Spielbudenplatz.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Logo",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Grindelviertel|Indie-Konzerte",
+      "atmosphere": "Kleiner Indie-Club im Grindelviertel. Nah an der Bühne, verschwitzt, authentisch.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Terrace Hill",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "smart-casual",
+      "highlights": "Tanzende Türme|Rooftop",
+      "atmosphere": "Club über den Dächern in den Tanzenden Türmen.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Große Freiheit Nr.7",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "touristen",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Große Freiheit|Party-Club",
+      "atmosphere": "Party-Club an der Großen Freiheit. Touristisch, aber immer volle Hütte.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Noho",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "smart-casual",
+      "highlights": "Reeperbahn|Schicker Club",
+      "atmosphere": "Eleganterer Club auf der Reeperbahn. Ü30-Publikum und guter Sound.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Volt",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Techno|Reeperbahn",
+      "atmosphere": "Techno-Club auf der Reeperbahn. Für die, die es dunkel und basslastig mögen.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Prinzenbar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Konzerte & Club|Kastanienallee",
+      "atmosphere": "Elegantere Schwester des Docks. Konzerte und Club-Nächte in schönem Ambiente.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "ÜberQuell",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "wochenende",
+      "specials": "craft-beer",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Craft-Brauhaus|Neapel-Pizza|7 Eigenbraue|Hafenblick",
+      "atmosphere": "Craft Beer brauen, Neapel-Pizza backen, Hafen gucken. Sommer-Paradies.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Strandperle",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": true,
+      "dresscode": "egal",
+      "highlights": "Hamburgs berühmtester Strandkiosk|Elbstrand|Containerschiffe gucken",
+      "atmosphere": "DER Kiosk am Elbstrand. Flaschenbier, Strandkorb und Containerschiffe. Hamburg-Feeling pur.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "AlsterCliff",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "afterwork",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Direkt an der Alster|Terrasse",
+      "atmosphere": "Schicke Terrasse direkt an der Alster. Perfekt für Afterwork mit Stil.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Schumachers Biergarten",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Biergarten Schanze",
+      "atmosphere": "Gemütlicher Biergarten in der Schanze.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Bobby Reich",
+    "enriched": {
+      "vibe": "klassisch",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Alster-Institution|Bootsverleih|Terrasse",
+      "atmosphere": "Hamburger Institution an der Alster. Kaffee, Kuchen und Boote seit Ewigkeiten.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Karo Beach",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Beach-Bar Karolinenviertel",
+      "atmosphere": "Beach-Feeling mitten im Karoviertel. Sand, Liegestühle und kaltes Bier.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Zur Flottbeker Schmiede",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Biergarten Flottbek",
+      "atmosphere": "Gemütlicher Biergarten in Flottbek. Idyllisch und familienfreundlich.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Murphy's Irish Pub",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Live-Musik täglich",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Täglich Live-Musik|Bis 7 Uhr morgens|Kiez",
+      "atmosphere": "Irischer Pub mit Live-Musik jeden Abend. Mittwoch bis Freitag bis 7 Uhr morgens geöffnet.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Molly Malone's",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Irischer Pub",
+      "atmosphere": "Solider Irish Pub mit Guinness und gelegentlicher Live-Musik.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "The Shamrock",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Irischer Pub|Feldstraße",
+      "atmosphere": "Authentischer Irish Pub an der Feldstraße.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Beyond Beer",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "craft-beer",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Craft Beer Store & Taproom|Tastings|Braukurse",
+      "atmosphere": "Das Mekka für Craft-Beer-Fans. Hunderte Biere, Tastings und Braukurse.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Ratsherrn Brauerei",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "craft-beer",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Hamburgs größte Craft-Brauerei|Schanzenhöfe|Brauerei-Touren",
+      "atmosphere": "Hamburgs Vorzeige-Brauerei in den Schanzenhöfen. Touren, Tastings und frisches Bier.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Galopper",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Grindelhof|Uni-Nähe",
+      "atmosphere": "Gemütliche Bar am Grindelhof. Beliebt bei Studenten und Anwohnern gleichermaßen.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Meyer Lansky's",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Speakeasy-Stil|Versteckte Bar",
+      "atmosphere": "Speakeasy-Bar im Stil der Prohibition. Versteckt, intim und mit exzellenten Cocktails.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Oorlam",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Bahrenfeld|Moderne Bar",
+      "atmosphere": "Moderne Bar mit kreativen Cocktails. Bahrenfelds Aufsteiger.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Nochtspeicher",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Konzerte & Lesungen",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Bernhard-Nocht-Straße|Kultur & Musik",
+      "atmosphere": "Kulturlocation an der Bernhard-Nocht-Straße. Konzerte, Lesungen und Bar in einem.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Gloria",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Bellealliancestraße|Bar & Club",
+      "atmosphere": "Hippe Bar mit gelegentlichen Club-Nächten. Kreatives Eimsbüttel-Publikum.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Mathilde Bar",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Ottensen",
+      "atmosphere": "Kleine, intime Bar in Ottensen. Gute Drinks, ruhige Atmosphäre.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Eisenstein",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Friedensallee|Restaurant & Bar|Ottensen",
+      "atmosphere": "Ottenser Kult-Restaurant mit Bar. Alte Fabrikhalle, gute Pizza, entspanntes Publikum.",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Pyjama Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "25hours Hotel|Hafencity",
+      "atmosphere": "Bar im 25hours Hotel. Hip, bunt und immer für einen Absacker gut.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Bar Hamburg",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Reeperbahn|Schickere Bar",
+      "atmosphere": "Elegantere Seite der Reeperbahn. Cocktails statt Bier, Stil statt Krawall.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Waterkant",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "wochenende",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "HafenCity|Terrasse",
+      "atmosphere": "Lässige Bar in der HafenCity mit großer Terrasse am Wasser.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Zipang",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Japanisch|Eppendorfer Weg",
+      "atmosphere": "Japanisch inspirierte Bar und Restaurant. Sake und kreative Drinks.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "After Work Club - Café Schöne Aussichten",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "business",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Alster|Afterwork-Location",
+      "atmosphere": "Der Name ist Programm. Afterwork an der Alster mit schöner Aussicht.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Erste Liebe Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "St. Pauli|Newcomer",
+      "atmosphere": "Sympathische Bar auf St. Pauli. Der Name verspricht nicht zu viel.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Freundlich + Kompetent",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Live-Musik Fr+Sa",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "F+K|Mundsburg|Live-Musik|Kicker",
+      "atmosphere": "Sympathische Nachbarschaftskneipe in Mundsburg. Live-Musik am Wochenende und Kicker.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Kemp's",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "English Pub|British Cuisine|Rotherbaum",
+      "atmosphere": "Authentischer English Pub in Rotherbaum. Fish & Chips und Ale in britischem Ambiente.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Klimperkiste",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Kneipe bis 4 Uhr|Gute Cocktails|Neustadt",
+      "atmosphere": "Abseits vom Kiez-Trubel. Solide Cocktails und Late-Night-Programm in der Neustadt.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "(10) and counting",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "studenten",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Geheimtipp|Günstige Drinks|Kicker",
+      "atmosphere": "Schanzen-Geheimtipp. Günstige Drinks, gute Musik und Kicker.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Tante Gerda",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Eimsbüttel|Nachbarschaftskneipe",
+      "atmosphere": "Eimsbütteler Wohnzimmer-Kneipe. Klein, sympathisch, lokal.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Absinth",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Absinth-Spezialitäten",
+      "atmosphere": "Bar mit Absinth-Fokus. Für Abenteuerlustige und Grüne-Fee-Fans.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Neumann's am Grindel",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Flammkuchen|Weinbar Grindel",
+      "atmosphere": "Gemütliche Weinbar am Grindelhof. Flammkuchen und guter Wein.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "VIA DEI MILLE",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Italienische Winebar|Ristorante|Eppendorf",
+      "atmosphere": "Italienische Weinkultur in Eppendorf. Klassiker aus allen Regionen Italiens.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Vin Aqua Vin",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "wein",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Wein-Fachgeschäft & Bar|Seminare",
+      "atmosphere": "Mehr Fachgeschäft als Bar, aber gemütlich zum Verweilen mit einem Glas.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Kleinhuis' Café & Weinstube",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Komponistenquartier|Zwischen Michel & Staatsoper",
+      "atmosphere": "Kulturelle Weinoase im Komponistenquartier. Perfekt nach Oper oder Michel-Besuch.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Mutter",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "studenten",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Schanze|Party-Kneipe",
+      "atmosphere": "Schanzen-Kneipe zum Vorglühen und Weggehen. Günstig und immer voll.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Eldorado",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Schanze|Bar",
+      "atmosphere": "Schanzen-Bar mit relaxter Atmosphäre.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Tiefgang Bar",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Barmbek",
+      "atmosphere": "Barmbeker Bar mit Tiefgang. Abseits der typischen Ausgehviertel.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "BrewDog St. Pauli",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "craft-beer",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Craft Beer Kette|St. Pauli",
+      "atmosphere": "Die schottische Craft-Beer-Kette auf St. Pauli. Große Auswahl, gut für Bier-Entdecker.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Meerwein",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "HafenCity|Weinbar",
+      "atmosphere": "Weinbar in der HafenCity. Entspannt, modern, maritim.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Bambi auf St. Pauli",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Paul-Roosen-Straße|Alternative Szene",
+      "atmosphere": "Treffpunkt der alternativen Szene auf St. Pauli. Klein, bunt, politisch.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Harlin",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "business",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Speicherstadt|Grand Hotel",
+      "atmosphere": "Elegante Bar im Ameron Hotel in der Speicherstadt. Für besondere Anlässe.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Lilli Escher",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Eimsbüttel",
+      "atmosphere": "Hippe Bar in Eimsbüttel mit kreativen Drinks.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Monkeys Music Club",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "weeklyEvents": "Live-Konzerte",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Live-Musik|Rock & Indie",
+      "atmosphere": "Kleiner, lauter Musikclub. Rock und Indie live.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Downtown Bluesclub",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "weeklyEvents": "Live-Blues regelmäßig",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Blues|Live-Musik",
+      "atmosphere": "Hamburgs Blues-Adresse. Live-Blues in authentischer Atmosphäre.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Jolly Roger",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Reeperbahn|Rock-Bar",
+      "atmosphere": "Rock-Bar auf der Reeperbahn. Laut, wild, metallisch.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Café Leonar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Grindelhof|Kulturcafé",
+      "atmosphere": "Kulturcafé am Grindelhof. Lesungen, Ausstellungen und guter Wein.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Leib & Seele",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Eppendorf|Bar & Restaurant",
+      "atmosphere": "Gemütliches Bar-Restaurant in Eppendorf. Gute Küche und entspannte Atmosphäre.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Baradona",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Ottensen",
+      "atmosphere": "Ottenser Bar mit guten Drinks und entspanntem Vibe.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Bar Same Same",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Asiatisch inspiriert",
+      "atmosphere": "Asiatisch angehauchte Bar mit kreativen Cocktails.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Nick&Nora",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Speakeasy-Vibes",
+      "atmosphere": "Cocktailbar mit Speakeasy-Charakter. Intim und mit exzellenten Drinks.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Haco36",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Cocktailbar",
+      "atmosphere": "Moderne Cocktailbar mit kreativen Eigenkreationen.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Absturz",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "No-frills Kiez-Kneipe|Hamburger Berg",
+      "atmosphere": "Kein Schnickschnack, nur Bier und Kiez. Der Name ist Programm.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Eimseck",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Billard|Darts|Kicker",
+      "atmosphere": "Eimsbütteler Nachbarschaftstreff. Billard, Darts, Kicker — alles da.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Zentrale",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Nachbarschaftskneipe",
+      "atmosphere": "Solide Nachbarschaftskneipe zum gemütlichen Feierabendbier.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Fritz Bauch",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Eimsbüttel|Traditionskneipe",
+      "atmosphere": "Gemütliche Traditionskneipe in Eimsbüttel.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Pöseldorf Krug",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Pöseldorf|Traditionslokal",
+      "atmosphere": "Traditionslokal im feinen Pöseldorf. Gehoben-gemütlich.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "1700 Winery Bar",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "business",
+      "priceLevel": "€€",
+      "bestTime": "afterwork",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Barceló Hotel|Vinothek",
+      "atmosphere": "Moderne Weinlounge im Barceló Hotel. Gut für ein spontanes Glas nach der Arbeit.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Maison 16",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "naturwein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Naturwein|Schanze",
+      "atmosphere": "Naturweinbar in der Schanze. Klein, hip und mit kuratierter Auswahl.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Sommersalon",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "late-night",
+      "specials": "cocktails",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Club|Bar|Spielbudenplatz",
+      "atmosphere": "Club und Bar am Spielbudenplatz. Wechselnde Events und gute DJs.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Café Treibeis",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Ottensen|Nachbarschaftskneipe",
+      "atmosphere": "Ottenser Nachbarschaftskneipe mit Charme.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Guter Wein Weinlokal",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Weinproben|Weinseminare|Eppendorf",
+      "atmosphere": "Eppendorfs Adresse für Weinseminare und gemütliche Weinabende.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Gastronomie Pütter",
+    "enriched": {
+      "vibe": "elegant",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Außenalster|Weinhandel & Restaurant",
+      "atmosphere": "Restaurant und Weinhandel direkt an der Außenalster. Erlesene Weine mit Wasserblick.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Restaurant Schoppenhauer",
+    "enriched": {
+      "vibe": "rustikal",
+      "crowd": "ue35",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Speicherstadt|Uriges Fachwerk",
+      "atmosphere": "Uriges Fachwerkhaus gegenüber der Speicherstadt. Herzhafte Küche und erlesene Weine.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Kostbar",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Nachbarschaftskneipe",
+      "atmosphere": "Gemütliche Kneipe für den entspannten Feierabend.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Bertels",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Traditionskneipe",
+      "atmosphere": "Solide Hamburger Traditionskneipe.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Das grüne Leuchten",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Karolinenviertel|Alternative Bar",
+      "atmosphere": "Kleine alternative Bar im Karoviertel mit Charakter.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Goldbeker",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "locals",
+      "priceLevel": "€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Winterhude|Nachbarschaftskneipe",
+      "atmosphere": "Winterhuder Nachbarschaftskneipe am Goldbekkanal.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Thier",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Eimsbüttel|Moderne Bar",
+      "atmosphere": "Moderne Bar in Eimsbüttel mit guten Drinks und angenehmem Publikum.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Frieda B.",
+    "enriched": {
+      "vibe": "wild",
+      "crowd": "kreative",
+      "priceLevel": "€",
+      "bestTime": "late-night",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "St. Pauli|Elektro & Indie",
+      "atmosphere": "Kleiner Club auf St. Pauli. Elektro und Indie für Nachtschwärmer.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Neumanns Bistro St. Georg",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Lange Reihe|Flammkuchen|Weine aus aller Welt",
+      "atmosphere": "Wein und Flammkuchen an der Langen Reihe. Gemütlich und solide.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Il Garage",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "wein",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Österreich-Schwerpunkt|Ottensen|Abendsonne",
+      "atmosphere": "Weinbar mit Fokus auf österreichische Weine. Im Sommer Abendsonne vor der Tür.",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Max und Consorten",
+    "enriched": {
+      "vibe": "lässig",
+      "crowd": "gemischt",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "casual",
+      "highlights": "Sternschanze|Bar & Restaurant",
+      "atmosphere": "Bar und Restaurant in der Sternschanze. Entspannt und beliebt.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Vier Drei Neun",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "kreative",
+      "priceLevel": "€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "casual",
+      "highlights": "Eimsbüttel|Kreative Bar",
+      "atmosphere": "Kreative Bar in Eimsbüttel mit eigenem Charakter.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Hamburgische Biergarten",
+    "enriched": {
+      "vibe": "gemütlich",
+      "crowd": "gemischt",
+      "priceLevel": "€",
+      "bestTime": "wochenende",
+      "specials": "bier",
+      "dateSpot": false,
+      "dresscode": "egal",
+      "highlights": "Biergarten",
+      "atmosphere": "Klassischer Hamburger Biergarten zum Entspannen.",
+      "confidence": "low"
+    }
+  },
+  {
+    "name": "Rooftop Dune",
+    "enriched": {
+      "vibe": "hip",
+      "crowd": "gemischt",
+      "priceLevel": "€€€",
+      "bestTime": "wochenende",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Rooftop|St. Pauli",
+      "atmosphere": "Rooftop-Bar auf St. Pauli. Cocktails über den Dächern des Kiezes.",
+      "confidence": "low"
+    }
+  }
+]
