@@ -8,13 +8,13 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#0a0a0a">
 <title>Barfinder Hamburg | Bars, Kneipen & Nightlife in Echtzeit</title>
-<meta name="description" content="Finde die besten Bars, Kneipen, Cocktailbars und Biergaerten in Hamburg. Echtzeit VibeScores, Oeffnungszeiten, Events und personalisierte Empfehlungen. Ueber 4.700 Locations.">
+<meta name="description" content="Finde die besten Bars, Kneipen, Cocktailbars und Biergaerten in Hamburg. Echtzeit VibeScores, Oeffnungszeiten und personalisierte Empfehlungen. Ueber 4.700 Locations.">
 <meta name="keywords" content="Bars Hamburg, Kneipen Hamburg, Nightlife Hamburg, Cocktailbars, Biergarten Hamburg, Ausgehen Hamburg, Barfinder, VibeScore">
 <meta name="author" content="CAPS & COLLARS GmbH">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://oliver-roessling.claw.clawy.io/barfinder/">
 <meta property="og:title" content="Barfinder Hamburg | Bars, Kneipen & Nightlife in Echtzeit">
-<meta property="og:description" content="Finde die besten Bars in Hamburg mit Echtzeit VibeScores. Ueber 4.700 Locations, Events, Wetter und personalisierte Empfehlungen.">
+<meta property="og:description" content="Finde die besten Bars in Hamburg mit Echtzeit VibeScores. Ueber 4.700 Locations, Wetter und personalisierte Empfehlungen.">
 <meta property="og:image" content="https://oliver-roessling.claw.clawy.io/barfinder/static/og.png">
 <meta property="og:url" content="https://oliver-roessling.claw.clawy.io/barfinder/">
 <meta property="og:type" content="website">
@@ -340,6 +340,14 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
 
 /* BOTTOM NAV */
 .bottom-nav{position:fixed;left:0;right:0;bottom:0;z-index:800;display:flex;justify-content:space-around;align-items:center;height:var(--nav-h);padding-bottom:var(--safe-bottom);background:rgba(10,10,10,.85);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-top:1px solid rgba(255,255,255,.06)}
+.burger-menu{position:fixed;inset:0;z-index:900}
+.burger-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+.burger-sheet{position:absolute;bottom:var(--nav-h);left:50%;transform:translateX(-50%);width:min(320px,calc(100% - 32px));background:var(--surface);border-radius:16px;padding:8px 0;box-shadow:0 -4px 30px rgba(0,0,0,.4);border:1px solid var(--border)}
+.burger-item{display:flex;align-items:center;gap:12px;padding:14px 20px;font-size:.88rem;color:var(--text);cursor:pointer;transition:background .15s}
+.burger-item:hover,.burger-item:active{background:var(--surface2)}
+.burger-item span:first-child{font-size:1.1rem;width:24px;text-align:center}
+.burger-divider{border:none;border-top:1px solid var(--border);margin:4px 16px}
+[data-theme="light"] .burger-sheet{background:#fff;border-color:rgba(0,0,0,.08);box-shadow:0 -4px 30px rgba(0,0,0,.15)}
 .nav-btn{display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:none;cursor:pointer;padding:6px 20px;color:var(--text3);transition:color .2s;font-family:inherit}
 .nav-btn.active{color:var(--text)}
 .nav-btn .nav-icon{font-size:1.3rem}
@@ -496,12 +504,6 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
   .vibe-reco { max-width: 560px }
   .vibe-reco:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,.3) }
 
-  /* ── Events Feed: 2 columns via grid ── */
-  #eventsFeed { display: grid; grid-template-columns: 1fr 1fr; gap: 12px }
-  #eventsFeed .ev-feed-card { margin-bottom: 0; width: auto }
-  #eventsFeed .ev-day-header { grid-column: 1 / -1; margin: 0 }
-  #eventsFeed .ev-cat-header { grid-column: 1 / -1; margin: 0 }
-
   /* ── Methodik wider ── */
   .methodik { max-width: 800px }
 
@@ -598,7 +600,6 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
 @media (min-width: 1100px) {
   .quick-grid { grid-template-columns: repeat(8, 1fr) }
   #tonightSection { grid-template-columns: repeat(3, 1fr) }
-  #eventsFeed { grid-template-columns: repeat(3, 1fr) }
   /* Cards get more room at 3-col, relax sizing */
   .tonight-card .tc-icon { width: 42px; height: 42px; min-width: 42px }
   .tonight-card .tc-name { font-size: .85rem }
@@ -692,7 +693,6 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
     <button class="loc-btn" data-sort="hot" onclick="setSortMode('hot')">🔥 Hot</button>
   </div>
   <div id="tonightSection" class="section"></div>
-  <div id="eventsSection" class="section"></div>
 
   <!-- METHODIK -->
   <div class="methodik" id="methodik">
@@ -715,7 +715,7 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
             <div>B<sub style="font-size:.7em">i</sub> = Base Score [15, 65] &cap; max 70</div>
             <div>D<sub style="font-size:.7em">w</sub> = Tag-Faktor [0.35, 1.0]</div>
             <div>H<sub style="font-size:.7em">c,h</sub> = Stunden-Kurve Kategorie c, Stunde h</div>
-            <div>&Sigma;&beta;<sub style="font-size:.7em">k</sub> = Summe aller Boosts (Wetter, Events, Stadtteil, Semester, Tageslicht, Wind)</div>
+            <div>&Sigma;&beta;<sub style="font-size:.7em">k</sub> = Summe aller Boosts (Wetter, Grossevents, Stadtteil, Semester, Tageslicht, Wind)</div>
             <div>S<sub style="font-size:.7em">m</sub> = Saison-Faktor [0.5, 1.1]</div>
             <div>W<sub style="font-size:.7em">&phi;</sub> = Wetter-Penalty [0.6, 1.0]</div>
             <div>O<sub style="font-size:.7em">i</sub> = Offen-Faktor [0.25, 1.0]</div>
@@ -760,7 +760,6 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
           <li>🎓 <strong>Semester:</strong> Vorlesungszeit = +3 in jungen Vierteln, Ferien = -4</li>
           <li>🌅 <strong>Tageslicht:</strong> Lange Sommerabende = Biergarten-Bonus</li>
           <li>💰 <strong>Payweek:</strong> Monatsanfang +5%, Monatsende -3%</li>
-          <li>🎉 <strong>Events/Afterwork:</strong> Lokale Events, Afterwork-Tage</li>
         </ul>
 
         <h4>✖️ Multiplikative Penalties</h4>
@@ -780,13 +779,11 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
         <div class="data-sources">
           <span class="ds-tag">🗄️ Eigene DB (4.787 Locations)</span>
           <span class="ds-tag">⭐ Community Score (188)</span>
-          <span class="ds-tag">🎫 Events (Multi-Source)</span>
           <span class="ds-tag">🌤️ Open-Meteo (Wetter + Forecast)</span>
           <span class="ds-tag">🎉 date.nager.at (Feiertage)</span>
           <span class="ds-tag">🏙️ Stadtteil-Index (18 Bezirke)</span>
           <span class="ds-tag">🎪 Grossevent-Kalender Hamburg</span>
           <span class="ds-tag">🎓 Uni-Semester-Kalender</span>
-          <span class="ds-tag">🤝 Luma + Eventbrite Events</span>
           <span class="ds-tag">📡 RSS Pipeline</span>
           <span class="ds-tag">📰 szene-hamburg.de</span>
           <span class="ds-tag">🎉 Mit Vergn&uuml;gen Hamburg</span>
@@ -834,17 +831,6 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
   <div class="map-sheet-scroll" id="mapSheetScroll"></div>
 </div>
 
-<!-- ═══ EVENTS TAB ═══ -->
-<!-- AFTERWORK TAB -->
-<div class="feed" id="feedAfterwork">
-  <div class="header">
-    <div class="header-greeting" style="font-size:.8rem;color:var(--text2)">Feierabend 🍻</div>
-    <div class="header-title" style="font-size:1.6rem;font-weight:900">Afterwork in Hamburg</div>
-  </div>
-  <div id="awCalendar"></div>
-  <div id="awRegulars" style="margin-top:20px"></div>
-</div>
-
 <div class="feed" id="feedEvents">
   <div class="header">
     <div class="header-greeting">Netzwerk & Events</div>
@@ -879,16 +865,24 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
 <!-- ═══ NAV ═══ -->
 <nav class="bottom-nav">
   <button class="nav-btn active" data-tab="heute"><span class="nav-icon">⚡</span><span class="nav-label">Heute</span></button>
-  <button class="nav-btn" data-tab="afterwork"><span class="nav-icon">🪩</span><span class="nav-label">Afterwork</span></button>
   <button class="nav-btn" data-tab="map"><span class="nav-icon">🗺️</span><span class="nav-label">Karte</span></button>
   <button class="nav-btn" data-tab="events"><span class="nav-icon">🤝</span><span class="nav-label">Events</span></button>
-  <button class="nav-btn" data-tab="sources"><span class="nav-icon">📡</span><span class="nav-label">Quellen</span></button>
-  <button class="nav-btn" onclick="toggleTheme();event.stopPropagation()" style="opacity:.6"><span class="nav-icon" id="themeIcon">🌙</span><span class="nav-label">Theme</span></button>
-  <button class="nav-btn" onclick="toggleLang();event.stopPropagation()" style="opacity:.6"><span class="nav-icon">🌐</span><span class="nav-label" id="langLabel">EN</span></button>
-  <button class="nav-btn" onclick="openLegalOverlay();event.stopPropagation()" style="opacity:.6"><span class="nav-icon">§</span><span class="nav-label">Impressum</span></button>
-  <button class="nav-btn" onclick="openAgbOverlay();event.stopPropagation()" style="opacity:.6"><span class="nav-icon">📋</span><span class="nav-label">AGB</span></button>
-  <button class="nav-btn" id="authNavBtn" onclick="handleAuthClick();event.stopPropagation()" style="opacity:.8"><span class="nav-icon" id="authNavIcon">👤</span><span class="nav-label" id="authNavLabel">Login</span></button>
+  <button class="nav-btn" id="authNavBtn" onclick="handleAuthClick();event.stopPropagation()"><span class="nav-icon" id="authNavIcon">👤</span><span class="nav-label" id="authNavLabel">Login</span></button>
+  <button class="nav-btn" onclick="toggleBurger();event.stopPropagation()"><span class="nav-icon">☰</span><span class="nav-label">Mehr</span></button>
 </nav>
+
+<!-- ═══ BURGER MENU ═══ -->
+<div id="burgerMenu" class="burger-menu" style="display:none">
+  <div class="burger-backdrop" onclick="toggleBurger()"></div>
+  <div class="burger-sheet">
+    <div class="burger-item" onclick="switchTab('sources');toggleBurger()"><span>📡</span> Quellen</div>
+    <div class="burger-item" onclick="toggleTheme();toggleBurger()"><span id="burgerThemeIcon">🌙</span> Theme</div>
+    <div class="burger-item" onclick="toggleLang();toggleBurger()"><span>🌐</span> <span id="burgerLangLabel">Sprache</span></div>
+    <hr class="burger-divider">
+    <div class="burger-item" onclick="openLegalOverlay();toggleBurger()"><span>§</span> Impressum & Datenschutz</div>
+    <div class="burger-item" onclick="openAgbOverlay();toggleBurger()"><span>📋</span> AGB</div>
+  </div>
+</div>
 
 <!-- ═══ LEGAL OVERLAY (Impressum & Datenschutz) ═══ -->
 <div class="legal-overlay" id="legalOverlay">
@@ -968,15 +962,15 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
 function detectLang(s,k,d){const v=localStorage.getItem(k);if(v&&s.includes(v))return v;const b=(navigator.language||'').split('-')[0].toLowerCase();if(s.includes(b))return b;return d||'de'}
 let currentLang=detectLang(['de','en'],'bf-lang','de');
 const BF_I18N={
-  de:{today:'Heute',afterwork:'Afterwork',map:'Karte',events:'Events',sources:'Quellen',search:'Bar, Stadtteil, Adresse oder Stimmung...',mapSearch:'Bar, Club oder Adresse...',home:'Mein Standort',location:'Standort',locPlaceholder:'Adresse eingeben...',locActive:'Aktueller Standort',locBackGps:'zurueck zu GPS',radius:'Radius',vibe:'Vibe',distance:'Entfernung',rating:'Bewertung',hot:'Hot',open:'Geoffnet',closed:'Geschlossen',likelyOpen:'Vermutlich offen',opensLater:'Oeffnet spaeter',statusUnknown:'Status unklar',favorites:'Deine Favoriten',discover:'Entdecken',nearby:'Umfeld',checkin:'Check-in',methodology:'Wie wir bewerten',allTime:'Alle',tomorrow:'Morgen',thisWeek:'Diese Woche',later:'Spaeter',networkEvents:'Netzwerk & Events',whatsOn:'Was <span>laeuft</span> diese Woche?',dataPipeline:'Daten-Pipeline',sourcesStatus:'<span>Quellen</span> & Status',whatLookingFor:'Was suchst du?',quiet:'Gerade ruhig',meetPeople:'Hier triffst du Leute',opensSoon:'Oeffnet bald',morningGreet:'Schon Durst?',afternoonGreet:'Nachmittags-Drink?',eveningGreet:'Guten Abend!',lateGreet:['Noch unterwegs?','Letzte Runde?','Nachtschicht'],morningTitle:'Was ist heute <span>los</span>?',afternoonTitle:'Wo geht heute <span>was</span>?',eveningTitle:"Wo geht's <span>heute hin</span>?",lateTitle:'Was geht <span>jetzt noch</span>?',afterworkTitle:'Afterwork in Hamburg',afterworkGreet:'Feierabend'},
-  en:{today:'Today',afterwork:'Afterwork',map:'Map',events:'Events',sources:'Sources',search:'Bar, district, address or vibe...',mapSearch:'Bar, club or address...',home:'My Location',location:'Location',locPlaceholder:'Enter address...',locActive:'Current location',locBackGps:'back to GPS',radius:'Radius',vibe:'Vibe',distance:'Distance',rating:'Rating',hot:'Hot',open:'Open',closed:'Closed',likelyOpen:'Likely open',opensLater:'Opens later',statusUnknown:'Status unknown',favorites:'Your Favorites',discover:'Discover',nearby:'Nearby',checkin:'Check-in',methodology:'How we rate',allTime:'All',tomorrow:'Tomorrow',thisWeek:'This Week',later:'Later',networkEvents:'Network & Events',whatsOn:'What\'s <span>happening</span> this week?',dataPipeline:'Data Pipeline',sourcesStatus:'<span>Sources</span> & Status',whatLookingFor:'What are you looking for?',quiet:'Quiet right now',meetPeople:'Meet people here',opensSoon:'Opens soon',morningGreet:'Thirsty already?',afternoonGreet:'Afternoon drink?',eveningGreet:'Good evening!',lateGreet:['Still out?','Last round?','Night owl'],morningTitle:'What\'s <span>on</span> today?',afternoonTitle:'Where\'s <span>something</span> going on?',eveningTitle:'Where to <span>go tonight</span>?',lateTitle:'What\'s <span>still open</span>?',afterworkTitle:'Afterwork in Hamburg',afterworkGreet:'After work'}
+  de:{today:'Heute',events:'Events',map:'Karte',sources:'Quellen',networkEvents:'Netzwerk & Events',whatsOn:'Was <span>läuft</span> diese Woche?',search:'Bar, Stadtteil, Adresse oder Stimmung...',mapSearch:'Bar, Club oder Adresse...',home:'Mein Standort',location:'Standort',locPlaceholder:'Adresse eingeben...',locActive:'Aktueller Standort',locBackGps:'zurueck zu GPS',radius:'Radius',vibe:'Vibe',distance:'Entfernung',rating:'Bewertung',hot:'Hot',open:'Geoffnet',closed:'Geschlossen',likelyOpen:'Vermutlich offen',opensLater:'Oeffnet spaeter',statusUnknown:'Status unklar',favorites:'Deine Favoriten',discover:'Entdecken',nearby:'Umfeld',checkin:'Check-in',methodology:'Wie wir bewerten',dataPipeline:'Daten-Pipeline',sourcesStatus:'<span>Quellen</span> & Status',whatLookingFor:'Was suchst du?',quiet:'Gerade ruhig',meetPeople:'Hier triffst du Leute',opensSoon:'Oeffnet bald',morningGreet:'Schon Durst?',afternoonGreet:'Nachmittags-Drink?',eveningGreet:'Guten Abend!',lateGreet:['Noch unterwegs?','Letzte Runde?','Nachtschicht'],morningTitle:'Was ist heute <span>los</span>?',afternoonTitle:'Wo geht heute <span>was</span>?',eveningTitle:"Wo geht's <span>heute hin</span>?",lateTitle:'Was geht <span>jetzt noch</span>?'},
+  en:{today:'Today',events:'Events',map:'Map',sources:'Sources',networkEvents:'Network & Events',whatsOn:'What\'s <span>happening</span> this week?',search:'Bar, district, address or vibe...',mapSearch:'Bar, club or address...',home:'My Location',location:'Location',locPlaceholder:'Enter address...',locActive:'Current location',locBackGps:'back to GPS',radius:'Radius',vibe:'Vibe',distance:'Distance',rating:'Rating',hot:'Hot',open:'Open',closed:'Closed',likelyOpen:'Likely open',opensLater:'Opens later',statusUnknown:'Status unknown',favorites:'Your Favorites',discover:'Discover',nearby:'Nearby',checkin:'Check-in',methodology:'How we rate',dataPipeline:'Data Pipeline',sourcesStatus:'<span>Sources</span> & Status',whatLookingFor:'What are you looking for?',quiet:'Quiet right now',meetPeople:'Meet people here',opensSoon:'Opens soon',morningGreet:'Thirsty already?',afternoonGreet:'Afternoon drink?',eveningGreet:'Good evening!',lateGreet:['Still out?','Last round?','Night owl'],morningTitle:'What\'s <span>on</span> today?',afternoonTitle:'Where\'s <span>something</span> going on?',eveningTitle:'Where to <span>go tonight</span>?',lateTitle:'What\'s <span>still open</span>?'}
 };
 function applyBfLang(){
   const t=BF_I18N[currentLang];
   document.getElementById('langLabel').textContent=currentLang==='de'?'EN':'DE';
   // Nav labels
   const navLabels=document.querySelectorAll('.nav-btn .nav-label');
-  const nlMap=['today','afterwork',null,'events','sources'];
+  const nlMap=['today',null,'sources'];
   navLabels.forEach((el,i)=>{if(nlMap[i]&&t[nlMap[i]])el.textContent=t[nlMap[i]]});
   // Search placeholders
   const hs=document.getElementById('heuteSearchInput');if(hs)hs.placeholder=t.search;
@@ -1002,19 +996,11 @@ function applyBfLang(){
   const discBtn=document.querySelector('#discoverHeroBtn .vh-title');if(discBtn)discBtn.textContent='🔍 '+t.discover;
   const nearBtn=document.querySelector('#nearbyHeroBtn .vh-title');if(nearBtn)nearBtn.textContent='📍 '+t.nearby;
   const ciBtn=document.querySelector('#checkinHeroBtn .vh-title');if(ciBtn)ciBtn.textContent='📍 '+t.checkin;
-  // Events tab
+  // Sources tab
   const evGreet=document.querySelector('#feedEvents .header-greeting');if(evGreet)evGreet.textContent=t.networkEvents;
   const evTitle=document.querySelector('#feedEvents .header-title');if(evTitle)evTitle.innerHTML=t.whatsOn;
-  // Sources tab
   const srcGreet=document.querySelector('#feedSources .header-greeting');if(srcGreet)srcGreet.textContent=t.dataPipeline;
   const srcTitle=document.querySelector('#feedSources .header-title');if(srcTitle)srcTitle.innerHTML='📡 '+t.sourcesStatus;
-  // Afterwork tab
-  const awGreet=document.querySelector('#feedAfterwork .header-greeting');if(awGreet)awGreet.textContent=t.afterworkGreet+' 🍻';
-  const awTitle=document.querySelector('#feedAfterwork .header-title');if(awTitle)awTitle.textContent=t.afterworkTitle;
-  // Event time filters
-  const etBtns=document.querySelectorAll('#eventTimeFilter .loc-btn');
-  const etLabels=[t.allTime,t.today,t.tomorrow,t.thisWeek,t.later];
-  etBtns.forEach((b,i)=>{if(etLabels[i])b.textContent=etLabels[i]});
   document.documentElement.lang=currentLang;
 }
 function toggleLang(){
@@ -1140,7 +1126,7 @@ function showRatingPrompt(name){
       <button onclick="ratePlace('${esc(name)}','bad')" style="flex:1;padding:14px;border:none;border-radius:12px;background:rgba(255,69,58,.15);color:var(--closed);font-size:1.2rem;cursor:pointer">👎 Naja</button>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:16px" id="ratingTags">
-      ${['🎵 Musik','🍸 Gute Drinks','👥 Voll','😌 Leer','💬 Gute Stimmung','🔇 Ruhig','💕 Date-tauglich','👔 Afterwork','🌿 Draußen schön'].map(t=>`<button class="rating-tag" onclick="this.classList.toggle('active')" style="padding:6px 12px;border-radius:20px;border:1px solid var(--surface2);background:transparent;color:var(--text2);font-size:.75rem;cursor:pointer">${t}</button>`).join('')}
+      ${['🎵 Musik','🍸 Gute Drinks','👥 Voll','😌 Leer','💬 Gute Stimmung','🔇 Ruhig','💕 Date-tauglich','🌿 Draußen schön'].map(t=>`<button class="rating-tag" onclick="this.classList.toggle('active')" style="padding:6px 12px;border-radius:20px;border:1px solid var(--surface2);background:transparent;color:var(--text2);font-size:.75rem;cursor:pointer">${t}</button>`).join('')}
     </div>
     <button onclick="submitRating('${esc(name)}')" style="width:100%;padding:14px;border:none;border-radius:12px;background:var(--blue);color:#fff;font-weight:700;font-size:.9rem;cursor:pointer">Bewertung abschicken</button>
     <button onclick="document.getElementById('ratingPrompt').remove()" style="width:100%;padding:10px;border:none;background:transparent;color:var(--text2);font-size:.8rem;cursor:pointer;margin-top:8px">Überspringen</button>
@@ -2016,7 +2002,6 @@ const FILTER_DEFS=[
   {icon:'🍀',label:'Irish Pub',id:'irish',match:p=>p.category==='irish-pub'},
   {icon:'🍸',label:'Cocktails',id:'cocktail',match:p=>p.category==='cocktailbar'},
   {icon:'🍷',label:'Wein',id:'wine',match:p=>p.category==='wine'||p.category==='weinbar'||/wein|wine/i.test((p.tags||[]).join(' '))},
-  {icon:'🪩',label:'Afterwork',id:'afterwork',match:null,custom:true},
   {icon:'🌿',label:'Biergarten',id:'biergarten',match:p=>p.category==='biergarten'||/biergarten/i.test((p.name||'')+' '+(p.tags||[]).join(' '))},
   {icon:'☕',label:'Café',id:'cafe',match:p=>p.category==='cafe'||/café|cafe/i.test((p.tags||[]).join(' ')+' '+(p.category||''))},
   {icon:'🎵',label:'Live-Musik',id:'livemusic',match:p=>p.liveMusic===true||/live.?musik|live.?music|jazz.?club|blues.?club|open.?mic|live.?band/i.test((p.description||'')+' '+(p.name||'')+' '+(p.tags||[]).join(' '))},
@@ -2094,8 +2079,6 @@ function showVibeRecommendation(){
   if(sf.windPenalty&&sf.windPenalty!==0)bonuses.push({label:'Wind',value:sf.windPenalty,icon:'💨',positive:false});
   if(sf.weatherDynamics&&sf.weatherDynamics!==0)bonuses.push({label:'vs. Gestern',value:(sf.weatherDynamics>0?'+':'')+sf.weatherDynamics,icon:sf.weatherDynamics>0?'📈':'📉',positive:sf.weatherDynamics>0});
   if(sf.majorEventBoost)bonuses.push({label:'Grossevent',value:'+'+sf.majorEventBoost,icon:'🎪',positive:true});
-  if(sf.eventBoost)bonuses.push({label:'Lokales Event',value:'+'+sf.eventBoost,icon:'🎉',positive:true});
-  if(sf.afterworkBoost&&curHour>=16&&curHour<=20)bonuses.push({label:'Afterwork',value:'+'+sf.afterworkBoost,icon:'🍻',positive:true});
   if(sf.stadtteilMod&&sf.stadtteilMod!==0)bonuses.push({label:'Viertel',value:(sf.stadtteilMod>0?'+':'')+Math.round(sf.stadtteilMod),icon:'🏙️',positive:sf.stadtteilMod>0});
   if(sf.semesterMod&&sf.semesterMod!==0)bonuses.push({label:sf.semesterMod>0?'Uni-Betrieb':'Semesterferien',value:(sf.semesterMod>0?'+':'')+sf.semesterMod,icon:'🎓',positive:sf.semesterMod>0});
   if(sf.daylightMod&&sf.daylightMod!==0)bonuses.push({label:sf.daylightMod>0?'Langer Abend':'Dunkelheit',value:(sf.daylightMod>0?'+':'')+sf.daylightMod,icon:sf.daylightMod>0?'🌅':'🌑',positive:sf.daylightMod>0});
@@ -2242,26 +2225,6 @@ function toggleMethodik(){
   toggle.setAttribute('aria-expanded',open);
 }
 
-// Afterwork schedule cache
-let _afterworkToday=null;
-let _afterworkDayName='';
-async function loadAfterworkToday(){
-  if(_afterworkToday)return _afterworkToday;
-  try{
-    const params=S.userLat?`?lat=${S.userLat}&lon=${S.userLon}`:'';
-    const r=await fetch(BASE_PATH+'/api/afterwork/today'+params);
-    const d=await r.json();
-    _afterworkToday=new Set(d.locations.map(l=>l.name));
-    _afterworkDayName=d.dayName;
-    // Attach afterwork info to places
-    d.locations.forEach(loc=>{
-      const p=S.places.find(pp=>pp.name===loc.name);
-      if(p){p._afterworkTime=loc.afterworkTime;p._afterworkDesc=loc.afterworkDescription;}
-    });
-    return _afterworkToday;
-  }catch(e){console.error('Afterwork fetch failed',e);_afterworkToday=new Set();return _afterworkToday;}
-}
-
 function toggleFilter(cat){
   if(activeFilters.has(cat))activeFilters.delete(cat);
   else{
@@ -2271,12 +2234,6 @@ function toggleFilter(cat){
   }
   document.getElementById('vibeHeroBtn').classList.toggle('active',activeFilters.has('sort_vibe'));
   renderQuickFilters();
-  if(cat==='afterwork'){
-    activeFilters.delete('afterwork');
-    hideAfterworkPanel();
-    switchTab('afterwork');
-    return;
-  }
   // When a category filter is activated and we have few matching places, load more
   const catFilters=FILTER_DEFS.filter(f=>activeFilters.has(f.id)&&f.match);
   if(catFilters.length>0){
@@ -2322,100 +2279,14 @@ window._placeCache=[];
 function _cachePlace(p){window._placeCache.push(p);return window._placeCache.length-1;}
 function _getPlace(idx){return window._placeCache[idx]||null;}
 
-// ═══ AFTERWORK PANEL ═══
-let _afterworkScheduleFull=null;
-let afterworkSchedule={locations:[]};
-async function loadAfterworkScheduleFull(){
-  if(_afterworkScheduleFull)return _afterworkScheduleFull;
-  try{
-    const r=await fetch(BASE_PATH+'/api/afterwork/schedule');
-    _afterworkScheduleFull=await r.json();
-    return _afterworkScheduleFull;
-  }catch(e){return null;}
-}
-function renderAfterworkPanel(){
-  let panel=document.getElementById('afterworkPanel');
-  if(!panel){
-    panel=document.createElement('div');
-    panel.id='afterworkPanel';
-    const ts=document.getElementById('tonightSection');
-    ts.parentNode.insertBefore(panel,ts);
-  }
-  const dayNames=['So','Mo','Di','Mi','Do','Fr','Sa'];
-  const fullDayNames=['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
-  const now=new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Berlin'}));
-  const today=now.getDay();
-  
-  // Show today's afterwork with all schedule info
-  const schedule=JSON.parse(localStorage.getItem('_awSchedule')||'[]');
-  
-  // Build weekday tabs
-  const awDays=[3,4,5]; // Mi, Do, Fr - typical afterwork days
-  if(!awDays.includes(today)&&_afterworkToday&&_afterworkToday.size>0)awDays.unshift(today);
-  
-  let html=`<div style="background:var(--surface);border-radius:16px;padding:16px;margin-bottom:16px">
-    <div style="font-size:1rem;font-weight:800;color:var(--text);margin-bottom:12px">🪩 Afterwork in Hamburg</div>`;
-  
-  if(_afterworkToday&&_afterworkToday.size>0){
-    html+=`<div style="font-size:.85rem;font-weight:700;color:var(--open);margin-bottom:8px">Heute ${fullDayNames[today]} — ${_afterworkToday.size} Locations</div>`;
-    // Show today's afterwork locations with details
-    const todayPlaces=S.places.filter(p=>_afterworkToday.has(p.name));
-    todayPlaces.forEach(p=>{
-      const idx=_cachePlace(p);
-      html+=`<div onclick="showDetail(_getPlace(${idx}))" style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);cursor:pointer">
-        <div style="font-size:1.3rem">${getCatIcon(p.category)}</div>
-        <div style="flex:1;min-width:0">
-          <div style="font-size:.85rem;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(p.name)}</div>
-          <div style="font-size:.72rem;color:var(--text2)">${p._afterworkDesc||p.district||''}</div>
-        </div>
-        <div style="text-align:right">
-          <div style="font-size:.78rem;font-weight:700;color:var(--hot)">${p._afterworkTime||'ab 17h'}</div>
-          ${p.distance?`<div style="font-size:.68rem;color:var(--text2)">${getDist(p)}</div>`:''}
-        </div>
-      </div>`;
-    });
-  }else{
-    // Show upcoming afterwork days with their events
-    html+=`<div style="font-size:.85rem;color:var(--text2);margin-bottom:12px">${fullDayNames[today]} — keine Afterwork-Events</div>`;
-    // Find next days with afterwork and show what's on
-    const schedule=afterworkSchedule||{locations:[]};
-    const upcoming=[];
-    for(let offset=1;offset<=7&&upcoming.length<3;offset++){
-      const d=(today+offset)%7;
-      const locs=(schedule.locations||[]).filter(l=>(l.days||[]).includes(d));
-      if(locs.length>0)upcoming.push({day:d,dayName:fullDayNames[d],offset,locs});
-    }
-    upcoming.forEach(u=>{
-      const label=u.offset===1?'Morgen':u.offset===2?'Übermorgen':u.dayName;
-      html+=`<div style="margin-bottom:12px">
-        <div style="font-size:.82rem;font-weight:700;color:var(--open);margin-bottom:6px">📅 ${label} (${u.dayName}) — ${u.locs.length} Events</div>`;
-      u.locs.forEach(l=>{
-        html+=`<div style="display:flex;justify-content:space-between;padding:4px 0;font-size:.78rem;border-bottom:1px solid var(--border)">
-          <span style="color:var(--text)">${esc(l.description||l.name)}</span>
-          <span style="color:var(--hot);font-weight:600;white-space:nowrap;margin-left:8px">${l.time||'ab 17h'}</span>
-        </div>`;
-      });
-      html+=`</div>`;
-    });
-  }
-  html+=`</div>`;
-  panel.innerHTML=html;
-}
-function hideAfterworkPanel(){
-  const p=document.getElementById('afterworkPanel');
-  if(p)p.remove();
-}
-
 function renderTonightFeed(){
   const el=document.getElementById('tonightSection');
   // Apply category filters (multi-select, client-side)
   let list=[...S.places];
   const catFilters=FILTER_DEFS.filter(f=>activeFilters.has(f.id)&&f.match);
-  const afterworkActive=activeFilters.has('afterwork');
-  if(catFilters.length>0||afterworkActive){
+  if(catFilters.length>0){
     list=list.filter(p=>{
-      if(afterworkActive&&_afterworkToday&&_afterworkToday.has(p.name))return true;
-      if(catFilters.length>0&&catFilters.some(f=>f.match(p)))return true;
+      if(catFilters.some(f=>f.match(p)))return true;
       return false;
     });
   }
@@ -2558,7 +2429,6 @@ function renderTonightFeed(){
     // Priority 3: Special features (only if space left)
     if(p.smoker) tags.push('<span class="tc-tag" style="background:rgba(255,255,255,.08);color:var(--text2)">🚬 Raucher</span>');
     if(tags.length < 3 && p.liveMusic) tags.push('<span class="tc-tag event">🎵 Live</span>');
-    if(tags.length < 3 && p.has_events) tags.push('<span class="tc-tag event">🎉 Event</span>');
     if(tags.length < 3 && p.communityScore && p.communityScore >= 70) tags.push(`<span class="tc-tag" style="background:rgba(255,193,7,.12);color:#FFC107">⭐ ${p.communityScore}/100</span>`);
     
     const _pi=_cachePlace(p);
@@ -2590,7 +2460,7 @@ function renderTonightFeed(){
   }).join('')}`;
 }
 
-// ═══ EVENTS TAB ═══
+// ═══ EVENTS ═══
 const VIBES=[
   {id:'ai_tech',label:'🤖 AI & Tech',kw:/\bai\b|artificial|intelligence|agents?|llm|machine learning|deep.?tech|quantum|robotics|tech/i},
   {id:'startup',label:'🚀 Startups',kw:/startup|gründer|founder|venture|pitch|incubat|accelerat/i},
@@ -2711,6 +2581,7 @@ function formatDate(s){
     return'📅 '+d.toLocaleDateString('de-DE',{weekday:'long',month:'short',day:'numeric'});
   }catch{return'📅 '+s}
 }
+
 
 // ═══ MAP ═══
 let _leafletLoaded=false;
@@ -3114,15 +2985,19 @@ document.addEventListener('click',e=>{
 });
 
 // ═══ TAB NAVIGATION ═══
+function toggleBurger(){
+  const m=document.getElementById('burgerMenu');
+  m.style.display=m.style.display==='none'?'block':'none';
+}
+
 function switchTab(tab){
   currentTab=tab;
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
 
   // Hide all
   document.getElementById('feedHeute').classList.remove('active');
-  document.getElementById('feedAfterwork').classList.remove('active');
-  document.getElementById('mapTab').classList.remove('active');
   document.getElementById('feedEvents').classList.remove('active');
+  document.getElementById('mapTab').classList.remove('active');
   document.getElementById('feedSources').classList.remove('active');
   document.getElementById('mapSearch').style.display='none';
   document.getElementById('mapChips').style.display='none';
@@ -3130,9 +3005,6 @@ function switchTab(tab){
 
   if(tab==='heute'){
     document.getElementById('feedHeute').classList.add('active');
-  }else if(tab==='afterwork'){
-    document.getElementById('feedAfterwork').classList.add('active');
-    renderAfterworkTab();
   }else if(tab==='map'){
     document.getElementById('mapTab').classList.add('active');
     document.getElementById('mapSearch').style.display='block';
@@ -3580,190 +3452,6 @@ document.addEventListener('click',e=>{
   if(_searchActive&&!e.target.closest('#heuteSearch'))closeSearchDropdown();
 });
 
-// ═══ AFTERWORK TAB ═══
-let _awSelectedDay=null; // null = auto (today or next day with events)
-let _afterworkEventsCache=null;
-async function loadAfterworkEvents(){
-  if(_afterworkEventsCache)return _afterworkEventsCache;
-  try{
-    const r=await fetch(BASE_PATH+'/api/events');
-    const d=await r.json();
-    _afterworkEventsCache=d.afterwork||[];
-  }catch(e){_afterworkEventsCache=[];}
-  return _afterworkEventsCache;
-}
-async function renderAfterworkTab(){
-  // Wait for places to be loaded
-  if(!S.places||!S.places.length){
-    const el=document.getElementById('awCalendar');
-    el.innerHTML='<div style="text-align:center;padding:20px;color:var(--text2)">Lade Daten...</div>';
-    setTimeout(()=>renderAfterworkTab(),500);
-    return;
-  }
-  if(!_afterworkScheduleFull) await loadAfterworkScheduleFull();
-  const awEvents=await loadAfterworkEvents();
-  const schedule=_afterworkScheduleFull||{locations:[]};
-  const locs=schedule.locations||[];
-  
-  const now=new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Berlin'}));
-  const fullDays=['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
-
-  // ── Collect ALL afterwork events for next 30 days ──
-  const allItems=[];
-  
-  // 1. Real events from scrapers (with dates)
-  (awEvents||[]).forEach(ev=>{
-    if(!ev.date)return;
-    const d=new Date(ev.date);
-    const diff=Math.floor((d-now)/(1000*60*60*24));
-    if(diff<0||diff>30)return;
-    allItems.push({
-      type:'event', date:d, dateStr:ev.date.substring(0,10),
-      title:ev.title||'Afterwork Event', time:ev.time||'',
-      location:ev.location||'Hamburg', description:ev.description||'',
-      url:ev.url||'', price:ev.price||''
-    });
-  });
-  
-  // 2. Recurring schedule locations — generate for next 14 days
-  for(let offset=0;offset<14;offset++){
-    const d=new Date(now);d.setDate(d.getDate()+offset);
-    const dow=d.getDay();
-    const dateStr=d.toISOString().split('T')[0];
-    locs.filter(l=>(l.days||[]).includes(dow)).forEach(l=>{
-      allItems.push({
-        type:'regular', date:d, dateStr,
-        title:l.eventName||l.name, time:l.time||'ab 17h',
-        location:l.name, description:l.description||'',
-        placeName:l.name, seasonal:l.seasonal||''
-      });
-    });
-  }
-  
-  // Sort by date, then time
-  allItems.sort((a,b)=>{
-    const dc=a.dateStr.localeCompare(b.dateStr);
-    if(dc!==0)return dc;
-    return(a.time||'').localeCompare(b.time||'');
-  });
-  
-  // ── Group by date ──
-  const grouped={};
-  allItems.forEach(item=>{
-    if(!grouped[item.dateStr])grouped[item.dateStr]=[];
-    grouped[item.dateStr].push(item);
-  });
-  
-  // ── Render Calendar ──
-  const cal=document.getElementById('awCalendar');
-  let html='';
-  
-  const dates=Object.keys(grouped).sort();
-  if(dates.length===0){
-    html=`<div style="text-align:center;padding:40px 20px;color:var(--text2)">
-      <div style="font-size:2rem;margin-bottom:12px">📅</div>
-      <div style="font-size:.9rem;font-weight:700">Keine Afterwork-Events in den nächsten 30 Tagen</div>
-    </div>`;
-    cal.innerHTML=html;
-    return;
-  }
-  
-  dates.forEach(dateStr=>{
-    const items=grouped[dateStr];
-    const d=new Date(dateStr+'T12:00:00');
-    const isToday=dateStr===now.toISOString().split('T')[0];
-    const isTomorrow=dateStr===new Date(new Date(now).setDate(now.getDate()+1)).toISOString().split('T')[0];
-    const dayLabel=isToday?'Heute':isTomorrow?'Morgen':fullDays[d.getDay()];
-    const dateLabel=d.toLocaleDateString('de-DE',{day:'numeric',month:'long'});
-    const eventCount=items.filter(i=>i.type==='event').length;
-    const regularCount=items.filter(i=>i.type==='regular').length;
-    
-    html+=`<div style="margin-bottom:20px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;padding:8px 0;border-bottom:1px solid var(--border)">
-        <div style="width:48px;text-align:center;flex-shrink:0">
-          <div style="font-size:.65rem;font-weight:700;color:${isToday?'var(--hot)':'var(--text2)'};text-transform:uppercase">${dayLabel}</div>
-          <div style="font-size:1.4rem;font-weight:900;color:${isToday?'var(--hot)':'var(--text)'}">${d.getDate()}</div>
-        </div>
-        <div style="flex:1">
-          <div style="font-size:.82rem;font-weight:700;color:var(--text)">${dateLabel}</div>
-          <div style="font-size:.68rem;color:var(--text2)">${eventCount?eventCount+' Event'+(eventCount>1?'s':''):''}${eventCount&&regularCount?' + ':''}${regularCount?regularCount+' Location'+(regularCount>1?'s':''):''}</div>
-        </div>
-      </div>`;
-    
-    items.forEach(item=>{
-      // Find matching place for both event and regular types
-      const placeName=item.type==='event'?item.location:item.placeName;
-      const place=S.places?S.places.find(p=>p.name===placeName)||S.places.find(p=>(p.name||'').toLowerCase()===(placeName||'').toLowerCase()):null;
-      const idx=place?_cachePlace(place):-1;
-      const isFav=isFavorite(placeName);
-      const isOpen=place&&osIsOpen(place);
-      const vibe=place?(place.vibeScore||0):0;
-      const cat=place?getCatIcon(place.category):'🪩';
-      const dist=place?getDist(place):'';
-      const isEvent=item.type==='event';
-      // If place found → open detail. If event with URL → open URL. Otherwise → Google Maps search
-      let cardClick;
-      if(idx>=0) cardClick=`onclick="openDetail(_getPlace(${idx}))"`;
-      else if(item.url) cardClick=`onclick="window.open('${item.url}','_blank')"`;
-      else cardClick=`onclick="window.open('https://www.google.com/maps/search/${encodeURIComponent(placeName+' Hamburg')}','_blank')"`;
-      
-      html+=`<div ${cardClick} class="tonight-card" style="position:relative;margin-bottom:8px${isEvent?';border:1px solid rgba(255,107,53,.15)':''}">
-        <div class="tc-top">
-          <div class="tc-icon" style="background:${isEvent?'linear-gradient(135deg,rgba(255,107,53,.2),rgba(255,149,0,.15))':'rgba(255,255,255,.06)'}">${isEvent?'🎫':cat}</div>
-          <div class="tc-info">
-            <div class="tc-name">${esc(isEvent?item.title:placeName)}</div>
-            <div class="tc-sub">
-              ${isEvent?`<span>${esc(item.location)}</span>`:`<span>${place?getCatName(place.category):'Afterwork'}</span>`}
-              <span>·</span>
-              <span>${item.time||''}</span>
-              ${dist?`<span>·</span><span>${dist}</span>`:''}
-            </div>
-          </div>
-          <div style="text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px">
-            ${vibe>0?`<div class="tc-score">${place.vibeEmoji||'👀'} ${vibe}%${place.vibeReason?`<div class="tc-reason">${place.vibeReason}</div>`:''}</div>`:''}
-            <span class="fav-btn" onclick="event.stopPropagation();toggleFavorite('${escJs(placeName)}')" style="position:static;font-size:.9rem;filter:none;opacity:.7">${isFav?'❤️':'🤍'}</span>
-          </div>
-        </div>
-        <div class="tc-tags">
-          ${isEvent?'<span class="tc-tag" style="background:rgba(255,107,53,.12);color:var(--hot)">🎫 Event</span>':''}
-          ${place&&place.openStatus?`<span class="tc-tag" style="background:${osIsOpen(place)?'rgba(52,199,89,.12)':'rgba(142,142,147,.1)'};color:${osColor(place)}">${(place.openStatus||{}).emoji} ${(place.openStatus||{}).label}</span>`:''}
-          ${item.seasonal?`<span class="tc-tag" style="background:rgba(255,149,0,.12);color:#FF9500">☀️ ${esc(item.seasonal)}</span>`:''}
-          ${item.price?`<span class="tc-tag" style="background:rgba(255,193,7,.12);color:#FFC107">💰 ${esc(item.price)}</span>`:''}
-        </div>
-      </div>`;
-    });
-    
-    html+=`</div>`;
-  });
-  
-  cal.innerHTML=html;
-  
-  // ── Regulars Section (collapsible) ──
-  const reg=document.getElementById('awRegulars');
-  const uniqueRegulars=[...new Map(locs.map(l=>[l.name,l])).values()];
-  reg.innerHTML=`
-    <div onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none';this.querySelector('.chevron').textContent=this.nextElementSibling.style.display==='none'?'›':'⌄'" style="display:flex;align-items:center;gap:8px;padding:12px 0;cursor:pointer;border-top:1px solid var(--border)">
-      <span style="font-size:.72rem;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:1px">🪩 Alle ${uniqueRegulars.length} Afterwork-Locations</span>
-      <span class="chevron" style="color:var(--text2);font-size:.8rem">›</span>
-      <span style="flex:1;height:1px;background:var(--border)"></span>
-    </div>
-    <div style="display:none">${uniqueRegulars.map(l=>{
-      // Fuzzy match: try exact, then lowercase, then includes
-      const lName=(l.name||'').toLowerCase();
-      const place=S.places?(S.places.find(p=>p.name===l.name)||S.places.find(p=>(p.name||'').toLowerCase()===lName)||S.places.find(p=>(p.name||'').toLowerCase().includes(lName)||lName.includes((p.name||'').toLowerCase()))):null;
-      const idx=place?_cachePlace(place):-1;
-      const clickAttr=idx>=0?`onclick="openDetail(_getPlace(${idx}))"`:`onclick="window.open('https://www.google.com/maps/search/${encodeURIComponent(l.name+' Hamburg')}','_blank')"`;
-      const dayLabels=['So','Mo','Di','Mi','Do','Fr','Sa'];
-      const dayStr=(l.days||[]).map(d=>dayLabels[d]).join(', ');
-      return`<div ${clickAttr} style="padding:10px 0;border-bottom:1px solid var(--border);cursor:pointer;display:flex;align-items:center;gap:10px">
-        <div style="flex:1;min-width:0">
-          <div style="font-size:.82rem;font-weight:600">${esc(l.name)}</div>
-          <div style="font-size:.68rem;color:var(--text2)">${dayStr} · ${l.time||'ab 17h'}</div>
-        </div>
-      </div>`;
-    }).join('')}</div>`;
-}
-
 // Desktop: mouse wheel → horizontal scroll for horizontal containers
 document.querySelectorAll('.hero-scroll, .fav-scroll, .disc-scroll, .loc-toggle, .map-chips').forEach(el=>{
   el.addEventListener('wheel',e=>{
@@ -4133,7 +3821,7 @@ checkAuthStatus();
 <!-- SEO Content (sichtbar fuer Suchmaschinen, verborgen fuer Nutzer) -->
 <div style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden" aria-hidden="true">
 <h1>Barfinder Hamburg: Bars, Kneipen & Nightlife in Echtzeit</h1>
-<p>Barfinder ist die umfassendste App fuer das Hamburger Nachtleben. Mit Echtzeit VibeScores findest du sofort heraus, wo gerade was los ist. Ueber 4.700 Bars, Kneipen, Cocktailbars, Biergaerten und Clubs in Hamburg. Inklusive Oeffnungszeiten, Events, Wettereinfluss und Community Bewertungen.</p>
+<p>Barfinder ist die umfassendste App fuer das Hamburger Nachtleben. Mit Echtzeit VibeScores findest du sofort heraus, wo gerade was los ist. Ueber 4.700 Bars, Kneipen, Cocktailbars, Biergaerten und Clubs in Hamburg. Inklusive Oeffnungszeiten, Wettereinfluss und Community Bewertungen.</p>
 
 <h2>Stadtteile in Hamburg</h2>
 <p>St. Pauli, Schanzenviertel, Altona, Eimsbuettel, Ottensen, St. Georg, Winterhude, Barmbek, Uhlenhorst, HafenCity, Neustadt, Altstadt, Wandsbek, Bergedorf, Harburg, Blankenese, Eppendorf, Hoheluft, Rotherbaum, Karolinenviertel, Sternschanze, Reeperbahn.</p>
@@ -4145,7 +3833,6 @@ checkAuthStatus();
 <ul>
 <li>Echtzeit VibeScore: Wahrscheinlichkeit fuer gute Stimmung (0-100)</li>
 <li>Wetter Integration: Automatische Anpassung bei Regen oder Sonnenschein</li>
-<li>Event Kalender: Aktuelle Veranstaltungen aus ueber 10 Quellen</li>
 <li>Oeffnungszeiten: Live Status ob geoeffnet oder geschlossen</li>
 <li>Community Bewertungen: Echte Nutzerbewertungen aus Hamburg</li>
 <li>Kartenansicht: Alle Bars auf einer interaktiven Karte</li>

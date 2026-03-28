@@ -1,6 +1,6 @@
 {
-  "passed": 8,
-  "failed": 6,
+  "passed": 2,
+  "failed": 12,
   "warnings": 0,
   "tests": [
     {
@@ -35,7 +35,8 @@
     },
     {
       "name": "API /api/places responds",
-      "status": "pass"
+      "status": "fail",
+      "detail": "count=undefined"
     },
     {
       "name": "API /api/hot responds",
@@ -47,23 +48,28 @@
     },
     {
       "name": "Vibe scores in range 0-100",
-      "status": "pass"
+      "status": "error",
+      "detail": "Cannot read properties of undefined (reading 'filter')"
     },
     {
       "name": "Max 200 results returned",
-      "status": "pass"
+      "status": "fail",
+      "detail": "count=undefined"
     },
     {
       "name": "Cache google_ratings_cache.json is valid JSON",
-      "status": "pass"
+      "status": "fail",
+      "detail": "File not found"
     },
     {
       "name": "Cache bar_events_cache.json is valid JSON",
-      "status": "pass"
+      "status": "fail",
+      "detail": "File not found"
     },
     {
       "name": "Cache events_cache.json is valid JSON",
-      "status": "pass"
+      "status": "fail",
+      "detail": "File not found"
     }
   ]
 }

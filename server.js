@@ -330,10 +330,8 @@ let lastOverpassRequest = 0;
 // Datenquellen (nur Datenbank und OSM)
 // ═══════════════════════════════════════════════════════════════
 let popularTimesData = {};
-let eventsData = {};
 let realTimeData = {};
 let communityScoreCache = {};
-let afterworkSchedule = { locations: [] };
 
 // Load community scores from database
 try {
@@ -404,12 +402,12 @@ const VIBE_CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 
 // List fields for lightweight list responses
 const LIST_FIELDS = ['name', 'lat', 'lon', 'category', 'vibeScore', 'vibeEmoji', 'isOpen', 'communityScore',
-  '_dist', 'vibeLabel', 'vibeTrend', 'isNowPerfect', 'has_events', 'tags', 'address', 'hotScore',
+  '_dist', 'vibeLabel', 'vibeTrend', 'isNowPerfect', 'tags', 'address', 'hotScore',
   'openStatus', 'vibeReason', 'vibePeak', 'vibePeakHour', 'vibeFactors', 'neighborhood',
   'description', 'liveMusic', 'outdoor_seating', 'smoker'];
 
-// ══════════════════════════════════════════
-// 🎵 STATIC EVENTS (placeholder)
+
+
 // TODO: Replace with weekly cron scraping from szene-hamburg.com, Meetup, Eventbrite
 // ══════════════════════════════════════════
 const STATIC_EVENTS = eventsConfig.static_events;
@@ -515,7 +513,7 @@ function getNetworkEvents() {
   } catch(e) { console.log('⚠️ Curated events merge error:', e.message); }
 
   // NUR echte Events — keine Fake-Daten, keine News-Artikel
-  const allEvents = [...realEvents, ...hamburgEvents];
+  const allEvents = [...realEvents];
 
   // ═══ EVENT ENRICHMENT: Kategorie, Qualität, Open Access ═══
   function enrichEvent(e) {
@@ -796,16 +794,6 @@ function isDayInRange(day, rangeStr, days) {
 // ═══════════════════════════════════════════════════════════════
 // Verbesserte Version mit Event-Integration und realistischer Score-Verteilung
 
-// Event-Cache laden (einmalig beim Server-Start)
-let eventsCache = {};
-try {
-  const eventsCacheData = JSON.parse(fs.readFileSync('./events_cache.json', 'utf8'));
-  eventsCache = eventsCacheData.events || {};
-  console.log(`✅ Events cache loaded: ${Object.keys(eventsCache).length} locations`);
-} catch (e) {
-  console.log('⚠️  Events cache not available, using fallback algorithm');
-}
-
 function computeHotScore(place, isHighlight = false) {
   const { hour, minute, dow } = getHamburgTime();
   const timeDecimal = hour + minute / 60;
@@ -829,46 +817,7 @@ function computeHotScore(place, isHighlight = false) {
   factors.estimated_popularity = estimatedScore * 0.4;
   
   // ═══════════════════════════════════════════════════════════════
-  // 2. EVENT-BASED BOOSTS 🎉
-  // ═══════════════════════════════════════════════════════════════
-  
-  const todayEvents = getTodaysEvents(placeKey, dow, hour);
-  
-  if (todayEvents.length > 0) {
-    let eventBoost = 0;
-    
-    for (const event of todayEvents) {
-      // Event-Type-spezifische Boosts
-      const typeBoost = {
-        'quiz': 25,        // Pub Quiz zieht stark
-        'live_music': 30,  // Live Musik sehr beliebt
-        'karaoke': 20,     // Karaoke moderate Anziehung
-        'dj': 22,          // DJ Sets
-        'football': 35,    // Bundesliga/Champions League
-        'after_work': 15,  // After Work Events
-        'happy_hour': 18,  // Happy Hour
-        'party': 20        // Party Events
-      }[event.type] || 15;
-      
-      // Zeit-basierte Event-Multiplikatoren
-      const eventTime = parseEventTime(event.times) || getDefaultEventTime(event.type);
-      const timeDiff = Math.abs(timeDecimal - eventTime);
-      
-      if (timeDiff <= 1) {
-        eventBoost += typeBoost; // Volles Event-Boost
-      } else if (timeDiff <= 2) {
-        eventBoost += typeBoost * 0.7; // Reduziertes Boost
-      } else if (timeDiff <= 3) {
-        eventBoost += typeBoost * 0.4; // Minimales Boost
-      }
-    }
-    
-    score += Math.min(eventBoost, 40); // Max 40 Punkte für Events
-    factors.event_boost = Math.min(eventBoost, 40);
-  }
-  
-  // ═══════════════════════════════════════════════════════════════
-  // 3. IMPROVED DAY FACTORS
+  // 2. IMPROVED DAY FACTORS
   // ═══════════════════════════════════════════════════════════════
   
   const dayFactors = getImprovedDayFactors(dow, place.category, hour);
@@ -922,14 +871,14 @@ function computeHotScore(place, isHighlight = false) {
   // 8. ENHANCED LABELS & COLORS
   // ═══════════════════════════════════════════════════════════════
   
-  const { label, color } = getEnhancedScoreLabel(score, place.category, todayEvents.length > 0);
+  const { label, color } = getEnhancedScoreLabel(score, place.category, false);
   
   return {
     score: Math.round(score),
     label,
     color,
-    has_events: todayEvents.length > 0,
-    event_count: todayEvents.length,
+    has_events: false,
+    event_count: 0,
     factors // For debugging (remove in production)
   };
 }
@@ -1311,11 +1260,9 @@ function findDayPeak(place, targetDow, context) {
   const baseScore = Math.min(rawBase, 70);
   const month = new Date().getMonth();
   const seasonFactor = ([10,11,0,1].includes(month)) ? 0.7 : ([2,3,8,9].includes(month)) ? 0.85 : 1.0;
-  const eventBoost = (context && context.hasEventToday) ? 12 : 0;
-  const isAfterworkDay = (context && context.isAfterworkDay) ? 8 : 0;
   const weatherMod = (context && context.weather) ? getWeatherMod(place, context.weather) : 0;
   const weatherPenaltyPct = weatherMod < 0 ? (weatherMod / 100) : 0;
-  const addBoosts = (eventBoost + isAfterworkDay + Math.max(0, weatherMod)) * seasonFactor;
+  const addBoosts = (Math.max(0, weatherMod)) * seasonFactor;
   let peakScore = 0;
   let peakHour = 20;
   for (let h = 0; h < 24; h++) {
@@ -1337,7 +1284,7 @@ function calculateVibeForDay(place, targetDow, currentHour) {
 }
 
 function calculateDynamicVibe(place, context) {
-  const { dow, hour, minute, weather, isAfterworkDay, hasEventToday } = context;
+  const { dow, hour, minute, weather } = context;
 
   const rawBase = place.vibeScore || place.enriched?.vibeScore || computeBaseVibe(place);
   const baseScore = Math.min(rawBase, 70);
@@ -1378,9 +1325,6 @@ function calculateDynamicVibe(place, context) {
   } else if (hourlyW && hourlyW.windspeed > 50) {
     windPenalty = -5; // Sturm = auch Indoor weniger Leute unterwegs
   }
-
-  const eventBoost = hasEventToday ? 12 : 0;
-  const afterworkBoost = isAfterworkDay ? 8 : 0;
 
   const seasonFactor = getSeasonFactor(weather);
 
@@ -1444,7 +1388,7 @@ function calculateDynamicVibe(place, context) {
   const baseWithTime = baseScore * combinedMult;
   
   // Additive Boosts (skaliert mit seasonFactor)
-  const addBoosts = (eventBoost + afterworkBoost + Math.max(0, weatherMod) + stadtteilMod 
+  const addBoosts = (Math.max(0, weatherMod) + stadtteilMod
     + weatherDynamics + majorEventBoost + semesterMod + daylightMod + windPenalty) * seasonFactor;
   
   // Weather penalties als Prozent
@@ -1475,8 +1419,6 @@ function calculateDynamicVibe(place, context) {
   else if (context.bridgeDay) reasons.push('\u{1F389} Brueckentag');
   else if (dow === 5 || dow === 6) reasons.push('\u{1F525} Weekend');
   if (majorEventBoost > 0) reasons.push('\u{1F3AA} ' + (context.majorEventsEnriched[0]?.name || 'Grossevent'));
-  if (hasEventToday && majorEventBoost === 0) reasons.push('\u{1F389} Event heute');
-  if (isAfterworkDay && hour >= 16 && hour <= 20) reasons.push('\u{1F37B} Afterwork');
   if (weatherMod > 0 && place.outdoor_seating) reasons.push('\u2600\uFE0F Biergarten-Wetter');
   else if (weatherMod > 5 && !place.outdoor_seating) reasons.push('\u{1F327}\uFE0F Gemuetlich drinnen');
   if (hourMultiplier > 0.7) reasons.push('\u23F0 Prime Time');
@@ -1506,8 +1448,6 @@ function calculateDynamicVibe(place, context) {
       weatherDynamics,
       stadtteilMod: Math.round(stadtteilMod * 10) / 10,
       seasonFactor,
-      eventBoost,
-      afterworkBoost,
       majorEventBoost,
       semesterMod,
       payweekFactor,
@@ -1695,14 +1635,6 @@ function getCurrentVibeContext() {
   const weather = weatherCache.current;
   const now = new Date();
   
-  // Check if today is an afterwork day for any location
-  const todayLocations = afterworkSchedule.locations.filter(loc => loc.days.includes(dow));
-  const isAfterworkDay = todayLocations.length > 0;
-  
-  // Check if there are major events today
-  const majorEvents = getActiveMajorEvents();
-  const hasEventToday = majorEvents.length > 0;
-
   // New enriched context
   const holiday = isHoliday(now);
   const holidayName = holiday ? getHolidayName(now) : null;
@@ -1720,8 +1652,6 @@ function getCurrentVibeContext() {
     minute,
     weather,
     weatherData: weatherCache, // full hourly data
-    isAfterworkDay,
-    hasEventToday,
     // Phase 1
     holiday,
     holidayName,
@@ -1797,30 +1727,6 @@ function estimatePopularityByCategory(category, timeDecimal, dow) {
   score *= curve.base_multiplier;
   
   return Math.min(60, score); // Max 60 for estimated
-}
-
-function getTodaysEvents(placeKey, dow, hour) {
-  const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-  const today = dayNames[dow];
-  
-  // Merge events from BOTH sources (eventsCache from events_cache.json AND eventsData)
-  const cacheEvents = eventsCache[placeKey] || [];
-  const dataEvents = eventsData[placeKey] || [];
-  const allEvents = [...cacheEvents, ...dataEvents];
-  
-  return allEvents.filter(event => {
-    // Check if event is today (support both formats)
-    if (event.days && !event.days.includes(today)) return false;
-    if (event.weekday && event.weekday.toLowerCase() !== today) return false;
-    
-    // Check if event is around current time (within 4 hours)
-    if (event.start_hour) {
-      return Math.abs(hour - event.start_hour) <= 4;
-    }
-    const eventTime = parseEventTime(event.times) || getDefaultEventTime(event.type);
-    const timeDiff = Math.abs(hour - eventTime);
-    return timeDiff <= 4;
-  });
 }
 
 function parseEventTime(timeStrings) {
@@ -2184,12 +2090,7 @@ function estimateBusyness(place, dayOfWeek, hour) {
     else if (cs >= 55) score *= 1.05;
   }
 
-  // ── 4. Events boost ──
-  const placeKey = (place.name || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
-  const todayEvents = getTodaysEvents(placeKey, dayOfWeek, hour);
-  if (todayEvents.length > 0 || place.has_events) score *= 1.20;
-
-  // ── 5. Smoker bonus (Stammkneipe) ──
+  // ── 4. Smoker bonus (Stammkneipe) ──
   if (place.smoker) score *= 1.05;
 
   // ── 6. Biergarten summer check ──
@@ -2259,7 +2160,6 @@ const SEMANTIC_MAP = [
   { terms: ['irish', 'irisch', 'guinness'], categories: ['irish-pub'] },
   { terms: ['café', 'cafe', 'kaffee', 'coffee'], categories: ['cafe'] },
   { terms: ['sport', 'fußball', 'fussball', 'bundesliga', 'champions'], categories: ['sports_bar'], tag: 'sport' },
-  { terms: ['after work', 'afterwork', 'feierabend'], tag: 'after-work' },
   { terms: ['ruhig', 'gemütlich', 'chill', 'entspannt', 'leise'], mood: 'quiet' },
   { terms: ['laut', 'wild', 'action', 'voll', 'stimmung'], mood: 'loud' },
 ];
@@ -2784,22 +2684,8 @@ const server = http.createServer(async (req, res) => {
         // Calculate dynamic vibe score
         const dynamicVibe = calculateDynamicVibe(h, vibeContext);
         
-        // Check if location has events today (for more accurate context)
-        const placeKey = (h.name || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
-        const todayEvents = getTodaysEvents(placeKey, vibeContext.dow, vibeContext.hour);
-        const hasPlaceEventToday = todayEvents.length > 0;
-        
-        // Update context for this specific place
-        const placeContext = {
-          ...vibeContext,
-          hasEventToday: hasPlaceEventToday || vibeContext.hasEventToday
-        };
-        
-        // Recalculate with place-specific context
-        const finalDynamicVibe = calculateDynamicVibe(h, placeContext);
-        
         // Determine if "Jetzt perfekt" indicator should show
-        const isNowPerfect = finalDynamicVibe.dynamicVibeScore > 70 && isOpenSmart(effectiveHours, h.category) === true;
+        const isNowPerfect = dynamicVibe.dynamicVibeScore > 70 && isOpenSmart(effectiveHours, h.category) === true;
         
         places.push({ 
           ...h, 
@@ -2810,19 +2696,19 @@ const server = http.createServer(async (req, res) => {
           hotScore: hs.score,
           
           // Dynamic Vibe Score (new)
-          vibeScore: dayOffset > 0 ? finalDynamicVibe.vibePeak : finalDynamicVibe.dynamicVibeScore,
-          baseVibeScore: finalDynamicVibe.baseVibeScore, // Keep static as reference
-          vibeReason: finalDynamicVibe.vibeReason,
-          vibePeak: finalDynamicVibe.vibePeak,
-          vibePeakHour: finalDynamicVibe.vibePeakHour,
-          vibeTrend: dayOffset > 0 ? null : finalDynamicVibe.vibeTrend,
+          vibeScore: dayOffset > 0 ? dynamicVibe.vibePeak : dynamicVibe.dynamicVibeScore,
+          baseVibeScore: dynamicVibe.baseVibeScore, // Keep static as reference
+          vibeReason: dynamicVibe.vibeReason,
+          vibePeak: dynamicVibe.vibePeak,
+          vibePeakHour: dynamicVibe.vibePeakHour,
+          vibeTrend: dayOffset > 0 ? null : dynamicVibe.vibeTrend,
           isNowPerfect: dayOffset > 0 ? false : isNowPerfect,
-          vibeFactors: finalDynamicVibe.factors,
-          neighborhood: finalDynamicVibe.neighborhood,
+          vibeFactors: dynamicVibe.factors,
+          neighborhood: dynamicVibe.neighborhood,
           
           // Legacy vibe data for backward compatibility
-          vibeLabel: getVibeLabel(finalDynamicVibe.dynamicVibeScore),
-          vibeEmoji: getVibeEmoji(finalDynamicVibe.dynamicVibeScore),
+          vibeLabel: getVibeLabel(dynamicVibe.dynamicVibeScore),
+          vibeEmoji: getVibeEmoji(dynamicVibe.dynamicVibeScore),
           
           has_events: hs.has_events || hasPlaceEventToday, 
           communityScore: getCommunityScore(h.name) || null, 
@@ -3022,12 +2908,7 @@ const server = http.createServer(async (req, res) => {
         const d = e.date.substring(0, 10);
         return d === todayStr;
       });
-      // Also include afterwork events for the afterwork tab
-      const afterworkEvents = allEnriched.filter(e => {
-        const text = ((e.title || '') + ' ' + (e.description || '') + ' ' + (e.category || '') + ' ' + (e.type || '')).toLowerCase();
-        return /after.?work|feierabend|aperitivo|sundowner/i.test(text);
-      });
-      sendJSON(req, res, 200, { today: todayEvents, all: allEnriched, afterwork: afterworkEvents }, 'public, max-age=120');
+      sendJSON(req, res, 200, { today: todayEvents, all: allEnriched }, 'public, max-age=120');
     } catch (e) { sendError(req, res, 500, e.message); }
     return;
   }
@@ -3277,7 +3158,7 @@ const server = http.createServer(async (req, res) => {
   if (url.pathname === '/api/vibe-factors') {
     try {
       const vibeContext = getCurrentVibeContext();
-      const { hour, minute, dow, weather, isAfterworkDay, hasEventToday } = vibeContext;
+      const { hour, minute, dow, weather } = vibeContext;
       
       // Get current weather info
       let weatherInfo = null;
@@ -3323,10 +3204,8 @@ const server = http.createServer(async (req, res) => {
       // Get active events info
       const majorEvents = getActiveMajorEvents();
       const eventsInfo = {
-        hasMajorEvents: hasEventToday,
-        majorEvents: majorEvents.map(e => ({ name: e.name, boost: e.boost })),
-        hasAfterwork: isAfterworkDay,
-        afterworkLocations: isAfterworkDay ? afterworkSchedule.locations.filter(loc => loc.days.includes(dow)).length : 0
+        hasMajorEvents: majorEvents.length > 0,
+        majorEvents: majorEvents.map(e => ({ name: e.name, boost: e.boost }))
       };
 
       sendJSON(req, res, 200, {
@@ -3342,9 +3221,7 @@ const server = http.createServer(async (req, res) => {
             baseScore: "Statischer Basis-Score aus Location-Qualität (20-60)",
             dayMultiplier: "Wochentag-Faktor: Mo/Di=0.6, Mi=0.65, Do=0.8, Fr=0.95, Sa=1.0, So=0.9",
             timeBoost: "Kategorie-spezifische Peak-Zeiten: Cafés 9-14h, Bars 19-23h, Clubs 22-3h",
-            weatherMod: "Wetter-Einfluss: Regen schadet Outdoor (-30), hilft Indoor (+10)",
-            eventBoost: "Events heute: +15 Punkte",
-            afterworkBoost: "Afterwork-Tag: +10 Punkte"
+            weatherMod: "Wetter-Einfluss: Regen schadet Outdoor (-30), hilft Indoor (+10)"
           }
         }
       }, 'public, max-age=60');
@@ -3473,49 +3350,6 @@ const server = http.createServer(async (req, res) => {
         updatedAt: val.updatedAt
       }))
     }, 'public, max-age=60');
-  }
-
-  // ═══ AFTERWORK TODAY ═══
-  if (url.pathname === '/api/afterwork/today') {
-    const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' }));
-    const dayOfWeek = now.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
-    const todayLocations = afterworkSchedule.locations.filter(loc => loc.days.includes(dayOfWeek));
-    
-    // Match with highlights.json places
-    const results = todayLocations.map(loc => {
-      const place = HIGHLIGHTS.find(p => p.name === loc.name);
-      if (!place) return null;
-      return {
-        ...place,
-        afterworkTime: loc.time,
-        afterworkDescription: loc.description,
-        afterworkDays: loc.days
-      };
-    }).filter(Boolean);
-
-    const latParam = parseFloat(url.searchParams.get('lat') || '0');
-    const lonParam = parseFloat(url.searchParams.get('lon') || '0');
-    if (latParam && lonParam) {
-      results.forEach(p => {
-        const R = 6371e3;
-        const dLat = (p.lat - latParam) * Math.PI / 180;
-        const dLon = (p.lon - lonParam) * Math.PI / 180;
-        const a = Math.sin(dLat/2)**2 + Math.cos(latParam*Math.PI/180)*Math.cos(p.lat*Math.PI/180)*Math.sin(dLon/2)**2;
-        p.distance = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-      });
-      results.sort((a, b) => a.distance - b.distance);
-    }
-
-    setSecurityHeaders(req, res); res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ day: dayOfWeek, dayName: ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'][dayOfWeek], count: results.length, locations: results }));
-    return;
-  }
-
-  // ═══ AFTERWORK FULL SCHEDULE ═══
-  if (url.pathname === '/api/afterwork/schedule') {
-    setSecurityHeaders(req, res); res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(afterworkSchedule));
-    return;
   }
 
   // ═══ DISCOVERY / TIPP DES TAGES ═══
@@ -4214,9 +4048,7 @@ https://capsncollars.com
 ## API
 - GET /api/places?lat=53.55&lon=9.99&radius=3000
 - GET /api/highlights
-- GET /api/events
 - GET /api/weather
-- GET /api/network-events
 `);
     return;
   }

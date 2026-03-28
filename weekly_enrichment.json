@@ -1,98 +1,234 @@
 {
-  "date": "2026-03-16",
-  "enrichments": [
+  "generated": "2026-03-23T07:03:00Z",
+  "week": "2026-W13 (23.–29. März)",
+  
+  "description_improvements": [
     {
-      "name": "Le Lion",
-      "enriched": {
-        "vibe": "sophisticated",
-        "crowd": "30-50, Cocktail-Enthusiasten",
-        "priceLevel": "€€€",
+      "name": "Alte Runde Ecke",
+      "current": "Maritime Jukebox-Kneipe bei Reiner & Ingrid in Winterhude",
+      "status": "missing_enrichment",
+      "suggested_enrichment": {
+        "vibe": "gemütlich",
+        "crowd": "ue35",
+        "priceLevel": "€",
         "bestTime": "abends",
-        "specials": "cocktails, gin basil smash",
-        "dateSpot": true,
-        "dresscode": "smart casual",
-        "highlights": "Erfinder des Gin Basil Smash|World's 50 Best Bars|Hamburgs beste Cocktailbar",
-        "atmosphere": "Weltklasse-Cocktailbar hinter unscheinbarer Tür. Der Gin Basil Smash wurde hier erfunden. Reservierung empfohlen, Dresscode beachten.",
-        "confidence": "high"
-      }
-    },
-    {
-      "name": "Kleines Phi",
-      "enriched": {
-        "vibe": "lässig",
-        "crowd": "25-40, Karoviertel-Crowd",
-        "priceLevel": "€€",
-        "bestTime": "abends",
-        "specials": "cocktails, wein",
-        "dateSpot": true,
-        "dresscode": "casual",
-        "highlights": "Kleine Bar im Karoviertel|Gute Drinks|Entspannte Nachbarschaft",
-        "atmosphere": "Gemütliche Nachbarschaftsbar im Karoviertel. Klein, persönlich, gute Drinks. Perfekt für ein entspanntes Date.",
+        "specials": "bier",
+        "dateSpot": false,
+        "dresscode": "egal",
+        "highlights": "Maritime Jukebox-Kneipe|Reiner & Ingrid|Winterhude",
+        "atmosphere": "Klassische Winterhuder Eckkneipe mit maritimem Flair. Reiner und Ingrid sorgen für Stammgast-Feeling.",
         "confidence": "medium"
       }
     },
     {
-      "name": "KOPS Bar",
-      "enriched": {
+      "name": "Hamburg 60",
+      "current": "Sportkneipe Winterhude — HSV & Pauli friedlich bei Bier vereint",
+      "status": "missing_enrichment",
+      "suggested_enrichment": {
         "vibe": "lässig",
-        "crowd": "25-40",
-        "priceLevel": "€€",
-        "bestTime": "abends, late-night",
-        "specials": "cocktails, bier",
+        "crowd": "gemischt",
+        "priceLevel": "€",
+        "bestTime": "wochenende",
+        "specials": "bier",
         "dateSpot": false,
-        "dresscode": "casual",
-        "highlights": "Neuer Pferdemarkt|Lässige Atmosphäre|Gute Cocktails",
-        "atmosphere": "Beliebter Treffpunkt am Neuen Pferdemarkt. Lässig, unkompliziert, gute Drinks zu fairen Preisen.",
+        "dresscode": "egal",
+        "highlights": "Sportkneipe|HSV & Pauli friedlich vereint|Winterhude",
+        "atmosphere": "Die einzige Kneipe, wo HSV- und Pauli-Fans friedlich nebeneinander sitzen. Bundesliga auf Leinwand.",
         "confidence": "medium"
       }
     },
     {
-      "name": "Molly Malone's",
-      "enriched": {
+      "name": "Gaststätte Dorotheen Eck",
+      "current": "Gaby & Olaf begrüßen Stammgäste seit über 10 Jahren",
+      "status": "missing_enrichment",
+      "suggested_enrichment": {
         "vibe": "gemütlich",
-        "crowd": "gemischt, Expats",
+        "crowd": "ue35",
+        "priceLevel": "€",
+        "bestTime": "abends",
+        "specials": "bier",
+        "dateSpot": false,
+        "dresscode": "egal",
+        "highlights": "Inhabergeführt seit 10+ Jahren|Winterhude|Stammgast-Kneipe",
+        "atmosphere": "Gaby und Olaf kennen jeden beim Namen. Echte Winterhuder Nachbarschaftskneipe.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "Zum Flensburger",
+      "current": "Alles Flens! Bunte Beleuchtung, gemütliche Kneipe in Hamm",
+      "status": "missing_enrichment",
+      "suggested_enrichment": {
+        "vibe": "gemütlich",
+        "crowd": "locals",
+        "priceLevel": "€",
+        "bestTime": "abends",
+        "specials": "bier",
+        "dateSpot": false,
+        "dresscode": "egal",
+        "highlights": "Flensburger Pilsener|Bunte Beleuchtung|Hamm",
+        "atmosphere": "Flensburger-Pilsener-Tempel in Hamm. Bunte Beleuchtung und gemütliche Atmosphäre.",
+        "confidence": "low"
+      }
+    },
+    {
+      "name": "Bierkrug",
+      "current": "Traditionskneipe Eppendorf",
+      "status": "missing_enrichment",
+      "suggested_enrichment": {
+        "vibe": "gemütlich",
+        "crowd": "locals",
+        "priceLevel": "€",
+        "bestTime": "abends",
+        "specials": "bier",
+        "dateSpot": false,
+        "dresscode": "egal",
+        "highlights": "Traditionskneipe|Eppendorf",
+        "atmosphere": "Eppendorfer Traditionskneipe für den unkomplizierten Feierabend.",
+        "confidence": "low"
+      }
+    },
+    {
+      "name": "1 & Dreißig",
+      "current": "Gemütliche Kneipe in Hamburg",
+      "status": "weak_description",
+      "suggested_description": "Nachbarschaftskneipe in der Fruchtallee Eimsbüttel — gemütlich, lokal, Feierabend-Klassiker",
+      "suggested_enrichment": {
+        "vibe": "gemütlich",
+        "crowd": "locals",
+        "priceLevel": "€",
+        "bestTime": "abends",
+        "specials": "bier",
+        "dateSpot": false,
+        "dresscode": "egal",
+        "highlights": "Fruchtallee|Eimsbüttel|Nachbarschaftskneipe",
+        "atmosphere": "Eimsbütteler Eck-Kneipe an der Fruchtallee. Hier trifft sich das Viertel.",
+        "confidence": "low"
+      }
+    },
+    {
+      "name": "Vinos",
+      "current": "Weinbar in Hamburg",
+      "status": "weak_description",
+      "suggested_description": "Vinothek & Weinbar am Eppendorfer Markt — spanische und internationale Weine, Tapas",
+      "suggested_enrichment": {
+        "vibe": "gemütlich",
+        "crowd": "ue35",
+        "priceLevel": "€€",
+        "bestTime": "afterwork",
+        "specials": "wein",
+        "dateSpot": true,
+        "dresscode": "casual",
+        "highlights": "Spanische Weine|Eppendorf|Vinothek",
+        "atmosphere": "Spanisch geprägte Vinothek in Eppendorf. Weine glasweise und Tapas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "name": "Windschirm",
+      "current": "Bar in Hamburg",
+      "status": "weak_description",
+      "suggested_description": "Gemütliche Bar am Hallerplatz — Cocktails und Wein in entspannter Atmosphäre nahe Uni",
+      "suggested_enrichment": {
+        "vibe": "lässig",
+        "crowd": "gemischt",
         "priceLevel": "€€",
         "bestTime": "abends",
-        "specials": "guinness, live-musik, pub quiz",
-        "dateSpot": false,
-        "dresscode": "casual",
-        "highlights": "Hamburgs ältester Irish Pub|Live-Musik|Pub Quiz|Guinness vom Fass",
-        "atmosphere": "Hamburgs ältester Irish Pub mit echtem Flair. Live-Musik, Pub Quiz, Guinness wie in Dublin. Treffpunkt der internationalen Community.",
-        "confidence": "high"
-      }
-    },
-    {
-      "name": "1700 Winery Bar",
-      "enriched": {
-        "vibe": "modern",
-        "crowd": "30-50, Business",
-        "priceLevel": "€€€",
-        "bestTime": "after-work, abends",
-        "specials": "wein, tapas",
-        "dateSpot": true,
-        "dresscode": "smart casual",
-        "highlights": "Vinothek im Barceló Hotel|Große Weinauswahl|Offenes Lounge-Konzept",
-        "atmosphere": "Stilvolle Weinlounge im Barceló Hotel. Große Auswahl, offenes Konzept, gut für After-Work oder ein gepflegtes Glas Wein.",
-        "confidence": "high"
-      }
-    },
-    {
-      "name": "Dorotheum Weinbar",
-      "enriched": {
-        "vibe": "gemütlich",
-        "crowd": "30-55, Weinliebhaber",
-        "priceLevel": "€€-€€€",
-        "bestTime": "abends",
-        "specials": "wein, käse",
+        "specials": "cocktails",
         "dateSpot": true,
         "dresscode": "casual",
-        "highlights": "Winterhude|Curated Weinauswahl|Rustikales Ambiente",
-        "atmosphere": "Winterhudes gemütliche Weinecke. Handverlesene Weine in rustikalem Ambiente. Perfekt für einen ruhigen Weinabend zu zweit.",
-        "confidence": "high"
+        "highlights": "Hallerplatz|Uni-Nähe",
+        "atmosphere": "Entspannte Bar am Hallerplatz. Gut erreichbar, nettes Publikum.",
+        "confidence": "low"
       }
     }
   ],
-  "new_locations": [],
-  "events": [],
-  "notes": "Web search nicht verfügbar (Brave API Key fehlt). Enrichment aus Eigenwissen. Neue Locations und Events konnten nicht recherchiert werden."
+
+  "new_locations_found": [
+    {
+      "name": "Chefs Warehouse",
+      "address": "Am Sandtorkai 29/Block M, HafenCity",
+      "category": "restaurant",
+      "description": "Südafrikanisches Konzept in der Speicherstadt — Tapas for Two, Bar mit Blick auf offene Küche, beeindruckendes Ambiente in ehemaliger Maschinenzentralstation",
+      "opening_hours": "Mo-Su 18:00-22:00",
+      "source": "genussguide-hamburg.com, eröffnet 27.02.2026",
+      "tags": ["ue35", "flirt", "restaurant"],
+      "relevance": "high — spannendes neues Konzept, gehobene Location"
+    },
+    {
+      "name": "jfk (im Kaminzimmer der Bullerei)",
+      "address": "Lagerstraße 34b, Sternschanze",
+      "category": "restaurant",
+      "description": "Fine Dining meets Rock'n'Roll — 7-Gang-Menü für 94€, von ex-Haebel-Team (Jule-Fee Poll & Kevin Bürmann)",
+      "opening_hours": "Mo-Fr ab 18:00",
+      "source": "genussguide-hamburg.com, Feb 2026",
+      "tags": ["schanze", "restaurant"],
+      "relevance": "high — ex-Sternerestaurant-Team, direkt bei Bullerei"
+    },
+    {
+      "name": "Cafe Charade (neuer Standort)",
+      "address": "Feldstraße 40, St. Pauli",
+      "category": "cafe",
+      "description": "Umgezogen von Dorotheenstraße — Café-Bar, Frühstück bis Abenddrinks",
+      "opening_hours": "Mo-Fr 9-18/21, Sa 10-21, So 10-19",
+      "source": "genussguide-hamburg.com, Jan 2026",
+      "tags": ["st-pauli", "cafe", "bar"],
+      "relevance": "medium — bekanntes Café am neuen Standort"
+    },
+    {
+      "name": "Alsterpavillon (coming soon)",
+      "address": "Jungfernstieg, Innenstadt",
+      "category": "bar",
+      "description": "Wiedereröffnung als Brasserie im Sommer 2026 — 700 Plätze, Kulturveranstaltungen, ikonische Location an der Binnenalster",
+      "source": "entwicklungsstadt.de, Eröffnung Sommer 2026",
+      "tags": ["afterwork", "outdoor", "bar"],
+      "relevance": "very high — Hamburger Wahrzeichen kehrt zurück"
+    }
+  ],
+
+  "events_this_week": [
+    {
+      "name": "AI.HAMBURG Event",
+      "date": "2026-03-24 (Dienstag)",
+      "time": "18:00",
+      "location": "TBD (ai.hamburg)",
+      "category": "AI / Tech",
+      "url": "https://ai.hamburg/de/events-de/",
+      "relevance_for_oliver": "very high — AI-Strategie, direkt in Olivers Netzwerk (ARIC Ambassador)"
+    },
+    {
+      "name": "AI Tinkerers Hamburg (monatlich)",
+      "date": "März 2026 (nächster Termin prüfen)",
+      "location": "Hamburg",
+      "category": "AI / Tech",
+      "url": "https://hamburg.aitinkerers.org/",
+      "relevance_for_oliver": "high — Hands-on AI Demos, LLMs, Foundation Models, Networking"
+    },
+    {
+      "name": "After Work Club — Café Schöne Aussichten",
+      "date": "2026-03-26 (Donnerstag)",
+      "time": "18:00-22:00",
+      "location": "St. Petersburger Straße (Park)",
+      "category": "Networking / Singles",
+      "url": "https://afterworkclub.de",
+      "relevance_for_oliver": "medium — jeden Donnerstag, Networking"
+    },
+    {
+      "name": "WeinHamburg Frühling 2026",
+      "date": "Termin noch offen (typisch April/Mai)",
+      "location": "Hamburg",
+      "category": "Wine",
+      "url": "https://www.webermesse.de/messe/wein-hamburg-fruehling",
+      "relevance_for_oliver": "high — 900 Weine, Verkostungen, Winzer. Vormerken!"
+    }
+  ],
+
+  "stats": {
+    "total_locations": "300+",
+    "locations_without_enrichment": 48,
+    "locations_with_weak_descriptions": 35,
+    "descriptions_improved_this_week": 8,
+    "new_locations_found": 4,
+    "events_found": 4
+  }
 }

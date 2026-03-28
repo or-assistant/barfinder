@@ -1,11 +1,12 @@
 {
   "metadata": {
-    "generated": "2026-03-16",
+    "generated": "2026-03-23",
     "sources": [
       "lu.ma/hamburg",
       "afterworkclub.de",
       "szene-hamburg.com",
-      "meetup.com",
+      "entkorktekunst.de",
+      "web search",
       "domain knowledge"
     ],
     "note": "Events marked 'high' confidence are verified from live sources. 'medium' are well-known recurring Hamburg events from established venues."
@@ -78,7 +79,7 @@
       "category": "afterwork",
       "days": [4],
       "time": "18:00",
-      "description": "Hamburgs erster After Work Club seit 1999. Jeden Donnerstag: House, Dance Classics, R'n'B. Terrasse mit Blick auf Planten un Blomen.",
+      "description": "Hamburgs erster After Work Club seit 1999. Jeden Donnerstag: House, Dance Classics, R'n'B. Terrasse mit Blick auf Planten un Blomen. 26 Jahre Tradition.",
       "price": "Eintritt",
       "url": "https://afterworkclub.de/",
       "confidence": "high"
@@ -311,93 +312,21 @@
       "price": "ab 20€",
       "url": "https://www.alsterhaus.de/",
       "confidence": "medium"
-    }
-  ],
-  "one_time": [
-    {
-      "name": "Wunder Mobility Meetup: AVs & Teleoperations",
-      "date": "2026-03-17",
-      "location": "Wunder Mobility",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Meetup zu autonomem Fahren & Teleoperations im Carsharing. 47+ Interessenten.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "After Work Club Hamburg",
-      "date": "2026-03-19",
-      "location": "Café Schöne Aussichten",
-      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
-      "category": "afterwork",
-      "time": "18:00",
-      "description": "Hamburgs Original-Afterwork. Jeden Donnerstag.",
-      "price": "Eintritt",
-      "url": "https://afterworkclub.de/",
-      "confidence": "high"
     },
     {
       "name": "Music Bingo @ The Irishman",
-      "date": "2026-03-20",
       "location": "The Irishman Hamburg",
       "address": "Hamburg",
       "category": "social",
+      "days": [5],
       "time": "19:30",
-      "description": "Music Bingo Night im Irishman. Musik erkennen + Bingo spielen.",
+      "description": "Music Bingo Night: Musik erkennen + Bingo spielen. Regelmäßig ausverkauft.",
       "price": "TBA",
       "url": "https://luma.com/hamburg",
       "confidence": "high"
-    },
-    {
-      "name": "Health Network Hamburg Apéro Vol. 12",
-      "date": "2026-03-20",
-      "location": "RoofDrop Bar",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Health-Branche Networking-Apéro. 35+ Interessenten. Rooftop-Bar Atmosphäre.",
-      "price": "TBA",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Drinks @ Reh Bar Ottensen",
-      "date": "2026-03-20",
-      "location": "Reh Bar",
-      "address": "Bahrenfelder Str. 157, 22765 Hamburg",
-      "category": "afterwork",
-      "time": "19:00",
-      "description": "360° Events Afterwork-Drinks in der Reh Bar.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
-      "confidence": "high"
-    },
-    {
-      "name": "AWSC Sonntagsbrunch",
-      "date": "2026-03-22",
-      "location": "eleven 11:11 eleven | Eppendorf",
-      "address": "Hamburg-Eppendorf",
-      "category": "social",
-      "time": "11:00",
-      "description": "After Work Social Club Sonntagsbrunch. Lockeres Kennenlernen beim Brunch.",
-      "price": "TBA",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "F*ck the Small Talk Hamburg #2",
-      "date": "2026-03-22",
-      "location": "TBA (Hamburg)",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Deep Connection Event: Tiefgründige Gespräche statt Smalltalk.",
-      "price": "18€",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
+    }
+  ],
+  "one_time": [
     {
       "name": "Corporate Influencer Club Meetup Hamburg",
       "date": "2026-03-24",
@@ -405,7 +334,19 @@
       "address": "Hamburg",
       "category": "networking",
       "time": "18:30",
-      "description": "Meetup für Corporate Influencer & Personal Branding. Sophie Rickmann & Klaus Eck. Near Capacity auf lu.ma.",
+      "description": "Meetup für Corporate Influencer & Personal Branding. Mit Sophie Rickmann & Klaus Eck. Near Capacity!",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Bits & Pretzels Community Hamburg: Network & Leadership Afterwork",
+      "date": "2026-03-25",
+      "location": "1KOMMA5° Showroom Hamburg",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Afterwork Event der Bits & Pretzels Community Hamburg. Leadership & Networking. Bereits auf Waitlist!",
       "price": "kostenlos",
       "url": "https://luma.com/hamburg",
       "confidence": "high"
@@ -417,9 +358,21 @@
       "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
       "category": "afterwork",
       "time": "18:00",
-      "description": "Hamburgs Original-Afterwork. Jeden Donnerstag.",
+      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag. House, Dance Classics, R'n'B. Terrasse mit Park-Blick.",
       "price": "Eintritt",
       "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "TRU Afterwork Hamburg",
+      "date": "2026-03-26",
+      "location": "TRU Fitness Club",
+      "address": "Große Elbstraße 277, 22767 Hamburg",
+      "category": "afterwork",
+      "time": "18:30",
+      "description": "Sport & Social Afterwork an der Elbe. Workout + Drinks.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
       "confidence": "high"
     },
     {
@@ -429,9 +382,21 @@
       "address": "Bahrenfelder Str. 157, 22765 Hamburg",
       "category": "afterwork",
       "time": "19:00",
-      "description": "360° Events Afterwork-Drinks in der Reh Bar.",
+      "description": "360° Events Afterwork-Drinks in der Reh Bar Ottensen.",
       "price": "kostenlos",
       "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
+      "confidence": "high"
+    },
+    {
+      "name": "Longevity Community Run",
+      "date": "2026-03-28",
+      "location": "PYKĒ Society",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "10:00",
+      "description": "Community Run von Longevity Germany. Lockeres Laufen + Networking für Health-Interessierte.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
       "confidence": "high"
     },
     {
@@ -441,9 +406,45 @@
       "address": "Krugkoppelbrücke, Hamburg",
       "category": "social",
       "time": "11:00",
-      "description": "Girlhood DE Outdoor Social: Spaziergang an der Alster mit Hunden. Community Event.",
+      "description": "Girlhood DE Outdoor Social: Spaziergang an der Alster. Community Event.",
       "price": "kostenlos",
       "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "PReakfast Club",
+      "date": "2026-03-30",
+      "location": "Satellite Office Hamburg Ballindamm",
+      "address": "Ballindamm, 20095 Hamburg",
+      "category": "networking",
+      "time": "09:00",
+      "description": "BETTERTRUST PR-Frühstück. Networking für PR- & Kommunikations-Profis.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Health Network Hamburg Apéro Vol. 12",
+      "date": "2026-03-31",
+      "location": "RoofDrop Bar",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:30",
+      "description": "Health-Branche Networking-Apéro. 82+ Interessenten. Rooftop-Bar Atmosphäre.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Fachforum Change(K)now! — Mehrweg umsetzen",
+      "date": "2026-03-31",
+      "location": "Villa Viva",
+      "address": "Schultzweg 4, 20097 Hamburg",
+      "category": "networking",
+      "time": "10:00",
+      "description": "Kostenfreies Fachforum zu Nachhaltigkeit & Mehrweg in der Kulturbranche. Limitierte Plätze.",
+      "price": "kostenlos",
+      "url": "https://www.stadtkultur-hh.de/2026/03/fachforum-changeknow-mehrweg-umsetzen-am-31-maerz-2026/",
       "confidence": "high"
     },
     {
@@ -465,10 +466,46 @@
       "address": "Hamburg-Barmbek",
       "category": "social",
       "time": "19:00",
-      "description": "CraftDate Hamburg: Kreativ-Abend mit Basteln & Drinks. Lockeres Kennenlernen.",
+      "description": "CraftDate Hamburg: Kreativ-Abend mit Basteln & Drinks. Lockeres Kennenlernen. Bereits auf Waitlist!",
       "price": "TBA",
       "url": "https://luma.com/hamburg",
       "confidence": "high"
+    },
+    {
+      "name": "Wein & Käse Tasting — Entkorkte Kunst",
+      "date": "2026-04-04",
+      "location": "Entkorkte Kunst Hamburg",
+      "address": "Hamburg",
+      "category": "wine-tasting",
+      "time": "19:00",
+      "description": "2 Stunden Wein & Käse Tasting. Sensorischer Genuss mit Infos zu Herkunft und Handwerk. Für Einsteiger & Kenner.",
+      "price": "55€",
+      "url": "https://www.entkorktekunst.de/events/wein-kaese-tasting/",
+      "confidence": "high"
+    },
+    {
+      "name": "Cursor Meetup Hamburg #3",
+      "date": "2026-04-05",
+      "location": "TBA",
+      "address": "Hamburg",
+      "category": "networking",
+      "time": "18:00",
+      "description": "AI/Tech Meetup: Cursor AI Code Editor Community Hamburg. Von AI BEAVERS.",
+      "price": "kostenlos",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "WeinSalon by Moët Hennessy Wine Estates x Falstaff",
+      "date": "2026-04-05",
+      "location": "TBA",
+      "address": "Hamburg",
+      "category": "wine-tasting",
+      "time": "TBA",
+      "description": "Exklusives Tasting-Format 'Meet the Presidents'. Vielfalt der Moët Hennessy Wine Estates. Begegnungen auf Augenhöhe.",
+      "price": "TBA",
+      "url": "https://www.falstaff.com/de/events/weinsalon-hamburg-by-moet-hennessy-wine-estates-x-falstaff",
+      "confidence": "medium"
     }
   ]
 }
