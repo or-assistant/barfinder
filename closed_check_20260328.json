@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Zum Silbersack",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated January 2026, recent Untappd check-ins from September 2025. Open Mon-Sun 15:00-03:00. No closure reports found."
+  },
+  {
+    "id": 2,
+    "name": "Zum Goldenen Handschuh",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated February 2026. Open 22 hours a day (closed only 16:00-18:00 for cleaning). Operated by Joern Nuernberg, grandson of founder."
+  },
+  {
+    "id": 3,
+    "name": "Elbschlosskeller",
+    "status": "confirmed_open",
+    "evidence": "Active website at elbschlosskeller.de. Only temporarily closed Feb 10-12, 2026 for refrigeration renovation. Otherwise operating normally."
+  },
+  {
+    "id": 4,
+    "name": "Erika's Eck",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated February 2026, available on Wolt delivery. Operating with regular hours at Sternstrasse 98."
+  },
+  {
+    "id": 5,
+    "name": "Zwick Poeseldorf",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated March 2026. Open daily from 11:30 at Mittelweg 121b. Website zwick4u.com active."
+  },
+  {
+    "id": 7,
+    "name": "Die Glocke",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated March 2026. Operating with regular hours at Klosterallee 65. No closure reports found."
+  },
+  {
+    "id": 8,
+    "name": "Schramme 10",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated March 2026, Instagram active. Operating Mon-Thu 15:00-02:00, Fri 15:00-04:00, Sat 12:00-04:00, Sun 12:00-02:00. hamburg.de listing shows 'geschlossen' but this appears to refer to current-moment status, not permanent closure."
+  },
+  {
+    "id": 9,
+    "name": "Fricke 46",
+    "status": "confirmed_open",
+    "evidence": "Active website fricke46.de. Open daily from 12:00. Rated 4.2/5 on Restaurant Guru. No closure reports found."
+  },
+  {
+    "id": 11,
+    "name": "Schroeders",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated December 2025, Facebook page active. Operating Mon-Fri 16:00-03:00, Sat 15:00-03:00, Sun 16:00-03:00. Note: actual address is Hegestrasse 1, not Eppendorfer Weg 198 as listed in DB."
+  },
+  {
+    "id": 12,
+    "name": "Paola's",
+    "status": "confirmed_open",
+    "evidence": "Active listing on multiple sources including Cornelia Poletto's website. Open Tue-Fri 15:00-00:00, Sat 12:00-01:00. Closed Mon/Sun. Located at Goernestrasse 1a."
+  },
+  {
+    "id": 13,
+    "name": "Frau Moeller",
+    "status": "confirmed_open",
+    "evidence": "Active website fraumoeller.com and Yelp listing updated March 2026. Open Mon-Thu 08:00-03:00, Fri-Sat 08:00-04:00, Sun 08:00-02:00."
+  },
+  {
+    "id": 14,
+    "name": "Familien-Eck",
+    "status": "confirmed_open",
+    "evidence": "Active website familieneck.de and Yelp listing updated March 2026. Open daily from 16:00. Facebook post from December 2025 confirms open on holidays. Address listed as Friedensallee 2-4."
+  },
+  {
+    "id": 15,
+    "name": "Ratsherrn Klause",
+    "status": "confirmed_open",
+    "evidence": "Active website ratsherrnklause.de. Operating since 1957 at Schroederstiftstrasse 9. Regular hours listed, recent private event booking for Feb 2026 confirms active operation."
+  },
+  {
+    "id": 16,
+    "name": "Holsten-Schwemme",
+    "status": "confirmed_open",
+    "evidence": "Active listing on 11880.com updated March 2026. Open Mon-Sun 08:00-24:00 at Herrenweide 2a. Operating since 1969. Note: DB lists Seilerstrasse but actual address is Herrenweide 2a."
+  },
+  {
+    "id": 17,
+    "name": "Hong-Kong Hotel Bar",
+    "status": "confirmed_open",
+    "evidence": "Active website hotel-bar-hongkong.de. Yelp listing updated March 2026. Open 24/7. Located on Hamburger Berg (not Schmuckstrasse 9 as in DB)."
+  },
+  {
+    "id": 18,
+    "name": "Old Sailor",
+    "status": "confirmed_open",
+    "evidence": "TripAdvisor listing for 2026 shows 'Open now'. Located at Hein-Hoyer-Strasse 4. Operating with regular hours. No closure reports found."
+  },
+  {
+    "id": 19,
+    "name": "Zur Scharfen Ecke",
+    "status": "confirmed_open",
+    "evidence": "Active Yelp listing updated March 2026 and website zur-scharfen-ecke.com. Open Mon-Sun 16:00-03:00. Operating since 1911 at Davidstrasse 3."
+  },
+  {
+    "id": 20,
+    "name": "Haifisch Bar",
+    "status": "confirmed_open",
+    "evidence": "Active website haifischbar.hamburg. Yelp listing updated January 2026. Open Mon-Fri 11:00-04:00, varied weekend hours. Operating since 1947 at Grosse Elbstrasse 128."
+  },
+  {
+    "id": 21,
+    "name": "Lehmitz",
+    "status": "likely_closed",
+    "evidence": "Permanently closed as of December 27, 2025. Closure announced October 2025 via social media. t-online.de article confirms: 'Kiez-Kneipe Lehmitz auf der Reeperbahn gibt Betrieb auf'. Operated for 20 years before closing."
+  },
+  {
+    "id": 22,
+    "name": "Hatari Pfaelzer Stube",
+    "status": "confirmed_open",
+    "evidence": "Active website hataripfaelzerstube.com. Yelp listing updated February 2026. Open daily 12:00-00:00. Located at Eidelstedter Weg 1."
+  }
+]

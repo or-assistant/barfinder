@@ -1,5 +1,5 @@
 {
-  "lastIndex": 250,
+  "lastIndex": 300,
   "flagged": [
     {
       "name": "Zum Silbersack",
@@ -2255,8 +2255,60 @@
         "osm": "not_found",
         "web": "no_url"
       }
+    },
+    {
+      "name": "ERNST GESING & CO",
+      "address": "Barmbeker Straße 181, Hamburg",
+      "category": "wine",
+      "status": "suspect",
+      "issues": [
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Central Café Bar&Billard",
+      "address": "Offakamp 3, Hamburg",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website unreachable (timeout)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "unreachable"
+      }
+    },
+    {
+      "name": "Aurora",
+      "address": "Parnass-Platz, 20259 Hamburg (Eimsbüttel)",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Nicht in OSM gefunden"
+      ],
+      "checks": {
+        "osm": "not_found",
+        "web": "no_url"
+      }
+    },
+    {
+      "name": "Victoria Klause",
+      "address": "Lokstedter Steindamm, 22529 Hamburg (Lokstedt)",
+      "category": "pub",
+      "status": "suspect",
+      "issues": [
+        "Website dead (404)"
+      ],
+      "checks": {
+        "osm": "found",
+        "web": "dead"
+      }
     }
   ],
-  "verified": 250,
-  "lastRun": "2026-03-22T03:07:38.457Z"
+  "verified": 300,
+  "lastRun": "2026-03-29T02:01:19.584Z"
 }

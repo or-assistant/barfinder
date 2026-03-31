@@ -1,234 +1,362 @@
 {
-  "generated": "2026-03-23T07:03:00Z",
-  "week": "2026-W13 (23.–29. März)",
-  
-  "description_improvements": [
-    {
-      "name": "Alte Runde Ecke",
-      "current": "Maritime Jukebox-Kneipe bei Reiner & Ingrid in Winterhude",
-      "status": "missing_enrichment",
-      "suggested_enrichment": {
-        "vibe": "gemütlich",
-        "crowd": "ue35",
-        "priceLevel": "€",
-        "bestTime": "abends",
-        "specials": "bier",
-        "dateSpot": false,
-        "dresscode": "egal",
-        "highlights": "Maritime Jukebox-Kneipe|Reiner & Ingrid|Winterhude",
-        "atmosphere": "Klassische Winterhuder Eckkneipe mit maritimem Flair. Reiner und Ingrid sorgen für Stammgast-Feeling.",
-        "confidence": "medium"
+  "metadata": {
+    "generated": "2026-03-30T06:00:00Z",
+    "week": "KW14 (30.03. - 05.04.2026)",
+    "generatedBy": "barfinder-weekly-enrich"
+  },
+  "enrichment_updates": {
+    "summary": "14 Locations mit schwachen/fehlenden Beschreibungen angereichert (Highlight-Locations priorisiert)",
+    "updates": [
+      {
+        "name": "1 & Dreißig",
+        "action": "enrich_description",
+        "old_description": "Gemütliche Kneipe in Hamburg",
+        "new_description": "Eimsbütteler Nachbarschaftskneipe an der Fruchtallee — Feierabendbier, entspannt, lokal",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Fruchtallee|Eimsbüttel|Nachbarschaft",
+          "atmosphere": "Solide Eimsbütteler Eckkneipe für den entspannten Feierabend.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Vinos",
+        "action": "enrich_description",
+        "old_description": "Weinbar in Hamburg",
+        "new_description": "Weinhandlung mit Ausschank in Eppendorf — spanische und internationale Weine, gemütliches Ambiente",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "ue35",
+          "priceLevel": "€€",
+          "bestTime": "afterwork",
+          "specials": "wein",
+          "dateSpot": true,
+          "dresscode": "casual",
+          "highlights": "Eppendorf|Weinhandlung mit Ausschank",
+          "atmosphere": "Eppendorfer Weinladen mit der Möglichkeit, direkt vor Ort ein Glas zu genießen.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Windschirm",
+        "action": "enrich_description",
+        "old_description": "Bar in Hamburg",
+        "new_description": "Bar am Hallerplatz in Rotherbaum — beliebt bei Studenten und Anwohnern, kleine Terrasse",
+        "enriched": {
+          "vibe": "lässig",
+          "crowd": "gemischt",
+          "priceLevel": "€€",
+          "bestTime": "abends",
+          "specials": "cocktails",
+          "dateSpot": false,
+          "dresscode": "casual",
+          "highlights": "Hallerplatz|Rotherbaum",
+          "atmosphere": "Lässige Bar am Hallerplatz zwischen Uni und Alster.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Monty's",
+        "action": "enrich_description",
+        "old_description": "Gemütliche Kneipe in Hamburg",
+        "new_description": "Winterhuder Nachbarschaftskneipe am Mühlenkamp — Frühstück bis Nachtprogramm, Terrasse, lokal beliebt",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Winterhude|Mühlenkamp-Nähe|Frühstück bis spät",
+          "atmosphere": "Winterhuder Wohnzimmer-Kneipe. Von morgens bis spät geöffnet.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Astro Drink Bombe",
+        "action": "enrich_description",
+        "old_description": "Gemütliche Kneipe in Hamburg",
+        "new_description": "Schanzen-Kneipe in der Bartelsstraße — günstige Drinks, entspannte Atmosphäre, Nachtschwärmer-Treff",
+        "enriched": {
+          "vibe": "lässig",
+          "crowd": "kreative",
+          "priceLevel": "€",
+          "bestTime": "late-night",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Bartelsstraße|Schanze",
+          "atmosphere": "Schanze-Kneipe zum Vorglühen und Versacken. Günstig und unkompliziert.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Belvedere",
+        "action": "enrich_description",
+        "old_description": "Ehemals \"Gurke\" — Bar/Kneipe in Rotherbaum",
+        "new_description": "Ehemals 'Gurke' — Nachbarschaftsbar am Mittelweg in Rotherbaum, ü35-Publikum, gehoben-lässig",
+        "enriched": {
+          "vibe": "lässig",
+          "crowd": "ue35",
+          "priceLevel": "€€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "casual",
+          "highlights": "Ehemals Gurke|Mittelweg|Rotherbaum",
+          "atmosphere": "Gehobene Nachbarschaftsbar am Mittelweg. Ruhiges, erwachsenes Publikum.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Bodega",
+        "action": "enrich_description",
+        "old_description": "Gemütliche Kneipe in Hamburg",
+        "new_description": "Nachbarschaftskneipe in der Weidenallee — kleines Eimsbütteler Wohnzimmer, Stammgäste, Bier vom Fass",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Weidenallee|Eimsbüttel|Nachbarschaft",
+          "atmosphere": "Klein und gemütlich. Eimsbütteler Stammkneipen-Charakter.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Zzzischer",
+        "action": "enrich_description",
+        "old_description": "Gemütliche Kneipe in Hamburg",
+        "new_description": "Eimsbütteler Kneipe an der Sillemstraße — Bier, Kicker, entspanntes Feierabendpublikum",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Sillemstraße|Eimsbüttel",
+          "atmosphere": "Klassische Eimsbütteler Feierabendkneipe. Kein Schnickschnack.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Gaststätte Schröder",
+        "action": "enrich_description",
+        "old_description": "Gemütliche Kneipe in Hamburg",
+        "new_description": "Traditionskneipe an der Hegestraße in Eppendorf — Feierabendtreff, Bier vom Fass, langjährige Stammgäste",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Hegestraße|Eppendorf|Traditionskneipe",
+          "atmosphere": "Eppendorfer Traditionskneipe mit Stammgast-Charakter.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Dschungel",
+        "action": "enrich_description",
+        "old_description": "Bar in der Sternstraße nahe St. Pauli.",
+        "new_description": "Hippe Bar in der Sternstraße — kreative Cocktails, Dschungel-Deko, abends DJs, St. Pauli-Flair",
+        "enriched": {
+          "vibe": "hip",
+          "crowd": "kreative",
+          "priceLevel": "€€",
+          "bestTime": "abends",
+          "specials": "cocktails",
+          "dateSpot": true,
+          "dresscode": "casual",
+          "highlights": "Sternstraße|Kreative Cocktails|DJ-Nights",
+          "atmosphere": "Dschungel-Atmosphäre mit kreativen Drinks. Lässig und stylish.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Turmbar",
+        "action": "enrich_description",
+        "old_description": "Bar in einem ehemaligen Hochbunker",
+        "new_description": "Cocktailbar im ehemaligen Flakbunker an der Rothenbaumchaussee — spektakuläres Setting, kreative Drinks, Blick über Hamburg",
+        "enriched": {
+          "vibe": "hip",
+          "crowd": "kreative",
+          "priceLevel": "€€€",
+          "bestTime": "abends",
+          "specials": "cocktails",
+          "dateSpot": true,
+          "dresscode": "smart-casual",
+          "highlights": "Ehemaliger Hochbunker|Blick über Hamburg|Kreative Cocktails",
+          "atmosphere": "Cocktails im Hochbunker. Einmaliges Setting mit Panoramablick über Hamburg.",
+          "confidence": "high"
+        }
+      },
+      {
+        "name": "Sands Bar",
+        "action": "enrich_description",
+        "old_description": "Cocktailbar in Hamburg",
+        "new_description": "Elegante Cocktailbar am Dammtordamm — kreative Drinks, stilvolles Ambiente, perfekt für Dates",
+        "enriched": {
+          "vibe": "elegant",
+          "crowd": "ue35",
+          "priceLevel": "€€€",
+          "bestTime": "abends",
+          "specials": "cocktails",
+          "dateSpot": true,
+          "dresscode": "smart-casual",
+          "highlights": "Dammtordamm|Stilvolle Cocktails",
+          "atmosphere": "Elegante Cocktailbar in Top-Lage. Für besondere Abende.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Nick&Nora",
+        "action": "update_enrichment",
+        "old_confidence": "low",
+        "enriched": {
+          "vibe": "intim",
+          "crowd": "ue35",
+          "priceLevel": "€€€",
+          "bestTime": "abends",
+          "specials": "cocktails",
+          "dateSpot": true,
+          "dresscode": "smart-casual",
+          "highlights": "Speakeasy-Vibes|Winterhude|Mühlenkamp|Handcrafted Cocktails",
+          "atmosphere": "Speakeasy-Bar in Winterhude. Intime Atmosphäre, exzellente handgemachte Cocktails. Einer der besten Date-Spots am Mühlenkamp.",
+          "confidence": "high"
+        }
+      },
+      {
+        "name": "Hannes&Hanna Wohnzimmer",
+        "action": "enrich_enrichment",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "weeklyEvents": "Kicker-Turniere",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Kultkneipe seit 1957|6 Biere vom Fass|Kicker-Oase|Schönster Sonnenuntergang Eimsbüttels",
+          "atmosphere": "Eimsbütteler Institution seit 1957. Kicker, Bier und angeblich der schönste Sonnenuntergang des Viertels von der Terrasse.",
+          "confidence": "high"
+        }
       }
-    },
-    {
-      "name": "Hamburg 60",
-      "current": "Sportkneipe Winterhude — HSV & Pauli friedlich bei Bier vereint",
-      "status": "missing_enrichment",
-      "suggested_enrichment": {
-        "vibe": "lässig",
-        "crowd": "gemischt",
-        "priceLevel": "€",
-        "bestTime": "wochenende",
-        "specials": "bier",
-        "dateSpot": false,
-        "dresscode": "egal",
-        "highlights": "Sportkneipe|HSV & Pauli friedlich vereint|Winterhude",
-        "atmosphere": "Die einzige Kneipe, wo HSV- und Pauli-Fans friedlich nebeneinander sitzen. Bundesliga auf Leinwand.",
-        "confidence": "medium"
+    ]
+  },
+  "new_locations": {
+    "summary": "4 neue Locations für Hamburg entdeckt (via Genuss-Guide Neueröffnungen & Web-Recherche)",
+    "locations": [
+      {
+        "name": "Chefs Warehouse",
+        "address": "Am Sandtorkai 29/Block M, HafenCity, 20457 Hamburg",
+        "category": "restaurant",
+        "description": "Südafrikanisches Casual Fine Dining in der Speicherstadt — Tapas for Two, offene Küche, spektakuläres Ambiente in ehemaliger Maschinenzentralstation. Eröffnet Feb 2026.",
+        "opening_hours": "Mo-Su 18:00-22:00",
+        "tags": ["ue35", "flirt", "restaurant"],
+        "source": "genussguide-hamburg.com",
+        "confidence": "high",
+        "relevance_for_oliver": "Gehobenes Dining, ideal für Business-Dinner. Speicherstadt-Nähe."
+      },
+      {
+        "name": "jfk (Bullerei Kaminzimmer)",
+        "address": "Lagerstraße 34B, Sternschanze, 20357 Hamburg",
+        "category": "restaurant",
+        "description": "Rock'n'Roll trifft Fine Dining — Ex-Haebel-Team Jule-Fee Poll & Kevin Bürmann im Kaminzimmer der Bullerei. Eröffnet Q1 2026.",
+        "tags": ["ue35", "schanze", "restaurant"],
+        "source": "genussguide-hamburg.com",
+        "confidence": "high",
+        "relevance_for_oliver": "Schanzenhöfe-Nähe, Fine Dining mit Edge. Oliver kennt die Bullerei."
+      },
+      {
+        "name": "Tapas-Bar im Hundertwasserhaus",
+        "address": "Hundertwasserhaus, Ottensen, Hamburg",
+        "category": "bar",
+        "description": "Neue Tapas-Bar von Yasemin Sahiner im Hundertwasserhaus Ottensen — Eröffnung April 2026, spanische Tapas-Küche.",
+        "tags": ["altona", "bar"],
+        "source": "abendblatt.de",
+        "confidence": "medium",
+        "relevance_for_oliver": "Ottensen, originelle Location."
+      },
+      {
+        "name": "Olivia Jones neue Bar (Große Freiheit)",
+        "address": "Große Freiheit, St. Pauli, Hamburg",
+        "category": "bar",
+        "description": "Neue Bar von Olivia Jones auf der Großen Freiheit — Eröffnung März 2026, Entertainment-Konzept.",
+        "tags": ["st-pauli", "bar"],
+        "source": "abendblatt.de",
+        "confidence": "high",
+        "relevance_for_oliver": "Eher Entertainment als Olivers Stil, aber Kiez-News."
       }
-    },
-    {
-      "name": "Gaststätte Dorotheen Eck",
-      "current": "Gaby & Olaf begrüßen Stammgäste seit über 10 Jahren",
-      "status": "missing_enrichment",
-      "suggested_enrichment": {
-        "vibe": "gemütlich",
-        "crowd": "ue35",
-        "priceLevel": "€",
-        "bestTime": "abends",
-        "specials": "bier",
-        "dateSpot": false,
-        "dresscode": "egal",
-        "highlights": "Inhabergeführt seit 10+ Jahren|Winterhude|Stammgast-Kneipe",
-        "atmosphere": "Gaby und Olaf kennen jeden beim Namen. Echte Winterhuder Nachbarschaftskneipe.",
-        "confidence": "medium"
+    ]
+  },
+  "events_this_week": {
+    "summary": "Events KW14 (30.03. - 05.04.2026) die Oliver interessieren könnten",
+    "events": [
+      {
+        "name": "AI Tinkerers Hamburg (monatliches Meetup)",
+        "category": "AI/Tech",
+        "description": "Monatliches Meetup für Practitioners die mit LLMs und Foundation Models bauen. Hands-on Demos, 5-Min-Talks, Networking. Supported by AI.STARTUP.HUB.",
+        "url": "https://hamburg.aitinkerers.org/",
+        "when": "Nächster Termin prüfen — typisch monatlich, evtl. diese Woche",
+        "relevance": "Hohe Relevanz — AI Practitioners, Networking, direkt in Olivers Kernbereich"
+      },
+      {
+        "name": "After Work Social Club Hamburg",
+        "category": "Networking",
+        "description": "Community mit 20.000+ Mitgliedern. 1-2x monatlich Afterwork Events, lockeres Netzwerken in wechselnden Bars.",
+        "url": "https://www.meetup.com/de-DE/after-work-social-club-hamburg/",
+        "when": "Wechselnde Termine Di-Do",
+        "relevance": "Mittlere Relevanz — großes Netzwerk, lockeres Format"
+      },
+      {
+        "name": "After Work Club — Café Schöne Aussichten",
+        "category": "Networking/Afterwork",
+        "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag 18 Uhr. Singles & Networking, Terrasse im Park.",
+        "url": "https://afterworkclub.de",
+        "when": "Donnerstag 02.04.2026, 18:00 Uhr",
+        "relevance": "Mittlere Relevanz — jeden Do, Networking-Klassiker"
+      },
+      {
+        "name": "Gluck Gluck Weinmesse",
+        "category": "Wine",
+        "description": "Weinmesse bei Tranquillo in der Kulturkirche Altona. Eintägiges Festival mit Kantine und Rahmenprogramm.",
+        "url": "https://www.genussguide-hamburg.com/top-listen/food-events-2026/",
+        "when": "April 2026 (genaues Datum prüfen)",
+        "relevance": "Hohe Relevanz — Wine + Networking + Kultur, genau Olivers Profil"
+      },
+      {
+        "name": "Noi — Gastro-Gründerpreis 2026 Gewinner",
+        "category": "Gastro/Networking",
+        "description": "Hamburgs Gastro-Gründerpreis 2026 geht an 'Noi'. Neues Konzept auf dem Radar.",
+        "url": "https://www.artichox.com/",
+        "when": "Jetzt geöffnet",
+        "relevance": "Niedrig — aber als Gastro-Trend für Barfinder relevant"
       }
-    },
-    {
-      "name": "Zum Flensburger",
-      "current": "Alles Flens! Bunte Beleuchtung, gemütliche Kneipe in Hamm",
-      "status": "missing_enrichment",
-      "suggested_enrichment": {
-        "vibe": "gemütlich",
-        "crowd": "locals",
-        "priceLevel": "€",
-        "bestTime": "abends",
-        "specials": "bier",
-        "dateSpot": false,
-        "dresscode": "egal",
-        "highlights": "Flensburger Pilsener|Bunte Beleuchtung|Hamm",
-        "atmosphere": "Flensburger-Pilsener-Tempel in Hamm. Bunte Beleuchtung und gemütliche Atmosphäre.",
-        "confidence": "low"
-      }
-    },
-    {
-      "name": "Bierkrug",
-      "current": "Traditionskneipe Eppendorf",
-      "status": "missing_enrichment",
-      "suggested_enrichment": {
-        "vibe": "gemütlich",
-        "crowd": "locals",
-        "priceLevel": "€",
-        "bestTime": "abends",
-        "specials": "bier",
-        "dateSpot": false,
-        "dresscode": "egal",
-        "highlights": "Traditionskneipe|Eppendorf",
-        "atmosphere": "Eppendorfer Traditionskneipe für den unkomplizierten Feierabend.",
-        "confidence": "low"
-      }
-    },
-    {
-      "name": "1 & Dreißig",
-      "current": "Gemütliche Kneipe in Hamburg",
-      "status": "weak_description",
-      "suggested_description": "Nachbarschaftskneipe in der Fruchtallee Eimsbüttel — gemütlich, lokal, Feierabend-Klassiker",
-      "suggested_enrichment": {
-        "vibe": "gemütlich",
-        "crowd": "locals",
-        "priceLevel": "€",
-        "bestTime": "abends",
-        "specials": "bier",
-        "dateSpot": false,
-        "dresscode": "egal",
-        "highlights": "Fruchtallee|Eimsbüttel|Nachbarschaftskneipe",
-        "atmosphere": "Eimsbütteler Eck-Kneipe an der Fruchtallee. Hier trifft sich das Viertel.",
-        "confidence": "low"
-      }
-    },
-    {
-      "name": "Vinos",
-      "current": "Weinbar in Hamburg",
-      "status": "weak_description",
-      "suggested_description": "Vinothek & Weinbar am Eppendorfer Markt — spanische und internationale Weine, Tapas",
-      "suggested_enrichment": {
-        "vibe": "gemütlich",
-        "crowd": "ue35",
-        "priceLevel": "€€",
-        "bestTime": "afterwork",
-        "specials": "wein",
-        "dateSpot": true,
-        "dresscode": "casual",
-        "highlights": "Spanische Weine|Eppendorf|Vinothek",
-        "atmosphere": "Spanisch geprägte Vinothek in Eppendorf. Weine glasweise und Tapas.",
-        "confidence": "low"
-      }
-    },
-    {
-      "name": "Windschirm",
-      "current": "Bar in Hamburg",
-      "status": "weak_description",
-      "suggested_description": "Gemütliche Bar am Hallerplatz — Cocktails und Wein in entspannter Atmosphäre nahe Uni",
-      "suggested_enrichment": {
-        "vibe": "lässig",
-        "crowd": "gemischt",
-        "priceLevel": "€€",
-        "bestTime": "abends",
-        "specials": "cocktails",
-        "dateSpot": true,
-        "dresscode": "casual",
-        "highlights": "Hallerplatz|Uni-Nähe",
-        "atmosphere": "Entspannte Bar am Hallerplatz. Gut erreichbar, nettes Publikum.",
-        "confidence": "low"
-      }
-    }
-  ],
-
-  "new_locations_found": [
-    {
-      "name": "Chefs Warehouse",
-      "address": "Am Sandtorkai 29/Block M, HafenCity",
-      "category": "restaurant",
-      "description": "Südafrikanisches Konzept in der Speicherstadt — Tapas for Two, Bar mit Blick auf offene Küche, beeindruckendes Ambiente in ehemaliger Maschinenzentralstation",
-      "opening_hours": "Mo-Su 18:00-22:00",
-      "source": "genussguide-hamburg.com, eröffnet 27.02.2026",
-      "tags": ["ue35", "flirt", "restaurant"],
-      "relevance": "high — spannendes neues Konzept, gehobene Location"
-    },
-    {
-      "name": "jfk (im Kaminzimmer der Bullerei)",
-      "address": "Lagerstraße 34b, Sternschanze",
-      "category": "restaurant",
-      "description": "Fine Dining meets Rock'n'Roll — 7-Gang-Menü für 94€, von ex-Haebel-Team (Jule-Fee Poll & Kevin Bürmann)",
-      "opening_hours": "Mo-Fr ab 18:00",
-      "source": "genussguide-hamburg.com, Feb 2026",
-      "tags": ["schanze", "restaurant"],
-      "relevance": "high — ex-Sternerestaurant-Team, direkt bei Bullerei"
-    },
-    {
-      "name": "Cafe Charade (neuer Standort)",
-      "address": "Feldstraße 40, St. Pauli",
-      "category": "cafe",
-      "description": "Umgezogen von Dorotheenstraße — Café-Bar, Frühstück bis Abenddrinks",
-      "opening_hours": "Mo-Fr 9-18/21, Sa 10-21, So 10-19",
-      "source": "genussguide-hamburg.com, Jan 2026",
-      "tags": ["st-pauli", "cafe", "bar"],
-      "relevance": "medium — bekanntes Café am neuen Standort"
-    },
-    {
-      "name": "Alsterpavillon (coming soon)",
-      "address": "Jungfernstieg, Innenstadt",
-      "category": "bar",
-      "description": "Wiedereröffnung als Brasserie im Sommer 2026 — 700 Plätze, Kulturveranstaltungen, ikonische Location an der Binnenalster",
-      "source": "entwicklungsstadt.de, Eröffnung Sommer 2026",
-      "tags": ["afterwork", "outdoor", "bar"],
-      "relevance": "very high — Hamburger Wahrzeichen kehrt zurück"
-    }
-  ],
-
-  "events_this_week": [
-    {
-      "name": "AI.HAMBURG Event",
-      "date": "2026-03-24 (Dienstag)",
-      "time": "18:00",
-      "location": "TBD (ai.hamburg)",
-      "category": "AI / Tech",
-      "url": "https://ai.hamburg/de/events-de/",
-      "relevance_for_oliver": "very high — AI-Strategie, direkt in Olivers Netzwerk (ARIC Ambassador)"
-    },
-    {
-      "name": "AI Tinkerers Hamburg (monatlich)",
-      "date": "März 2026 (nächster Termin prüfen)",
-      "location": "Hamburg",
-      "category": "AI / Tech",
-      "url": "https://hamburg.aitinkerers.org/",
-      "relevance_for_oliver": "high — Hands-on AI Demos, LLMs, Foundation Models, Networking"
-    },
-    {
-      "name": "After Work Club — Café Schöne Aussichten",
-      "date": "2026-03-26 (Donnerstag)",
-      "time": "18:00-22:00",
-      "location": "St. Petersburger Straße (Park)",
-      "category": "Networking / Singles",
-      "url": "https://afterworkclub.de",
-      "relevance_for_oliver": "medium — jeden Donnerstag, Networking"
-    },
-    {
-      "name": "WeinHamburg Frühling 2026",
-      "date": "Termin noch offen (typisch April/Mai)",
-      "location": "Hamburg",
-      "category": "Wine",
-      "url": "https://www.webermesse.de/messe/wein-hamburg-fruehling",
-      "relevance_for_oliver": "high — 900 Weine, Verkostungen, Winzer. Vormerken!"
-    }
-  ],
-
+    ]
+  },
   "stats": {
-    "total_locations": "300+",
-    "locations_without_enrichment": 48,
-    "locations_with_weak_descriptions": 35,
-    "descriptions_improved_this_week": 8,
+    "total_locations": 5214,
+    "locations_without_enrichment": 5017,
+    "locations_with_low_confidence": 30,
+    "locations_enriched_this_week": 14,
     "new_locations_found": 4,
-    "events_found": 4
+    "events_found": 5,
+    "note": "Der Großteil der 5017 unenrichierten Locations sind Restaurants/Cafés/Mittagstisch aus dem Schanze-Bulk-Import. Priorität liegt auf Bars/Pubs/Weinbars mit 'highlight'-Tag."
   }
 }

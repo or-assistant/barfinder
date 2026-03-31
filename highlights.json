@@ -126,10 +126,10 @@
     "website": "https://www.erikaseck.com/"
   },
   {
-    "name": "Zwick",
-    "lat": 53.5692024,
-    "lon": 9.9947238,
-    "address": "Mittelweg 36, Pöseldorf",
+    "name": "Zwick Pöseldorf",
+    "lat": 53.572,
+    "lon": 9.995,
+    "address": "Mittelweg 121b, Pöseldorf",
     "category": "pub",
     "description": "Legendäre Kneipe seit Jahrzehnten in Eppendorf/Harvestehude — Pöseldorfer Institution",
     "website": "https://www.zwick-hamburg.de",
@@ -311,9 +311,9 @@
   },
   {
     "name": "Schröders",
-    "lat": 53.5813286,
-    "lon": 9.9717966,
-    "address": "Eppendorfer Weg 198, Eppendorf",
+    "lat": 53.582854,
+    "lon": 9.9806992,
+    "address": "Hegestraße 1, Eppendorf",
     "category": "bar",
     "description": "Eppendorfer Klassiker — Bar & Restaurant, entspanntes Publikum, Olivers Empfehlung",
     "opening_hours": "Mo-Su 17:00-01:00",
@@ -341,9 +341,9 @@
   },
   {
     "name": "Paola's",
-    "lat": 53.590172,
-    "lon": 9.9878885,
-    "address": "Marie-Jonas-Platz, Eppendorf",
+    "lat": 53.5896973,
+    "lon": 9.9885244,
+    "address": "Goernestraße 1a, Eppendorf",
     "category": "bar",
     "description": "Italienisch inspirierte Bar in Eppendorf — Wein, Aperitivo, Olivers Empfehlung",
     "opening_hours": "Tu-Sa 17:00-00:00",
@@ -462,9 +462,9 @@
   },
   {
     "name": "Holsten-Schwemme",
-    "lat": 53.55,
-    "lon": 9.9638,
-    "address": "Seilerstraße, St. Pauli",
+    "lat": 53.548265,
+    "lon": 9.9559973,
+    "address": "Herrenweide 2a, St. Pauli",
     "category": "pub",
     "description": "Urig maritime Kneipe — Herrengedeck & hausgemachte Mexikaner",
     "opening_hours": "Mo-Su 18:00-04:00",
@@ -493,9 +493,9 @@
   },
   {
     "name": "Hong-Kong Hotel Bar",
-    "lat": 53.5511507,
-    "lon": 9.9590176,
-    "address": "Schmuckstraße 9, St. Pauli",
+    "lat": 53.5507542,
+    "lon": 9.9610963,
+    "address": "Hamburger Berg 12, St. Pauli",
     "category": "pub",
     "description": "Seit 1934 — angeblich bester Mexikaner der Stadt, Hamburgs Chinatown-Relikt",
     "opening_hours": "Mo-Su 18:00-06:00",
@@ -555,9 +555,9 @@
   },
   {
     "name": "Zur Scharfen Ecke",
-    "lat": 53.5471498,
-    "lon": 9.9627769,
-    "address": "Davidstraße 1, St. Pauli",
+    "lat": 53.5472778,
+    "lon": 9.9627301,
+    "address": "Davidstraße 3, St. Pauli",
     "category": "pub",
     "description": "Klassische Kiezkneipe — maritime Einrichtung, Jukebox, echte Hamburger",
     "opening_hours": "Mo-Th 14:00-23:00; Fr-Su 12:00-23:00",
@@ -611,37 +611,6 @@
       "confidence": "high"
     },
     "website": "http://www.haifischbar.net"
-  },
-  {
-    "name": "Lehmitz",
-    "lat": 53.5501306,
-    "lon": 9.966187,
-    "address": "Reeperbahn 22",
-    "category": "pub",
-    "description": "Legendäre Reeperbahn-Spelunke, nahezu 24/7",
-    "opening_hours": "Mo-Su 06:00-04:00",
-    "smoker": true,
-    "tags": [
-      "nachbarschaft",
-      "st-pauli",
-      "pub",
-      "raucher"
-    ],
-    "source": "overpass",
-    "created_at": "2026-02-15T22:50:11.561Z",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "enriched": {
-      "vibe": "wild",
-      "crowd": "gemischt",
-      "priceLevel": "€",
-      "bestTime": "late-night",
-      "specials": "bier",
-      "dateSpot": false,
-      "dresscode": "egal",
-      "highlights": "Legendäre Spelunke|Fast 24/7|Reeperbahn",
-      "atmosphere": "Die Lehmitz ist Hamburg pur. Anders Petersen hat hier fotografiert, was den Kiez ausmacht.",
-      "confidence": "high"
-    }
   },
   {
     "name": "Hatari Pfälzer Stube",
@@ -2562,13 +2531,13 @@
     }
   },
   {
-    "name": "Botanik Distrikt",
-    "lat": 53.5973088,
-    "lon": 9.9890097,
-    "address": "Eppendorfer Landstraße 180, Eppendorf",
+    "name": "Botanic District",
+    "lat": 53.5848,
+    "lon": 9.9848,
+    "address": "Hegestraße 14-16, Eppendorf",
     "category": "bar",
     "description": "Lavendel-Veilchen-Drinks, Tapas, Bowls, Burger — der Eppendorf-Hotspot",
-    "website": "https://botanikdistrikt.de",
+    "website": "https://botanic-district.de",
     "opening_hours": "Tu-Sa 18:00-01:00",
     "tags": [
       "ue35",
@@ -6624,26 +6593,6 @@
     "vibe": "hip"
   },
   {
-    "name": "CavaRo Weinbar",
-    "lat": 53.571484,
-    "lon": 9.98823,
-    "category": "wine",
-    "address": "Rothenbaumchaussee 107, Hamburg",
-    "description": "Weinbar in Hamburg",
-    "tags": [
-      "ue35",
-      "flirt",
-      "wine",
-      "wein",
-      "highlight"
-    ],
-    "highlight": true,
-    "source": "manual",
-    "created_at": "2026-02-15T22:50:11.561Z",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "description_auto": true
-  },
-  {
     "name": "Central Café Bar&Billard",
     "lat": 53.599179,
     "lon": 9.971297,
@@ -9348,12 +9297,12 @@
   },
   {
     "name": "JazzHall",
-    "category": "bar",
-    "description": "Jazz-Venue in Hamburg — Live-Jazz-Konzerte",
+    "category": "nightclub",
+    "description": "Live-Jazz in der JazzHall (HfMT Hamburg). Konzertsaal der Jazz Federation Hamburg. Nur bei Veranstaltungen geöffnet.",
     "lat": 53.5705074,
     "lon": 9.9994701,
     "district": "Rotherbaum",
-    "address": "Milchstraße, Rotherbaum",
+    "address": "Milchstraße 12, Rotherbaum",
     "tags": [
       "livemusik",
       "rotherbaum",
@@ -9362,7 +9311,8 @@
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "website": "https://jazzfederation.de"
   },
   {
     "name": "Monkeys Music Club",
@@ -9517,37 +9467,6 @@
       "confidence": "high"
     },
     "website": "https://www.molotowclub.com/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "INDRA Musikclub",
-    "category": "nightclub",
-    "description": "Historischer Club — hier spielten die Beatles 1960 ihr erstes Hamburg-Konzert. Live-Musik",
-    "lat": 53.5519933,
-    "lon": 9.9581557,
-    "district": "St. Pauli",
-    "address": "Große Freiheit 64, Hamburg",
-    "tags": [
-      "livemusik",
-      "nightclub",
-      "live-musik"
-    ],
-    "enriched": {
-      "vibe": "hip",
-      "crowd": "gemischt",
-      "priceLevel": "€€",
-      "bestTime": "late-night",
-      "specials": "bier",
-      "dateSpot": false,
-      "dresscode": "casual",
-      "highlights": "Beatles-Historie|Große Freiheit",
-      "atmosphere": "Historischer Musikclub an der Großen Freiheit. Beatles-Geschichte und aktuelle Live-Acts.",
-      "confidence": "high"
-    },
-    "opening_hours": "\"abhängig vom Programm\"",
-    "website": "http://www.indramusikclub.com/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
@@ -13271,23 +13190,6 @@
     "source": "overpass"
   },
   {
-    "name": "Das kleine Phi",
-    "category": "pub",
-    "description": "",
-    "lat": 53.5573154,
-    "lon": 9.9715177,
-    "district": "Sternschanze/Karoviertel",
-    "address": "Sternschanze/Karoviertel",
-    "opening_hours": "Tu-Th 18:00-01:00; Fr-Sa 18:00-03:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "schanze",
-      "pub"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "La Maison",
     "category": "cafe",
     "description": "",
@@ -14258,22 +14160,6 @@
       "mittagstisch"
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Sonnenseite",
-    "category": "bar",
-    "description": "",
-    "lat": 53.5674151,
-    "lon": 9.965004,
-    "district": "Sternschanze/Karoviertel",
-    "address": "Weidenallee 24",
-    "opening_hours": "Tu-Th 18:00-24:00, Fr,Sa 18:00-01:00, Su 18:00-24:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "bar"
-    ],
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -18542,22 +18428,6 @@
     "source": "overpass"
   },
   {
-    "name": "Cafe Gnosa",
-    "category": "cafe",
-    "description": "",
-    "lat": 53.5587826,
-    "lon": 10.0127916,
-    "district": "St. Georg",
-    "address": "Lange Reihe 93, Hamburg",
-    "opening_hours": "10:00-23:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "cafe"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Cube Cafe.Bar",
     "category": "cafe",
     "description": "",
@@ -22088,23 +21958,6 @@
     "source": "overpass"
   },
   {
-    "name": "Komet",
-    "category": "bar",
-    "description": "",
-    "lat": 53.5475588,
-    "lon": 9.9620406,
-    "district": "St. Pauli/Reeperbahn",
-    "address": "Erichstraße 11, St. Pauli",
-    "opening_hours": "We-Su 20:00+",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "st-pauli",
-      "bar"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Mexiko Strasse",
     "category": "restaurant",
     "description": "mexican in St. Pauli/Reeperbahn",
@@ -23305,23 +23158,6 @@
     "address": "Bernhard-Nocht-Straße",
     "opening_hours": "Su-Th 11:30-24:00, Fr,Sa 11:30-01:00",
     "website": "https://www.empire-riverside.de/de/restaurant-und-bars/#davids",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "bar"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "20up",
-    "category": "bar",
-    "description": "",
-    "lat": 53.5472091,
-    "lon": 9.9633526,
-    "district": "St. Pauli/Reeperbahn",
-    "address": "Bernhard-Nocht-Straße 97",
-    "opening_hours": "Su-Th 18:00-01:00, Sa,Su 18:00-01:30",
-    "website": "https://www.empire-riverside.de/de/hotel-restaurant-bars-hamburg/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
       "bar"
@@ -32282,23 +32118,6 @@
     "source": "overpass"
   },
   {
-    "name": "Haerlin",
-    "category": "restaurant",
-    "description": "",
-    "lat": 53.5557185,
-    "lon": 9.9916858,
-    "district": "Neustadt/Innenstadt",
-    "address": "Neuer Jungfernstieg 9-14, Hamburg",
-    "opening_hours": "Tu-Sa 18:30-21:30",
-    "website": "https://www.restaurant-haerlin.de",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "restaurant"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Casse-Croûte",
     "category": "restaurant",
     "description": "french;german in Neustadt/Innenstadt",
@@ -40600,21 +40419,6 @@
     "source": "overpass"
   },
   {
-    "name": "Restaurant Brook",
-    "category": "restaurant",
-    "description": "Moderne Küche am Nikolaifleet.",
-    "lat": 53.545351,
-    "lon": 9.9936697,
-    "district": "Altstadt",
-    "address": "Brook, 91, Bei den Mühren, Altstadt, Hamburg-Mitte, Hamburg, 20457, Deutschland",
-    "tags": [
-      "restaurant"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Weinwirtschaft Kleines Jacob",
     "category": "wine",
     "description": "Weinbar im Hotel Jacob in Nienstedten.",
@@ -40787,23 +40591,6 @@
     "source": "overpass"
   },
   {
-    "name": "Café Délice",
-    "category": "cafe",
-    "description": "Französische Pâtisserie in der Neustadt.",
-    "lat": 53.5788932,
-    "lon": 9.9467923,
-    "district": "Neustadt",
-    "address": "Cafe Delice, Schopstraße, Eimsbüttel, Hamburg, 20259, Deutschland",
-    "opening_hours": "Mo-Fr 08:00-18:30; Sa,Su 09:00-18:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "eimsbüttel",
-      "cafe"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Fischerhaus Blankenese",
     "category": "restaurant",
     "description": "Traditionelles Restaurant am Blankeneser Strand.",
@@ -40893,23 +40680,6 @@
     "tags": [
       "restaurant"
     ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Glanz & Gloria",
-    "category": "bar",
-    "description": "Bar mit Vintage-Flair in der Schanze.",
-    "lat": 53.5491382,
-    "lon": 9.963211,
-    "district": "Sternschanze",
-    "address": "Glanz&Gloria, Spielbudenplatz, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland",
-    "tags": [
-      "schanze",
-      "st-pauli",
-      "bar"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -44872,23 +44642,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Haifischbar",
-    "lat": 53.544474,
-    "lon": 9.9459206,
-    "address": "Große Elbstraße 128, Hamburg",
-    "category": "pub",
-    "description": "",
-    "opening_hours": "11:00-04:00",
-    "tags": [
-      "pub",
-      "outdoor"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Raj Mahal",
     "lat": 53.5473373,
     "lon": 10.0506228,
@@ -48476,22 +48229,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Der Goldbeker",
-    "lat": 53.5841653,
-    "lon": 10.0118066,
-    "address": "Schinkelstraße 20, Hamburg",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Mo-Sa 10:00-02:00, Su 10:00-01:00",
-    "tags": [
-      "restaurant"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Dal Fabbro",
     "lat": 53.55937,
     "lon": 9.811272,
@@ -50189,24 +49926,6 @@
     "tags": [
       "restaurant",
       "chinese"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Zwick",
-    "lat": 53.550623,
-    "lon": 9.969368,
-    "address": "Millerntorplatz 1, Hamburg",
-    "category": "bar",
-    "description": "",
-    "opening_hours": "Mo-Fr 11:30+, Sa,Su 12:00+",
-    "tags": [
-      "bar",
-      "outdoor",
-      "wheelchair"
     ],
     "source": "overpass",
     "smoker": false,

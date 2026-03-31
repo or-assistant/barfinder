@@ -1484,5 +1484,37 @@
       "Nicht in OSM gefunden"
     ],
     "timestamp": "2026-03-22T03:07:28.442Z"
+  },
+  {
+    "name": "ERNST GESING & CO",
+    "status": "suspect",
+    "issues": [
+      "Website unreachable (timeout)"
+    ],
+    "timestamp": "2026-03-29T02:00:07.635Z"
+  },
+  {
+    "name": "Central Café Bar&Billard",
+    "status": "suspect",
+    "issues": [
+      "Website unreachable (timeout)"
+    ],
+    "timestamp": "2026-03-29T02:00:16.695Z"
+  },
+  {
+    "name": "Aurora",
+    "status": "suspect",
+    "issues": [
+      "Nicht in OSM gefunden"
+    ],
+    "timestamp": "2026-03-29T02:00:34.749Z"
+  },
+  {
+    "name": "Victoria Klause",
+    "status": "suspect",
+    "issues": [
+      "Website dead (404)"
+    ],
+    "timestamp": "2026-03-29T02:00:51.542Z"
   }
 ]

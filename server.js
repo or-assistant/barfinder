@@ -2710,7 +2710,7 @@ const server = http.createServer(async (req, res) => {
           vibeLabel: getVibeLabel(dynamicVibe.dynamicVibeScore),
           vibeEmoji: getVibeEmoji(dynamicVibe.dynamicVibeScore),
           
-          has_events: hs.has_events || hasPlaceEventToday, 
+          has_events: hs.has_events, 
           communityScore: getCommunityScore(h.name) || null, 
           estimatedBusyness: bn.busyness, 
           busynessLabel: bn.busynessLabel, 

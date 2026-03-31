@@ -1,17 +1,45 @@
 {
   "metadata": {
-    "generated": "2026-03-23",
+    "generated": "2026-03-30",
+    "week_range": "2026-03-30 bis 2026-04-12",
     "sources": [
       "lu.ma/hamburg",
       "afterworkclub.de",
+      "ueberstunde.com/hamburg",
+      "rausgegangen.de",
+      "weinseminar-hamburg.de",
+      "ludwig-von-kapff.de",
       "szene-hamburg.com",
-      "entkorktekunst.de",
-      "web search",
-      "domain knowledge"
+      "web search"
     ],
     "note": "Events marked 'high' confidence are verified from live sources. 'medium' are well-known recurring Hamburg events from established venues."
   },
   "recurring": [
+    {
+      "name": "After Work Club — Das Original",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
+      "category": "afterwork",
+      "days": [4],
+      "time": "18:00",
+      "description": "Hamburgs erster After Work Club seit 1999 — 26 Jahre Tradition. Jeden Donnerstag: House, Dance Classics, R'n'B. Terrasse mit Blick auf Planten un Blomen.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "ÜBERSTUNDE Hamburg — Networking Afterwork",
+      "location": "Wechselnde Locations",
+      "address": "Hamburg",
+      "category": "networking",
+      "days": [],
+      "time": "19:00",
+      "description": "Monatliches Networking-Event mit 2.000+ Teilnehmenden in 11 Städten. Ungezwungenes Format — Gäste und Austausch sind das Programm. Business-Crowd, alle Branchen.",
+      "price": "Ticket erforderlich",
+      "url": "https://ueberstunde.com/hamburg",
+      "confidence": "high",
+      "recurrence": "1x pro Monat"
+    },
     {
       "name": "After Work Social Club Hamburg",
       "location": "Wechselnde Locations",
@@ -22,18 +50,6 @@
       "description": "Community mit 20.000+ Mitgliedern. 1-2x monatlich Afterwork Events, lockeres Netzwerken in wechselnden Bars.",
       "price": "kostenlos",
       "url": "https://www.meetup.com/de-DE/after-work-social-club-hamburg/",
-      "confidence": "high"
-    },
-    {
-      "name": "AWSC Spiele-Abend",
-      "location": "itemis AG Hamburg",
-      "address": "Überseeallee 1, 20457 Hamburg",
-      "category": "social",
-      "days": [3],
-      "time": "19:00",
-      "description": "After Work Social Club Spieleabend — Board Games & Drinks in lockerer Atmosphäre",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
       "confidence": "high"
     },
     {
@@ -70,18 +86,6 @@
       "description": "Alle 2 Wochen donnerstags. Internationales Afterwork-Treffen, lockeres Kennenlernen in Bars.",
       "price": "kostenlos",
       "url": "https://www.meetup.com/de-DE/dear-world-hamburg-the-international-week-breaker/",
-      "confidence": "high"
-    },
-    {
-      "name": "After Work Club — Das Original",
-      "location": "Café Schöne Aussichten",
-      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
-      "category": "afterwork",
-      "days": [4],
-      "time": "18:00",
-      "description": "Hamburgs erster After Work Club seit 1999. Jeden Donnerstag: House, Dance Classics, R'n'B. Terrasse mit Blick auf Planten un Blomen. 26 Jahre Tradition.",
-      "price": "Eintritt",
-      "url": "https://afterworkclub.de/",
       "confidence": "high"
     },
     {
@@ -133,30 +137,6 @@
       "confidence": "high"
     },
     {
-      "name": "F*ck the Small Talk Hamburg",
-      "location": "Wechselnde Locations",
-      "address": "Hamburg",
-      "category": "networking",
-      "days": [1],
-      "time": "18:30",
-      "description": "Tiefgründige Gespräche statt Smalltalk. Connection Games & Deep Talks. Monatlich.",
-      "price": "18€",
-      "url": "https://www.meetup.com/de-DE/meetnewpeoplehamburg/",
-      "confidence": "high"
-    },
-    {
-      "name": "TRU Afterwork Hamburg",
-      "location": "TRU Fitness Club",
-      "address": "Große Elbstraße 277, 22767 Hamburg",
-      "category": "afterwork",
-      "days": [4],
-      "time": "18:30",
-      "description": "Sport & Social Afterwork im Fitness Club an der Elbe. Workout + Drinks danach.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
       "name": "Clouds Afterwork",
       "location": "Clouds — Heaven's Bar & Kitchen",
       "address": "Reeperbahn 1, 20359 Hamburg",
@@ -190,18 +170,6 @@
       "description": "Regelmäßige Weinabende mit norddeutscher Küche in der historischen Speicherstadt.",
       "price": "ab 59€",
       "url": "https://www.vlet.de/",
-      "confidence": "medium"
-    },
-    {
-      "name": "Weinprobe bei Jacques' Wein-Depot",
-      "location": "Jacques' Wein-Depot",
-      "address": "Eppendorfer Weg 76, 20259 Hamburg",
-      "category": "wine-tasting",
-      "days": [5, 6],
-      "time": "19:00",
-      "description": "Regelmäßige Weinproben mit 6-8 Weinen. Verschiedene Filialen in Hamburg.",
-      "price": "15-25€",
-      "url": "https://www.jacques.de/",
       "confidence": "medium"
     },
     {
@@ -265,6 +233,30 @@
       "confidence": "medium"
     },
     {
+      "name": "Hamburger Afterwork im 20up",
+      "location": "20up Bar",
+      "address": "Bernhard-Nocht-Str. 97, 20359 Hamburg",
+      "category": "afterwork",
+      "days": [4],
+      "time": "18:00",
+      "description": "Afterwork mit Panoramablick über den Hafen. Cocktails in der Empire Riverside Rooftop Bar.",
+      "price": "kostenlos (Getränke selbst)",
+      "url": "https://www.empire-riverside.de/20up/",
+      "confidence": "medium"
+    },
+    {
+      "name": "Music Bingo @ Sonnendeck St. Pauli",
+      "location": "Sonnendeck St. Pauli",
+      "address": "St. Pauli, Hamburg",
+      "category": "social",
+      "days": [5],
+      "time": "19:30",
+      "description": "Music Bingo Night: Musik erkennen + Bingo spielen. Regelmäßig ausverkauft.",
+      "price": "TBA",
+      "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
       "name": "12MIN.ME Hamburg",
       "location": "Wechselnde Locations",
       "address": "Hamburg",
@@ -276,6 +268,18 @@
       "url": "https://www.meetup.com/de-DE/12minhh/",
       "confidence": "high",
       "recurrence": "1-2x pro Monat"
+    },
+    {
+      "name": "Weinprobe bei Jacques' Wein-Depot",
+      "location": "Jacques' Wein-Depot",
+      "address": "Eppendorfer Weg 76, 20259 Hamburg",
+      "category": "wine-tasting",
+      "days": [5, 6],
+      "time": "19:00",
+      "description": "Regelmäßige Weinproben mit 6-8 Weinen. Verschiedene Filialen in Hamburg.",
+      "price": "15-25€",
+      "url": "https://www.jacques.de/",
+      "confidence": "medium"
     },
     {
       "name": "Literaturhaus Hamburg — Wine & Words",
@@ -290,18 +294,6 @@
       "confidence": "medium"
     },
     {
-      "name": "Hamburger Afterwork im 20up",
-      "location": "20up Bar",
-      "address": "Bernhard-Nocht-Str. 97, 20359 Hamburg",
-      "category": "afterwork",
-      "days": [4],
-      "time": "18:00",
-      "description": "Afterwork mit Panoramablick über den Hafen. Cocktails in der Empire Riverside Rooftop Bar.",
-      "price": "kostenlos (Getränke selbst)",
-      "url": "https://www.empire-riverside.de/20up/",
-      "confidence": "medium"
-    },
-    {
       "name": "Alsterhaus Afterwork Apéro",
       "location": "Alsterhaus — Le Buffet",
       "address": "Jungfernstieg 16-20, 20354 Hamburg",
@@ -312,105 +304,9 @@
       "price": "ab 20€",
       "url": "https://www.alsterhaus.de/",
       "confidence": "medium"
-    },
-    {
-      "name": "Music Bingo @ The Irishman",
-      "location": "The Irishman Hamburg",
-      "address": "Hamburg",
-      "category": "social",
-      "days": [5],
-      "time": "19:30",
-      "description": "Music Bingo Night: Musik erkennen + Bingo spielen. Regelmäßig ausverkauft.",
-      "price": "TBA",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
     }
   ],
   "one_time": [
-    {
-      "name": "Corporate Influencer Club Meetup Hamburg",
-      "date": "2026-03-24",
-      "location": "Atelier F",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Meetup für Corporate Influencer & Personal Branding. Mit Sophie Rickmann & Klaus Eck. Near Capacity!",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Bits & Pretzels Community Hamburg: Network & Leadership Afterwork",
-      "date": "2026-03-25",
-      "location": "1KOMMA5° Showroom Hamburg",
-      "address": "Hamburg",
-      "category": "networking",
-      "time": "18:30",
-      "description": "Afterwork Event der Bits & Pretzels Community Hamburg. Leadership & Networking. Bereits auf Waitlist!",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "After Work Club Hamburg",
-      "date": "2026-03-26",
-      "location": "Café Schöne Aussichten",
-      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
-      "category": "afterwork",
-      "time": "18:00",
-      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag. House, Dance Classics, R'n'B. Terrasse mit Park-Blick.",
-      "price": "Eintritt",
-      "url": "https://afterworkclub.de/",
-      "confidence": "high"
-    },
-    {
-      "name": "TRU Afterwork Hamburg",
-      "date": "2026-03-26",
-      "location": "TRU Fitness Club",
-      "address": "Große Elbstraße 277, 22767 Hamburg",
-      "category": "afterwork",
-      "time": "18:30",
-      "description": "Sport & Social Afterwork an der Elbe. Workout + Drinks.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Drinks @ Reh Bar Ottensen",
-      "date": "2026-03-27",
-      "location": "Reh Bar",
-      "address": "Bahrenfelder Str. 157, 22765 Hamburg",
-      "category": "afterwork",
-      "time": "19:00",
-      "description": "360° Events Afterwork-Drinks in der Reh Bar Ottensen.",
-      "price": "kostenlos",
-      "url": "https://www.meetup.com/de-DE/360-grad-events-hamburg/",
-      "confidence": "high"
-    },
-    {
-      "name": "Longevity Community Run",
-      "date": "2026-03-28",
-      "location": "PYKĒ Society",
-      "address": "Hamburg",
-      "category": "social",
-      "time": "10:00",
-      "description": "Community Run von Longevity Germany. Lockeres Laufen + Networking für Health-Interessierte.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
-    {
-      "name": "Pawfect Sunday",
-      "date": "2026-03-29",
-      "location": "Krugkoppelbrücke",
-      "address": "Krugkoppelbrücke, Hamburg",
-      "category": "social",
-      "time": "11:00",
-      "description": "Girlhood DE Outdoor Social: Spaziergang an der Alster. Community Event.",
-      "price": "kostenlos",
-      "url": "https://luma.com/hamburg",
-      "confidence": "high"
-    },
     {
       "name": "PReakfast Club",
       "date": "2026-03-30",
@@ -424,6 +320,18 @@
       "confidence": "high"
     },
     {
+      "name": "Freche Möwe — Stand-Up Comedy",
+      "date": "2026-03-30",
+      "location": "Indra Musikclub",
+      "address": "Große Freiheit 64, 22767 Hamburg",
+      "category": "live-music",
+      "time": "19:00",
+      "description": "Stand-Up Comedy im legendären Indra Musikclub auf der Reeperbahn.",
+      "price": "12-19€",
+      "url": "https://rausgegangen.de/en/events/freche-mowe-stand-up-comedy-im-indra-musikclub-45/",
+      "confidence": "high"
+    },
+    {
       "name": "Health Network Hamburg Apéro Vol. 12",
       "date": "2026-03-31",
       "location": "RoofDrop Bar",
@@ -433,6 +341,30 @@
       "description": "Health-Branche Networking-Apéro. 82+ Interessenten. Rooftop-Bar Atmosphäre.",
       "price": "TBA",
       "url": "https://luma.com/hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Freche Möwe — Stand-Up Comedy",
+      "date": "2026-03-31",
+      "location": "Monkeys Music Club",
+      "address": "Hamburg",
+      "category": "live-music",
+      "time": "19:00",
+      "description": "Stand-Up Comedy im Monkeys Music Club.",
+      "price": "12-19€",
+      "url": "https://rausgegangen.de/en/events/freche-mowe-stand-up-comedy-im-monkeys-music-club-97/",
+      "confidence": "high"
+    },
+    {
+      "name": "Caribbean Night",
+      "date": "2026-03-31",
+      "location": "Cascadas",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "20:00",
+      "description": "Caribbean Night Party — Musik, Cocktails, Karibik-Vibes.",
+      "price": "10€",
+      "url": "https://rausgegangen.de/en/events/caribbean-night-209/",
       "confidence": "high"
     },
     {
@@ -454,9 +386,45 @@
       "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
       "category": "afterwork",
       "time": "18:00",
-      "description": "Hamburgs Original-Afterwork. Jeden Donnerstag.",
+      "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag: House, Dance Classics, R'n'B. Terrasse mit Park-Blick.",
       "price": "Eintritt",
       "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "REALITY TV QUIZ Hamburg",
+      "date": "2026-04-02",
+      "location": "Villa Viva Hamburg",
+      "address": "Schultzweg 4, 20097 Hamburg",
+      "category": "quiz",
+      "time": "18:00",
+      "description": "Reality TV Quiz — Teste dein Wissen über Reality Shows. Unterhaltsames Quiz-Format.",
+      "price": "12.49-15.99€",
+      "url": "https://rausgegangen.de/en/events/reality-tv-quiz-hamburg-15/",
+      "confidence": "high"
+    },
+    {
+      "name": "AFTERWORK Sound Bath",
+      "date": "2026-04-02",
+      "location": "Ayurveda und Yoga Praxis",
+      "address": "Hamburg",
+      "category": "social",
+      "time": "19:00",
+      "description": "Deep sound. Low lights. Entspannendes Klangbad nach Feierabend — Mindful Afterwork.",
+      "price": "29€",
+      "url": "https://rausgegangen.de/en/events/afterwork-sound-bath-deep-sound-low-lights-11/",
+      "confidence": "high"
+    },
+    {
+      "name": "Freche Möwe — Stand-Up Comedy",
+      "date": "2026-04-03",
+      "location": "a&o Hamburg Reeperbahn",
+      "address": "Reeperbahn 154, 20359 Hamburg",
+      "category": "live-music",
+      "time": "19:00",
+      "description": "Stand-Up Comedy im a&o Hostel an der Reeperbahn.",
+      "price": "13-19€",
+      "url": "https://rausgegangen.de/en/events/freche-mowe-stand-up-comedy-im-ao-hostel-reeperbahn-58/",
       "confidence": "high"
     },
     {
@@ -486,11 +454,11 @@
     {
       "name": "Cursor Meetup Hamburg #3",
       "date": "2026-04-05",
-      "location": "TBA",
-      "address": "Hamburg",
+      "location": "Hamburg-Neustadt",
+      "address": "Hamburg-Neustadt",
       "category": "networking",
       "time": "18:00",
-      "description": "AI/Tech Meetup: Cursor AI Code Editor Community Hamburg. Von AI BEAVERS.",
+      "description": "AI/Tech Meetup: Cursor AI Code Editor Community Hamburg. Von AI BEAVERS. Auf Waitlist!",
       "price": "kostenlos",
       "url": "https://luma.com/hamburg",
       "confidence": "high"
@@ -506,6 +474,78 @@
       "price": "TBA",
       "url": "https://www.falstaff.com/de/events/weinsalon-hamburg-by-moet-hennessy-wine-estates-x-falstaff",
       "confidence": "medium"
+    },
+    {
+      "name": "Freche Möwe Stand-Up Comedy",
+      "date": "2026-04-08",
+      "location": "KULTUR&GUT",
+      "address": "Hamburg",
+      "category": "live-music",
+      "time": "19:00",
+      "description": "Stand-Up Comedy im KULTUR&GUT.",
+      "price": "14-57€",
+      "url": "https://rausgegangen.de/en/events/freche-mowe-stand-up-comedy-x-kulturgut-6/",
+      "confidence": "high"
+    },
+    {
+      "name": "BRICKS BEAT Afterwork",
+      "date": "2026-04-09",
+      "location": "BRICKS Bar",
+      "address": "Hamburg",
+      "category": "afterwork",
+      "time": "18:30",
+      "description": "Afterwork mit Beats in der BRICKS Bar. Kostenloser Eintritt.",
+      "price": "kostenlos",
+      "url": "https://rausgegangen.de/en/events/bricks-beat-0/",
+      "confidence": "high"
+    },
+    {
+      "name": "After Work Club Hamburg",
+      "date": "2026-04-09",
+      "location": "Café Schöne Aussichten",
+      "address": "Bei den Kirchhöfen 4, 20099 Hamburg",
+      "category": "afterwork",
+      "time": "18:00",
+      "description": "Hamburgs Original-Afterwork. Jeden Donnerstag.",
+      "price": "Eintritt",
+      "url": "https://afterworkclub.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "Weinprobe bei Ludwig von Kapff — Winterhude",
+      "date": "2026-04-09",
+      "location": "Ludwig von Kapff Weinlager",
+      "address": "Hamburg-Winterhude",
+      "category": "wine-tasting",
+      "time": "19:00",
+      "description": "Weinprobe im traditionsreichen Weinlager Hamburg-Winterhude. 19:00-21:30 Uhr.",
+      "price": "TBA",
+      "url": "https://www.ludwig-von-kapff.de/weinlager-hamburg",
+      "confidence": "high"
+    },
+    {
+      "name": "Weinseminar Grundlagen 1 — Einsteiger",
+      "date": "2026-04-10",
+      "location": "Weinseminar Hamburg",
+      "address": "Hamburg",
+      "category": "wine-tasting",
+      "time": "19:00",
+      "description": "Einsteiger-Weinseminar: Grundlagen der Weinverkostung. Perfekt für Wine-Neulinge.",
+      "price": "TBA",
+      "url": "https://www.weinseminar-hamburg.de/",
+      "confidence": "high"
+    },
+    {
+      "name": "Schokolade und Wein — Tasting",
+      "date": "2026-04-11",
+      "location": "Weinseminar Hamburg",
+      "address": "Hamburg",
+      "category": "wine-tasting",
+      "time": "18:00",
+      "description": "Genuss-Tasting: Schokolade & Wein — perfekte Paarungen entdecken.",
+      "price": "TBA",
+      "url": "https://www.weinseminar-hamburg.de/",
+      "confidence": "high"
     }
   ]
 }

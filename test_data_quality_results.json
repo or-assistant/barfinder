@@ -1,6 +1,6 @@
 {
-  "passed": 2,
-  "failed": 12,
+  "passed": 5,
+  "failed": 9,
   "warnings": 0,
   "tests": [
     {
@@ -11,12 +11,12 @@
     {
       "name": "No duplicate names",
       "status": "fail",
-      "detail": "Duplicates: borchers, schweinske, block house, bistro, espresso house, goldfischglas, peter pane, sala thai, campus suite, sushi for friends, burger lounge, junge, copenhagen coffee lab, hellas, dionysos, marktschänke, chingu, inos, park cafe, jim block, mama trattoria, raj mahal, rindock's, ti breizh, starbucks, schanzenbäckerei, ahoi, ciao bella, casino, alexandros, cao, olympia grill, coffee fellows, shukria restaurant, jayjay's, cafe may, dubrovnik, hatari, eiscafé jacobs, mai-mai, kantine, sushi für hamburg, castello, holstenhof, naan, café klatsch, am sportplatz, jam jam, zwick, balutschistan, rio grande, oh it's fresh, l'osteria, seoul 1988, trucys, annam, kombüse, eiscafé dante, beets & roots, green papaya, brammibal's donuts, new york bagel bar, comebuy, farina di nonna, daily, hanoi deli, tunici, sportsbar, eclair au café, zum spätzle, may, portomarin, café may, l'orient, sushi lô, berglund, speicherstadt kaffeerösterei, tibet, mama, public coffee roasters, shikara, asiahub, fofftein, schönes leben, authentikka, hobenköök, le plat du jour, ratsherrn klause, karlsons, hatari pfälzer stube, carlos coffee, catch of the day, ivy, küchenfreunde, mazza, luicella's ice cream, yoko sushi, biang biang noodles, destille, elbwein, soulkebab, bierkrug, burger factory, w die weinbar, starlight, central congress, treffpunkt, vapiano, mad about juice, viet no1, kinh do, the boilerman bar, mathilde bar, bistro europa, daniel wischer, corner, barmeier's café & biergarten, elbgold, surfkitchen, cox, café pause, taj mahal, quan 19, the bowl, four seasons, blanco coffee, goldherz, capo's coffee, sushi supply, dulf's burger, mr. dam, weidenkantine, holsten-schwemme, ristorante vincenzo, otto's burger, witwenball, mimosas brunch club, hans im glück, braakermühle, asia imbiss, pizza hut, burgerlich, paledo, mezedes, cyn cyn, my kebap's, thessaloniki, shawarma marina, brix, moraba, phönix, kleinhuis, shiso burger, treff bei melodi, mission pizza, back-lava, köz adana, svaadish, spaccaforno, bacchus, dolce vita, liquid garden, karo beach, asia wok, holsten bäckerei, louis croque, saito sushi, aroma, dal fabbro, schmidt's bagel, codos, pizza tonio, corfu grill, lap coffee, l'quán, lavanta, yume, mirou, café paari, zala, otto's eiscafé, holstenquelle, kumpir, wavecity, café am park, la patina, 60 seconds to napoli, indian temple, kazu, henssler at home, wunderbar, ricebrothers, brühwerk, rindock’s, golden bean, sushi yama, cafe & bar celona, taverna santorini, restaurant athen, viet garden, welcome india, el greco, clubhaus, go by steffen henssler, panthera rodizio, einstein, poseidon, shikara quick, kimchi guys, la tavola calda, joe & the juice, l´orient, souply, herz von garstedt, china restaurant mongolei, la famiglia, kamphuis, rhodos, kleine heimat, bella italia, cafeteria latina, der grieche, the burger factory, la piazza, taj, chutney, taverna pegasus, irodion, lukullus, togao, mundfein, garduong, taverna hellas, ja an, gelato in, taverna plaka, akropolis, kronos, die kleine kneipe, porter house, bla bla, huang, pamukkale, tea motion, trattoria, world of pizza, mediterran, bamboo, gran sasso, dat backhus, segafredo, mylos, alte schmiede, canton, sabai jai, casa portugal, opposti, tsubaki, café greco, mendoza, il grappolo, mundfein pizzawerkstatt, zahara, utspann, zum dorfkrug, soul sushi, gasthof zur eiche"
+      "detail": "Duplicates: borchers, schweinske, block house, bistro, espresso house, goldfischglas, peter pane, sala thai, campus suite, sushi for friends, burger lounge, junge, copenhagen coffee lab, hellas, dionysos, marktschänke, chingu, inos, park cafe, jim block, mama trattoria, raj mahal, rindock's, ti breizh, starbucks, schanzenbäckerei, ahoi, ciao bella, casino, alexandros, cao, olympia grill, coffee fellows, shukria restaurant, jayjay's, cafe may, dubrovnik, hatari, eiscafé jacobs, mai-mai, kantine, sushi für hamburg, castello, holstenhof, naan, café klatsch, am sportplatz, jam jam, balutschistan, rio grande, oh it's fresh, l'osteria, seoul 1988, trucys, annam, kombüse, eiscafé dante, beets & roots, green papaya, brammibal's donuts, new york bagel bar, comebuy, farina di nonna, daily, hanoi deli, tunici, sportsbar, eclair au café, zum spätzle, may, portomarin, café may, l'orient, sushi lô, berglund, speicherstadt kaffeerösterei, tibet, mama, public coffee roasters, shikara, asiahub, fofftein, schönes leben, authentikka, hobenköök, le plat du jour, ratsherrn klause, karlsons, hatari pfälzer stube, carlos coffee, catch of the day, ivy, küchenfreunde, mazza, luicella's ice cream, yoko sushi, biang biang noodles, destille, elbwein, soulkebab, bierkrug, burger factory, w die weinbar, starlight, central congress, treffpunkt, vapiano, mad about juice, viet no1, kinh do, the boilerman bar, mathilde bar, bistro europa, daniel wischer, corner, barmeier's café & biergarten, elbgold, surfkitchen, cox, café pause, taj mahal, quan 19, the bowl, four seasons, blanco coffee, goldherz, capo's coffee, sushi supply, dulf's burger, mr. dam, weidenkantine, holsten-schwemme, ristorante vincenzo, otto's burger, witwenball, mimosas brunch club, hans im glück, braakermühle, asia imbiss, pizza hut, burgerlich, paledo, mezedes, cyn cyn, my kebap's, thessaloniki, shawarma marina, brix, moraba, phönix, kleinhuis, shiso burger, treff bei melodi, mission pizza, back-lava, köz adana, svaadish, spaccaforno, bacchus, dolce vita, liquid garden, karo beach, asia wok, holsten bäckerei, louis croque, saito sushi, aroma, dal fabbro, schmidt's bagel, codos, pizza tonio, corfu grill, lap coffee, l'quán, lavanta, yume, mirou, café paari, zala, otto's eiscafé, holstenquelle, kumpir, wavecity, café am park, la patina, 60 seconds to napoli, indian temple, kazu, henssler at home, wunderbar, ricebrothers, brühwerk, rindock’s, golden bean, sushi yama, cafe & bar celona, taverna santorini, restaurant athen, viet garden, welcome india, el greco, clubhaus, go by steffen henssler, panthera rodizio, einstein, poseidon, shikara quick, kimchi guys, la tavola calda, joe & the juice, l´orient, souply, herz von garstedt, china restaurant mongolei, la famiglia, kamphuis, rhodos, kleine heimat, bella italia, cafeteria latina, der grieche, the burger factory, la piazza, taj, chutney, taverna pegasus, irodion, lukullus, togao, mundfein, garduong, taverna hellas, ja an, gelato in, taverna plaka, akropolis, kronos, die kleine kneipe, porter house, bla bla, huang, pamukkale, tea motion, trattoria, world of pizza, mediterran, bamboo, gran sasso, dat backhus, segafredo, mylos, alte schmiede, canton, sabai jai, casa portugal, opposti, tsubaki, café greco, mendoza, il grappolo, mundfein pizzawerkstatt, zahara, utspann, zum dorfkrug, soul sushi, gasthof zur eiche"
     },
     {
       "name": "No duplicate coordinates (<10m)",
       "status": "fail",
-      "detail": "391 dupes: Zwick St. Pauli <-> Zwick (0m); Schramme 10 <-> Bao Bao (8m); Borchers <-> Eppendorfer Grillstation (0m); Paola's <-> Paolas (0m); Ratsherrn Klause <-> Kkokki (0m)"
+      "detail": "381 dupes: Schramme 10 <-> Bao Bao (8m); Borchers <-> Eppendorfer Grillstation (0m); Schröders <-> Gaststätte Schröder (6m); Ratsherrn Klause <-> Kkokki (0m); Holsten-Schwemme <-> Holsten-Schwemme (3m)"
     },
     {
       "name": "All categories are valid",
@@ -31,12 +31,11 @@
     {
       "name": "Opening hours format valid",
       "status": "fail",
-      "detail": "266 bad formats: Bar La Notte: \"12:00+\"; Biergarten Zum Anleger: \"May-Oct Mo-Sa 11:30+; Su 10:00:00-02:00\"; Karo Beach: \"May-Sep 12:00-22:00\"; Gruenspan: \"\"abhängig vom Programm\"\"; Kostbar: \"08:30-22:00\""
+      "detail": "263 bad formats: Bar La Notte: \"12:00+\"; Biergarten Zum Anleger: \"May-Oct Mo-Sa 11:30+; Su 10:00:00-02:00\"; Karo Beach: \"May-Sep 12:00-22:00\"; Gruenspan: \"\"abhängig vom Programm\"\"; Kostbar: \"08:30-22:00\""
     },
     {
       "name": "API /api/places responds",
-      "status": "fail",
-      "detail": "count=undefined"
+      "status": "pass"
     },
     {
       "name": "API /api/hot responds",
@@ -48,13 +47,11 @@
     },
     {
       "name": "Vibe scores in range 0-100",
-      "status": "error",
-      "detail": "Cannot read properties of undefined (reading 'filter')"
+      "status": "pass"
     },
     {
       "name": "Max 200 results returned",
-      "status": "fail",
-      "detail": "count=undefined"
+      "status": "pass"
     },
     {
       "name": "Cache google_ratings_cache.json is valid JSON",
