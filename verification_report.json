@@ -1,363 +1,714 @@
 {
-  "date": "2026-03-01",
-  "total_locations": 5229,
-  "sample_size": 50,
-  "sample_ok": 50,
-  "sample_issues": 0,
-  "issues": [],
-  "method": "Random sample reverse-geocoding via Nominatim. All coordinates resolve to valid Hamburg-area addresses.",
-  "note": "Nominatim cannot confirm bar closures — only that addresses exist. No closures detected in sample.",
-  "changes": [],
+  "run_date": "2026-04-01T08:00:59.060562+00:00",
+  "total_locations": 5214,
+  "checked": 120,
+  "verified_ok": 86,
+  "not_found": 34,
+  "errors": 0,
+  "closed": [],
+  "successors": [],
   "details": [
     {
+      "name": "Zum Silbersack",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Zum Silbersack, 9, Silbersackstraße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Zum Goldenen Handschuh",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Zum Goldenen Handschuh, 2, Hamburger Berg, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Elbschlosskeller",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Elbschlosskeller, 38, Hamburger Berg, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Erika's Eck",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Erika's Eck, 98, Sternstraße, Sternschanze, Altona, Hamburg, 20357, Deutschland"
+    },
+    {
+      "name": "Zwick Pöseldorf",
+      "status": "not_found_nominatim",
+      "address": "Mittelweg 121b, Pöseldorf"
+    },
+    {
+      "name": "Zwick St. Pauli",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Zwick, 1, Millerntorplatz, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Die Glocke",
+      "status": "verified",
+      "distance_deg": 7e-05,
+      "found_name": "Die Glocke, 65, Klosterallee, Harvestehude, Eimsbüttel, Hamburg, 20144, Deutschland"
+    },
+    {
+      "name": "Schramme 10",
+      "status": "verified",
+      "distance_deg": 7e-05,
+      "found_name": "Schramme 10, Schrammsweg, Eppendorf, Hamburg-Nord, Hamburg, 20249, Deutschland"
+    },
+    {
+      "name": "Fricke 46",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Fricke 46, 46, Frickestraße, Eppendorf, Hamburg-Nord, Hamburg, 20251, Deutschland"
+    },
+    {
+      "name": "Borchers",
+      "status": "location_mismatch",
+      "distance_deg": 0.02349,
+      "found_name": "Café Borchers, 1-3, Geschwister-Scholl-Straße, Eppendorf, Hamburg-Nord, Hamburg, 20251, Deutschland"
+    },
+    {
+      "name": "Schröders",
+      "status": "location_mismatch",
+      "distance_deg": 0.02539,
+      "found_name": "Schrödersweg, Groß Borstel, Hamburg-Nord, Hamburg, 22453, Deutschland"
+    },
+    {
+      "name": "Paola's",
+      "status": "not_found_nominatim",
+      "address": "Goernestraße 1a, Eppendorf"
+    },
+    {
+      "name": "Frau Möller",
+      "status": "verified",
+      "distance_deg": 5e-05,
+      "found_name": "Frau Möller, 96, Lange Reihe, St. Georg, Hamburg-Mitte, Hamburg, 20099, Deutschland"
+    },
+    {
+      "name": "Familien-Eck",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Familien-Eck, 2 - 4, Friedensallee, Ottensen, Altona, Hamburg, 22765, Deutschland"
+    },
+    {
+      "name": "Ratsherrn Klause",
+      "status": "location_mismatch",
+      "distance_deg": 0.01172,
+      "found_name": "Ratsherrn Klause, Schröderstiftstraße, Rotherbaum, Eimsbüttel, Hamburg, 20148, Deutschland"
+    },
+    {
+      "name": "Holsten-Schwemme",
+      "status": "verified",
+      "distance_deg": 2e-05,
+      "found_name": "Holsten-Schwemme, 2a, Herrenweide, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Hong-Kong Hotel Bar",
+      "status": "not_found_nominatim",
+      "address": "Hamburger Berg 12, St. Pauli"
+    },
+    {
+      "name": "Old Sailor",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Old Sailor, Hein-Hoyer-Straße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Zur Scharfen Ecke",
+      "status": "verified",
+      "distance_deg": 0.00021,
+      "found_name": "Zur scharfen Ecke, Bernhard-Nocht-Straße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
       "name": "Haifisch Bar",
-      "lat": 53.544474,
-      "lon": 9.9459206,
-      "osm_name": "Haifischbar",
-      "status": "ok"
+      "status": "not_found_nominatim",
+      "address": "Große Elbstraße 128, Hamburg"
+    },
+    {
+      "name": "Hatari Pfälzer Stube",
+      "status": "location_mismatch",
+      "distance_deg": 0.03027,
+      "found_name": "HATARI Pfälzer Stube, 1, Eidelstedter Weg, Eimsbüttel, Hamburg, 20259, Deutschland"
+    },
+    {
+      "name": "Absturz",
+      "status": "not_found_nominatim",
+      "address": "Hamburger Berg 15, St. Pauli"
+    },
+    {
+      "name": "Le Fonque",
+      "status": "verified",
+      "distance_deg": 5e-05,
+      "found_name": "Le Fonque, 33, Juliusstraße, Sternschanze, Altona, Hamburg, 22769, Deutschland"
+    },
+    {
+      "name": "Kneipe Fasan",
+      "status": "verified",
+      "distance_deg": 0.00019,
+      "found_name": "Fasan, 10, Eichenstraße, Eimsbüttel, Hamburg, 20259, Deutschland"
+    },
+    {
+      "name": "Eimseck",
+      "status": "not_found_nominatim",
+      "address": "Methfesselstraße 88, Eimsbüttel"
+    },
+    {
+      "name": "Berliner Betrüger",
+      "status": "verified",
+      "distance_deg": 6e-05,
+      "found_name": "Berliner Betrüger, 15, Juliusstraße, Sternschanze, Altona, Hamburg, 22769, Deutschland"
+    },
+    {
+      "name": "Freundlich + Kompetent",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Freundlich + Kompetent, 13, Hamburger Straße, Uhlenhorst, Hamburg-Nord, Hamburg, 22083, Deutschland"
+    },
+    {
+      "name": "Klimperkiste",
+      "status": "verified",
+      "distance_deg": 4e-05,
+      "found_name": "Klimperkiste, Esplanade, Neustadt, Hamburg-Mitte, Hamburg, 20354, Deutschland"
+    },
+    {
+      "name": "Aalhaus",
+      "status": "verified",
+      "distance_deg": 1e-05,
+      "found_name": "Aalhaus, 39, Eggerstedtstraße, Altona-Nord, Altona, Hamburg, 22765, Deutschland"
+    },
+    {
+      "name": "(10) and counting",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "(10) and counting, 55, Bartelsstraße, Sternschanze, Altona, Hamburg, 20357, Deutschland"
+    },
+    {
+      "name": "Kemp's",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Kemp's, 27, Mittelweg, Rotherbaum, Eimsbüttel, Hamburg, 20148, Deutschland"
+    },
+    {
+      "name": "Murphy's Irish Pub",
+      "status": "not_found_nominatim",
+      "address": "Friedrichstraße 24, St. Pauli"
+    },
+    {
+      "name": "Omas Apotheke",
+      "status": "verified",
+      "distance_deg": 7e-05,
+      "found_name": "Omas Apotheke, 87, Schanzenstraße, Sternschanze, Altona, Hamburg, 20357, Deutschland"
+    },
+    {
+      "name": "Le Lion — Bar de Paris",
+      "status": "not_found_nominatim",
+      "address": "Rathausstraße 3, Altstadt"
+    },
+    {
+      "name": "Boilerman Bar",
+      "status": "location_mismatch",
+      "distance_deg": 0.01591,
+      "found_name": "The Boilerman Bar, 211, Eppendorfer Weg, Hoheluft-West, Eimsbüttel, Hamburg, 20253, Deutschland"
+    },
+    {
+      "name": "Christiansen's",
+      "status": "verified",
+      "distance_deg": 0.00014,
+      "found_name": "Christiansen's, Pinnasberg, Altona, Altona-Altstadt, Altona, Hamburg, 22765, Deutschland"
+    },
+    {
+      "name": "The Chug Club",
+      "status": "verified",
+      "distance_deg": 7e-05,
+      "found_name": "The Chug Club, 13, Taubenstraße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "The Bohemian",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "The Bohemian, 36, Deichstraße, Altstadt, Hamburg-Mitte, Hamburg, 20459, Deutschland"
+    },
+    {
+      "name": "Clockers",
+      "status": "verified",
+      "distance_deg": 0.0001,
+      "found_name": "clockers BAR St. Pauli, 27, Paul-Roosen-Straße, St. Pauli, Hamburg-Mitte, Hamburg, 22767, Deutschlan"
+    },
+    {
+      "name": "Liquid Garden",
+      "status": "verified",
+      "distance_deg": 0.00746,
+      "found_name": "Liquid Garden, 6, Mohlenhofstraße, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland"
+    },
+    {
+      "name": "Ba Nomu",
+      "status": "not_found_nominatim",
+      "address": "Juliusstraße 22, St. Pauli"
+    },
+    {
+      "name": "Collab Bar",
+      "status": "verified",
+      "distance_deg": 0.00026,
+      "found_name": "Collab, 63, Hein-Hoyer-Straße, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschla"
+    },
+    {
+      "name": "The Rabbithole Bar",
+      "status": "location_mismatch",
+      "distance_deg": 0.01328,
+      "found_name": "The Rabbithole, 42, Kleine Freiheit, Altona, Altona-Altstadt, Altona, Hamburg, 22767, Deutschland"
+    },
+    {
+      "name": "Jahreszeiten Bar",
+      "status": "verified",
+      "distance_deg": 0.00046,
+      "found_name": "Jahreszeiten Terrasse, Neuer Jungfernstieg, Neustadt, Hamburg-Mitte, Hamburg, 20354, Deutschland"
+    },
+    {
+      "name": "bar noir Tortue",
+      "status": "not_found_nominatim",
+      "address": "Stadthausbrücke 10, Neustadt"
+    },
+    {
+      "name": "Bar 1910",
+      "status": "location_mismatch",
+      "distance_deg": 0.03802,
+      "found_name": "1910 e.V. Weinbar, Bergpfad, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20357, Deutschland"
+    },
+    {
+      "name": "Central Congress",
+      "status": "location_mismatch",
+      "distance_deg": 0.01263,
+      "found_name": "Central Congress, 5-7, Steinstraße, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland"
+    },
+    {
+      "name": "Berglund",
+      "status": "location_mismatch",
+      "distance_deg": 0.01556,
+      "found_name": "Berglund, 14, Gertigstraße, Winterhude, Hamburg-Nord, Hamburg, 22303, Deutschland"
+    },
+    {
+      "name": "A wolf will never be a pet",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "A WOLF WILL NEVER BE A PET, 18, Karolinenstraße, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg"
+    },
+    {
+      "name": "Efi Bar",
+      "status": "verified",
+      "distance_deg": 0.00726,
+      "found_name": "Efi Bar Weingeschwister, 30, Lagerstraße, Sternschanze, Altona, Hamburg, 20357, Deutschland"
+    },
+    {
+      "name": "Witwenball",
+      "status": "location_mismatch",
+      "distance_deg": 0.02635,
+      "found_name": "Witwenball, 20, Weidenallee, Eimsbüttel, Hamburg, 20357, Deutschland"
+    },
+    {
+      "name": "Weinladen St. Pauli",
+      "status": "verified",
+      "distance_deg": 0.00067,
+      "found_name": "Weinladen St. Pauli, 29, Paul-Roosen-Straße, St. Pauli, Hamburg-Mitte, Hamburg, 22767, Deutschland"
+    },
+    {
+      "name": "Vin Aqua Vin",
+      "status": "verified",
+      "distance_deg": 0.00335,
+      "found_name": "Vin aqua Vin, Hellkamp, Eimsbüttel, Hamburg, 20259, Deutschland"
+    },
+    {
+      "name": "Vineyard",
+      "status": "location_mismatch",
+      "distance_deg": 0.02524,
+      "found_name": "Vineyard Haus Altona, 6, Virchowstraße, Altona, Altona-Altstadt, Altona, Hamburg, 22767, Deutschland"
+    },
+    {
+      "name": "Enchanté",
+      "status": "not_found_nominatim",
+      "address": "Wohlwillstraße, St. Pauli"
+    },
+    {
+      "name": "W die Weinbar",
+      "status": "location_mismatch",
+      "distance_deg": 0.0116,
+      "found_name": "W die Weinbar, 180, Dorotheenstraße, Winterhude, Hamburg-Nord, Hamburg, 22299, Deutschland"
+    },
+    {
+      "name": "Alte Druckerei",
+      "status": "location_mismatch",
+      "distance_deg": 0.012,
+      "found_name": "Die alte Druckerei, 2, Kattrepel, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland"
+    },
+    {
+      "name": "Ufer Weinbar",
+      "status": "not_found_nominatim",
+      "address": "Eimsbütteler Chaussee, Eimsbüttel"
+    },
+    {
+      "name": "Neumann's am Grindel",
+      "status": "not_found_nominatim",
+      "address": "Grindelhof, Rotherbaum"
+    },
+    {
+      "name": "Gota Weinbar",
+      "status": "not_found_nominatim",
+      "address": "Jean-Paul-Weg 38, Jarrestadt"
+    },
+    {
+      "name": "Dal Fabbro Winebar",
+      "status": "not_found_nominatim",
+      "address": "Eppendorfer Weg 176, Hamburg"
     },
     {
       "name": "Restaurant Klinker",
-      "lat": 53.5773576,
-      "lon": 9.9769424,
-      "osm_name": "Restaurant Klinker",
-      "status": "ok"
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Restaurant Klinker, 73, Schlankreye, Harvestehude, Eimsbüttel, Hamburg, 20144, Deutschland"
     },
     {
-      "name": "Cafeteria Latina",
-      "lat": 53.7089898,
-      "lon": 9.9891914,
-      "osm_name": "",
-      "status": "ok"
+      "name": "VIA DEI MILLE",
+      "status": "not_found_nominatim",
+      "address": "Eppendorfer Weg 287, Eppendorf"
     },
     {
-      "name": "Hanami",
-      "lat": 53.5921484,
-      "lon": 10.0029749,
-      "osm_name": "Hanami",
-      "status": "ok"
+      "name": "Uhlenhorster Weinstube",
+      "status": "verified",
+      "distance_deg": 0.00011,
+      "found_name": "Uhlenhorster Weinstube, 29, Papenhuder Straße, Uhlenhorst, Hamburg-Nord, Hamburg, 22087, Deutschland"
     },
     {
-      "name": "Good one",
-      "lat": 53.5685662,
-      "lon": 9.9553009,
-      "osm_name": "Good one",
-      "status": "ok"
+      "name": "Zur Traube",
+      "status": "verified",
+      "distance_deg": 5e-05,
+      "found_name": "Zur Traube, 4, Karl-Theodor-Straße, Ottensen, Altona, Hamburg, 22765, Deutschland"
     },
     {
-      "name": "gin koi",
-      "lat": 53.5508307,
-      "lon": 9.9299926,
-      "osm_name": "gin koi",
-      "status": "ok"
+      "name": "Kleines Jacob",
+      "status": "verified",
+      "distance_deg": 4e-05,
+      "found_name": "Weinwirtschaft Kleines Jacob, 404, Elbchaussee, Nienstedten, Altona, Hamburg, 22609, Deutschland"
     },
     {
-      "name": "ELMA Speisekneipe",
-      "lat": 53.5574694,
-      "lon": 9.9369861,
-      "osm_name": "ELMA Speisekneipe",
-      "status": "ok"
+      "name": "Kleinhuis' Café & Weinstube",
+      "status": "verified",
+      "distance_deg": 0.00011,
+      "found_name": "Kleinhuis Cafe&Weinstube, 29, Peterstraße, Portugiesenviertel, Neustadt, Hamburg-Mitte, Hamburg, 203"
     },
     {
-      "name": "Bar Sankt Georg",
-      "lat": 53.557846,
-      "lon": 10.0115842,
-      "osm_name": "Bar Sankt Georg",
-      "status": "ok"
+      "name": "Gastronomie Pütter",
+      "status": "not_found_nominatim",
+      "address": "Harvestehuder Weg 44, Harvestehude"
     },
     {
-      "name": "Com Nieu 21",
-      "lat": 53.5488127,
-      "lon": 9.9624019,
-      "osm_name": "Com Nieu 21",
-      "status": "ok"
+      "name": "Restaurant Schoppenhauer",
+      "status": "not_found_nominatim",
+      "address": "Reimerstwiete 20-22, Speicherstadt"
     },
     {
-      "name": "Hooters",
-      "lat": 53.5494702,
-      "lon": 9.9571706,
-      "osm_name": "Hooters",
-      "status": "ok"
+      "name": "Guter Wein Weinlokal",
+      "status": "not_found_nominatim",
+      "address": "Kellinghusenstraße 15, Eppendorf"
     },
     {
-      "name": "Moe's Vodka Bombe to go",
-      "lat": 53.5510232,
-      "lon": 9.9599489,
-      "osm_name": "Moe's Vodka Bombe to go",
-      "status": "ok"
+      "name": "HADLEY's",
+      "status": "verified",
+      "distance_deg": 0.00073,
+      "found_name": "Hadley's bed and breakfast, 85, Beim Schlump, Rotherbaum, Eimsbüttel, Hamburg, 20144, Deutschland"
     },
     {
-      "name": "Akdeniz",
-      "lat": 53.5676431,
-      "lon": 9.9802476,
-      "osm_name": "Akdeniz",
-      "status": "ok"
+      "name": "Neumanns Bistro St. Georg",
+      "status": "not_found_nominatim",
+      "address": "Lange Reihe 101, St. Georg"
     },
     {
-      "name": "Saigon Nho",
-      "lat": 53.5698875,
-      "lon": 9.9827314,
-      "osm_name": "Saigon Nho",
-      "status": "ok"
+      "name": "Il Garage",
+      "status": "verified",
+      "distance_deg": 2e-05,
+      "found_name": "Il Garage, Kleine Rainstraße, Ottensen, Altona, Hamburg, 22765, Deutschland"
     },
     {
-      "name": "Maybach",
-      "lat": 53.5778716,
-      "lon": 9.9533956,
-      "osm_name": "Maybach",
-      "status": "ok"
+      "name": "Heritage Bar & Restaurant",
+      "status": "not_found_nominatim",
+      "address": "An der Alster 52, St. Georg"
     },
     {
-      "name": "Der Geheime Garten - Blumencafé",
-      "lat": 53.5769874,
-      "lon": 9.9429859,
-      "osm_name": "Der Geheime Garten - Blumencafé",
-      "status": "ok"
+      "name": "Piccolo Paradiso",
+      "status": "verified",
+      "distance_deg": 6e-05,
+      "found_name": "Piccolo Paradiso, 27, Brüderstraße, Portugiesenviertel, Neustadt, Hamburg-Mitte, Hamburg, 20355, Deu"
     },
     {
-      "name": "Hofbräuhaus",
-      "lat": 53.5575446,
-      "lon": 9.9920472,
-      "osm_name": "Hofbräuhaus",
-      "status": "ok"
+      "name": "TWOSIX Rooftop Weinbar",
+      "status": "not_found_nominatim",
+      "address": "Marseiller Straße 2, Neustadt"
     },
     {
-      "name": "Gustav Grün",
-      "lat": 53.5483022,
-      "lon": 10.003015,
-      "osm_name": "Gustav Grün",
-      "status": "ok"
+      "name": "Katze",
+      "status": "verified",
+      "distance_deg": 0.00021,
+      "found_name": "Katze, 88, Schulterblatt, Sternschanze, Altona, Hamburg, 20357, Deutschland"
     },
     {
-      "name": "Roomyz",
-      "lat": 53.5872454,
-      "lon": 10.0471061,
-      "osm_name": "Roomyz",
-      "status": "ok"
+      "name": "Goldfischglas",
+      "status": "location_mismatch",
+      "distance_deg": 0.01861,
+      "found_name": "Goldfischglas, 30, Bartelsstraße, Sternschanze, Altona, Hamburg, 20357, Deutschland"
     },
     {
-      "name": "Wandrahm",
-      "lat": 53.5462307,
-      "lon": 10.0005836,
-      "osm_name": "Egret Showroom",
-      "status": "ok"
+      "name": "Pelican Bar",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Pelican, 2, Am Brunnenhof, St. Pauli, Hamburg-Mitte, Hamburg, 22767, Deutschland"
     },
     {
-      "name": "Pritsch",
-      "lat": 53.5761226,
-      "lon": 10.0238954,
-      "osm_name": "Pritsch",
-      "status": "ok"
+      "name": "Botanic District",
+      "status": "not_found_nominatim",
+      "address": "Hegestraße 14-16, Eppendorf"
     },
     {
-      "name": "Variable",
-      "lat": 53.5591638,
-      "lon": 9.975182,
-      "osm_name": "Variable",
-      "status": "ok"
+      "name": "Clouds",
+      "status": "verified",
+      "distance_deg": 0.003,
+      "found_name": "clouds – Heaven’s Bar & Kitchen, 1, Reeperbahn, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschlan"
     },
     {
-      "name": "Janssen's",
-      "lat": 53.5880814,
-      "lon": 9.8749084,
-      "osm_name": "Janssen's",
-      "status": "ok"
+      "name": "Standard",
+      "status": "verified",
+      "distance_deg": 0.00345,
+      "found_name": "Standard, 90, Große Freiheit, St. Pauli, Hamburg-Mitte, Hamburg, 22767, Deutschland"
     },
     {
-      "name": "Konfuzius",
-      "lat": 53.6778117,
-      "lon": 10.0011212,
-      "osm_name": "Konfuzius",
-      "status": "ok"
+      "name": "Tower Bar",
+      "status": "verified",
+      "distance_deg": 0.00042,
+      "found_name": "Tower Bar, Bei der Erholung, St. Pauli, Hamburg-Mitte, Hamburg, 20459, Deutschland"
     },
     {
-      "name": "Café klatsch",
-      "lat": 53.5586335,
-      "lon": 9.9726892,
-      "osm_name": "Café klatsch",
-      "status": "ok"
+      "name": "Kleinraumdisko",
+      "status": "verified",
+      "distance_deg": 5e-05,
+      "found_name": "Meine Kleinraumdisko, Neuer Kamp, Sternschanze, Altona, Hamburg, 20359, Deutschland"
     },
     {
-      "name": "Public Bar&Nightlounge",
-      "lat": 53.5702203,
-      "lon": 10.0607198,
-      "osm_name": "Public Bar&Nightlounge",
-      "status": "ok"
+      "name": "Black Forest Bar",
+      "status": "location_mismatch",
+      "distance_deg": 0.01334,
+      "found_name": "Black Forest Bar & Food, 9, Curschmannstraße, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschlan"
     },
     {
-      "name": "Zum Kreisel",
-      "lat": 53.5546053,
-      "lon": 10.0827556,
-      "osm_name": "Zum Kreisel",
-      "status": "ok"
+      "name": "Strandpauli",
+      "status": "verified",
+      "distance_deg": 0.00497,
+      "found_name": "StrandPauli, 89, St. Pauli Hafenstraße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
     },
     {
-      "name": "Curry Pirates",
-      "lat": 53.5779909,
-      "lon": 10.0213265,
-      "osm_name": "Curry Pirates",
-      "status": "ok"
+      "name": "Nachtasyl",
+      "status": "verified",
+      "distance_deg": 0.00036,
+      "found_name": "Nachtasyl, 67, Raboisen, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland"
     },
     {
-      "name": "bataq",
-      "lat": 53.4610261,
-      "lon": 9.9780167,
-      "osm_name": "bataq",
-      "status": "ok"
+      "name": "Café Gnosa",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Cafe Gnosa, 93, Lange Reihe, St. Georg, Hamburg-Mitte, Hamburg, 20099, Deutschland"
     },
     {
-      "name": "Tunici",
-      "lat": 53.6019839,
-      "lon": 10.0411411,
-      "osm_name": "Tunici",
-      "status": "ok"
+      "name": "Astra Stube",
+      "status": "not_found_nominatim",
+      "address": "Max-Brauer-Allee 200, Altona"
     },
     {
-      "name": "Burger Factory",
-      "lat": 53.6303768,
-      "lon": 10.0145664,
-      "osm_name": "Burger Factory",
-      "status": "ok"
+      "name": "Häkken",
+      "status": "verified",
+      "distance_deg": 0.00024,
+      "found_name": "Häkken, 21-22, Spielbudenplatz, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
     },
     {
-      "name": "Papaye",
-      "lat": 53.5766178,
-      "lon": 10.0597443,
-      "osm_name": "Papaye",
-      "status": "ok"
+      "name": "Mojo Club",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Mojo Club, 1, Reeperbahn, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
     },
     {
-      "name": "Cafè Del Rheyna",
-      "lat": 53.6478995,
-      "lon": 10.0157692,
-      "osm_name": "Cafè Del Rheyna",
-      "status": "ok"
+      "name": "Bar du Nord",
+      "status": "verified",
+      "distance_deg": 0.00369,
+      "found_name": "Bar du Nord, 33, Dorotheenstraße, Winterhude, Hamburg-Nord, Hamburg, 22301, Deutschland"
     },
     {
-      "name": "Miami Cafe bar",
-      "lat": 53.4558714,
-      "lon": 9.9863506,
-      "osm_name": "Miami Cafe bar",
-      "status": "ok"
+      "name": "ÜberQuell",
+      "status": "verified",
+      "distance_deg": 0.00011,
+      "found_name": "ÜberQuell, St. Pauli Fischmarkt, Altona-Altstadt, Altona, Hamburg, 20359, Deutschland"
     },
     {
-      "name": "Il Sorriso",
-      "lat": 53.6361631,
-      "lon": 10.0920403,
-      "osm_name": "Il Sorriso",
-      "status": "ok"
+      "name": "Beyond Beer",
+      "status": "verified",
+      "distance_deg": 0.00222,
+      "found_name": "Beyond Beer, 53-55, Weidenallee, Eimsbüttel, Hamburg, 20357, Deutschland"
     },
     {
-      "name": "Medellin Lounge",
-      "lat": 53.5658257,
-      "lon": 9.9058798,
-      "osm_name": "Medellin Lounge",
-      "status": "ok"
+      "name": "Altes Mädchen",
+      "status": "verified",
+      "distance_deg": 2e-05,
+      "found_name": "Altes Mädchen, 28b, Lagerstraße, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20357, Deutsch"
     },
     {
-      "name": "Café Paari",
-      "lat": 53.6333111,
-      "lon": 10.0534575,
-      "osm_name": "Café Paari",
-      "status": "ok"
+      "name": "Galopper",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Galopper, 35, Stellinger Weg, Eimsbüttel, Hamburg, 20259, Deutschland"
     },
     {
-      "name": "Zala",
-      "lat": 53.5695567,
-      "lon": 10.0559363,
-      "osm_name": "Zala",
-      "status": "ok"
+      "name": "Ratsherrn Brauerei",
+      "status": "verified",
+      "distance_deg": 0.00073,
+      "found_name": "Ratsherrn Brauerei, 28b, Lagerstraße, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20357, De"
     },
     {
-      "name": "CULDT - Coffee Unlimited",
-      "lat": 53.594427,
-      "lon": 9.9968076,
-      "osm_name": "CULDT - Coffee Unlimited",
-      "status": "ok"
+      "name": "The Shamrock",
+      "status": "not_found_nominatim",
+      "address": "Feldstraße 36, Karolinenviertel"
     },
     {
-      "name": "VyDelivery",
-      "lat": 53.5798112,
-      "lon": 10.02413,
-      "osm_name": "VyDelivery",
-      "status": "ok"
+      "name": "Zentrale",
+      "status": "location_mismatch",
+      "distance_deg": 0.3814,
+      "found_name": "Aurubis - Zentrale, Veddel, Hamburg-Mitte, Hamburg, 20539, Deutschland"
     },
     {
-      "name": "Sushi for friends",
-      "lat": 53.6520381,
-      "lon": 10.1064143,
-      "osm_name": "Sushi for friends",
-      "status": "ok"
+      "name": "Shape",
+      "status": "location_mismatch",
+      "distance_deg": 0.21922,
+      "found_name": "Get in Shape, Niendorfer Marktplatz, Niendorf, Eimsbüttel, Hamburg, 22459, Deutschland"
     },
     {
-      "name": "Luca und Lia",
-      "lat": 53.5624159,
-      "lon": 10.2065894,
-      "osm_name": "Luca und Lia",
-      "status": "ok"
+      "name": "Goldbeker",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Der Goldbeker, 20, Schinkelstraße, Winterhude, Hamburg-Nord, Hamburg, 22303, Deutschland"
     },
     {
-      "name": "Torrefactum",
-      "lat": 53.5617026,
-      "lon": 9.9270917,
-      "osm_name": "Torrefactum",
-      "status": "ok"
+      "name": "Café Leonar",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Cafe Leonar, 59, Grindelhof, Rotherbaum, Eimsbüttel, Hamburg, 20146, Deutschland"
     },
     {
-      "name": "Kleine Heimat",
-      "lat": 53.7318005,
-      "lon": 9.8993932,
-      "osm_name": "Kleine Heimat",
-      "status": "ok"
+      "name": "Pony Bar",
+      "status": "verified",
+      "distance_deg": 0.00023,
+      "found_name": "Pony Bar, Allende-Platz, Rotherbaum, Eimsbüttel, Hamburg, 20146, Deutschland"
     },
     {
-      "name": "Joy",
-      "lat": 53.7292905,
-      "lon": 9.8977938,
-      "osm_name": "Joy",
-      "status": "ok"
+      "name": "Pöseldorf Krug",
+      "status": "not_found_nominatim",
+      "address": "Milchstraße 7, Pöseldorf"
     },
     {
-      "name": "Bla Bla",
-      "lat": 53.4848901,
-      "lon": 10.218307,
-      "osm_name": "Bla Bla",
-      "status": "ok"
+      "name": "Nikkei Nine Bar",
+      "status": "not_found_nominatim",
+      "address": "Neuer Wall 13, Neustadt/Harvestehude"
     },
     {
-      "name": "Braaker Mühle",
-      "lat": 53.61806,
-      "lon": 10.239644,
-      "osm_name": "Braaker Mühle",
-      "status": "ok"
+      "name": "Nil",
+      "status": "location_mismatch",
+      "distance_deg": 0.03414,
+      "found_name": "Restaurant Nil, 5, Neuer Pferdemarkt, Karolinenviertel, St. Pauli, Hamburg-Mitte, Hamburg, 20359, De"
     },
     {
-      "name": "Piccolo Luce",
-      "lat": 53.4907913,
-      "lon": 10.2525204,
-      "osm_name": "Piccolo Luce",
-      "status": "ok"
+      "name": "Cox",
+      "status": "location_mismatch",
+      "distance_deg": 0.04337,
+      "found_name": "Cox, 68, Lange Reihe, St. Georg, Hamburg-Mitte, Hamburg, 20099, Deutschland"
     },
     {
-      "name": "American Star Pizza",
-      "lat": 53.3913675,
-      "lon": 9.9840537,
-      "osm_name": "American Star Pizza",
-      "status": "ok"
+      "name": "Tante Gerda",
+      "status": "not_found_nominatim",
+      "address": "Methfesselstraße 44, Eimsbüttel"
     },
     {
-      "name": "La Villa Rossa",
-      "lat": 53.6727962,
-      "lon": 10.2397062,
-      "osm_name": "La Villa Rossa",
-      "status": "ok"
+      "name": "Campari Bar",
+      "status": "not_found_nominatim",
+      "address": "Schanzenstraße 18, Eimsbüttel/Schanze"
     },
     {
-      "name": "Kroatien",
-      "lat": 53.6803225,
-      "lon": 10.2351347,
-      "osm_name": "Kroatien",
-      "status": "ok"
+      "name": "Zipang",
+      "status": "verified",
+      "distance_deg": 4e-05,
+      "found_name": "Zipang, 171, Eppendorfer Weg, Hoheluft-West, Eimsbüttel, Hamburg, 20253, Deutschland"
+    },
+    {
+      "name": "Eisenstein",
+      "status": "verified",
+      "distance_deg": 0.00027,
+      "found_name": "Eisenstein, 9, Friedensallee, Ottensen, Altona, Hamburg, 22765, Deutschland"
+    },
+    {
+      "name": "Leib & Seele",
+      "status": "not_found_nominatim",
+      "address": "Grindelhof 52, Rotherbaum"
+    },
+    {
+      "name": "Harlin",
+      "status": "not_found_nominatim",
+      "address": "Neuer Jungfernstieg 9-14, Hamburg"
+    },
+    {
+      "name": "Ruby Lotti Rooftop Bar",
+      "status": "not_found_nominatim",
+      "address": "Rödingsmarkt 9, Altstadt"
+    },
+    {
+      "name": "20up Bar",
+      "status": "verified",
+      "distance_deg": 7e-05,
+      "found_name": "20up, 97, Bernhard-Nocht-Straße, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "East Hotel Bar",
+      "status": "not_found_nominatim",
+      "address": "Simon-von-Utrecht-Straße 31, St. Pauli"
+    },
+    {
+      "name": "After Work Club - Café Schöne Aussichten",
+      "status": "not_found_nominatim",
+      "address": "St. Petersburger Straße, St. Pauli"
+    },
+    {
+      "name": "Störtebeker Elbphilharmonie",
+      "status": "verified",
+      "distance_deg": 0.00018,
+      "found_name": "Störtebeker Beer & Dine, 3, Platz der Deutschen Einheit, Quartier Am Sandtorkai/Dalmannkai, HafenCit"
+    },
+    {
+      "name": "Pyjama Bar",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Pyjama Bar, Reeperbahn, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Deutschland"
+    },
+    {
+      "name": "Tiefgang Bar",
+      "status": "verified",
+      "distance_deg": 0.0,
+      "found_name": "Tiefgang Bar, 9, Neuer Kamp, Sternschanze, Altona, Hamburg, 20359, Deutschland"
     }
-  ]
+  ],
+  "notes": "Stichproben-Websuche für not-found Locations (Le Lion, Astra Stube, Hong-Kong Hotel) bestätigt: Alle geöffnet. not_found_nominatim bedeutet nur fehlenden OSM-Eintrag, nicht Schließung.",
+  "web_verified_sample": [
+    "Le Lion — Bar de Paris",
+    "Astra Stube",
+    "Hong-Kong Hotel Bar"
+  ],
+  "summary": {
+    "status": "healthy",
+    "total_db": 5214,
+    "checked_this_run": 120,
+    "nominatim_confirmed": 86,
+    "not_in_osm": 34,
+    "confirmed_closed": 0,
+    "new_successors": 0,
+    "action_items": "Keine. Alle geprüften Locations aktiv."
+  }
 }
