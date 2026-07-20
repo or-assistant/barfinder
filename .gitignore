@@ -13,3 +13,6 @@ logs/
 node_modules/
 scrape_*.js
 user_data/
+.env.*
+.DS_Store
+__pycache__/

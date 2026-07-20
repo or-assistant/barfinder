@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "generated": "2026-03-30T06:00:00Z",
-    "week": "KW14 (30.03. - 05.04.2026)",
+    "generated": "2026-04-06T06:00:00Z",
+    "week": "KW15 (06.04. - 12.04.2026)",
     "generatedBy": "barfinder-weekly-enrich"
   },
   "enrichment_updates": {
-    "summary": "14 Locations mit schwachen/fehlenden Beschreibungen angereichert (Highlight-Locations priorisiert)",
+    "summary": "11 Locations mit schwachen/fehlenden Beschreibungen angereichert. Fokus auf Irish Pubs (mehrheitlich unenriched) und ausgewählte Low-Confidence-Locations.",
     "updates": [
       {
-        "name": "1 & Dreißig",
-        "action": "enrich_description",
-        "old_description": "Gemütliche Kneipe in Hamburg",
-        "new_description": "Eimsbütteler Nachbarschaftskneipe an der Fruchtallee — Feierabendbier, entspannt, lokal",
+        "name": "Alte Runde Ecke",
+        "action": "new_enrichment",
+        "old_description": "Maritime Jukebox-Kneipe bei Reiner & Ingrid in Winterhude",
+        "new_description": "Maritime Jukebox-Kneipe bei Reiner & Ingrid in Winterhude — Institution seit Jahrzehnten, gemütlich-rustikal, Astra vom Fass",
         "enriched": {
           "vibe": "gemütlich",
           "crowd": "locals",
@@ -20,52 +20,34 @@
           "specials": "bier",
           "dateSpot": false,
           "dresscode": "egal",
-          "highlights": "Fruchtallee|Eimsbüttel|Nachbarschaft",
-          "atmosphere": "Solide Eimsbütteler Eckkneipe für den entspannten Feierabend.",
+          "highlights": "Maritime Kneipe|Reiner & Ingrid|Winterhude|Jukebox",
+          "atmosphere": "Winterhuder Institution bei Reiner und Ingrid. Maritime Kneipe mit Jukebox, Astra vom Fass und echten Stammgästen.",
           "confidence": "medium"
         }
       },
       {
-        "name": "Vinos",
-        "action": "enrich_description",
-        "old_description": "Weinbar in Hamburg",
-        "new_description": "Weinhandlung mit Ausschank in Eppendorf — spanische und internationale Weine, gemütliches Ambiente",
+        "name": "Hamburg 60",
+        "action": "new_enrichment",
+        "old_description": "Sportkneipe Winterhude — HSV & Pauli friedlich bei Bier vereint",
+        "new_description": "Sportkneipe Winterhude — HSV & Pauli friedlich bei Bier vereint. Bundesliga auf Großleinwand, gemischtes Publikum.",
         "enriched": {
           "vibe": "gemütlich",
-          "crowd": "ue35",
-          "priceLevel": "€€",
-          "bestTime": "afterwork",
-          "specials": "wein",
-          "dateSpot": true,
-          "dresscode": "casual",
-          "highlights": "Eppendorf|Weinhandlung mit Ausschank",
-          "atmosphere": "Eppendorfer Weinladen mit der Möglichkeit, direkt vor Ort ein Glas zu genießen.",
-          "confidence": "medium"
-        }
-      },
-      {
-        "name": "Windschirm",
-        "action": "enrich_description",
-        "old_description": "Bar in Hamburg",
-        "new_description": "Bar am Hallerplatz in Rotherbaum — beliebt bei Studenten und Anwohnern, kleine Terrasse",
-        "enriched": {
-          "vibe": "lässig",
           "crowd": "gemischt",
-          "priceLevel": "€€",
+          "priceLevel": "€",
           "bestTime": "abends",
-          "specials": "cocktails",
+          "specials": "bier",
           "dateSpot": false,
-          "dresscode": "casual",
-          "highlights": "Hallerplatz|Rotherbaum",
-          "atmosphere": "Lässige Bar am Hallerplatz zwischen Uni und Alster.",
+          "dresscode": "egal",
+          "highlights": "Sportkneipe|HSV & Pauli|Winterhude|Großleinwand",
+          "atmosphere": "Die Kneipe in der HSV- und Pauli-Fans friedlich nebeneinander sitzen. Bundesliga-Pflichtprogramm in entspannter Atmosphäre.",
           "confidence": "medium"
         }
       },
       {
-        "name": "Monty's",
-        "action": "enrich_description",
-        "old_description": "Gemütliche Kneipe in Hamburg",
-        "new_description": "Winterhuder Nachbarschaftskneipe am Mühlenkamp — Frühstück bis Nachtprogramm, Terrasse, lokal beliebt",
+        "name": "Gaststätte Dorotheen Eck",
+        "action": "new_enrichment",
+        "old_description": "Gaby & Olaf begrüßen Stammgäste seit über 10 Jahren",
+        "new_description": "Winterhuder Nachbarschaftskneipe — Gaby & Olaf begrüßen Stammgäste seit über 10 Jahren, gemütlich, familiär",
         "enriched": {
           "vibe": "gemütlich",
           "crowd": "locals",
@@ -74,289 +56,240 @@
           "specials": "bier",
           "dateSpot": false,
           "dresscode": "egal",
-          "highlights": "Winterhude|Mühlenkamp-Nähe|Frühstück bis spät",
-          "atmosphere": "Winterhuder Wohnzimmer-Kneipe. Von morgens bis spät geöffnet.",
+          "highlights": "Gaby & Olaf|Winterhude|Stammgäste",
+          "atmosphere": "Familiäre Stammkneipe in Winterhude. Gaby und Olaf heißen alle willkommen — seit über 10 Jahren.",
           "confidence": "medium"
         }
       },
       {
-        "name": "Astro Drink Bombe",
-        "action": "enrich_description",
-        "old_description": "Gemütliche Kneipe in Hamburg",
-        "new_description": "Schanzen-Kneipe in der Bartelsstraße — günstige Drinks, entspannte Atmosphäre, Nachtschwärmer-Treff",
+        "name": "Paddy's Pit",
+        "action": "new_enrichment",
+        "old_description": "Irish Pub auf der Reeperbahn — Live-Sport, Guinness, Party-Stimmung",
+        "new_description": "Irischer Pub auf der Reeperbahn — Live-Sport auf Großleinwand, Guinness vom Fass, Partystimmung direkt am Kiez",
         "enriched": {
-          "vibe": "lässig",
-          "crowd": "kreative",
+          "vibe": "wild",
+          "crowd": "gemischt",
           "priceLevel": "€",
           "bestTime": "late-night",
           "specials": "bier",
+          "weeklyEvents": "Live-Sport täglich",
           "dateSpot": false,
           "dresscode": "egal",
-          "highlights": "Bartelsstraße|Schanze",
-          "atmosphere": "Schanze-Kneipe zum Vorglühen und Versacken. Günstig und unkompliziert.",
+          "highlights": "Reeperbahn|Guinness|Live-Sport|Großleinwand",
+          "atmosphere": "Irischer Pub mitten im Kiez-Trubel. Sport schauen, Guinness trinken, Party-Stimmung.",
           "confidence": "medium"
         }
       },
       {
-        "name": "Belvedere",
-        "action": "enrich_description",
-        "old_description": "Ehemals \"Gurke\" — Bar/Kneipe in Rotherbaum",
-        "new_description": "Ehemals 'Gurke' — Nachbarschaftsbar am Mittelweg in Rotherbaum, ü35-Publikum, gehoben-lässig",
+        "name": "The Galway Girl",
+        "action": "new_enrichment",
+        "old_description": "Gemütlicher Irish Pub in der Schanze — Whiskey-Auswahl, Live-Folk, Pub Quiz Mi",
+        "new_description": "Gemütlicher Irish Pub in der Schanze — Whiskey-Auswahl, Live-Folk, Pub Quiz Mittwoch, Stammpublikum",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "gemischt",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "weeklyEvents": "Live-Folk Do-Sa|Pub Quiz Mi",
+          "dateSpot": false,
+          "dresscode": "casual",
+          "highlights": "Schanze|Irish Pub|Live-Folk|Pub Quiz",
+          "atmosphere": "Authentischer Irish Pub in der Schanze. Live Folk-Musik und Pub Quiz — ein Schanzen-Klassiker.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "James Joyce",
+        "action": "new_enrichment",
+        "old_description": "Literarischer Irish Pub in St. Georg — Live-Musik, Irish Stew, große Whiskey-Karte",
+        "new_description": "Literarischer Irish Pub in St. Georg — benannt nach dem berühmten Autor, Live-Musik Do-Sa, Irish Stew, große Whiskey-Auswahl",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "gemischt",
+          "priceLevel": "€€",
+          "bestTime": "abends",
+          "specials": "whisky",
+          "weeklyEvents": "Live-Musik Do-Sa",
+          "dateSpot": false,
+          "dresscode": "casual",
+          "highlights": "James Joyce|St. Georg|Irish Stew|Große Whiskey-Karte",
+          "atmosphere": "Literarisch anmutender Irish Pub an der Grenze von St. Georg. Whiskey-Karte, Irish Stew und Live-Musik.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "O'Malley's",
+        "action": "new_enrichment",
+        "old_description": "Kleiner authentischer Irish Pub in St. Pauli — Guinness vom Fass, Jukebox",
+        "new_description": "Kleiner authentischer Irish Pub in St. Pauli — Guinness vom Fass, Jukebox, gemütliche Atmosphäre abseits des Kietz-Trubels",
+        "enriched": {
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
+          "bestTime": "abends",
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "St. Pauli|Guinness|Jukebox|Authentisch",
+          "atmosphere": "Kleiner authentischer Irish Pub abseits der großen Touristenströme. Guinness und Jukebox.",
+          "confidence": "medium"
+        }
+      },
+      {
+        "name": "Kitty O'Shea's",
+        "action": "new_enrichment",
+        "old_description": "Irish Pub in der City — Afterwork-Spot, Live-Sport auf Großleinwand, regelmäßige Afterwork-Events",
+        "new_description": "Irish Pub in der Hamburger City — Afterwork-Spot mit Live-Sport auf Großleinwand, regelmäßige Afterwork-Events, zentrale Lage",
         "enriched": {
           "vibe": "lässig",
-          "crowd": "ue35",
+          "crowd": "business",
           "priceLevel": "€€",
-          "bestTime": "abends",
+          "bestTime": "afterwork",
           "specials": "bier",
+          "weeklyEvents": "Afterwork-Events| Sport-Übertragungen",
           "dateSpot": false,
           "dresscode": "casual",
-          "highlights": "Ehemals Gurke|Mittelweg|Rotherbaum",
-          "atmosphere": "Gehobene Nachbarschaftsbar am Mittelweg. Ruhiges, erwachsenes Publikum.",
+          "highlights": "City|Große Bleichen|Afterwork|Live-Sport",
+          "atmosphere": "Der Irish Pub fürs Afterwork-Business in der City. Live-Sport und regelmäßige Afterwork-Events.",
           "confidence": "medium"
         }
       },
       {
-        "name": "Bodega",
-        "action": "enrich_description",
-        "old_description": "Gemütliche Kneipe in Hamburg",
-        "new_description": "Nachbarschaftskneipe in der Weidenallee — kleines Eimsbütteler Wohnzimmer, Stammgäste, Bier vom Fass",
+        "name": "The Dubliner",
+        "action": "new_enrichment",
+        "old_description": "Gemütlicher Pub an der Langen Reihe — Irish Breakfast, Six Nations Rugby",
+        "new_description": "Gemütlicher Irish Pub an der Langen Reihe — Irish Breakfast, Six Nations Rugby, Live-Musik am Wochenende, St. Georg Institution",
         "enriched": {
           "vibe": "gemütlich",
-          "crowd": "locals",
+          "crowd": "gemischt",
           "priceLevel": "€",
           "bestTime": "abends",
           "specials": "bier",
+          "weeklyEvents": "Live-Musik Fr+Sa",
           "dateSpot": false,
-          "dresscode": "egal",
-          "highlights": "Weidenallee|Eimsbüttel|Nachbarschaft",
-          "atmosphere": "Klein und gemütlich. Eimsbütteler Stammkneipen-Charakter.",
-          "confidence": "medium"
-        }
-      },
-      {
-        "name": "Zzzischer",
-        "action": "enrich_description",
-        "old_description": "Gemütliche Kneipe in Hamburg",
-        "new_description": "Eimsbütteler Kneipe an der Sillemstraße — Bier, Kicker, entspanntes Feierabendpublikum",
-        "enriched": {
-          "vibe": "gemütlich",
-          "crowd": "locals",
-          "priceLevel": "€",
-          "bestTime": "abends",
-          "specials": "bier",
-          "dateSpot": false,
-          "dresscode": "egal",
-          "highlights": "Sillemstraße|Eimsbüttel",
-          "atmosphere": "Klassische Eimsbütteler Feierabendkneipe. Kein Schnickschnack.",
-          "confidence": "medium"
-        }
-      },
-      {
-        "name": "Gaststätte Schröder",
-        "action": "enrich_description",
-        "old_description": "Gemütliche Kneipe in Hamburg",
-        "new_description": "Traditionskneipe an der Hegestraße in Eppendorf — Feierabendtreff, Bier vom Fass, langjährige Stammgäste",
-        "enriched": {
-          "vibe": "gemütlich",
-          "crowd": "locals",
-          "priceLevel": "€",
-          "bestTime": "abends",
-          "specials": "bier",
-          "dateSpot": false,
-          "dresscode": "egal",
-          "highlights": "Hegestraße|Eppendorf|Traditionskneipe",
-          "atmosphere": "Eppendorfer Traditionskneipe mit Stammgast-Charakter.",
-          "confidence": "medium"
-        }
-      },
-      {
-        "name": "Dschungel",
-        "action": "enrich_description",
-        "old_description": "Bar in der Sternstraße nahe St. Pauli.",
-        "new_description": "Hippe Bar in der Sternstraße — kreative Cocktails, Dschungel-Deko, abends DJs, St. Pauli-Flair",
-        "enriched": {
-          "vibe": "hip",
-          "crowd": "kreative",
-          "priceLevel": "€€",
-          "bestTime": "abends",
-          "specials": "cocktails",
-          "dateSpot": true,
           "dresscode": "casual",
-          "highlights": "Sternstraße|Kreative Cocktails|DJ-Nights",
-          "atmosphere": "Dschungel-Atmosphäre mit kreativen Drinks. Lässig und stylish.",
+          "highlights": "Lange Reihe|St. Georg|Irish Breakfast|Rugby",
+          "atmosphere": "St. Georger Institution an der Langen Reihe. Irish Breakfast am Morgen, Rugby und Live-Musik am Abend.",
           "confidence": "medium"
         }
       },
       {
-        "name": "Turmbar",
-        "action": "enrich_description",
-        "old_description": "Bar in einem ehemaligen Hochbunker",
-        "new_description": "Cocktailbar im ehemaligen Flakbunker an der Rothenbaumchaussee — spektakuläres Setting, kreative Drinks, Blick über Hamburg",
+        "name": "Zum Flensburger",
+        "action": "new_enrichment",
+        "old_description": "Alles Flens! Bunte Beleuchtung, gemütliche Kneipe in Hamm",
+        "new_description": "Norddeutsche Kneipe in Hamm — Flensburger vom Fass, bunte Beleuchtung, gemütliche Atmosphäre, günstige Drinks",
         "enriched": {
-          "vibe": "hip",
-          "crowd": "kreative",
-          "priceLevel": "€€€",
+          "vibe": "gemütlich",
+          "crowd": "locals",
+          "priceLevel": "€",
           "bestTime": "abends",
-          "specials": "cocktails",
-          "dateSpot": true,
-          "dresscode": "smart-casual",
-          "highlights": "Ehemaliger Hochbunker|Blick über Hamburg|Kreative Cocktails",
-          "atmosphere": "Cocktails im Hochbunker. Einmaliges Setting mit Panoramablick über Hamburg.",
-          "confidence": "high"
+          "specials": "bier",
+          "dateSpot": false,
+          "dresscode": "egal",
+          "highlights": "Flensburger|Hamm|Bunte Beleuchtung",
+          "atmosphere": "Norddeutsche Nachbarschaftskneipe in Hamm. Flensburger vom Fass und bunte Beleuchtung sorgen für gute Laune.",
+          "confidence": "low"
         }
       },
       {
-        "name": "Sands Bar",
-        "action": "enrich_description",
-        "old_description": "Cocktailbar in Hamburg",
-        "new_description": "Elegante Cocktailbar am Dammtordamm — kreative Drinks, stilvolles Ambiente, perfekt für Dates",
-        "enriched": {
-          "vibe": "elegant",
-          "crowd": "ue35",
-          "priceLevel": "€€€",
-          "bestTime": "abends",
-          "specials": "cocktails",
-          "dateSpot": true,
-          "dresscode": "smart-casual",
-          "highlights": "Dammtordamm|Stilvolle Cocktails",
-          "atmosphere": "Elegante Cocktailbar in Top-Lage. Für besondere Abende.",
-          "confidence": "medium"
-        }
-      },
-      {
-        "name": "Nick&Nora",
+        "name": "The Shamrock",
         "action": "update_enrichment",
         "old_confidence": "low",
-        "enriched": {
-          "vibe": "intim",
-          "crowd": "ue35",
-          "priceLevel": "€€€",
-          "bestTime": "abends",
-          "specials": "cocktails",
-          "dateSpot": true,
-          "dresscode": "smart-casual",
-          "highlights": "Speakeasy-Vibes|Winterhude|Mühlenkamp|Handcrafted Cocktails",
-          "atmosphere": "Speakeasy-Bar in Winterhude. Intime Atmosphäre, exzellente handgemachte Cocktails. Einer der besten Date-Spots am Mühlenkamp.",
-          "confidence": "high"
-        }
-      },
-      {
-        "name": "Hannes&Hanna Wohnzimmer",
-        "action": "enrich_enrichment",
+        "changes": "Erweitert: Live-Sport, Quiz Night, Dart — authenticity bestätigt",
         "enriched": {
           "vibe": "gemütlich",
-          "crowd": "locals",
+          "crowd": "gemischt",
           "priceLevel": "€",
           "bestTime": "abends",
           "specials": "bier",
-          "weeklyEvents": "Kicker-Turniere",
+          "weeklyEvents": "Quiz Night|Live-Sport|Dart",
           "dateSpot": false,
           "dresscode": "egal",
-          "highlights": "Kultkneipe seit 1957|6 Biere vom Fass|Kicker-Oase|Schönster Sonnenuntergang Eimsbüttels",
-          "atmosphere": "Eimsbütteler Institution seit 1957. Kicker, Bier und angeblich der schönste Sonnenuntergang des Viertels von der Terrasse.",
-          "confidence": "high"
+          "highlights": "Heiligengeistfeld|Irish Pub|Live-Sport|Quiz Night|Dart",
+          "atmosphere": "Uriger Irish Pub am Heiligengeistfeld. Quiz Nights, Live-Sport und Dart — für jeden was dabei.",
+          "confidence": "medium"
         }
       }
     ]
   },
   "new_locations": {
-    "summary": "4 neue Locations für Hamburg entdeckt (via Genuss-Guide Neueröffnungen & Web-Recherche)",
+    "summary": "1 neue Cocktailbar in Hamburg gefunden: The NOVA Bar (Eppendorfer Weg) — Nachfolger der Boilerman Bar, Mai 2025 eröffnet.",
     "locations": [
       {
-        "name": "Chefs Warehouse",
-        "address": "Am Sandtorkai 29/Block M, HafenCity, 20457 Hamburg",
-        "category": "restaurant",
-        "description": "Südafrikanisches Casual Fine Dining in der Speicherstadt — Tapas for Two, offene Küche, spektakuläres Ambiente in ehemaliger Maschinenzentralstation. Eröffnet Feb 2026.",
-        "opening_hours": "Mo-Su 18:00-22:00",
-        "tags": ["ue35", "flirt", "restaurant"],
-        "source": "genussguide-hamburg.com",
+        "name": "The NOVA Bar",
+        "address": "Eppendorfer Weg 211, Hoheluft-West, 20253 Hamburg",
+        "category": "cocktailbar",
+        "description": "Preisgekrönter Barkeeper eröffnet sein erstes eigenes Projekt in den ehemaligen Boilerman-Bar-Räumen. Signature Cocktails, mutiges Design, Flirtatious. Iconic. Bold. Come for the vibes. Stay for the drinks.",
+        "opening_hours": "Di-Sa 19:00-02:00",
+        "tags": ["ue35", "flirt", "hoheluft", "cocktailbar"],
+        "source": "abendblatt.de / nova-bar.de",
+        "website": "https://www.nova-bar.de/",
         "confidence": "high",
-        "relevance_for_oliver": "Gehobenes Dining, ideal für Business-Dinner. Speicherstadt-Nähe."
-      },
-      {
-        "name": "jfk (Bullerei Kaminzimmer)",
-        "address": "Lagerstraße 34B, Sternschanze, 20357 Hamburg",
-        "category": "restaurant",
-        "description": "Rock'n'Roll trifft Fine Dining — Ex-Haebel-Team Jule-Fee Poll & Kevin Bürmann im Kaminzimmer der Bullerei. Eröffnet Q1 2026.",
-        "tags": ["ue35", "schanze", "restaurant"],
-        "source": "genussguide-hamburg.com",
-        "confidence": "high",
-        "relevance_for_oliver": "Schanzenhöfe-Nähe, Fine Dining mit Edge. Oliver kennt die Bullerei."
-      },
-      {
-        "name": "Tapas-Bar im Hundertwasserhaus",
-        "address": "Hundertwasserhaus, Ottensen, Hamburg",
-        "category": "bar",
-        "description": "Neue Tapas-Bar von Yasemin Sahiner im Hundertwasserhaus Ottensen — Eröffnung April 2026, spanische Tapas-Küche.",
-        "tags": ["altona", "bar"],
-        "source": "abendblatt.de",
-        "confidence": "medium",
-        "relevance_for_oliver": "Ottensen, originelle Location."
-      },
-      {
-        "name": "Olivia Jones neue Bar (Große Freiheit)",
-        "address": "Große Freiheit, St. Pauli, Hamburg",
-        "category": "bar",
-        "description": "Neue Bar von Olivia Jones auf der Großen Freiheit — Eröffnung März 2026, Entertainment-Konzept.",
-        "tags": ["st-pauli", "bar"],
-        "source": "abendblatt.de",
-        "confidence": "high",
-        "relevance_for_oliver": "Eher Entertainment als Olivers Stil, aber Kiez-News."
+        "relevance_for_oliver": "Eppendorfer Weg-Hotspot. Die Boilerman Bar ist bereits im Barfinder — NOVA Bar ist der Nachfolger mit neuem Konzept. Gehobene Cocktails, Eppendorf/Hoheluft-Lage."
       }
     ]
   },
   "events_this_week": {
-    "summary": "Events KW14 (30.03. - 05.04.2026) die Oliver interessieren könnten",
+    "summary": "KW15 (06.-12.04.2026): Wenige große Events diese Woche. OMR Festival (Mai), DeepTechClub-Investorenevent (23.04.) und ARIC-Events (jetzt Eventbrite) als Highlights markieren.",
     "events": [
       {
-        "name": "AI Tinkerers Hamburg (monatliches Meetup)",
+        "name": "Java User Group Hamburg",
+        "category": "Tech/Developer",
+        "description": "Dev-Meetup in Hamburg — regelmäßige Sessions zu Java, Software-Entwicklung und Tech. Geprüfte Termine auf meetup.com.",
+        "url": "https://www.meetup.com/de-DE/java-user-group-hamburg/",
+        "when": "09.04.2026, 19:00 Uhr (laut Meetup-Übersicht)",
+        "relevance": "Mittlere Relevanz — Developer/Engineer Networking, Oliver ist nicht Entwickler aber tech-affin"
+      },
+      {
+        "name": "AI BEAVERS Meetup Hamburg",
         "category": "AI/Tech",
-        "description": "Monatliches Meetup für Practitioners die mit LLMs und Foundation Models bauen. Hands-on Demos, 5-Min-Talks, Networking. Supported by AI.STARTUP.HUB.",
-        "url": "https://hamburg.aitinkerers.org/",
-        "when": "Nächster Termin prüfen — typisch monatlich, evtl. diese Woche",
-        "relevance": "Hohe Relevanz — AI Practitioners, Networking, direkt in Olivers Kernbereich"
+        "description": "Hamburg AI Community — Sessions zu KI, Machine Learning, praktische Anwendungen. 27.03. und 31.03. Events gesehen, regelmäßige Termine.",
+        "url": "https://www.meetup.com/de-DE/ai-beavers/",
+        "when": "Nächster Termin prüfen (meetup.com)",
+        "relevance": "Hohe Relevanz — AI Meetup Hamburg, regelmäßig, Oliver als ARIC Ambassador"
       },
       {
-        "name": "After Work Social Club Hamburg",
+        "name": "Growth Circle Hamburg — Finanzen, Karriere, Persönlichkeit",
         "category": "Networking",
-        "description": "Community mit 20.000+ Mitgliedern. 1-2x monatlich Afterwork Events, lockeres Netzwerken in wechselnden Bars.",
-        "url": "https://www.meetup.com/de-DE/after-work-social-club-hamburg/",
-        "when": "Wechselnde Termine Di-Do",
-        "relevance": "Mittlere Relevanz — großes Netzwerk, lockeres Format"
+        "description": "Networking-Format mit Fokus auf Finanzen, Karriere und persönliche Entwicklung. Regelmäßige Events in Hamburg.",
+        "url": "https://www.meetup.com/de-DE/growth-circle/",
+        "when": "26.03.2026 gesehen, regelmäßige Termine",
+        "relevance": "Mittlere Relevanz — Networking mit Entwicklungsschwerpunkt"
       },
       {
-        "name": "After Work Club — Café Schöne Aussichten",
-        "category": "Networking/Afterwork",
-        "description": "Hamburgs Original-Afterwork seit 1999. Jeden Donnerstag 18 Uhr. Singles & Networking, Terrasse im Park.",
-        "url": "https://afterworkclub.de",
-        "when": "Donnerstag 02.04.2026, 18:00 Uhr",
-        "relevance": "Mittlere Relevanz — jeden Do, Networking-Klassiker"
+        "name": "ARIC Hamburg — AI/DeepTech Events",
+        "category": "AI/DeepTech",
+        "description": "ARIC (AI Research & Innovation Center) Hamburg — alle Sessions jetzt auf Eventbrite. Oliver ist Ambassador. Events zu KI, Innovation, DeepTech.",
+        "url": "https://www.eventbrite.com/de/d/germany--hamburg/ai/",
+        "when": "Regelmäßige Termine (Eventbrite)",
+        "relevance": "Hohe Relevanz — Oliver ist ARIC Ambassador, DeepTech Campus Hamburg"
       },
       {
-        "name": "Gluck Gluck Weinmesse",
-        "category": "Wine",
-        "description": "Weinmesse bei Tranquillo in der Kulturkirche Altona. Eintägiges Festival mit Kantine und Rahmenprogramm.",
-        "url": "https://www.genussguide-hamburg.com/top-listen/food-events-2026/",
-        "when": "April 2026 (genaues Datum prüfen)",
-        "relevance": "Hohe Relevanz — Wine + Networking + Kultur, genau Olivers Profil"
+        "name": "DeepTechClub Investor Evening",
+        "category": "DeepTech/Investment",
+        "description": "Investorennetzwerk für komplexe Investments in DeepTech. Nächster Termin: 23. April 2026, 17:30-21:00 Uhr im betahaus Hamburg.",
+        "url": "https://deeptechclub.de/",
+        "when": "23.04.2026, 17:30 Uhr — betahaus Hamburg",
+        "relevance": "Hohe Relevanz — Oliver investiert in DeepTech, DeepTechClub ist sein Ökosystem"
       },
       {
-        "name": "Noi — Gastro-Gründerpreis 2026 Gewinner",
-        "category": "Gastro/Networking",
-        "description": "Hamburgs Gastro-Gründerpreis 2026 geht an 'Noi'. Neues Konzept auf dem Radar.",
-        "url": "https://www.artichox.com/",
-        "when": "Jetzt geöffnet",
-        "relevance": "Niedrig — aber als Gastro-Trend für Barfinder relevant"
+        "name": "OMR Festival 2026",
+        "category": "Tech/Marketing/Innovation",
+        "description": "Deutschlands größtes Event für digitales Marketing und Innovation. Internationale Speaker, Masterclasses, Expo, Side Events. Networking-Event des Jahres.",
+        "url": "https://omr.com/de/events/festival/",
+        "when": "05.-06.05.2026 — Hamburg Messe",
+        "relevance": "Hohe Relevanz — Hamburgs größtes Tech/Innovation/Marketing-Event. Oliver ist Tech-Entrepreneur — OMR ist Pflichtprogramm."
       }
     ]
   },
   "stats": {
     "total_locations": 5214,
-    "locations_without_enrichment": 5017,
+    "locations_without_enrichment": 5006,
     "locations_with_low_confidence": 30,
-    "locations_enriched_this_week": 14,
-    "new_locations_found": 4,
-    "events_found": 5,
-    "note": "Der Großteil der 5017 unenrichierten Locations sind Restaurants/Cafés/Mittagstisch aus dem Schanze-Bulk-Import. Priorität liegt auf Bars/Pubs/Weinbars mit 'highlight'-Tag."
+    "locations_enriched_this_week": 11,
+    "new_locations_found": 1,
+    "events_found": 6,
+    "note": "KW15 ist ruhige Woche für Events. Nächste große Termine: DeepTechClub 23.04. und OMR Festival 05.-06.05. Irish Pub Cluster (9 Locations) jetzt angereichert."
   }
 }
