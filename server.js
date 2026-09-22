@@ -281,8 +281,22 @@ function getWeatherFactor(place) {
 // ═══════════════════════════════════════════════════════════════
 const MAJOR_EVENTS = eventsConfig.major_events;
 
+// Ohne Datum gefragt heisst: "was laeuft heute". Das aendert sich einmal am
+// Tag, das Ergebnis wird deshalb gemerkt. Vorher stand hier je Aufruf ein
+// toLocaleString mit Zeitzone, ebenfalls ein teurer Intl-Aufruf in einer
+// Schleife ueber tausende Orte.
+let _grossereignisse = null;
+let _grossereignisseTag = -1;
+
 function getActiveMajorEvents(date) {
-  if (!date) date = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' }));
+  if (!date) {
+    const tag = Math.floor(Date.now() / 86400000);
+    if (_grossereignisse && _grossereignisseTag === tag) return _grossereignisse;
+    const heute = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' }));
+    _grossereignisse = getActiveMajorEvents(heute);
+    _grossereignisseTag = tag;
+    return _grossereignisse;
+  }
   const month = date.getMonth() + 1; // 1-12
   const day = date.getDate();
   const active = [];
@@ -341,34 +355,70 @@ try {
 } catch(e) { console.log('⚠️ Community scores not available:', e.message); }
 
 // Community Score lookup for a place
-function getCommunityScore(placeName) {
-  if (!placeName) return null;
-  const norm = s => (s||'').toLowerCase().replace(/[^a-zäöüß0-9]/g, '');
-  const pNorm = norm(placeName);
-  
-  // Try community score cache (from DB)
-  for (const [key, score] of Object.entries(communityScoreCache)) {
-    const kNorm = norm(key);
-    if (pNorm === kNorm || pNorm.includes(kNorm) || kNorm.includes(pNorm)) {
-      return Math.round(score);
+//
+// Tempo: diese Funktion lief je Ort ueber alle 174 Eintraege des
+// Community-Caches und normalisierte dabei jeden Schluessel neu. Bei 3.000
+// Orten im Umkreis waren das ueber eine halbe Million Regex-Durchlaeufe pro
+// Anfrage. Die Schluessel werden jetzt einmal normalisiert, und das Ergebnis
+// je Ortsname wird gemerkt — jeder Name wird also genau einmal aufgeloest.
+const _normName = s => (s || '').toLowerCase().replace(/[^a-zäöüß0-9]/g, '');
+let _communityNormIndex = null;
+const _communityScoreMemo = new Map();
+
+function _communityIndex() {
+  if (!_communityNormIndex) {
+    _communityNormIndex = [];
+    for (const [key, score] of Object.entries(communityScoreCache)) {
+      _communityNormIndex.push([_normName(key), score]);
     }
   }
-  
-  return null;
+  return _communityNormIndex;
+}
+
+function getCommunityScore(placeName) {
+  if (!placeName) return null;
+  if (_communityScoreMemo.has(placeName)) return _communityScoreMemo.get(placeName);
+
+  const pNorm = _normName(placeName);
+  let treffer = null;
+  for (const [kNorm, score] of _communityIndex()) {
+    if (pNorm === kNorm || pNorm.includes(kNorm) || kNorm.includes(pNorm)) {
+      treffer = Math.round(score);
+      break;
+    }
+  }
+  _communityScoreMemo.set(placeName, treffer);
+  return treffer;
 }
 
 // Rating lookup from database
+// Tempo: hier stand eine SQLite-Abfrage je Ort, samt frisch erzeugtem
+// prepare(). Bei 3.000 Orten im Umkreis also 3.000 Abfragen pro Anfrage. Die
+// Bewertungen aendern sich nicht waehrend eines Seitenaufrufs, deshalb liegen
+// sie jetzt als Verzeichnis im Speicher und werden alle zehn Minuten erneuert.
+let _ratingIndex = null;
+let _ratingIndexStand = 0;
+const RATING_INDEX_TTL = 10 * 60 * 1000;
+
+function _ratings() {
+  if (_ratingIndex && (Date.now() - _ratingIndexStand) < RATING_INDEX_TTL) return _ratingIndex;
+  const karte = new Map();
+  try {
+    const zeilen = barfinderDB.getDB().prepare(
+      'SELECT name, yelp_rating, yelp_reviews FROM places WHERE yelp_rating IS NOT NULL'
+    ).all();
+    for (const z of zeilen) {
+      if (z.name) karte.set(z.name.toLowerCase(), { source: 'database', rating: z.yelp_rating, reviewCount: z.yelp_reviews });
+    }
+  } catch (e) { /* ohne Bewertungen weiter */ }
+  _ratingIndex = karte;
+  _ratingIndexStand = Date.now();
+  return _ratingIndex;
+}
+
 function fuzzyMatchRating(placeName) {
   if (!placeName) return null;
-  try {
-    const place = barfinderDB.getDB().prepare(
-      'SELECT yelp_rating, yelp_reviews FROM places WHERE LOWER(name) = LOWER(?)'
-    ).get(placeName);
-    if (place && place.yelp_rating) {
-      return { source: 'database', rating: place.yelp_rating, reviewCount: place.yelp_reviews };
-    }
-  } catch(e) {}
-  return null;
+  return _ratings().get(placeName.toLowerCase()) || null;
 }
 
 function ratingVibeBonus(match, communityScore) {
@@ -708,19 +758,32 @@ async function getPlaces(lat, lon, radius, category) {
   return namedPlaces;
 }
 
+// Tempo: hier wurde bei JEDEM Aufruf ein neuer Intl.DateTimeFormat gebaut.
+// Das ist eine der teuersten Operationen in der Laufzeitumgebung, und die
+// Funktion wird in den Schleifen ueber alle Orte tausendfach aufgerufen. Im
+// Profil lag sie bei 56 Prozent der Rechenzeit von /api/places.
+// Jetzt wird der Formatierer einmal gebaut, und das Ergebnis gilt eine
+// Minute lang — laenger kann es sich ohnehin nicht aendern.
+const _hamburgFormatter = new Intl.DateTimeFormat('en-US', {
+  timeZone: 'Europe/Berlin',
+  hour: 'numeric', minute: 'numeric', weekday: 'short',
+  hour12: false
+});
+const _WOCHENTAG = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 0 };
+let _hamburgZeit = null;
+let _hamburgZeitMinute = -1;
+
 function getHamburgTime() {
-  const now = new Date();
-  const formatter = new Intl.DateTimeFormat('en-US', {
-    timeZone: 'Europe/Berlin',
-    hour: 'numeric', minute: 'numeric', weekday: 'short',
-    hour12: false
-  });
-  const parts = formatter.formatToParts(now);
+  const minuteSeitEpoche = Math.floor(Date.now() / 60000);
+  if (_hamburgZeit && _hamburgZeitMinute === minuteSeitEpoche) return _hamburgZeit;
+
+  const parts = _hamburgFormatter.formatToParts(new Date());
   const weekday = parts.find(p => p.type === 'weekday').value;
   const hour = parseInt(parts.find(p => p.type === 'hour').value);
   const minute = parseInt(parts.find(p => p.type === 'minute').value);
-  const dayMap = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 0 };
-  return { hour, minute, dow: dayMap[weekday] || 0 };
+  _hamburgZeit = { hour, minute, dow: _WOCHENTAG[weekday] || 0 };
+  _hamburgZeitMinute = minuteSeitEpoche;
+  return _hamburgZeit;
 }
 
 function isOpenSmart(oh, category) {
@@ -2454,13 +2517,32 @@ const server = http.createServer(async (req, res) => {
 
   // ═══ STATIC FILES ═══
   if (url.pathname === '/' || url.pathname === '/index.html' || url.pathname.startsWith('/v')) {
-    res.writeHead(200, {
+    // Die Seite ist eine einzige Datei von rund 240 kB. Die Schnittstellen
+    // wurden komprimiert ausgeliefert, die Seite selbst nicht — auf dem Handy
+    // ist das der groesste Einzelposten beim ersten Aufruf.
+    const kopf = {
       'Content-Type': 'text/html; charset=utf-8',
       'Cache-Control': 'no-cache, no-store, must-revalidate',
       'Pragma': 'no-cache', 'Expires': '0',
-      'ETag': Date.now().toString()
-    });
-    fs.createReadStream(path.join(__dirname, 'index.html')).pipe(res);
+      'ETag': Date.now().toString(),
+      'Vary': 'Accept-Encoding'
+    };
+    const nimmt = req.headers['accept-encoding'] || '';
+    const quelle = fs.createReadStream(path.join(__dirname, 'index.html'));
+    if (/\bbr\b/.test(nimmt)) {
+      kopf['Content-Encoding'] = 'br';
+      res.writeHead(200, kopf);
+      quelle.pipe(zlib.createBrotliCompress({
+        params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 5 }
+      })).pipe(res);
+    } else if (/\bgzip\b/.test(nimmt)) {
+      kopf['Content-Encoding'] = 'gzip';
+      res.writeHead(200, kopf);
+      quelle.pipe(zlib.createGzip({ level: 6 })).pipe(res);
+    } else {
+      res.writeHead(200, kopf);
+      quelle.pipe(res);
+    }
     return;
   }
 

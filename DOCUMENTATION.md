@@ -1007,3 +1007,63 @@ eine verbliebene Namensdublette (eine Espresso-House-Filiale in 125 m),
 355 Koordinatenpaare unter 10 m mit verschiedenen Namen (überwiegend zwei
 Betriebe an einer Adresse) und 76 Öffnungszeiten in Freitext
 („abhängig vom Programm").
+
+---
+
+# Nachtrag III vom 22.09.2026 — Tempo
+
+Oliver meldete: „Ist ultra langsam. Vibe lädt ineffizient: die anderen auch."
+Die Vibe-Kachel hing auf „⏳ Laden…", weil sie wartet, bis `S.places` gefüllt
+ist — also bis `/api/places` antwortet.
+
+## Was gemessen wurde
+
+| Umkreis | Orte | vorher | nachher |
+|---------|------|--------|---------|
+| 1.000 m | 208 | 1,19 s | 0,26 s |
+| 3.000 m | 1.449 | 6,02 s | 0,48 s |
+| 5.000 m | 3.148 | 11,83 s | 0,66 s |
+| 10.000 m | 3.880 | 15,46 s | 0,53 s |
+
+Weitere Endpunkte: `/api/highlights` 8,18 s → 0,47 s, `/api/discovery`
+2,34 s → 0,16 s, `/api/hot` 0,77 s → 0,12 s.
+
+## Die eigentliche Ursache
+
+Ein CPU-Profil (`node --cpu-prof`) wies **56 Prozent der Rechenzeit** von
+`/api/places` einer einzigen Funktion zu: `getHamburgTime()`. Sie baute bei
+**jedem Aufruf** einen neuen `Intl.DateTimeFormat`. Das Erzeugen eines
+Intl-Formatierers ist eine der teuersten Operationen der Laufzeitumgebung, und
+die Funktion wird in den Schleifen über alle Orte tausendfach aufgerufen — bei
+3.148 Orten im Umkreis entsprechend oft.
+
+Jetzt wird der Formatierer einmal beim Start gebaut, und das Ergebnis gilt eine
+Minute. Länger kann es sich ohnehin nicht ändern.
+
+Dasselbe Muster in `getActiveMajorEvents()`: ein `toLocaleString` mit Zeitzone
+je Aufruf, ebenfalls in der Schleife. Das Ergebnis wird jetzt tageweise
+gemerkt.
+
+## Zwei weitere Engpässe im selben Pfad
+
+- `fuzzyMatchRating()` setzte je Ort eine **SQLite-Abfrage** ab, samt frisch
+  erzeugtem `prepare()`. Bei 3.000 Orten also 3.000 Abfragen pro Seitenaufruf.
+  Die Bewertungen liegen jetzt als Verzeichnis im Speicher, erneuert alle zehn
+  Minuten.
+- `getCommunityScore()` lief je Ort über alle 174 Einträge des
+  Community-Caches und normalisierte dabei jeden Schlüssel neu — über eine
+  halbe Million Regex-Durchläufe pro Anfrage. Die Schlüssel werden jetzt einmal
+  normalisiert, und das Ergebnis je Ortsname wird gemerkt.
+
+## Die Seite selbst
+
+`index.html` ist eine einzige Datei von rund 240 kB und wurde
+**unkomprimiert** ausgeliefert, während die Schnittstellen längst gzip
+bekamen. Jetzt Brotli beziehungsweise gzip: **244 kB → 59 kB**.
+
+## Gegenprobe
+
+Die alte Fassung lief parallel auf Port 3098. Für `/api/places` (mehrere
+Umkreise, Tage und Sortierungen), `/api/hot` und `/api/vibe-forecast` sind die
+Antworten **byteweise identisch**. Abweichend nur `/api/discovery`, und das ist
+Absicht: der Endpunkt würfelt (`Math.random()`).
