@@ -836,3 +836,174 @@ Der Barfinder ist ein **beeindruckend funktionsfähiger Prototyp** mit durchdach
 ---
 
 *Generiert am 2026-02-16 aus Quellcode-Analyse. Diese Dokumentation dient als Basis für Refactoring, Lastenheft-Erstellung oder Neuaufbau.*
+
+---
+
+# Nachtrag vom 22.09.2026 — was seit Februar nicht mehr stimmt
+
+Die Dokumentation oben beschreibt den Stand vom 16.02.2026. Vier Dinge daran
+sind seitdem überholt. Wer das Projekt anfasst, sollte zuerst diesen Nachtrag
+lesen.
+
+## 1. Die Scraper gibt es nicht mehr
+
+Abschnitt 6.1 listet zwanzig `scrape_*.js`. **Keine einzige dieser Dateien
+liegt noch im Projekt.** In der `.gitignore` steht dazu nur `# Scrapers
+(removed)`. Damit sind auch alle `*_cache.json` verschwunden, die der Server
+laut Abschnitt 6 einlesen sollte.
+
+Folge: von Frühjahr bis September 2026 kam **kein einziger echter Termin**
+mehr in die App. Die Veranstaltungen, die sie zeigte, stammten restlos aus
+`curated_events.json`, also aus wiederkehrenden Schablonen ("jeden Donnerstag
+After Work Club"). Der Feed war formal gefüllt und inhaltlich seit Monaten
+derselbe.
+
+## 2. Die Zeitpläne aus Abschnitt 6.2 liefen nirgends
+
+`nightly_update.sh`, `daily_scraper_cron.sh` und `weekly_quality_check.sh`
+waren weder in einer crontab noch als systemd-Zeitgeber eingetragen. Es gab
+keine Automatik. `nightly_update.sh` wäre auch gescheitert: es rief `sqlite3`
+auf, das auf dieser Maschine nicht installiert ist.
+
+## 3. Der neue Terminsammler
+
+`sammler_events.js` ersetzt den alten Scraper-Zoo. Er arbeitet zweigleisig:
+
+| Quelle | Weg | Anmerkung |
+|--------|-----|-----------|
+| Luma | `lu.ma/hamburg`, Daten aus `__NEXT_DATA__` | rein strukturiert |
+| Meetup | `meetup.com/find/events`, Daten aus `__APOLLO_STATE__` | rein strukturiert, Online-Termine werden verworfen |
+| SZENE HAMBURG | `wp-json/wp/v2/en_tagestipp` | Datum steht im Titel, Ort und Uhrzeit zieht das Sprachmodell nach |
+| hamburg.de | HTML, ausgewertet per Sprachmodell | zäh, liefert wenig; Kandidat zum Streichen |
+
+Warum das Sprachmodell: CSS-Selektoren brechen bei jedem Redesign, genau daran
+ist der alte Zoo gestorben. Ein Modell liest den Fließtext und liefert JSON,
+solange die Termine für einen Menschen lesbar dastehen. Der Zugang läuft über
+den Clawy-Schlüssel aus `~/.openclaw/openclaw.json`
+(`models.providers.clawy`), Modell `clawy-ai-sub`.
+
+Schutzregeln im Sammler:
+- Eine ausgefallene Quelle leert den Bestand nicht. Ihre Termine aus dem
+  letzten Lauf werden bis zu sieben Tage weitergetragen.
+- Liefert **keine** Quelle etwas, bleibt die alte Datei unangetastet.
+- Doppelte Termine werden über Titel und Datum zusammengeführt; eine
+  strukturierte Quelle schlägt dabei die Modellauswertung.
+- `hole()` fällt auf `curl` zurück, wenn Nodes eigenes `fetch` abgewiesen
+  wird. hamburg.de wirft die Node-Verbindung ab, antwortet curl aber normal.
+
+Ausgabe: `live_events_cache.json` (+ `live_events_bericht.json` als Protokoll).
+`server.js` mischt die Datei in `getNetworkEvents()` zu den kuratierten
+Terminen. Fehlt sie, läuft alles wie vorher.
+
+## 4. Automatik, Sicherung, PWA
+
+- **Zeitgeber** (systemd, Benutzerebene):
+  `barfinder-nacht.timer` täglich 04:10 → voller Lauf.
+  `barfinder-termine.timer` 11:00 und 16:30 → nur Luma und Meetup, ohne
+  Sprachmodell, also schnell und ohne Kosten.
+- **`backup-db.sh`** kopierte die Datenbank mit `cp`. Im WAL-Modus ist das
+  unvollständig: die letzten Schreibvorgänge stehen noch im Begleitschreiben
+  `barfinder.db-wal` (hier zeitweise über 12 MB) und fehlten in jeder Kopie.
+  Jetzt über die Sicherungsfunktion von SQLite.
+- **Abschnitt 10.3 ist erledigt**: `manifest.webmanifest` und `sw.js` liegen
+  vor, die App lässt sich aufs Handy legen und startet ohne Netz. Absichtlich
+  zurückhaltend: `/api/` wird nie zwischengespeichert, die Seite selbst kommt
+  zuerst aus dem Netz.
+- **Abschnitt 10.2 stimmt nicht mehr ganz**: `/api/health` und eine
+  Ratenbegrenzung existieren inzwischen.
+
+## 5. Das Audit vom 28.03.2026 war zu hart
+
+Es meldete 266 Namensdubletten. Der Prüfsatz verglich aber nur Namen, nicht
+Orte. Starbucks an vierzehn Adressen ist eine Kette, keine Dublette. Nach
+gleichem Namen **innerhalb von 150 m** bleiben **drei** echte Fälle übrig:
+Holsten-Schwemme (3 m), Espresso House (125 m), Il Grappolo (22 m).
+`test_data_quality.js` prüft seit dem 22.09.2026 so.
+
+Ebenfalls korrigiert: die Kategorien `mittagstisch`, `fruehstueck` und
+`event-location` galten dem Prüfsatz als ungültig, obwohl 336 Einträge sie
+führen. Und die Prüfung auf `google_ratings_cache.json`, `bar_events_cache.json`
+und `events_cache.json` meldete Fehler für Dateien, die es seit dem Entfernen
+der Scraper gar nicht mehr geben soll. An ihre Stelle tritt eine Prüfung auf
+Alter und Quellenzahl des Terminbestands.
+
+Offen geblieben: 161 Einträge ohne Adresse, 23 außerhalb der Umgebung, einer
+ohne brauchbare Koordinaten.
+
+---
+
+# Nachtrag II vom 22.09.2026 — Entscheidungen und Datenpflege
+
+## Ereignisfilter gelockert
+
+`excludeRx` in `server.js` warf Spieleabend, Brettspiel, Pub-Quiz und Karaoke
+heraus. Das sind genau die Abende, an denen man Leute trifft, also das
+Kernversprechen der App. Wieder zugelassen. Konzert, Theater, Kino, Lesung,
+Museum, Ausstellung und Flohmarkt bleiben draußen.
+
+Dabei fiel ein Fehler in derselben Regel auf: die Alternative lautete schlicht
+`lauf`, ohne Wortgrenze. Sie traf damit auch **Ablauf** und **Verlauf** und
+verwarf Termine, die mit Sport nichts zu tun hatten. Jetzt
+`\b(?!ablauf|verlauf|durchlauf|zulauf|einlauf|auslauf|umlauf)\w*lauf\b` —
+Firmenlauf und Stadtlauf fliegen raus, „der Ablauf des Abends" bleibt drin.
+
+## hamburg.de als Terminquelle gestrichen
+
+Rund 80 Sekunden Modellzeit je Lauf für ein bis zehn Termine, die der
+Ereignisfilter anschließend sämtlich aussortierte (reine Kultur).
+`quelleRedaktion()` bleibt im Sammler stehen, damit eine bessere Seite sofort
+angeschlossen werden kann.
+
+## Der Port 3070 ist weg
+
+Der Caddy-Block `:3070` war nur nötig, solange die App absolute Pfade
+verwendete und nicht unter einem Unterpfad laufen konnte. Seit `window.BASIS`
+geht `/apps/barfinder/`; ein zweiter offener Port wäre nur zusätzliche
+Angriffsfläche.
+
+## Dubletten zusammengeführt (5.213 → 5.177)
+
+`dubletten_zusammenfuehren.js`, zweistufig:
+
+1. **Ohne Modell**: Namen, die nach Kleinschreibung, Umlaut- und
+   Zeichenbereinigung buchstabengleich sind und unter 50 m auseinanderliegen.
+   „Café Leonar" und „Cafe Leonar" braucht keinen, der darüber nachdenkt.
+2. **Mit Modell**: Kurzformen und Zusätze, etwa „Wolters Gasthof von 1787" und
+   „Wolters Gasthof".
+
+Dazu eine **Kettenerkennung aus dem Bestand selbst**: ein Name, der drei Mal
+oder öfter vorkommt, gehört zu einer Kette — „Espresso House" steht 17 Mal in
+Hamburg, „Farina di Nonna" 5 Mal. Bei solchen Namen ist derselbe Eintrag in
+90 m Abstand keine Doppelerfassung, sondern die nächste Filiale. Für sie gilt
+eine Schwelle von 25 m, und sie gehen gar nicht erst ans Modell, das die Kette
+an den Namen nicht erkennen kann. Wichtig dabei: **nur der Abstand** schließt
+aus, nicht der Kettenname als solcher — „BLOCK HOUSE Rotherbaum" und
+„BLOCK HOUSE" am selben Punkt sind sehr wohl derselbe Eintrag zweimal.
+
+Gelöscht wird nichts. Der schwächere Eintrag füllt zuerst die Lücken im
+stärkeren, sein Name landet in `auch_bekannt_als`, und der vollständige
+Datensatz geht nach `dubletten_log.json`.
+
+Zwei Dinge zum Betrieb des Skripts:
+- Das Modell ist **nicht reproduzierbar**, auch bei `temperature: 0` nicht.
+  Der Clawy-Zugang verteilt auf wechselnde Anbieter. Ein zweiter Lauf kann
+  weitere Paare finden. Unkritisch, weil jeder Lauf nur zusammenführt.
+- Das Antwortformat entscheidet über die Laufzeit. Mit Objekten samt
+  Begründung lief das Modell regelmäßig in die Zeitgrenze; eine reine
+  Nummernliste beantwortet es in rund zwanzig Sekunden.
+
+## Adressen und Koordinaten
+
+161 fehlende Adressen über Nominatim nachgetragen (`adressen_nachtragen.js`,
+eine Anfrage je Sekunde, 161 Treffer, null Fehler). Ein Eintrag führte `lng`
+statt `lon` und hatte damit keine Länge. „Süd Restaurant" stand mit
+Koordinaten in Rotterdam in der Datei und liegt jetzt vollständig in
+`zu_pruefen.json`.
+
+## Stand der Prüfung
+
+10 bestanden, 3 offen. Die drei sind echte Datenbefunde, keine Prüffehler:
+eine verbliebene Namensdublette (eine Espresso-House-Filiale in 125 m),
+355 Koordinatenpaare unter 10 m mit verschiedenen Namen (überwiegend zwei
+Betriebe an einer Adresse) und 76 Öffnungszeiten in Freitext
+(„abhängig vom Programm").

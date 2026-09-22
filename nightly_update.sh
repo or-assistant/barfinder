@@ -1,30 +1,52 @@
 #!/bin/bash
-# Barfinder Nightly Update
-# Runs: DB backup, data quality tests, server health check
-set -e
+# Barfinder — naechtlicher Lauf.
+#
+# Reihenfolge: erst sichern, dann Termine holen, dann pruefen.
+# Das Skript bricht bewusst NICHT beim ersten Fehler ab (kein set -e):
+# ein toter Sammler darf die Sicherung und die Pruefung nicht verhindern.
+#
+# Aufruf ueber barfinder-nacht.timer, taeglich 04:10.
 
-cd /home/openclaw/.openclaw/workspace/barfinder
-DATE=$(date -Iseconds)
+cd /home/openclaw/.openclaw/workspace/barfinder || exit 1
+export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/.local/bin"
+DATUM=$(date -Iseconds)
+echo "=== Barfinder naechtlicher Lauf $DATUM ==="
 
-echo "=== Barfinder Nightly Update $DATE ==="
+echo "--- 1. Datenbank sichern ---"
+bash backup-db.sh || echo "❌ Sicherung fehlgeschlagen"
 
-# 1. DB Backup
-echo "--- DB Backup ---"
-bash backup-db.sh
+echo "--- 2. Termine einsammeln ---"
+timeout 600 node sammler_events.js || echo "❌ Sammler abgebrochen (Bestand bleibt erhalten)"
 
-# 2. Data Quality Tests
-echo "--- Data Quality Tests ---"
-node test_data_quality.js 2>&1 || true
+echo "--- 3. Datenqualitaet ---"
+node test_data_quality.js 2>&1 | tail -20 || true
 
-# 3. Server Health
-echo "--- Server Health ---"
-curl -sf http://localhost:3002/api/places > /dev/null && echo "✅ Server healthy" || echo "❌ Server down!"
-curl -sf http://localhost:3002/api/hot > /dev/null && echo "✅ /api/hot OK" || echo "❌ /api/hot down"
-curl -sf http://localhost:3002/api/events > /dev/null && echo "✅ /api/events OK" || echo "❌ /api/events down"
+echo "--- 4. Server erreichbar? ---"
+for pfad in /api/places /api/hot /api/network-events /api/weather; do
+  if curl -sf -m 20 "http://localhost:3002$pfad" > /dev/null; then
+    echo "✅ $pfad"
+  else
+    echo "❌ $pfad antwortet nicht"
+  fi
+done
 
-# 4. DB Stats
-echo "--- DB Stats ---"
-sqlite3 barfinder.db "SELECT COUNT(*) || ' places total' FROM places;"
-sqlite3 barfinder.db "SELECT COUNT(*) || ' with vibe_score' FROM places WHERE vibe_score IS NOT NULL AND vibe_score > 0;"
+echo "--- 5. Bestand ---"
+# sqlite3 ist auf dieser Maschine nicht installiert, deshalb ueber node.
+node -e "
+const db=require('better-sqlite3')('barfinder.db',{readonly:true});
+const z=(s)=>{try{return db.prepare(s).get().n}catch(e){return 'n/a'}};
+console.log(z('select count(*) n from places')+' Orte');
+// Die Spalte heisst vibe_base_score, nicht vibe_score. Das alte Skript fragte
+// nach einer Spalte, die es nie gab, und meldete deshalb immer n/a.
+console.log(z('select count(*) n from places where vibe_base_score is not null and vibe_base_score>0')+' davon mit VibeScore');
+console.log(z('select count(*) n from places where community_score is not null')+' mit Community Score');
+" || echo "❌ Datenbank nicht lesbar"
 
-echo "=== Done ==="
+node -e "
+const fs=require('fs');
+try{const j=JSON.parse(fs.readFileSync('live_events_cache.json','utf8'));
+const q=Object.entries(j.quellen||{}).map(([k,v])=>k+(v.ok?':'+v.anzahl:':FEHLER')).join('  ');
+console.log(j.anzahl+' Live-Termine  ['+q+']  Stand '+j.generiert);
+}catch(e){console.log('keine live_events_cache.json')}"
+
+echo "=== Fertig $(date -Iseconds) ==="

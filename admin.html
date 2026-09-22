@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+<script>
+/* Basispfad. Die Seite lief bisher nur an der Wurzel, weil alle Adressen
+   absolut geschrieben waren. Unter /apps/barfinder/ waren damit Stylesheet
+   und alle Schnittstellenaufrufe tot. BASIS ist an der Wurzel leer und
+   unter einem Unterpfad genau dieser Pfad ohne Schrägstrich am Ende. */
+window.BASIS = (function(){
+  var p = location.pathname.replace(/\/[^\/]*\.html$/, '').replace(/\/$/, '');
+  return p;
+})();
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barfinder Admin</title>
@@ -44,7 +55,7 @@ async function api(path, opts = {}) {
 
 async function checkAuth() {
   if (!token) return showLogin();
-  const data = await api('/api/auth/me');
+  const data = await api(BASIS+'/api/auth/me');
   if (!data.user || data.user.role !== 'admin') return showLogin('Zugriff nur fuer Admins');
   showDashboard(data.user);
 }
@@ -63,7 +74,7 @@ function showLogin(err) {
 async function doLogin() {
   const email = document.getElementById('email').value;
   const pw = document.getElementById('pw').value;
-  const data = await api('/api/auth/login', { method: 'POST', body: JSON.stringify({ email, password: pw }) });
+  const data = await api(BASIS+'/api/auth/login', { method: 'POST', body: JSON.stringify({ email, password: pw }) });
   if (data.token) {
     token = data.token;
     localStorage.setItem('bf_token', token);
@@ -74,11 +85,11 @@ async function doLogin() {
 }
 
 async function showDashboard(user) {
-  const stats = await api('/api/admin/stats');
-  const users = (await api('/api/admin/users')).users || [];
+  const stats = await api(BASIS+'/api/admin/stats');
+  const users = (await api(BASIS+'/api/admin/users')).users || [];
 
   app.innerHTML = `
-    <a href="/" class="back">← Zurueck zu Barfinder</a>
+    <a href="./" class="back">← Zurueck zu Barfinder</a>
     <h1>🛠️ Admin Panel</h1>
     <p style="margin-bottom:20px;color:#999">Angemeldet als ${user.displayName || user.email} 
       <button onclick="logout()" style="margin-left:10px;background:#333;color:#ccc">Abmelden</button></p>
@@ -106,20 +117,20 @@ async function showDashboard(user) {
 }
 
 async function setRole(id, role) {
-  await api(`/api/admin/users/${id}/role`, { method: 'PUT', body: JSON.stringify({ role }) });
+  await api(`${BASIS}/api/admin/users/${id}/role`, { method: 'PUT', body: JSON.stringify({ role }) });
   checkAuth();
 }
 
 async function deleteUser(id, email) {
   if (!confirm(`Benutzer ${email} wirklich loeschen?`)) return;
-  await api(`/api/admin/users/${id}`, { method: 'DELETE' });
+  await api(`${BASIS}/api/admin/users/${id}`, { method: 'DELETE' });
   checkAuth();
 }
 
 function logout() {
   token = null;
   localStorage.removeItem('bf_token');
-  fetch('/api/auth/logout', { method: 'POST' });
+  fetch(BASIS+'/api/auth/logout', { method: 'POST' });
   showLogin();
 }
 

@@ -1,0 +1,1130 @@
+{
+ "gelaufen": "2026-09-22T17:42:15.079Z",
+ "modell": "deepseek/deepseek-v4-pro",
+ "zusammengefuehrt": [
+  {
+   "behalten": "Holsten-Schwemme",
+   "entfernt": "Holsten-Schwemme",
+   "meter": 2,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Holsten-Schwemme",
+    "lat": 53.5482812,
+    "lon": 9.9559785,
+    "address": "Herrenweide 2a, Hamburg",
+    "category": "pub",
+    "description": "",
+    "opening_hours": "Mo-Th 10:00-01:00; Fr 10:00-04:00; Sa 10:00-04:00; Su 08:00-01:00",
+    "tags": [
+     "pub",
+     "raucher"
+    ],
+    "source": "overpass",
+    "smoker": true,
+    "last_verified": "2026-04-01T08:00:59.060562+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Gaststätte Dorotheen Eck",
+   "entfernt": "Dorotheen-Eck",
+   "meter": 2,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district"
+   ],
+   "entfernter_eintrag": {
+    "name": "Dorotheen-Eck",
+    "category": "pub",
+    "description": "Gemütliche Eckkneipe in Winterhude — seit Jahren Nachbarschaftstreff",
+    "lat": 53.5922398,
+    "lon": 10.0023746,
+    "district": "Winterhude",
+    "address": "Winterhude, Hamburg",
+    "opening_hours": "Mo-Fr 15:00-24:00+; Sa,Su 11:00-24:00+",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "winterhude",
+     "pub"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Kneipe Fasan",
+   "entfernt": "Fasan",
+   "meter": 15,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district"
+   ],
+   "entfernter_eintrag": {
+    "name": "Fasan",
+    "category": "pub",
+    "description": "",
+    "lat": 53.5749193,
+    "lon": 9.9636237,
+    "district": "Eimsbüttel",
+    "address": "Eichenstraße 10, Hamburg",
+    "opening_hours": "Mo-Fr 17:00-02:00; Sa 12:00-02:00; Su 13:00-02:00",
+    "website": "https://www.fasan-hamburg.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "pub"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Collab Bar",
+   "entfernt": "Collab",
+   "meter": 21,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Collab",
+    "category": "bar",
+    "description": "",
+    "lat": 53.5531214,
+    "lon": 9.9628227,
+    "district": "St. Pauli/Reeperbahn",
+    "address": "Hein-Hoyer-Straße 63, Hamburg",
+    "opening_hours": "Tu-Th 18:00-24:00; Fr,Sa 18:00-01:00",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "bar"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Dal Fabbro Winebar",
+   "entfernt": "Dal Fabbro",
+   "meter": 6,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "smoker",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Dal Fabbro",
+    "lat": 53.5803865,
+    "lon": 9.9688687,
+    "address": "Eppendorfer Weg 176, Hamburg",
+    "category": "restaurant",
+    "description": "",
+    "opening_hours": "Mo-Sa 18:00-22:00; Su off",
+    "tags": [
+     "restaurant",
+     "italian",
+     "outdoor",
+     "wheelchair",
+     "eppendorf"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Kleinhuis' Café & Weinstube",
+   "entfernt": "Kleinhuis Cafe&Weinstube",
+   "meter": 12,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Kleinhuis Cafe&Weinstube",
+    "category": "restaurant",
+    "description": "",
+    "lat": 53.5512754,
+    "lon": 9.9773362,
+    "district": "Neustadt/Innenstadt",
+    "address": "Neustadt/Innenstadt",
+    "opening_hours": "We-Fr 11:00-18:00; Sa,Su 09:00-18:00; Mo,Tu off",
+    "website": "https://kleinhuis-weinstube.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "restaurant",
+     "wein"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "HADLEY's",
+   "entfernt": "Hadleys",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Hadleys",
+    "category": "cafe",
+    "description": "",
+    "lat": 53.5703946,
+    "lon": 9.976892,
+    "district": "Rotherbaum",
+    "address": "Beim Schlump 84a, Hamburg",
+    "opening_hours": "Tu-Sa 17:00+",
+    "website": "https://www.hadleys.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "cafe"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Pelican Bar",
+   "entfernt": "Pelican",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district"
+   ],
+   "entfernter_eintrag": {
+    "name": "Pelican",
+    "category": "bar",
+    "description": "",
+    "lat": 53.5534209,
+    "lon": 9.9580457,
+    "district": "St. Pauli/Reeperbahn",
+    "address": "Am Brunnenhof 2, Hamburg",
+    "opening_hours": "Fr,Sa 14:00-04:00, Su-We 18:00-02:00, Th 18:00-03:00",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "bar"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Café Leonar",
+   "entfernt": "Cafe Leonar",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Cafe Leonar",
+    "category": "fruehstueck",
+    "description": "Kulturcafé am Grindelhof — jüdisch inspiriertes Frühstück, Shakshuka, Kuchen, Ausstellungen",
+    "lat": 53.5697536,
+    "lon": 9.9840813,
+    "district": "Rotherbaum",
+    "address": "Grindelhof 59, Hamburg",
+    "opening_hours": "Mo-Th 08:00-24:00, Fr 08:00-01:00, Sa 09:00-01:00, Su 09:00-22:00",
+    "website": "https://cafeleonar.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "fruehstueck"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Landhaus Walter",
+   "entfernt": "Café Landhaus Walter",
+   "meter": 4,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "smoker",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Café Landhaus Walter",
+    "lat": 53.5940289,
+    "lon": 10.0151787,
+    "address": "Otto-Wels-Straße 2",
+    "category": "cafe",
+    "description": "",
+    "opening_hours": "Mo-Su 12:00-18:00",
+    "tags": [
+     "cafe",
+     "cake"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Biergarten Zum Anleger",
+   "entfernt": "Biergarten \"Zum Anleger\"",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "smoker"
+   ],
+   "entfernter_eintrag": {
+    "name": "Biergarten \"Zum Anleger\"",
+    "lat": 53.5157,
+    "lon": 9.9986758,
+    "address": "Vogelhüttendeich, 21107 Hamburg (Wilhelmsburg)",
+    "category": "biergarten",
+    "description": "",
+    "opening_hours": "May 01-Oct 03 Mo-Sa 11:30+;May 01-Oct 03 Su, PH 10:00+",
+    "tags": [
+     "biergarten",
+     "outdoor"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Cafe Unter den Linden",
+   "entfernt": "Café Unter den Linden",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "district",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Café Unter den Linden",
+    "category": "fruehstueck",
+    "description": "Gemütliches Frühstückscafé in der Juliusstraße — Schanze-Institution, morgens Café, abends Kneipe",
+    "lat": 53.561234,
+    "lon": 9.9602864,
+    "district": "Sternschanze",
+    "address": "Juliusstraße 16, Hamburg",
+    "opening_hours": "Mo-Su,PH 09:30-01:00",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "schanze",
+     "fruehstueck"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "45'LIK",
+   "entfernt": "45’LIK",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "smoker",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "45’LIK",
+    "lat": 53.6029146,
+    "lon": 10.024532,
+    "address": "Überseering 15, Hamburg",
+    "category": "cafe",
+    "description": "",
+    "opening_hours": "",
+    "tags": [
+     "cafe",
+     "outdoor"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Café Paris",
+   "entfernt": "Cafe Paris",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Cafe Paris",
+    "category": "fruehstueck",
+    "description": "Legendäres Jugendstil-Café am Rathaus — französisches Frühstück, Croissants, Eggs Benedict. Hamburger Institution seit 1882",
+    "lat": 53.5498937,
+    "lon": 9.994348,
+    "district": "Altstadt",
+    "address": "Rathausstraße 4, Hamburg",
+    "opening_hours": "Mo-Sa 09:00-00:00; Su; PH 09:30-00:00",
+    "website": "https://www.cafeparis.net/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "fruehstueck"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Oorlam",
+   "entfernt": "Bar Oorlam",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Bar Oorlam",
+    "category": "bar",
+    "description": "Cocktailbar mit südafrikanischem Flair.",
+    "lat": 53.5534186,
+    "lon": 9.9798395,
+    "district": "St. Pauli",
+    "address": "Kohlhöfen 29, Hamburg",
+    "opening_hours": "Tu-Th 16:00-00:00, Fr 16:00-02:00, Sa 15:00-02:00, Su 15:00-23:00; PH off",
+    "website": "https://www.oorlam.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "bar",
+     "cocktails"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Restaurant Nil",
+   "entfernt": "Nil Restaurant",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Nil Restaurant",
+    "category": "restaurant",
+    "description": "Norddeutsche Küche mit saisonalen Menüs.",
+    "lat": 53.5562983,
+    "lon": 9.9633511,
+    "district": "Sternschanze",
+    "address": "Neuer Pferdemarkt 5, Hamburg",
+    "opening_hours": "Mo,We,Th 18:00+; Fr-Su 17:00+; Tu off",
+    "website": "https://www.restaurant-nil.de",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "restaurant"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Poletto Winebar",
+   "entfernt": "Poletto",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Poletto",
+    "category": "restaurant",
+    "description": "Cornelia Polettos italienisches Fine-Dining-Restaurant.",
+    "lat": 53.5851319,
+    "lon": 9.9808748,
+    "district": "Eppendorf",
+    "address": "Poletto Winebar, 287, Eppendorfer Weg, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschland",
+    "tags": [
+     "eppendorf",
+     "hoheluft",
+     "restaurant",
+     "wein"
+    ],
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Borchers",
+   "entfernt": "Café Borchers",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Café Borchers",
+    "category": "cafe",
+    "description": "Beliebtes Eppendorfer Stadtteilcafé mit Kuchen und Frühstück.",
+    "lat": 53.5943078,
+    "lon": 9.986988,
+    "district": "Eppendorf",
+    "address": "Geschwister-Scholl-Straße 1-3, Hamburg",
+    "opening_hours": "Mo-Fr 12:00-01:00, Sa 10:00-03:00, Su 10:00-23:00",
+    "website": "https://borchers-hamburg.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "eppendorf",
+     "cafe"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Jellyfish",
+   "entfernt": "Restaurant Jellyfish",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Restaurant Jellyfish",
+    "category": "restaurant",
+    "description": "Fischrestaurant mit modernem Konzept.",
+    "lat": 53.5665784,
+    "lon": 9.9654911,
+    "district": "Eimsbüttel",
+    "address": "Jellyfish, 12, Weidenallee, Eimsbüttel, Hamburg, 20357, Deutschland",
+    "tags": [
+     "eimsbüttel",
+     "restaurant"
+    ],
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Mimosa",
+   "entfernt": "Café Mimosa",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Café Mimosa",
+    "category": "cafe",
+    "description": "Gemütliches Café in Uhlenhorst.",
+    "lat": 53.5524729,
+    "lon": 9.9635997,
+    "district": "Uhlenhorst",
+    "address": "Clemens-Schultz-Straße 87, Hamburg",
+    "opening_hours": "We-Sa 10:00-22:00; Su 10:00-18:00",
+    "website": "https://www.cafemimosa.de",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "cafe"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Henriks",
+   "entfernt": "HENRIKS Bar & Restaurant",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "opening_hours",
+    "website"
+   ],
+   "entfernter_eintrag": {
+    "name": "HENRIKS Bar & Restaurant",
+    "category": "restaurant",
+    "description": "",
+    "lat": 53.5635549,
+    "lon": 9.9921098,
+    "district": "Rotherbaum",
+    "address": "Tesdorpfstraße 8, Hamburg",
+    "opening_hours": "Mo-Su 12:00+",
+    "website": "https://www.henriks.cc/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "restaurant"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Bricks",
+   "entfernt": "Bricks Restaurant",
+   "meter": 30,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Bricks Restaurant",
+    "category": "restaurant",
+    "description": "",
+    "lat": 53.5526396,
+    "lon": 9.9875502,
+    "district": "Neustadt/Innenstadt",
+    "address": "Neustadt/Innenstadt",
+    "tags": [
+     "restaurant"
+    ],
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Ahoi",
+   "entfernt": "Restaurant Ahoi",
+   "meter": 0,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "description",
+    "district"
+   ],
+   "entfernter_eintrag": {
+    "name": "Restaurant Ahoi",
+    "category": "restaurant",
+    "description": "Fischrestaurant in Wandsbek.",
+    "lat": 53.5519341,
+    "lon": 10.0020998,
+    "district": "Wandsbek",
+    "address": "Ahoi, 12, Spitalerstraße, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland",
+    "tags": [
+     "restaurant"
+    ],
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Café Ines",
+   "entfernt": "Cafe Ines",
+   "meter": 25,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Cafe Ines",
+    "lat": 53.5944303,
+    "lon": 9.9445047,
+    "address": "Julius-Vosseler-Straße 42, Hamburg",
+    "category": "cafe",
+    "description": "",
+    "opening_hours": "",
+    "tags": [
+     "cafe",
+     "portuguese"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Café Canale",
+   "entfernt": "Cafe Canale",
+   "meter": 12,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Cafe Canale",
+    "lat": 53.5814615,
+    "lon": 10.0103754,
+    "address": "Poelchaukamp 7",
+    "category": "cafe",
+    "description": "",
+    "opening_hours": "Mo 14:00-19:00; Tu-Su 11:00-19:00",
+    "tags": [
+     "cafe"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Espresso House",
+   "entfernt": "Espresso House",
+   "meter": 4,
+   "grund": "buchstabengleicher Kettenname, unter 25 m",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Espresso House",
+    "lat": 53.5548665,
+    "lon": 9.9887759,
+    "address": "Gänsemarkt, 20354 Hamburg (Neustadt)",
+    "category": "cafe",
+    "description": "",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-20:00; PH,Su 11:00-18:00",
+    "tags": [
+     "cafe",
+     "coffee_shop",
+     "outdoor"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Grillhaus Der Grieche",
+   "entfernt": "Grill - Haus - Der Grieche",
+   "meter": 1,
+   "grund": "buchstabengleicher Name, unter 50 m",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Grill - Haus - Der Grieche",
+    "lat": 53.6073306,
+    "lon": 9.9789416,
+    "address": "Borsteler Chaussee 120",
+    "category": "restaurant",
+    "description": "",
+    "opening_hours": "Tu-Fr 12:00-15:00, 17:00-22:00; Sa 12:00-22:00; Su 12:00-21:30",
+    "tags": [
+     "restaurant",
+     "greek",
+     "outdoor"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Il Grappolo",
+   "entfernt": "Il Grappolo",
+   "meter": 22,
+   "grund": "buchstabengleicher Kettenname, unter 25 m",
+   "ergaenzte_felder": [
+    "address_quelle",
+    "address_stand",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Il Grappolo",
+    "lat": 53.6531653,
+    "lon": 10.2812431,
+    "address": "Barkholt, 22927 Großhansdorf",
+    "category": "biergarten",
+    "description": "",
+    "opening_hours": "",
+    "tags": [
+     "biergarten"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
+   }
+  },
+  {
+   "behalten": "Nord Coast Coffee Roastery",
+   "entfernt": "Nord Coast Coffee",
+   "meter": 0,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Nord Coast Coffee",
+    "category": "cafe",
+    "description": "Hamburger Specialty Coffee Rösterei.",
+    "lat": 53.5465554,
+    "lon": 9.9880626,
+    "district": "Sternschanze",
+    "address": "Deichstraße 9, Hamburg",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "website": "https://www.nordcoast-coffee.de/",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "cafe"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "BLOCK HOUSE Rotherbaum",
+   "entfernt": "BLOCK HOUSE",
+   "meter": 0,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [
+    "opening_hours",
+    "smoker",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "BLOCK HOUSE",
+    "lat": 53.5718049,
+    "lon": 9.9949652,
+    "address": "Mittelweg 122, 20148 Hamburg (Rotherbaum)",
+    "category": "restaurant",
+    "description": "",
+    "opening_hours": "Su-Th 12:00-22:00, Fr,Sa 12:00-23:00",
+    "tags": [
+     "restaurant",
+     "steak_house",
+     "rotherbaum"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Shikara",
+   "entfernt": "Shikara QUICK",
+   "meter": 7,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [
+    "smoker",
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Shikara QUICK",
+    "lat": 53.557265,
+    "lon": 9.9279603,
+    "address": "Bahrenfelder Straße 243, Hamburg",
+    "category": "restaurant",
+    "description": "",
+    "opening_hours": "Mo-Su 12:00-23:30",
+    "tags": [
+     "restaurant",
+     "indian"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Yummies Deli & Bar Restaurant",
+   "entfernt": "Yummies",
+   "meter": 3,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "Yummies",
+    "category": "mittagstisch",
+    "description": "",
+    "lat": 53.5553535,
+    "lon": 10.0153886,
+    "district": "St. Georg",
+    "address": "Steindamm 55, 20099 Hamburg (St. Georg)",
+    "tags": [
+     "mittagstisch"
+    ],
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Paninoteca",
+   "entfernt": "La Paninoteca",
+   "meter": 0,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [
+    "tags"
+   ],
+   "entfernter_eintrag": {
+    "name": "La Paninoteca",
+    "category": "cafe",
+    "description": "",
+    "lat": 53.552534,
+    "lon": 9.9967777,
+    "district": "Neustadt/Innenstadt",
+    "address": "Alstertor 21",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-19:00",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "cafe"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "Meyer Lansky's American Bar",
+   "entfernt": "Meyer Lansky's",
+   "meter": 25,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [
+    "enriched"
+   ],
+   "entfernter_eintrag": {
+    "name": "Meyer Lansky's",
+    "category": "bar",
+    "description": "",
+    "lat": 53.5554579,
+    "lon": 9.987288,
+    "district": "Neustadt/Innenstadt",
+    "address": "Neustadt/Innenstadt",
+    "enriched": {
+     "vibe": "intim",
+     "crowd": "ue35",
+     "priceLevel": "€€€",
+     "bestTime": "abends",
+     "specials": "cocktails",
+     "dateSpot": true,
+     "dresscode": "smart-casual",
+     "highlights": "Speakeasy-Stil|Versteckte Bar",
+     "atmosphere": "Speakeasy-Bar im Stil der Prohibition. Versteckt, intim und mit exzellenten Cocktails.",
+     "confidence": "medium"
+    },
+    "opening_hours": "Mo-Sa 16:00-03:00",
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "tags": [
+     "bar"
+    ],
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  },
+  {
+   "behalten": "cantinetta ristorante",
+   "entfernt": "Cantinetta Ristorante & Bar",
+   "meter": 77,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Cantinetta Ristorante & Bar",
+    "lat": 53.5441443,
+    "lon": 9.994497,
+    "address": "Pickhuben 3, Hamburg",
+    "category": "restaurant",
+    "description": "",
+    "opening_hours": "Mo,Tu 18:00-23:00; We off; Th-Su 18:00-23:00",
+    "tags": [
+     "restaurant",
+     "italian",
+     "wheelchair"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  },
+  {
+   "behalten": "Yakido BBQ",
+   "entfernt": "Yakido",
+   "meter": 7,
+   "grund": "vom Modell als derselbe Betrieb beurteilt",
+   "ergaenzte_felder": [],
+   "entfernter_eintrag": {
+    "name": "Yakido",
+    "lat": 53.5429064,
+    "lon": 9.9957386,
+    "address": "Am Sandtorpark 1, Hamburg",
+    "category": "restaurant",
+    "description": "",
+    "opening_hours": "Mo-Fr 16:30-22:30; Sa-Su12:00-22:30",
+    "tags": [
+     "restaurant",
+     "japanese"
+    ],
+    "source": "overpass",
+    "smoker": false,
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-18T03:06:09.486Z"
+   }
+  }
+ ],
+ "als_verschieden_beurteilt": [
+  {
+   "a": "Spacca Forno",
+   "b": "Spaccaforno",
+   "meter": 26,
+   "grund": "Kettenname in 26 m Abstand: zwei Filialen"
+  },
+  {
+   "a": "Espresso House",
+   "b": "Espresso House",
+   "meter": 90,
+   "grund": "Kettenname in 90 m Abstand: zwei Filialen"
+  },
+  {
+   "a": "Farina di Nonna",
+   "b": "Farina di Nonna",
+   "meter": 135,
+   "grund": "Kettenname in 135 m Abstand: zwei Filialen"
+  },
+  {
+   "a": "Schröders",
+   "b": "Gaststätte Schröder",
+   "meter": 6,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Paola's",
+   "b": "Paolas",
+   "meter": 68,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Clockers",
+   "b": "clockers BAR St. Pauli",
+   "meter": 7,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Jahreszeiten Bar",
+   "b": "Jahreszeiten Grill",
+   "meter": 0,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Heritage Bar & Restaurant",
+   "b": "Heritage",
+   "meter": 53,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Kleinraumdisko",
+   "b": "Meine Kleinraumdisko",
+   "meter": 4,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Wolters Gasthof von 1787",
+   "b": "Wolters Gasthof",
+   "meter": 1,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Brücke 10 im Strandhaus",
+   "b": "Strandhaus",
+   "meter": 1,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Fabrik",
+   "b": "Eisfabrik",
+   "meter": 0,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Zoë II",
+   "b": "Zoë III",
+   "meter": 13,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Takumi Ramen",
+   "b": "Takumi Ramen Station",
+   "meter": 19,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Azeitona",
+   "b": "Baba Azeitona",
+   "meter": 130,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Giovanni",
+   "b": "Giovanni 2",
+   "meter": 20,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Café Miller",
+   "b": "Millerntor",
+   "meter": 124,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Salt & Silver Levante",
+   "b": "Salt & Silver",
+   "meter": 0,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Brücke 10",
+   "b": "Die Lütte Brücke 10",
+   "meter": 22,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Köz Antep",
+   "b": "Öz Antep",
+   "meter": 58,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Hooters",
+   "b": "Shooters",
+   "meter": 121,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Teatro Lounge",
+   "b": "?? Bar & Lounge",
+   "meter": 139,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Gran Sasso",
+   "b": "Sasso",
+   "meter": 0,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Nom",
+   "b": "nomi",
+   "meter": 40,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Süllberg",
+   "b": "Süllberg Alm",
+   "meter": 18,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Shukria Restaurant",
+   "b": "Shukria Quick",
+   "meter": 12,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Kleine Heimat",
+   "b": "Heimat",
+   "meter": 140,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Lenci's",
+   "b": "Lenci´s DrinX",
+   "meter": 4,
+   "grund": "vom Modell als verschieden beurteilt"
+  },
+  {
+   "a": "Zum Fasanenhof",
+   "b": "Fasanenhof",
+   "meter": 25,
+   "grund": "vom Modell als verschieden beurteilt"
+  }
+ ],
+ "ohne_urteil": []
+}

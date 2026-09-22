@@ -24,10 +24,28 @@ test('All bars have valid lat/lon', () => {
 });
 
 // 2. No duplicate names
+// Gleicher Name an verschiedenen Adressen ist keine Dublette, sondern eine
+// Kette (Starbucks, Jim Block, Block House). Nur derselbe Name im Umkreis
+// von 150 m meint wirklich denselben Laden.
 test('No duplicate names', () => {
-  const names = highlights.map(h => h.name.toLowerCase());
-  const dupes = names.filter((n, i) => names.indexOf(n) !== i);
-  return dupes.length === 0 || `Duplicates: ${[...new Set(dupes)].join(', ')}`;
+  const nachName = new Map();
+  for (const h of highlights) {
+    const k = (h.name || '').toLowerCase().trim();
+    if (!k) continue;
+    if (!nachName.has(k)) nachName.set(k, []);
+    nachName.get(k).push(h);
+  }
+  const echte = [];
+  for (const [name, liste] of nachName) {
+    if (liste.length < 2) continue;
+    for (let i = 0; i < liste.length; i++) {
+      for (let j = i + 1; j < liste.length; j++) {
+        const d = Math.sqrt((liste[i].lat - liste[j].lat) ** 2 + (liste[i].lon - liste[j].lon) ** 2) * 111000;
+        if (d < 150) { echte.push(`${name} (${Math.round(d)}m)`); i = liste.length; break; }
+      }
+    }
+  }
+  return echte.length === 0 || `${echte.length} echte Dubletten: ${echte.slice(0, 12).join(', ')}`;
 });
 
 // 3. No duplicate coordinates (within 10m)
@@ -44,7 +62,9 @@ test('No duplicate coordinates (<10m)', () => {
 
 // 4. Valid categories
 test('All categories are valid', () => {
-  const valid = new Set(['pub', 'irish-pub', 'cocktailbar', 'bar', 'wine', 'lounge', 'biergarten', 'nightclub', 'sports_bar', 'karaoke', 'jazz_club', 'brewery', 'taproom', 'dance_club', 'cafe', 'restaurant']);
+  const valid = new Set(['pub', 'irish-pub', 'cocktailbar', 'bar', 'wine', 'lounge', 'biergarten', 'nightclub', 'sports_bar', 'karaoke', 'jazz_club', 'brewery', 'taproom', 'dance_club', 'cafe', 'restaurant',
+    // seit der Erweiterung um Tagesgastronomie und Spielstaetten ebenfalls gueltig
+    'mittagstisch', 'fruehstueck', 'event-location']);
   const bad = highlights.filter(h => !valid.has(h.category));
   return bad.length === 0 || `Invalid cats: ${bad.map(b => `${b.name}(${b.category})`).join(', ')}`;
 });
@@ -57,8 +77,26 @@ test('All bars have addresses', () => {
 
 // 6. Opening hours format (basic check)
 test('Opening hours format valid', () => {
-  const bad = highlights.filter(h => h.opening_hours && !/^(Mo|Tu|We|Th|Fr|Sa|Su|PH)/.test(h.opening_hours) && h.opening_hours !== '');
-  return bad.length === 0 || `${bad.length} bad formats: ${bad.slice(0,5).map(b=>`${b.name}: "${b.opening_hours}"`).join('; ')}`;
+  // Die Pruefung verlangte frueher, dass die Angabe mit einem Wochentag
+  // beginnt. Die OSM-Schreibweise laesst aber auch "24/7", eine Monatsspanne
+  // ("May-Oct Mo-Sa 11:30+"), eine reine Uhrzeit ("08:30-22:00") und offene
+  // Enden ("12:00+") zu. Das waren 263 Fehlalarme. Gemeldet wird jetzt nur
+  // noch, was wirklich unlesbar ist.
+  const MONAT = '(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)';
+  const gueltig = new RegExp(
+    '^\\s*(?:' +
+      '24/7' +
+      '|(?:Mo|Tu|We|Th|Fr|Sa|Su|PH|SH)\\b' +
+      '|' + MONAT + '\\b' +
+      '|\\d{1,2}:\\d{2}' +
+      '|off\\b' +
+      '|week\\b' +
+    ')', 'i');
+  const bad = highlights.filter(h => {
+    const z = (h.opening_hours || '').trim().replace(/^"|"$/g, '');
+    return z !== '' && !gueltig.test(z);
+  });
+  return bad.length === 0 || `${bad.length} unlesbar: ${bad.slice(0,5).map(b=>`${b.name}: "${b.opening_hours}"`).join('; ')}`;
 });
 
 // 7. No bars with vibeScore > 60 on Sun/Mon (API check)
@@ -103,15 +141,26 @@ async function run() {
     return d.count <= 200 || `count=${d.count}`;
   });
 
-  // Cache file checks
-  const cacheFiles = ['google_ratings_cache.json', 'bar_events_cache.json', 'events_cache.json'];
-  for (const cf of cacheFiles) {
-    test(`Cache ${cf} is valid JSON`, () => {
-      if (!fs.existsSync(cf)) return `File not found`;
-      JSON.parse(fs.readFileSync(cf, 'utf8'));
-      return true;
-    });
-  }
+  // Terminbestand. Die alten Scraper-Caches (google_ratings, bar_events,
+  // events) sind mit den Scrapern aus dem Projekt verschwunden und wurden
+  // hier jahrelang als Fehler gemeldet, obwohl sie gar nicht mehr vorgesehen
+  // sind. Gepruft wird jetzt, was tatsaechlich den Feed traegt.
+  test('live_events_cache.json vorhanden und frisch', () => {
+    if (!fs.existsSync('live_events_cache.json')) return 'Datei fehlt — laeuft der Sammler?';
+    const j = JSON.parse(fs.readFileSync('live_events_cache.json', 'utf8'));
+    const alter = (Date.now() - Date.parse(j.generiert)) / 3600000;
+    if (!(alter < 48)) return `Stand ist ${Math.round(alter)} Stunden alt`;
+    if (!j.anzahl) return 'keine Termine im Bestand';
+    return true;
+  });
+
+  test('Mindestens zwei Terminquellen liefern', () => {
+    if (!fs.existsSync('live_events_cache.json')) return 'Datei fehlt';
+    const j = JSON.parse(fs.readFileSync('live_events_cache.json', 'utf8'));
+    const ok = Object.entries(j.quellen || {}).filter(([, v]) => v.ok && v.anzahl > 0);
+    const tot = Object.entries(j.quellen || {}).filter(([, v]) => !v.ok).map(([k]) => k);
+    return ok.length >= 2 || `nur ${ok.length} Quelle(n) liefern${tot.length ? ', tot: ' + tot.join(', ') : ''}`;
+  });
 
   // Summary
   console.log(`\n📊 Data Quality Test Results`);

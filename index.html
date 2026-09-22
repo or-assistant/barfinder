@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+<script>
+/* Basispfad. Die Seite lief bisher nur an der Wurzel, weil alle Adressen
+   absolut geschrieben waren. Unter /apps/barfinder/ waren damit Stylesheet
+   und alle Schnittstellenaufrufe tot. BASIS ist an der Wurzel leer und
+   unter einem Unterpfad genau dieser Pfad ohne Schrägstrich am Ende. */
+window.BASIS = (function(){
+  var p = location.pathname.replace(/\/[^\/]*\.html$/, '').replace(/\/$/, '');
+  return p;
+})();
+</script>
+
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍸</text></svg>">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="static/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Barfinder">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -12,25 +26,25 @@
 <meta name="keywords" content="Bars Hamburg, Kneipen Hamburg, Nightlife Hamburg, Cocktailbars, Biergarten Hamburg, Ausgehen Hamburg, Barfinder, VibeScore">
 <meta name="author" content="CAPS & COLLARS GmbH">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://oliver-roessling.claw.clawy.io/barfinder/">
+<link rel="canonical" href="https://oliver-roessling.claw.clawy.io/apps/barfinder/">
 <meta property="og:title" content="Barfinder Hamburg | Bars, Kneipen & Nightlife in Echtzeit">
 <meta property="og:description" content="Finde die besten Bars in Hamburg mit Echtzeit VibeScores. Ueber 4.700 Locations, Wetter und personalisierte Empfehlungen.">
-<meta property="og:image" content="https://oliver-roessling.claw.clawy.io/barfinder/static/og.png">
-<meta property="og:url" content="https://oliver-roessling.claw.clawy.io/barfinder/">
+<meta property="og:image" content="https://oliver-roessling.claw.clawy.io/apps/barfinder/static/og.png">
+<meta property="og:url" content="https://oliver-roessling.claw.clawy.io/apps/barfinder/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_DE">
 <meta property="og:site_name" content="Barfinder Hamburg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Barfinder Hamburg | Bars & Nightlife in Echtzeit">
 <meta name="twitter:description" content="Echtzeit VibeScores fuer Bars, Kneipen und Clubs in Hamburg. Wo ist heute was los?">
-<meta name="twitter:image" content="https://oliver-roessling.claw.clawy.io/barfinder/static/og.png">
+<meta name="twitter:image" content="https://oliver-roessling.claw.clawy.io/apps/barfinder/static/og.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "Barfinder Hamburg",
   "description": "Echtzeit VibeScores fuer Bars, Kneipen, Cocktailbars und Biergaerten in Hamburg",
-  "url": "https://oliver-roessling.claw.clawy.io/barfinder/",
+  "url": "https://oliver-roessling.claw.clawy.io/apps/barfinder/",
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "Web",
   "offers": {
@@ -50,7 +64,7 @@
   }
 }
 </script>
-<link href="/static/inter_local.css" rel="stylesheet">
+<link href="static/inter_local.css" rel="stylesheet">
 <!-- Leaflet loaded lazily on map tab open -->
 <link rel="prefetch" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" crossorigin="anonymous"/>
 <link rel="prefetch" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" as="script" crossorigin="anonymous"/>
@@ -908,9 +922,9 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
     Hinweis: Ein gesonderter Datenschutzbeauftragter ist nicht benannt, da dies für unser Unternehmen gesetzlich nicht erforderlich ist. Bei Datenschutz-Anliegen wenden Sie sich bitte direkt an den Verantwortlichen.</p>
 
     <h3>Webhosting und Zugriffsdaten</h3>
-    <p>Unsere Website wird von Strikingly Inc. (1355 Market Street, Suite 488, San Francisco, CA 94103, USA) gehostet. Strikingly fungiert als technischer Dienstleister (Auftragsverarbeiter) für uns nach Art. 28 DSGVO. Das bedeutet, dass personenbezogene Daten, die beim Besuch unserer Website anfallen, auf den Servern von Strikingly verarbeitet werden. Dabei kann es zu einer Übermittlung von Daten in die USA kommen. Wir haben mit Strikingly einen Vertrag zur Auftragsverarbeitung geschlossen und die Standardvertragsklauseln der EU-Kommission vereinbart, um ein angemessenes Datenschutzniveau sicherzustellen.</p>
+    <p>Unsere Website wird auf einem Server der Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen, Deutschland) in einem Rechenzentrum in Deutschland betrieben. Hetzner ist für uns technischer Dienstleister (Auftragsverarbeiter) nach Art. 28 DSGVO. Personenbezogene Daten, die beim Besuch unserer Website anfallen, werden ausschließlich auf Servern in Deutschland verarbeitet. Eine Übermittlung in Drittländer findet durch das Hosting nicht statt.</p>
     <p><strong>Server-Logfiles:</strong><br>
-    Wenn Sie unsere Website besuchen, erfasst Strikingly automatisch Zugriffsdaten in sogenannten Server-Logfiles. Zu diesen Daten gehören zum Beispiel:</p>
+    Wenn Sie unsere Website besuchen, erfasst der Webserver automatisch Zugriffsdaten in sogenannten Server-Logfiles. Zu diesen Daten gehören zum Beispiel:</p>
     <ul>
       <li>Ihre IP-Adresse</li>
       <li>Datum und Uhrzeit des Seitenaufrufs</li>
@@ -929,12 +943,12 @@ html,body{height:100%;overflow:hidden;font-family:'Inter',system-ui,-apple-syste
     <h3>Kontaktaufnahme (Kontaktformular und E-Mail)</h3>
     <p>Wenn Sie mit uns in Kontakt treten, behandeln wir Ihre Angaben vertraulich. Auf unserer Website bieten wir ein Kontaktformular, über das Sie Nachrichten an uns senden können. Bei Nutzung des Kontaktformulars werden Sie gebeten, Ihren Namen und Ihre E-Mail-Adresse sowie Ihre Nachricht anzugeben (weitere Angaben sind freiwillig). Alternativ können Sie uns auch direkt per E-Mail unter info@capsncollars.com kontaktieren. In beiden Fällen verwenden wir die von Ihnen mitgeteilten Daten ausschließlich, um Ihre Anfrage zu bearbeiten und zu beantworten.</p>
     <p>Die Verarbeitung der Kontaktdaten erfolgt zur Beantwortung Ihrer Anfrage und beruht auf Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse, da Sie von sich aus eine Anfrage an uns richten). Sofern Ihre Anfrage auf den Abschluss eines Vertrags abzielt (z. B. Fragen zu unseren Produkten oder Leistungen), kann die Rechtsgrundlage auch Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen) sein. Eine Einwilligung ist für die Kontaktaufnahme in der Regel nicht erforderlich; mit dem Absenden Ihrer Nachricht willigen Sie konkludent ein, dass wir Ihre angegebenen Daten zur Bearbeitung der Anfrage verwenden dürfen.</p>
-    <p>Die über das Kontaktformular eingegebenen Daten werden über die Server unseres Website-Providers Strikingly an uns weitergeleitet und dort gespeichert. Strikingly handelt hierbei als Auftragsverarbeiter für uns, wie oben beschrieben. Eine Übermittlung Ihrer Kontaktdaten in die USA kann dabei technisch bedingt stattfinden; diese ist jedoch durch die genannten Garantien (Standardvertragsklauseln) abgesichert.</p>
+    <p>Die über das Kontaktformular eingegebenen Daten werden auf dem oben genannten Server in Deutschland entgegengenommen und dort gespeichert. Eine Übermittlung Ihrer Kontaktdaten in Drittländer findet dabei nicht statt.</p>
     <p>Wir geben keine dieser Kontaktdaten an Dritte weiter und nutzen sie nicht für Werbezwecke. Nachdem Ihre Anfrage vollständig bearbeitet wurde, speichern wir Ihre Angaben ggf. noch für eine gewisse Zeit, falls Nachfragen auftreten. Anschließend werden die Daten gelöscht, sofern keine gesetzliche Aufbewahrungspflicht besteht. Gesetzliche Handels- oder steuerrechtliche Vorgaben können es erfordern, bestimmte Kommunikation für 6 bis 10 Jahre aufzubewahren.</p>
 
     <h3>Keine Analyse-Tools oder externen Dienste</h3>
     <p>Zur Wahrung Ihrer Privatsphäre verwenden wir keine externen Dienste, die personenbezogene Daten erfassen. Insbesondere kommt auf unserer Website kein Webanalyse-Tool wie Google Analytics zum Einsatz. Wir verzichten auch auf die Einbindung von Social-Media-Plugins, Kartendiensten (z. B. Google Maps) oder sonstigen externen Inhalten, die beim Laden der Seite Daten an Drittanbieter übermitteln könnten. Ebenso versenden wir keine Newsletter.</p>
-    <p>Ihre personenbezogenen Daten werden ausschließlich von uns und unseren genannten Dienstleistern (Hosting durch Strikingly) verarbeitet. Eine darüberhinausgehende Weitergabe an Dritte erfolgt nicht, es sei denn, wir sind aufgrund gesetzlicher Vorschriften im Einzelfall dazu verpflichtet.</p>
+    <p>Ihre personenbezogenen Daten werden ausschließlich von uns und unseren genannten Dienstleistern (Hosting durch Hetzner) verarbeitet. Eine darüberhinausgehende Weitergabe an Dritte erfolgt nicht, es sei denn, wir sind aufgrund gesetzlicher Vorschriften im Einzelfall dazu verpflichtet.</p>
 
     <h3>Speicherdauer</h3>
     <p>Soweit in den vorstehenden Abschnitten nicht bereits spezifisch angegeben, speichern wir personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist. Das bedeutet zum Beispiel: Ihre Server-Logdaten werden nach wenigen Tagen gelöscht oder anonymisiert, und Daten aus Kontaktanfragen löschen wir, sobald wir diese abschließend beantwortet haben (unter Berücksichtigung etwaiger Nachfragen). In manchen Fällen können gesetzliche Aufbewahrungsfristen gelten. Nach Ablauf der Pflichten werden auch diese Daten gelöscht.</p>
@@ -1033,8 +1047,7 @@ function toggleTheme(){
   document.getElementById('themeIcon').textContent=next==='dark'?'🌙':'☀️';
 }
 
-// ═══ BASE PATH (must be first) ═══
-const BASE_PATH=(()=>{const p=window.location.pathname.replace(/\/$/,'');return p&&!p.includes('.')?p:'';})();
+// Basispfad kommt aus window.BASIS im Kopf der Seite.
 
 // ═══ CONFIG ═══
 // SAVED_LOCS loaded from config, with inline fallback
@@ -1043,7 +1056,7 @@ let SAVED_LOCS={
   parents:{lat:53.8760,lon:9.8864,label:'Lentföhrden',radius:1000},
   ostsee:{lat:54.5078,lon:9.9704,label:'Ostseecamp Lehmberg',radius:15000},
 };
-fetch(BASE_PATH+'/api/config').then(r=>r.json()).then(c=>{if(c.SAVED_LOCS)SAVED_LOCS=c.SAVED_LOCS;}).catch(()=>{});
+fetch(BASIS+'/api/config').then(r=>r.json()).then(c=>{if(c.SAVED_LOCS)SAVED_LOCS=c.SAVED_LOCS;}).catch(()=>{});
 
 // ═══ STATE ═══
 const S={lat:53.5511,lon:9.9937,radius:1000,category:'',places:[],hot:[],markers:[],currentLoc:'gps',filter:''};
@@ -1236,12 +1249,12 @@ function syncToServer(){
   clearTimeout(_syncTimer);
   _syncTimer=setTimeout(()=>{
     const data={favorites:getFavorites(),checkins:getCheckins(),ratings:getRatings(),theme:localStorage.getItem('bf-theme')};
-    fetch(BASE_PATH+'/api/user/data?uid='+getUserId(),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(()=>{});
+    fetch(BASIS+'/api/user/data?uid='+getUserId(),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(()=>{});
   },1000);
 }
 async function syncFromServer(){
   try{
-    const r=await fetch(BASE_PATH+'/api/user/data?uid='+getUserId());
+    const r=await fetch(BASIS+'/api/user/data?uid='+getUserId());
     const d=await r.json();
     // Merge: server is authoritative, local adds are preserved
     if(d.favorites){
@@ -1284,7 +1297,7 @@ function toggleFavorite(name){
   saveFavorites(favs);renderFavorites();renderHero();renderTonightFeed();
   // Refresh community score when adding a favorite
   if(adding){
-    fetch(BASE_PATH+'/api/refresh-place?name='+encodeURIComponent(name)).then(r=>r.json()).then(d=>{
+    fetch(BASIS+'/api/refresh-place?name='+encodeURIComponent(name)).then(r=>r.json()).then(d=>{
       if(d.ok&&d.rating&&d.rating.rating){
         // Update local place data
         const p=S.places.find(x=>(x.name||'').toLowerCase()===key);
@@ -1334,7 +1347,7 @@ async function showNearbyOverlay(){
   </div>`);
   navigator.geolocation.getCurrentPosition(async pos=>{
     const lat=pos.coords.latitude,lon=pos.coords.longitude;
-    const d=await api('/api/places?lat='+lat+'&lon='+lon+'&radius=1000');
+    const d=await api(BASIS+'/api/places?lat='+lat+'&lon='+lon+'&radius=1000');
     const overlay=document.getElementById('nearbyOverlay');
     if(!overlay)return;
     if(!d||!d.places||!d.places.length){
@@ -1374,7 +1387,7 @@ let _discoveryData=[];
 async function showDiscoveryOverlay(){
   const favs=getFavorites();
   const favsParam=favs.join(',');
-  const d=await api('/api/discovery?favorites='+encodeURIComponent(favsParam));
+  const d=await api(BASIS+'/api/discovery?favorites='+encodeURIComponent(favsParam));
   if(!d||!d.discoveries||!d.discoveries.length){alert('Keine Entdeckungen verfügbar');return}
   _discoveryData=d.discoveries;
   let html=`<div class="vibe-overlay open" id="discOverlay" style="display:flex">
@@ -1407,7 +1420,7 @@ async function loadDiscovery(){
   const el=document.getElementById('discoverySection');
   const favs=getFavorites();
   const favsParam=favs.join(',');
-  const d=await api('/api/discovery?favorites='+encodeURIComponent(favsParam));
+  const d=await api(BASIS+'/api/discovery?favorites='+encodeURIComponent(favsParam));
   if(!d||!d.discoveries||!d.discoveries.length){el.innerHTML='';return}
   _discoveryData=d.discoveries;
   el.innerHTML=`<div class="section" style="animation:slideUp .4s ease both;animation-delay:.08s">
@@ -1438,7 +1451,7 @@ function escJs(s){if(!s)return'';return s.replace(/\\/g,'\\\\').replace(/'/g,"\\
 function osBadge(p,cls){const os=p.openStatus||{status:'unknown',label:'Status unklar',emoji:'🟡'};return`<span class="${cls||''} ${os.status}">${os.emoji} ${os.label}</span>`}
 function osIsOpen(p){const s=(p.openStatus||{}).status;return s==='open'||s==='closing_soon'||s==='likely_open'}
 function osColor(p){const s=(p.openStatus||{}).status;if(s==='open'||s==='closing_soon')return'var(--open)';if(s==='likely_open')return'#b8860b';if(s==='opens_later')return'#007AFF';if(s==='unknown')return'#8e8e93';return'var(--closed)'}
-async function api(path){try{const url=BASE_PATH+path;const sep=url.includes('?')?'&':'?';const r=await fetch(url+sep+'_t='+Date.now());return r.ok?r.json():null}catch{return null}}
+async function api(path){try{const url=path;const sep=url.includes('?')?'&':'?';const r=await fetch(url+sep+'_t='+Date.now());return r.ok?r.json():null}catch{return null}}
 function getBerlinTime(){return new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Berlin'}))}
 
 function vibeTrendArrow(t){if(!t)return '';return{up:'\u2191',slightly_up:'\u2197',stable:'\u2192',slightly_down:'\u2198',down:'\u2193'}[t]||''}
@@ -1509,7 +1522,7 @@ async function setVibeFilter(val){
     _loadedVibeLevels.add(_vibeMin);
     // Lower vibe = more places needed; "Alle" (0) gets full load
     const limit=_vibeMin===0?200:_vibeMin<=20?100:50;
-    const d=await api(`/api/places?lat=${S.lat}&lon=${S.lon}&radius=${S.radius}&day=${selectedDay}&limit=${limit}&sort=vibe`);
+    const d=await api(`${BASIS}/api/places?lat=${S.lat}&lon=${S.lon}&radius=${S.radius}&day=${selectedDay}&limit=${limit}&sort=vibe`);
     if(d&&d.places&&d.places.length>0){
       _mergePlaces(d.places);
       S.places=d.places;
@@ -1585,7 +1598,7 @@ function onLocSearch(val){
       const localMatches=_hbgDistricts.filter(d=>d.name.toLowerCase().includes(q));
       
       // Nominatim search for addresses
-      const data=await api('/api/location-search?q='+encodeURIComponent(val));
+      const data=await api(BASIS+'/api/location-search?q='+encodeURIComponent(val));
       const nominatimResults=(data&&data.results)||[];
       
       let html='';
@@ -1731,7 +1744,7 @@ function setLocation(loc){
       const nearSaved=Object.values(SAVED_LOCS).find(s=>{const d=Math.sqrt((gLat-s.lat)**2+(gLon-s.lon)**2)*111000;return d<s.radius});
       S.radius = nearSaved ? nearSaved.radius : ((gLat>53.4&&gLat<53.7&&gLon>9.7&&gLon<10.2) ? 1000 : 10000);
       // Reverse geocode to show address
-      try{const geo=await api('/api/reverse-geocode?lat='+gLat+'&lon='+gLon);if(geo&&geo.display){const lbl=document.getElementById('gpsBtnLabel');if(lbl)lbl.textContent=geo.display;}}catch(e){}
+      try{const geo=await api(BASIS+'/api/reverse-geocode?lat='+gLat+'&lon='+gLon);if(geo&&geo.display){const lbl=document.getElementById('gpsBtnLabel');if(lbl)lbl.textContent=geo.display;}}catch(e){}
       updateDistrictDropdown();syncRadiusButtons();loadAll();
     },()=>{
       // GPS failed — fall back to home, show GPS-off state
@@ -1758,8 +1771,8 @@ async function loadAll(requestedLimit){
 
   const limit=requestedLimit||20;
   const[places,hot]=await Promise.all([
-    api(`/api/places?lat=${S.lat}&lon=${S.lon}&radius=${S.radius}&day=${selectedDay}&limit=${limit}&sort=vibe`),
-    api(`/api/hot?lat=${S.lat}&lon=${S.lon}&radius=${S.radius}`)
+    api(`${BASIS}/api/places?lat=${S.lat}&lon=${S.lon}&radius=${S.radius}&day=${selectedDay}&limit=${limit}&sort=vibe`),
+    api(`${BASIS}/api/hot?lat=${S.lat}&lon=${S.lon}&radius=${S.radius}`)
   ]);
   // Keep previous data if API fails (rate limit, error)
   const newPlaces=(places&&places.places)?places.places:null;
@@ -2245,7 +2258,7 @@ function toggleFilter(cat){
       const apiCats=[...activeFilters].map(id=>catMap[id]).filter(Boolean);
       const catParam=apiCats.length===1&&apiCats[0]!=='all'?`&category=${apiCats[0]}`:'';
       // Use large radius (20km) to find places across entire city
-      api(`/api/places?lat=${S.lat}&lon=${S.lon}&radius=20000&limit=200&sort=vibe&day=${selectedDay}${catParam}`)
+      api(`${BASIS}/api/places?lat=${S.lat}&lon=${S.lon}&radius=20000&limit=200&sort=vibe&day=${selectedDay}${catParam}`)
         .then(d=>{
           if(d&&d.places){
             const existing=new Set(S.places.map(p=>p.name));
@@ -2505,7 +2518,7 @@ function eventDateFilter(dateStr){
 async function loadNetworkEvents(){
   const el=document.getElementById('eventsFeed');
   el.innerHTML='<div class="skeleton"></div><div class="skeleton"></div>';
-  const d=await api('/api/network-events');
+  const d=await api(BASIS+'/api/network-events');
   if(!d||!d.events||!d.events.length){el.innerHTML='<div class="empty-msg">Keine Events gefunden</div>';return}
 
   let events=d.events.map(e=>{
@@ -2749,7 +2762,7 @@ async function openDetail(p){
     ds.classList.add('open');
     sc.innerHTML='<div style="display:flex;justify-content:center;padding:40px"><div style="width:28px;height:28px;border:3px solid rgba(255,255,255,.2);border-top-color:var(--hot);border-radius:50%;animation:spin .6s linear infinite"></div></div>';
     try{
-      const full=await api(`/api/places?lat=${p.lat}&lon=${p.lon}&radius=100&fields=full&limit=20`);
+      const full=await api(`${BASIS}/api/places?lat=${p.lat}&lon=${p.lon}&radius=100&fields=full&limit=20`);
       if(full&&full.places){
         const match=full.places.find(fp=>fp.name===p.name);
         if(match){Object.assign(p,match);p._fullLoaded=true;_placeById.set(p.name,p)}
@@ -2758,7 +2771,7 @@ async function openDetail(p){
   }
   let peakHtml='',weekHtml='';
   try{
-    const hs=await api(`/api/hotscore?name=${encodeURIComponent(p.name)}`);
+    const hs=await api(`${BASIS}/api/hotscore?name=${encodeURIComponent(p.name)}`);
     if(hs&&hs.peak){
       const pk=hs.peak;
       const dayNames={So:'Sonntag',Mo:'Montag',Di:'Dienstag',Mi:'Mittwoch',Do:'Donnerstag',Fr:'Freitag',Sa:'Samstag'};
@@ -2896,7 +2909,7 @@ async function executeMapSearch(query){
   _mapSearchActive=true;
 
   // Step 1: Addresses first (fast, most useful for location queries)
-  const locData=await api('/api/location-search?q='+encodeURIComponent(query)).catch(()=>null);
+  const locData=await api(BASIS+'/api/location-search?q='+encodeURIComponent(query)).catch(()=>null);
   if(!_mapSearchActive)return;
   const locResults=(locData&&locData.results)||[];
 
@@ -2906,7 +2919,7 @@ async function executeMapSearch(query){
   }
 
   // Step 2: Bar search (may be slower)
-  const data=await api(`/api/search?q=${encodeURIComponent(query)}&lat=${S.lat}&lon=${S.lon}`).catch(()=>null);
+  const data=await api(`${BASIS}/api/search?q=${encodeURIComponent(query)}&lat=${S.lat}&lon=${S.lon}`).catch(()=>null);
   if(!_mapSearchActive)return;
   const barResults=(data&&data.results)||[];
 
@@ -3043,7 +3056,7 @@ async function loadSources(){
   const el=document.getElementById('sourcesList');
   el.innerHTML='<div class="skeleton"></div>';
   try{
-    const data=await api('/api/sources');
+    const data=await api(BASIS+'/api/sources');
     if(!data||!data.sources){el.innerHTML='<p style="color:var(--text2)">Keine Daten</p>';return}
     el.innerHTML=data.sources.map(s=>{
       const statusColor=s.status==='ok'?'#34C759':s.status==='partial'?'#FF9500':'#FF453A';
@@ -3083,7 +3096,7 @@ async function openVibePopup(){
   overlay.innerHTML='<div style="background:var(--surface);border-radius:16px;max-width:460px;width:100%;max-height:85vh;overflow-y:auto;padding:0;box-shadow:0 8px 32px rgba(0,0,0,.3)"><div style="padding:20px;text-align:center"><div style="font-size:.7rem;color:var(--text2)">Laden...</div></div></div>';
   document.body.appendChild(overlay);
   try{
-    const d=await api('/api/vibe-forecast');
+    const d=await api(BASIS+'/api/vibe-forecast');
     if(!d||!d.days){overlay.remove();return;}
     const card=overlay.firstChild;
 
@@ -3196,7 +3209,7 @@ async function openWeatherPopup(){
   overlay.innerHTML='<div style="background:var(--surface);border-radius:16px;max-width:420px;width:100%;max-height:85vh;overflow-y:auto;padding:0;box-shadow:0 8px 32px rgba(0,0,0,.3)"><div style="padding:20px 20px 12px;text-align:center"><div style="font-size:.7rem;color:var(--text2);letter-spacing:1px;text-transform:uppercase">Laden...</div></div></div>';
   document.body.appendChild(overlay);
   try{
-    const d=await api('/api/weather/detail');
+    const d=await api(BASIS+'/api/weather/detail');
     if(!d||!d.current){overlay.remove();return;}
     const c=d.current;
     const now=new Date();
@@ -3263,7 +3276,7 @@ async function openWeatherPopup(){
 // ═══ WEATHER & EVENTS BANNER ═══
 async function loadWeatherBanner(){
   try{
-    const d=await api('/api/weather');
+    const d=await api(BASIS+'/api/weather');
     if(!d)return;
     const wb=document.getElementById('weatherBanner');
     if(d.weather){
@@ -3333,12 +3346,12 @@ if(navigator.geolocation&&S.currentLoc!=='custom'){
       const nearSaved=Object.values(SAVED_LOCS).find(s=>{const d=Math.sqrt((gLat-s.lat)**2+(gLon-s.lon)**2)*111000;return d<s.radius});
       S.radius = nearSaved ? nearSaved.radius : ((gLat>53.4&&gLat<53.7&&gLon>9.7&&gLon<10.2) ? 1000 : 10000);
       document.querySelectorAll('.loc-btn').forEach(b=>b.classList.toggle('active',b.dataset.loc==='gps'));
-      try{const geo=await api('/api/reverse-geocode?lat='+gLat+'&lon='+gLon);if(geo&&geo.display){const lbl=document.getElementById('gpsBtnLabel');if(lbl)lbl.textContent=geo.display;}}catch(e){}
+      try{const geo=await api(BASIS+'/api/reverse-geocode?lat='+gLat+'&lon='+gLon);if(geo&&geo.display){const lbl=document.getElementById('gpsBtnLabel');if(lbl)lbl.textContent=geo.display;}}catch(e){}
       updateDistrictDropdown();loadAll();
     }else{
       S.currentLoc='gps';
       document.querySelectorAll('.loc-btn').forEach(b=>b.classList.toggle('active',b.dataset.loc==='gps'));
-      try{const geo=await api('/api/reverse-geocode?lat='+gLat+'&lon='+gLon);if(geo&&geo.display){const lbl=document.getElementById('gpsBtnLabel');if(lbl)lbl.textContent=geo.display;}}catch(e){}
+      try{const geo=await api(BASIS+'/api/reverse-geocode?lat='+gLat+'&lon='+gLon);if(geo&&geo.display){const lbl=document.getElementById('gpsBtnLabel');if(lbl)lbl.textContent=geo.display;}}catch(e){}
       updateDistrictDropdown();
     }
   },()=>{
@@ -3388,7 +3401,7 @@ async function executeSearch(query){
   _searchActive=true;
 
   // Addresses first (fast)
-  const locData=await api('/api/location-search?q='+encodeURIComponent(query)).catch(()=>null);
+  const locData=await api(BASIS+'/api/location-search?q='+encodeURIComponent(query)).catch(()=>null);
   if(!_searchActive)return;
   const locResults=(locData&&locData.results)||[];
   if(locResults.length){
@@ -3396,7 +3409,7 @@ async function executeSearch(query){
   }
 
   // Then bars
-  const data=await api(`/api/search?q=${encodeURIComponent(query)}&lat=${S.lat}&lon=${S.lon}`).catch(()=>null);
+  const data=await api(`${BASIS}/api/search?q=${encodeURIComponent(query)}&lat=${S.lat}&lon=${S.lon}`).catch(()=>null);
   if(!_searchActive)return;
 
   if((!data||!data.results||!data.results.length)&&!locResults.length){
@@ -3489,9 +3502,9 @@ document.querySelectorAll('.hero-scroll, .fav-scroll, .disc-scroll, .loc-toggle,
     <p>Hinweis: Ein gesonderter Datenschutzbeauftragter ist nicht benannt, da dies für unser Unternehmen gesetzlich nicht erforderlich ist. Bei Datenschutz-Anliegen wenden Sie sich bitte direkt an den Verantwortlichen.</p>
 
     <h3>Webhosting und Zugriffsdaten</h3>
-    <p>Unsere Website wird von Strikingly Inc. (1355 Market Street, Suite 488, San Francisco, CA 94103, USA) gehostet. Strikingly fungiert als technischer Dienstleister (Auftragsverarbeiter) für uns nach Art. 28 DSGVO. Das bedeutet, dass personenbezogene Daten, die beim Besuch unserer Website anfallen, auf den Servern von Strikingly verarbeitet werden. Dabei kann es zu einer Übermittlung von Daten in die USA kommen. Wir haben mit Strikingly einen Vertrag zur Auftragsverarbeitung geschlossen und die Standardvertragsklauseln der EU-Kommission vereinbart, um ein angemessenes Datenschutzniveau sicherzustellen.</p>
+    <p>Unsere Website wird auf einem Server der Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen, Deutschland) in einem Rechenzentrum in Deutschland betrieben. Hetzner ist für uns technischer Dienstleister (Auftragsverarbeiter) nach Art. 28 DSGVO. Personenbezogene Daten, die beim Besuch unserer Website anfallen, werden ausschließlich auf Servern in Deutschland verarbeitet. Eine Übermittlung in Drittländer findet durch das Hosting nicht statt.</p>
     <p><strong>Server-Logfiles:</strong><br>
-    Wenn Sie unsere Website besuchen, erfasst Strikingly automatisch Zugriffsdaten in sogenannten Server-Logfiles. Zu diesen Daten gehören zum Beispiel:</p>
+    Wenn Sie unsere Website besuchen, erfasst der Webserver automatisch Zugriffsdaten in sogenannten Server-Logfiles. Zu diesen Daten gehören zum Beispiel:</p>
     <ul>
       <li>Ihre IP-Adresse</li>
       <li>Datum und Uhrzeit des Seitenaufrufs</li>
@@ -3671,7 +3684,7 @@ function closeAgbOverlay(){
 <!-- ═══ USER DROPDOWN ═══ -->
 <div id="userDropdown" style="display:none;position:fixed;bottom:70px;right:10px;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:8px 0;z-index:9998;min-width:200px;box-shadow:0 8px 30px rgba(0,0,0,.25)">
   <div id="userDropdownName" style="padding:12px 16px;font-weight:700;border-bottom:1px solid var(--border);color:var(--text)"></div>
-  <a href="/admin.html" id="adminLink" style="display:none;padding:10px 16px;color:var(--text);text-decoration:none;font-size:.95em;cursor:pointer" onmouseover="this.style.background='var(--surface2)'" onmouseout="this.style.background='transparent'">🛠️ Admin Panel</a>
+  <a href="admin.html" id="adminLink" style="display:none;padding:10px 16px;color:var(--text);text-decoration:none;font-size:.95em;cursor:pointer" onmouseover="this.style.background='var(--surface2)'" onmouseout="this.style.background='transparent'">🛠️ Admin Panel</a>
   <div onclick="doAuthLogout()" style="padding:10px 16px;color:#ff3b30;cursor:pointer;font-size:.95em" onmouseover="this.style.background='var(--surface2)'" onmouseout="this.style.background='transparent'">🚪 Abmelden</div>
 </div>
 
@@ -3689,7 +3702,7 @@ function authHeaders() {
 async function checkAuthStatus() {
   if (!bfToken) { updateAuthUI(); return; }
   try {
-    const r = await fetch('/api/auth/me', { headers: authHeaders() });
+    const r = await fetch(BASIS+'/api/auth/me', { headers: authHeaders() });
     const data = await r.json();
     if (data.user) { bfUser = data.user; } else { bfToken = null; localStorage.removeItem('bf_token'); }
   } catch(e) { bfToken = null; localStorage.removeItem('bf_token'); }
@@ -3755,7 +3768,7 @@ async function doAuthLogin() {
   const pw = document.getElementById('loginPw').value;
   if (!email || !pw) return showAuthError('Bitte alle Felder ausfuellen');
   try {
-    const r = await fetch('/api/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password: pw }) });
+    const r = await fetch(BASIS+'/api/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password: pw }) });
     const data = await r.json();
     if (data.token) {
       bfToken = data.token; bfUser = data.user;
@@ -3774,7 +3787,7 @@ async function doAuthRegister() {
   if (pw !== pw2) return showAuthError('Passwoerter stimmen nicht ueberein');
   if (pw.length < 8) return showAuthError('Passwort muss mindestens 8 Zeichen lang sein');
   try {
-    const r = await fetch('/api/auth/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password: pw, displayName: name }) });
+    const r = await fetch(BASIS+'/api/auth/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password: pw, displayName: name }) });
     const data = await r.json();
     if (data.token) {
       bfToken = data.token; bfUser = data.user;
@@ -3788,7 +3801,7 @@ async function doForgotPw() {
   const email = document.getElementById('forgotEmail').value;
   if (!email) return showAuthError('Bitte E-Mail eingeben');
   try {
-    await fetch('/api/auth/forgot-password', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email }) });
+    await fetch(BASIS+'/api/auth/forgot-password', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email }) });
     document.getElementById('authError').style.display = 'block';
     document.getElementById('authError').style.color = '#34c759';
     document.getElementById('authError').style.background = 'rgba(52,199,89,.1)';
@@ -3800,7 +3813,7 @@ async function doAuthLogout() {
   bfToken = null; bfUser = null;
   localStorage.removeItem('bf_token');
   document.getElementById('userDropdown').style.display = 'none';
-  fetch('/api/auth/logout', { method: 'POST' });
+  fetch(BASIS+'/api/auth/logout', { method: 'POST' });
   updateAuthUI();
 }
 
@@ -3844,5 +3857,14 @@ checkAuthStatus();
 <p>Barfinder ist ein Produkt der CAPS & COLLARS GmbH. Die App vereint Daten aus OpenStreetMap, Community Bewertungen, Eventbrite, Meetup, Luma und weiteren lokalen Quellen zu einem einzigartigen Echtzeit Erlebnis fuer das Hamburger Nachtleben.</p>
 </div>
 
+<script>
+/* Dienstarbeiter anmelden. Macht die App aufs Handy legbar und laesst sie
+   auch ohne Netz starten. Schlaegt es fehl, aendert sich nichts. */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('sw.js').catch(function () { /* egal */ });
+  });
+}
+</script>
 </body>
 </html>

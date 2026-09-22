@@ -512,6 +512,21 @@ function getNetworkEvents() {
     }
   } catch(e) { console.log('⚠️ Curated events merge error:', e.message); }
 
+  // ═══ Echte, aktuelle Termine aus sammler_events.js ═══
+  // Die alten scrape_*.js sind aus dem Projekt entfernt worden, seitdem kamen
+  // alle Termine aus den wiederkehrenden Schablonen oben. live_events_cache.json
+  // bringt wieder datierte Veranstaltungen von Luma, Meetup und redaktionellen
+  // Seiten herein. Fehlt die Datei, laeuft alles weiter wie bisher.
+  try {
+    if (fs.existsSync('./live_events_cache.json')) {
+      const live = JSON.parse(fs.readFileSync('./live_events_cache.json', 'utf8'));
+      const liste = Array.isArray(live) ? live : (live.events || []);
+      mergeEventsFromCache(liste, 'live', {
+        qualityFn: ev => (ev.source === 'luma' || ev.source === 'meetup') ? 'high' : 'medium',
+      });
+    }
+  } catch(e) { console.log('⚠️ Live events merge error:', e.message); }
+
   // NUR echte Events — keine Fake-Daten, keine News-Artikel
   const allEvents = [...realEvents];
 
@@ -577,7 +592,7 @@ function getNetworkEvents() {
   const lentExclude = /finanzausschuss|elternabend|chorprobe|handarbeit|ortsbeirat|bauausschuss|gemeindevertretung|seniorennachmittag/i;
 
   // Zentraler Relevanz-Filter
-  const excludeRx = /konzert|festival|kino|cinema|oper\b|opera|jahreshauptversammlung|hauptversammlung|mitgliederversammlung|generalversammlung|kinder|jugend|familie|familien|baby|eltern|schüler|bastel|malen|vorles(?!ung)|märchen|puppentheater|kindergarten|senioren|rentner|ü60|ü65|ab\s*\d\s*jahre(?!n?\s*(?:erfahrung|beruf))|(?:ab|für)\s*(?:[3-9]|1[0-6])\s*jahre|spielenachmittag|spiele.?nachmittag|spieleabend|spiele.?abend|brettspiel|board.?game|tabletop|pen.?&.?paper|doko|doppelkopf|skat.?abend|pub.?quiz|quiz.?night|karaoke.?night|musical|ballett|figurentheater|comedy.?show|kabarett|stand.?up|lesung|literatur|museum|ausstellung|vernissage|flohmarkt|trödelmarkt|yoga|meditation|achtsamkeit|burnout|mental.?health|recruiting|karriere.?messe|career.?fair|bewerbung|hr.?kongress|job.?messe|azubi|ausbildung|momie|mommy|mütter|mami|mama.?treff|stillgruppe|krabbelgruppe|(?:^|\b)hr\b.*(?:braucht|strateg|c.?level|people|personal)|theater(?!.*plattdeutsch)|concert|live.?band|padel|tennis|badminton|squash|volleyball|basketball|lauf|marathon|triathlon|wanderung|hiking|pilates|zumba|fitness|spinning|crossfit|(?:^|\b)(?:dj|live)\s+\w+\s*$|frauen|female|women|ladies|mädels|girl.?boss|she\s|sisterhood|femme|frauennetzwerk|women'?s\s|for\s+(?:her|women|ladies)|(?:^|\b)ai\.?women|selbstverteidigung.*frau|stricken|häkeln|näh.?kreis|buchclub|lesekreis|garten.?brand|überfallen|verletzt|getötet|unfall|polizei.?sucht|vermisst|brand\s/i;
+  const excludeRx = /konzert|festival|kino|cinema|oper\b|opera|jahreshauptversammlung|hauptversammlung|mitgliederversammlung|generalversammlung|kinder|jugend|familie|familien|baby|eltern|schüler|bastel|malen|vorles(?!ung)|märchen|puppentheater|kindergarten|senioren|rentner|ü60|ü65|ab\s*\d\s*jahre(?!n?\s*(?:erfahrung|beruf))|(?:ab|für)\s*(?:[3-9]|1[0-6])\s*jahre|spielenachmittag|spiele.?nachmittag|musical|ballett|figurentheater|comedy.?show|kabarett|stand.?up|lesung|literatur|museum|ausstellung|vernissage|flohmarkt|trödelmarkt|yoga|meditation|achtsamkeit|burnout|mental.?health|recruiting|karriere.?messe|career.?fair|bewerbung|hr.?kongress|job.?messe|azubi|ausbildung|momie|mommy|mütter|mami|mama.?treff|stillgruppe|krabbelgruppe|(?:^|\b)hr\b.*(?:braucht|strateg|c.?level|people|personal)|theater(?!.*plattdeutsch)|concert|live.?band|padel|tennis|badminton|squash|volleyball|basketball|\b(?!ablauf|verlauf|durchlauf|zulauf|einlauf|auslauf|umlauf)\w*lauf\b|marathon|triathlon|wanderung|hiking|pilates|zumba|fitness|spinning|crossfit|(?:^|\b)(?:dj|live)\s+\w+\s*$|frauen|female|women|ladies|mädels|girl.?boss|she\s|sisterhood|femme|frauennetzwerk|women'?s\s|for\s+(?:her|women|ladies)|(?:^|\b)ai\.?women|selbstverteidigung.*frau|stricken|häkeln|näh.?kreis|buchclub|lesekreis|garten.?brand|überfallen|verletzt|getötet|unfall|polizei.?sucht|vermisst|brand\s/i;
   
   return enrichedEvents.filter(e => {
     const text = ((e.title || '') + ' ' + (e.description || '')).toLowerCase();
@@ -2449,6 +2464,27 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  // ═══ PWA: Kennblatt und Dienstarbeiter ═══
+  // Beide muessen aus dem Wurzelverzeichnis der App kommen, damit der
+  // Geltungsbereich des Dienstarbeiters die ganze App umfasst.
+  if (url.pathname === '/manifest.webmanifest' || url.pathname === '/sw.js') {
+    const datei = url.pathname === '/sw.js' ? 'sw.js' : 'manifest.webmanifest';
+    const typ = url.pathname === '/sw.js'
+      ? 'application/javascript; charset=utf-8'
+      : 'application/manifest+json; charset=utf-8';
+    try {
+      res.writeHead(200, {
+        'Content-Type': typ,
+        // Der Dienstarbeiter darf nie lange zwischengespeichert werden,
+        // sonst bleibt eine alte Fassung im Browser haengen.
+        'Cache-Control': 'no-cache, must-revalidate',
+        'Service-Worker-Allowed': '/',
+      });
+      fs.createReadStream(path.join(__dirname, datei)).pipe(res);
+    } catch (e) { res.writeHead(404); res.end('Not found'); }
+    return;
+  }
+
   // ═══ STATIC FILES (/static/) ═══
   if (url.pathname.startsWith('/static/')) {
     const safePath = path.normalize(url.pathname).replace(/^(\.\.(\/|\\|$))+/, '');
@@ -2474,7 +2510,7 @@ const server = http.createServer(async (req, res) => {
       const uptimeMs = Date.now() - SERVER_START_TIME;
       const uptimeSec = Math.floor(uptimeMs / 1000);
       const cacheFiles = [
-        'curated_events.json', 'highlights.json'
+        'curated_events.json', 'highlights.json', 'live_events_cache.json'
       ];
       const cacheStatus = {};
       for (const f of cacheFiles) {
@@ -2943,6 +2979,30 @@ const server = http.createServer(async (req, res) => {
       { name: 'OpenStreetMap/Overpass', icon: '🗺️', description: 'Bars, Pubs, Clubs aus OpenStreetMap Hamburg', priority: 1, status: 'ok', statusText: 'Aktiv' },
       { name: 'Community Score', icon: '📊', description: 'Eigene Bewertungsmetrik basierend auf Qualität und Beliebtheit (0-100)', priority: 2, status: Object.keys(communityScoreCache).length > 0 ? 'ok' : 'pending', statusText: Object.keys(communityScoreCache).length + ' Bars bewertet', count: Object.keys(communityScoreCache).length },
     ];
+
+    // Terminquellen sichtbar machen. Wenn eine Quelle ausfaellt, soll das in
+    // der App stehen und nicht still im Logbuch verschwinden.
+    try {
+      const live = JSON.parse(fs.readFileSync('./live_events_cache.json', 'utf8'));
+      const stunden = (Date.now() - Date.parse(live.generiert)) / 3600000;
+      const symbole = { luma: '🎟️', meetup: '👥', 'szene-hamburg': '📰', 'hamburg.de': '🏛️' };
+      for (const [name, q] of Object.entries(live.quellen || {})) {
+        sources.push({
+          name: 'Termine: ' + name,
+          icon: symbole[name] || '📅',
+          description: q.art === 'struktur'
+            ? 'Veranstaltungen, direkt aus der Datenschnittstelle der Quelle'
+            : 'Veranstaltungen, per Sprachmodell aus der Seite gelesen',
+          priority: 2,
+          status: q.ok ? (q.anzahl > 0 ? 'ok' : 'pending') : 'error',
+          statusText: q.ok
+            ? q.anzahl + ' Termine, Stand vor ' + Math.round(stunden) + ' h'
+            : 'Ausfall: ' + (q.fehler || 'unbekannt').slice(0, 80),
+          count: q.anzahl || 0,
+        });
+      }
+    } catch (e) { /* kein Terminbestand: die drei Grundquellen reichen */ }
+
     sendJSON(req, res, 200, { sources }, 'public, max-age=300');
     return;
   }

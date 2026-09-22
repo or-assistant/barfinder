@@ -489,7 +489,10 @@
       "highlights": "Herrengedeck|Hausgemachte Mexikaner|Maritime Kneipe",
       "atmosphere": "Urig und maritim. Der Mexikaner ist hausgemacht und das Herrengedeck Pflichtprogramm.",
       "confidence": "medium"
-    }
+    },
+    "auch_bekannt_als": [
+      "Holsten-Schwemme"
+    ]
   },
   {
     "name": "Hong-Kong Hotel Bar",
@@ -723,7 +726,11 @@
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00"
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "district": "Winterhude",
+    "auch_bekannt_als": [
+      "Dorotheen-Eck"
+    ]
   },
   {
     "name": "Le Fonque",
@@ -789,7 +796,11 @@
       "highlights": "Älteste Studentenkneipe Hamburgs|Biergarten|Bundesliga",
       "atmosphere": "Seit Ewigkeiten der Treffpunkt für Studenten in Eimsbüttel. Im Sommer großer Biergarten.",
       "confidence": "high"
-    }
+    },
+    "district": "Eimsbüttel",
+    "auch_bekannt_als": [
+      "Fasan"
+    ]
   },
   {
     "name": "Eimseck",
@@ -1339,7 +1350,8 @@
     "opening_hours": "Tu-Sa 19:00-02:00",
     "tags": [
       "flirt",
-      "cocktailbar"
+      "cocktailbar",
+      "bar"
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
@@ -1355,7 +1367,11 @@
       "highlights": "Chloé Merz|Auch alkoholfrei top",
       "atmosphere": "Eine der kreativsten Bars der Stadt. Auch alkoholfreie Drinks auf Weltklasse-Niveau.",
       "confidence": "high"
-    }
+    },
+    "district": "St. Pauli/Reeperbahn",
+    "auch_bekannt_als": [
+      "Collab"
+    ]
   },
   {
     "name": "The Rabbithole Bar",
@@ -1908,7 +1924,11 @@
       "flirt",
       "eppendorf",
       "wine",
-      "wein"
+      "wein",
+      "restaurant",
+      "italian",
+      "outdoor",
+      "wheelchair"
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
@@ -1925,7 +1945,11 @@
       "atmosphere": "Italienische Weinkultur auf höchstem Niveau. Perfekt für ein elegantes Dinner.",
       "confidence": "high"
     },
-    "website": "https://www.dalfabbrowinebar.de/"
+    "website": "https://www.dalfabbrowinebar.de/",
+    "smoker": false,
+    "auch_bekannt_als": [
+      "Dal Fabbro"
+    ]
   },
   {
     "name": "Restaurant Klinker",
@@ -2090,7 +2114,8 @@
     "tags": [
       "ue35",
       "wine",
-      "wein"
+      "wein",
+      "restaurant"
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
@@ -2107,7 +2132,11 @@
       "atmosphere": "Kulturelle Weinoase im Komponistenquartier. Perfekt nach Oper oder Michel-Besuch.",
       "confidence": "medium"
     },
-    "website": "https://kleinhuis-weinstube.de/"
+    "website": "https://kleinhuis-weinstube.de/",
+    "district": "Neustadt/Innenstadt",
+    "auch_bekannt_als": [
+      "Kleinhuis Cafe&Weinstube"
+    ]
   },
   {
     "name": "Gastronomie Pütter",
@@ -2244,7 +2273,8 @@
       "eimsbüttel",
       "wine",
       "wein",
-      "after-work"
+      "after-work",
+      "cafe"
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
@@ -2261,7 +2291,11 @@
       "atmosphere": "Beliebte Afterwork-Location in Eimsbüttel. Offene Weine, Terrasse und guter Käse.",
       "confidence": "medium"
     },
-    "website": "https://www.hadleys.de/"
+    "website": "https://www.hadleys.de/",
+    "district": "Rotherbaum",
+    "auch_bekannt_als": [
+      "Hadleys"
+    ]
   },
   {
     "name": "Neumanns Bistro St. Georg",
@@ -2528,7 +2562,11 @@
       "highlights": "Schwester von Katze & Goldfischglas|Happy Hour",
       "atmosphere": "Die St. Pauli-Schwester von Katze und Goldfischglas. Poppig, günstig, Happy Hour.",
       "confidence": "medium"
-    }
+    },
+    "district": "St. Pauli/Reeperbahn",
+    "auch_bekannt_als": [
+      "Pelican"
+    ]
   },
   {
     "name": "Botanic District",
@@ -4271,7 +4309,8 @@
     "musicNights": "Do, Fr",
     "tags": [
       "livemusik",
-      "bar"
+      "bar",
+      "fruehstueck"
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
@@ -4288,7 +4327,11 @@
       "atmosphere": "Kulturcafé am Grindelhof. Lesungen, Ausstellungen und guter Wein.",
       "confidence": "medium"
     },
-    "website": "https://cafeleonar.de/"
+    "website": "https://cafeleonar.de/",
+    "district": "Rotherbaum",
+    "auch_bekannt_als": [
+      "Cafe Leonar"
+    ]
   },
   {
     "name": "Pony Bar",
@@ -5557,12 +5600,18 @@
     "opening_hours_estimated": true,
     "tags": [
       "outdoor",
-      "biergarten"
+      "biergarten",
+      "cafe",
+      "cake"
     ],
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "website": "https://landhaus-walter.de/"
+    "website": "https://landhaus-walter.de/",
+    "smoker": false,
+    "auch_bekannt_als": [
+      "Café Landhaus Walter"
+    ]
   },
   {
     "name": "Zum Wattkorn",
@@ -5671,7 +5720,11 @@
     "source": "overpass",
     "created_at": "2026-02-15T22:50:11.561Z",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "website": "https://zum-anleger.de"
+    "website": "https://zum-anleger.de",
+    "smoker": false,
+    "auch_bekannt_als": [
+      "Biergarten \"Zum Anleger\""
+    ]
   },
   {
     "name": "Karo Beach",
@@ -5935,13 +5988,19 @@
       "pub",
       "café",
       "highlight",
-      "cafe"
+      "cafe",
+      "schanze",
+      "fruehstueck"
     ],
     "highlight": true,
     "opening_hours": "Mo-Su,PH 09:30-01:00",
     "source": "manual",
     "created_at": "2026-02-15T22:50:11.561Z",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00"
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "district": "Sternschanze",
+    "auch_bekannt_als": [
+      "Café Unter den Linden"
+    ]
   },
   {
     "name": "Kostbar",
@@ -8046,12 +8105,18 @@
     "tags": [
       "bar",
       "city-nord",
-      "highlight"
+      "highlight",
+      "cafe",
+      "outdoor"
     ],
     "highlight": true,
     "source": "manual",
     "created_at": "2026-02-16T08:10:00.000Z",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00"
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "smoker": false,
+    "auch_bekannt_als": [
+      "45’LIK"
+    ]
   },
   {
     "name": "Bullerei",
@@ -8150,14 +8215,18 @@
       "ue35",
       "flirt",
       "cafe",
-      "cocktails"
+      "cocktails",
+      "fruehstueck"
     ],
     "address": "Rathausstraße 4, Hamburg",
     "opening_hours": "Mo-Sa 09:00-00:00; Su; PH 09:30-00:00",
     "website": "https://www.cafeparis.net/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Cafe Paris"
+    ]
   },
   {
     "name": "Zum Schellfischposten",
@@ -8316,7 +8385,10 @@
     "website": "https://www.oorlam.de/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Bar Oorlam"
+    ]
   },
   {
     "name": "Fleetschlösschen",
@@ -8795,23 +8867,6 @@
     "source": "overpass"
   },
   {
-    "name": "Cafe Paris",
-    "category": "fruehstueck",
-    "description": "Legendäres Jugendstil-Café am Rathaus — französisches Frühstück, Croissants, Eggs Benedict. Hamburger Institution seit 1882",
-    "lat": 53.5498937,
-    "lon": 9.994348,
-    "district": "Altstadt",
-    "address": "Rathausstraße 4, Hamburg",
-    "opening_hours": "Mo-Sa 09:00-00:00; Su; PH 09:30-00:00",
-    "website": "https://www.cafeparis.net/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "fruehstueck"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Café May",
     "category": "fruehstueck",
     "description": "Beliebtes Frühstückscafé mit mehreren Filialen — üppige Frühstücksplatten, Pancakes, Eggs Benedict",
@@ -8821,23 +8876,6 @@
     "address": "Von-Axen-Straße 2, Hamburg",
     "opening_hours": "Mo-Su 07:00-18:00",
     "website": "https://www.may-cafebar.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "fruehstueck"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Cafe Leonar",
-    "category": "fruehstueck",
-    "description": "Kulturcafé am Grindelhof — jüdisch inspiriertes Frühstück, Shakshuka, Kuchen, Ausstellungen",
-    "lat": 53.5697536,
-    "lon": 9.9840813,
-    "district": "Rotherbaum",
-    "address": "Grindelhof 59, Hamburg",
-    "opening_hours": "Mo-Th 08:00-24:00, Fr 08:00-01:00, Sa 09:00-01:00, Su 09:00-22:00",
-    "website": "https://cafeleonar.de/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
       "fruehstueck"
@@ -8923,10 +8961,14 @@
     "website": "https://www.nordcoast-coffee.de/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
-      "fruehstueck"
+      "fruehstueck",
+      "cafe"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Nord Coast Coffee"
+    ]
   },
   {
     "name": "Café Stenzel",
@@ -9012,23 +9054,6 @@
     "source": "overpass"
   },
   {
-    "name": "Café Unter den Linden",
-    "category": "fruehstueck",
-    "description": "Gemütliches Frühstückscafé in der Juliusstraße — Schanze-Institution, morgens Café, abends Kneipe",
-    "lat": 53.561234,
-    "lon": 9.9602864,
-    "district": "Sternschanze",
-    "address": "Juliusstraße 16, Hamburg",
-    "opening_hours": "Mo-Su,PH 09:30-01:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "schanze",
-      "fruehstueck"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "vju im Energiebunker",
     "category": "fruehstueck",
     "description": "Café auf dem Energiebunker Wilhelmsburg — Panorama-Frühstück mit Blick über ganz Hamburg",
@@ -9073,10 +9098,14 @@
     "website": "https://www.restaurant-nil.de",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
-      "mittagstisch"
+      "mittagstisch",
+      "restaurant"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Nil Restaurant"
+    ]
   },
   {
     "name": "Deichgraf",
@@ -9177,10 +9206,15 @@
     "tags": [
       "eppendorf",
       "mittagstisch",
-      "wein"
+      "wein",
+      "hoheluft",
+      "restaurant"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Poletto"
+    ]
   },
   {
     "name": "Ti Breizh",
@@ -9209,11 +9243,18 @@
     "address": "Mittelweg 122, 20148 Hamburg",
     "tags": [
       "rotherbaum",
-      "mittagstisch"
+      "mittagstisch",
+      "restaurant",
+      "steak_house"
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "opening_hours": "Su-Th 12:00-22:00, Fr,Sa 12:00-23:00",
+    "smoker": false,
+    "auch_bekannt_als": [
+      "BLOCK HOUSE"
+    ]
   },
   {
     "name": "Weltcafé ElbFaire",
@@ -10213,13 +10254,17 @@
       "nachbarschaft",
       "ue35",
       "eppendorf",
-      "mittagstisch"
+      "mittagstisch",
+      "cafe"
     ],
     "opening_hours": "Mo-Fr 12:00-01:00, Sa 10:00-03:00, Su 10:00-23:00",
     "website": "https://borchers-hamburg.de/",
     "last_verified": "2026-04-01T08:00:59.060562+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Café Borchers"
+    ]
   },
   {
     "name": "Pizzeria Eppendorfer Landstraße",
@@ -10696,23 +10741,6 @@
       "outdoor"
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Dorotheen-Eck",
-    "category": "pub",
-    "description": "Gemütliche Eckkneipe in Winterhude — seit Jahren Nachbarschaftstreff",
-    "lat": 53.5922398,
-    "lon": 10.0023746,
-    "district": "Winterhude",
-    "address": "Winterhude, Hamburg",
-    "opening_hours": "Mo-Fr 15:00-24:00+; Sa,Su 11:00-24:00+",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "winterhude",
-      "pub"
-    ],
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -13522,10 +13550,14 @@
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
       "schanze",
-      "restaurant"
+      "restaurant",
+      "eimsbüttel"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Restaurant Jellyfish"
+    ]
   },
   {
     "name": "Juicery by em",
@@ -18059,10 +18091,15 @@
     "opening_hours": "Mo-Su 12:00-23:30",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
-      "restaurant"
+      "restaurant",
+      "indian"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "smoker": false,
+    "auch_bekannt_als": [
+      "Shikara QUICK"
+    ]
   },
   {
     "name": "Mayday",
@@ -19838,21 +19875,6 @@
     "source": "overpass"
   },
   {
-    "name": "Yummies",
-    "category": "mittagstisch",
-    "description": "",
-    "lat": 53.5553535,
-    "lon": 10.0153886,
-    "district": "St. Georg",
-    "address": "Steindamm 55, 20099 Hamburg (St. Georg)",
-    "tags": [
-      "mittagstisch"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Teheran",
     "category": "restaurant",
     "description": "persian in St. Georg",
@@ -20109,10 +20131,14 @@
     "website": "https://www.yummies.de/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
-      "restaurant"
+      "restaurant",
+      "mittagstisch"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Yummies"
+    ]
   },
   {
     "name": "Pabla",
@@ -22385,22 +22411,6 @@
     "source": "overpass"
   },
   {
-    "name": "Pelican",
-    "category": "bar",
-    "description": "",
-    "lat": 53.5534209,
-    "lon": 9.9580457,
-    "district": "St. Pauli/Reeperbahn",
-    "address": "Am Brunnenhof 2, Hamburg",
-    "opening_hours": "Fr,Sa 14:00-04:00, Su-We 18:00-02:00, Th 18:00-03:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "bar"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Copper House",
     "category": "restaurant",
     "description": "japanese in St. Pauli/Reeperbahn",
@@ -23981,7 +23991,10 @@
       "cafe"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Café Mimosa"
+    ]
   },
   {
     "name": "Berg 4",
@@ -24383,22 +24396,6 @@
     "lon": 9.9614784,
     "district": "St. Pauli/Reeperbahn",
     "address": "Hamburger Berg 27, Hamburg",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "bar"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Collab",
-    "category": "bar",
-    "description": "",
-    "lat": 53.5531214,
-    "lon": 9.9628227,
-    "district": "St. Pauli/Reeperbahn",
-    "address": "Hein-Hoyer-Straße 63, Hamburg",
-    "opening_hours": "Tu-Th 18:00-24:00; Fr,Sa 18:00-01:00",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
       "bar"
@@ -28600,23 +28597,6 @@
     "source": "overpass"
   },
   {
-    "name": "Hadleys",
-    "category": "cafe",
-    "description": "",
-    "lat": 53.5703946,
-    "lon": 9.976892,
-    "district": "Rotherbaum",
-    "address": "Beim Schlump 84a, Hamburg",
-    "opening_hours": "Tu-Sa 17:00+",
-    "website": "https://www.hadleys.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "cafe"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Asia Lounge",
     "category": "restaurant",
     "description": "chinese in Rotherbaum",
@@ -29023,23 +29003,6 @@
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
       "rotherbaum",
-      "restaurant"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "HENRIKS Bar & Restaurant",
-    "category": "restaurant",
-    "description": "",
-    "lat": 53.5635549,
-    "lon": 9.9921098,
-    "district": "Rotherbaum",
-    "address": "Tesdorpfstraße 8, Hamburg",
-    "opening_hours": "Mo-Su 12:00+",
-    "website": "https://www.henriks.cc/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
       "restaurant"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
@@ -30558,23 +30521,6 @@
       "eppendorf",
       "eimsbüttel",
       "restaurant"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Fasan",
-    "category": "pub",
-    "description": "",
-    "lat": 53.5749193,
-    "lon": 9.9636237,
-    "district": "Eimsbüttel",
-    "address": "Eichenstraße 10, Hamburg",
-    "opening_hours": "Mo-Fr 17:00-02:00; Sa 12:00-02:00; Su 13:00-02:00",
-    "website": "https://www.fasan-hamburg.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "pub"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
@@ -32364,24 +32310,6 @@
     "source": "overpass"
   },
   {
-    "name": "Kleinhuis Cafe&Weinstube",
-    "category": "restaurant",
-    "description": "",
-    "lat": 53.5512754,
-    "lon": 9.9773362,
-    "district": "Neustadt/Innenstadt",
-    "address": "Neustadt/Innenstadt",
-    "opening_hours": "We-Fr 11:00-18:00; Sa,Su 09:00-18:00; Mo,Tu off",
-    "website": "https://kleinhuis-weinstube.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "restaurant",
-      "wein"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Endlich-Salon",
     "category": "cafe",
     "description": "",
@@ -32797,22 +32725,6 @@
     "source": "overpass"
   },
   {
-    "name": "La Paninoteca",
-    "category": "cafe",
-    "description": "",
-    "lat": 53.552534,
-    "lon": 9.9967777,
-    "district": "Neustadt/Innenstadt",
-    "address": "Alstertor 21",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-19:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "cafe"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Brook",
     "category": "restaurant",
     "description": "",
@@ -33203,7 +33115,22 @@
       "bar"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "enriched": {
+      "vibe": "intim",
+      "crowd": "ue35",
+      "priceLevel": "€€€",
+      "bestTime": "abends",
+      "specials": "cocktails",
+      "dateSpot": true,
+      "dresscode": "smart-casual",
+      "highlights": "Speakeasy-Stil|Versteckte Bar",
+      "atmosphere": "Speakeasy-Bar im Stil der Prohibition. Versteckt, intim und mit exzellenten Cocktails.",
+      "confidence": "medium"
+    },
+    "auch_bekannt_als": [
+      "Meyer Lansky's"
+    ]
   },
   {
     "name": "Hofbräuhaus",
@@ -33799,34 +33726,6 @@
       "cafe"
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Meyer Lansky's",
-    "category": "bar",
-    "description": "",
-    "lat": 53.5554579,
-    "lon": 9.987288,
-    "district": "Neustadt/Innenstadt",
-    "address": "Neustadt/Innenstadt",
-    "enriched": {
-      "vibe": "intim",
-      "crowd": "ue35",
-      "priceLevel": "€€€",
-      "bestTime": "abends",
-      "specials": "cocktails",
-      "dateSpot": true,
-      "dresscode": "smart-casual",
-      "highlights": "Speakeasy-Stil|Versteckte Bar",
-      "atmosphere": "Speakeasy-Bar im Stil der Prohibition. Versteckt, intim und mit exzellenten Cocktails.",
-      "confidence": "medium"
-    },
-    "opening_hours": "Mo-Sa 16:00-03:00",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "bar"
-    ],
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -36854,21 +36753,6 @@
     "source": "overpass"
   },
   {
-    "name": "Bricks Restaurant",
-    "category": "restaurant",
-    "description": "",
-    "lat": 53.5526396,
-    "lon": 9.9875502,
-    "district": "Neustadt/Innenstadt",
-    "address": "Neustadt/Innenstadt",
-    "tags": [
-      "restaurant"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Pizza Hut",
     "category": "restaurant",
     "description": "pizza in Neustadt/Innenstadt",
@@ -38404,10 +38288,14 @@
     "website": "https://www.hamburgbricksbar.de/",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "tags": [
-      "bar"
+      "bar",
+      "restaurant"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "Bricks Restaurant"
+    ]
   },
   {
     "name": "Cappino",
@@ -40063,24 +39951,6 @@
     "source": "overpass"
   },
   {
-    "name": "Café Borchers",
-    "category": "cafe",
-    "description": "Beliebtes Eppendorfer Stadtteilcafé mit Kuchen und Frühstück.",
-    "lat": 53.5943078,
-    "lon": 9.986988,
-    "district": "Eppendorf",
-    "address": "Geschwister-Scholl-Straße 1-3, Hamburg",
-    "opening_hours": "Mo-Fr 12:00-01:00, Sa 10:00-03:00, Su 10:00-23:00",
-    "website": "https://borchers-hamburg.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "eppendorf",
-      "cafe"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Tassajara",
     "category": "restaurant",
     "description": "Vegetarisches Restaurant mit kreativer Küche in Eppendorf.",
@@ -40095,24 +39965,6 @@
       "eppendorf",
       "restaurant"
     ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Poletto",
-    "category": "restaurant",
-    "description": "Cornelia Polettos italienisches Fine-Dining-Restaurant.",
-    "lat": 53.5851319,
-    "lon": 9.9808748,
-    "district": "Eppendorf",
-    "address": "Poletto Winebar, 287, Eppendorfer Weg, Hoheluft-Ost, Hamburg-Nord, Hamburg, 20251, Deutschland",
-    "tags": [
-      "eppendorf",
-      "hoheluft",
-      "restaurant",
-      "wein"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -40146,23 +39998,6 @@
       "restaurant"
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Nil Restaurant",
-    "category": "restaurant",
-    "description": "Norddeutsche Küche mit saisonalen Menüs.",
-    "lat": 53.5562983,
-    "lon": 9.9633511,
-    "district": "Sternschanze",
-    "address": "Neuer Pferdemarkt 5, Hamburg",
-    "opening_hours": "Mo,We,Th 18:00+; Fr-Su 17:00+; Tu off",
-    "website": "https://www.restaurant-nil.de",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "restaurant"
-    ],
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -40294,21 +40129,6 @@
     "source": "overpass"
   },
   {
-    "name": "Süd Restaurant",
-    "category": "restaurant",
-    "description": "Gehobene Küche in Uhlenhorst.",
-    "lat": 51.9150631,
-    "lon": 4.4755388,
-    "district": "Uhlenhorst",
-    "address": "Hamburg, 94B, Witte de Withstraat, Cool, Centrum, Rotterdam, Zuid-Holland, Nederland, 3012 BT, Nederland",
-    "tags": [
-      "restaurant"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Sasso",
     "category": "restaurant",
     "description": "Beliebtes italienisches Restaurant in der HafenCity.",
@@ -40355,21 +40175,6 @@
       "restaurant",
       "outdoor"
     ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Restaurant Ahoi",
-    "category": "restaurant",
-    "description": "Fischrestaurant in Wandsbek.",
-    "lat": 53.5519341,
-    "lon": 10.0020998,
-    "district": "Wandsbek",
-    "address": "Ahoi, 12, Spitalerstraße, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland",
-    "tags": [
-      "restaurant"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
   },
@@ -40452,41 +40257,12 @@
     ],
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Bar Oorlam",
-    "category": "bar",
-    "description": "Cocktailbar mit südafrikanischem Flair.",
-    "lat": 53.5534186,
-    "lon": 9.9798395,
-    "district": "St. Pauli",
-    "address": "Kohlhöfen 29, Hamburg",
-    "opening_hours": "Tu-Th 16:00-00:00, Fr 16:00-02:00, Sa 15:00-02:00, Su 15:00-23:00; PH off",
-    "website": "https://www.oorlam.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "bar",
-      "cocktails"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Restaurant Jellyfish",
-    "category": "restaurant",
-    "description": "Fischrestaurant mit modernem Konzept.",
-    "lat": 53.5665784,
-    "lon": 9.9654911,
-    "district": "Eimsbüttel",
-    "address": "Jellyfish, 12, Weidenallee, Eimsbüttel, Hamburg, 20357, Deutschland",
-    "tags": [
-      "eimsbüttel",
-      "restaurant"
-    ],
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "opening_hours": "Mo-Su 12:00+",
+    "website": "https://www.henriks.cc/",
+    "auch_bekannt_als": [
+      "HENRIKS Bar & Restaurant"
+    ]
   },
   {
     "name": "Café Vju",
@@ -40684,23 +40460,6 @@
     "source": "overpass"
   },
   {
-    "name": "Nord Coast Coffee",
-    "category": "cafe",
-    "description": "Hamburger Specialty Coffee Rösterei.",
-    "lat": 53.5465554,
-    "lon": 9.9880626,
-    "district": "Sternschanze",
-    "address": "Deichstraße 9, Hamburg",
-    "opening_hours": "Mo-Su 09:00-17:00",
-    "website": "https://www.nordcoast-coffee.de/",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "cafe"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
     "name": "Piment",
     "category": "restaurant",
     "description": "Marokkanische Sterneküche in Eppendorf.",
@@ -40714,23 +40473,6 @@
     "tags": [
       "eppendorf",
       "restaurant"
-    ],
-    "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
-  },
-  {
-    "name": "Café Mimosa",
-    "category": "cafe",
-    "description": "Gemütliches Café in Uhlenhorst.",
-    "lat": 53.5524729,
-    "lon": 9.9635997,
-    "district": "Uhlenhorst",
-    "address": "Clemens-Schultz-Straße 87, Hamburg",
-    "opening_hours": "We-Sa 10:00-22:00; Su 10:00-18:00",
-    "website": "https://www.cafemimosa.de",
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "tags": [
-      "cafe"
     ],
     "created_at": "2026-02-17T03:05:23.903Z",
     "source": "overpass"
@@ -40876,12 +40618,16 @@
     "tags": [
       "afterwork",
       "networking",
-      "restaurant"
+      "restaurant",
+      "cafe"
     ],
     "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-19:00",
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "auch_bekannt_als": [
+      "La Paninoteca"
+    ]
   },
   {
     "name": "Wavecity",
@@ -40994,13 +40740,13 @@
     ],
     "vibe": "Gehobenes Restaurant & Bar direkt am Kaispeicher B mit Panorama-Elbblick.",
     "lat": 53.5419,
-    "lng": 9.9889,
     "address": "Am Kaispeicher B, 20457 Hamburg",
     "district": "HafenCity",
     "priceLevel": 3,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
     "created_at": "2026-02-17T03:05:23.903Z",
-    "source": "overpass"
+    "source": "overpass",
+    "lon": 9.9889
   },
   {
     "name": "Schweinske",
@@ -42797,12 +42543,16 @@
     "tags": [
       "cafe",
       "outdoor",
-      "wheelchair"
+      "wheelchair",
+      "portuguese"
     ],
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "auch_bekannt_als": [
+      "Cafe Ines"
+    ]
   },
   {
     "name": "Meşhur Adıyaman Çiğ Köftecisi",
@@ -43928,7 +43678,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "auch_bekannt_als": [
+      "Cafe Canale"
+    ]
   },
   {
     "name": "Eiscafé am Poelchaukamp",
@@ -44590,24 +44343,6 @@
   },
   {
     "name": "BLOCK HOUSE",
-    "lat": 53.5718049,
-    "lon": 9.9949652,
-    "address": "Mittelweg 122, 20148 Hamburg (Rotherbaum)",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Su-Th 12:00-22:00, Fr,Sa 12:00-23:00",
-    "tags": [
-      "restaurant",
-      "steak_house",
-      "rotherbaum"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "BLOCK HOUSE",
     "lat": 53.6550388,
     "lon": 10.0934197,
     "address": "Heegbarg 32, Hamburg",
@@ -44854,7 +44589,7 @@
     "lon": 10.0020998,
     "address": "Spitalerstraße 12, Hamburg",
     "category": "restaurant",
-    "description": "",
+    "description": "Fischrestaurant in Wandsbek.",
     "opening_hours": "Mo-Su 12:00-22:00",
     "tags": [
       "restaurant",
@@ -44864,7 +44599,11 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Wandsbek",
+    "auch_bekannt_als": [
+      "Restaurant Ahoi"
+    ]
   },
   {
     "name": "The Greek",
@@ -46174,7 +45913,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "auch_bekannt_als": [
+      "Espresso House"
+    ]
   },
   {
     "name": "Hellas",
@@ -53509,24 +53251,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Espresso House",
-    "lat": 53.5548665,
-    "lon": 9.9887759,
-    "address": "Gänsemarkt, 20354 Hamburg (Neustadt)",
-    "category": "cafe",
-    "description": "",
-    "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-20:00; PH,Su 11:00-18:00",
-    "tags": [
-      "cafe",
-      "coffee_shop",
-      "outdoor"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Daruma",
     "lat": 53.5457162,
     "lon": 10.0078593,
@@ -56491,7 +56215,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "auch_bekannt_als": [
+      "Cantinetta Ristorante & Bar"
+    ]
   },
   {
     "name": "HATARI Pfälzer Stube",
@@ -57630,24 +57357,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Cantinetta Ristorante & Bar",
-    "lat": 53.5441443,
-    "lon": 9.994497,
-    "address": "Pickhuben 3, Hamburg",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Mo,Tu 18:00-23:00; We off; Th-Su 18:00-23:00",
-    "tags": [
-      "restaurant",
-      "italian",
-      "wheelchair"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Eiscafé Il Salottino",
     "lat": 53.5688495,
     "lon": 10.0436967,
@@ -57844,23 +57553,6 @@
     "opening_hours": "",
     "tags": [
       "cafe"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "45’LIK",
-    "lat": 53.6029146,
-    "lon": 10.024532,
-    "address": "Überseering 15, Hamburg",
-    "category": "cafe",
-    "description": "",
-    "opening_hours": "",
-    "tags": [
-      "cafe",
-      "outdoor"
     ],
     "source": "overpass",
     "smoker": false,
@@ -60691,22 +60383,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Cafe Canale",
-    "lat": 53.5814615,
-    "lon": 10.0103754,
-    "address": "Poelchaukamp 7",
-    "category": "cafe",
-    "description": "",
-    "opening_hours": "Mo 14:00-19:00; Tu-Su 11:00-19:00",
-    "tags": [
-      "cafe"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Favorita",
     "lat": 53.5816339,
     "lon": 9.9707649,
@@ -62933,23 +62609,6 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Holsten-Schwemme",
-    "lat": 53.5482812,
-    "lon": 9.9559785,
-    "address": "Herrenweide 2a, Hamburg",
-    "category": "pub",
-    "description": "",
-    "opening_hours": "Mo-Th 10:00-01:00; Fr 10:00-04:00; Sa 10:00-04:00; Su 08:00-01:00",
-    "tags": [
-      "pub",
-      "raucher"
-    ],
-    "source": "overpass",
-    "smoker": true,
-    "last_verified": "2026-04-01T08:00:59.060562+00:00",
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
@@ -66268,7 +65927,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "auch_bekannt_als": [
+      "Grill - Haus - Der Grieche"
+    ]
   },
   {
     "name": "Shanghai House",
@@ -67645,24 +67307,6 @@
       "cafe",
       "cake",
       "sandwich"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Grill - Haus - Der Grieche",
-    "lat": 53.6073306,
-    "lon": 9.9789416,
-    "address": "Borsteler Chaussee 120",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Tu-Fr 12:00-15:00, 17:00-22:00; Sa 12:00-22:00; Su 12:00-21:30",
-    "tags": [
-      "restaurant",
-      "greek",
-      "outdoor"
     ],
     "source": "overpass",
     "smoker": false,
@@ -70820,26 +70464,6 @@
       "restaurant",
       "eppendorf",
       "hoheluft"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Dal Fabbro",
-    "lat": 53.5803865,
-    "lon": 9.9688687,
-    "address": "Eppendorfer Weg 176, Hamburg",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Mo-Sa 18:00-22:00; Su off",
-    "tags": [
-      "restaurant",
-      "italian",
-      "outdoor",
-      "wheelchair",
-      "eppendorf"
     ],
     "source": "overpass",
     "smoker": false,
@@ -75418,23 +75042,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Café Landhaus Walter",
-    "lat": 53.5940289,
-    "lon": 10.0151787,
-    "address": "Otto-Wels-Straße 2",
-    "category": "cafe",
-    "description": "",
-    "opening_hours": "Mo-Su 12:00-18:00",
-    "tags": [
-      "cafe",
-      "cake"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Stadtparkzauber",
     "lat": 53.594162,
     "lon": 10.0153384,
@@ -75493,23 +75100,6 @@
     "tags": [
       "restaurant",
       "asian"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Yakido",
-    "lat": 53.5429064,
-    "lon": 9.9957386,
-    "address": "Am Sandtorpark 1, Hamburg",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Mo-Fr 16:30-22:30; Sa-Su12:00-22:30",
-    "tags": [
-      "restaurant",
-      "japanese"
     ],
     "source": "overpass",
     "smoker": false,
@@ -75582,7 +75172,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "auch_bekannt_als": [
+      "Yakido"
+    ]
   },
   {
     "name": "Sushi Yama",
@@ -75787,23 +75380,6 @@
     "opening_hours": "We-Su 14:00-18:00",
     "tags": [
       "cafe"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Cafe Ines",
-    "lat": 53.5944303,
-    "lon": 9.9445047,
-    "address": "Julius-Vosseler-Straße 42, Hamburg",
-    "category": "cafe",
-    "description": "",
-    "opening_hours": "",
-    "tags": [
-      "cafe",
-      "portuguese"
     ],
     "source": "overpass",
     "smoker": false,
@@ -78809,23 +78385,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Shikara QUICK",
-    "lat": 53.557265,
-    "lon": 9.9279603,
-    "address": "Bahrenfelder Straße 243, Hamburg",
-    "category": "restaurant",
-    "description": "",
-    "opening_hours": "Mo-Su 12:00-23:30",
-    "tags": [
-      "restaurant",
-      "indian"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Coffee Fellows",
     "lat": 53.553047,
     "lon": 10.0076475,
@@ -79070,23 +78629,6 @@
       "restaurant",
       "outdoor",
       "wheelchair"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
-    "name": "Biergarten \"Zum Anleger\"",
-    "lat": 53.5157,
-    "lon": 9.9986758,
-    "address": "Vogelhüttendeich, 21107 Hamburg (Wilhelmsburg)",
-    "category": "biergarten",
-    "description": "",
-    "opening_hours": "May 01-Oct 03 Mo-Sa 11:30+;May 01-Oct 03 Su, PH 10:00+",
-    "tags": [
-      "biergarten",
-      "outdoor"
     ],
     "source": "overpass",
     "smoker": false,
@@ -85302,7 +84844,7 @@
     "name": "KUPA Saftbar",
     "lat": 53.4886974,
     "lon": 10.2072303,
-    "address": "",
+    "address": "Weidenbaumsweg, 21029 Hamburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -85313,13 +84855,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Pane & Vino",
     "lat": 53.4883981,
     "lon": 10.2095858,
-    "address": "",
+    "address": "Kupferhof, 21029 Hamburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -85332,13 +84877,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Ristorante Vero",
     "lat": 53.48828,
     "lon": 10.2086577,
-    "address": "",
+    "address": "Bergedorfer Straße, 21029 Hamburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -85349,13 +84897,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café Greco",
     "lat": 53.4888176,
     "lon": 10.2116202,
-    "address": "",
+    "address": "Bergedorfer Schloßstraße, 21029 Hamburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -85366,7 +84917,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Dos Amigos",
@@ -85426,7 +84980,7 @@
     "name": "Ma Maison Tapas Bar",
     "lat": 53.4873001,
     "lon": 10.213375,
-    "address": "",
+    "address": "Hinterm Graben, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Sa 17:30-22:30",
@@ -85436,7 +84990,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Sushibar",
@@ -85653,7 +85210,7 @@
     "name": "Sushi für Hamburg",
     "lat": 53.4853833,
     "lon": 10.1998161,
-    "address": "",
+    "address": "Am Güterbahnhof, 21035 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Th 17:00-22:00; Fr 17:00-23:00; Sa 16:00-23:00; PH,Su 15:00-22:00",
@@ -85664,7 +85221,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "La Villa",
@@ -85722,7 +85282,7 @@
     "name": "Food Lounge Bergedorf",
     "lat": 53.4865141,
     "lon": 10.2137851,
-    "address": "",
+    "address": "Bergedorfer Straße, 21029 Hamburg",
     "category": "restaurant",
     "description": "Mit den Marken \"Ciao Bella\" und \"Ruff's Burger\".",
     "opening_hours": "",
@@ -85732,13 +85292,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Engel",
     "lat": 53.4901523,
     "lon": 10.208032,
-    "address": "",
+    "address": "Am Bahnhof, 21029 Hamburg",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -85748,13 +85311,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Pamukkale",
     "lat": 53.4901632,
     "lon": 10.2086017,
-    "address": "",
+    "address": "Alte Holstenstraße, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -85766,13 +85332,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Tung Asia",
     "lat": 53.4892799,
     "lon": 10.2075409,
-    "address": "",
+    "address": "Weidenbaumsweg, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 08:00-17:00",
@@ -85783,13 +85352,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Truva",
     "lat": 53.4909024,
     "lon": 10.2073954,
-    "address": "",
+    "address": "Alte Holstenstraße 44, 21031 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -85799,13 +85371,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Jazz Club",
     "lat": 53.4893857,
     "lon": 10.207956,
-    "address": "",
+    "address": "Weidenbaumsweg, 21029 Hamburg",
     "category": "nightclub",
     "description": "",
     "opening_hours": "",
@@ -85816,13 +85391,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Smileys Pizza",
     "lat": 53.4935408,
     "lon": 10.207367,
-    "address": "",
+    "address": "Alte Holstenstraße, 21031 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Fr,Sa 11:00-24:00; Su-Th 11:00-23:30",
@@ -85833,13 +85411,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Der Suhrhof",
     "lat": 53.4891282,
     "lon": 10.2079701,
-    "address": "",
+    "address": "Weidenbaumsweg, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -85849,13 +85430,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Stapelfelder Hof Christos",
     "lat": 53.6053671,
     "lon": 10.2201846,
-    "address": "",
+    "address": "Reinbeker Straße 1, 22145 Stapelfeld",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Sa 17:00-23:00, PH,Su 12:00-22:00; Mo off",
@@ -85867,13 +85451,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Stapelfeld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Sushi & Asia Lounge",
     "lat": 53.4858331,
     "lon": 10.2103515,
-    "address": "",
+    "address": "Rektor-Ritter-Straße, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 12:00-15:00,17:00-23:00; PH,Sa,Su 13:00-23:00",
@@ -85888,7 +85475,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Oro",
@@ -85911,7 +85501,7 @@
     "name": "Rump´s Bistro",
     "lat": 53.4856947,
     "lon": 10.2870092,
-    "address": "",
+    "address": "Beim Sachsenwald, 21529 Börnsen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo,We-Fr 09:00-18:00; Su 10:00-19:00; Tu,Sa off",
@@ -85921,7 +85511,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Neu-Börnsen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Niko's Treff",
@@ -85945,7 +85538,7 @@
     "name": "Seemannsgarn",
     "lat": 53.4904754,
     "lon": 10.20923,
-    "address": "",
+    "address": "Reetwerder, 21029 Hamburg",
     "category": "cafe",
     "description": "Café, Wolle und Workshops",
     "opening_hours": "Mo,Tu,Th,Fr 10:00-18:00; We 10:00-20:00+; Sa 11:00-16:00",
@@ -85956,7 +85549,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Filia Café & Feinkost",
@@ -86072,7 +85668,7 @@
     "name": "John o' Groats",
     "lat": 53.5093346,
     "lon": 10.2511197,
-    "address": "",
+    "address": "Bahnhofstraße, 21465 Reinbek",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -86082,13 +85678,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Athena Grill",
     "lat": 53.4913904,
     "lon": 10.25713,
-    "address": "",
+    "address": "Am Grotensahl, 21465 Wentorf bei Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86100,7 +85698,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Wentorf bei Hamburg",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Restaurant/Cafe Zur Sternwarte",
@@ -86202,7 +85803,7 @@
     "name": "Dart Sporttreff e.V.",
     "lat": 53.4863691,
     "lon": 10.2152911,
-    "address": "",
+    "address": "Sachsentor, 21029 Hamburg",
     "category": "bar",
     "description": "",
     "opening_hours": "",
@@ -86212,13 +85813,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Eisige Liebe",
     "lat": 53.4870214,
     "lon": 10.2141235,
-    "address": "",
+    "address": "Hude, 21029 Hamburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -86229,13 +85833,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "On Dao",
     "lat": 53.4870808,
     "lon": 10.2144452,
-    "address": "",
+    "address": "Sachsentor, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86245,7 +85852,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Piccolo Luce",
@@ -86270,7 +85880,7 @@
     "name": "Togao",
     "lat": 53.4891736,
     "lon": 10.20807,
-    "address": "",
+    "address": "Weidenbaumsweg, 21029 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Su-Th 11:30-22:00; Fr,Sa 11:30-22:30",
@@ -86282,7 +85892,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Schmidtchen KörberHaus",
@@ -86320,7 +85933,7 @@
     "name": "Kajüte Wentorf",
     "lat": 53.4912925,
     "lon": 10.2572535,
-    "address": "",
+    "address": "Berliner Landstraße, 21465 Wentorf bei Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86331,7 +85944,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Wentorf bei Hamburg",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Britta's Dielen-Café",
@@ -86353,7 +85969,7 @@
     "name": "Oma in Braak",
     "lat": 53.6159605,
     "lon": 10.2404313,
-    "address": "",
+    "address": "Höhenkamp 55, 22145 Braak",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -86363,13 +85979,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Braak",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "TEA MOTION",
     "lat": 53.4883275,
     "lon": 10.2085208,
-    "address": "",
+    "address": "Bergedorfer Straße, 21029 Hamburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Sa 10:00-19:30",
@@ -86380,7 +85999,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Bäckerei Braaker Mühle, Mühlenladen & Café",
@@ -86418,7 +86040,7 @@
     "name": "Bei Kalle",
     "lat": 53.4797702,
     "lon": 10.2303135,
-    "address": "",
+    "address": "Holtenklinker Straße, 21029 Hamburg",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -86428,13 +86050,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Trattoria",
     "lat": 53.534278,
     "lon": 10.2256469,
-    "address": "",
+    "address": "Holstenkamp 15, 21509 Glinde",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86445,13 +86070,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Elbbürger",
     "lat": 53.4934851,
     "lon": 10.2073725,
-    "address": "",
+    "address": "Alte Holstenstraße, 21031 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 11:00-22:00; Sa,Su 12:00-22:00",
@@ -86461,13 +86088,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Loke's Klönstuv",
     "lat": 53.6060215,
     "lon": 10.2207908,
-    "address": "",
+    "address": "Hinter der Schule, 22145 Stapelfeld",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -86477,13 +86107,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Stapelfeld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café Bar",
     "lat": 53.4927839,
     "lon": 10.2074203,
-    "address": "",
+    "address": "Alte Holstenstraße, 21031 Hamburg",
     "category": "bar",
     "description": "",
     "opening_hours": "",
@@ -86493,13 +86126,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "World of Pizza",
     "lat": 53.4940078,
     "lon": 10.2070919,
-    "address": "",
+    "address": "Alte Holstenstraße, 21031 Hamburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Su-Th 11:00-23:00, Fr,Sa 11:00-24:00",
@@ -86510,7 +86146,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bergedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Braaker Krug",
@@ -86533,7 +86172,7 @@
     "name": "Zur Windmühle",
     "lat": 53.6079883,
     "lon": 10.2359675,
-    "address": "",
+    "address": "Hauptstraße, 22145 Stapelfeld",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86544,7 +86183,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Stapelfeld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Vereinshaus",
@@ -86689,7 +86331,7 @@
     "name": "Bierstein",
     "lat": 53.6407174,
     "lon": 10.2171902,
-    "address": "",
+    "address": "Dänenweg, 22926 Ahrensburg",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -86699,13 +86341,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Ahrensfelde",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Nummer 8",
     "lat": 53.6398606,
     "lon": 10.2169044,
-    "address": "",
+    "address": "Dänenweg 2, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86716,7 +86361,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Ahrensfelde",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Bistro Lorenzino",
@@ -86862,7 +86510,7 @@
     "name": "Gasthaus von Deyn",
     "lat": 53.4103753,
     "lon": 10.1438802,
-    "address": "",
+    "address": "Kreuzdeich, 21435 Fliegenberg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86872,7 +86520,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Fliegenberg",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Gran Sasso",
@@ -86895,7 +86546,7 @@
     "name": "U1",
     "lat": 53.384458,
     "lon": 10.1113435,
-    "address": "",
+    "address": "Harburger Straße, 21435 Stelle",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -86905,13 +86556,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Stelle",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Bistro Filou",
     "lat": 53.3871316,
     "lon": 10.1093029,
-    "address": "",
+    "address": "Uhlenhorst, 21435 Stelle",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86921,7 +86575,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Stelle",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Löschers Hofcafé",
@@ -86944,7 +86601,7 @@
     "name": "Gasthaus Kieselshöh",
     "lat": 53.3636058,
     "lon": 10.0941857,
-    "address": "",
+    "address": "Kieselshöh, 21435 Büllhorn",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -86954,13 +86611,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Büllhorn",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "CoffeeBaer",
     "lat": 53.4219986,
     "lon": 9.8979756,
-    "address": "",
+    "address": "Sottorfer Dorfstraße, 21224 Sottorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -86970,7 +86630,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Sottorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Bäckerei Soetebier",
@@ -86993,7 +86656,7 @@
     "name": "Eiscafé Italia",
     "lat": 53.3860716,
     "lon": 9.9826085,
-    "address": "",
+    "address": "Kirchstraße, 21218 Hittfeld",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -87005,7 +86668,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Hittfeld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Taverne Olympia",
@@ -87028,7 +86694,7 @@
     "name": "Waldhuuske",
     "lat": 53.4064112,
     "lon": 9.8556908,
-    "address": "",
+    "address": "Rosengartenstraße, 21224 Langenrehm",
     "category": "cafe",
     "description": "",
     "opening_hours": "Th-Fr 11:00-17:00; Sa-Su 10:00-18:00",
@@ -87041,7 +86707,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Langenrehm",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Nikos Taverne",
@@ -87239,7 +86908,7 @@
     "name": "Eiscafe Zanolli",
     "lat": 53.3845621,
     "lon": 10.1114393,
-    "address": "",
+    "address": "Uhlenhorst 1, 21435 Stelle",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -87251,13 +86920,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Stelle",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Gasthaus Zur Linde",
     "lat": 53.383333,
     "lon": 9.981167,
-    "address": "",
+    "address": "Lindhorster Straße, 21218 Hittfeld",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87268,13 +86940,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Hittfeld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Hamburger Land- und Golfclub Hittfeld Clubhaus",
     "lat": 53.3952919,
     "lon": 9.955136,
-    "address": "",
+    "address": "Am Golfplatz, 21218 Metzendorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87284,13 +86959,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Metzendorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Vereinsheim",
     "lat": 53.4117455,
     "lon": 9.9768731,
-    "address": "",
+    "address": "Mühlenweg, 21218 Beckedorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87300,13 +86978,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Beckedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Clubhaus TC Fleestedt",
     "lat": 53.4115702,
     "lon": 9.9760799,
-    "address": "",
+    "address": "Mühlenweg, 21218 Beckedorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -87316,13 +86997,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Beckedorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "My Steaks",
     "lat": 53.3942106,
     "lon": 10.0371239,
-    "address": "",
+    "address": "Schulstraße, 21220 Maschen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87333,13 +87017,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Maschen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Chinarestaurant Jade",
     "lat": 53.3786351,
     "lon": 9.8945952,
-    "address": "",
+    "address": "Bremer Straße, 21224 Nenndorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87350,7 +87037,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Nenndorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Meyer's Gasthaus",
@@ -87390,7 +87080,7 @@
     "name": "Superlecker Brötchenservice",
     "lat": 53.392939,
     "lon": 9.9718029,
-    "address": "",
+    "address": "Peperdieksberg, 21218 Emmelndorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Th 09:20-11:30",
@@ -87402,13 +87092,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Emmelndorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Matthies Gartencenter Cafe",
     "lat": 53.4003135,
     "lon": 9.975854,
-    "address": "",
+    "address": "Emmelndorfer Straße, 21218 Siedlung Emmelndorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Sa 09:00-17:00",
@@ -87420,7 +87113,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Siedlung Emmelndorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Osteria Rustica",
@@ -87536,7 +87232,7 @@
     "name": "777 Tapas Bar",
     "lat": 53.3862151,
     "lon": 9.9829476,
-    "address": "",
+    "address": "Kirchstraße, 21218 Hittfeld",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87549,13 +87245,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Hittfeld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "American Star Pizza",
     "lat": 53.3913675,
     "lon": 9.9840537,
-    "address": "",
+    "address": "Am Erlengrund 1, 21218 Emmelndorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87566,13 +87265,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Emmelndorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Der Harmstorfer",
     "lat": 53.3462315,
     "lon": 9.9861646,
-    "address": "",
+    "address": "Hauptstraße 22, 21228 Harmstorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87583,13 +87285,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Harmstorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Country House",
     "lat": 53.3949521,
     "lon": 10.0117426,
-    "address": "",
+    "address": "Winsener Landstraße, 21217 Karoxbostel",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87600,13 +87305,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Karoxbostel",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Segafredo",
     "lat": 53.3472649,
     "lon": 10.0393756,
-    "address": "",
+    "address": "A 7, 21220 Ohlendorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -87617,13 +87325,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Ohlendorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café Malina",
     "lat": 53.4118495,
     "lon": 9.9856045,
-    "address": "",
+    "address": "Winsener Landstraße, 21217 Fleestedt",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -87633,7 +87344,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Fleestedt",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Aphrodite",
@@ -87656,7 +87370,7 @@
     "name": "Fairway",
     "lat": 53.3694924,
     "lon": 9.9742024,
-    "address": "",
+    "address": "Am Hockenberg, 21218 Helmstorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87666,7 +87380,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Helmstorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Lieblingsplatz",
@@ -87790,7 +87507,7 @@
     "name": "Klubhaus",
     "lat": 53.395295,
     "lon": 9.9551264,
-    "address": "",
+    "address": "Am Golfplatz, 21218 Metzendorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87801,7 +87518,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Metzendorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Landhaus Westerhof",
@@ -87842,7 +87562,7 @@
     "name": "Biergarten Restaurant Hotel Maack",
     "lat": 53.3911008,
     "lon": 10.0352588,
-    "address": "",
+    "address": "Hamburger Straße, 21220 Maschen-Heide",
     "category": "biergarten",
     "description": "",
     "opening_hours": "",
@@ -87853,13 +87573,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Maschen-Heide",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Noel",
     "lat": 53.4097326,
     "lon": 9.9918854,
-    "address": "",
+    "address": "Winsener Landstraße, 21217 Fleestedt",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 12:00-15:00,17:00-22:30; Sa 12:00-22:30; Su 12:00-21:45",
@@ -87871,13 +87594,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Fleestedt",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Vereinsrestaurant TuS Nenndorf",
     "lat": 53.3775032,
     "lon": 9.8941408,
-    "address": "",
+    "address": "Vaenser Grund, 21224 Nenndorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -87890,7 +87616,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Nenndorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Mylos",
@@ -87967,7 +87696,7 @@
     "name": "Pino Bar",
     "lat": 53.7472222,
     "lon": 9.9150847,
-    "address": "",
+    "address": "Ellerauer Straße, 25451 Quickborn",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -87977,7 +87706,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Tamanori",
@@ -88174,7 +87905,7 @@
     "name": "Taps",
     "lat": 53.6795978,
     "lon": 9.6769717,
-    "address": "",
+    "address": "Pinnauallee, 25436 Uetersen",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -88184,7 +87915,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Tommys Eisbar",
@@ -88225,7 +87959,7 @@
     "name": "Zum Kachelöfchen",
     "lat": 53.6535499,
     "lon": 9.668313,
-    "address": "",
+    "address": "Großer Kamp, 25492 Heist",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88237,13 +87971,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Heist",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Mylos",
     "lat": 53.6843121,
     "lon": 9.6630694,
-    "address": "",
+    "address": "Großer Wulfhagen, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Fr 12:00-14:30,17:00-21:00; Sa 17:00-21:00; Su,PH 12:00-21:00",
@@ -88254,13 +87991,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Briolet",
     "lat": 53.6803525,
     "lon": 9.67366,
-    "address": "",
+    "address": "Gerberstraße, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88271,7 +88011,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "von Stamm",
@@ -88293,7 +88036,7 @@
     "name": "Casa Rossa",
     "lat": 53.680539,
     "lon": 9.6797118,
-    "address": "",
+    "address": "Oertberg, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88304,13 +88047,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Briolett",
     "lat": 53.6758487,
     "lon": 9.6762269,
-    "address": "",
+    "address": "Werftweg, 25436 Heidrege",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88320,7 +88066,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Moorrege",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Himara",
@@ -88345,7 +88094,7 @@
     "name": "Roses",
     "lat": 53.6855222,
     "lon": 9.6792757,
-    "address": "",
+    "address": "Alsenstraße, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88355,13 +88104,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Tennisstübchen",
     "lat": 53.6870924,
     "lon": 9.6797644,
-    "address": "",
+    "address": "Fourniermühlenweg, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88371,13 +88123,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Uetersener Stuuw",
     "lat": 53.6825377,
     "lon": 9.6810307,
-    "address": "",
+    "address": "Heinrich-Schröder-Straße, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88388,13 +88143,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Gambrinus",
     "lat": 53.7013136,
     "lon": 9.7038395,
-    "address": "",
+    "address": "Bergstraße 1, 25436 Heidgraben",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88405,13 +88163,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Heidgraben",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Grillstube Corfu",
     "lat": 53.6966876,
     "lon": 9.7090544,
-    "address": "",
+    "address": "Jürgen-Siemsen-Straße, 25436 Tornesch",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88421,13 +88182,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Esingen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Rosenhof Kruse",
     "lat": 53.7020604,
     "lon": 9.6931708,
-    "address": "",
+    "address": "Jägerstraße 35, 25436 Heidgraben",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88438,13 +88202,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Heidgraben",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Sportlerheim Heidgrabener SV",
     "lat": 53.7047842,
     "lon": 9.6858677,
-    "address": "",
+    "address": "Uetersener Straße, 25436 Heidgraben",
     "category": "restaurant",
     "description": "",
     "opening_hours": "We 09:00-12:00,17:00-19:00",
@@ -88455,13 +88222,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Heidgraben",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Heidekrug",
     "lat": 53.705658,
     "lon": 9.6863444,
-    "address": "",
+    "address": "Hauptstraße 2, 25436 Heidgraben",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Fr 16:00-23:00; Sa 15:00-23:00; Su 12:00-23:00",
@@ -88472,13 +88242,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Heidgraben",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Akropolis",
     "lat": 53.6807506,
     "lon": 9.6752914,
-    "address": "",
+    "address": "Großer Sand, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88489,13 +88262,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "König-Eck",
     "lat": 53.6815192,
     "lon": 9.671911,
-    "address": "",
+    "address": "Großer Sand, 25436 Uetersen",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -88505,13 +88281,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Tapas",
     "lat": 53.6812875,
     "lon": 9.6730142,
-    "address": "",
+    "address": "Stiefelgang, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88521,13 +88300,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Pasta e Più",
     "lat": 53.6816786,
     "lon": 9.6705911,
-    "address": "",
+    "address": "Großer Sand, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88538,7 +88320,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Lee 1996 Asian Cuisine",
@@ -88560,7 +88345,7 @@
     "name": "Die Pause",
     "lat": 53.6867258,
     "lon": 9.6588514,
-    "address": "",
+    "address": "Seminarstraße, 25436 Uetersen",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88570,13 +88355,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Campana",
     "lat": 53.6726163,
     "lon": 9.7746312,
-    "address": "",
+    "address": "Hauptstraße, 25497 Prisdorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88586,13 +88374,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Prisdorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Lumberjack",
     "lat": 53.661276,
     "lon": 9.7870233,
-    "address": "",
+    "address": "Hans-Hermann-Kath-Brücke, 25421 Pinneberg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88602,7 +88393,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Pinneberg-Nord",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Restaurant Pathos",
@@ -88696,7 +88490,7 @@
     "name": "Cero Coffee",
     "lat": 53.6616158,
     "lon": 9.7948829,
-    "address": "",
+    "address": "Dingstätte 34, 25421 Pinneberg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88707,7 +88501,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Pinneberg-Nord",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Alte Schmiede",
@@ -88766,7 +88563,7 @@
     "name": "Lodge",
     "lat": 53.6596501,
     "lon": 9.7699397,
-    "address": "",
+    "address": "Mühlenstraße, 25421 Pinneberg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -88777,13 +88574,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Appen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Dielen-Café",
     "lat": 53.7180077,
     "lon": 9.775556,
-    "address": "",
+    "address": "Thiensen, 25373 Ellerhoop",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88793,13 +88593,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Ellerhoop",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Hof-Café",
     "lat": 53.7183045,
     "lon": 9.7755458,
-    "address": "",
+    "address": "Thiensen, 25373 Ellerhoop",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88809,13 +88612,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Ellerhoop",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Restaurant Ydrama",
     "lat": 53.6636788,
     "lon": 9.6632183,
-    "address": "",
+    "address": "Birkenweg, 25436 Heidrege",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Sa 17:00-23:30; Su 12:00-23:30",
@@ -88827,7 +88633,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Moorrege",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Barcode 23",
@@ -88899,7 +88708,7 @@
     "name": "Keiser Eis",
     "lat": 53.6905687,
     "lon": 9.6626597,
-    "address": "",
+    "address": "Reuterstraße, 25436 Uetersen",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Th 11:00-21:00; Fr-Su 11:00-22:00",
@@ -88910,13 +88719,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Bäckerei Eggers",
     "lat": 53.6905326,
     "lon": 9.6627452,
-    "address": "",
+    "address": "Reuterstraße, 25436 Uetersen",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00; Su 08:00-11:00",
@@ -88926,13 +88738,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Rißlerhof - Café und Bleibe",
     "lat": 53.6216262,
     "lon": 9.6662917,
-    "address": "",
+    "address": "Im Ort, 25488 Holm",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -88942,7 +88757,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Holm",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "ROLIN",
@@ -88999,7 +88817,7 @@
     "name": "Cafeteria (LMG)",
     "lat": 53.6866485,
     "lon": 9.6556319,
-    "address": "",
+    "address": "Seminarstraße 10, 25436 Uetersen",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -89009,7 +88827,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Presse Café",
@@ -89031,7 +88852,7 @@
     "name": "Café Ambiente",
     "lat": 53.6826073,
     "lon": 9.665807,
-    "address": "",
+    "address": "Großer Sand, 25436 Uetersen",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -89041,13 +88862,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Sabai Jai",
     "lat": 53.6837216,
     "lon": 9.658835,
-    "address": "",
+    "address": "Marktstraße 29, 25436 Uetersen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Sa 17:30-22:00; Su,PH 12:00-15:00, 17:30-22:00",
@@ -89058,7 +88882,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Klosterbezirk",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Kleiner Friedrich",
@@ -89219,7 +89046,7 @@
     "name": "28 - bar&kitchen",
     "lat": 53.6596301,
     "lon": 9.7506928,
-    "address": "",
+    "address": "Hauptstraße, 25482 Appen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89230,7 +89057,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Appen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Restaurant Korfu",
@@ -89286,7 +89116,7 @@
     "name": "Pizza Classica",
     "lat": 53.6974028,
     "lon": 9.7141162,
-    "address": "",
+    "address": "Bahnhofsplatz, 25436 Tornesch",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 16:00-22:00; Sa-Su 16:00-22:00",
@@ -89297,13 +89127,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Esingen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Cafe Billy's Morgenduft",
     "lat": 53.6974203,
     "lon": 9.7142194,
-    "address": "",
+    "address": "Bahnhofsplatz, 25436 Tornesch",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -89313,7 +89146,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Esingen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Niitaka Sushi",
@@ -89370,7 +89206,7 @@
     "name": "Black Pearl",
     "lat": 53.6604406,
     "lon": 9.7931015,
-    "address": "",
+    "address": "Rübekamp 25, 25421 Pinneberg",
     "category": "bar",
     "description": "",
     "opening_hours": "Mo-Th 11:00-01:00, Fr,Sa 10:00-18:00+, Su 10:00-01:00",
@@ -89380,13 +89216,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Pinneberg-Nord",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Yoko",
     "lat": 53.6610436,
     "lon": 9.7976464,
-    "address": "",
+    "address": "Dingstätte, 25421 Pinneberg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 11:00-22:00; Sa,Su 12:00-22:00",
@@ -89397,7 +89236,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Pinneberg-Nord",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Restaurant Estia",
@@ -89507,7 +89349,7 @@
     "name": "Mr. Grande",
     "lat": 53.6958271,
     "lon": 9.7140693,
-    "address": "",
+    "address": "Esinger Straße, 25436 Tornesch",
     "category": "restaurant",
     "description": "",
     "opening_hours": "11:30-23:00",
@@ -89518,7 +89360,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Esingen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Mondea",
@@ -89680,7 +89525,7 @@
     "name": "Serways",
     "lat": 53.6942525,
     "lon": 10.3241986,
-    "address": "",
+    "address": "Herbertweg, 22965 Todendorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89690,13 +89535,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Todendorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "BLOCK HOUSE",
     "lat": 53.6753883,
     "lon": 10.2403738,
-    "address": "",
+    "address": "Große Straße, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Sa 11:30-00:00; Su 11:30-23:00",
@@ -89707,7 +89555,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Alte Schule",
@@ -89731,7 +89581,7 @@
     "name": "Schullers Bistro und Bar im TC Siek",
     "lat": 53.6417069,
     "lon": 10.2935727,
-    "address": "",
+    "address": "Hansdorfer Weg, 22962 Siek",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89742,7 +89592,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Siek",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Noris Bar Il Gatto",
@@ -89764,7 +89617,7 @@
     "name": "Bäckereicafé",
     "lat": 53.6943251,
     "lon": 10.1785334,
-    "address": "",
+    "address": "Lübecker Straße, 22949 Ammersbek",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -89775,7 +89628,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Hoisbüttel",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Tsubaki",
@@ -89818,7 +89674,7 @@
     "name": "Waldesruh / Wilhelm",
     "lat": 53.7483658,
     "lon": 10.1739421,
-    "address": "",
+    "address": "Forstweg 2, 23863 Bargfeld-Stegen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89828,7 +89684,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Bargfeld-Stegen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Berlin Milljöh",
@@ -89850,7 +89709,7 @@
     "name": "Rockefeller",
     "lat": 53.669827,
     "lon": 10.236103,
-    "address": "",
+    "address": "Bahnhofstraße, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "PH,Mo-Su 11:00-22:00",
@@ -89860,13 +89719,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "La Villa Rossa",
     "lat": 53.6727962,
     "lon": 10.2397062,
-    "address": "",
+    "address": "Manhagener Allee 1, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89877,13 +89738,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Zum Fasanenhof",
     "lat": 53.7421829,
     "lon": 10.2205452,
-    "address": "",
+    "address": "Allee 18, 22941 Jersbek",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89893,13 +89756,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Jersbek",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Kosch",
     "lat": 53.6491749,
     "lon": 10.2777673,
-    "address": "",
+    "address": "Barkholt, 22927 Großhansdorf",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -89910,13 +89776,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Zingelmann",
     "lat": 53.6466382,
     "lon": 10.3623249,
-    "address": "",
+    "address": "Hamburger Straße, 22952 Lütjensee",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Fr 06:00-18:00, Sa 06:30-12:30, Su 08:00-11:00",
@@ -89927,7 +89795,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Lütjensee",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "DieFrischeKantine",
@@ -89973,12 +89844,18 @@
     "opening_hours": "Tu-Su 12:00-23:00",
     "tags": [
       "restaurant",
-      "italian"
+      "italian",
+      "biergarten"
     ],
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22",
+    "auch_bekannt_als": [
+      "Il Grappolo"
+    ]
   },
   {
     "name": "Caligo Coffee",
@@ -90036,7 +89913,7 @@
     "name": "Beards Pub",
     "lat": 53.6725177,
     "lon": 10.2396151,
-    "address": "",
+    "address": "Brandmanntwiete, 22926 Ahrensburg",
     "category": "bar",
     "description": "",
     "opening_hours": "",
@@ -90046,7 +89923,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Junge",
@@ -90086,7 +89965,7 @@
     "name": "China Ente",
     "lat": 53.6921322,
     "lon": 10.1687085,
-    "address": "",
+    "address": "Lübecker Straße, 22949 Ammersbek",
     "category": "restaurant",
     "description": "",
     "opening_hours": "We-Sa 12:00-14:30,17:30-22:00; Su,PH 12:00-21:00",
@@ -90097,7 +89976,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Hoisbüttel",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Da Lui",
@@ -90121,7 +90003,7 @@
     "name": "Clubheim & Restaurant",
     "lat": 53.6760907,
     "lon": 10.2050917,
-    "address": "",
+    "address": "Am Haidschlag, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "11:00+; Oct 1-Apr 30 Mo off; Nov 1-Mar 31 Mo,Tu off",
@@ -90131,13 +90013,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Söbentein",
     "lat": 53.676895,
     "lon": 10.2402738,
-    "address": "",
+    "address": "Am Alten Markt 17, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 06:30-10:00,17:00-22:00+; PH,Sa,Su 07:30-22:00+",
@@ -90147,7 +90031,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café Greco",
@@ -90186,7 +90072,7 @@
     "name": "New Long",
     "lat": 53.6748764,
     "lon": 10.2389444,
-    "address": "",
+    "address": "Große Straße, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 12:00-15:30,17:30-22:00; PH,Sa,Su 12:00-22:00",
@@ -90198,13 +90084,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Asia Snack",
     "lat": 53.7293464,
     "lon": 10.2603032,
-    "address": "",
+    "address": "Krohnskamp, 22941 Bargteheide",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -90215,13 +90103,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Pizzeria Bargteheide",
     "lat": 53.7286794,
     "lon": 10.2593041,
-    "address": "",
+    "address": "Hamburger Straße, 22941 Bargteheide",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -90231,7 +90121,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "La Casetta",
@@ -90272,7 +90164,7 @@
     "name": "Asche",
     "lat": 53.6711043,
     "lon": 10.2347484,
-    "address": "",
+    "address": "Hamburger Straße, 22926 Ahrensburg",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -90282,13 +90174,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Funtasia 2.0",
     "lat": 53.6893638,
     "lon": 10.2581207,
-    "address": "",
+    "address": "Ewige Weide, 22926 Ahrensburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -90298,7 +90192,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Flens' Kneipe",
@@ -90321,7 +90217,7 @@
     "name": "Kroatien",
     "lat": 53.6803225,
     "lon": 10.2351347,
-    "address": "",
+    "address": "Reeshoop 48, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Fr 16:30-22:00; Sa 12:00-22:00; Su,PH 12:00-21:00; Mo off",
@@ -90333,13 +90229,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "New Mongolei",
     "lat": 53.6757549,
     "lon": 10.2402208,
-    "address": "",
+    "address": "Woldenhorn, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Fr 12:00-15:00,17:00-22:00; PH,Sa,Su 12:00-22:30; Mo off",
@@ -90350,7 +90248,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Mendoza",
@@ -90427,7 +90327,7 @@
     "name": "Philoxenia",
     "lat": 53.7292749,
     "lon": 10.2657062,
-    "address": "",
+    "address": "Baumschulenstraße, 22941 Bargteheide",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -90438,7 +90338,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Meyer Menü Bistro",
@@ -90478,7 +90380,7 @@
     "name": "Villa Romana",
     "lat": 53.676154,
     "lon": 10.2392245,
-    "address": "",
+    "address": "Bei der Alten Kate 6, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Fr 12:00-15:00,17:30-22:30; Sa 17:00-23:00; Su 12:00-21:30",
@@ -90489,7 +90391,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Cafe Zeitlos",
@@ -90548,7 +90452,7 @@
     "name": "Zahara",
     "lat": 53.6737522,
     "lon": 10.2395367,
-    "address": "",
+    "address": "Große Straße 41-43, 22926 Ahrensburg",
     "category": "bar",
     "description": "",
     "opening_hours": "",
@@ -90558,13 +90462,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "J's Kellaa",
     "lat": 53.6737211,
     "lon": 10.2397023,
-    "address": "",
+    "address": "Große Straße 41-43, 22926 Ahrensburg",
     "category": "bar",
     "description": "",
     "opening_hours": "",
@@ -90574,7 +90480,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Orfeo Greco",
@@ -90599,7 +90507,7 @@
     "name": "Bangkok",
     "lat": 53.6732075,
     "lon": 10.2401197,
-    "address": "",
+    "address": "Lohe, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Fr 12:00-15:00,18:00-22:00; Sa-Su 18:00-22:00",
@@ -90611,7 +90519,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Hofladencafé Gut Wulfsdorf",
@@ -90686,7 +90596,7 @@
     "name": "Coffee Fellows",
     "lat": 53.6942672,
     "lon": 10.3240934,
-    "address": "",
+    "address": "Herbertweg, 22965 Todendorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -90697,7 +90607,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Todendorf",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café GOLD",
@@ -90788,7 +90701,7 @@
     "name": "Taverne Rigani",
     "lat": 53.6698229,
     "lon": 10.2354062,
-    "address": "",
+    "address": "Stormarnstraße, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -90799,7 +90712,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Shibui",
@@ -90822,7 +90737,7 @@
     "name": "Zamarod",
     "lat": 53.6749608,
     "lon": 10.2389882,
-    "address": "",
+    "address": "Große Straße, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 11:30-22:00; Sa-Su 12:00-22:00",
@@ -90833,13 +90748,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "N1Club Ahrensburg",
     "lat": 53.6736743,
     "lon": 10.2396634,
-    "address": "",
+    "address": "Große Straße 41-43, 22926 Ahrensburg",
     "category": "nightclub",
     "description": "",
     "opening_hours": "",
@@ -90849,7 +90766,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café Svenssøn",
@@ -90939,7 +90858,7 @@
     "name": "PokeBowl Sushi House",
     "lat": 53.6721276,
     "lon": 10.240463,
-    "address": "",
+    "address": "Manhagener Allee, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu-Th 12:00-21:00; Fr-Su 12:00-21:30",
@@ -90950,13 +90869,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Mekiki Sushi",
     "lat": 53.7286701,
     "lon": 10.2619694,
-    "address": "",
+    "address": "Theodor-Storm-Straße, 22941 Bargteheide",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -90967,13 +90888,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Zum Zapfhahn",
     "lat": 53.7290727,
     "lon": 10.257189,
-    "address": "",
+    "address": "Jersbeker Straße, 22941 Bargteheide",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -90983,7 +90906,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Nordi‘s Stehcafé",
@@ -91005,7 +90930,7 @@
     "name": "J's",
     "lat": 53.7306186,
     "lon": 10.262475,
-    "address": "",
+    "address": "Am Markt 30, 22941 Bargteheide",
     "category": "pub",
     "description": "",
     "opening_hours": "",
@@ -91015,13 +90940,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Salz & Zucker",
     "lat": 53.7292929,
     "lon": 10.2622571,
-    "address": "",
+    "address": "Rathausstraße, 22941 Bargteheide",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91032,13 +90959,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "shinzō",
     "lat": 53.7289648,
     "lon": 10.2691383,
-    "address": "",
+    "address": "Bahnhofstraße, 22941 Bargteheide",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 11:30-22:00; Sa,Su 12:30-22:00",
@@ -91049,13 +90978,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Schlemmerstübchen",
     "lat": 53.6732463,
     "lon": 10.2374711,
-    "address": "",
+    "address": "Rathausplatz, 22926 Ahrensburg",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Mo-Fr 11:00-14:30",
@@ -91066,7 +90997,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Kartoffel Glück",
@@ -91121,7 +91054,7 @@
     "name": "Restaurant Europa",
     "lat": 53.7364314,
     "lon": 10.3034275,
-    "address": "",
+    "address": "Hauptstraße, 22967 Tremsbüttel",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91132,13 +91065,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Tremsbüttel",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Clubhaus Golfclub Hoisdorf",
     "lat": 53.6356238,
     "lon": 10.3428117,
-    "address": "",
+    "address": "Wastenfelder Weg, 22946 Großensee",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91149,13 +91085,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Großensee",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "TCL Clubhaus",
     "lat": 53.63772,
     "lon": 10.3590828,
-    "address": "",
+    "address": "Am Sportplatz, 22952 Lütjensee",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91165,7 +91104,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Lütjensee",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Restaurant Strehl",
@@ -91273,7 +91215,7 @@
     "name": "Junge",
     "lat": 53.6632234,
     "lon": 10.2206195,
-    "address": "",
+    "address": "Hamburger Straße, 22926 Ahrensburg",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Fr 06:00-18:00; Sa, Su 07:00-17:00",
@@ -91284,7 +91226,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Ahrensfelde",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Cremon Glashaus",
@@ -91322,7 +91267,7 @@
     "name": "Fasanenhof",
     "lat": 53.7423884,
     "lon": 10.220711,
-    "address": "",
+    "address": "Allee, 22941 Jersbek",
     "category": "biergarten",
     "description": "",
     "opening_hours": "",
@@ -91332,13 +91277,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Jersbek",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Rigani",
     "lat": 53.6697766,
     "lon": 10.2355735,
-    "address": "",
+    "address": "Stormarnstraße, 22926 Ahrensburg",
     "category": "biergarten",
     "description": "",
     "opening_hours": "Mo-Th 17:00-23:00; Fr 17:00-24:00; Sa 17:00-24:00; Su 12:00-23:00",
@@ -91348,7 +91296,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Hotel & Restaurant Miranda",
@@ -91371,7 +91321,7 @@
     "name": "Cafeteria",
     "lat": 53.6634899,
     "lon": 10.2569768,
-    "address": "",
+    "address": "Lurup, 22927 Großhansdorf",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -91381,7 +91331,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Soul Sushi",
@@ -91420,22 +91372,6 @@
     "created_at": "2026-02-18T03:06:09.486Z"
   },
   {
-    "name": "Il Grappolo",
-    "lat": 53.6531653,
-    "lon": 10.2812431,
-    "address": "",
-    "category": "biergarten",
-    "description": "",
-    "opening_hours": "",
-    "tags": [
-      "biergarten"
-    ],
-    "source": "overpass",
-    "smoker": false,
-    "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
-  },
-  {
     "name": "Tunici",
     "lat": 53.6617636,
     "lon": 10.2432434,
@@ -91456,7 +91392,7 @@
     "name": "Taverna Christos",
     "lat": 53.7878122,
     "lon": 9.914844,
-    "address": "",
+    "address": "Bahnhofstraße 20, 25486 Alveslohe",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91467,7 +91403,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Alveslohe",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Zur Bilsener Mühle",
@@ -91489,7 +91428,7 @@
     "name": "La Romana",
     "lat": 53.7628672,
     "lon": 9.83742,
-    "address": "",
+    "address": "Reesenhöh, 25485 Hemdingen",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91499,13 +91438,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Hemdingen",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Cafe Eggers",
     "lat": 53.6086194,
     "lon": 10.4092615,
-    "address": "",
+    "address": "Europaplatz, 22946 Trittau",
     "category": "cafe",
     "description": "",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-13:00; Su 07:00-16:00",
@@ -91516,7 +91458,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Hotel & Restaurant Luna",
@@ -91538,7 +91482,7 @@
     "name": "To Gao",
     "lat": 53.6068609,
     "lon": 10.4132002,
-    "address": "",
+    "address": "Vorburgstraße 3, 22946 Trittau",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91550,7 +91494,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Grill-Imbiss ELLAS",
@@ -91591,7 +91537,7 @@
     "name": "Taverne Platon",
     "lat": 53.6075125,
     "lon": 10.4125283,
-    "address": "",
+    "address": "Poststraße, 22946 Trittau",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91603,13 +91549,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Forsthaus Seebergen",
     "lat": 53.6408159,
     "lon": 10.3783942,
-    "address": "",
+    "address": "Seebergen, 22952 Lütjensee",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91619,7 +91567,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Lütjensee",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Alter Dorfkrug",
@@ -91642,7 +91593,7 @@
     "name": "Landhaus Schäfer",
     "lat": 53.6340842,
     "lon": 10.3781016,
-    "address": "",
+    "address": "K 30, 22952 Lütjensee",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91652,13 +91603,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Lütjensee",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Steakhouse Santa Rio",
     "lat": 53.606039,
     "lon": 10.4134241,
-    "address": "",
+    "address": "Vorburgstraße 8, 22946 Trittau",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Su-Th 11:30-23:00; Fr-Sa 11:30-24:00",
@@ -91668,7 +91622,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "BeachClubTrittau",
@@ -91707,7 +91663,7 @@
     "name": "Mr. Greek",
     "lat": 53.6197325,
     "lon": 10.4042832,
-    "address": "",
+    "address": "Am Bahnhof 1, 22946 Trittau",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91719,13 +91675,15 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Schleushörn",
     "lat": 53.6294968,
     "lon": 10.3637955,
-    "address": "",
+    "address": "Strandweg, 22952 Lütjensee",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91736,13 +91694,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Lütjensee",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Rio Grande Rodizio",
     "lat": 53.6355707,
     "lon": 10.3925514,
-    "address": "",
+    "address": "Drahtmühle 30, 22956 Grönwohld",
     "category": "restaurant",
     "description": "",
     "opening_hours": "Tu 16:00-22:00; We-Su 13:00-22:00; PH closed",
@@ -91755,13 +91716,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Grönwohld",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Café Vanessa",
     "lat": 53.5311589,
     "lon": 10.3349188,
-    "address": "",
+    "address": "Am Schlossteich, 21521 Aumühle",
     "category": "cafe",
     "description": "",
     "opening_hours": "",
@@ -91771,13 +91735,16 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Friedrichsruh",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Bella",
     "lat": 53.6147052,
     "lon": 10.4024984,
-    "address": "",
+    "address": "Bahnhofstraße 50, 22946 Trittau",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91788,7 +91755,9 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "mönch & mücke",
@@ -91827,7 +91796,7 @@
     "name": "Gasthof zur Eiche",
     "lat": 53.5878522,
     "lon": 10.4022332,
-    "address": "",
+    "address": "Am Brink, 22958 Rotenbek",
     "category": "restaurant",
     "description": "",
     "opening_hours": "",
@@ -91837,7 +91806,10 @@
     "source": "overpass",
     "smoker": false,
     "last_verified": "2026-03-01T09:08:46.862075+00:00",
-    "created_at": "2026-02-18T03:06:09.486Z"
+    "created_at": "2026-02-18T03:06:09.486Z",
+    "district": "Rotenbek",
+    "address_quelle": "nominatim",
+    "address_stand": "2026-09-22"
   },
   {
     "name": "Strandhus",

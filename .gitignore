@@ -16,3 +16,16 @@ user_data/
 .env.*
 .DS_Store
 __pycache__/
+
+# Rueckfallstaende, die beim Umbauen entstehen
+*.bak-*
+*.backup.*
+
+# Laufbericht des Terminsammlers (wird bei jedem Lauf neu geschrieben)
+live_events_bericht.json
+
+# Sperrdatei des Terminsammlers
+.sammler.lock
+
+# Datenbanksicherungen gehoeren nicht in die Versionsgeschichte
+backups/

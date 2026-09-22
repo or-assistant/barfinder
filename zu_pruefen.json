@@ -1,0 +1,24 @@
+{
+ "angelegt": "2026-09-22T16:06:45.603Z",
+ "hinweis": "Aus highlights.json herausgenommen, weil die Koordinaten nicht stimmen. Nichts geloescht — hier liegt der vollstaendige Eintrag.",
+ "eintraege": [
+  {
+   "grund": "Koordinaten liegen weit ausserhalb Norddeutschlands",
+   "eintrag": {
+    "name": "Süd Restaurant",
+    "category": "restaurant",
+    "description": "Gehobene Küche in Uhlenhorst.",
+    "lat": 51.9150631,
+    "lon": 4.4755388,
+    "district": "Uhlenhorst",
+    "address": "Hamburg, 94B, Witte de Withstraat, Cool, Centrum, Rotterdam, Zuid-Holland, Nederland, 3012 BT, Nederland",
+    "tags": [
+     "restaurant"
+    ],
+    "last_verified": "2026-03-01T09:08:46.862075+00:00",
+    "created_at": "2026-02-17T03:05:23.903Z",
+    "source": "overpass"
+   }
+  }
+ ]
+}
