@@ -1067,3 +1067,92 @@ Die alte Fassung lief parallel auf Port 3098. Für `/api/places` (mehrere
 Umkreise, Tage und Sortierungen), `/api/hot` und `/api/vibe-forecast` sind die
 Antworten **byteweise identisch**. Abweichend nur `/api/discovery`, und das ist
 Absicht: der Endpunkt würfelt (`Math.random()`).
+
+---
+
+# Nachtrag IV vom 23.09.2026 — der Startfehler
+
+Oliver meldete „ganz viel funktioniert nicht". Es war **eine einzige Zeile**.
+
+## Der Fehler
+
+```
+TypeError: Cannot set properties of null (setting 'textContent')
+    at applyBfLang (index.html:984)
+    at INIT        (index.html:3319)
+```
+
+Zeile 984 griff auf ein Element `langLabel` zu, **das es im Markup nicht
+gibt**. Der Sprachumschalter ist irgendwann aus dem Kopfbereich ins Menü
+gewandert (`burgerLangLabel`), die alte Zeile blieb stehen. Bemerkenswert:
+dieselbe Funktion prüft an jeder anderen Stelle auf `null` — nur diese nicht.
+
+`applyBfLang()` ist der **erste** Aufruf im Startblock. Die Ausnahme riss alles
+Folgende mit: `updateGreeting`, `loadWeatherBanner`, `updateDistrictDropdown`
+und vor allem **`loadAll()`**.
+
+## Der Beweis
+
+Mitschnitt aller Anfragen beim Seitenstart, vorher:
+
+```
+/api/config      200
+/api/user/data   200
+```
+
+`/api/places` wurde **nie angefordert**. Daraus folgte alles Weitere:
+`S.places` leer, Tagesauswahl leer, Filterleiste leer, Hero „😴 Gerade ruhig",
+Tonight „😴 Alles dicht" — und die Vibe-Kachel blieb auf „⏳ Laden…" stehen,
+weil sie auf `S.places` wartet. Das war auch die Kachel aus Olivers
+Bildschirmfoto vom Nachmittag.
+
+Nachher:
+
+```
+/api/config      200
+/api/user/data   200
+/api/weather     200
+/api/places      200   ← neu
+/api/hot         200   ← neu
+```
+
+## Alter des Fehlers
+
+Der Fehler stammt **nicht** aus den Umbauten vom 22.09.2026. In allen
+Sicherungen, bis zurück zu `index.html.bak-strikingly-20260922` (dem Stand vor
+der ersten Änderung an diesem Tag), fehlt `langLabel` und steht `applyBfLang()`
+an erster Stelle in INIT.
+
+## Behoben
+
+1. Die Zeile auf `null` abgesichert, wie alle anderen in derselben Funktion.
+2. Derselbe Fehler im Themenumschalter (`themeIcon`, ebenfalls nicht im
+   Markup) — mitrepariert.
+3. **Strukturell:** jeder Startschritt läuft jetzt einzeln gekapselt
+   (`startSchritt(name, fn)`). Ein kosmetischer Fehler kann nie wieder das
+   Laden der Daten verhindern; er landet in der Konsole, die App lädt trotzdem.
+4. Der Menüeintrag zeigt jetzt die Zielsprache statt unveränderlich „Sprache".
+
+## Zweiter Fund: die Schriften
+
+Fünf Schriftdateien kamen im Browser als HTML an
+(`OTS parsing error: invalid sfntVersion: 1008813135`, hexadezimal `3C21444F`,
+also `<!DO`). Die Dateien auf der Platte sind intakt — `static/inter_local.css`
+lud sie über den **absoluten** Pfad `/static/fonts/…`. Unter
+`/apps/barfinder/` landet das auf der Plattformwurzel, die mit 302 antwortet.
+Jetzt relativ (`url(fonts/…)`), kommt sauber als `font/ttf` an.
+
+Das ist dieselbe Falle wie beim Basispfad in `index.html` — nur eine Ebene
+tiefer, in einer Stilvorlage, wo sie beim ersten Durchgang nicht auffiel.
+
+## Prüfung im echten Browser
+
+Kein Konsolenfehler, keine fehlgeschlagene Anfrage. 20 Orte, 10 Hot-Einträge,
+Stadt-Vibe vorhanden, Tagesauswahl und Filterleiste gefüllt, Karte mit Leaflet
+und Markern, Events-Reiter mit Inhalt, alle sechs Renderfunktionen ohne
+Ausnahme.
+
+**Merke für das nächste Mal:** Die Endpunkte einzeln zu messen hat hier nichts
+gebracht — alle 19 antworteten sauber. Der Fehler war nur im Browser sichtbar.
+Bei „funktioniert nicht" gehört ein echter Browserlauf mit Mitschnitt von
+Konsole und Anfragen an den Anfang, nicht ans Ende.

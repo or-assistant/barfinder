@@ -981,7 +981,16 @@ const BF_I18N={
 };
 function applyBfLang(){
   const t=BF_I18N[currentLang];
-  document.getElementById('langLabel').textContent=currentLang==='de'?'EN':'DE';
+  // Den Sprachumschalter gibt es im Markup nicht (mehr). Ohne diese Pruefung
+  // warf die Zeile beim Start eine Ausnahme und riss den GESAMTEN
+  // Startblock mit: applyBfLang, updateGreeting, loadWeatherBanner und vor
+  // allem loadAll wurden nie erreicht. Die App blieb dann leer stehen.
+  const langLabel=document.getElementById('langLabel');
+  if(langLabel)langLabel.textContent=currentLang==='de'?'EN':'DE';
+  // Der eigentliche Umschalter sitzt inzwischen im Menue. Dort stand
+  // unveraenderlich "Sprache"; jetzt zeigt er, wohin der Klick fuehrt.
+  const burgerLang=document.getElementById('burgerLangLabel');
+  if(burgerLang)burgerLang.textContent=currentLang==='de'?'Sprache: Deutsch → English':'Language: English → Deutsch';
   // Nav labels
   const navLabels=document.querySelectorAll('.nav-btn .nav-label');
   const nlMap=['today',null,'sources'];
@@ -1044,7 +1053,8 @@ function toggleTheme(){
   const next=cur==='dark'?'light':'dark';
   document.documentElement.dataset.theme=next;
   localStorage.setItem('bf-theme',next);
-  document.getElementById('themeIcon').textContent=next==='dark'?'🌙':'☀️';
+  const themeIcon=document.getElementById('themeIcon');
+  if(themeIcon)themeIcon.textContent=next==='dark'?'🌙':'☀️';
 }
 
 // Basispfad kommt aus window.BASIS im Kopf der Seite.
@@ -3316,9 +3326,18 @@ async function loadWeatherBanner(){
 }
 
 // ═══ INIT ═══
-applyBfLang();
-updateGreeting();
-loadWeatherBanner();
+// Jeder Schritt einzeln abgesichert. Am 22.09.2026 hat eine einzige Zeile in
+// applyBfLang() (ein Element, das es im Markup nicht mehr gibt) den gesamten
+// Startblock abgebrochen — inklusive loadAll(). Die App stand danach leer da:
+// keine Orte, leere Tagesauswahl, leere Filterleiste, "Gerade ruhig" im Hero.
+// Ein Schoenheitsfehler darf das Laden der Daten nicht verhindern.
+function startSchritt(name, fn){
+  try{ fn(); }
+  catch(e){ console.error('Startschritt "'+name+'" fehlgeschlagen:', e); }
+}
+startSchritt('Sprache', applyBfLang);
+startSchritt('Begruessung', updateGreeting);
+startSchritt('Wetterleiste', loadWeatherBanner);
 // Restore saved custom location if exists
 try{
   const savedLoc=JSON.parse(localStorage.getItem('bf-custom-loc')||'null');
@@ -3332,8 +3351,8 @@ try{
   }
 }catch(e){}
 // Init district dropdown and load
-updateDistrictDropdown();
-loadAll();
+startSchritt('Stadtteilauswahl', updateDistrictDropdown);
+startSchritt('Erstes Laden', loadAll);
 if(navigator.geolocation&&S.currentLoc!=='custom'){
   navigator.geolocation.getCurrentPosition(async pos=>{
     // WICHTIG: Abbrechen wenn User inzwischen custom Ort gewaehlt hat
